@@ -1,0 +1,10 @@
+﻿Table 3.
+        Fault plane solutions for the contributing earthquakes.
+EQ#,First nodal plane,Second nodal plane,Source
+,Strike,Dip,Slip,Strike,Dip,Slip,
+1.,284,45,55,148,54,120,CMT
+290,45,65,143,50,113,USGS
+2.,140,32,139,267,69,64,CMT
+98,13,106,261,78,86,USGS
+3.,278,39,60,135,57,112,CMT
+260,47,55,125,53,121,USGS

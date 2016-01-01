@@ -1,0 +1,77 @@
+\documentclass[border=2mm]{standalone}
+
+    \usepackage{tikz}
+    \usetikzlibrary{graphdrawing, graphs}
+    \usegdlibrary{trees}
+
+    \begin{document}
+    \begin{tikzpicture}[>=latex, align=center, anchor=west,
+    link/.style={out=east, in=west},
+    box/.style={rectangle, rounded corners, draw}]
+    \graph [tree layout, components go down center aligned, grow'=right,
+    fresh nodes, layer sep=2cm, sibling distance=0mm, sibling sep=0.5mm] {
+    
+    "sourceModel\\ logicTree"[box] ->[link] {
+        ""[box] ->[link] {
+            "\texttt{source\_model.xml}: 1.0",
+        },
+        "sources:\\ 1"[box] ->[link] {
+            "$a$ = 2.2, $b$ = 1.2: 0.1",
+            "$a$ = 2.1, $b$ = 1.1: 0.2",
+            "$a$ = 2.0, $b$ = 1.0: 0.4",
+            "$a$ = 1.9, $b$ = 0.9: 0.2",
+            "$a$ = 1.8, $b$ = 0.8: 0.1",
+        },
+        "sources:\\ 1"[box] ->[link] {
+            "$m_{max}$ = 6.3: 0.2",
+            "$m_{max}$ = 6.5: 0.6",
+            "$m_{max}$ = 6.7: 0.2",
+        },
+        "sources:\\ 2"[box] ->[link] {
+            "$a$ = 2.2, $b$ = 1.2: 0.1",
+            "$a$ = 2.1, $b$ = 1.1: 0.2",
+            "$a$ = 2.0, $b$ = 1.0: 0.4",
+            "$a$ = 1.9, $b$ = 0.9: 0.2",
+            "$a$ = 1.8, $b$ = 0.8: 0.1",
+        },
+        "sources:\\ 2"[box] ->[link] {
+            "$m_{max}$ = 6.3: 0.2",
+            "$m_{max}$ = 6.5: 0.6",
+            "$m_{max}$ = 6.7: 0.2",
+        },
+        "1 branches\\ omitted"[box] ->[link] {
+        },
+        "sources:\\ 3"[box] ->[link] {
+            "$m_{max}$ = 6.3: 0.2",
+            "$m_{max}$ = 6.5: 0.6",
+            "$m_{max}$ = 6.7: 0.2",
+        },
+        "sources:\\ 4"[box] ->[link] {
+            "$a$ = 2.2, $b$ = 1.2: 0.1",
+            "$a$ = 2.1, $b$ = 1.1: 0.2",
+            "$a$ = 2.0, $b$ = 1.0: 0.4",
+            "$a$ = 1.9, $b$ = 0.9: 0.2",
+            "$a$ = 1.8, $b$ = 0.8: 0.1",
+        },
+        "sources:\\ 4"[box] ->[link] {
+            "$m_{max}$ = 6.3: 0.2",
+            "$m_{max}$ = 6.5: 0.6",
+            "$m_{max}$ = 6.7: 0.2",
+        },
+        "sources:\\ 5"[box] ->[link] {
+            "$a$ = 2.2, $b$ = 1.2: 0.1",
+            "$a$ = 2.1, $b$ = 1.1: 0.2",
+            "$a$ = 2.0, $b$ = 1.0: 0.4",
+            "$a$ = 1.9, $b$ = 0.9: 0.2",
+            "$a$ = 1.8, $b$ = 0.8: 0.1",
+        },
+        "sources:\\ 5"[box] ->[link] {
+            "$m_{max}$ = 6.3: 0.2",
+            "$m_{max}$ = 6.5: 0.6",
+            "$m_{max}$ = 6.7: 0.2",
+        },
+    },
+};
+    \end{tikzpicture}
+    \end{document}
+    

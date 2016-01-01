@@ -1,0 +1,55 @@
+\documentclass[border=2mm]{standalone}
+
+    \usepackage{tikz}
+    \usetikzlibrary{graphdrawing, graphs}
+    \usegdlibrary{trees}
+
+    \begin{document}
+    \begin{tikzpicture}[>=latex, align=center, anchor=west,
+    link/.style={out=east, in=west},
+    box/.style={rectangle, rounded corners, draw}]
+    \graph [tree layout, components go down center aligned, grow'=right,
+    fresh nodes, layer sep=2cm, sibling distance=0mm, sibling sep=0.5mm] {
+    
+    "gmpeModel\\ logicTree"[box] ->[link] {
+        "Active\\ Shallow\\ Crust"[box] ->[link] {
+            "\texttt{AkkarBommer2010}: 0.35",
+            "\texttt{CauzziFaccioli2008}: 0.35",
+            "\texttt{ChiouYoungs2008}: 0.20",
+            "\texttt{ZhaoEtAl2006Asc}: 0.10",
+        },
+        "Stable\\ Shallow\\ Crust"[box] ->[link] {
+            "\texttt{AkkarBommer2010}: 0.20",
+            "\texttt{CauzziFaccioli2008}: 0.20",
+            "\texttt{ChiouYoungs2008}: 0.20",
+            "\texttt{ToroEtAl2002SHARE}: 0.20",
+            "\texttt{Campbell2003SHARE}: 0.20",
+        },
+        "Shield"[box] ->[link] {
+            "\texttt{ToroEtAl2002SHARE}: 0.50",
+            "\texttt{Campbell2003SHARE}: 0.50",
+        },
+        "Subduction\\ Interface"[box] ->[link] {
+            "\texttt{AtkinsonBoore2003SInter}: 0.2",
+            "\texttt{LinLee2008SInter}: 0.2",
+            "\texttt{YoungsEtAl1997SInter}: 0.2",
+            "\texttt{ZhaoEtAl2006SInter}: 0.4",
+        },
+        "Subduction\\ Inslab"[box] ->[link] {
+            "\texttt{AtkinsonBoore2003SSlab}: 0.2",
+            "\texttt{LinLee2008SSlab}: 0.2",
+            "\texttt{YoungsEtAl1997SSlab}: 0.2",
+            "\texttt{ZhaoEtAl2006SSlab}: 0.4",
+        },
+        "Volcanic"[box] ->[link] {
+            "\texttt{FaccioliEtAl2010}: 1.0",
+        },
+        "Subduction\\ Deep"[box] ->[link] {
+            "\texttt{LinLee2008SSlab}: 0.60",
+            "\texttt{YoungsEtAl1997SSlab}: 0.40",
+        },
+    },
+};
+    \end{tikzpicture}
+    \end{document}
+    

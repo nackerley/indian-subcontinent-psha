@@ -1,0 +1,13 @@
+﻿Table 2.
+        Epicentral locations and magnitudes assigned by different agencies to the earthquakes contributing the strong motion data. The highlighted values are adopted for the present study.
+Source,Epicentral location,Depth,Magnitude
+EQ# 1: Indo-Burma border earthquake of 6 August 1988 (33 records)
+IMD,25.384°N<comma> 94.529°E,91 km,
+ISC,25.130°N<comma> 95.150°E,108 km,mb=6.6<comma> MS=7.2
+CMT,25.190°N<comma> 94.890°E,101 km,mb=6.8<comma> MS=7.2 & MW=7.2
+EQ# 2: Western Burma earthquake of 9 January 1990 (14 records)
+ISC,24.740°N<comma> 95.260°E,118 km,mb=6.1
+CMT,24.420°N<comma> 94.950°E,130 km,mb=6.1<comma> MW=6.3
+EQ# 3: Western Burma earthquake of 6 May 1995 (9 records)
+USGS,24.990°N<comma> 95.290°E,117 km,mb=6.4
+CMT,24.830°N<comma> 95.020°E,148 km,mb=6.4<comma> MW=6.4

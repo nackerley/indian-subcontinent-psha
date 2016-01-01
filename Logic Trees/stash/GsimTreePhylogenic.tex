@@ -1,0 +1,43 @@
+\documentclass[border=2mm]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{graphdrawing, graphs, topaths, trees}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+\usegdlibrary{trees, phylogenetics}
+\begin{document}
+\begin{tikzpicture}[>=latex, rectangle, rounded corners, draw, length=2]
+\graph [phylogenetic tree layout, grow=right, fresh nodes, sibling distance=0mm, sibling sep=1mm] {
+    logic tree -> {
+        active shallow crust -> {
+            normal -> {
+                "AkkarBommer2010: 0.2", 
+                "BooreAtkinson2008: 0.2", 
+                "CampbellBozorgnia2008: 0.2", 
+                "KannoEtAl2006Shallow: 0.2", 
+                "SharmaEtAl2009: 0.2",
+                }, 
+            "reverse or strike-slip" -> {
+                AkkarBommer2010, 
+                BooreAtkinson2008, 
+                CampbellBozorgnia2008, 
+                KannoEtAl2006Shallow
+                }
+            },
+        intraplate margin -> {
+            lower -> {
+                AtkinsonBoore2006, 
+                ToroEtAl2002, 
+                SharmaEtAl2009, 
+                NathEtAl2012Lower
+            },
+            upper -> {
+                AtkinsonBoore2006, 
+                ToroEtAl2002, 
+                SharmaEtAl2009, 
+                NathEtAl2012Upper
+            }
+        }
+    }
+};
+\end{tikzpicture}
+\end{document}

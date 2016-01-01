@@ -23,9 +23,7 @@ README.md
 *.lof
 *.lot
 *.out
-*.pdf
 *.prj
-*.png
 *.qgs
 *.qml
 *.sbn
@@ -34,7 +32,6 @@ README.md
 *.shx
 *.style
 *.toc
-*.txt
 *.xml
 *.zip
 *~

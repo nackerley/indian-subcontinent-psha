@@ -1,0 +1,20 @@
+Peak ground acceleration (g)
+City,Latitude (°N),Longitude (°E),BIS,zone,GSHAP,Present,Other,Reference
+Ahmedabad,23.03,72.61,0.08,III,0.05,0.11,0.10,Jaiswal and Sinha 2007†
+Bangalore,12.98,77.58,0.05,II,0.05,0.11,0.10; 0.15,Jaiswal and Sinha 2007†; Anbazhagan et al. 2009
+Bhuj,23.25,69.66,0.18,V,0.20,0.42,0.25; 0.20-0.70,Jaiswal and Sinha 2007†; Petersen et al. 2004‡
+Chennai,13.00,80.18,0.08,III,0.05,0.12,0.089; 0.10,Menon et al. 2010; Jaiswal and Sinha 2007†
+Dehradun,30.33,78.04,0.12,IV,0.30,0.47,0.45,Mahajan et al. 2010
+Guwahati,26.18,91.73,0.18,V,0.30,0.66,0.50,Sharma and Malik 2006
+Hyderabad,17.45,78.46,0.05,II,0.05,0.09,0.08,Jaiswal and Sinha 2007†
+Imphal,24.78,93.94,0.18,V,0.45,0.68,0.50,Sharma and Malik 2006
+Jabalpur,23.20,79.95,0.08,III,0.10,0.19,0.15,Jaiswal and Sinha 2007†
+Kolkata,22.65,88.45,0.08,III,0.10,0.15,0.10,Jaiswal and Sinha 2007†
+Koyna,17.40,73.75,0.12,IV,0.25,0.47,0.25,Jaiswal and Sinha 2007†
+Mumbai,19.11,72.85,0.08,III,0.10,0.16,0.15,Jaiswal and Sinha 2007†
+New Delhi,28.56,77.11,0.12,IV,0.15,0.24,—
+Patna,25.60,85.10,0.12,IV,0.05,0.13,—
+Port Blair,11.61,92.72,0.18,V,0.25,0.71,—
+Shillong,25.48,92.11,0.18,V,0.30,0.72,0.45,Sharma and Malik 2006
+Srinagar,34.08,74.80,0.18,V,0.25,0.33,—
+Thiruvananthapuram,8.50,76.95,0.08,III,0.05,0.07,—

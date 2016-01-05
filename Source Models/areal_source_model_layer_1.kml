@@ -1,0 +1,1831 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>areal source model layer 1</name>
+    <Schema id="SourceModelSchemaId" name="SourceModelSchema">
+      <SimpleField name="zoneid" type="int"/>
+      <SimpleField name="tectonic subregion" type="string"/>
+      <SimpleField name="mmin" type="double"/>
+      <SimpleField name="aspect ratio" type="int"/>
+      <SimpleField name="avalue" type="double"/>
+      <SimpleField name="bvalue" type="double"/>
+      <SimpleField name="concerns" type="string"/>
+      <SimpleField name="dip" type="int"/>
+      <SimpleField name="mechanism" type="string"/>
+      <SimpleField name="mmax" type="double"/>
+      <SimpleField name="msr" type="string"/>
+      <SimpleField name="polygon coordinates" type="string"/>
+      <SimpleField name="rake" type="double"/>
+      <SimpleField name="region" type="string"/>
+      <SimpleField name="stdbvalue" type="double"/>
+      <SimpleField name="stdmmax" type="double"/>
+      <SimpleField name="strike" type="int"/>
+      <SimpleField name="tectonic zone" type="string"/>
+      <SimpleField name="zmax" type="double"/>
+      <SimpleField name="zmin" type="double"/>
+      <SimpleField name="logN_5.0-6.0" type="double"/>
+      <SimpleField name="logN_6.0-7.0" type="double"/>
+      <SimpleField name="logN_7.0-8.0" type="double"/>
+    </Schema>
+    <Placemark>
+      <name>1</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">5.2</SimpleData>
+          <SimpleData name="bvalue">1.05</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">73</SimpleData>
+          <SimpleData name="mechanism">dextral</SimpleData>
+          <SimpleData name="mmax">8.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">30.0</SimpleData>
+          <SimpleData name="region">Pamirs</SimpleData>
+          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">202</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.09</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.14</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.19</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>67.81,37.55,0 68.3,38.82,0 72.95,39.99,0 73.0,39.06,0 70.69,38.27,0 67.81,37.55,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>2</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.64</SimpleData>
+          <SimpleData name="bvalue">0.93</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">31</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">142.0</SimpleData>
+          <SimpleData name="region">Pamirs</SimpleData>
+          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">306</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.06</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-0.99</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-1.92</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>72.95,39.99,0 76.53,39.99,0 76.1,38.89,0 75.85,37.89,0 75.85,37.89,0 74.94,38.35,0 73.0,39.06,0 72.95,39.99,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>3</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.75</SimpleData>
+          <SimpleData name="bvalue">0.77</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">89</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">33.0</SimpleData>
+          <SimpleData name="region">Qaidam</SimpleData>
+          <SimpleData name="stdbvalue">0.05</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">59</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.18</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-0.95</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-1.72</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>76.1,38.89,0 76.53,39.99,0 79.11,40.04,0 78.84,38.84,0 76.1,38.89,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>4</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.34</SimpleData>
+          <SimpleData name="bvalue">0.98</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">56</SimpleData>
+          <SimpleData name="mechanism">dextral</SimpleData>
+          <SimpleData name="mmax">7.4</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">177.0</SimpleData>
+          <SimpleData name="region">Kunlun Shan</SimpleData>
+          <SimpleData name="stdbvalue">0.08</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">309</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.61</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.59</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.75</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>75.85,37.89,0 75.85,37.89,0 76.1,38.89,0 78.84,38.84,0 80.97,38.03,0 84.15,38.03,0 85.07,36.26,0 81.13,36.14,0 77.33,37.14,0 75.85,37.89,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>5</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.29</SimpleData>
+          <SimpleData name="bvalue">0.91</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">55</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">7.8</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">148.0</SimpleData>
+          <SimpleData name="region">nan</SimpleData>
+          <SimpleData name="stdbvalue">0.08</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">274</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.32</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.23</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.17</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>67.29,35.43,0 67.81,37.55,0 70.69,38.27,0 69.14,35.78,0 67.29,35.43,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>6</name>
+      <description>active shallow crust normal</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.75</SimpleData>
+          <SimpleData name="bvalue">1.01</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">42</SimpleData>
+          <SimpleData name="mechanism">normal</SimpleData>
+          <SimpleData name="mmax">8.2</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-53.0</SimpleData>
+          <SimpleData name="region">Pamirs</SimpleData>
+          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">189</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.34</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.35</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.36</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>70.7,38.27,0 73.0,39.06,0 74.94,38.35,0 75.29,36.96,0 72.93,36.59,0 70.7,38.27,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>7</name>
+      <description>active shallow crust normal</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.89</SimpleData>
+          <SimpleData name="bvalue">1.08</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">52</SimpleData>
+          <SimpleData name="mechanism">normal</SimpleData>
+          <SimpleData name="mmax">7.6</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-74.0</SimpleData>
+          <SimpleData name="region">Kunlun</SimpleData>
+          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">203</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.55</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.63</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.78</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>74.94,38.35,0 75.85,37.89,0 77.33,37.14,0 81.13,36.14,0 85.07,36.26,0 85.57,35.29,0 80.22,35.27,0 75.29,36.96,0 74.94,38.35,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>8</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.64</SimpleData>
+          <SimpleData name="bvalue">0.82</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">34</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.3</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">113.0</SimpleData>
+          <SimpleData name="region">Hindu Kush</SimpleData>
+          <SimpleData name="stdbvalue">0.08</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">271</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.53</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.35</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.17</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>65.49,32.63,0 67.29,35.43,0 69.14,35.78,0 70.62,35.64,0 72.93,36.59,0 70.76,33.98,0 69.42,32.81,0 66.99,30.69,0 66.98,30.69,0 65.49,32.63,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>9</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.01</SimpleData>
+          <SimpleData name="bvalue">0.87</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">16</SimpleData>
+          <SimpleData name="mechanism">dextral</SimpleData>
+          <SimpleData name="mmax">8.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">171.0</SimpleData>
+          <SimpleData name="region">Hindu Kush</SimpleData>
+          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">36</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.4</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.27</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.14</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>69.14,35.78,0 70.69,38.27,0 72.93,36.59,0 70.63,35.64,0 69.14,35.78,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>12</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.45</SimpleData>
+          <SimpleData name="bvalue">0.72</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">57</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.6</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">66.0</SimpleData>
+          <SimpleData name="region">Himalayas</SimpleData>
+          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">114</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.24</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-0.96</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-1.68</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>70.76,33.98,0 72.93,36.59,0 75.34,35.63,0 74.64,34.65,0 73.96,32.07,0 70.76,33.98,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>13</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.24</SimpleData>
+          <SimpleData name="bvalue">0.75</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">78</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.8</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">94.0</SimpleData>
+          <SimpleData name="region">Himalayas - Main Frontal Thrust</SimpleData>
+          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">138</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.6</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.35</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.1</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>73.96,32.07,0 74.64,34.65,0 77.54,33.52,0 77.13,32.17,0 76.6,30.42,0 75.37,31.19,0 73.96,32.07,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>14</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.12</SimpleData>
+          <SimpleData name="bvalue">0.72</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">69</SimpleData>
+          <SimpleData name="mechanism">sinistral</SimpleData>
+          <SimpleData name="mmax">8.6</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-30.0</SimpleData>
+          <SimpleData name="region">Makran</SimpleData>
+          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">228</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.57</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.29</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.01</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>60.0,27.11,0 64.52,27.59,0 66.66,25.14,0 60.06,22.83,0 60.0,27.11,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>15</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.88</SimpleData>
+          <SimpleData name="bvalue">0.98</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">71</SimpleData>
+          <SimpleData name="mechanism">sinistral</SimpleData>
+          <SimpleData name="mmax">8.3</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">24.0</SimpleData>
+          <SimpleData name="region">Kirthar</SimpleData>
+          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">204</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.07</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.05</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.03</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>64.52,27.59,0 65.49,32.63,0 66.98,30.69,0 68.76,28.38,0 67.88,25.57,0 66.66,25.14,0 64.52,27.59,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>16</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.36</SimpleData>
+          <SimpleData name="bvalue">0.88</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">18</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.3</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">126.0</SimpleData>
+          <SimpleData name="region">Sulaiman</SimpleData>
+          <SimpleData name="stdbvalue">0.08</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">298</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.1</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-0.98</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-1.86</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>66.98,30.69,0 66.99,30.69,0 69.42,32.81,0 71.81,29.99,0 69.16,27.86,0 68.76,28.38,0 66.98,30.69,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>17</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.25</SimpleData>
+          <SimpleData name="bvalue">0.82</SimpleData>
+          <SimpleData name="concerns">could be stable</SimpleData>
+          <SimpleData name="dip">13</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">7.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">59.0</SimpleData>
+          <SimpleData name="region">Pamirs</SimpleData>
+          <SimpleData name="stdbvalue">0.11</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">219</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.92</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.74</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>69.42,32.81,0 70.76,33.98,0 73.96,32.07,0 75.37,31.19,0 73.95,29.85,0 71.81,29.99,0 69.42,32.81,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>21</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.87</SimpleData>
+          <SimpleData name="bvalue">0.85</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">14</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.6</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">90.0</SimpleData>
+          <SimpleData name="region">Himalayas - Main Frontal Thrust</SimpleData>
+          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdmmax">0.2</SimpleData>
+          <SimpleData name="strike">291</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.45</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.3</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.15</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>76.6,30.42,0 77.13,32.17,0 79.13,31.19,0 81.23,30.27,0 82.95,29.43,0 82.21,27.47,0 82.16,27.48,0 79.8,28.73,0 76.96,30.23,0 76.6,30.42,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>22</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.34</SimpleData>
+          <SimpleData name="bvalue">0.73</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">31</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.8</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">108.0</SimpleData>
+          <SimpleData name="region">Himalayas - Main Frontal Thrust</SimpleData>
+          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdmmax">0.2</SimpleData>
+          <SimpleData name="strike">308</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.4</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.13</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-1.86</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>82.21,27.47,0 82.95,29.43,0 82.97,29.42,0 85.93,28.34,0 87.55,27.75,0 87.06,26.23,0 87.06,26.22,0 87.06,26.22,0 82.21,27.47,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>57</name>
+      <description>active shallow crust normal</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">6.79</SimpleData>
+          <SimpleData name="bvalue">1.35</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">48</SimpleData>
+          <SimpleData name="mechanism">normal</SimpleData>
+          <SimpleData name="mmax">7.2</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-77.0</SimpleData>
+          <SimpleData name="region">Andaman-Sumatra</SimpleData>
+          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">244</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">0.02</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.33</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.99</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>93.08,9.99,0 94.45,13.23,0 97.3,13.41,0 95.73,9.99,0 93.08,9.99,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>58</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.95</SimpleData>
+          <SimpleData name="bvalue">0.95</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">75</SimpleData>
+          <SimpleData name="mechanism">dextral</SimpleData>
+          <SimpleData name="mmax">8.4</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">180.0</SimpleData>
+          <SimpleData name="region">Andaman-Sumatra</SimpleData>
+          <SimpleData name="stdbvalue">0.06</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">151</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">0.15</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-0.8</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-1.75</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>93.09,9.99,0 95.73,9.99,0 96.54,6.81,0 100.77,3.6,0 98.01,2.86,0 94.09,5.95,0 93.09,9.99,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>63</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.01</SimpleData>
+          <SimpleData name="bvalue">0.95</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">39</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.2</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">136.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.05</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">298</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.79</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.74</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.69</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>67.88,22.49,0 67.88,25.57,0 71.76,25.5,0 71.83,22.52,0 67.88,22.49,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>66</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.45</SimpleData>
+          <SimpleData name="bvalue">0.86</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">83</SimpleData>
+          <SimpleData name="mechanism">sinistral</SimpleData>
+          <SimpleData name="mmax">7.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">25.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.11</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">58</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.91</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.77</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>67.85,19.71,0 67.88,22.49,0 71.83,22.52,0 72.27,22.52,0 72.35,19.78,0 72.35,19.77,0 71.16,19.75,0 67.85,19.71,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>71</name>
+      <description>no seismicity</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">0.0</SimpleData>
+          <SimpleData name="bvalue">0.81</SimpleData>
+          <SimpleData name="concerns">oceanic not continental</SimpleData>
+          <SimpleData name="dip">45</SimpleData>
+          <SimpleData name="mechanism">undefined</SimpleData>
+          <SimpleData name="mmax">5.8</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">90.0</SimpleData>
+          <SimpleData name="region">Bay of Bengal, Arabian Sea</SimpleData>
+          <SimpleData name="stdbvalue">0.05</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">0</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-4.16</SimpleData>
+          <SimpleData name="logN_6.0-7.0">nan</SimpleData>
+          <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>67.85,19.71,0 71.16,19.75,0 72.86,15.84,0 74.46,12.31,0 75.54,8.94,0 77.25,7.25,0 75.35,4.94,0 77.91,3.38,0 82.07,8.72,0 79.75,10.23,0 80.45,11.06,0 81.2,13.99,0 81.2,14.01,0 82.87,16.84,0 84.03,16.57,0 86.69,18.68,0 86.72,15.35,0 84.59,11.31,0 83.95,6.51,0 84.69,2.0,0 84.68,2.0,0 73.55,1.99,0 73.55,2.01,0 71.28,11.43,0 67.85,19.71,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>74</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">2.57</SimpleData>
+          <SimpleData name="bvalue">0.86</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">47</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">6.5</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">68.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">284</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-1.79</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-2.79</SimpleData>
+          <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>73.27,19.85,0 76.12,20.48,0 80.67,17.38,0 75.41,16.37,0 73.27,19.85,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>75</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.91</SimpleData>
+          <SimpleData name="bvalue">1.19</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">45</SimpleData>
+          <SimpleData name="mechanism">undefined</SimpleData>
+          <SimpleData name="mmax">6.4</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">90.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">0</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-2.07</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-3.41</SimpleData>
+          <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>76.12,20.48,0 78.09,20.84,0 82.51,18.57,0 80.67,17.38,0 76.12,20.48,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>81</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">2.65</SimpleData>
+          <SimpleData name="bvalue">0.86</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">45</SimpleData>
+          <SimpleData name="mechanism">undefined</SimpleData>
+          <SimpleData name="mmax">6.2</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">90.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">0</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-1.71</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-3.0</SimpleData>
+          <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>78.36,13.68,0 78.64,15.58,0 80.67,17.38,0 80.7,17.38,0 82.87,16.84,0 81.2,14.01,0 78.36,13.68,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>82</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.14</SimpleData>
+          <SimpleData name="bvalue">1.01</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">66</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">6.1</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">64.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.13</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">51</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-1.95</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-3.6</SimpleData>
+          <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>77.62,11.53,0 78.36,13.68,0 81.2,14.01,0 81.2,13.99,0 80.45,11.06,0 77.62,11.53,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>86</name>
+      <description>no seismicity</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">0.0</SimpleData>
+          <SimpleData name="bvalue">0.81</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">45</SimpleData>
+          <SimpleData name="mechanism">undefined</SimpleData>
+          <SimpleData name="mmax">6.3</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">90.0</SimpleData>
+          <SimpleData name="region">Sri Lanka, Laccadive Sea</SimpleData>
+          <SimpleData name="stdbvalue">0.05</SimpleData>
+          <SimpleData name="stdmmax">0.2</SimpleData>
+          <SimpleData name="strike">0</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-4.12</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-5.23</SimpleData>
+          <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>75.35,4.94,0 79.75,10.23,0 82.07,8.72,0 77.91,3.38,0 75.35,4.94,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>901</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.39</SimpleData>
+          <SimpleData name="bvalue">0.9</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">80</SimpleData>
+          <SimpleData name="mechanism">sinistral</SimpleData>
+          <SimpleData name="mmax">7.6</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">18.0</SimpleData>
+          <SimpleData name="region">Chang Chenmo, Aksai Chin</SimpleData>
+          <SimpleData name="stdbvalue">0.11</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">273</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.17</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.07</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.06</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>72.93,36.59,0 75.29,36.96,0 80.22,35.27,0 85.57,35.29,0 84.86,33.35,0 78.32,34.44,0 72.93,36.59,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>902</name>
+      <description>active shallow crust normal</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.19</SimpleData>
+          <SimpleData name="bvalue">0.86</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">48</SimpleData>
+          <SimpleData name="mechanism">normal</SimpleData>
+          <SimpleData name="mmax">7.8</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-61.0</SimpleData>
+          <SimpleData name="region">Tibetan plateau</SimpleData>
+          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">212</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.17</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.03</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-1.93</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>74.64,34.65,0 75.34,35.63,0 78.32,34.44,0 84.86,33.35,0 87.23,32.88,0 91.36,32.92,0 91.38,32.92,0 92.57,31.14,0 89.17,30.98,0 89.13,30.98,0 89.12,30.98,0 87.64,31.01,0 87.55,31.02,0 85.48,31.5,0 80.61,32.49,0 79.4,32.89,0 77.54,33.52,0 74.64,34.65,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>903</name>
+      <description>active shallow crust normal</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">5.19</SimpleData>
+          <SimpleData name="bvalue">1.12</SimpleData>
+          <SimpleData name="concerns">oceanic not continental</SimpleData>
+          <SimpleData name="dip">64</SimpleData>
+          <SimpleData name="mechanism">normal</SimpleData>
+          <SimpleData name="mmax">7.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-45.0</SimpleData>
+          <SimpleData name="region">Murray Ridge</SimpleData>
+          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">104</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.44</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.56</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>60.06,22.83,0 66.66,25.14,0 67.88,25.57,0 67.88,22.49,0 61.85,20.06,0 60.06,22.83,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>904</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.38</SimpleData>
+          <SimpleData name="bvalue">1.0</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">83</SimpleData>
+          <SimpleData name="mechanism">sinistral</SimpleData>
+          <SimpleData name="mmax">7.3</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-160.0</SimpleData>
+          <SimpleData name="region">Himalayas</SimpleData>
+          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdmmax">0.2</SimpleData>
+          <SimpleData name="strike">284</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.67</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.67</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.92</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>77.13,32.17,0 77.54,33.52,0 79.4,32.89,0 80.61,32.49,0 80.99,31.13,0 80.99,31.13,0 81.23,30.27,0 79.13,31.19,0 77.13,32.17,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>905</name>
+      <description>active shallow crust normal</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">5.18</SimpleData>
+          <SimpleData name="bvalue">1.05</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">52</SimpleData>
+          <SimpleData name="mechanism">normal</SimpleData>
+          <SimpleData name="mmax">7.7</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-114.0</SimpleData>
+          <SimpleData name="region">Tibetan plateau</SimpleData>
+          <SimpleData name="stdbvalue">0.13</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">159</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.11</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.16</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.26</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>80.61,32.49,0 85.44,31.51,0 85.48,31.5,0 87.55,31.02,0 87.64,31.01,0 87.32,29.26,0 85.98,29.36,0 85.93,28.34,0 82.97,29.42,0 82.95,29.43,0 81.23,30.27,0 80.99,31.13,0 80.61,32.49,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>906</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.47</SimpleData>
+          <SimpleData name="bvalue">0.94</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">84</SimpleData>
+          <SimpleData name="mechanism">sinistral</SimpleData>
+          <SimpleData name="mmax">8.5</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-18.0</SimpleData>
+          <SimpleData name="region">Himalayas - Main Frontal Thrust</SimpleData>
+          <SimpleData name="stdbvalue">0.11</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">229</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.28</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.22</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.16</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>87.06,26.22,0 87.06,26.23,0 87.55,27.75,0 89.95,27.83,0 92.66,28.27,0 94.06,29.02,0 95.54,28.14,0 93.82,26.84,0 93.33,26.77,0 93.33,26.77,0 93.3,26.77,0 92.0,26.62,0 89.77,26.44,0 87.06,26.22,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>907</name>
+      <description>active shallow crust normal</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">5.47</SimpleData>
+          <SimpleData name="bvalue">1.07</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">51</SimpleData>
+          <SimpleData name="mechanism">normal</SimpleData>
+          <SimpleData name="mmax">7.7</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-63.0</SimpleData>
+          <SimpleData name="region">Tibetan plateau</SimpleData>
+          <SimpleData name="stdbvalue">0.08</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">20</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">0.08</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-0.99</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.11</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>85.93,28.34,0 85.98,29.36,0 87.32,29.26,0 87.64,31.01,0 89.12,30.98,0 89.13,30.98,0 89.17,30.98,0 92.57,31.14,0 92.63,29.19,0 94.06,29.02,0 92.66,28.27,0 89.95,27.83,0 87.55,27.75,0 85.93,28.34,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>908</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.41</SimpleData>
+          <SimpleData name="bvalue">0.92</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">58</SimpleData>
+          <SimpleData name="mechanism">dextral</SimpleData>
+          <SimpleData name="mmax">8.8</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">150.0</SimpleData>
+          <SimpleData name="region">Himalayas</SimpleData>
+          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdmmax">0.2</SimpleData>
+          <SimpleData name="strike">334</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.25</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.17</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.09</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>92.57,31.14,0 95.36,30.52,0 99.03,27.96,0 98.21,26.56,0 96.47,27.59,0 95.84,27.96,0 95.73,28.03,0 95.73,28.03,0 95.54,28.14,0 94.06,29.02,0 92.63,29.19,0 92.57,31.14,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>909</name>
+      <description>active shallow crust normal</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">7.08</SimpleData>
+          <SimpleData name="bvalue">1.37</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">33</SimpleData>
+          <SimpleData name="mechanism">normal</SimpleData>
+          <SimpleData name="mmax">7.6</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-82.0</SimpleData>
+          <SimpleData name="region">Tibetan plateau</SimpleData>
+          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">268</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">0.21</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.16</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.58</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>84.86,33.35,0 85.57,35.29,0 91.06,34.35,0 94.76,33.13,0 97.34,32.07,0 99.99,29.77,0 99.03,27.96,0 95.36,30.52,0 95.36,30.52,0 92.57,31.14,0 91.38,32.92,0 91.36,32.92,0 87.23,32.88,0 84.86,33.35,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>910</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.27</SimpleData>
+          <SimpleData name="bvalue">0.88</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">10</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">7.8</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">123.0</SimpleData>
+          <SimpleData name="region">Indo-Myanmar</SimpleData>
+          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">211</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.19</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.07</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-1.99</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>93.59,20.76,0 93.7,22.54,0 94.41,24.73,0 95.74,26.73,0 96.77,27.41,0 98.15,26.59,0 97.53,26.01,0 96.43,26.04,0 95.48,24.6,0 95.47,24.59,0 95.24,23.17,0 95.41,20.17,0 95.7,18.44,0 94.66,18.44,0 93.59,20.76,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>911</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.85</SimpleData>
+          <SimpleData name="bvalue">0.86</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">31</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.2</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">69.0</SimpleData>
+          <SimpleData name="region">Indo-Myanmar</SimpleData>
+          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">318</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.51</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.37</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.23</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>91.99,22.61,0 92.0,23.91,0 92.78,25.1,0 92.78,25.1,0 92.79,25.11,0 93.75,26.05,0 94.87,27.17,0 96.04,27.84,0 96.77,27.41,0 95.74,26.73,0 94.41,24.73,0 93.7,22.54,0 93.59,20.76,0 91.99,22.61,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>912</name>
+      <description>intraplate margin upper</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.84</SimpleData>
+          <SimpleData name="bvalue">1.12</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">40</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">7.9</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">90.0</SimpleData>
+          <SimpleData name="region">Shillong plateau</SimpleData>
+          <SimpleData name="stdbvalue">0.13</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">112</SimpleData>
+          <SimpleData name="tectonic zone">Intraplate margin</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.79</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.91</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-3.04</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>89.71,25.08,0 89.77,26.44,0 92.0,26.62,0 92.07,26.63,0 93.3,26.77,0 93.33,26.77,0 93.75,26.05,0 92.79,25.11,0 92.78,25.1,0 91.65,25.09,0 91.64,25.09,0 89.71,25.08,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>913</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.35</SimpleData>
+          <SimpleData name="bvalue">0.93</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">88</SimpleData>
+          <SimpleData name="mechanism">sinistral</SimpleData>
+          <SimpleData name="mmax">8.8</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-175.0</SimpleData>
+          <SimpleData name="region">Bangladesh</SimpleData>
+          <SimpleData name="stdbvalue">0.14</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">153</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.35</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.28</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.21</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>90.07,23.82,0 91.65,25.09,0 92.78,25.1,0 92.0,23.91,0 91.99,22.61,0 93.59,20.76,0 94.66,18.44,0 93.52,18.44,0 91.91,19.42,0 90.67,20.69,0 90.07,23.82,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>914</name>
+      <description>active shallow crust strike-slip reverse</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">5.24</SimpleData>
+          <SimpleData name="bvalue">1.01</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">46</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.3</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">124.0</SimpleData>
+          <SimpleData name="region">Indo-Myanmar</SimpleData>
+          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">192</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">0.15</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-0.86</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-1.87</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>94.45,13.23,0 95.0,14.58,0 95.66,16.28,0 95.7,18.44,0 95.41,20.17,0 95.24,23.17,0 95.47,24.59,0 95.47,24.59,0 95.48,24.6,0 96.43,26.04,0 97.53,26.01,0 97.18,25.12,0 97.03,24.14,0 97.03,24.14,0 97.04,22.13,0 97.46,19.81,0 97.85,18.23,0 98.16,16.41,0 98.16,16.41,0 98.16,16.41,0 98.16,16.41,0 98.16,16.41,0 97.8,14.73,0 97.3,13.41,0 94.45,13.23,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>915</name>
+      <description>active shallow crust normal</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">5.73</SimpleData>
+          <SimpleData name="bvalue">1.36</SimpleData>
+          <SimpleData name="concerns">oceanic not continental</SimpleData>
+          <SimpleData name="dip">52</SimpleData>
+          <SimpleData name="mechanism">normal</SimpleData>
+          <SimpleData name="mmax">6.6</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">-54.0</SimpleData>
+          <SimpleData name="region">Bay of Bengal</SimpleData>
+          <SimpleData name="stdbvalue">0.14</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">234</SimpleData>
+          <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-1.09</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-2.5</SimpleData>
+          <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>91.54,15.86,0 91.91,19.42,0 93.52,18.44,0 93.32,15.6,0 91.54,15.86,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>916</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.52</SimpleData>
+          <SimpleData name="bvalue">0.95</SimpleData>
+          <SimpleData name="concerns">oceanic not continental</SimpleData>
+          <SimpleData name="dip">46</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">124.0</SimpleData>
+          <SimpleData name="region">Andaman-Sumatra</SimpleData>
+          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">192</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.28</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.23</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.18</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>90.74,10.2,0 92.33,14.17,0 93.32,15.6,0 93.52,18.44,0 95.7,18.44,0 95.66,16.28,0 94.65,13.71,0 93.08,9.99,0 90.74,10.2,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>917</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.17</SimpleData>
+          <SimpleData name="bvalue">0.87</SimpleData>
+          <SimpleData name="concerns">oceanic not continental</SimpleData>
+          <SimpleData name="dip">67</SimpleData>
+          <SimpleData name="mechanism">dextral</SimpleData>
+          <SimpleData name="mmax">7.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">158.0</SimpleData>
+          <SimpleData name="region">Bay of Bengal</SimpleData>
+          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">312</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.24</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.11</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>83.95,6.51,0 84.59,11.31,0 86.72,15.35,0 86.69,18.68,0 89.29,20.86,0 89.29,20.86,0 90.67,20.69,0 91.91,19.42,0 91.54,15.86,0 93.32,15.6,0 92.33,14.17,0 90.74,10.2,0 91.91,5.65,0 91.91,5.64,0 91.91,5.64,0 91.91,5.64,0 94.35,1.99,0 92.35,2.01,0 92.35,2.01,0 92.35,2.01,0 84.69,2.0,0 83.95,6.51,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>918</name>
+      <description>subduction interface</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">3.89</SimpleData>
+          <SimpleData name="bvalue">0.82</SimpleData>
+          <SimpleData name="concerns">oceanic not continental</SimpleData>
+          <SimpleData name="dip">25</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">8.9</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">108.0</SimpleData>
+          <SimpleData name="region">Andaman-Sumatra</SimpleData>
+          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdmmax">0.2</SimpleData>
+          <SimpleData name="strike">337</SimpleData>
+          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.28</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.1</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-1.92</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>90.74,10.2,0 93.09,9.99,0 94.09,5.95,0 98.01,2.86,0 94.35,1.99,0 91.91,5.64,0 91.91,5.64,0 91.91,5.65,0 90.74,10.2,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>919</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">2.73</SimpleData>
+          <SimpleData name="bvalue">0.72</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">61</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">7.2</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">123.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">290</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-0.96</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-1.68</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-2.86</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>67.88,25.57,0 68.76,28.38,0 69.16,27.86,0 71.81,29.99,0 73.95,29.85,0 75.37,31.19,0 76.6,30.42,0 76.96,30.23,0 79.8,28.73,0 82.16,27.48,0 82.21,27.47,0 87.06,26.22,0 87.06,26.22,0 89.77,26.44,0 89.71,25.08,0 91.64,25.09,0 91.65,25.09,0 90.07,23.82,0 90.67,20.69,0 89.13,20.88,0 87.61,21.09,0 86.77,21.31,0 86.95,24.38,0 84.59,25.12,0 72.27,22.52,0 71.83,22.52,0 71.76,25.5,0 67.88,25.57,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>921</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">2.53</SimpleData>
+          <SimpleData name="bvalue">0.76</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">26</SimpleData>
+          <SimpleData name="mechanism">reverse</SimpleData>
+          <SimpleData name="mmax">7.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">129.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdmmax">0.4</SimpleData>
+          <SimpleData name="strike">283</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-1.35</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-2.11</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>72.27,22.52,0 84.59,25.12,0 86.95,24.38,0 86.77,21.31,0 84.59,21.91,0 81.99,21.43,0 78.09,20.84,0 76.12,20.48,0 73.27,19.85,0 72.35,19.77,0 72.35,19.78,0 72.27,22.52,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>922</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">4.48</SimpleData>
+          <SimpleData name="bvalue">1.09</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">66</SimpleData>
+          <SimpleData name="mechanism">dextral</SimpleData>
+          <SimpleData name="mmax">7.2</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">165.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">206</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-1.01</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-2.1</SimpleData>
+          <SimpleData name="logN_7.0-8.0">-3.55</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>71.16,19.75,0 72.35,19.77,0 73.27,19.85,0 74.16,18.41,0 74.77,17.42,0 75.41,16.37,0 73.77,16.03,0 72.86,15.84,0 71.16,19.75,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>923</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">2.51</SimpleData>
+          <SimpleData name="bvalue">0.73</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">45</SimpleData>
+          <SimpleData name="mechanism">undefined</SimpleData>
+          <SimpleData name="mmax">6.0</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">90.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.06</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">0</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-1.23</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-inf</SimpleData>
+          <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>72.86,15.84,0 73.77,16.03,0 75.41,16.37,0 80.67,17.38,0 78.64,15.58,0 78.36,13.68,0 78.36,13.68,0 77.62,11.53,0 80.45,11.06,0 79.75,10.23,0 78.71,8.99,0 78.71,8.99,0 77.25,7.26,0 75.54,8.94,0 74.46,12.31,0 72.86,15.84,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>924</name>
+      <description>stable shallow crust</description>
+      <ExtendedData>
+        <SchemaData schemaUrl="#SourceModelSchemaId">
+          <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="aspect ratio">2</SimpleData>
+          <SimpleData name="avalue">1.58</SimpleData>
+          <SimpleData name="bvalue">0.63</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="dip">45</SimpleData>
+          <SimpleData name="mechanism">undefined</SimpleData>
+          <SimpleData name="mmax">6.2</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="rake">90.0</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
+          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdmmax">0.3</SimpleData>
+          <SimpleData name="strike">0</SimpleData>
+          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="zmax">25.0</SimpleData>
+          <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="logN_5.0-6.0">-1.69</SimpleData>
+          <SimpleData name="logN_6.0-7.0">-2.8</SimpleData>
+          <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>78.09,20.84,0 81.99,21.43,0 84.59,21.91,0 86.77,21.31,0 87.61,21.09,0 89.29,20.86,0 89.29,20.86,0 86.69,18.68,0 84.03,16.57,0 82.87,16.84,0 80.7,17.38,0 80.67,17.38,0 82.51,18.57,0 78.09,20.84,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

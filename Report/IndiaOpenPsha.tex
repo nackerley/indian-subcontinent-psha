@@ -5,29 +5,38 @@
 \usepackage{amssymb} % e.g. triangleq, checkmark
 \usepackage{gensymb} % \degree symbol
 %\usepackage{bm} % bold symbols numbering
-\usepackage{authblk}
+\usepackage{authblk} % author/affiliation block
 \usepackage[T1]{fontenc} % support accents via UTF
 
 \usepackage{graphicx} % support for graphics
-%\usepackage[pdfusetitle,
-%	pdfkeywords={seismology, hazard, India, OpenQuake},
-%	hidelinks]{hyperref} % hyperlinks and autoref
-% backref=page,
+\usepackage[hidelinks, backref=page]{hyperref} % hyperlinks and autoref
+\hypersetup{
+    pdfauthor={Nick Ackerley},
+    pdfsubject={Engineering Seismology},
+    pdftitle={Open Model of Probabilistic Seismic Hazard Assessment for the Indian Subcontinent},
+    pdfkeywords={seismology, hazard, India, OpenQuake}}
 \usepackage{natbib} % bibliography support
 \usepackage{caption} % support for captions
-%\usepackage{subcaption} % support for multiple figures with captions
+\usepackage{subcaption} % support for multiple figures with captions
 %\providecommand*\hyphen{-} % dashed page numbers in bib
 
 %\usepackage{multirow} % cells spanning rows in tables
 %\usepackage{array} % vertically aligned table cells
 
-%\usepackage{enumitem} % control list formatting
-%\setlist[2]{nosep}
+\usepackage{enumitem} % control list formatting
+\setlist[2]{nosep}
 
-%\usepackage{tikz}
-%\usetikzlibrary{graphs,shapes,arrows.meta,arrows.spaced,graphdrawing}
-%\usegdlibrary{layered}
+% allow figures to take up more of a page
+\renewcommand{\floatpagefraction}{0.7}
 
+% set up back-references
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{%
+    \ifcase #1 (Not cited.)%
+    \or        (Cited on page~#2.)%
+    \else      (Cited on pages~#2.)%
+    \fi}
+    
 %%% PREAMBLE
 
 \begin{document}
@@ -63,22 +72,61 @@ Open models encourage peer review and collaboration; open models can be built up
 \label{sec:Background}
 
 We'll be adapting the model of \cite{nath2012probabilistic} to the OpenQuake platform.
+\begin{figure*}
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{India_Areal_Layer_1.png}
+        \caption[]{Layer 1}
+        \label{fig:ArealLayer1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.48\textwidth}  
+        \includegraphics[width=\textwidth]{India_Areal_Layer_2.png}
+        \caption{Layer 2}
+        \label{fig:ArealLayer2}
+    \end{subfigure}
+    \vskip\baselineskip
+    \begin{subfigure}[b]{0.48\textwidth}   
+        \includegraphics[width=\textwidth]{India_Areal_Layer_3.png}
+        \caption{Layer 3}
+        \label{fig:ArealLayer3}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.48\textwidth}   
+        \includegraphics[width=\textwidth]{India_Areal_Layer_4.png}
+        \caption{Layer 4}
+        \label{fig:ArealLayer4}
+    \end{subfigure}
+    \caption[Tectonic region assignments for areal source model]
+    {Tectonic region assignments for areal source model} 
+    \label{fig:ArealSourceModel}
+\end{figure*}
 
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{figures1a.png}
-\caption{Hazard map of India}
-\label{figure_label}
-\end{figure}
-
-\section{Model development}
+\section{Model implemetation}
 \label{sec:Model}
 
-\subsection{Seismogenic Sources}
+\subsection{Seismogenic sources}
 \label{sec:Sources}
 
 \cite{thingbaijam2012seismogenic}
 
-\subsection{Ground-Motion Prediction}
+\subsubsection{Areal sources}
+\label{sec:Areal}
+
+As we will see in \autoref{subsubsec:GmpeWeights} ground motion prediction logic trees depend on correct assignment of tectonic region types. The main difficulty in implementing the areal source model of  \cite{nath2012probabilistic} was that although the intentions were generally clear, these assignments were not made explicit. The inferred tectonic region assignments assumed are shown in \autoref{fig:ArealSourceModel}.
+
+Potentially problematic tectonic region type assignments:
+\begin{itemize}
+\item region 906 in the Great Himalayas just north of the Shillong plateau was assigned ``active shallow crust strike-slip reverse'' even though the main trace of the Himalayan subduction fault runs through it, because the dominant fault mechanism is strike-slip. 
+\end{itemize}
+
+An aspect ratio of 2 was furthermore assumed.
+
+The seismogenic depth was assumed to be midway between the minimum and maximum. Is this justified by \cite{thingbaijam2012seismogenic}? Could it stand further refinement?
+
+
+\subsubsection{Smoothed seismicity}
+\label{sec:Smoothed}
+
+\subsection{Ground-motion prediction}
 \label{sec:GroundMotion}
 
 \cite{sharma2009ground} points out that the decay rate of PGA for shallow India-Bangladesh and deep India-Burma border events have different distance scaling. The former leads to the necessity of a GMPE specific to the Shillong plateau \cite{nath2012ground} while the latter means interface subduction events need to be treated differently. 
@@ -109,7 +157,7 @@ Issued encountered while implementing GMPEs:
 
 
 \begin{table}
-\caption{Ground shaking intensity models. Models newly implemented in OpenQuake as part of the current work are indicated.}
+\caption[Ground shaking intensity models]{Ground shaking intensity models. Models newly implemented in OpenQuake as part of the current work are indicated.}
 \centering
 \begin{tabular}{c c l}
 \hline
@@ -135,8 +183,11 @@ Issued encountered while implementing GMPEs:
 \end{tabular}
 \end{table}
 
-\subsection{Logic Tree Weights}
+\subsection{Logic Trees}
 \label{subsec:Weights}
+
+\subsubsection{Ground-Motion Prediction}
+\label{subsubsec:GmpeWeights}
 
 \cite{anbazhagan2015selection} seem to be proposing different weights for different regions based on single events in those regions. An extreme example is to define different weights for Anjar, 1956 and Bhuj , 2001 earthquakes even though the epicentres and depths were very close together. In contrast \cite{nath2011peak} compute LLH for 7 regions (using 38 events total) and state that, ``individual events do not have significant number of observations to support a viable ranking basis.''
 
@@ -155,6 +206,9 @@ The collective exhaustiveness requirement means, is trickier. It is this require
 The process of developing a logic tree to assess epistemic uncertainty is thus a dialectical one. Mutual exclusivity and collective exhaustiveness comprise opposing forces which must be exerted alternately and in tandem.
 
 [Now apply these principles to move forward from \cite{nath2012probabilistic}!] 
+
+\subsubsection{Source Models}
+\label{subsubsec:SourceModelWeights}
 
 \section{Hazard results}
 \label{sec:Hazard}

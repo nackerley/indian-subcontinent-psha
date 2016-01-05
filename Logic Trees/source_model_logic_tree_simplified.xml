@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml
+xmlns="http://openquake.org/xmlns/nrml/0.5"
+xmlns:gml="http://www.opengis.net/gml"
+>
+    <logicTree
+    logicTreeID="lt1"
+    >
+        <logicTreeBranchingLevel
+        branchingLevelID="bl1"
+        >
+            <logicTreeBranchSet
+            branchSetID="bs1"
+            uncertaintyType="sourceModel"
+            >
+                <logicTreeBranch
+                branchID="b1m1"
+                >
+                    <uncertaintyModel>
+                        areal_source_model.xml
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        1
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+            </logicTreeBranchSet>
+        </logicTreeBranchingLevel>
+        <logicTreeBranchingLevel
+        branchingLevelID="bl2"
+        >
+            <logicTreeBranchSet
+            applyToSources="areal_source_model.tsv"
+            branchSetID="bs2"
+            uncertaintyType="maxMagGRAbsolute"
+            >
+                <logicTreeBranch
+                branchID="b2m1"
+                >
+                    <uncertaintyModel>
+                        mmax - stdmmax
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.32
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="b2m2"
+                >
+                    <uncertaintyModel>
+                        mmax
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.36
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="b2m3"
+                >
+                    <uncertaintyModel>
+                        mmax + stdmmax
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.32
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+            </logicTreeBranchSet>
+        </logicTreeBranchingLevel>
+        <logicTreeBranchingLevel
+        branchingLevelID="bl3"
+        >
+            <logicTreeBranchSet
+            applyToSources="areal_source_model.tsv"
+            branchSetID="bs3"
+            uncertaintyType="abGRAbsolute"
+            >
+                <logicTreeBranch
+                branchID="b3m1"
+                >
+                    <uncertaintyModel>
+                        avalue - stdavalue bvalue - stdbvalue
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.32
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="b3m2"
+                >
+                    <uncertaintyModel>
+                        avalue bvalue
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.36
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="b3m3"
+                >
+                    <uncertaintyModel>
+                        avalue + stdavalue bvalue + stdbvalue
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.32
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+            </logicTreeBranchSet>
+        </logicTreeBranchingLevel>
+    </logicTree>
+</nrml>

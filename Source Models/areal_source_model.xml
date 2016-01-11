@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -69,7 +69,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -145,7 +145,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -183,7 +183,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -411,7 +411,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -449,7 +449,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -487,7 +487,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -525,7 +525,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -563,7 +563,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -601,7 +601,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -639,7 +639,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -2767,7 +2767,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -2805,7 +2805,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -2995,7 +2995,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -3071,7 +3071,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -3694,7 +3694,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="104"
-        name="zone 1"
+        name="zone 1.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -3717,7 +3717,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -3732,7 +3732,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="105"
-        name="zone 2"
+        name="zone 2.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -3755,7 +3755,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -3770,7 +3770,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="106"
-        name="zone 5"
+        name="zone 5.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -3793,7 +3793,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -3808,7 +3808,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="107"
-        name="zone 13"
+        name="zone 13.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -3831,7 +3831,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -3846,7 +3846,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="108"
-        name="zone 14"
+        name="zone 14.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -3869,7 +3869,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -3884,7 +3884,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="109"
-        name="zone 15"
+        name="zone 15.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -3907,7 +3907,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -3922,7 +3922,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="110"
-        name="zone 16"
+        name="zone 16.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -3945,7 +3945,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -3960,7 +3960,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="111"
-        name="zone 21"
+        name="zone 21.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -3983,7 +3983,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -3998,7 +3998,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="112"
-        name="zone 22"
+        name="zone 22.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4021,7 +4021,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -4036,7 +4036,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="113"
-        name="zone 87"
+        name="zone 87.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4074,7 +4074,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="114"
-        name="zone 88"
+        name="zone 88.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4112,7 +4112,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="115"
-        name="zone 90"
+        name="zone 90.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4150,7 +4150,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="116"
-        name="zone 92"
+        name="zone 92.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4188,7 +4188,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="117"
-        name="zone 93"
+        name="zone 93.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4226,7 +4226,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="118"
-        name="zone 94"
+        name="zone 94.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4264,7 +4264,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="119"
-        name="zone 95"
+        name="zone 95.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4302,7 +4302,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="120"
-        name="zone 110"
+        name="zone 110.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4340,7 +4340,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="121"
-        name="zone 128"
+        name="zone 128.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4378,7 +4378,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="122"
-        name="zone 131"
+        name="zone 131.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4416,7 +4416,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="123"
-        name="zone 132"
+        name="zone 132.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4454,7 +4454,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="124"
-        name="zone 136"
+        name="zone 136.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4492,7 +4492,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="125"
-        name="zone 138"
+        name="zone 138.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4530,7 +4530,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="126"
-        name="zone 910"
+        name="zone 910.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4553,7 +4553,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -4568,7 +4568,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="127"
-        name="zone 911"
+        name="zone 911.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4591,7 +4591,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -4606,7 +4606,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="128"
-        name="zone 916"
+        name="zone 916.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4629,7 +4629,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -4644,7 +4644,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="129"
-        name="zone 918"
+        name="zone 918.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4667,7 +4667,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2
@@ -4682,7 +4682,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="130"
-        name="zone 925"
+        name="zone 925.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4720,7 +4720,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="131"
-        name="zone 926"
+        name="zone 926.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4758,7 +4758,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="132"
-        name="zone 928"
+        name="zone 928.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4796,7 +4796,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="133"
-        name="zone 929"
+        name="zone 929.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry
@@ -4834,7 +4834,7 @@ xmlns:gml="http://www.opengis.net/gml"
         </areaSource>
         <areaSource
         id="134"
-        name="zone 931"
+        name="zone 931.1"
         tectonicRegion="subduction interface megathrust"
         >
             <areaGeometry

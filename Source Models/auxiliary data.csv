@@ -20,8 +20,8 @@ zoneid,zmin,zmax,dip,rake,mechanism,aspect ratio,msr,tectonic zone,region,tecton
 906,0,25,84,-18,strike-slip,2,WC1994,Active shallow crust,Himalayas - Main Frontal Thrust,active shallow crust strike-slip reverse,
 913,0,25,88,-175,strike-slip,2,WC1994,Active shallow crust,Bangladesh,active shallow crust strike-slip reverse,
 912,0,25,40,90,reverse,2,WC1994,Intraplate margin,Shillong plateau,intraplate margin upper,
-71,0,25,-1,-1,all,2,WC1994,Stable continental,"Bay of Bengal, Arabian Sea",no seismicity,oceanic not continental
-86,0,25,-1,-1,all,2,WC1994,Stable continental,"Sri Lanka, Laccadive Sea",no seismicity,
+71,0,25,-1,-1,all,2,WC1994,Stable continental,"Bay of Bengal, Arabian Sea",stable shallow crust,"oceanic not continental, but no seismicity"
+86,0,25,-1,-1,all,2,WC1994,Stable continental,"Sri Lanka, Laccadive Sea",stable shallow crust,no seismicity
 63,0,25,39,136,reverse,2,WC1994,Stable continental,Peninsular India,stable shallow crust,
 66,0,25,83,25,strike-slip,2,WC1994,Stable continental,Peninsular India,stable shallow crust,
 74,0,25,47,68,reverse,2,WC1994,Stable continental,Peninsular India,stable shallow crust,
@@ -34,26 +34,26 @@ zoneid,zmin,zmax,dip,rake,mechanism,aspect ratio,msr,tectonic zone,region,tecton
 922,0,25,66,165,strike-slip,2,WC1994,Stable continental,Peninsular India,stable shallow crust,
 923,0,25,-1,-1,all,2,WC1994,Stable continental,Peninsular India,stable shallow crust,
 924,0,25,-1,-1,all,2,WC1994,Stable continental,Peninsular India,stable shallow crust,
-1,0,25,73,30,strike-slip,2,WC1994,Subduction interface,Pamirs,subduction interface,
-2,0,25,31,142,reverse,2,WC1994,Subduction interface,Pamirs,subduction interface,
-4,0,25,56,177,strike-slip,2,WC1994,Subduction interface,Kunlun Shan,subduction interface,
-5,0,25,55,148,reverse,2,WC1994,Subduction interface,,subduction interface,
-13,0,25,78,94,reverse,2,WC1994,Subduction interface,Himalayas - Main Frontal Thrust,subduction interface,
-14,0,25,69,-30,strike-slip,2,WC1994,Subduction interface,Makran,subduction interface,
-15,0,25,71,24,strike-slip,2,WC1994,Subduction interface,Kirthar,subduction interface,
-16,0,25,18,126,reverse,2,WC1994,Subduction interface,Sulaiman,subduction interface,
-17,0,25,13,59,reverse,2,WC1994,Subduction interface,Pamirs,subduction interface,could be stable
-21,0,25,14,90,reverse,2,WC1994,Subduction interface,Himalayas - Main Frontal Thrust,subduction interface,
-22,0,25,31,108,reverse,2,WC1994,Subduction interface,Himalayas - Main Frontal Thrust,subduction interface,
-910,0,25,10,123,reverse,2,WC1994,Subduction interface,Indo-Myanmar,subduction interface,
-911,0,25,31,69,reverse,2,WC1994,Subduction interface,Indo-Myanmar,subduction interface,
-916,0,25,46,124,reverse,2,WC1994,Subduction interface,Andaman-Sumatra,subduction interface,oceanic not continental
-918,0,25,25,108,reverse,2,WC1994,Subduction interface,Andaman-Sumatra,subduction interface,oceanic not continental
+1,0,25,73,30,strike-slip,2,StrasserInterface,Subduction interface,Pamirs,subduction interface,
+2,0,25,31,142,reverse,2,StrasserInterface,Subduction interface,Pamirs,subduction interface,
+4,0,25,56,177,strike-slip,2,StrasserInterface,Subduction interface,Kunlun Shan,subduction interface,
+5,0,25,55,148,reverse,2,StrasserInterface,Subduction interface,,subduction interface,
+13,0,25,78,94,reverse,2,StrasserInterface,Subduction interface,Himalayas - Main Frontal Thrust,subduction interface,
+14,0,25,69,-30,strike-slip,2,StrasserInterface,Subduction interface,Makran,subduction interface,
+15,0,25,71,24,strike-slip,2,StrasserInterface,Subduction interface,Kirthar,subduction interface,
+16,0,25,18,126,reverse,2,StrasserInterface,Subduction interface,Sulaiman,subduction interface,
+17,0,25,13,59,reverse,2,StrasserInterface,Subduction interface,Pamirs,subduction interface,could be stable
+21,0,25,14,90,reverse,2,StrasserInterface,Subduction interface,Himalayas - Main Frontal Thrust,subduction interface,
+22,0,25,31,108,reverse,2,StrasserInterface,Subduction interface,Himalayas - Main Frontal Thrust,subduction interface,
+910,0,25,10,123,reverse,2,StrasserInterface,Subduction interface,Indo-Myanmar,subduction interface,
+911,0,25,31,69,reverse,2,StrasserInterface,Subduction interface,Indo-Myanmar,subduction interface,
+916,0,25,46,124,reverse,2,StrasserInterface,Subduction interface,Andaman-Sumatra,subduction interface,oceanic not continental
+918,0,25,25,108,reverse,2,StrasserInterface,Subduction interface,Andaman-Sumatra,subduction interface,oceanic not continental
 118,25,70,89,-141,normal,2,WC1994,Intraplate margin,Shillong plateau?,intraplate margin lower,unsure of correct scaling relation
 119,25,70,40,90,reverse,2,WC1994,Intraplate margin,Shillong plateau,intraplate margin lower,unsure of correct scaling relation
 932,25,70,67,8,strike-slip,2,WC1994,Stable continental,,stable shallow crust,what to do here?
 933,25,70,26,129,reverse,2,WC1994,Stable continental,,stable shallow crust,unsure of correct scaling relation
-9171,25,70,-1,-1,all,2,WC1994,Stable continental,Bay of Bengal,no seismicity,oceanic not continental
+9171,25,70,-1,-1,all,2,WC1994,Stable continental,Bay of Bengal,stable shallow crust,"oceanic not continental, but no seismicity"
 87,25,70,89,166,strike-slip,2,StrasserInterface,Subduction interface,Pamir,subduction interface,why no Japan/Cascadia distinction with Atkinson/Boore?
 88,25,70,73,4,strike-slip,2,StrasserInterface,Subduction interface,Hindu Kush,subduction interface,
 89,25,70,68,94,reverse,2,StrasserInterface,Subduction interface,Hindu Kush,subduction interface,
@@ -87,10 +87,10 @@ zoneid,zmin,zmax,dip,rake,mechanism,aspect ratio,msr,tectonic zone,region,tecton
 929,25,70,81,11,strike-slip,2,StrasserInterface,Subduction interface,Indo-Myanmar,subduction interface,
 930,25,70,68,25,strike-slip,2,StrasserInterface,Subduction interface,Indo-Myanmar,subduction interface,
 931,25,70,90,-3,strike-slip,2,StrasserInterface,Subduction interface,Indo-Myanmar,subduction interface,
-9031,25,70,-1,-1,all,2,StrasserInterface,Subduction interface,Murray Ridge,no seismicity,
-9081,25,70,-1,-1,all,2,StrasserInterface,Subduction interface,Himalayas,no seismicity,
-9131,25,70,-1,-1,all,2,StrasserInterface,Subduction interface,,no seismicity,
-9151,25,70,-1,-1,all,2,StrasserInterface,Subduction interface,,no seismicity,
+9031,25,70,-1,-1,all,2,StrasserInterface,Subduction interface,Murray Ridge,subduction interface,no seismicity
+9081,25,70,-1,-1,all,2,StrasserInterface,Subduction interface,Himalayas,subduction interface,no seismicity
+9131,25,70,-1,-1,all,2,StrasserInterface,Subduction interface,,subduction interface,no seismicity
+9151,25,70,-1,-1,all,2,StrasserInterface,Subduction interface,,subduction interface,no seismicity
 162,70,180,58,147,reverse,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,
 163,70,180,46,55,reverse,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,
 164,70,180,65,22,strike-slip,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,

@@ -6,9 +6,9 @@
       <SimpleField name="zoneid" type="int"/>
       <SimpleField name="tectonic subregion" type="string"/>
       <SimpleField name="mmin" type="double"/>
+      <SimpleField name="a" type="double"/>
       <SimpleField name="aspect ratio" type="int"/>
-      <SimpleField name="avalue" type="double"/>
-      <SimpleField name="bvalue" type="double"/>
+      <SimpleField name="b" type="double"/>
       <SimpleField name="concerns" type="string"/>
       <SimpleField name="dip" type="int"/>
       <SimpleField name="mechanism" type="string"/>
@@ -17,12 +17,18 @@
       <SimpleField name="polygon coordinates" type="string"/>
       <SimpleField name="rake" type="double"/>
       <SimpleField name="region" type="string"/>
-      <SimpleField name="stdbvalue" type="double"/>
+      <SimpleField name="stdb" type="double"/>
       <SimpleField name="stdmmax" type="double"/>
       <SimpleField name="strike" type="int"/>
       <SimpleField name="tectonic zone" type="string"/>
       <SimpleField name="zmax" type="double"/>
       <SimpleField name="zmin" type="double"/>
+      <SimpleField name="N 4.5" type="int"/>
+      <SimpleField name="nu 4.5" type="double"/>
+      <SimpleField name="a 4.5" type="double"/>
+      <SimpleField name="N 5.5" type="int"/>
+      <SimpleField name="nu 5.5" type="double"/>
+      <SimpleField name="a 5.5" type="double"/>
       <SimpleField name="logN_5.0-6.0" type="double"/>
       <SimpleField name="logN_6.0-7.0" type="double"/>
       <SimpleField name="logN_7.0-8.0" type="double"/>
@@ -33,22 +39,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">5.2</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">5.2</SimpleData>
-          <SimpleData name="bvalue">1.05</SimpleData>
+          <SimpleData name="b">1.05</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">73</SimpleData>
           <SimpleData name="mechanism">dextral</SimpleData>
           <SimpleData name="mmax">8.0</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">30.0</SimpleData>
           <SimpleData name="region">Pamirs</SimpleData>
-          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdb">0.07</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">202</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1090</SimpleData>
+          <SimpleData name="nu 4.5">317.5179</SimpleData>
+          <SimpleData name="a 4.5">8.28</SimpleData>
+          <SimpleData name="N 5.5">1090</SimpleData>
+          <SimpleData name="nu 5.5">11.2995</SimpleData>
+          <SimpleData name="a 5.5">6.83</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.09</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.14</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.19</SimpleData>
@@ -69,22 +81,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.64</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.64</SimpleData>
-          <SimpleData name="bvalue">0.93</SimpleData>
+          <SimpleData name="b">0.93</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">31</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">8.0</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">142.0</SimpleData>
           <SimpleData name="region">Pamirs</SimpleData>
-          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdb">0.09</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">306</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">974</SimpleData>
+          <SimpleData name="nu 4.5">250.2674</SimpleData>
+          <SimpleData name="a 4.5">7.51</SimpleData>
+          <SimpleData name="N 5.5">974</SimpleData>
+          <SimpleData name="nu 5.5">14.7491</SimpleData>
+          <SimpleData name="a 5.5">6.28</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.06</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.99</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.92</SimpleData>
@@ -105,9 +123,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.75</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.75</SimpleData>
-          <SimpleData name="bvalue">0.77</SimpleData>
+          <SimpleData name="b">0.77</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">89</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
@@ -115,12 +133,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">33.0</SimpleData>
           <SimpleData name="region">Qaidam</SimpleData>
-          <SimpleData name="stdbvalue">0.05</SimpleData>
+          <SimpleData name="stdb">0.05</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">59</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">630</SimpleData>
+          <SimpleData name="nu 4.5">139.7929</SimpleData>
+          <SimpleData name="a 4.5">6.38</SimpleData>
+          <SimpleData name="N 5.5">630</SimpleData>
+          <SimpleData name="nu 5.5">11.8139</SimpleData>
+          <SimpleData name="a 5.5">5.31</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.18</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.95</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.72</SimpleData>
@@ -141,22 +165,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.34</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.34</SimpleData>
-          <SimpleData name="bvalue">0.98</SimpleData>
+          <SimpleData name="b">0.98</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">56</SimpleData>
           <SimpleData name="mechanism">dextral</SimpleData>
           <SimpleData name="mmax">7.4</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">177.0</SimpleData>
           <SimpleData name="region">Kunlun Shan</SimpleData>
-          <SimpleData name="stdbvalue">0.08</SimpleData>
+          <SimpleData name="stdb">0.08</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">309</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2896</SimpleData>
+          <SimpleData name="nu 4.5">94.8224</SimpleData>
+          <SimpleData name="a 4.5">7.37</SimpleData>
+          <SimpleData name="N 5.5">2896</SimpleData>
+          <SimpleData name="nu 5.5">3.0104</SimpleData>
+          <SimpleData name="a 5.5">5.87</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.61</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.59</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.75</SimpleData>
@@ -177,22 +207,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.29</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.29</SimpleData>
-          <SimpleData name="bvalue">0.91</SimpleData>
+          <SimpleData name="b">0.91</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">55</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">7.8</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">148.0</SimpleData>
           <SimpleData name="region">nan</SimpleData>
-          <SimpleData name="stdbvalue">0.08</SimpleData>
+          <SimpleData name="stdb">0.08</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">274</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">984</SimpleData>
+          <SimpleData name="nu 4.5">151.4032</SimpleData>
+          <SimpleData name="a 4.5">7.19</SimpleData>
+          <SimpleData name="N 5.5">984</SimpleData>
+          <SimpleData name="nu 5.5">12.9075</SimpleData>
+          <SimpleData name="a 5.5">6.12</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.32</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.23</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.17</SimpleData>
@@ -213,9 +249,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.75</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.75</SimpleData>
-          <SimpleData name="bvalue">1.01</SimpleData>
+          <SimpleData name="b">1.01</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">42</SimpleData>
           <SimpleData name="mechanism">normal</SimpleData>
@@ -223,12 +259,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-53.0</SimpleData>
           <SimpleData name="region">Pamirs</SimpleData>
-          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdb">0.09</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">189</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1380</SimpleData>
+          <SimpleData name="nu 4.5">172.5552</SimpleData>
+          <SimpleData name="a 4.5">7.79</SimpleData>
+          <SimpleData name="N 5.5">1380</SimpleData>
+          <SimpleData name="nu 5.5">9.5092</SimpleData>
+          <SimpleData name="a 5.5">6.53</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.34</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.35</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.36</SimpleData>
@@ -249,9 +291,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.89</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.89</SimpleData>
-          <SimpleData name="bvalue">1.08</SimpleData>
+          <SimpleData name="b">1.08</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">52</SimpleData>
           <SimpleData name="mechanism">normal</SimpleData>
@@ -259,12 +301,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-74.0</SimpleData>
           <SimpleData name="region">Kunlun</SimpleData>
-          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">203</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1950</SimpleData>
+          <SimpleData name="nu 4.5">127.9271</SimpleData>
+          <SimpleData name="a 4.5">8.05</SimpleData>
+          <SimpleData name="N 5.5">1950</SimpleData>
+          <SimpleData name="nu 5.5">3.6994</SimpleData>
+          <SimpleData name="a 5.5">6.51</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.55</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.63</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.78</SimpleData>
@@ -285,9 +333,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.64</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.64</SimpleData>
-          <SimpleData name="bvalue">0.82</SimpleData>
+          <SimpleData name="b">0.82</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">34</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
@@ -295,12 +343,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">113.0</SimpleData>
           <SimpleData name="region">Hindu Kush</SimpleData>
-          <SimpleData name="stdbvalue">0.08</SimpleData>
+          <SimpleData name="stdb">0.08</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">271</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">3484</SimpleData>
+          <SimpleData name="nu 4.5">102.6627</SimpleData>
+          <SimpleData name="a 4.5">6.52</SimpleData>
+          <SimpleData name="N 5.5">3484</SimpleData>
+          <SimpleData name="nu 5.5">19.6318</SimpleData>
+          <SimpleData name="a 5.5">5.8</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.53</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.35</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.17</SimpleData>
@@ -321,9 +375,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.01</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.01</SimpleData>
-          <SimpleData name="bvalue">0.87</SimpleData>
+          <SimpleData name="b">0.87</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">16</SimpleData>
           <SimpleData name="mechanism">dextral</SimpleData>
@@ -331,12 +385,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">171.0</SimpleData>
           <SimpleData name="region">Hindu Kush</SimpleData>
-          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdb">0.07</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">36</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1002</SimpleData>
+          <SimpleData name="nu 4.5">131.6066</SimpleData>
+          <SimpleData name="a 4.5">6.9</SimpleData>
+          <SimpleData name="N 5.5">1002</SimpleData>
+          <SimpleData name="nu 5.5">12.5284</SimpleData>
+          <SimpleData name="a 5.5">5.88</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.4</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.27</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.14</SimpleData>
@@ -357,9 +417,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.45</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.45</SimpleData>
-          <SimpleData name="bvalue">0.72</SimpleData>
+          <SimpleData name="b">0.72</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">57</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
@@ -367,12 +427,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">66.0</SimpleData>
           <SimpleData name="region">Himalayas</SimpleData>
-          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdb">0.07</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">114</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2126</SimpleData>
+          <SimpleData name="nu 4.5">111.0673</SimpleData>
+          <SimpleData name="a 4.5">6.01</SimpleData>
+          <SimpleData name="N 5.5">2126</SimpleData>
+          <SimpleData name="nu 5.5">7.3199</SimpleData>
+          <SimpleData name="a 5.5">4.82</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.24</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.96</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.68</SimpleData>
@@ -393,22 +459,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.24</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.24</SimpleData>
-          <SimpleData name="bvalue">0.75</SimpleData>
+          <SimpleData name="b">0.75</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">78</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">8.8</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">94.0</SimpleData>
           <SimpleData name="region">Himalayas - Main Frontal Thrust</SimpleData>
-          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdb">0.07</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">138</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1806</SimpleData>
+          <SimpleData name="nu 4.5">95.169</SimpleData>
+          <SimpleData name="a 4.5">6.1</SimpleData>
+          <SimpleData name="N 5.5">1806</SimpleData>
+          <SimpleData name="nu 5.5">7.9161</SimpleData>
+          <SimpleData name="a 5.5">5.02</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.6</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.35</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.1</SimpleData>
@@ -429,22 +501,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.12</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.12</SimpleData>
-          <SimpleData name="bvalue">0.72</SimpleData>
+          <SimpleData name="b">0.72</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">69</SimpleData>
           <SimpleData name="mechanism">sinistral</SimpleData>
           <SimpleData name="mmax">8.6</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">-30.0</SimpleData>
           <SimpleData name="region">Makran</SimpleData>
-          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdb">0.09</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">228</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">3884</SimpleData>
+          <SimpleData name="nu 4.5">71.3498</SimpleData>
+          <SimpleData name="a 4.5">5.81</SimpleData>
+          <SimpleData name="N 5.5">3884</SimpleData>
+          <SimpleData name="nu 5.5">7.1496</SimpleData>
+          <SimpleData name="a 5.5">4.81</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.57</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.29</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.01</SimpleData>
@@ -465,22 +543,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.88</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.88</SimpleData>
-          <SimpleData name="bvalue">0.98</SimpleData>
+          <SimpleData name="b">0.98</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">71</SimpleData>
           <SimpleData name="mechanism">sinistral</SimpleData>
           <SimpleData name="mmax">8.3</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">24.0</SimpleData>
           <SimpleData name="region">Kirthar</SimpleData>
-          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdb">0.1</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">204</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">3578</SimpleData>
+          <SimpleData name="nu 4.5">185.4891</SimpleData>
+          <SimpleData name="a 4.5">7.66</SimpleData>
+          <SimpleData name="N 5.5">3578</SimpleData>
+          <SimpleData name="nu 5.5">29.4921</SimpleData>
+          <SimpleData name="a 5.5">6.86</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.07</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.05</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.03</SimpleData>
@@ -501,22 +585,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.36</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.36</SimpleData>
-          <SimpleData name="bvalue">0.88</SimpleData>
+          <SimpleData name="b">0.88</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">18</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">8.3</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">126.0</SimpleData>
           <SimpleData name="region">Sulaiman</SimpleData>
-          <SimpleData name="stdbvalue">0.08</SimpleData>
+          <SimpleData name="stdb">0.08</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">298</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2412</SimpleData>
+          <SimpleData name="nu 4.5">244.7897</SimpleData>
+          <SimpleData name="a 4.5">7.23</SimpleData>
+          <SimpleData name="N 5.5">2412</SimpleData>
+          <SimpleData name="nu 5.5">24.0746</SimpleData>
+          <SimpleData name="a 5.5">6.22</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.1</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.98</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.86</SimpleData>
@@ -537,22 +627,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.25</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.25</SimpleData>
-          <SimpleData name="bvalue">0.82</SimpleData>
+          <SimpleData name="b">0.82</SimpleData>
           <SimpleData name="concerns">could be stable</SimpleData>
           <SimpleData name="dip">13</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">7.0</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">59.0</SimpleData>
           <SimpleData name="region">Pamirs</SimpleData>
-          <SimpleData name="stdbvalue">0.11</SimpleData>
+          <SimpleData name="stdb">0.11</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">219</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2524</SimpleData>
+          <SimpleData name="nu 4.5">43.0527</SimpleData>
+          <SimpleData name="a 4.5">6.14</SimpleData>
+          <SimpleData name="N 5.5">2524</SimpleData>
+          <SimpleData name="nu 5.5">6.8059</SimpleData>
+          <SimpleData name="a 5.5">5.34</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.92</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.74</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
@@ -573,22 +669,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.87</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.87</SimpleData>
-          <SimpleData name="bvalue">0.85</SimpleData>
+          <SimpleData name="b">0.85</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">14</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">8.6</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
           <SimpleData name="region">Himalayas - Main Frontal Thrust</SimpleData>
-          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdb">0.09</SimpleData>
           <SimpleData name="stdmmax">0.2</SimpleData>
           <SimpleData name="strike">291</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2480</SimpleData>
+          <SimpleData name="nu 4.5">222.2816</SimpleData>
+          <SimpleData name="a 4.5">7.02</SimpleData>
+          <SimpleData name="N 5.5">2480</SimpleData>
+          <SimpleData name="nu 5.5">13.4595</SimpleData>
+          <SimpleData name="a 5.5">5.8</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.45</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.3</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.15</SimpleData>
@@ -609,22 +711,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.34</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.34</SimpleData>
-          <SimpleData name="bvalue">0.73</SimpleData>
+          <SimpleData name="b">0.73</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">31</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">8.8</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">108.0</SimpleData>
           <SimpleData name="region">Himalayas - Main Frontal Thrust</SimpleData>
-          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdb">0.1</SimpleData>
           <SimpleData name="stdmmax">0.2</SimpleData>
           <SimpleData name="strike">308</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1814</SimpleData>
+          <SimpleData name="nu 4.5">88.734</SimpleData>
+          <SimpleData name="a 4.5">5.96</SimpleData>
+          <SimpleData name="N 5.5">1814</SimpleData>
+          <SimpleData name="nu 5.5">6.4265</SimpleData>
+          <SimpleData name="a 5.5">4.82</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.4</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.13</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.86</SimpleData>
@@ -645,9 +753,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">6.79</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">6.79</SimpleData>
-          <SimpleData name="bvalue">1.35</SimpleData>
+          <SimpleData name="b">1.35</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">48</SimpleData>
           <SimpleData name="mechanism">normal</SimpleData>
@@ -655,12 +763,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-77.0</SimpleData>
           <SimpleData name="region">Andaman-Sumatra</SimpleData>
-          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdb">0.1</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">244</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1828</SimpleData>
+          <SimpleData name="nu 4.5">230.6735</SimpleData>
+          <SimpleData name="a 4.5">9.79</SimpleData>
+          <SimpleData name="N 5.5">1828</SimpleData>
+          <SimpleData name="nu 5.5">6.75</SimpleData>
+          <SimpleData name="a 5.5">8.25</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.02</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.33</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.99</SimpleData>
@@ -681,9 +795,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.95</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.95</SimpleData>
-          <SimpleData name="bvalue">0.95</SimpleData>
+          <SimpleData name="b">0.95</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">75</SimpleData>
           <SimpleData name="mechanism">dextral</SimpleData>
@@ -691,12 +805,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">180.0</SimpleData>
           <SimpleData name="region">Andaman-Sumatra</SimpleData>
-          <SimpleData name="stdbvalue">0.06</SimpleData>
+          <SimpleData name="stdb">0.06</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">151</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">4142</SimpleData>
+          <SimpleData name="nu 4.5">271.6077</SimpleData>
+          <SimpleData name="a 4.5">7.66</SimpleData>
+          <SimpleData name="N 5.5">4142</SimpleData>
+          <SimpleData name="nu 5.5">30.5325</SimpleData>
+          <SimpleData name="a 5.5">6.71</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.15</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.8</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.75</SimpleData>
@@ -717,9 +837,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.01</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.01</SimpleData>
-          <SimpleData name="bvalue">0.95</SimpleData>
+          <SimpleData name="b">0.95</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">39</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
@@ -727,12 +847,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">136.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.05</SimpleData>
+          <SimpleData name="stdb">0.05</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">298</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2269</SimpleData>
+          <SimpleData name="nu 4.5">62.4072</SimpleData>
+          <SimpleData name="a 4.5">7.02</SimpleData>
+          <SimpleData name="N 5.5">2269</SimpleData>
+          <SimpleData name="nu 5.5">5.0872</SimpleData>
+          <SimpleData name="a 5.5">5.93</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.79</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.74</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.69</SimpleData>
@@ -753,9 +879,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.45</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.45</SimpleData>
-          <SimpleData name="bvalue">0.86</SimpleData>
+          <SimpleData name="b">0.86</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">83</SimpleData>
           <SimpleData name="mechanism">sinistral</SimpleData>
@@ -763,12 +889,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">25.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.11</SimpleData>
+          <SimpleData name="stdb">0.11</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">58</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1434</SimpleData>
+          <SimpleData name="nu 4.5">14.3976</SimpleData>
+          <SimpleData name="a 4.5">5.89</SimpleData>
+          <SimpleData name="N 5.5">1434</SimpleData>
+          <SimpleData name="nu 5.5">0.3238</SimpleData>
+          <SimpleData name="a 5.5">4.24</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.91</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.77</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
@@ -785,26 +917,32 @@
     </Placemark>
     <Placemark>
       <name>71</name>
-      <description>no seismicity</description>
+      <description>stable shallow crust</description>
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">0.0</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">0.0</SimpleData>
-          <SimpleData name="bvalue">0.81</SimpleData>
-          <SimpleData name="concerns">oceanic not continental</SimpleData>
+          <SimpleData name="b">0.81</SimpleData>
+          <SimpleData name="concerns">oceanic not continental, but no seismicity</SimpleData>
           <SimpleData name="dip">45</SimpleData>
           <SimpleData name="mechanism">undefined</SimpleData>
           <SimpleData name="mmax">5.8</SimpleData>
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
           <SimpleData name="region">Bay of Bengal, Arabian Sea</SimpleData>
-          <SimpleData name="stdbvalue">0.05</SimpleData>
+          <SimpleData name="stdb">0.05</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">0</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">3552</SimpleData>
+          <SimpleData name="nu 4.5">8.7144</SimpleData>
+          <SimpleData name="a 4.5">5.4</SimpleData>
+          <SimpleData name="N 5.5">3552</SimpleData>
+          <SimpleData name="nu 5.5">0.3045</SimpleData>
+          <SimpleData name="a 5.5">3.94</SimpleData>
           <SimpleData name="logN_5.0-6.0">-4.16</SimpleData>
           <SimpleData name="logN_6.0-7.0">nan</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
@@ -825,9 +963,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">2.57</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">2.57</SimpleData>
-          <SimpleData name="bvalue">0.86</SimpleData>
+          <SimpleData name="b">0.86</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">47</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
@@ -835,12 +973,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">68.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdb">0.07</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">284</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2604</SimpleData>
+          <SimpleData name="nu 4.5">16.245</SimpleData>
+          <SimpleData name="a 4.5">5.94</SimpleData>
+          <SimpleData name="N 5.5">2604</SimpleData>
+          <SimpleData name="nu 5.5">2.825</SimpleData>
+          <SimpleData name="a 5.5">5.18</SimpleData>
           <SimpleData name="logN_5.0-6.0">-1.79</SimpleData>
           <SimpleData name="logN_6.0-7.0">-2.79</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
@@ -861,9 +1005,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.91</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.91</SimpleData>
-          <SimpleData name="bvalue">1.19</SimpleData>
+          <SimpleData name="b">1.19</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">45</SimpleData>
           <SimpleData name="mechanism">undefined</SimpleData>
@@ -871,12 +1015,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">0</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">724</SimpleData>
+          <SimpleData name="nu 4.5">1.5288</SimpleData>
+          <SimpleData name="a 4.5">6.73</SimpleData>
+          <SimpleData name="N 5.5">724</SimpleData>
+          <SimpleData name="nu 5.5">0.5551</SimpleData>
+          <SimpleData name="a 5.5">6.29</SimpleData>
           <SimpleData name="logN_5.0-6.0">-2.07</SimpleData>
           <SimpleData name="logN_6.0-7.0">-3.41</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
@@ -897,9 +1047,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">2.65</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">2.65</SimpleData>
-          <SimpleData name="bvalue">0.86</SimpleData>
+          <SimpleData name="b">0.86</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">45</SimpleData>
           <SimpleData name="mechanism">undefined</SimpleData>
@@ -907,12 +1057,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">0</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1134</SimpleData>
+          <SimpleData name="nu 4.5">5.2997</SimpleData>
+          <SimpleData name="a 4.5">5.45</SimpleData>
+          <SimpleData name="N 5.5">1134</SimpleData>
+          <SimpleData name="nu 5.5">0.1251</SimpleData>
+          <SimpleData name="a 5.5">3.83</SimpleData>
           <SimpleData name="logN_5.0-6.0">-1.71</SimpleData>
           <SimpleData name="logN_6.0-7.0">-3.0</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
@@ -933,9 +1089,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.14</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.14</SimpleData>
-          <SimpleData name="bvalue">1.01</SimpleData>
+          <SimpleData name="b">1.01</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">66</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
@@ -943,12 +1099,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">64.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.13</SimpleData>
+          <SimpleData name="stdb">0.13</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">51</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">725</SimpleData>
+          <SimpleData name="nu 4.5">9.3953</SimpleData>
+          <SimpleData name="a 4.5">6.53</SimpleData>
+          <SimpleData name="N 5.5">725</SimpleData>
+          <SimpleData name="nu 5.5">0.0</SimpleData>
+          <SimpleData name="a 5.5">-inf</SimpleData>
           <SimpleData name="logN_5.0-6.0">-1.95</SimpleData>
           <SimpleData name="logN_6.0-7.0">-3.6</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
@@ -965,26 +1127,32 @@
     </Placemark>
     <Placemark>
       <name>86</name>
-      <description>no seismicity</description>
+      <description>stable shallow crust</description>
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">0.0</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">0.0</SimpleData>
-          <SimpleData name="bvalue">0.81</SimpleData>
-          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="b">0.81</SimpleData>
+          <SimpleData name="concerns">no seismicity</SimpleData>
           <SimpleData name="dip">45</SimpleData>
           <SimpleData name="mechanism">undefined</SimpleData>
           <SimpleData name="mmax">6.3</SimpleData>
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
           <SimpleData name="region">Sri Lanka, Laccadive Sea</SimpleData>
-          <SimpleData name="stdbvalue">0.05</SimpleData>
+          <SimpleData name="stdb">0.05</SimpleData>
           <SimpleData name="stdmmax">0.2</SimpleData>
           <SimpleData name="strike">0</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1615</SimpleData>
+          <SimpleData name="nu 4.5">4.5434</SimpleData>
+          <SimpleData name="a 4.5">5.11</SimpleData>
+          <SimpleData name="N 5.5">1615</SimpleData>
+          <SimpleData name="nu 5.5">0.9396</SimpleData>
+          <SimpleData name="a 5.5">4.43</SimpleData>
           <SimpleData name="logN_5.0-6.0">-4.12</SimpleData>
           <SimpleData name="logN_6.0-7.0">-5.23</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
@@ -1005,9 +1173,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.39</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.39</SimpleData>
-          <SimpleData name="bvalue">0.9</SimpleData>
+          <SimpleData name="b">0.9</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">80</SimpleData>
           <SimpleData name="mechanism">sinistral</SimpleData>
@@ -1015,12 +1183,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">18.0</SimpleData>
           <SimpleData name="region">Chang Chenmo, Aksai Chin</SimpleData>
-          <SimpleData name="stdbvalue">0.11</SimpleData>
+          <SimpleData name="stdb">0.11</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">273</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">3206</SimpleData>
+          <SimpleData name="nu 4.5">181.2023</SimpleData>
+          <SimpleData name="a 4.5">7.21</SimpleData>
+          <SimpleData name="N 5.5">3206</SimpleData>
+          <SimpleData name="nu 5.5">7.1945</SimpleData>
+          <SimpleData name="a 5.5">5.81</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.17</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.07</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.06</SimpleData>
@@ -1041,9 +1215,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.19</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.19</SimpleData>
-          <SimpleData name="bvalue">0.86</SimpleData>
+          <SimpleData name="b">0.86</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">48</SimpleData>
           <SimpleData name="mechanism">normal</SimpleData>
@@ -1051,12 +1225,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-61.0</SimpleData>
           <SimpleData name="region">Tibetan plateau</SimpleData>
-          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">212</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">5510</SimpleData>
+          <SimpleData name="nu 4.5">181.5667</SimpleData>
+          <SimpleData name="a 4.5">6.99</SimpleData>
+          <SimpleData name="N 5.5">5510</SimpleData>
+          <SimpleData name="nu 5.5">17.5586</SimpleData>
+          <SimpleData name="a 5.5">5.97</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.17</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.03</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.93</SimpleData>
@@ -1077,9 +1257,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">5.19</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">5.19</SimpleData>
-          <SimpleData name="bvalue">1.12</SimpleData>
+          <SimpleData name="b">1.12</SimpleData>
           <SimpleData name="concerns">oceanic not continental</SimpleData>
           <SimpleData name="dip">64</SimpleData>
           <SimpleData name="mechanism">normal</SimpleData>
@@ -1087,12 +1267,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-45.0</SimpleData>
           <SimpleData name="region">Murray Ridge</SimpleData>
-          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">104</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">3097</SimpleData>
+          <SimpleData name="nu 4.5">44.9192</SimpleData>
+          <SimpleData name="a 4.5">7.81</SimpleData>
+          <SimpleData name="N 5.5">3097</SimpleData>
+          <SimpleData name="nu 5.5">1.9934</SimpleData>
+          <SimpleData name="a 5.5">6.46</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.44</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.56</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
@@ -1113,9 +1299,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.38</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.38</SimpleData>
-          <SimpleData name="bvalue">1.0</SimpleData>
+          <SimpleData name="b">1.0</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">83</SimpleData>
           <SimpleData name="mechanism">sinistral</SimpleData>
@@ -1123,12 +1309,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-160.0</SimpleData>
           <SimpleData name="region">Himalayas</SimpleData>
-          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdb">0.09</SimpleData>
           <SimpleData name="stdmmax">0.2</SimpleData>
           <SimpleData name="strike">284</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1262</SimpleData>
+          <SimpleData name="nu 4.5">58.1576</SimpleData>
+          <SimpleData name="a 4.5">7.26</SimpleData>
+          <SimpleData name="N 5.5">1262</SimpleData>
+          <SimpleData name="nu 5.5">5.3793</SimpleData>
+          <SimpleData name="a 5.5">6.23</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.67</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.67</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.92</SimpleData>
@@ -1149,9 +1341,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">5.18</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">5.18</SimpleData>
-          <SimpleData name="bvalue">1.05</SimpleData>
+          <SimpleData name="b">1.05</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">52</SimpleData>
           <SimpleData name="mechanism">normal</SimpleData>
@@ -1159,12 +1351,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-114.0</SimpleData>
           <SimpleData name="region">Tibetan plateau</SimpleData>
-          <SimpleData name="stdbvalue">0.13</SimpleData>
+          <SimpleData name="stdb">0.13</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">159</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">3228</SimpleData>
+          <SimpleData name="nu 4.5">145.8439</SimpleData>
+          <SimpleData name="a 4.5">7.94</SimpleData>
+          <SimpleData name="N 5.5">3228</SimpleData>
+          <SimpleData name="nu 5.5">12.5353</SimpleData>
+          <SimpleData name="a 5.5">6.87</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.11</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.16</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.26</SimpleData>
@@ -1185,9 +1383,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.47</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.47</SimpleData>
-          <SimpleData name="bvalue">0.94</SimpleData>
+          <SimpleData name="b">0.94</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">84</SimpleData>
           <SimpleData name="mechanism">sinistral</SimpleData>
@@ -1195,12 +1393,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-18.0</SimpleData>
           <SimpleData name="region">Himalayas - Main Frontal Thrust</SimpleData>
-          <SimpleData name="stdbvalue">0.11</SimpleData>
+          <SimpleData name="stdb">0.11</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">229</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2376</SimpleData>
+          <SimpleData name="nu 4.5">149.016</SimpleData>
+          <SimpleData name="a 4.5">7.34</SimpleData>
+          <SimpleData name="N 5.5">2376</SimpleData>
+          <SimpleData name="nu 5.5">8.6492</SimpleData>
+          <SimpleData name="a 5.5">6.11</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.28</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.22</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.16</SimpleData>
@@ -1221,9 +1425,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">5.47</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">5.47</SimpleData>
-          <SimpleData name="bvalue">1.07</SimpleData>
+          <SimpleData name="b">1.07</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">51</SimpleData>
           <SimpleData name="mechanism">normal</SimpleData>
@@ -1231,12 +1435,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-63.0</SimpleData>
           <SimpleData name="region">Tibetan plateau</SimpleData>
-          <SimpleData name="stdbvalue">0.08</SimpleData>
+          <SimpleData name="stdb">0.08</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">20</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">3714</SimpleData>
+          <SimpleData name="nu 4.5">204.1116</SimpleData>
+          <SimpleData name="a 4.5">8.19</SimpleData>
+          <SimpleData name="N 5.5">3714</SimpleData>
+          <SimpleData name="nu 5.5">14.2742</SimpleData>
+          <SimpleData name="a 5.5">7.04</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.08</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.99</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.11</SimpleData>
@@ -1257,9 +1467,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.41</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.41</SimpleData>
-          <SimpleData name="bvalue">0.92</SimpleData>
+          <SimpleData name="b">0.92</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">58</SimpleData>
           <SimpleData name="mechanism">dextral</SimpleData>
@@ -1267,12 +1477,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">150.0</SimpleData>
           <SimpleData name="region">Himalayas</SimpleData>
-          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdb">0.1</SimpleData>
           <SimpleData name="stdmmax">0.2</SimpleData>
           <SimpleData name="strike">334</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2454</SimpleData>
+          <SimpleData name="nu 4.5">154.5572</SimpleData>
+          <SimpleData name="a 4.5">7.25</SimpleData>
+          <SimpleData name="N 5.5">2454</SimpleData>
+          <SimpleData name="nu 5.5">7.0525</SimpleData>
+          <SimpleData name="a 5.5">5.91</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.25</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.17</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.09</SimpleData>
@@ -1293,9 +1509,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">7.08</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">7.08</SimpleData>
-          <SimpleData name="bvalue">1.37</SimpleData>
+          <SimpleData name="b">1.37</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">33</SimpleData>
           <SimpleData name="mechanism">normal</SimpleData>
@@ -1303,12 +1519,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-82.0</SimpleData>
           <SimpleData name="region">Tibetan plateau</SimpleData>
-          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">268</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">6444</SimpleData>
+          <SimpleData name="nu 4.5">344.7753</SimpleData>
+          <SimpleData name="a 4.5">10.07</SimpleData>
+          <SimpleData name="N 5.5">6444</SimpleData>
+          <SimpleData name="nu 5.5">22.0176</SimpleData>
+          <SimpleData name="a 5.5">8.88</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.21</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.16</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.58</SimpleData>
@@ -1329,22 +1551,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.27</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.27</SimpleData>
-          <SimpleData name="bvalue">0.88</SimpleData>
+          <SimpleData name="b">0.88</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">10</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">7.8</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">123.0</SimpleData>
           <SimpleData name="region">Indo-Myanmar</SimpleData>
-          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdb">0.1</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">211</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2569</SimpleData>
+          <SimpleData name="nu 4.5">133.3426</SimpleData>
+          <SimpleData name="a 4.5">6.96</SimpleData>
+          <SimpleData name="N 5.5">2569</SimpleData>
+          <SimpleData name="nu 5.5">8.4607</SimpleData>
+          <SimpleData name="a 5.5">5.77</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.19</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.07</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.99</SimpleData>
@@ -1365,22 +1593,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.85</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.85</SimpleData>
-          <SimpleData name="bvalue">0.86</SimpleData>
+          <SimpleData name="b">0.86</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">31</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">8.2</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">69.0</SimpleData>
           <SimpleData name="region">Indo-Myanmar</SimpleData>
-          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdb">0.09</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">318</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2100</SimpleData>
+          <SimpleData name="nu 4.5">72.3541</SimpleData>
+          <SimpleData name="a 4.5">6.59</SimpleData>
+          <SimpleData name="N 5.5">2100</SimpleData>
+          <SimpleData name="nu 5.5">3.6619</SimpleData>
+          <SimpleData name="a 5.5">5.29</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.51</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.37</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.23</SimpleData>
@@ -1401,9 +1635,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.84</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.84</SimpleData>
-          <SimpleData name="bvalue">1.12</SimpleData>
+          <SimpleData name="b">1.12</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">40</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
@@ -1411,12 +1645,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
           <SimpleData name="region">Shillong plateau</SimpleData>
-          <SimpleData name="stdbvalue">0.13</SimpleData>
+          <SimpleData name="stdb">0.13</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">112</SimpleData>
           <SimpleData name="tectonic zone">Intraplate margin</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1110</SimpleData>
+          <SimpleData name="nu 4.5">53.4734</SimpleData>
+          <SimpleData name="a 4.5">7.89</SimpleData>
+          <SimpleData name="N 5.5">1110</SimpleData>
+          <SimpleData name="nu 5.5">2.0214</SimpleData>
+          <SimpleData name="a 5.5">6.47</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.79</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.91</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.04</SimpleData>
@@ -1437,9 +1677,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.35</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.35</SimpleData>
-          <SimpleData name="bvalue">0.93</SimpleData>
+          <SimpleData name="b">0.93</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">88</SimpleData>
           <SimpleData name="mechanism">sinistral</SimpleData>
@@ -1447,12 +1687,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-175.0</SimpleData>
           <SimpleData name="region">Bangladesh</SimpleData>
-          <SimpleData name="stdbvalue">0.14</SimpleData>
+          <SimpleData name="stdb">0.14</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">153</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2348</SimpleData>
+          <SimpleData name="nu 4.5">37.3864</SimpleData>
+          <SimpleData name="a 4.5">6.69</SimpleData>
+          <SimpleData name="N 5.5">2348</SimpleData>
+          <SimpleData name="nu 5.5">1.96</SimpleData>
+          <SimpleData name="a 5.5">5.41</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.35</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.28</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.21</SimpleData>
@@ -1473,9 +1719,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">5.24</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">5.24</SimpleData>
-          <SimpleData name="bvalue">1.01</SimpleData>
+          <SimpleData name="b">1.01</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">46</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
@@ -1483,12 +1729,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">124.0</SimpleData>
           <SimpleData name="region">Indo-Myanmar</SimpleData>
-          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdb">0.09</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">192</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">5274</SimpleData>
+          <SimpleData name="nu 4.5">236.8155</SimpleData>
+          <SimpleData name="a 4.5">7.93</SimpleData>
+          <SimpleData name="N 5.5">5274</SimpleData>
+          <SimpleData name="nu 5.5">18.2985</SimpleData>
+          <SimpleData name="a 5.5">6.82</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.15</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.86</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.87</SimpleData>
@@ -1509,9 +1761,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">5.73</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">5.73</SimpleData>
-          <SimpleData name="bvalue">1.36</SimpleData>
+          <SimpleData name="b">1.36</SimpleData>
           <SimpleData name="concerns">oceanic not continental</SimpleData>
           <SimpleData name="dip">52</SimpleData>
           <SimpleData name="mechanism">normal</SimpleData>
@@ -1519,12 +1771,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">-54.0</SimpleData>
           <SimpleData name="region">Bay of Bengal</SimpleData>
-          <SimpleData name="stdbvalue">0.14</SimpleData>
+          <SimpleData name="stdb">0.14</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">234</SimpleData>
           <SimpleData name="tectonic zone">Active shallow crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">604</SimpleData>
+          <SimpleData name="nu 4.5">18.2432</SimpleData>
+          <SimpleData name="a 4.5">8.74</SimpleData>
+          <SimpleData name="N 5.5">604</SimpleData>
+          <SimpleData name="nu 5.5">0.0051</SimpleData>
+          <SimpleData name="a 5.5">5.19</SimpleData>
           <SimpleData name="logN_5.0-6.0">-1.09</SimpleData>
           <SimpleData name="logN_6.0-7.0">-2.5</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
@@ -1545,22 +1803,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.52</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.52</SimpleData>
-          <SimpleData name="bvalue">0.95</SimpleData>
+          <SimpleData name="b">0.95</SimpleData>
           <SimpleData name="concerns">oceanic not continental</SimpleData>
           <SimpleData name="dip">46</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">8.0</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">124.0</SimpleData>
           <SimpleData name="region">Andaman-Sumatra</SimpleData>
-          <SimpleData name="stdbvalue">0.09</SimpleData>
+          <SimpleData name="stdb">0.09</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">192</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">3895</SimpleData>
+          <SimpleData name="nu 4.5">190.562</SimpleData>
+          <SimpleData name="a 4.5">7.51</SimpleData>
+          <SimpleData name="N 5.5">3895</SimpleData>
+          <SimpleData name="nu 5.5">10.0902</SimpleData>
+          <SimpleData name="a 5.5">6.23</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.28</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.23</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.18</SimpleData>
@@ -1581,9 +1845,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.17</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.17</SimpleData>
-          <SimpleData name="bvalue">0.87</SimpleData>
+          <SimpleData name="b">0.87</SimpleData>
           <SimpleData name="concerns">oceanic not continental</SimpleData>
           <SimpleData name="dip">67</SimpleData>
           <SimpleData name="mechanism">dextral</SimpleData>
@@ -1591,12 +1855,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">158.0</SimpleData>
           <SimpleData name="region">Bay of Bengal</SimpleData>
-          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">312</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">13419</SimpleData>
+          <SimpleData name="nu 4.5">87.9118</SimpleData>
+          <SimpleData name="a 4.5">6.73</SimpleData>
+          <SimpleData name="N 5.5">13419</SimpleData>
+          <SimpleData name="nu 5.5">6.5585</SimpleData>
+          <SimpleData name="a 5.5">5.6</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.24</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.11</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
@@ -1617,22 +1887,28 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">3.89</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">3.89</SimpleData>
-          <SimpleData name="bvalue">0.82</SimpleData>
+          <SimpleData name="b">0.82</SimpleData>
           <SimpleData name="concerns">oceanic not continental</SimpleData>
           <SimpleData name="dip">25</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">8.9</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">108.0</SimpleData>
           <SimpleData name="region">Andaman-Sumatra</SimpleData>
-          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdb">0.07</SimpleData>
           <SimpleData name="stdmmax">0.2</SimpleData>
           <SimpleData name="strike">337</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">4251</SimpleData>
+          <SimpleData name="nu 4.5">187.3616</SimpleData>
+          <SimpleData name="a 4.5">6.78</SimpleData>
+          <SimpleData name="N 5.5">4251</SimpleData>
+          <SimpleData name="nu 5.5">19.9388</SimpleData>
+          <SimpleData name="a 5.5">5.81</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.28</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.1</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.92</SimpleData>
@@ -1653,9 +1929,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">2.73</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">2.73</SimpleData>
-          <SimpleData name="bvalue">0.72</SimpleData>
+          <SimpleData name="b">0.72</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">61</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
@@ -1663,12 +1939,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">123.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdb">0.1</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">290</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">13091</SimpleData>
+          <SimpleData name="nu 4.5">76.3253</SimpleData>
+          <SimpleData name="a 4.5">5.84</SimpleData>
+          <SimpleData name="N 5.5">13091</SimpleData>
+          <SimpleData name="nu 5.5">8.0345</SimpleData>
+          <SimpleData name="a 5.5">4.86</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.96</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.68</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.86</SimpleData>
@@ -1689,9 +1971,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">2.53</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">2.53</SimpleData>
-          <SimpleData name="bvalue">0.76</SimpleData>
+          <SimpleData name="b">0.76</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">26</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
@@ -1699,12 +1981,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">129.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.07</SimpleData>
+          <SimpleData name="stdb">0.07</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">283</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">4719</SimpleData>
+          <SimpleData name="nu 4.5">27.5925</SimpleData>
+          <SimpleData name="a 4.5">5.62</SimpleData>
+          <SimpleData name="N 5.5">4719</SimpleData>
+          <SimpleData name="nu 5.5">1.551</SimpleData>
+          <SimpleData name="a 5.5">4.37</SimpleData>
           <SimpleData name="logN_5.0-6.0">-1.35</SimpleData>
           <SimpleData name="logN_6.0-7.0">-2.11</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
@@ -1725,9 +2013,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">4.48</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">4.48</SimpleData>
-          <SimpleData name="bvalue">1.09</SimpleData>
+          <SimpleData name="b">1.09</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">66</SimpleData>
           <SimpleData name="mechanism">dextral</SimpleData>
@@ -1735,12 +2023,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">165.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.12</SimpleData>
+          <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">206</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">1487</SimpleData>
+          <SimpleData name="nu 4.5">66.4469</SimpleData>
+          <SimpleData name="a 4.5">7.82</SimpleData>
+          <SimpleData name="N 5.5">1487</SimpleData>
+          <SimpleData name="nu 5.5">1.7902</SimpleData>
+          <SimpleData name="a 5.5">6.25</SimpleData>
           <SimpleData name="logN_5.0-6.0">-1.01</SimpleData>
           <SimpleData name="logN_6.0-7.0">-2.1</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.55</SimpleData>
@@ -1761,9 +2055,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">2.51</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">2.51</SimpleData>
-          <SimpleData name="bvalue">0.73</SimpleData>
+          <SimpleData name="b">0.73</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">45</SimpleData>
           <SimpleData name="mechanism">undefined</SimpleData>
@@ -1771,12 +2065,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.06</SimpleData>
+          <SimpleData name="stdb">0.06</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">0</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">3180</SimpleData>
+          <SimpleData name="nu 4.5">15.943</SimpleData>
+          <SimpleData name="a 4.5">5.22</SimpleData>
+          <SimpleData name="N 5.5">3180</SimpleData>
+          <SimpleData name="nu 5.5">0.2726</SimpleData>
+          <SimpleData name="a 5.5">3.45</SimpleData>
           <SimpleData name="logN_5.0-6.0">-1.23</SimpleData>
           <SimpleData name="logN_6.0-7.0">-inf</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
@@ -1797,9 +2097,9 @@
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
+          <SimpleData name="a">1.58</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
-          <SimpleData name="avalue">1.58</SimpleData>
-          <SimpleData name="bvalue">0.63</SimpleData>
+          <SimpleData name="b">0.63</SimpleData>
           <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">45</SimpleData>
           <SimpleData name="mechanism">undefined</SimpleData>
@@ -1807,12 +2107,18 @@
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
           <SimpleData name="region">Peninsular India</SimpleData>
-          <SimpleData name="stdbvalue">0.1</SimpleData>
+          <SimpleData name="stdb">0.1</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">0</SimpleData>
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
+          <SimpleData name="N 4.5">2648</SimpleData>
+          <SimpleData name="nu 4.5">8.2615</SimpleData>
+          <SimpleData name="a 4.5">4.38</SimpleData>
+          <SimpleData name="N 5.5">2648</SimpleData>
+          <SimpleData name="nu 5.5">1.0044</SimpleData>
+          <SimpleData name="a 5.5">3.47</SimpleData>
           <SimpleData name="logN_5.0-6.0">-1.69</SimpleData>
           <SimpleData name="logN_6.0-7.0">-2.8</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>

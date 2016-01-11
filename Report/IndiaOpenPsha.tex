@@ -3,10 +3,11 @@
 \usepackage[a4paper]{geometry} % document dimensions
 %\usepackage{amsmath} % multiline equation numbering
 \usepackage{amssymb} % e.g. triangleq, checkmark
-\usepackage{gensymb} % \degree symbol
+\usepackage{textcomp,gensymb} % \degree symbol
 %\usepackage{bm} % bold symbols numbering
 \usepackage{authblk} % author/affiliation block
 \usepackage[T1]{fontenc} % support accents via UTF
+\usepackage[titletoc,title]{appendix}
 
 \usepackage{graphicx} % support for graphics
 \usepackage[hidelinks, backref=page]{hyperref} % hyperlinks and autoref
@@ -16,9 +17,15 @@
     pdftitle={Open Model of Probabilistic Seismic Hazard Assessment for the Indian Subcontinent},
     pdfkeywords={seismology, hazard, India, OpenQuake}}
 \usepackage{natbib} % bibliography support
-\usepackage{caption} % support for captions
+\usepackage{adjustbox} % support for too-wide figures
+\usepackage{caption} % support for captions of floats
+\usepackage{capt-of} % support for captionof
 \usepackage{subcaption} % support for multiple figures with captions
-%\providecommand*\hyphen{-} % dashed page numbers in bib
+\providecommand*\hyphen{-} % dashed page numbers in bib
+\usepackage{listingsutf8} % for syntax-highlighted code
+\usepackage[usenames,dvipsnames]{xcolor} % e.g. RoyalBlue
+\usepackage{fontspec} % support for setmonofont
+\setmonofont{Ubuntu Mono}[Scale=MatchUppercase]
 
 %\usepackage{multirow} % cells spanning rows in tables
 %\usepackage{array} % vertically aligned table cells
@@ -36,7 +43,22 @@
     \or        (Cited on page~#2.)%
     \else      (Cited on pages~#2.)%
     \fi}
-    
+
+\lstdefinelanguage{Ini}
+{
+    basicstyle=\ttfamily\footnotesize,
+    breaklines=true,
+    keepspaces=true,
+    columns=fullflexible,
+    morecomment=[s][\color{RoyalBlue}\bfseries]{[}{]},
+    morecomment=[l]{\#},
+    morecomment=[l]{;},
+    commentstyle=\color{gray}\ttfamily,
+    morekeywords={},
+    otherkeywords={=,:},
+    keywordstyle={\color{green}\bfseries},
+}
+
 %%% PREAMBLE
 
 \begin{document}
@@ -46,11 +68,11 @@
 
 \setcounter{Maxaffil}{0} % compact author block
 \author[1,2]{N. Ackerley}
-\author[3]{G. Weatherill}
-\author[3]{M. Pagani}
+%\author[3]{G. Weatherill}
+%\author[3]{M. Pagani}
 \affil[1]{Istituto Universitario di Studi Superiori, Pavia, Italy}
 \affil[2]{Université Joseph Fourier, Grenoble, France}
-\affil[3]{Global Earthquake Model (GEM), Pavia, Italy}
+%\affil[3]{Global Earthquake Model (GEM), Pavia, Italy}
 
 \maketitle
 
@@ -65,40 +87,15 @@ Open models encourage peer review and collaboration; open models can be built up
 \section{Introduction}
 \label{sec:Introduction}
 
-\subsection{Overview}
-\label{sec:Overview}
+In this work a seismic hazard model for peninsual India \cite{nath2012probabilistic} has been implemented under the OpenQuake \citep{weatherill2014openquake,crowley2015openquake} platform.
 
-\subsection{Background}
-\label{sec:Background}
+File names in the published model are shown in \texttt{typewriter} font, as are keywords specific to OpenQuake, such as \texttt{bGRRelative}.
 
-We'll be adapting the model of \cite{nath2012probabilistic} to the OpenQuake platform.
-\begin{figure*}
-    \centering
-    \begin{subfigure}[b]{0.48\textwidth}
-        \includegraphics[width=\textwidth]{India_Areal_Layer_1.png}
-        \caption[]{Layer 1}
-        \label{fig:ArealLayer1}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.48\textwidth}  
-        \includegraphics[width=\textwidth]{India_Areal_Layer_2.png}
-        \caption{Layer 2}
-        \label{fig:ArealLayer2}
-    \end{subfigure}
-    \vskip\baselineskip
-    \begin{subfigure}[b]{0.48\textwidth}   
-        \includegraphics[width=\textwidth]{India_Areal_Layer_3.png}
-        \caption{Layer 3}
-        \label{fig:ArealLayer3}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.48\textwidth}   
-        \includegraphics[width=\textwidth]{India_Areal_Layer_4.png}
-        \caption{Layer 4}
-        \label{fig:ArealLayer4}
-    \end{subfigure}
-    \caption[Tectonic region assignments for areal source model]
-    {Tectonic region assignments for areal source model} 
-    \label{fig:ArealSourceModel}
-\end{figure*}
+\subsection{Seismic hazard in peninsular India}
+\label{sec:PshaIndia}
+
+\subsection{Open science and OpenQuake}
+\label{sec:Open}
 
 \section{Model implemetation}
 \label{sec:Model}
@@ -106,25 +103,68 @@ We'll be adapting the model of \cite{nath2012probabilistic} to the OpenQuake pla
 \subsection{Seismogenic sources}
 \label{sec:Sources}
 
-\cite{thingbaijam2012seismogenic}
+\cite{thingbaijam2011seismogenic}
 
 \subsubsection{Areal sources}
 \label{sec:Areal}
 
-As we will see in \autoref{subsubsec:GmpeWeights} ground motion prediction logic trees depend on correct assignment of tectonic region types. The main difficulty in implementing the areal source model of  \cite{nath2012probabilistic} was that although the intentions were generally clear, these assignments were not made explicit. The inferred tectonic region assignments assumed are shown in \autoref{fig:ArealSourceModel}.
+As we will see in \autoref{subsubsec:GmpeTree} ground motion prediction logic trees depend on correct assignment of tectonic region types. The main difficulty in implementing the areal source model of  \cite{nath2012probabilistic} was that although their intentions were generally clear, these assignments were not made explicit. Tectonic region type assignments were therefore made using a combination of the representative focal mechanisms reported by \cite{nath2012probabilistic} and fault maps such as the HimaTibetMap database \citep{styron2010database}. Since the representative focal mechanism was computed as the average of the moment tensors reported in the GCMT database weighted by magnitude it is biased in favour of the larger earthquakes \citep{thingbaijam2011seismogenic}. The inferred tectonic region assignments assumed are shown in \autoref{fig:ArealSourceModel}.
+
+\begin{figure}[!htb]
+\begin{adjustbox}{center}
+\includegraphics{India_Areal_Source_Model}
+\end{adjustbox}
+\caption[Areal source model]{Areal source model tectonic region assignments used in GMPE logic tree. The areal source models is encoded in \texttt{areal\_source\_model.xml}. Zone identification numbers from \cite{nath2012probabilistic} are indicated. Fault traces are from HimaTibetMap-1.0 \citep{styron2010database} except the Sumatran subduction fault which is from SLAB~1.0 \citep{hayes2012slab1}. Fault data from the stable regions of India is lacking. Urban areas, ``contiguous patches of built-up land greater than 1~km²'' \citep{schneider2009new}, are indicated in darker grey.}
+\label{fig:ArealSourceModel}
+\end{figure}
 
 Potentially problematic tectonic region type assignments:
 \begin{itemize}
-\item region 906 in the Great Himalayas just north of the Shillong plateau was assigned ``active shallow crust strike-slip reverse'' even though the main trace of the Himalayan subduction fault runs through it, because the dominant fault mechanism is strike-slip. 
+\item zone 906 in the Great Himalayas just north of the Shillong plateau was assigned ``active shallow crust strike-slip reverse'' even though the main trace of the Himalayan subduction fault runs through it, because the representative focal mechanism is strike-slip. 
+\item zones 71, 86 on layer 1 and zones 9031, 9081, 9131, 9151 and 9171 on layer 2 have have $a$ values of zero and so were not included in the areal source model
 \end{itemize}
 
-An aspect ratio of 2 was furthermore assumed.
+Magnitude-scaling relations were selected based on the same source zonation, since ``Wells and Coppersmith (1994) for crustal events and those given by
+Strasser et al. (2010) for the subduction earthquakes'' \citep[p.~140]{nath2012probabilistic}. For interface and intraslab regions \texttt{StrasserInterface} and \texttt{StrasserIntraslab} were used, respectively. 
 
-The seismogenic depth was assumed to be midway between the minimum and maximum. Is this justified by \cite{thingbaijam2012seismogenic}? Could it stand further refinement?
+The comment that ``the fault-rupture area estimated from the magnitude is constrained by a factor of 2'' \citep[p.~140]{nath2012probabilistic} is interpreted as a width/depth aspect ratio of 2.
+
+The seismogenic depth was assumed to be midway between the minimum and maximum. Is this justified by \cite{thingbaijam2011seismogenic}? Could it stand further refinement?
 
 
 \subsubsection{Smoothed seismicity}
 \label{sec:Smoothed}
+
+Each point in the smoothed seismicity model was treated as a point source. \cite{nath2012probabilistic} have provided ``spatially varying annual activity rates while b-value and m max remain fixed within the source zone''. Thus for the smoothed seismicity model the parameters $b$ and $M_{max}$ of the truncated Gutenberg-Richter magnitude-frequency distributions are to be inferred from the areal source model zonation. For points inside zones with non-zero $a$ values in the areal source model this is trivial; for points outside these zones the zone with the shortest perpendicular distance was chosen.
+
+A point source model in OpenQuake also requires definition of the uncertainty of the probability distribution, as well as the tectonic region type and source mechanism for the selection and implementation of GMPEs, respectively. Thus the same procedure was used to assign $\sigma_b$, $\sigma_{m_{max}}$, tectonic subregion, rake, dip, strike and magnitude scaling relations were used.
+
+The electronic supplement to \cite{nath2012probabilistic} for the smoothed-gridded seismicity models simply gives values for \texttt{nu4\_5} and \texttt{nu5\_5} for each latitude and longitude, where ``$\nu_i$ , is the annual activity rate for $i$th seismogenic source for a threshold magnitude'' \cite[p.~140]{nath2012probabilistic}.
+
+The truncated Gutenberg-Richter magnitude-frequency distribution in OpenQuake implements
+$$\lambda(M \geq m) = 10^{a - b m} = e^{\alpha - \beta m}$$
+where, since $\lambda$ is an annual rate, $10^a$ is too. If we ignore events below some threshold $m_{min}$ then the annual rate becomes
+$$\lambda(M \geq m_{min}) = e^{\alpha - \beta m_{min}} e^{-\beta (m - m_{min})} = \nu e^{-\beta (m - m_{min})} $$
+Thus to compute the $a$ value required by OpenQuake from the activity rate $\nu$ for a given magnitude threshold, we must also take into account the $b$ value for the zone:
+$$a = \log_{10}(\nu) + b m_{min}$$
+[It would be good to cite a reference here. Is a correction for bin size necessary?]
+
+\begin{figure}[!htb]
+\begin{adjustbox}{center}
+\includegraphics{India_Smoothed_Source_Model}
+\end{adjustbox}
+\caption[Smoothed seismicity point source model]{Tectonic region assignments and activity rates for smoothed seismicity point source model. The smoothed seismicity source models are encoded in \texttt{smoothed\_source\_model\_mmin4.5.xml} and \texttt{smoothed\_source\_model\_mmin5.5.xml}}
+\label{fig:SmoothedSourceModel}
+\end{figure}
+
+Other assumptions:
+\begin{itemize}
+\item zones 9031, 9081, 9131, 9151 and 9171 on layer 2 have $m_{max}$ values values of zero so the the smoothed seismicity points in or nearest to these zones on layer 2 were assigned the $m_{max}$ values from the corresponding zones on layer 1, namely zones 903, 908, 913, 915 and 917.
+\end{itemize}
+
+Note differences in grids: although the hazard maps in the electronic supplement are at 0.2° and the paper says the smoothed-gridded models are also at 0.2° they are in fact at 0.1°. Figure shows the model at just 0.2°.
+
+Note smoothing details. A Gaussian kernel is used, following the methodology of \cite{frankel1995mapping} with correlation distances of 65 and 85~km for $m_{min}$ of 4.5 and 5.5 respectively. The method involves smoothing event counts, thus events per year, for a given minimum magnitude.
 
 \subsection{Ground-motion prediction}
 \label{sec:GroundMotion}
@@ -133,7 +173,7 @@ The seismogenic depth was assumed to be midway between the minimum and maximum. 
 
 Issues encountered while implementing GMPE logic tree:
 \begin{itemize}
-\item Layer 4 depth range of 180-300 km is significantly deeper than deepest events used in regression for ATBO03 (100 km), LILE08 (161 km), ZHAO06 (120 km) and GUPT10 (148 km) are specified for. YCSH97 only included events to 229 km. KANN06 is specified to 200 km depth, but is only used for interface events (layer 2).
+\item layer~4 depth range of 180-300~km is significantly deeper than deepest events used in regression for ATBO03 (100 km), LILE08 (161 km), ZHAO06 (120 km) and GUPT10 (148 km) are specified for. YCSH97 only included events to 229 km. KANN06 is specified to 200 km depth, but is only used for interface events (layer~2).
 \item Assumed “and Andaman-Sumatra subduction” missing from Figure 3.
 \item Why is Youngs (1997) not used in the subduction interfaces?
 \item Should the Japan/Cascadia distinction not also be used for interface subduction with Atkinson \& Boore (2003)?
@@ -157,7 +197,8 @@ Issued encountered while implementing GMPEs:
 
 
 \begin{table}
-\caption[Ground shaking intensity models]{Ground shaking intensity models. Models newly implemented in OpenQuake as part of the current work are indicated.}
+\caption[Ground motion prediction equations]{Ground motion prediction equations. Models newly implemented in OpenQuake as part of the current work are indicated.}
+\label{table:GMPE}
 \centering
 \begin{tabular}{c c l}
 \hline
@@ -184,10 +225,32 @@ Issued encountered while implementing GMPEs:
 \end{table}
 
 \subsection{Logic Trees}
-\label{subsec:Weights}
+\label{subsec:LogicTrees}
 
 \subsubsection{Ground-Motion Prediction}
-\label{subsubsec:GmpeWeights}
+\label{subsubsec:GmpeTree}
+
+The GMPE logic tree implemented in \cite{nath2012probabilistic} is shown in \autoref{fig:GmpeTreeNath}. Since some of these GMPEs are new to OpenQuake (see \autoref{table:GMPE}) a comparison was done between that model and that obtained with only the standard GMPEs. For this purpose a "simplified" GMPE logic tree was constructed which simply omitted the newly-implemented GMPEs and retained equal weighting for the rest.
+
+\begin{figure}[!htb]
+\begin{adjustbox}{center}
+\includegraphics{gmpe_logic_tree.pdf}
+\end{adjustbox}
+\caption[Simplified GMPE logic tree]{Simplified GMPE logic tree employing only established OpenQuake models, as encoded in \texttt{gmpe\_logic\_tree.xml}. Middle column selects tectonic region types as defined in \autoref{fig:ArealSourceModel}. OpenQuake model class names and assigned weights are given on the right side. New and established models are enumerated in \autoref{table:GMPE}}
+\label{fig:GmpeTreeSimplified}
+\end{figure}
+
+\begin{figure}
+\begin{adjustbox}{center}
+\includegraphics{gmpe_logic_tree_all.pdf}
+\end{adjustbox}
+\caption[Original GMPE logic tree]{GMPE logic tree of \cite{nath2012probabilistic}, as encoded in \texttt{gmpe\_logic\_tree\_all.xml}. See \autoref{fig:GmpeTreeSimplified} for more commentary}
+\label{fig:GmpeTreeNath}
+\end{figure}
+
+Moving forward an obvious modification is to replace superseded NGA models with their more up-to-date versions. 
+
+[It may also be desirable to rationalize the weighting of the GMPEs or include entirely new ones, such as the new BC Hydro subduction model \citep{abrahamson2012bc}. The discussion continues below and is incomplete.]
 
 \cite{anbazhagan2015selection} seem to be proposing different weights for different regions based on single events in those regions. An extreme example is to define different weights for Anjar, 1956 and Bhuj , 2001 earthquakes even though the epicentres and depths were very close together. In contrast \cite{nath2011peak} compute LLH for 7 regions (using 38 events total) and state that, ``individual events do not have significant number of observations to support a viable ranking basis.''
 
@@ -208,7 +271,29 @@ The process of developing a logic tree to assess epistemic uncertainty is thus a
 [Now apply these principles to move forward from \cite{nath2012probabilistic}!] 
 
 \subsubsection{Source Models}
-\label{subsubsec:SourceModelWeights}
+\label{subsubsec:SourceTree}
+
+The source model logic tree is shown in symbolic form in \autoref{fig:SourceTreeSymbolic}.
+
+\begin{figure}[!htb]
+\begin{adjustbox}{center}
+\includegraphics{source_model_logic_tree_simplified.pdf}
+\end{adjustbox}
+\caption[Symbolic source model logic tree]{Symbolic source model logic tree of \cite{nath2012probabilistic}.}
+\label{fig:SourceTreeSymbolic}
+\end{figure}
+
+\cite{nath2012probabilistic} accounts for the epistemic uncertainty in seismicity model parameters by estimating the standard deviations of $b$ and $m_{max}$ in each source zone and assigning weights to ±1 standard deviation for each source. This results in a source model logic tree too large to represent on a page; just a portion of it is shown in \autoref{fig:SourceTreePartial}. 
+
+\begin{figure}
+\begin{adjustbox}{center}
+\includegraphics{source_model_logic_tree.pdf}
+\end{adjustbox}
+\caption[Partial source model logic tree]{Partial source model logic tree of \cite{nath2012probabilistic}. The full model is encoded in \texttt{source\_model\_logic\_tree.xml}}
+\label{fig:SourceTreePartial}
+\end{figure}
+
+Note that although Figure 4 of \cite{nath2012probabilistic} shows the activity rate $\nu$ (and by implication $a$) varying with $b$, no estimates of the standard deviation of $a$ or $nu$. The  in OpenQuake happens to recalculate $a$ as $b$ After modifying $b$ using the uncertainty type \texttt{bGRRelative} the $a$ value is automatically recalculated to maintain constant total moment rate. It has been assumed that this is the behaviour which \cite{nath2012probabilistic} implemented.
 
 \section{Hazard results}
 \label{sec:Hazard}
@@ -225,9 +310,17 @@ The process of developing a logic tree to assess epistemic uncertainty is thus a
 \section*{Acknowledgement}
 Acknowledgements here
 
-
-
 \bibliographystyle{apalike}
 \bibliography{/home/nick/Desktop/Library/PSHA.bib}
+
+\begin{appendices}
+
+\section{}
+\subsection{Job Configuration Files}
+\label{ch:Jobs}
+
+\lstinputlisting[language=Ini,caption=\lstname]{phase1.ini}
+
+\end{appendices}
 
 \end{document}

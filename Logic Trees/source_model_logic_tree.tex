@@ -1,71 +1,73 @@
 \documentclass[border=2mm]{standalone}
 
-    \usepackage{tikz}
-    \usetikzlibrary{graphdrawing, graphs}
-    \usegdlibrary{trees}
+\usepackage{tikz}
+\usetikzlibrary{graphdrawing, graphs}
+\usegdlibrary{trees}
+\usepackage{fontspec} % support for setmonofont
+\setmonofont{Ubuntu Mono}[Scale=MatchUppercase]
 
-    \begin{document}
-    \begin{tikzpicture}[>=latex, align=center, anchor=west,
-    link/.style={out=east, in=west},
-    box/.style={rectangle, rounded corners, draw}]
-    \graph [tree layout, components go down center aligned, grow'=right,
-    fresh nodes, layer sep=2cm, sibling distance=0mm, sibling sep=0.5mm] {
+\begin{document}
+\begin{tikzpicture}[>=latex, align=center, anchor=west,
+link/.style={out=east, in=west},
+box/.style={rectangle, rounded corners, draw}]
+\graph [tree layout, components go down center aligned, grow'=right,
+fresh nodes, layer sep=2cm, sibling distance=0mm, sibling sep=0.5mm] {
     
     "sourceModel\\ logicTree"[box] ->[link] {
         ""[box] ->[link] {
             "\texttt{areal\_source\_model.xml}: 0.4",
-            "\texttt{smoothed\_mmin4.5\_source\_model.xml}: 0.27",
-            "\texttt{smoothed\_mmin5.5\_source\_model.xml}: 0.33",
+            "\texttt{smoothed\_source\_model\_mmin4.5.xml}: 0.27",
+            "\texttt{smoothed\_source\_model\_mmin5.5.xml}: 0.33",
         },
         "sources:\\ 1"[box] ->[link] {
-            "$m_{max}$ = 7.6: 0.32",
-            "$m_{max}$ = 8.0: 0.36",
-            "$m_{max}$ = 8.4: 0.32",
+            "$\Delta m_{max}$ = -0.4: 0.32",
+            "$\Delta m_{max}$ = 0.0: 0.36",
+            "$\Delta m_{max}$ = 0.4: 0.32",
         },
         "sources:\\ 1"[box] ->[link] {
-            "$a$ = 5.2, $b$ = 0.98: 0.32",
-            "$a$ = 5.2, $b$ = 1.05: 0.36",
-            "$a$ = 5.2, $b$ = 1.12: 0.32",
+            "$\Delta b $ = -0.07: 0.32",
+            "$\Delta b $ = 0.0: 0.36",
+            "$\Delta b $ = 0.07: 0.32",
         },
-        "sources:\\ 2"[box] ->[link] {
-            "$m_{max}$ = 7.6: 0.32",
-            "$m_{max}$ = 8.0: 0.36",
-            "$m_{max}$ = 8.4: 0.32",
+        "sources:\\ 1.1"[box] ->[link] {
+            "$\Delta m_{max}$ = -0.4: 0.32",
+            "$\Delta m_{max}$ = 0.0: 0.36",
+            "$\Delta m_{max}$ = 0.4: 0.32",
         },
-        "sources:\\ 2"[box] ->[link] {
-            "$a$ = 4.64, $b$ = 0.84: 0.32",
-            "$a$ = 4.64, $b$ = 0.93: 0.36",
-            "$a$ = 4.64, $b$ = 1.02: 0.32",
+        "sources:\\ 1.1"[box] ->[link] {
+            "$\Delta b $ = -0.07: 0.32",
+            "$\Delta b $ = 0.0: 0.36",
+            "$\Delta b $ = 0.07: 0.32",
         },
-        "221 branches\\ omitted"[box] ->[link] {
+        "251 branches\\ omitted"[box] ->[link] {
         },
-        "sources:\\ 1928"[box] ->[link] {
-            "$a$ = 4.76, $b$ = 0.87: 0.32",
-            "$a$ = 4.76, $b$ = 0.96: 0.36",
-            "$a$ = 4.76, $b$ = 1.05: 0.32",
+        "sources:\\ 933"[box] ->[link] {
+            "$\Delta b $ = -0.13: 0.32",
+            "$\Delta b $ = 0.0: 0.36",
+            "$\Delta b $ = 0.13: 0.32",
         },
-        "sources:\\ 1929"[box] ->[link] {
-            "$m_{max}$ = 7.5: 0.32",
-            "$m_{max}$ = 7.9: 0.36",
-            "$m_{max}$ = 8.3: 0.32",
+        "sources:\\ 935"[box] ->[link] {
+            "$\Delta m_{max}$ = -0.3: 0.32",
+            "$\Delta m_{max}$ = 0.0: 0.36",
+            "$\Delta m_{max}$ = 0.3: 0.32",
         },
-        "sources:\\ 1929"[box] ->[link] {
-            "$a$ = 4.61, $b$ = 0.87: 0.32",
-            "$a$ = 4.61, $b$ = 0.96: 0.36",
-            "$a$ = 4.61, $b$ = 1.05: 0.32",
+        "sources:\\ 935"[box] ->[link] {
+            "$\Delta b $ = -0.09: 0.32",
+            "$\Delta b $ = 0.0: 0.36",
+            "$\Delta b $ = 0.09: 0.32",
         },
-        "sources:\\ 1931"[box] ->[link] {
-            "$m_{max}$ = 8.0: 0.32",
-            "$m_{max}$ = 8.3: 0.36",
-            "$m_{max}$ = 8.6: 0.32",
+        "sources:\\ 936"[box] ->[link] {
+            "$\Delta m_{max}$ = -0.2: 0.32",
+            "$\Delta m_{max}$ = 0.0: 0.36",
+            "$\Delta m_{max}$ = 0.2: 0.32",
         },
-        "sources:\\ 1931"[box] ->[link] {
-            "$a$ = 5.3, $b$ = 0.99: 0.32",
-            "$a$ = 5.3, $b$ = 1.11: 0.36",
-            "$a$ = 5.3, $b$ = 1.23: 0.32",
+        "sources:\\ 936"[box] ->[link] {
+            "$\Delta b $ = -0.11: 0.32",
+            "$\Delta b $ = 0.0: 0.36",
+            "$\Delta b $ = 0.11: 0.32",
         },
     },
 };
-    \end{tikzpicture}
-    \end{document}
+\end{tikzpicture}
+\end{document}
     

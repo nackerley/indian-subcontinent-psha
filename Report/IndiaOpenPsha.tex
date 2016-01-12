@@ -114,7 +114,7 @@ As we will see in \autoref{subsubsec:GmpeTree} ground motion prediction logic tr
 \begin{adjustbox}{center}
 \includegraphics{India_Areal_Source_Model}
 \end{adjustbox}
-\caption[Areal source model]{Areal source model tectonic region assignments used in GMPE logic tree. The areal source models is encoded in \texttt{areal\_source\_model.xml}. Zone identification numbers from \cite{nath2012probabilistic} are indicated. Fault traces are from HimaTibetMap-1.0 \citep{styron2010database} except the Sumatran subduction fault which is from SLAB~1.0 \citep{hayes2012slab1}. Fault data from the stable regions of India is lacking. Urban areas, ``contiguous patches of built-up land greater than 1~km²'' \citep{schneider2009new}, are indicated in darker grey.}
+\caption[Areal source model]{Areal source model tectonic region assignments used in GMPE logic tree. The areal source models is encoded in \texttt{\detokenize{areal_source_model.xml}}. Zone identification numbers from \cite{nath2012probabilistic} are indicated. Fault traces are from HimaTibetMap-1.0 \citep{styron2010database} except the Sumatran subduction fault which is from SLAB~1.0 \citep{hayes2012slab1}. Fault data from the stable regions of India is lacking. Urban areas, ``contiguous patches of built-up land greater than 1~km²'' \citep{schneider2009new}, are indicated in darker grey.}
 \label{fig:ArealSourceModel}
 \end{figure}
 
@@ -139,7 +139,7 @@ Each point in the smoothed seismicity model was treated as a point source. \cite
 
 A point source model in OpenQuake also requires definition of the uncertainty of the probability distribution, as well as the tectonic region type and source mechanism for the selection and implementation of GMPEs, respectively. Thus the same procedure was used to assign $\sigma_b$, $\sigma_{m_{max}}$, tectonic subregion, rake, dip, strike and magnitude scaling relations were used.
 
-The electronic supplement to \cite{nath2012probabilistic} for the smoothed-gridded seismicity models simply gives values for \texttt{nu4\_5} and \texttt{nu5\_5} for each latitude and longitude, where ``$\nu_i$ , is the annual activity rate for $i$th seismogenic source for a threshold magnitude'' \cite[p.~140]{nath2012probabilistic}.
+The electronic supplement to \cite{nath2012probabilistic} for the smoothed-gridded seismicity models simply gives values for \texttt{\detokenize{nu4_5}} and \texttt{\detokenize{nu5_5}} for each latitude and longitude, where ``$\nu_i$ , is the annual activity rate for $i$th seismogenic source for a threshold magnitude'' \cite[p.~140]{nath2012probabilistic}.
 
 The truncated Gutenberg-Richter magnitude-frequency distribution in OpenQuake implements
 $$\lambda(M \geq m) = 10^{a - b m} = e^{\alpha - \beta m}$$
@@ -153,7 +153,7 @@ $$a = \log_{10}(\nu) + b m_{min}$$
 \begin{adjustbox}{center}
 \includegraphics{India_Smoothed_Source_Model}
 \end{adjustbox}
-\caption[Smoothed seismicity point source model]{Tectonic region assignments and activity rates for smoothed seismicity point source model. The smoothed seismicity source models are encoded in \texttt{smoothed\_source\_model\_mmin4.5.xml} and \texttt{smoothed\_source\_model\_mmin5.5.xml}}
+\caption[Smoothed seismicity point source model]{Tectonic region assignments and activity rates for smoothed seismicity point source model. The smoothed seismicity source models are encoded in \texttt{\detokenize{smoothed_source_model_mmin4.5.xml}} and \texttt{\detokenize{smoothed_source_model_mmin5.5.xml}}}
 \label{fig:SmoothedSourceModel}
 \end{figure}
 
@@ -234,17 +234,17 @@ The GMPE logic tree implemented in \cite{nath2012probabilistic} is shown in \aut
 
 \begin{figure}[!htb]
 \begin{adjustbox}{center}
-\includegraphics{gmpe_logic_tree.pdf}
+\includegraphics{gmpe_logic_tree_omit_new.pdf}
 \end{adjustbox}
-\caption[Simplified GMPE logic tree]{Simplified GMPE logic tree employing only established OpenQuake models, as encoded in \texttt{gmpe\_logic\_tree.xml}. Middle column selects tectonic region types as defined in \autoref{fig:ArealSourceModel}. OpenQuake model class names and assigned weights are given on the right side. New and established models are enumerated in \autoref{table:GMPE}}
+\caption[Simplified GMPE logic tree]{Simplified GMPE logic tree employing only established OpenQuake models, as encoded in \texttt{\detokenize{gmpe_logic_tree_omit_new.xml}}. Middle column selects tectonic region types as defined in \autoref{fig:ArealSourceModel}. OpenQuake model class names and assigned weights are given on the right side. New and established models are enumerated in \autoref{table:GMPE}}
 \label{fig:GmpeTreeSimplified}
 \end{figure}
 
 \begin{figure}
 \begin{adjustbox}{center}
-\includegraphics{gmpe_logic_tree_all.pdf}
+\includegraphics{gmpe_logic_tree.pdf}
 \end{adjustbox}
-\caption[Original GMPE logic tree]{GMPE logic tree of \cite{nath2012probabilistic}, as encoded in \texttt{gmpe\_logic\_tree\_all.xml}. See \autoref{fig:GmpeTreeSimplified} for more commentary}
+\caption[Original GMPE logic tree]{GMPE logic tree of \cite{nath2012probabilistic}, as encoded in \texttt{\detokenize{gmpe_logic_tree.xml}}. See \autoref{fig:GmpeTreeSimplified} for complete description}
 \label{fig:GmpeTreeNath}
 \end{figure}
 
@@ -277,7 +277,7 @@ The source model logic tree is shown in symbolic form in \autoref{fig:SourceTree
 
 \begin{figure}[!htb]
 \begin{adjustbox}{center}
-\includegraphics{source_model_logic_tree_simplified.pdf}
+\includegraphics{source_model_logic_tree_symbolic.pdf}
 \end{adjustbox}
 \caption[Symbolic source model logic tree]{Symbolic source model logic tree of \cite{nath2012probabilistic}.}
 \label{fig:SourceTreeSymbolic}
@@ -289,7 +289,7 @@ The source model logic tree is shown in symbolic form in \autoref{fig:SourceTree
 \begin{adjustbox}{center}
 \includegraphics{source_model_logic_tree.pdf}
 \end{adjustbox}
-\caption[Partial source model logic tree]{Partial source model logic tree of \cite{nath2012probabilistic}. The full model is encoded in \texttt{source\_model\_logic\_tree.xml}}
+\caption[Partial source model logic tree]{Partial source model logic tree of \cite{nath2012probabilistic}. The full model is encoded in \texttt{\detokenize{source_model_logic_tree.xml}}}
 \label{fig:SourceTreePartial}
 \end{figure}
 

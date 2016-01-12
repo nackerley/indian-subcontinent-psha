@@ -1,0 +1,4 @@
+uncertaintyType	applyToSources	uncertaintyModel	uncertaintyWeight
+sourceModel	all	['areal_source_model.xml']	[1]
+maxMagGRRelative	areal_source_model.tsv	['-stdmmax',  '0',  '+stdmmax']	[0.32,  0.36,  0.32]
+bGRRelative	areal_source_model.tsv	['-stdb', '0',  '+stdb']	[0.32,  0.36,  0.32]

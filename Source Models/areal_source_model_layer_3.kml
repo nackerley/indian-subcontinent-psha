@@ -23,12 +23,14 @@
       <SimpleField name="tectonic zone" type="string"/>
       <SimpleField name="zmax" type="double"/>
       <SimpleField name="zmin" type="double"/>
-      <SimpleField name="N 4.5" type="int"/>
-      <SimpleField name="nu 4.5" type="double"/>
-      <SimpleField name="a 4.5" type="double"/>
-      <SimpleField name="N 5.5" type="int"/>
-      <SimpleField name="nu 5.5" type="double"/>
-      <SimpleField name="a 5.5" type="double"/>
+      <SimpleField name="smoothed N 4.5" type="int"/>
+      <SimpleField name="smoothed nu 4.5" type="double"/>
+      <SimpleField name="smoothed a 4.5" type="double"/>
+      <SimpleField name="areal nu 4.5" type="double"/>
+      <SimpleField name="smoothed N 5.5" type="int"/>
+      <SimpleField name="smoothed nu 5.5" type="double"/>
+      <SimpleField name="smoothed a 5.5" type="double"/>
+      <SimpleField name="areal nu 5.5" type="double"/>
       <SimpleField name="logN_5.0-6.0" type="double"/>
       <SimpleField name="logN_6.0-7.0" type="double"/>
       <SimpleField name="logN_7.0-8.0" type="double"/>
@@ -55,12 +57,14 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">180.0</SimpleData>
           <SimpleData name="zmin">70.0</SimpleData>
-          <SimpleData name="N 4.5">1746</SimpleData>
-          <SimpleData name="nu 4.5">1803.9453</SimpleData>
-          <SimpleData name="a 4.5">9.31</SimpleData>
-          <SimpleData name="N 5.5">1746</SimpleData>
-          <SimpleData name="nu 5.5">48.3348</SimpleData>
-          <SimpleData name="a 5.5">7.73</SimpleData>
+          <SimpleData name="smoothed N 4.5">873</SimpleData>
+          <SimpleData name="smoothed nu 4.5">1803.9453</SimpleData>
+          <SimpleData name="smoothed a 4.5">8.21</SimpleData>
+          <SimpleData name="areal nu 4.5">15.1356</SimpleData>
+          <SimpleData name="smoothed N 5.5">873</SimpleData>
+          <SimpleData name="smoothed nu 5.5">48.3348</SimpleData>
+          <SimpleData name="smoothed a 5.5">7.73</SimpleData>
+          <SimpleData name="areal nu 5.5">1.2023</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.59</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.51</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.62</SimpleData>
@@ -97,12 +101,14 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">180.0</SimpleData>
           <SimpleData name="zmin">70.0</SimpleData>
-          <SimpleData name="N 4.5">1240</SimpleData>
-          <SimpleData name="nu 4.5">477.7388</SimpleData>
-          <SimpleData name="a 4.5">9.72</SimpleData>
-          <SimpleData name="N 5.5">1240</SimpleData>
-          <SimpleData name="nu 5.5">14.6813</SimpleData>
-          <SimpleData name="a 5.5">8.21</SimpleData>
+          <SimpleData name="smoothed N 4.5">620</SimpleData>
+          <SimpleData name="smoothed nu 4.5">477.7388</SimpleData>
+          <SimpleData name="smoothed a 4.5">8.44</SimpleData>
+          <SimpleData name="areal nu 4.5">4.0738</SimpleData>
+          <SimpleData name="smoothed N 5.5">620</SimpleData>
+          <SimpleData name="smoothed nu 5.5">14.6813</SimpleData>
+          <SimpleData name="smoothed a 5.5">8.21</SimpleData>
+          <SimpleData name="areal nu 5.5">0.2138</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.05</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.33</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.82</SimpleData>
@@ -139,12 +145,14 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">180.0</SimpleData>
           <SimpleData name="zmin">70.0</SimpleData>
-          <SimpleData name="N 4.5">1122</SimpleData>
-          <SimpleData name="nu 4.5">104.8704</SimpleData>
-          <SimpleData name="a 4.5">7.36</SimpleData>
-          <SimpleData name="N 5.5">1122</SimpleData>
-          <SimpleData name="nu 5.5">6.5632</SimpleData>
-          <SimpleData name="a 5.5">6.15</SimpleData>
+          <SimpleData name="smoothed N 4.5">561</SimpleData>
+          <SimpleData name="smoothed nu 4.5">104.8704</SimpleData>
+          <SimpleData name="smoothed a 4.5">6.39</SimpleData>
+          <SimpleData name="areal nu 4.5">0.881</SimpleData>
+          <SimpleData name="smoothed N 5.5">561</SimpleData>
+          <SimpleData name="smoothed nu 5.5">6.5632</SimpleData>
+          <SimpleData name="smoothed a 5.5">6.15</SimpleData>
+          <SimpleData name="areal nu 5.5">0.0944</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.59</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.56</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.79</SimpleData>
@@ -181,12 +189,14 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">180.0</SimpleData>
           <SimpleData name="zmin">70.0</SimpleData>
-          <SimpleData name="N 4.5">2244</SimpleData>
-          <SimpleData name="nu 4.5">618.9264</SimpleData>
-          <SimpleData name="a 4.5">8.68</SimpleData>
-          <SimpleData name="N 5.5">2244</SimpleData>
-          <SimpleData name="nu 5.5">30.9284</SimpleData>
-          <SimpleData name="a 5.5">7.38</SimpleData>
+          <SimpleData name="smoothed N 4.5">1130</SimpleData>
+          <SimpleData name="smoothed nu 4.5">618.9264</SimpleData>
+          <SimpleData name="smoothed a 4.5">7.61</SimpleData>
+          <SimpleData name="areal nu 4.5">6.0954</SimpleData>
+          <SimpleData name="smoothed N 5.5">1114</SimpleData>
+          <SimpleData name="smoothed nu 5.5">30.9284</SimpleData>
+          <SimpleData name="smoothed a 5.5">7.38</SimpleData>
+          <SimpleData name="areal nu 5.5">0.5188</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.21</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.86</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.93</SimpleData>
@@ -223,12 +233,14 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">180.0</SimpleData>
           <SimpleData name="zmin">70.0</SimpleData>
-          <SimpleData name="N 4.5">2642</SimpleData>
-          <SimpleData name="nu 4.5">115.9954</SimpleData>
-          <SimpleData name="a 4.5">7.01</SimpleData>
-          <SimpleData name="N 5.5">2642</SimpleData>
-          <SimpleData name="nu 5.5">5.7572</SimpleData>
-          <SimpleData name="a 5.5">5.71</SimpleData>
+          <SimpleData name="smoothed N 4.5">1516</SimpleData>
+          <SimpleData name="smoothed nu 4.5">115.9954</SimpleData>
+          <SimpleData name="smoothed a 4.5">6.11</SimpleData>
+          <SimpleData name="areal nu 4.5">1.2303</SimpleData>
+          <SimpleData name="smoothed N 5.5">1126</SimpleData>
+          <SimpleData name="smoothed nu 5.5">5.7572</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.71</SimpleData>
+          <SimpleData name="areal nu 5.5">0.1549</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.42</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.32</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.49</SimpleData>
@@ -265,12 +277,14 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">180.0</SimpleData>
           <SimpleData name="zmin">70.0</SimpleData>
-          <SimpleData name="N 4.5">3167</SimpleData>
-          <SimpleData name="nu 4.5">209.2881</SimpleData>
-          <SimpleData name="a 4.5">7.88</SimpleData>
-          <SimpleData name="N 5.5">3167</SimpleData>
-          <SimpleData name="nu 5.5">7.0843</SimpleData>
-          <SimpleData name="a 5.5">6.41</SimpleData>
+          <SimpleData name="smoothed N 4.5">1660</SimpleData>
+          <SimpleData name="smoothed nu 4.5">209.2881</SimpleData>
+          <SimpleData name="smoothed a 4.5">6.87</SimpleData>
+          <SimpleData name="areal nu 4.5">2.9854</SimpleData>
+          <SimpleData name="smoothed N 5.5">1507</SimpleData>
+          <SimpleData name="smoothed nu 5.5">7.0843</SimpleData>
+          <SimpleData name="smoothed a 5.5">6.41</SimpleData>
+          <SimpleData name="areal nu 5.5">0.2917</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.07</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.08</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.09</SimpleData>
@@ -307,12 +321,14 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">180.0</SimpleData>
           <SimpleData name="zmin">70.0</SimpleData>
-          <SimpleData name="N 4.5">5393</SimpleData>
-          <SimpleData name="nu 4.5">349.2178</SimpleData>
-          <SimpleData name="a 4.5">8.43</SimpleData>
-          <SimpleData name="N 5.5">5393</SimpleData>
-          <SimpleData name="nu 5.5">26.2033</SimpleData>
-          <SimpleData name="a 5.5">7.3</SimpleData>
+          <SimpleData name="smoothed N 4.5">2696</SimpleData>
+          <SimpleData name="smoothed nu 4.5">349.2178</SimpleData>
+          <SimpleData name="smoothed a 4.5">7.36</SimpleData>
+          <SimpleData name="areal nu 4.5">3.9355</SimpleData>
+          <SimpleData name="smoothed N 5.5">2697</SimpleData>
+          <SimpleData name="smoothed nu 5.5">26.2033</SimpleData>
+          <SimpleData name="smoothed a 5.5">7.3</SimpleData>
+          <SimpleData name="areal nu 5.5">0.335</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.02</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.05</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.12</SimpleData>
@@ -349,12 +365,14 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">180.0</SimpleData>
           <SimpleData name="zmin">70.0</SimpleData>
-          <SimpleData name="N 4.5">6518</SimpleData>
-          <SimpleData name="nu 4.5">233.3637</SimpleData>
-          <SimpleData name="a 4.5">8.25</SimpleData>
-          <SimpleData name="N 5.5">6518</SimpleData>
-          <SimpleData name="nu 5.5">14.4154</SimpleData>
-          <SimpleData name="a 5.5">7.04</SimpleData>
+          <SimpleData name="smoothed N 4.5">3494</SimpleData>
+          <SimpleData name="smoothed nu 4.5">233.3637</SimpleData>
+          <SimpleData name="smoothed a 4.5">7.18</SimpleData>
+          <SimpleData name="areal nu 4.5">0.9016</SimpleData>
+          <SimpleData name="smoothed N 5.5">3024</SimpleData>
+          <SimpleData name="smoothed nu 5.5">14.4154</SimpleData>
+          <SimpleData name="smoothed a 5.5">7.04</SimpleData>
+          <SimpleData name="areal nu 5.5">0.0767</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.62</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.69</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.13</SimpleData>
@@ -391,12 +409,14 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">180.0</SimpleData>
           <SimpleData name="zmin">70.0</SimpleData>
-          <SimpleData name="N 4.5">9373</SimpleData>
-          <SimpleData name="nu 4.5">69.0983</SimpleData>
-          <SimpleData name="a 4.5">8.66</SimpleData>
-          <SimpleData name="N 5.5">9373</SimpleData>
-          <SimpleData name="nu 5.5">6.827</SimpleData>
-          <SimpleData name="a 5.5">7.65</SimpleData>
+          <SimpleData name="smoothed N 4.5">6787</SimpleData>
+          <SimpleData name="smoothed nu 4.5">69.0983</SimpleData>
+          <SimpleData name="smoothed a 4.5">7.42</SimpleData>
+          <SimpleData name="areal nu 4.5">0.4677</SimpleData>
+          <SimpleData name="smoothed N 5.5">2586</SimpleData>
+          <SimpleData name="smoothed nu 5.5">6.827</SimpleData>
+          <SimpleData name="smoothed a 5.5">7.65</SimpleData>
+          <SimpleData name="areal nu 5.5">0.0269</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.98</SimpleData>
           <SimpleData name="logN_6.0-7.0">-2.25</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>

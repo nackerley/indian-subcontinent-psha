@@ -1,7 +1,6 @@
 Link*
 README.md
 *.aux
-*.log
 *.bak
 *.bbl
 *.blg
@@ -11,7 +10,6 @@ README.md
 *checkpoint.ipynb
 *.cls
 *.cpg
-*.qpj
 *.dbf
 *.geojson
 *.gmt
@@ -25,6 +23,7 @@ README.md
 *.out
 *.prj
 *.qgs
+*.qpj
 *.sbn
 *.sbx
 *.shp

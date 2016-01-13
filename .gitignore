@@ -32,3 +32,4 @@ README.md
 *.toc
 *.zip
 *~
+/Jobs/hazard-outputs/

@@ -25,6 +25,11 @@ for sub_dir, _, _ in os.walk(directory):
     if sub_dir[0] == '.':
         continue
 
+    # omit export & output directories
+    if any([item in sub_dir for item in ['export', 'output']]):
+        print('Skipping %s' % sub_dir)
+        continue
+
     print('Compressing: tar -hzcvf "%s.tar.gz" "%s"' % (sub_dir, sub_dir))
     with tarfile.open(sub_dir + '.tar.gz', 'w:gz', dereference=True) as tar:
         tar.add(sub_dir)

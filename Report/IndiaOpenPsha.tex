@@ -8,6 +8,7 @@
 \usepackage{authblk} % author/affiliation block
 \usepackage[T1]{fontenc} % support accents via UTF
 \usepackage[titletoc,title]{appendix}
+\usepackage{booktabs} % e.g. \toprule
 
 \usepackage{graphicx} % support for graphics
 \usepackage[hidelinks, backref=page]{hyperref} % hyperlinks and autoref
@@ -147,7 +148,14 @@ where, since $\lambda$ is an annual rate, $10^a$ is too. If we ignore events bel
 $$\lambda(M \geq m_{min}) = e^{\alpha - \beta m_{min}} e^{-\beta (m - m_{min})} = \nu e^{-\beta (m - m_{min})} $$
 Thus to compute the $a$ value required by OpenQuake from the activity rate $\nu$ for a given magnitude threshold, we must also take into account the $b$ value for the zone:
 $$a = \log_{10}(\nu) + b m_{min}$$
-[It would be good to cite a reference here. Is a correction for bin size necessary?]
+Applying this formula gives rates for the areal model which agree well with the catalogue, but the rates in the smoothed-gridded seismicity model are on the order of 100x higher. Figure 3.6 of \cite{thingbaijam2011synoptic} shows rates in line with those of \cite{thingbaijam2011seismogenic} and which better agree with the areal rates. In discussion with the author was concluded that the electronic supplement to \cite{nath2012probabilistic} is in error.
+
+\begin{table}
+\caption[Comparison of seismicity rates]{Comparison of seismicity rates in areal and smoothed-gridded seismicity models to those obtained from the catalogue.}
+\label{table:Rates}
+\centering
+\input{activity_rates_by_layer_areal_vs_smoothed_vs_catalogue.tex}
+\end{table}
 
 \begin{figure}[!htb]
 \begin{adjustbox}{center}
@@ -165,6 +173,8 @@ Other assumptions:
 Note differences in grids: although the hazard maps in the electronic supplement are at 0.2° and the paper says the smoothed-gridded models are also at 0.2° they are in fact at 0.1°. Figure shows the model at just 0.2°.
 
 Note smoothing details. A Gaussian kernel is used, following the methodology of \cite{frankel1995mapping} with correlation distances of 65 and 85~km for $m_{min}$ of 4.5 and 5.5 respectively. The method involves smoothing event counts, thus events per year, for a given minimum magnitude.
+
+\cite{thingbaijam2011synoptic}
 
 \subsection{Ground-motion prediction}
 \label{sec:GroundMotion}

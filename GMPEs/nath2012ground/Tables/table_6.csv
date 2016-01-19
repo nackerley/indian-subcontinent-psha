@@ -1,6 +1,6 @@
-Period (s),Correction-factor
-PGA,0.6169
-PGV,0.8781
+IMT,correction
+pga,0.6169
+pgv,0.8781
 0.1,0.6249
 0.2,0.6584
 0.5,0.8355

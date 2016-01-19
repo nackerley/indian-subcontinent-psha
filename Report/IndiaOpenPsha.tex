@@ -179,6 +179,12 @@ Note smoothing details. A Gaussian kernel is used, following the methodology of 
 \subsection{Ground-motion prediction}
 \label{sec:GroundMotion}
 
+Importance of models implemented for this study. 
+
+The great Assam earthquake of 1897 destroyed buildings within several hundred km. The two main fault structures involved are capable of M > 8 plateau-building events with a recurrence interval of 3-8 kyr each \citep{bilham2001plateau}.
+
+\cite{nath2012ground} notes stress drop apparently increasing with depth and models $\kappa$ using a database of recent well-recorded micro-earthquakes, and uses this information to develop stochastic models for events in the upper and lower crust. The simulations are of vertical motion at a hard-rock site and no site corrections are attempted.
+
 \cite{sharma2009ground} points out that the decay rate of PGA for shallow India-Bangladesh and deep India-Burma border events have different distance scaling. The former leads to the necessity of a GMPE specific to the Shillong plateau \cite{nath2012ground} while the latter means interface subduction events need to be treated differently. 
 
 Issues encountered while implementing GMPE logic tree:
@@ -233,6 +239,9 @@ Issued encountered while implementing GMPEs:
 \hline
 \end{tabular}
 \end{table}
+
+
+\cite{kanno2006new} -> \cite{douglas2003earthquake}
 
 \subsection{Logic Trees}
 \label{subsec:LogicTrees}
@@ -329,7 +338,7 @@ Acknowledgements here
 \subsection{Job Configuration Files}
 \label{ch:Jobs}
 
-\lstinputlisting[language=Ini,caption=\lstname]{phase1.ini}
+\lstinputlisting[language=Ini,caption=\lstname]{phase1-job.ini}
 
 \end{appendices}
 

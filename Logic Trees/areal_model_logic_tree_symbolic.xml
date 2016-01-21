@@ -31,13 +31,13 @@ xmlns:gml="http://www.opengis.net/gml"
             <logicTreeBranchSet
             applyToSources="areal_source_model.tsv"
             branchSetID="bs2"
-            uncertaintyType="maxMagGRRelative"
+            uncertaintyType="maxMagGRAbsolute"
             >
                 <logicTreeBranch
                 branchID="b2m1"
                 >
                     <uncertaintyModel>
-                        -stdmmax
+                        mmax - stdmmax
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.32
@@ -47,7 +47,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b2m2"
                 >
                     <uncertaintyModel>
-                        0
+                        mmax
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.36
@@ -57,7 +57,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b2m3"
                 >
                     <uncertaintyModel>
-                        +stdmmax
+                        mmax + stdmmax
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.32

@@ -311,7 +311,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         YoungsEtAl1997SSlab
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.5
+                        0.334
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -321,7 +321,17 @@ xmlns:gml="http://www.opengis.net/gml"
                         ZhaoEtAl2006SSlab
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.5
+                        0.333
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="r9m3"
+                >
+                    <uncertaintyModel>
+                        Gupta2010SSlab
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.333
                     </uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>

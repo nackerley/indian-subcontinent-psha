@@ -1,4 +1,4 @@
 uncertaintyType	applyToSources	uncertaintyModel	uncertaintyWeight
-sourceModel	all	['areal_source_model.xml', 'smoothed_source_model_mmin4.5.xml', 'smoothed_source_model_mmin5.5.xml']	[0.4,  0.27,  0.33]
+sourceModel	all	['areal_source_model.xml', 'nath2012probabilistic_smoothed_source_model_mmin4.5.xml', 'nath2012probabilistic_smoothed_source_model_mmin5.5.xml']	[0.4,  0.27,  0.33]
 maxMagGRAbsolute	areal_source_model.tsv	['mmax - stdmmax',  'mmax',  'mmax + stdmmax']	[0.32,  0.36,  0.32]
 bGRRelative	areal_source_model.tsv	['-stdb', '0',  '+stdb']	[0.32,  0.36,  0.32]

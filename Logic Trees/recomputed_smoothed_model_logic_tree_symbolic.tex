@@ -1,0 +1,36 @@
+\documentclass[border=2mm]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{graphdrawing, graphs}
+\usegdlibrary{trees}
+\usepackage{fontspec} % support for setmonofont
+\setmonofont{Ubuntu Mono}[Scale=MatchUppercase]
+
+\begin{document}
+\begin{tikzpicture}[>=latex, align=center, anchor=west,
+link/.style={out=east, in=west},
+box/.style={rectangle, rounded corners, draw}]
+\graph [tree layout, components go down center aligned, grow'=right,
+fresh nodes, layer sep=2cm, sibling distance=0mm, sibling sep=0.5mm] {
+    
+    "sourceModel\\ logicTree"[box] ->[link] {
+        ""[box] ->[link] {
+            "\texttt{areal\_source\_model.xml}: 0.4",
+            "\texttt{recomputed\_smoothed\_source\_model\_mmin4.5.xml}: 0.27",
+            "\texttt{recomputed\_smoothed\_source\_model\_mmin5.5.xml}: 0.33",
+        },
+        "each\\ source"[box] ->[link] {
+            "$m_{max} - \sigma_{m_{max}}$: 0.32",
+            "$m_{max}$: 0.36",
+            "$m_{max} + \sigma_{m_{max}}$: 0.32",
+        },
+        "each\\ source"[box] ->[link] {
+            "-$\sigma_b$: 0.32",
+            "\texttt{0}: 0.36",
+            "+$\sigma_b$: 0.32",
+        },
+    },
+};
+\end{tikzpicture}
+\end{document}
+    

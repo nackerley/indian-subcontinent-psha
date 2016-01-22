@@ -27,7 +27,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b1m2"
                 >
                     <uncertaintyModel>
-                        smoothed_source_model_mmin4.5.xml
+                        nath2012probabilistic_smoothed_source_model_mmin4.5.xml
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.27
@@ -37,7 +37,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b1m3"
                 >
                     <uncertaintyModel>
-                        smoothed_source_model_mmin5.5.xml
+                        nath2012probabilistic_smoothed_source_model_mmin5.5.xml
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.33

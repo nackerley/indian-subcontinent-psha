@@ -3,7 +3,7 @@
   <Document>
     <name>areal source model layer 1</name>
     <Schema id="SourceModelSchemaId" name="SourceModelSchema">
-      <SimpleField name="zoneid" type="int"/>
+      <SimpleField name="zoneid" type="string"/>
       <SimpleField name="tectonic subregion" type="string"/>
       <SimpleField name="mmin" type="double"/>
       <SimpleField name="a" type="double"/>

@@ -1,20 +1,20 @@
-	zoneid	layerid	tectonic subregion	mmin	a	aspect ratio	b	concerns	dip	mechanism	mmax	msr	polygon coordinates	rake	region	stdb	stdmmax	strike	tectonic zone	zmax	zmin	smoothed N 4.5	smoothed nu 4.5	smoothed a 4.5	areal nu 4.5	smoothed N 5.5	smoothed nu 5.5	smoothed a 5.5	areal nu 5.5	logN_5.0-6.0	logN_6.0-7.0	logN_7.0-8.0
+	zoneid	layerid	tectonic subregion	mmin	a	aspect ratio	b	concerns	dip	mechanism	mmax	msr	polygon coordinates	rake	region	stdb	stdmmax	strike	tectonic zone	zmax	zmin	smoothed N 4.5	smoothed lambda 4.5	smoothed a 4.5	areal lambda 4.5	smoothed N 5.5	smoothed lambda 5.5	smoothed a 5.5	areal lambda 5.5	name	id
 0	1.0	1.0	subduction interface	4.5	5.2	2	1.05		73	dextral	7.5	StrasserInterface	"[[ 67.81  37.55]
  [ 68.3   38.82]
  [ 72.95  39.99]
  [ 73.    39.06]
- [ 70.69  38.27]]"	30.0	Pamirs	0.07	0.4	202	Subduction interface	25.0	0.0	545	317.5179	7.23	2.9854	545	11.2995	6.83	0.2661	-0.09	-1.14	-2.3
+ [ 70.69  38.27]]"	30.0	Pamirs	0.07	0.4	202	Subduction interface	25.0	0.0	135	3.0183	5.2	2.9854	135	0.0797	4.68	0.2661	zone 1	z1
 1	2.0	1.0	subduction interface	4.5	4.64	2	0.93		31	reverse	7.5	StrasserInterface	"[[ 72.95  39.99]
  [ 76.53  39.99]
  [ 76.1   38.89]
  [ 75.85  37.89]
  [ 75.85  37.89]
  [ 74.94  38.35]
- [ 73.    39.06]]"	142.0	Pamirs	0.09	0.4	306	Subduction interface	25.0	0.0	487	250.2674	6.58	2.851	487	14.7491	6.28	0.335	-0.06	-0.99	-2.05
+ [ 73.    39.06]]"	142.0	Pamirs	0.09	0.4	306	Subduction interface	25.0	0.0	122	2.4047	4.57	2.851	122	0.1219	4.2	0.335	zone 2	z2
 2	3.0	1.0	active shallow crust strike-slip reverse	4.5	3.75	2	0.77		89	reverse	8.0	WC1994	"[[ 76.1   38.89]
  [ 76.53  39.99]
  [ 79.11  40.04]
- [ 78.84  38.84]]"	33.0	Qaidam	0.05	0.4	59	Active shallow crust	25.0	0.0	315	139.7929	5.61	1.9275	315	11.8139	5.31	0.3273	-0.18	-0.95	-1.72
+ [ 78.84  38.84]]"	33.0	Qaidam	0.05	0.4	59	Active shallow crust	25.0	0.0	78	1.3098	3.58	1.9275	78	0.1012	3.24	0.3273	zone 3	z3
 3	4.0	1.0	subduction interface	4.5	4.34	2	0.98		56	dextral	7.4	StrasserInterface	"[[ 75.85  37.89]
  [ 75.85  37.89]
  [ 76.1   38.89]
@@ -23,16 +23,16 @@
  [ 84.15  38.03]
  [ 85.07  36.26]
  [ 81.13  36.14]
- [ 77.33  37.14]]"	177.0	Kunlun Shan	0.08	0.4	309	Subduction interface	25.0	0.0	1560	94.8224	6.39	0.8511	1336	3.0104	5.87	0.0891	-0.61	-1.59	-2.75
-4	5.0	1.0	subduction interface	4.5	4.29	2	0.91		55	reverse	7.5	StrasserInterface	"[[ 67.29  35.43]
+ [ 77.33  37.14]]"	177.0	Kunlun Shan	0.08	0.4	309	Subduction interface	25.0	0.0	394	0.9098	4.37	0.8511	293	0.0183	3.65	0.0891	zone 4	z4
+4	5.0	1.0	subduction interface	4.5	4.29	2	0.91		55	reverse	7.8	StrasserInterface	"[[ 67.29  35.43]
  [ 67.81  37.55]
  [ 70.69  38.27]
- [ 69.14  35.78]]"	148.0		0.08	0.4	274	Subduction interface	25.0	0.0	492	151.4032	6.28	1.5668	492	12.9075	6.12	0.1928	-0.32	-1.23	-2.27
+ [ 69.14  35.78]]"	148.0		0.08	0.4	274	Subduction interface	25.0	0.0	124	1.6744	4.32	1.5668	124	0.1001	4.01	0.1928	zone 5	z5
 5	6.0	1.0	active shallow crust normal	4.5	4.75	2	1.01		42	normal	8.2	WC1994	"[[ 70.7   38.27]
  [ 73.    39.06]
  [ 74.94  38.35]
  [ 75.29  36.96]
- [ 72.93  36.59]]"	-53.0	Pamirs	0.09	0.4	189	Active shallow crust	25.0	0.0	690	172.5552	6.78	1.6032	690	9.5092	6.53	0.1567	-0.34	-1.35	-2.36
+ [ 72.93  36.59]]"	-53.0	Pamirs	0.09	0.4	189	Active shallow crust	25.0	0.0	171	1.6043	4.75	1.6032	171	0.073	4.42	0.1567	zone 6	z6
 6	7.0	1.0	active shallow crust normal	4.5	4.89	2	1.08		52	normal	7.6	WC1994	"[[ 74.94  38.35]
  [ 75.85  37.89]
  [ 77.33  37.14]
@@ -40,7 +40,7 @@
  [ 85.07  36.26]
  [ 85.57  35.29]
  [ 80.22  35.27]
- [ 75.29  36.96]]"	-74.0	Kunlun	0.12	0.4	203	Active shallow crust	25.0	0.0	982	127.9271	6.97	1.0715	968	3.6994	6.51	0.0891	-0.55	-1.63	-2.78
+ [ 75.29  36.96]]"	-74.0	Kunlun	0.12	0.4	203	Active shallow crust	25.0	0.0	250	1.1805	4.93	1.0715	245	0.037	4.51	0.0891	zone 7	z7
 7	8.0	1.0	active shallow crust strike-slip reverse	4.5	3.64	2	0.82		34	reverse	8.3	WC1994	"[[ 65.49  32.63]
  [ 67.29  35.43]
  [ 69.14  35.78]
@@ -49,44 +49,44 @@
  [ 70.76  33.98]
  [ 69.42  32.81]
  [ 66.99  30.69]
- [ 66.98  30.69]]"	113.0	Hindu Kush	0.08	0.3	271	Active shallow crust	25.0	0.0	1742	102.6627	5.7	0.8913	1742	19.6318	5.8	0.1349	-0.53	-1.35	-2.17
+ [ 66.98  30.69]]"	113.0	Hindu Kush	0.08	0.3	271	Active shallow crust	25.0	0.0	435	1.1395	3.75	0.8913	435	0.1204	3.59	0.1349	zone 8	z8
 8	9.0	1.0	active shallow crust strike-slip reverse	4.5	4.01	2	0.87		16	dextral	8.0	WC1994	"[[ 69.14  35.78]
  [ 70.69  38.27]
  [ 72.93  36.59]
- [ 70.63  35.64]]"	171.0	Hindu Kush	0.07	0.4	36	Active shallow crust	25.0	0.0	501	131.6066	6.03	1.2445	501	12.5284	5.88	0.1679	-0.4	-1.27	-2.14
+ [ 70.63  35.64]]"	171.0	Hindu Kush	0.07	0.4	36	Active shallow crust	25.0	0.0	126	1.3793	4.05	1.2445	126	0.0938	3.76	0.1679	zone 9	z9
 9	12.0	1.0	active shallow crust strike-slip reverse	4.5	3.45	2	0.72		57	reverse	8.6	WC1994	"[[ 70.76  33.98]
  [ 72.93  36.59]
  [ 75.34  35.63]
  [ 74.64  34.65]
- [ 73.96  32.07]]"	66.0	Himalayas	0.07	0.4	114	Active shallow crust	25.0	0.0	1063	111.0673	5.29	1.6218	1063	7.3199	4.82	0.309	-0.24	-0.96	-1.68
+ [ 73.96  32.07]]"	66.0	Himalayas	0.07	0.4	114	Active shallow crust	25.0	0.0	267	1.071	3.27	1.6218	267	0.0502	2.66	0.309	zone 12	z12
 10	13.0	1.0	subduction interface	4.5	3.24	2	0.75		78	reverse	7.5	StrasserInterface	"[[ 73.96  32.07]
  [ 74.64  34.65]
  [ 77.54  33.52]
  [ 77.13  32.17]
  [ 76.6   30.42]
- [ 75.37  31.19]]"	94.0	Himalayas - Main Frontal Thrust	0.07	0.4	138	Subduction interface	25.0	0.0	903	95.169	5.35	0.7328	903	7.9161	5.02	0.1303	-0.6	-1.35	-2.25
+ [ 75.37  31.19]]"	94.0	Himalayas - Main Frontal Thrust	0.07	0.4	138	Subduction interface	25.0	0.0	225	0.8877	3.32	0.7328	225	0.0445	2.77	0.1303	zone 13	z13
 11	14.0	1.0	subduction interface	4.5	3.12	2	0.72		69	sinistral	7.5	StrasserInterface	"[[ 60.    27.11]
  [ 64.52  27.59]
  [ 66.66  25.14]
- [ 60.06  22.83]]"	-30.0	Makran	0.09	0.4	228	Subduction interface	25.0	0.0	1924	71.3498	5.09	0.7586	1960	7.1496	4.81	0.1445	-0.57	-1.29	-2.17
+ [ 60.06  22.83]]"	-30.0	Makran	0.09	0.4	228	Subduction interface	25.0	0.0	480	0.6903	3.08	0.7586	487	0.0478	2.64	0.1445	zone 14	z14
 12	15.0	1.0	subduction interface	4.5	4.88	2	0.98		71	sinistral	7.5	StrasserInterface	"[[ 64.52  27.59]
  [ 65.49  32.63]
  [ 66.98  30.69]
  [ 68.76  28.38]
  [ 67.88  25.57]
- [ 66.66  25.14]]"	24.0	Kirthar	0.1	0.4	204	Subduction interface	25.0	0.0	1789	185.4891	6.68	2.9512	1789	29.4921	6.86	0.309	-0.07	-1.05	-2.15
+ [ 66.66  25.14]]"	24.0	Kirthar	0.1	0.4	204	Subduction interface	25.0	0.0	445	1.6677	4.63	2.9512	445	0.1652	4.61	0.309	zone 15	z15
 13	16.0	1.0	subduction interface	4.5	4.36	2	0.88		18	reverse	7.5	StrasserInterface	"[[ 66.98  30.69]
  [ 66.99  30.69]
  [ 69.42  32.81]
  [ 71.81  29.99]
  [ 69.16  27.86]
- [ 68.76  28.38]]"	126.0	Sulaiman	0.08	0.4	298	Subduction interface	25.0	0.0	1206	244.7897	6.35	2.5119	1206	24.0746	6.22	0.3311	-0.1	-0.98	-2.0
+ [ 68.76  28.38]]"	126.0	Sulaiman	0.08	0.4	298	Subduction interface	25.0	0.0	303	2.3268	4.33	2.5119	303	0.1273	3.94	0.3311	zone 16	z16
 14	17.0	1.0	subduction interface	4.5	3.25	2	0.82	could be stable	13	reverse	7.0	StrasserInterface	"[[ 69.42  32.81]
  [ 70.76  33.98]
  [ 73.96  32.07]
  [ 75.37  31.19]
  [ 73.95  29.85]
- [ 71.81  29.99]]"	59.0	Pamirs	0.11	0.4	219	Subduction interface	25.0	0.0	1262	43.0527	5.32	0.3631	1262	6.8059	5.34	0.055	-0.92	-1.74	-inf
+ [ 71.81  29.99]]"	59.0	Pamirs	0.11	0.4	219	Subduction interface	25.0	0.0	314	0.4063	3.3	0.3631	258	0.0119	2.58	0.055	zone 17	z17
 15	21.0	1.0	subduction interface	4.5	3.87	2	0.85		14	reverse	7.5	StrasserInterface	"[[ 76.6   30.42]
  [ 77.13  32.17]
  [ 79.13  31.19]
@@ -95,7 +95,7 @@
  [ 82.21  27.47]
  [ 82.16  27.48]
  [ 79.8   28.73]
- [ 76.96  30.23]]"	90.0	Himalayas - Main Frontal Thrust	0.09	0.2	291	Subduction interface	25.0	0.0	1240	222.2816	6.17	1.1092	1240	13.4595	5.8	0.1567	-0.45	-1.3	-2.28
+ [ 76.96  30.23]]"	90.0	Himalayas - Main Frontal Thrust	0.09	0.2	291	Subduction interface	25.0	0.0	310	2.042	4.14	1.1092	310	0.1091	3.71	0.1567	zone 21	z21
 16	22.0	1.0	subduction interface	4.5	3.34	2	0.73		31	reverse	7.5	StrasserInterface	"[[ 82.21  27.47]
  [ 82.95  29.43]
  [ 82.97  29.42]
@@ -103,28 +103,28 @@
  [ 87.55  27.75]
  [ 87.06  26.23]
  [ 87.06  26.22]
- [ 87.06  26.22]]"	108.0	Himalayas - Main Frontal Thrust	0.1	0.2	308	Subduction interface	25.0	0.0	907	88.734	5.23	1.135	907	6.4265	4.82	0.2113	-0.4	-1.13	-2.02
+ [ 87.06  26.22]]"	108.0	Himalayas - Main Frontal Thrust	0.1	0.2	308	Subduction interface	25.0	0.0	226	0.8727	3.23	1.135	226	0.053	2.74	0.2113	zone 22	z22
 17	57.0	1.0	active shallow crust normal	4.5	6.79	2	1.35		48	normal	7.2	WC1994	"[[ 93.08   9.99]
  [ 94.45  13.23]
  [ 97.3   13.41]
- [ 95.73   9.99]]"	-77.0	Andaman-Sumatra	0.1	0.4	244	Active shallow crust	25.0	0.0	914	230.6735	8.44	5.188	914	6.75	8.25	0.2317	0.02	-1.33	-2.99
+ [ 95.73   9.99]]"	-77.0	Andaman-Sumatra	0.1	0.4	244	Active shallow crust	25.0	0.0	232	2.1405	6.41	5.188	232	0.0679	6.26	0.2317	zone 57	z57
 18	58.0	1.0	active shallow crust strike-slip reverse	4.5	4.95	2	0.95		75	dextral	8.4	WC1994	"[[  93.09    9.99]
  [  95.73    9.99]
  [  96.54    6.81]
  [ 100.77    3.6 ]
  [  98.01    2.86]
- [  94.09    5.95]]"	180.0	Andaman-Sumatra	0.06	0.4	151	Active shallow crust	25.0	0.0	2090	271.6077	6.71	4.7315	2052	30.5325	6.71	0.5309	0.15	-0.8	-1.75
+ [  94.09    5.95]]"	180.0	Andaman-Sumatra	0.06	0.4	151	Active shallow crust	25.0	0.0	521	2.4505	4.66	4.7315	512	0.2654	4.65	0.5309	zone 58	z58
 19	63.0	1.0	stable shallow crust	4.5	4.01	2	0.95		39	reverse	8.2	WC1994	"[[ 67.88  22.49]
  [ 67.88  25.57]
  [ 71.76  25.5 ]
- [ 71.83  22.52]]"	136.0	Peninsular India	0.05	0.4	298	Stable continental	25.0	0.0	1170	62.4072	6.07	0.5433	1099	5.0872	5.93	0.061	-0.79	-1.74	-2.69
+ [ 71.83  22.52]]"	136.0	Peninsular India	0.05	0.4	298	Stable continental	25.0	0.0	289	0.5364	4.0	0.5433	273	0.026	3.64	0.061	zone 63	z63
 20	66.0	1.0	stable shallow crust	4.5	3.45	2	0.86		83	sinistral	7.0	WC1994	"[[ 67.85  19.71]
  [ 67.88  22.49]
  [ 71.83  22.52]
  [ 72.27  22.52]
  [ 72.35  19.78]
  [ 72.35  19.77]
- [ 71.16  19.75]]"	25.0	Peninsular India	0.11	0.3	58	Stable continental	25.0	0.0	1103	14.3976	5.03	0.3802	331	0.3238	4.24	0.0525	-0.91	-1.77	-inf
+ [ 71.16  19.75]]"	25.0	Peninsular India	0.11	0.3	58	Stable continental	25.0	0.0	274	0.1068	2.9	0.3802	80	0.003	2.2	0.0525	zone 66	z66
 21	71.0	1.0	stable shallow crust	4.5	0.0	2	0.81	oceanic not continental, but no seismicity	45	undefined	5.8	WC1994	"[[ 67.85  19.71]
  [ 71.16  19.75]
  [ 72.86  15.84]
@@ -148,31 +148,31 @@
  [ 84.68   2.  ]
  [ 73.55   1.99]
  [ 73.55   2.01]
- [ 71.28  11.43]]"	90.0	Bay of Bengal, Arabian Sea	0.05	0.3	0	Stable continental	25.0	0.0	3112	8.7144	4.59	0.0002	440	0.3045	3.94	0.0	-4.16		
+ [ 71.28  11.43]]"	90.0	Bay of Bengal, Arabian Sea	0.05	0.3	0	Stable continental	25.0	0.0	776	0.0877	2.59	0.0002	111	0.0029	1.92	0.0	zone 71	z71
 22	74.0	1.0	stable shallow crust	4.5	2.57	2	0.86		47	reverse	6.5	WC1994	"[[ 73.27  19.85]
  [ 76.12  20.48]
  [ 80.67  17.38]
- [ 75.41  16.37]]"	68.0	Peninsular India	0.07	0.3	284	Stable continental	25.0	0.0	1466	16.245	5.08	0.0501	1138	2.825	5.18	0.0069	-1.79	-2.79	
+ [ 75.41  16.37]]"	68.0	Peninsular India	0.07	0.3	284	Stable continental	25.0	0.0	317	0.1008	2.87	0.0501	283	0.0202	3.04	0.0069	zone 74	z74
 23	75.0	1.0	stable shallow crust	4.5	3.91	2	1.19		45	undefined	6.4	WC1994	"[[ 76.12  20.48]
  [ 78.09  20.84]
  [ 82.51  18.57]
- [ 80.67  17.38]]"	90.0	Peninsular India	0.12	0.3	0	Stable continental	25.0	0.0	339	1.5288	5.54	0.0359	385	0.5551	6.29	0.0023	-2.07	-3.41	
+ [ 80.67  17.38]]"	90.0	Peninsular India	0.12	0.3	0	Stable continental	25.0	0.0	81	0.0148	3.53	0.0359	98	0.0055	4.28	0.0023	zone 75	z75
 24	81.0	1.0	stable shallow crust	4.5	2.65	2	0.86		45	undefined	6.2	WC1994	"[[ 78.36  13.68]
  [ 78.64  15.58]
  [ 80.67  17.38]
  [ 80.7   17.38]
  [ 82.87  16.84]
  [ 81.2   14.01]
- [ 78.36  13.68]]"	90.0	Peninsular India	0.12	0.3	0	Stable continental	25.0	0.0	945	5.2997	4.59	0.0603	189	0.1251	3.83	0.0083	-1.71	-3.0	
+ [ 78.36  13.68]]"	90.0	Peninsular India	0.12	0.3	0	Stable continental	25.0	0.0	231	0.0474	2.55	0.0603	47	0.0011	1.76	0.0083	zone 81	z81
 25	82.0	1.0	stable shallow crust	4.5	3.14	2	1.01		66	reverse	6.1	WC1994	"[[ 77.62  11.53]
  [ 78.36  13.68]
  [ 81.2   14.01]
  [ 81.2   13.99]
- [ 80.45  11.06]]"	64.0	Peninsular India	0.13	0.3	51	Stable continental	25.0	0.0	725	9.3953	5.52	0.0394	0	0.0	-inf	0.0038	-1.95	-3.6	
+ [ 80.45  11.06]]"	64.0	Peninsular India	0.13	0.3	51	Stable continental	25.0	0.0	178	0.0433	3.18	0.0394	0	0.0	-inf	0.0038	zone 82	z82
 26	86.0	1.0	stable shallow crust	4.5	0.0	2	0.81	no seismicity	45	undefined	6.3	WC1994	"[[ 75.35   4.94]
  [ 79.75  10.23]
  [ 82.07   8.72]
- [ 77.91   3.38]]"	90.0	Sri Lanka, Laccadive Sea	0.05	0.2	0	Stable continental	25.0	0.0	807	4.5434	4.3	0.0002	808	0.9396	4.43	0.0	-4.12	-5.23	
+ [ 77.91   3.38]]"	90.0	Sri Lanka, Laccadive Sea	0.05	0.2	0	Stable continental	25.0	0.0	201	0.0444	2.29	0.0002	203	0.0093	2.42	0.0	zone 86	z86
 27	87.0	2.0	subduction interface	4.5	5.97	2	1.16	why no Japan/Cascadia distinction with Atkinson/Boore?	89	dextral	7.5	StrasserInterface	"[[ 75.91  38.87]
  [ 73.19  38.86]
  [ 71.15  38.37]
@@ -181,30 +181,30 @@
  [ 68.3   38.82]
  [ 72.71  39.99]
  [ 78.86  39.99]
- [ 78.46  38.87]]"	166.0	Pamir	0.06	0.3	150	Subduction interface	70.0	25.0	1258	707.8914	8.07	5.6234	1258	21.924	7.72	0.389	0.14	-1.02	-2.28
+ [ 78.46  38.87]]"	166.0	Pamir	0.06	0.3	150	Subduction interface	70.0	25.0	311	7.1786	6.08	5.6234	311	0.2136	5.71	0.389	zone 87	z87
 28	88.0	2.0	subduction interface	4.5	6.07	2	1.22		73	sinistral	7.5	StrasserInterface	"[[ 70.71  37.79]
  [ 69.6   35.85]
  [ 67.08  35.37]
  [ 67.81  37.55]
  [ 70.91  38.31]
- [ 71.15  38.37]]"	4.0	Hindu Kush	0.09	0.4	210	Subduction interface	70.0	25.0	606	346.6879	8.03	3.8019	606	12.8238	7.82	0.2291	-0.06	-1.28	-2.59
+ [ 71.15  38.37]]"	4.0	Hindu Kush	0.09	0.4	210	Subduction interface	70.0	25.0	151	3.4929	6.03	3.8019	151	0.1112	5.76	0.2291	zone 88	z88
 29	89.0	2.0	subduction interface	4.5	5.29	2	1.11		68	reverse	7.3	StrasserInterface	"[[ 72.93  36.59]
  [ 71.86  35.89]
  [ 69.6   35.85]
- [ 70.71  37.79]]"	94.0	Hindu Kush	0.06	0.4	340	Subduction interface	70.0	25.0	366	189.5495	7.27	1.9724	366	8.141	7.02	0.1531	-0.3	-1.41	-2.75
+ [ 70.71  37.79]]"	94.0	Hindu Kush	0.06	0.4	340	Subduction interface	70.0	25.0	90	1.937	5.28	1.9724	90	0.0761	4.99	0.1531	zone 89	z89
 30	90.0	2.0	subduction interface	4.5	5.8	2	1.2		52	normal	7.5	StrasserInterface	"[[ 75.91  38.87]
  [ 75.29  36.96]
  [ 72.93  36.59]
  [ 70.71  37.79]
  [ 71.15  38.37]
- [ 73.19  38.86]]"	-36.0	Pamir	0.06	0.4	210	Subduction interface	70.0	25.0	830	357.4501	7.95	2.5119	830	9.0711	7.56	0.1585	-0.23	-1.43	-2.73
+ [ 73.19  38.86]]"	-36.0	Pamir	0.06	0.4	210	Subduction interface	70.0	25.0	211	3.6821	5.97	2.5119	211	0.0946	5.58	0.1585	zone 90	z90
 31	91.0	2.0	subduction interface	4.5	4.72	2	0.95		33	sinistral	7.4	StrasserInterface	"[[ 75.91  38.87]
  [ 78.46  38.86]
  [ 80.97  38.03]
  [ 84.15  38.03]
  [ 85.57  35.29]
  [ 80.22  35.27]
- [ 75.29  36.96]]"	16.0	Kunlun	0.11	0.3	63	Subduction interface	70.0	25.0	2511	194.3873	6.56	2.7861	2449	9.0601	6.18	0.3126	-0.08	-1.03	-2.16
+ [ 75.29  36.96]]"	16.0	Kunlun	0.11	0.3	63	Subduction interface	70.0	25.0	637	2.0703	4.59	2.7861	620	0.0891	4.17	0.3126	zone 91	z91
 32	92.0	2.0	subduction interface	4.5	4.8	2	1.05		66	sinistral	7.5	StrasserInterface	"[[ 69.6   35.85]
  [ 71.84  35.88]
  [ 70.76  33.98]
@@ -212,46 +212,46 @@
  [ 66.99  30.69]
  [ 66.98  30.69]
  [ 65.41  32.73]
- [ 67.08  35.37]]"	-5.0	Hindu Kush	0.1	0.4	194	Subduction interface	70.0	25.0	1716	195.4542	7.02	1.1885	1685	11.3342	6.83	0.1059	-0.49	-1.54	-2.7
+ [ 67.08  35.37]]"	-5.0	Hindu Kush	0.1	0.4	194	Subduction interface	70.0	25.0	431	2.0816	5.04	1.1885	424	0.1078	4.81	0.1059	zone 92	z92
 33	93.0	2.0	subduction interface	4.5	5.66	2	1.18		77	sinistral	7.5	StrasserInterface	"[[ 69.68  33.04]
  [ 71.78  30.03]
  [ 69.34  27.63]
- [ 66.98  30.69]]"	-2.0	Sulaiman	0.9	0.4	196	Subduction interface	70.0	25.0	1316	259.8516	7.72	2.2387	1316	18.8635	7.77	0.1479	-0.27	-1.45	-2.73
+ [ 66.98  30.69]]"	-2.0	Sulaiman	0.9	0.4	196	Subduction interface	70.0	25.0	325	2.8639	5.77	2.2387	325	0.165	5.71	0.1479	zone 93	z93
 34	94.0	2.0	subduction interface	4.5	4.51	2	0.98		89	sinistral	7.5	StrasserInterface	"[[ 65.41  32.73]
  [ 69.34  27.63]
  [ 68.84  25.4 ]
  [ 68.09  22.65]
  [ 66.31  24.82]
- [ 63.92  27.72]]"	-6.0		0.09	0.4	11	Subduction interface	70.0	25.0	2747	240.3421	6.79	1.2589	2648	20.0607	6.69	0.1318	-0.44	-1.42	-2.52
-35	95.0	2.0	subduction interface	4.5	4.35	2	0.94		79	dextral	7.5	StrasserInterface	"[[ 66.31  24.82]
+ [ 63.92  27.72]]"	-6.0		0.09	0.4	11	Subduction interface	70.0	25.0	687	2.6981	4.84	1.2589	663	0.1954	4.68	0.1318	zone 94	z94
+35	95.0	2.0	subduction interface	4.5	4.35	2	0.94		79	dextral	7.6	StrasserInterface	"[[ 66.31  24.82]
  [ 60.14  23.5 ]
  [ 60.14  27.2 ]
- [ 63.92  27.72]]"	167.0	Makram	0.13	0.4	23	Subduction interface	70.0	25.0	1740	130.8445	6.35	1.3183	1740	10.3564	6.19	0.1514	-0.4	-1.34	-2.41
+ [ 63.92  27.72]]"	167.0	Makram	0.13	0.4	23	Subduction interface	70.0	25.0	442	1.4367	4.39	1.3183	442	0.1031	4.18	0.1514	zone 95	z95
 36	97.0	2.0	subduction interface	4.5	3.77	2	0.93		77	sinistral	7.2	StrasserInterface	"[[ 69.68  33.04]
  [ 70.76  33.98]
  [ 76.    31.  ]
  [ 74.08  28.4 ]
  [ 71.79  30.02]
- [ 71.78  30.03]]"	-2.0	North Afghanistan, south of mountains	0.12	0.4	196	Subduction interface	70.0	25.0	1611	66.9074	6.01	0.3846	1594	3.808	5.7	0.0452	-0.93	-1.86	-3.2
+ [ 71.78  30.03]]"	-2.0	North Afghanistan, south of mountains	0.12	0.4	196	Subduction interface	70.0	25.0	405	0.6911	4.02	0.3846	401	0.0344	3.65	0.0452	zone 97	z97
 37	98.0	2.0	subduction interface	4.5	5.36	2	1.17		89	normal	7.1	StrasserInterface	"[[ 74.82  34.6 ]
  [ 77.88  33.47]
  [ 77.25  32.08]
  [ 76.6   30.66]
  [ 76.    31.  ]
- [ 73.63  32.35]]"	-108.0	Himalayas	0.1	0.4	322	Subduction interface	70.0	25.0	940	150.1164	7.44	1.2445	940	3.0436	6.92	0.0841	-0.52	-1.69	-3.46
+ [ 73.63  32.35]]"	-108.0	Himalayas	0.1	0.4	322	Subduction interface	70.0	25.0	235	1.5501	5.46	1.2445	235	0.0365	5.0	0.0841	zone 98	z98
 38	99.0	2.0	subduction interface	4.5	5.23	2	1.15		76	sinistral	7.1	StrasserInterface	"[[ 70.76  33.98]
  [ 71.86  35.89]
  [ 72.93  36.59]
  [ 75.36  35.62]
- [ 73.63  32.35]]"	-18.0		0.1	0.4	275	Subduction interface	70.0	25.0	1093	239.155	7.55	1.135	1093	2.6606	6.75	0.0804	-0.55	-1.7	-3.45
+ [ 73.63  32.35]]"	-18.0		0.1	0.4	275	Subduction interface	70.0	25.0	272	2.3922	5.55	1.135	272	0.0298	4.8	0.0804	zone 99	z99
 39	100.0	2.0	subduction interface	4.5	4.76	2	1.07		89	sinistral	7.1	StrasserInterface	"[[ 75.29  36.96]
  [ 80.22  35.27]
  [ 78.32  34.44]
- [ 72.93  36.59]]"	-13.0	Karakoram	0.09	0.4	89	Subduction interface	70.0	25.0	716	94.2516	6.79	0.881	716	3.109	6.38	0.075	-0.63	-1.7	-3.39
+ [ 72.93  36.59]]"	-13.0	Karakoram	0.09	0.4	89	Subduction interface	70.0	25.0	179	0.9712	4.8	0.881	179	0.0311	4.38	0.075	zone 100	z100
 40	101.0	2.0	subduction interface	4.5	5.28	2	1.19		40	normal	6.8	StrasserInterface	"[[ 85.57  35.29]
  [ 84.57  33.23]
  [ 78.32  34.44]
- [ 80.22  35.27]]"	-117.0	Tibetan plateau	0.1	0.4	349	Subduction interface	70.0	25.0	920	87.5448	7.3	0.8414	920	2.3428	6.91	0.0543	-0.7	-1.91	
+ [ 80.22  35.27]]"	-117.0	Tibetan plateau	0.1	0.4	349	Subduction interface	70.0	25.0	230	0.9204	5.32	0.8414	230	0.0232	4.91	0.0543	zone 101	z101
 41	102.0	2.0	subduction interface	4.5	5.17	2	1.19		86	sinistral	6.8	StrasserInterface	"[[ 85.57  35.29]
  [ 87.77  35.06]
  [ 90.45  35.41]
@@ -259,7 +259,7 @@
  [ 87.06  32.75]
  [ 87.06  32.75]
  [ 87.05  32.75]
- [ 84.57  33.23]]"	-165.0	Tibetan plateau	0.11	0.4	154	Subduction interface	70.0	25.0	1415	114.8888	7.42	0.6531	1252	2.2668	6.9	0.0422	-0.81	-2.02	
+ [ 84.57  33.23]]"	-165.0	Tibetan plateau	0.11	0.4	154	Subduction interface	70.0	25.0	354	1.1415	5.41	0.6531	313	0.0189	4.82	0.0422	zone 102	z102
 42	103.0	2.0	subduction interface	4.5	5.2	2	1.14		70	normal	7.2	StrasserInterface	"[[ 77.88  33.47]
  [ 74.82  34.6 ]
  [ 75.36  35.62]
@@ -277,127 +277,127 @@
  [ 80.61  32.49]
  [ 79.44  32.95]
  [ 79.41  32.96]
- [ 77.92  33.45]]"	-36.0	Ladakh, Zanskar, Tibetan	0.09	0.4	225	Subduction interface	70.0	25.0	2623	192.4421	7.41	1.1749	2623	10.0183	7.27	0.0851	-0.53	-1.67	-3.17
+ [ 77.92  33.45]]"	-36.0	Ladakh, Zanskar, Tibetan	0.09	0.4	225	Subduction interface	70.0	25.0	657	2.0319	5.44	1.1749	657	0.0713	5.12	0.0851	zone 103	z103
 43	110.0	2.0	subduction interface	4.5	3.58	2	0.78		23	reverse	7.5	StrasserInterface	"[[ 77.25  32.08]
  [ 79.13  31.19]
  [ 81.23  30.27]
  [ 83.91  29.12]
  [ 83.28  27.17]
  [ 76.6   30.66]
- [ 77.25  32.08]]"	82.0	Himalayas	0.06	0.2	290	Subduction interface	70.0	25.0	1281	214.8696	5.84	1.1749	1281	14.1212	5.44	0.195	-0.4	-1.18	-2.11
+ [ 77.25  32.08]]"	82.0	Himalayas	0.06	0.2	290	Subduction interface	70.0	25.0	322	2.2587	3.86	1.1749	322	0.1154	3.35	0.195	zone 110	z110
 44	116.0	2.0	subduction interface	4.5	6.23	2	1.3		59	normal	7.0	StrasserInterface	"[[ 90.45  35.41]
  [ 97.59  31.52]
  [ 98.86  28.24]
  [ 98.27  28.57]
  [ 92.03  32.12]
- [ 91.64  32.93]]"	-92.0		0.12	0.2	207	Subduction interface	70.0	25.0	1760	174.0011	8.09	2.3988	1593	6.2188	7.94	0.1202	-0.29	-1.59	-inf
+ [ 91.64  32.93]]"	-92.0		0.12	0.2	207	Subduction interface	70.0	25.0	439	1.8073	6.11	2.3988	398	0.0461	5.81	0.1202	zone 116	z116
 45	118.0	2.0	intraplate margin lower	4.5	4.67	2	1.05	unsure of correct scaling relation	89	normal	7.2	WC1994	"[[ 93.47  26.91]
  [ 94.07  26.1 ]
  [ 93.18  25.12]
  [ 91.78  26.74]
- [ 91.82  26.74]]"	-141.0	Shillong plateau?	0.12	0.4	301	Intraplate margin	70.0	25.0	213	70.0204	6.57	0.881	213	2.8819	6.23	0.0785	-0.62	-1.67	-3.1
+ [ 91.82  26.74]]"	-141.0	Shillong plateau?	0.12	0.4	301	Intraplate margin	70.0	25.0	54	0.7164	4.58	0.881	54	0.0304	4.26	0.0785	zone 118	z118
 46	119.0	2.0	intraplate margin lower	4.5	3.81	2	0.91	unsure of correct scaling relation	40	reverse	8.3	WC1994	"[[ 91.78  26.74]
  [ 93.18  25.12]
  [ 91.4   25.12]
  [ 90.56  25.12]
  [ 89.72  25.13]
  [ 89.72  25.13]
- [ 89.72  26.53]]"	90.0	Shillong plateau	0.1	0.2	112	Intraplate margin	70.0	25.0	413	94.7574	6.07	0.5188	413	5.9464	5.78	0.0638	-0.8	-1.71	-2.62
+ [ 89.72  26.53]]"	90.0	Shillong plateau	0.1	0.2	112	Intraplate margin	70.0	25.0	109	1.0633	4.12	0.5188	109	0.0549	3.74	0.0638	zone 119	z119
 47	128.0	2.0	subduction interface	4.5	4.01	2	0.88		64	sinistral	7.5	StrasserInterface	"[[ 93.41  23.13]
  [ 93.75  24.04]
  [ 95.35  23.55]
  [ 95.21  21.16]
- [ 93.52  20.76]]"	3.0	Indo-Myanmar	0.07	0.3	216	Subduction interface	70.0	25.0	513	170.5715	6.19	1.122	513	6.0838	5.62	0.1479	-0.45	-1.33	-2.35
+ [ 93.52  20.76]]"	3.0	Indo-Myanmar	0.07	0.3	216	Subduction interface	70.0	25.0	127	1.6513	4.18	1.122	127	0.0642	3.65	0.1479	zone 128	z128
 48	129.0	2.0	subduction interface	4.5	4.71	2	1.04		85	normal	6.9	StrasserInterface	"[[ 93.52  20.76]
  [ 95.21  21.16]
  [ 95.71  18.33]
  [ 95.42  15.88]
  [ 93.39  15.65]
- [ 93.76  18.44]]"	-121.0	Indo-Myanmar	0.11	0.3	317	Subduction interface	70.0	25.0	991	116.2845	6.75	1.0715	950	4.6395	6.39	0.0977	-0.53	-1.58	
+ [ 93.76  18.44]]"	-121.0	Indo-Myanmar	0.11	0.3	317	Subduction interface	70.0	25.0	249	1.1728	4.75	1.0715	240	0.0456	4.38	0.0977	zone 129	z129
 49	130.0	2.0	subduction interface	4.5	5.4	2	1.24		67	reverse	6.5	StrasserInterface	"[[ 93.39  15.65]
  [ 95.42  15.88]
  [ 94.54  13.8 ]
- [ 92.45  13.67]]"	60.0	Andaman-Sumatra	0.12	0.3	146	Subduction interface	70.0	25.0	405	51.1872	7.29	0.6607	380	1.0812	6.85	0.038	-0.83	-2.16	
+ [ 92.45  13.67]]"	60.0	Andaman-Sumatra	0.12	0.3	146	Subduction interface	70.0	25.0	103	0.5414	5.31	0.6607	96	0.016	5.02	0.038	zone 130	z130
 50	131.0	2.0	subduction interface	4.5	4.15	2	0.84		43	sinistral	7.5	StrasserInterface	"[[ 92.45  13.67]
  [ 94.54  13.8 ]
  [ 93.58  11.55]
  [ 93.19   9.56]
  [ 93.55   7.68]
  [ 91.85   7.06]
- [ 91.29  10.08]]"	-12.0	Andaman-Sumatra	0.07	0.3	256	Subduction interface	70.0	25.0	1195	293.2554	6.25	2.3442	1195	22.2097	5.97	0.3388	-0.12	-0.96	-1.94
+ [ 91.29  10.08]]"	-12.0	Andaman-Sumatra	0.07	0.3	256	Subduction interface	70.0	25.0	298	3.4849	4.32	2.3442	298	0.2388	4.0	0.3388	zone 131	z131
 51	132.0	2.0	subduction interface	4.5	4.4	2	0.87		14	reverse	7.5	StrasserInterface	"[[ 93.55   7.68]
  [ 97.5    2.46]
  [ 94.92   2.2 ]
- [ 91.85   7.06]]"	79.0	Andaman-Sumatra	0.06	0.2	298	Subduction interface	70.0	25.0	1232	656.8579	6.73	3.0549	1232	33.2539	6.31	0.4121	-0.01	-0.88	-1.89
-52	136.0	2.0	subduction interface	4.5	4.49	2	0.98		88	dextral	7.5	StrasserInterface	"[[ 97.52  15.92]
+ [ 91.85   7.06]]"	79.0	Andaman-Sumatra	0.06	0.2	298	Subduction interface	70.0	25.0	307	6.7376	4.74	3.0549	307	0.3318	4.31	0.4121	zone 132	z132
+52	136.0	2.0	subduction interface	4.5	4.49	2	0.98		88	dextral	7.6	StrasserInterface	"[[ 97.52  15.92]
  [ 95.81  11.31]
  [ 93.58  11.55]
- [ 95.42  15.88]]"	171.0	Andaman-Sumatra	0.12	0.3	171	Subduction interface	70.0	25.0	986	108.2607	6.44	1.2023	861	5.8405	6.16	0.1259	-0.46	-1.44	-2.54
+ [ 95.42  15.88]]"	171.0	Andaman-Sumatra	0.12	0.3	171	Subduction interface	70.0	25.0	246	1.1447	4.47	1.2023	216	0.0493	4.08	0.1259	zone 136	z136
 53	137.0	2.0	subduction interface	4.5	7.33	2	1.57		89	sinistral	6.5	StrasserInterface	"[[ 95.81  11.31]
  [ 95.28   9.54]
  [ 93.19   9.56]
- [ 93.58  11.55]]"	-29.0	Andaman-Sumatra	0.16	0.3	282	Subduction interface	70.0	25.0	413	127.044	9.17	1.8408	413	3.3769	9.16	0.0495	-0.53	-2.17	
+ [ 93.58  11.55]]"	-29.0	Andaman-Sumatra	0.16	0.3	282	Subduction interface	70.0	25.0	105	1.3474	7.19	1.8408	105	0.037	7.2	0.0495	zone 137	z137
 54	138.0	2.0	subduction interface	4.5	5.62	2	1.1		80	sinistral	7.5	StrasserInterface	"[[ 95.28   9.54]
  [ 95.87   7.67]
  [ 99.71   3.32]
  [ 97.5    2.46]
  [ 93.55   7.68]
- [ 93.19   9.56]]"	18.0	Andaman-Sumatra	0.09	0.3	64	Subduction interface	70.0	25.0	1662	380.9753	7.53	4.6774	1662	27.8553	7.49	0.3715	0.08	-1.02	-2.22
+ [ 93.19   9.56]]"	18.0	Andaman-Sumatra	0.09	0.3	64	Subduction interface	70.0	25.0	413	4.0169	5.55	4.6774	413	0.2755	5.49	0.3715	zone 138	z138
 55	153.0	3.0	subduction intraslab Himalayas	4.5	6.13	2	1.1		44	reverse	7.9	StrasserIntraslab	"[[ 72.88  36.96]
  [ 70.16  34.16]
  [ 68.29  35.76]
  [ 68.3   35.77]
- [ 71.5   38.29]]"	94.0	Hindu Kush	0.03	0.3	247	Subduction intraslab	180.0	70.0	873	1803.9453	8.21	15.1356	873	48.3348	7.73	1.2023	0.59	-0.51	-1.62
+ [ 71.5   38.29]]"	94.0	Hindu Kush	0.03	0.3	247	Subduction intraslab	180.0	70.0	217	17.5928	6.2	15.1356	217	0.4744	5.73	1.2023	zone 153	z153
 56	154.0	3.0	subduction intraslab Himalayas	4.5	6.37	2	1.28		80	sinistral	7.3	StrasserIntraslab	"[[ 76.41  38.88]
  [ 76.76  37.77]
  [ 73.81  37.72]
  [ 72.88  36.96]
  [ 71.5   38.29]
- [ 72.87  39.01]]"	-169.0	Pamir	0.09	0.3	100	Subduction intraslab	180.0	70.0	620	477.7388	8.44	4.0738	620	14.6813	8.21	0.2138	-0.05	-1.33	-2.82
+ [ 72.87  39.01]]"	-169.0	Pamir	0.09	0.3	100	Subduction intraslab	180.0	70.0	155	4.5967	6.42	4.0738	155	0.1446	6.2	0.2138	zone 154	z154
 57	162.0	3.0	subduction intraslab	4.5	4.31	2	0.97		58	reverse	7.3	StrasserIntraslab	"[[ 96.54  27.54]
  [ 98.1   26.91]
  [ 96.44  24.94]
  [ 93.82  26.05]
- [ 96.16  27.43]]"	147.0	Indo-Myanmar	0.12	0.3	176	Subduction intraslab	180.0	70.0	561	104.8704	6.39	0.881	561	6.5632	6.15	0.0944	-0.59	-1.56	-2.79
+ [ 96.16  27.43]]"	147.0	Indo-Myanmar	0.12	0.3	176	Subduction intraslab	180.0	70.0	141	1.1186	4.41	0.881	141	0.0702	4.18	0.0944	zone 162	z162
 58	163.0	3.0	subduction intraslab	4.5	5.6	2	1.07		46	reverse	8.3	StrasserIntraslab	"[[ 93.82  26.05]
  [ 96.44  24.94]
  [ 95.04  21.64]
- [ 91.93  22.74]]"	55.0	Indo-Myanmar	0.06	0.3	283	Subduction intraslab	180.0	70.0	1130	618.9264	7.61	6.0954	1114	30.9284	7.38	0.5188	0.21	-0.86	-1.93
+ [ 91.93  22.74]]"	55.0	Indo-Myanmar	0.06	0.3	283	Subduction intraslab	180.0	70.0	282	6.2704	5.61	6.0954	277	0.264	5.31	0.5188	zone 163	z163
 59	164.0	3.0	subduction intraslab	4.5	4.14	2	0.9		65	sinistral	7.3	StrasserIntraslab	"[[ 91.93  22.74]
  [ 95.04  21.64]
  [ 96.71  16.82]
- [ 93.27  17.07]]"	22.0	Indo-Myanmar	0.12	0.3	194	Subduction intraslab	180.0	70.0	1516	115.9954	6.11	1.2303	1126	5.7572	5.71	0.1549	-0.42	-1.32	-2.49
+ [ 93.27  17.07]]"	22.0	Indo-Myanmar	0.12	0.3	194	Subduction intraslab	180.0	70.0	379	1.1301	4.1	1.2303	283	0.0592	3.72	0.1549	zone 164	z164
 60	166.0	3.0	subduction intraslab	4.5	5.02	2	1.01		61	reverse	8.0	StrasserIntraslab	"[[ 92.4    8.52]
  [ 92.27  14.67]
  [ 94.92  15.22]
- [ 95.28   9.54]]"	46.0	Andaman-Sumatra	0.11	0.4	270	Subduction intraslab	180.0	70.0	1660	209.2881	6.87	2.9854	1507	7.0843	6.41	0.2917	-0.07	-1.08	-2.09
+ [ 95.28   9.54]]"	46.0	Andaman-Sumatra	0.11	0.4	270	Subduction intraslab	180.0	70.0	418	2.1218	4.87	2.9854	382	0.0699	4.4	0.2917	zone 166	z166
 61	167.0	3.0	subduction intraslab	4.5	5.41	2	1.07		49	reverse	8.0	StrasserIntraslab	"[[ 92.4    8.52]
  [ 95.28   9.54]
  [ 99.07   3.47]
  [ 97.6    3.06]
- [ 94.29   2.13]]"	46.0	Andaman-Sumatra	0.09	0.3	206	Subduction intraslab	180.0	70.0	2696	349.2178	7.36	3.9355	2697	26.2033	7.3	0.335	0.02	-1.05	-2.12
+ [ 94.29   2.13]]"	46.0	Andaman-Sumatra	0.09	0.3	206	Subduction intraslab	180.0	70.0	674	3.5656	5.37	3.9355	675	0.2561	5.29	0.335	zone 167	z167
 62	169.0	4.0	subduction intraslab Himalayas	4.5	4.78	2	0.84	only YCSH97 includes events to this depth	81	normal	8.6	StrasserIntraslab	"[[ 71.52  37.72]
  [ 71.54  37.66]
  [ 71.97  36.11]
  [ 72.16  35.44]
  [ 69.1   34.64]
- [ 68.65  37.27]]"	-113.0	Hindu Kush	0.04	0.3	305	Subduction intraslab	300.0	180.0	761	890.48	6.73	10.0	761	107.4195	6.65	1.4454	0.51	-0.33	-1.17
+ [ 68.65  37.27]]"	-113.0	Hindu Kush	0.04	0.3	305	Subduction intraslab	300.0	180.0	190	19.6248	5.07	10.0	190	1.0743	4.65	1.4454	zone 169	z169
 63	170.0	4.0	subduction intraslab Himalayas	4.5	5.96	2	1.35	only YCSH97 includes events to this depth	67	reverse	7.0	StrasserIntraslab	"[[ 71.52  37.72]
  [ 71.27  38.59]
  [ 74.96  39.04]
  [ 74.99  36.87]
  [ 71.97  36.11]
- [ 71.54  37.66]]"	92.0	Pamir	0.1	0.3	103	Subduction intraslab	300.0	180.0	798	115.838	8.14	0.7674	553	8.1419	8.34	0.0343	-0.81	-2.16	-inf
+ [ 71.54  37.66]]"	92.0	Pamir	0.1	0.3	103	Subduction intraslab	300.0	180.0	198	2.4538	6.46	0.7674	140	0.0828	6.34	0.0343	zone 170	z170
 64	172.0	4.0	subduction intraslab	4.5	3.72	2	0.86	only YCSH97 includes events to this depth	64	normal	8.0	StrasserIntraslab	"[[ 94.35   1.99]
  [ 90.01  13.46]
  [ 94.12  14.72]
- [ 98.48   3.49]]"	-50.0	Andaman-Sumatra	0.1	0.3	99	Subduction intraslab	300.0	180.0	3209	58.7509	5.64	0.7079	1622	3.2959	5.25	0.0977	-0.64	-1.5	-2.36
+ [ 98.48   3.49]]"	-50.0	Andaman-Sumatra	0.1	0.3	99	Subduction intraslab	300.0	180.0	803	0.7692	3.76	0.7079	408	0.0328	3.25	0.0977	zone 172	z172
 65	901.0	1.0	active shallow crust strike-slip reverse	4.5	4.39	2	0.9		80	sinistral	7.6	WC1994	"[[ 72.93  36.59]
  [ 75.29  36.96]
  [ 80.22  35.27]
  [ 85.57  35.29]
  [ 84.86  33.35]
- [ 78.32  34.44]]"	18.0	Chang Chenmo, Aksai Chin	0.11	0.4	273	Active shallow crust	25.0	0.0	1603	181.2023	6.31	2.1878	1603	7.1945	5.81	0.2754	-0.17	-1.07	-2.06
+ [ 78.32  34.44]]"	18.0	Chang Chenmo, Aksai Chin	0.11	0.4	273	Active shallow crust	25.0	0.0	399	1.7015	4.28	2.1878	399	0.0735	3.82	0.2754	zone 901	z901
 66	902.0	1.0	active shallow crust normal	4.5	4.19	2	0.86		48	normal	7.8	WC1994	"[[ 74.64  34.65]
  [ 75.34  35.63]
  [ 78.32  34.44]
@@ -414,12 +414,12 @@
  [ 85.48  31.5 ]
  [ 80.61  32.49]
  [ 79.4   32.89]
- [ 77.54  33.52]]"	-61.0	Tibetan plateau	0.12	0.4	212	Active shallow crust	25.0	0.0	2755	181.5667	6.13	2.0893	2755	17.5586	5.97	0.2884	-0.17	-1.03	-1.93
+ [ 77.54  33.52]]"	-61.0	Tibetan plateau	0.12	0.4	212	Active shallow crust	25.0	0.0	686	1.6579	4.09	2.0893	686	0.1315	3.85	0.2884	zone 902	z902
 67	903.0	1.0	active shallow crust normal	4.5	5.19	2	1.12	oceanic not continental	64	normal	7.0	WC1994	"[[ 60.06  22.83]
  [ 66.66  25.14]
  [ 67.88  25.57]
  [ 67.88  22.49]
- [ 61.85  20.06]]"	-45.0	Murray Ridge	0.12	0.4	104	Active shallow crust	25.0	0.0	1920	44.9192	6.69	1.4125	1177	1.9934	6.46	0.1072	-0.44	-1.56	-inf
+ [ 61.85  20.06]]"	-45.0	Murray Ridge	0.12	0.4	104	Active shallow crust	25.0	0.0	482	0.4571	4.7	1.4125	293	0.0185	4.43	0.1072	zone 903	z903
 68	904.0	1.0	active shallow crust strike-slip reverse	4.5	4.38	2	1.0		83	sinistral	7.3	WC1994	"[[ 77.13  32.17]
  [ 77.54  33.52]
  [ 79.4   32.89]
@@ -427,7 +427,7 @@
  [ 80.99  31.13]
  [ 80.99  31.13]
  [ 81.23  30.27]
- [ 79.13  31.19]]"	-160.0	Himalayas	0.09	0.2	284	Active shallow crust	25.0	0.0	631	58.1576	6.26	0.7586	631	5.3793	6.23	0.0759	-0.67	-1.67	-2.92
+ [ 79.13  31.19]]"	-160.0	Himalayas	0.09	0.2	284	Active shallow crust	25.0	0.0	160	0.5492	4.24	0.7586	160	0.0419	4.12	0.0759	zone 904	z904
 69	905.0	1.0	active shallow crust normal	4.5	5.18	2	1.05		52	normal	7.7	WC1994	"[[ 80.61  32.49]
  [ 85.44  31.51]
  [ 85.48  31.5 ]
@@ -439,7 +439,7 @@
  [ 82.97  29.42]
  [ 82.95  29.43]
  [ 81.23  30.27]
- [ 80.99  31.13]]"	-114.0	Tibetan plateau	0.13	0.4	159	Active shallow crust	25.0	0.0	1614	145.8439	6.89	2.851	1614	12.5353	6.87	0.2541	-0.11	-1.16	-2.26
+ [ 80.99  31.13]]"	-114.0	Tibetan plateau	0.13	0.4	159	Active shallow crust	25.0	0.0	403	1.4271	4.88	2.851	403	0.0948	4.75	0.2541	zone 905	z905
 70	906.0	1.0	active shallow crust strike-slip reverse	4.5	4.47	2	0.94		84	sinistral	8.5	WC1994	"[[ 87.06  26.22]
  [ 87.06  26.23]
  [ 87.55  27.75]
@@ -452,7 +452,7 @@
  [ 93.33  26.77]
  [ 93.3   26.77]
  [ 92.    26.62]
- [ 89.77  26.44]]"	-18.0	Himalayas - Main Frontal Thrust	0.11	0.4	229	Active shallow crust	25.0	0.0	1188	149.016	6.4	1.7378	1188	8.6492	6.11	0.1995	-0.28	-1.22	-2.16
+ [ 89.77  26.44]]"	-18.0	Himalayas - Main Frontal Thrust	0.11	0.4	229	Active shallow crust	25.0	0.0	297	1.2782	4.34	1.7378	297	0.0636	3.97	0.1995	zone 906	z906
 71	907.0	1.0	active shallow crust normal	4.5	5.47	2	1.07		51	normal	7.7	WC1994	"[[ 85.93  28.34]
  [ 85.98  29.36]
  [ 87.32  29.26]
@@ -465,7 +465,7 @@
  [ 94.06  29.02]
  [ 92.66  28.27]
  [ 89.95  27.83]
- [ 87.55  27.75]]"	-63.0	Tibetan plateau	0.08	0.4	20	Active shallow crust	25.0	0.0	1857	204.1116	7.12	4.5186	1857	14.2742	7.04	0.3846	0.08	-0.99	-2.11
+ [ 87.55  27.75]]"	-63.0	Tibetan plateau	0.08	0.4	20	Active shallow crust	25.0	0.0	466	1.9521	5.11	4.5186	466	0.1148	4.94	0.3846	zone 907	z907
 72	908.0	1.0	active shallow crust strike-slip reverse	4.5	4.41	2	0.92		58	dextral	8.8	WC1994	"[[ 92.57  31.14]
  [ 95.36  30.52]
  [ 99.03  27.96]
@@ -476,7 +476,7 @@
  [ 95.73  28.03]
  [ 95.54  28.14]
  [ 94.06  29.02]
- [ 92.63  29.19]]"	150.0	Himalayas	0.1	0.2	334	Active shallow crust	25.0	0.0	1227	154.5572	6.33	1.8621	1227	7.0525	5.91	0.2239	-0.25	-1.17	-2.09
+ [ 92.63  29.19]]"	150.0	Himalayas	0.1	0.2	334	Active shallow crust	25.0	0.0	309	1.428	4.29	1.8621	309	0.0361	3.62	0.2239	zone 908	z908
 73	909.0	1.0	active shallow crust normal	4.5	7.08	2	1.37		33	normal	7.6	WC1994	"[[ 84.86  33.35]
  [ 85.57  35.29]
  [ 91.06  34.35]
@@ -489,8 +489,8 @@
  [ 92.57  31.14]
  [ 91.38  32.92]
  [ 91.36  32.92]
- [ 87.23  32.88]]"	-82.0	Tibetan plateau	0.12	0.3	268	Active shallow crust	25.0	0.0	3222	344.7753	8.7	8.2224	3222	22.0176	8.88	0.3508	0.21	-1.16	-2.58
-74	910.0	1.0	subduction interface	4.5	4.27	2	0.88		10	reverse	7.5	StrasserInterface	"[[ 93.59  20.76]
+ [ 87.23  32.88]]"	-82.0	Tibetan plateau	0.12	0.3	268	Active shallow crust	25.0	0.0	806	3.2555	6.68	8.2224	806	0.157	6.73	0.3508	zone 909	z909
+74	910.0	1.0	subduction interface	4.5	4.27	2	0.88		10	reverse	7.8	StrasserInterface	"[[ 93.59  20.76]
  [ 93.7   22.54]
  [ 94.41  24.73]
  [ 95.74  26.73]
@@ -503,7 +503,7 @@
  [ 95.24  23.17]
  [ 95.41  20.17]
  [ 95.7   18.44]
- [ 94.66  18.44]]"	123.0	Indo-Myanmar	0.1	0.4	211	Subduction interface	25.0	0.0	1290	133.3426	6.08	2.0417	1279	8.4607	5.77	0.2692	-0.19	-1.07	-2.09
+ [ 94.66  18.44]]"	123.0	Indo-Myanmar	0.1	0.4	211	Subduction interface	25.0	0.0	320	1.2376	4.05	2.0417	317	0.0509	3.55	0.2692	zone 910	z910
 75	911.0	1.0	subduction interface	4.5	3.85	2	0.86		31	reverse	7.5	StrasserInterface	"[[ 91.99  22.61]
  [ 92.    23.91]
  [ 92.78  25.1 ]
@@ -516,7 +516,7 @@
  [ 95.74  26.73]
  [ 94.41  24.73]
  [ 93.7   22.54]
- [ 93.59  20.76]]"	69.0	Indo-Myanmar	0.09	0.4	318	Subduction interface	25.0	0.0	1051	72.3541	5.73	0.955	1049	3.6619	5.29	0.1318	-0.51	-1.37	-2.37
+ [ 93.59  20.76]]"	69.0	Indo-Myanmar	0.09	0.4	318	Subduction interface	25.0	0.0	263	0.6392	3.68	0.955	262	0.018	2.98	0.1318	zone 911	z911
 76	912.0	1.0	intraplate margin upper	4.5	4.84	2	1.12		40	reverse	7.9	WC1994	"[[ 89.71  25.08]
  [ 89.77  26.44]
  [ 92.    26.62]
@@ -527,7 +527,7 @@
  [ 92.79  25.11]
  [ 92.78  25.1 ]
  [ 91.65  25.09]
- [ 91.64  25.09]]"	90.0	Shillong plateau	0.13	0.3	112	Intraplate margin	25.0	0.0	555	53.4734	6.77	0.631	555	2.0214	6.47	0.0479	-0.79	-1.91	-3.04
+ [ 91.64  25.09]]"	90.0	Shillong plateau	0.13	0.3	112	Intraplate margin	25.0	0.0	138	0.5007	4.74	0.631	138	0.0042	3.78	0.0479	zone 912	z912
 77	913.0	1.0	active shallow crust strike-slip reverse	4.5	4.35	2	0.93		88	sinistral	8.8	WC1994	"[[ 90.07  23.82]
  [ 91.65  25.09]
  [ 92.78  25.1 ]
@@ -537,7 +537,7 @@
  [ 94.66  18.44]
  [ 93.52  18.44]
  [ 91.91  19.42]
- [ 90.67  20.69]]"	-175.0	Bangladesh	0.14	0.4	153	Active shallow crust	25.0	0.0	1346	37.3864	5.76	1.4622	1002	1.96	5.41	0.1718	-0.35	-1.28	-2.21
+ [ 90.67  20.69]]"	-175.0	Bangladesh	0.14	0.4	153	Active shallow crust	25.0	0.0	336	0.3164	3.69	1.4622	248	0.0123	3.2	0.1718	zone 913	z913
 78	914.0	1.0	active shallow crust strike-slip reverse	4.5	5.24	2	1.01		46	reverse	8.3	WC1994	"[[ 94.45  13.23]
  [ 95.    14.58]
  [ 95.66  16.28]
@@ -561,11 +561,11 @@
  [ 98.16  16.41]
  [ 98.16  16.41]
  [ 97.8   14.73]
- [ 97.3   13.41]]"	124.0	Indo-Myanmar	0.09	0.4	192	Active shallow crust	25.0	0.0	2637	236.8155	6.92	4.9545	2637	18.2985	6.82	0.4842	0.15	-0.86	-1.87
+ [ 97.3   13.41]]"	124.0	Indo-Myanmar	0.09	0.4	192	Active shallow crust	25.0	0.0	659	2.269	4.9	4.9545	659	0.1565	4.75	0.4842	zone 914	z914
 79	915.0	1.0	active shallow crust normal	4.5	5.73	2	1.36	oceanic not continental	52	normal	6.6	WC1994	"[[ 91.54  15.86]
  [ 91.91  19.42]
  [ 93.52  18.44]
- [ 93.32  15.6 ]]"	-54.0	Bay of Bengal	0.14	0.3	234	Active shallow crust	25.0	0.0	561	18.2432	7.38	0.4074	43	0.0051	5.19	0.0178	-1.09	-2.5	
+ [ 93.32  15.6 ]]"	-54.0	Bay of Bengal	0.14	0.3	234	Active shallow crust	25.0	0.0	140	0.1767	5.37	0.4074	11	0.0001	3.24	0.0178	zone 915	z915
 80	916.0	1.0	subduction interface	4.5	4.52	2	0.95	oceanic not continental	46	reverse	7.5	StrasserInterface	"[[ 90.74  10.2 ]
  [ 92.33  14.17]
  [ 93.32  15.6 ]
@@ -573,7 +573,7 @@
  [ 95.7   18.44]
  [ 95.66  16.28]
  [ 94.65  13.71]
- [ 93.08   9.99]]"	124.0	Andaman-Sumatra	0.09	0.3	192	Subduction interface	25.0	0.0	1963	190.562	6.56	1.7579	1932	10.0902	6.23	0.1972	-0.28	-1.23	-2.31
+ [ 93.08   9.99]]"	124.0	Andaman-Sumatra	0.09	0.3	192	Subduction interface	25.0	0.0	496	1.4517	4.44	1.7579	488	0.0654	4.04	0.1972	zone 916	z916
 81	917.0	1.0	stable shallow crust	4.5	4.17	2	0.87	oceanic not continental	67	dextral	7.0	WC1994	"[[ 83.95   6.51]
  [ 84.59  11.31]
  [ 86.72  15.35]
@@ -594,7 +594,7 @@
  [ 92.35   2.01]
  [ 92.35   2.01]
  [ 92.35   2.01]
- [ 84.69   2.  ]]"	158.0	Bay of Bengal	0.12	0.4	312	Stable continental	25.0	0.0	9503	87.9118	5.86	1.7989	3916	6.5585	5.6	0.2427	-0.24	-1.11	-inf
+ [ 84.69   2.  ]]"	158.0	Bay of Bengal	0.12	0.4	312	Stable continental	25.0	0.0	2367	0.7814	3.81	1.7989	821	0.0538	3.52	0.2427	zone 917	z917
 82	918.0	1.0	subduction interface	4.5	3.89	2	0.82	oceanic not continental	25	reverse	7.5	StrasserInterface	"[[ 90.74  10.2 ]
  [ 93.09   9.99]
  [ 94.09   5.95]
@@ -602,7 +602,7 @@
  [ 94.35   1.99]
  [ 91.91   5.64]
  [ 91.91   5.64]
- [ 91.91   5.65]]"	108.0	Andaman-Sumatra	0.07	0.2	337	Subduction interface	25.0	0.0	2150	187.3616	5.96	1.5849	2101	19.9388	5.81	0.2399	-0.28	-1.1	-2.06
+ [ 91.91   5.65]]"	108.0	Andaman-Sumatra	0.07	0.2	337	Subduction interface	25.0	0.0	533	1.5107	3.87	1.5849	521	0.1598	3.71	0.2399	zone 918	z918
 83	919.0	1.0	stable shallow crust	4.5	2.73	2	0.72		61	reverse	7.2	WC1994	"[[ 67.88  25.57]
  [ 68.76  28.38]
  [ 69.16  27.86]
@@ -629,7 +629,7 @@
  [ 84.59  25.12]
  [ 72.27  22.52]
  [ 71.83  22.52]
- [ 71.76  25.5 ]]"	123.0	Peninsular India	0.1	0.3	290	Stable continental	25.0	0.0	7649	76.3253	5.12	0.309	5442	8.0345	4.86	0.0589	-0.96	-1.68	-2.86
+ [ 71.76  25.5 ]]"	123.0	Peninsular India	0.1	0.3	290	Stable continental	25.0	0.0	1908	0.6923	3.08	0.309	1206	0.0583	2.73	0.0589	zone 919	z919
 84	921.0	1.0	stable shallow crust	4.5	2.53	2	0.76		26	reverse	7.0	WC1994	"[[ 72.27  22.52]
  [ 84.59  25.12]
  [ 86.95  24.38]
@@ -640,7 +640,7 @@
  [ 76.12  20.48]
  [ 73.27  19.85]
  [ 72.35  19.77]
- [ 72.35  19.78]]"	129.0	Peninsular India	0.07	0.4	283	Stable continental	25.0	0.0	3450	27.5925	4.86	0.1288	1269	1.551	4.37	0.0224	-1.35	-2.11	-inf
+ [ 72.35  19.78]]"	129.0	Peninsular India	0.07	0.4	283	Stable continental	25.0	0.0	864	0.1699	2.65	0.1288	28	0.0	-0.34	0.0224	zone 921	z921
 85	922.0	1.0	stable shallow crust	4.5	4.48	2	1.09		66	dextral	7.2	WC1994	"[[ 71.16  19.75]
  [ 72.35  19.77]
  [ 73.27  19.85]
@@ -648,7 +648,7 @@
  [ 74.77  17.42]
  [ 75.41  16.37]
  [ 73.77  16.03]
- [ 72.86  15.84]]"	165.0	Peninsular India	0.12	0.3	206	Stable continental	25.0	0.0	805	66.4469	6.73	0.3758	682	1.7902	6.25	0.0305	-1.01	-2.1	-3.55
+ [ 72.86  15.84]]"	165.0	Peninsular India	0.12	0.3	206	Stable continental	25.0	0.0	199	0.5416	4.64	0.3758	169	0.0174	4.24	0.0305	zone 922	z922
 86	923.0	1.0	stable shallow crust	4.5	2.51	2	0.73		45	undefined	6.0	WC1994	"[[ 72.86  15.84]
  [ 73.77  16.03]
  [ 75.41  16.37]
@@ -663,7 +663,7 @@
  [ 78.71   8.99]
  [ 77.25   7.26]
  [ 75.54   8.94]
- [ 74.46  12.31]]"	90.0	Peninsular India	0.06	0.3	0	Stable continental	25.0	0.0	2766	15.943	4.49	0.1679	414	0.2726	3.45	0.0313	-1.23	-inf	
+ [ 74.46  12.31]]"	90.0	Peninsular India	0.06	0.3	0	Stable continental	25.0	0.0	558	0.0689	2.12	0.1679	102	0.0018	1.26	0.0313	zone 923	z923
 87	924.0	1.0	stable shallow crust	4.5	1.58	2	0.63		45	undefined	6.2	WC1994	"[[ 78.09  20.84]
  [ 81.99  21.43]
  [ 84.59  21.91]
@@ -676,8 +676,8 @@
  [ 82.87  16.84]
  [ 80.7   17.38]
  [ 80.67  17.38]
- [ 82.51  18.57]]"	90.0	Peninsular India	0.1	0.3	0	Stable continental	25.0	0.0	1725	8.2615	3.75	0.0556	923	1.0044	3.47	0.013	-1.69	-2.8	
-88	925.0	2.0	subduction interface	4.5	3.22	2	0.8		37	sinistral	7.5	StrasserInterface	"[[ 77.74  33.15]
+ [ 82.51  18.57]]"	90.0	Peninsular India	0.1	0.3	0	Stable continental	25.0	0.0	365	0.0565	1.59	0.0556	59	0.001	0.46	0.013	zone 924	z924
+88	925.0	2.0	subduction interface	4.5	3.22	2	0.8		37	sinistral	7.6	StrasserInterface	"[[ 77.74  33.15]
  [ 77.88  33.47]
  [ 77.92  33.45]
  [ 79.41  32.96]
@@ -688,8 +688,8 @@
  [ 81.23  30.27]
  [ 79.13  31.19]
  [ 77.25  32.08]
- [ 77.25  32.08]]"	-26.0	Himalayas	0.12	0.4	65	Subduction interface	70.0	25.0	614	61.8151	5.39	0.4169	614	3.3365	4.92	0.0661	-0.85	-1.65	-2.6
-89	926.0	2.0	subduction interface	4.5	5.94	2	1.28		46	normal	7.5	StrasserInterface	"[[ 84.15  30.14]
+ [ 77.25  32.08]]"	-26.0	Himalayas	0.12	0.4	65	Subduction interface	70.0	25.0	155	0.642	3.41	0.4169	155	0.0317	2.9	0.0661	zone 925	z925
+89	926.0	2.0	subduction interface	4.5	5.94	2	1.28		46	normal	7.7	StrasserInterface	"[[ 84.15  30.14]
  [ 80.93  31.36]
  [ 80.92  31.36]
  [ 80.61  32.49]
@@ -698,7 +698,7 @@
  [ 92.61  30.9 ]
  [ 93.29  29.44]
  [ 89.52  29.08]
- [ 85.7   29.61]]"	-83.0	Himalayas	0.11	0.2	183	Subduction interface	70.0	25.0	1992	152.8009	7.94	1.5136	1992	10.9266	8.08	0.0794	-0.48	-1.76	-3.13
+ [ 85.7   29.61]]"	-83.0	Himalayas	0.11	0.2	183	Subduction interface	70.0	25.0	499	1.6958	5.99	1.5136	499	0.0993	6.04	0.0794	zone 926	z926
 90	927.0	2.0	subduction interface	4.5	5.57	2	1.22		37	sinistral	7.1	StrasserInterface	"[[ 80.92  31.36]
  [ 80.93  31.36]
  [ 84.15  30.14]
@@ -713,7 +713,7 @@
  [ 83.    29.5 ]
  [ 82.21  29.85]
  [ 81.23  30.27]
- [ 81.22  30.29]]"	-26.0	Himalayas	0.11	0.3	65	Subduction interface	70.0	25.0	1477	117.967	7.56	1.2023	1477	5.486	7.45	0.0724	-0.56	-1.78	-3.58
+ [ 81.22  30.29]]"	-26.0	Himalayas	0.11	0.3	65	Subduction interface	70.0	25.0	366	1.185	5.56	1.2023	366	0.0535	5.44	0.0724	zone 927	z927
 91	928.0	2.0	subduction interface	4.5	4.76	2	0.96		89	normal	7.5	StrasserInterface	"[[ 86.06  28.23]
  [ 87.3   27.83]
  [ 89.88  27.94]
@@ -731,8 +731,8 @@
  [ 87.05  26.22]
  [ 87.05  26.19]
  [ 83.25  27.18]
- [ 83.88  29.14]]"	-141.0	Himalayas	0.09	0.2	301	Subduction interface	70.0	25.0	1808	258.0465	6.73	2.7542	1808	15.3396	6.47	0.302	-0.09	-1.05	-2.13
-92	929.0	2.0	subduction interface	4.5	4.61	2	0.96		81	sinistral	7.5	StrasserInterface	"[[ 92.22  21.92]
+ [ 83.88  29.14]]"	-141.0	Himalayas	0.09	0.2	301	Subduction interface	70.0	25.0	454	2.7283	4.76	2.7542	454	0.1622	4.49	0.302	zone 928	z928
+92	929.0	2.0	subduction interface	4.5	4.61	2	0.96		81	sinistral	7.9	StrasserInterface	"[[ 92.22  21.92]
  [ 92.23  23.98]
  [ 93.18  25.12]
  [ 94.07  26.1 ]
@@ -743,7 +743,7 @@
  [ 94.69  25.57]
  [ 93.75  24.04]
  [ 93.41  23.13]
- [ 93.52  20.76]]"	11.0	Indo-Myanmar	0.09	0.4	220	Subduction interface	70.0	25.0	729	218.8292	6.66	1.9498	729	9.9221	6.28	0.2138	-0.24	-1.2	-2.28
+ [ 93.52  20.76]]"	11.0	Indo-Myanmar	0.09	0.4	220	Subduction interface	70.0	25.0	182	2.1753	4.66	1.9498	182	0.0977	4.27	0.2138	zone 929	z929
 93	930.0	2.0	subduction interface	4.5	5.2	2	1.13		68	sinistral	7.2	StrasserInterface	"[[ 94.91  25.91]
  [ 95.2   26.4 ]
  [ 96.52  27.47]
@@ -753,7 +753,7 @@
  [ 95.35  23.55]
  [ 93.75  24.04]
  [ 94.9   25.92]
- [ 94.91  25.91]]"	25.0	Indo-Myanmar	0.11	0.4	264	Subduction interface	70.0	25.0	511	196.692	7.38	1.3032	511	6.4537	7.02	0.0966	-0.48	-1.61	-3.1
+ [ 94.91  25.91]]"	25.0	Indo-Myanmar	0.11	0.4	264	Subduction interface	70.0	25.0	128	1.8937	5.36	1.3032	128	0.0575	4.97	0.0966	zone 930	z930
 94	931.0	2.0	subduction interface	4.5	5.3	2	1.11		90	sinistral	7.5	StrasserInterface	"[[ 95.21  21.16]
  [ 95.35  23.55]
  [ 95.81  24.81]
@@ -767,7 +767,7 @@
  [ 97.81  18.72]
  [ 97.52  15.92]
  [ 95.42  15.88]
- [ 95.71  18.33]]"	-3.0	Indo-Myanmar	0.12	0.3	282	Subduction interface	70.0	25.0	2232	225.7952	7.35	2.0184	2232	11.0445	7.15	0.1567	-0.29	-1.4	-2.61
+ [ 95.71  18.33]]"	-3.0	Indo-Myanmar	0.12	0.3	282	Subduction interface	70.0	25.0	554	2.4244	5.38	2.0184	554	0.1155	5.17	0.1567	zone 931	z931
 95	932.0	2.0	stable shallow crust	4.5	4.15	2	0.93	what to do here?	67	sinistral	6.5	WC1994	"[[ 68.84  25.4 ]
  [ 69.34  27.63]
  [ 71.78  30.03]
@@ -796,7 +796,7 @@
  [ 77.94  24.7 ]
  [ 72.25  22.72]
  [ 69.7   21.83]
- [ 68.09  22.65]]"	8.0		0.1	0.3	239	Stable continental	70.0	25.0	8700	108.1006	6.22	0.9226	5864	12.3063	6.21	0.1084	-0.55	-1.61	
+ [ 68.09  22.65]]"	8.0		0.1	0.3	239	Stable continental	70.0	25.0	2170	1.1	4.23	0.9226	1464	0.1066	4.14	0.1084	zone 932	z932
 96	933.0	2.0	stable shallow crust	4.5	3.71	2	0.89	unsure of correct scaling relation	26	reverse	6.8	WC1994	"[[ 71.18  17.99]
  [ 71.17  18.02]
  [ 69.7   21.83]
@@ -816,7 +816,7 @@
  [ 84.94  11.97]
  [ 83.62   6.68]
  [ 84.47   2.04]
- [ 77.15   1.99]]"	129.0		0.13	0.3	283	Stable continental	70.0	25.0	10845	73.0126	5.87	0.507	4278	5.0559	5.6	0.0653	-0.8	-1.72	
+ [ 77.15   1.99]]"	129.0		0.13	0.3	283	Stable continental	70.0	25.0	2659	0.7338	3.87	0.507	1068	0.0502	3.6	0.0653	zone 933	z933
 97	935.0	3.0	subduction intraslab Himalayas	4.5	4.77	2	1.07		57	reverse	7.2	StrasserIntraslab	"[[ 71.47  33.03]
  [ 70.16  34.16]
  [ 72.88  36.96]
@@ -827,7 +827,7 @@
  [ 81.78  35.81]
  [ 79.78  32.46]
  [ 76.38  35.19]
- [ 72.67  31.99]]"	111.0	Himalayas	0.09	0.3	317	Subduction intraslab	180.0	70.0	3494	233.3637	7.18	0.9016	3024	14.4154	7.04	0.0767	-0.62	-1.69	-3.13
+ [ 72.67  31.99]]"	111.0	Himalayas	0.09	0.3	317	Subduction intraslab	180.0	70.0	871	2.5183	5.22	0.9016	755	0.1562	5.08	0.0767	zone 935	z935
 98	936.0	3.0	subduction intraslab Himalayas	4.5	5.25	2	1.24		47	sinistral	6.7	StrasserIntraslab	"[[ 79.78  32.46]
  [ 83.93  29.84]
  [ 90.64  29.36]
@@ -839,11 +839,11 @@
  [ 89.22  26.19]
  [ 82.81  26.63]
  [ 72.67  31.99]
- [ 76.38  35.19]]"	-164.0	Himalayas	0.11	0.2	140	Subduction intraslab	180.0	70.0	6787	69.0983	7.42	0.4677	2586	6.827	7.65	0.0269	-0.98	-2.25	
+ [ 76.38  35.19]]"	-164.0	Himalayas	0.11	0.2	140	Subduction intraslab	180.0	70.0	1704	0.7545	5.46	0.4677	653	0.0338	5.35	0.0269	zone 936	z936
 99	9031.0	2.0	subduction interface	4.5	0.0	2	0.0	no seismicity	45	undefined	0.0	StrasserInterface	"[[ 66.31  24.82]
  [ 68.09  22.65]
  [ 61.55  20.35]
- [ 60.14  23.5 ]]"	90.0	Murray Ridge	0.0	0.0	0	Subduction interface	70.0	25.0	1827	33.997	1.53	1.0	1666	4.4061	0.64	1.0	-inf	-inf	-inf
+ [ 60.14  23.5 ]]"	90.0	Murray Ridge	0.0	0.0	0	Subduction interface	70.0	25.0	455	0.4213	-0.38	1.0	415	0.044	-1.36	1.0	zone 9031	z9031
 100	9081.0	2.0	subduction interface	4.5	0.0	2	0.0	no seismicity	45	undefined	0.0	StrasserInterface	"[[ 92.03  32.12]
  [ 98.67  28.35]
  [ 98.41  26.32]
@@ -855,7 +855,7 @@
  [ 93.87  29.09]
  [ 93.29  29.44]
  [ 92.61  30.9 ]
- [ 92.5   31.15]]"	90.0	Himalayas	0.0	0.0	0	Subduction interface	70.0	25.0	1244	174.4317	2.24	1.0	1244	5.6201	0.75	1.0	-inf	-inf	-inf
+ [ 92.5   31.15]]"	90.0	Himalayas	0.0	0.0	0	Subduction interface	70.0	25.0	311	1.784	0.25	1.0	311	0.0548	-1.26	1.0	zone 9081	z9081
 101	9131.0	2.0	subduction interface	4.5	0.0	2	0.0	no seismicity	45	undefined	0.0	StrasserInterface	"[[ 93.76  18.44]
  [ 90.65  20.8 ]
  [ 90.07  23.82]
@@ -863,13 +863,13 @@
  [ 93.18  25.12]
  [ 92.23  23.98]
  [ 92.22  21.92]
- [ 93.52  20.76]]"	90.0		0.0	0.0	0	Subduction interface	70.0	25.0	1208	93.7614	1.97	1.0	1156	5.9698	0.78	1.0	-inf	-inf	-inf
+ [ 93.52  20.76]]"	90.0		0.0	0.0	0	Subduction interface	70.0	25.0	304	1.0103	0.0	1.0	290	0.0616	-1.21	1.0	zone 9131	z9131
 102	9151.0	2.0	subduction interface	4.5	0.0	2	0.0	no seismicity	45	undefined	0.0	StrasserInterface	"[[ 92.45  13.67]
  [ 90.72  14.32]
  [ 91.75  16.48]
  [ 92.11  19.69]
  [ 93.76  18.44]
- [ 93.39  15.65]]"	90.0		0.0	0.0	0	Subduction interface	70.0	25.0	918	15.2277	1.18	1.0	752	2.0499	0.31	1.0	-inf	-inf	-inf
+ [ 93.39  15.65]]"	90.0		0.0	0.0	0	Subduction interface	70.0	25.0	229	0.1956	-0.71	1.0	186	0.0209	-1.68	1.0	zone 9151	z9151
 103	9171.0	2.0	stable shallow crust	4.5	0.0	2	0.0	oceanic not continental, but no seismicity	45	undefined	0.0	WC1994	"[[ 90.65  20.8 ]
  [ 92.11  19.69]
  [ 91.75  16.48]
@@ -887,46 +887,42 @@
  [ 86.75  15.6 ]
  [ 86.76  15.62]
  [ 88.23  18.72]
- [ 87.53  20.81]]"	90.0	Bay of Bengal	0.0	0.0	0	Stable continental	70.0	25.0	8698	84.2393	1.93	1.0	6145	9.5418	0.98	1.0	-inf	-inf	-inf
+ [ 87.53  20.81]]"	90.0	Bay of Bengal	0.0	0.0	0	Stable continental	70.0	25.0	2170	0.9572	-0.02	1.0	1533	0.1074	-0.97	1.0	zone 9171	z9171
 104	1.1	1.0	subduction interface megathrust	7.5	5.2	2	1.05		73	dextral	8.0	StrasserInterface	"[[ 67.81  37.55]
  [ 68.3   38.82]
  [ 72.95  39.99]
  [ 73.    39.06]
- [ 70.69  38.27]]"	30.0	Pamirs	0.07	0.4	202	Subduction interface	25.0	0.0	545	317.5179	7.23	2.9854	545	11.2995	6.83	0.2661			-2.83
+ [ 70.69  38.27]]"	30.0	Pamirs	0.07	0.4	202	Subduction interface	25.0	0.0	135	3.0183	5.2	2.9854	135	0.0797	4.68	0.2661	zone 1.1	z1.1
 105	2.1	1.0	subduction interface megathrust	7.5	4.64	2	0.93		31	reverse	8.0	StrasserInterface	"[[ 72.95  39.99]
  [ 76.53  39.99]
  [ 76.1   38.89]
  [ 75.85  37.89]
  [ 75.85  37.89]
  [ 74.94  38.35]
- [ 73.    39.06]]"	142.0	Pamirs	0.09	0.4	306	Subduction interface	25.0	0.0	487	250.2674	6.58	2.851	487	14.7491	6.28	0.335			-2.52
-106	5.1	1.0	subduction interface megathrust	7.5	4.29	2	0.91		55	reverse	7.8	StrasserInterface	"[[ 67.29  35.43]
- [ 67.81  37.55]
- [ 70.69  38.27]
- [ 69.14  35.78]]"	148.0		0.08	0.4	274	Subduction interface	25.0	0.0	492	151.4032	6.28	1.5668	492	12.9075	6.12	0.1928			-2.87
-107	13.1	1.0	subduction interface megathrust	7.5	3.24	2	0.75		78	reverse	8.8	StrasserInterface	"[[ 73.96  32.07]
+ [ 73.    39.06]]"	142.0	Pamirs	0.09	0.4	306	Subduction interface	25.0	0.0	122	2.4047	4.57	2.851	122	0.1219	4.2	0.335	zone 2.1	z2.1
+106	13.1	1.0	subduction interface megathrust	7.5	3.24	2	0.75		78	reverse	8.8	StrasserInterface	"[[ 73.96  32.07]
  [ 74.64  34.65]
  [ 77.54  33.52]
  [ 77.13  32.17]
  [ 76.6   30.42]
- [ 75.37  31.19]]"	94.0	Himalayas - Main Frontal Thrust	0.07	0.4	138	Subduction interface	25.0	0.0	903	95.169	5.35	0.7328	903	7.9161	5.02	0.1303			-2.62
-108	14.1	1.0	subduction interface megathrust	7.5	3.12	2	0.72		69	sinistral	8.6	StrasserInterface	"[[ 60.    27.11]
+ [ 75.37  31.19]]"	94.0	Himalayas - Main Frontal Thrust	0.07	0.4	138	Subduction interface	25.0	0.0	225	0.8877	3.32	0.7328	225	0.0445	2.77	0.1303	zone 13.1	z13.1
+107	14.1	1.0	subduction interface megathrust	7.5	3.12	2	0.72		69	sinistral	8.6	StrasserInterface	"[[ 60.    27.11]
  [ 64.52  27.59]
  [ 66.66  25.14]
- [ 60.06  22.83]]"	-30.0	Makran	0.09	0.4	228	Subduction interface	25.0	0.0	1924	71.3498	5.09	0.7586	1960	7.1496	4.81	0.1445			-2.53
-109	15.1	1.0	subduction interface megathrust	7.5	4.88	2	0.98		71	sinistral	8.3	StrasserInterface	"[[ 64.52  27.59]
+ [ 60.06  22.83]]"	-30.0	Makran	0.09	0.4	228	Subduction interface	25.0	0.0	480	0.6903	3.08	0.7586	487	0.0478	2.64	0.1445	zone 14.1	z14.1
+108	15.1	1.0	subduction interface megathrust	7.5	4.88	2	0.98		71	sinistral	8.3	StrasserInterface	"[[ 64.52  27.59]
  [ 65.49  32.63]
  [ 66.98  30.69]
  [ 68.76  28.38]
  [ 67.88  25.57]
- [ 66.66  25.14]]"	24.0	Kirthar	0.1	0.4	204	Subduction interface	25.0	0.0	1789	185.4891	6.68	2.9512	1789	29.4921	6.86	0.309			-2.64
-110	16.1	1.0	subduction interface megathrust	7.5	4.36	2	0.88		18	reverse	8.3	StrasserInterface	"[[ 66.98  30.69]
+ [ 66.66  25.14]]"	24.0	Kirthar	0.1	0.4	204	Subduction interface	25.0	0.0	445	1.6677	4.63	2.9512	445	0.1652	4.61	0.309	zone 15.1	z15.1
+109	16.1	1.0	subduction interface megathrust	7.5	4.36	2	0.88		18	reverse	8.3	StrasserInterface	"[[ 66.98  30.69]
  [ 66.99  30.69]
  [ 69.42  32.81]
  [ 71.81  29.99]
  [ 69.16  27.86]
- [ 68.76  28.38]]"	126.0	Sulaiman	0.08	0.4	298	Subduction interface	25.0	0.0	1206	244.7897	6.35	2.5119	1206	24.0746	6.22	0.3311			-2.44
-111	21.1	1.0	subduction interface megathrust	7.5	3.87	2	0.85		14	reverse	8.6	StrasserInterface	"[[ 76.6   30.42]
+ [ 68.76  28.38]]"	126.0	Sulaiman	0.08	0.4	298	Subduction interface	25.0	0.0	303	2.3268	4.33	2.5119	303	0.1273	3.94	0.3311	zone 16.1	z16.1
+110	21.1	1.0	subduction interface megathrust	7.5	3.87	2	0.85		14	reverse	8.6	StrasserInterface	"[[ 76.6   30.42]
  [ 77.13  32.17]
  [ 79.13  31.19]
  [ 81.23  30.27]
@@ -934,16 +930,16 @@
  [ 82.21  27.47]
  [ 82.16  27.48]
  [ 79.8   28.73]
- [ 76.96  30.23]]"	90.0	Himalayas - Main Frontal Thrust	0.09	0.2	291	Subduction interface	25.0	0.0	1240	222.2816	6.17	1.1092	1240	13.4595	5.8	0.1567			-2.71
-112	22.1	1.0	subduction interface megathrust	7.5	3.34	2	0.73		31	reverse	8.8	StrasserInterface	"[[ 82.21  27.47]
+ [ 76.96  30.23]]"	90.0	Himalayas - Main Frontal Thrust	0.09	0.2	291	Subduction interface	25.0	0.0	310	2.042	4.14	1.1092	310	0.1091	3.71	0.1567	zone 21.1	z21.1
+111	22.1	1.0	subduction interface megathrust	7.5	3.34	2	0.73		31	reverse	8.8	StrasserInterface	"[[ 82.21  27.47]
  [ 82.95  29.43]
  [ 82.97  29.42]
  [ 85.93  28.34]
  [ 87.55  27.75]
  [ 87.06  26.23]
  [ 87.06  26.22]
- [ 87.06  26.22]]"	108.0	Himalayas - Main Frontal Thrust	0.1	0.2	308	Subduction interface	25.0	0.0	907	88.734	5.23	1.135	907	6.4265	4.82	0.2113			-2.38
-113	87.1	2.0	subduction interface megathrust	7.5	5.97	2	1.16	why no Japan/Cascadia distinction with Atkinson/Boore?	89	dextral	8.1	StrasserInterface	"[[ 75.91  38.87]
+ [ 87.06  26.22]]"	108.0	Himalayas - Main Frontal Thrust	0.1	0.2	308	Subduction interface	25.0	0.0	226	0.8727	3.23	1.135	226	0.053	2.74	0.2113	zone 22.1	z22.1
+112	87.1	2.0	subduction interface megathrust	7.5	5.97	2	1.16	why no Japan/Cascadia distinction with Atkinson/Boore?	89	dextral	8.1	StrasserInterface	"[[ 75.91  38.87]
  [ 73.19  38.86]
  [ 71.15  38.37]
  [ 70.91  38.31]
@@ -951,89 +947,67 @@
  [ 68.3   38.82]
  [ 72.71  39.99]
  [ 78.86  39.99]
- [ 78.46  38.87]]"	166.0	Pamir	0.06	0.3	150	Subduction interface	70.0	25.0	1258	707.8914	8.07	5.6234	1258	21.924	7.72	0.389			-2.86
-114	88.1	2.0	subduction interface megathrust	7.5	6.07	2	1.22		73	sinistral	8.0	StrasserInterface	"[[ 70.71  37.79]
+ [ 78.46  38.87]]"	166.0	Pamir	0.06	0.3	150	Subduction interface	70.0	25.0	311	7.1786	6.08	5.6234	311	0.2136	5.71	0.389	zone 87.1	z87.1
+113	88.1	2.0	subduction interface megathrust	7.5	6.07	2	1.22		73	sinistral	8.0	StrasserInterface	"[[ 70.71  37.79]
  [ 69.6   35.85]
  [ 67.08  35.37]
  [ 67.81  37.55]
  [ 70.91  38.31]
- [ 71.15  38.37]]"	4.0	Hindu Kush	0.09	0.4	210	Subduction interface	70.0	25.0	606	346.6879	8.03	3.8019	606	12.8238	7.82	0.2291			-3.2
-115	90.1	2.0	subduction interface megathrust	7.5	5.8	2	1.2		52	normal	8.0	StrasserInterface	"[[ 75.91  38.87]
+ [ 71.15  38.37]]"	4.0	Hindu Kush	0.09	0.4	210	Subduction interface	70.0	25.0	151	3.4929	6.03	3.8019	151	0.1112	5.76	0.2291	zone 88.1	z88.1
+114	90.1	2.0	subduction interface megathrust	7.5	5.8	2	1.2		52	normal	8.0	StrasserInterface	"[[ 75.91  38.87]
  [ 75.29  36.96]
  [ 72.93  36.59]
  [ 70.71  37.79]
  [ 71.15  38.37]
- [ 73.19  38.86]]"	-36.0	Pamir	0.06	0.4	210	Subduction interface	70.0	25.0	830	357.4501	7.95	2.5119	830	9.0711	7.56	0.1585			-3.33
-116	92.1	2.0	subduction interface megathrust	7.5	4.8	2	1.05		66	sinistral	8.3	StrasserInterface	"[[ 69.6   35.85]
+ [ 73.19  38.86]]"	-36.0	Pamir	0.06	0.4	210	Subduction interface	70.0	25.0	211	3.6821	5.97	2.5119	211	0.0946	5.58	0.1585	zone 90.1	z90.1
+115	92.1	2.0	subduction interface megathrust	7.5	4.8	2	1.05		66	sinistral	8.3	StrasserInterface	"[[ 69.6   35.85]
  [ 71.84  35.88]
  [ 70.76  33.98]
  [ 69.68  33.04]
  [ 66.99  30.69]
  [ 66.98  30.69]
  [ 65.41  32.73]
- [ 67.08  35.37]]"	-5.0	Hindu Kush	0.1	0.4	194	Subduction interface	70.0	25.0	1716	195.4542	7.02	1.1885	1685	11.3342	6.83	0.1059			-3.23
-117	93.1	2.0	subduction interface megathrust	7.5	5.66	2	1.18		77	sinistral	8.3	StrasserInterface	"[[ 69.68  33.04]
+ [ 67.08  35.37]]"	-5.0	Hindu Kush	0.1	0.4	194	Subduction interface	70.0	25.0	431	2.0816	5.04	1.1885	424	0.1078	4.81	0.1059	zone 92.1	z92.1
+116	93.1	2.0	subduction interface megathrust	7.5	5.66	2	1.18		77	sinistral	8.3	StrasserInterface	"[[ 69.68  33.04]
  [ 71.78  30.03]
  [ 69.34  27.63]
- [ 66.98  30.69]]"	-2.0	Sulaiman	0.9	0.4	196	Subduction interface	70.0	25.0	1316	259.8516	7.72	2.2387	1316	18.8635	7.77	0.1479			-3.32
-118	94.1	2.0	subduction interface megathrust	7.5	4.51	2	0.98		89	sinistral	8.3	StrasserInterface	"[[ 65.41  32.73]
+ [ 66.98  30.69]]"	-2.0	Sulaiman	0.9	0.4	196	Subduction interface	70.0	25.0	325	2.8639	5.77	2.2387	325	0.165	5.71	0.1479	zone 93.1	z93.1
+117	94.1	2.0	subduction interface megathrust	7.5	4.51	2	0.98		89	sinistral	8.3	StrasserInterface	"[[ 65.41  32.73]
  [ 69.34  27.63]
  [ 68.84  25.4 ]
  [ 68.09  22.65]
  [ 66.31  24.82]
- [ 63.92  27.72]]"	-6.0		0.09	0.4	11	Subduction interface	70.0	25.0	2747	240.3421	6.79	1.2589	2648	20.0607	6.69	0.1318			-3.01
-119	95.1	2.0	subduction interface megathrust	7.5	4.35	2	0.94		79	dextral	7.6	StrasserInterface	"[[ 66.31  24.82]
- [ 60.14  23.5 ]
- [ 60.14  27.2 ]
- [ 63.92  27.72]]"	167.0	Makram	0.13	0.4	23	Subduction interface	70.0	25.0	1740	130.8445	6.35	1.3183	1740	10.3564	6.19	0.1514			-3.41
-120	110.1	2.0	subduction interface megathrust	7.5	3.58	2	0.78		23	reverse	8.8	StrasserInterface	"[[ 77.25  32.08]
+ [ 63.92  27.72]]"	-6.0		0.09	0.4	11	Subduction interface	70.0	25.0	687	2.6981	4.84	1.2589	663	0.1954	4.68	0.1318	zone 94.1	z94.1
+118	110.1	2.0	subduction interface megathrust	7.5	3.58	2	0.78		23	reverse	8.8	StrasserInterface	"[[ 77.25  32.08]
  [ 79.13  31.19]
  [ 81.23  30.27]
  [ 83.91  29.12]
  [ 83.28  27.17]
  [ 76.6   30.66]
- [ 77.25  32.08]]"	82.0	Himalayas	0.06	0.2	290	Subduction interface	70.0	25.0	1281	214.8696	5.84	1.1749	1281	14.1212	5.44	0.195			-2.5
-121	128.1	2.0	subduction interface megathrust	7.5	4.01	2	0.88		64	sinistral	7.9	StrasserInterface	"[[ 93.41  23.13]
+ [ 77.25  32.08]]"	82.0	Himalayas	0.06	0.2	290	Subduction interface	70.0	25.0	322	2.2587	3.86	1.1749	322	0.1154	3.35	0.195	zone 110.1	z110.1
+119	128.1	2.0	subduction interface megathrust	7.5	4.01	2	0.88		64	sinistral	7.9	StrasserInterface	"[[ 93.41  23.13]
  [ 93.75  24.04]
  [ 95.35  23.55]
  [ 95.21  21.16]
- [ 93.52  20.76]]"	3.0	Indo-Myanmar	0.07	0.3	216	Subduction interface	70.0	25.0	513	170.5715	6.19	1.122	513	6.0838	5.62	0.1479			-2.85
-122	131.1	2.0	subduction interface megathrust	7.5	4.15	2	0.84		43	sinistral	8.6	StrasserInterface	"[[ 92.45  13.67]
+ [ 93.52  20.76]]"	3.0	Indo-Myanmar	0.07	0.3	216	Subduction interface	70.0	25.0	127	1.6513	4.18	1.122	127	0.0642	3.65	0.1479	zone 128.1	z128.1
+120	131.1	2.0	subduction interface megathrust	7.5	4.15	2	0.84		43	sinistral	8.6	StrasserInterface	"[[ 92.45  13.67]
  [ 94.54  13.8 ]
  [ 93.58  11.55]
  [ 93.19   9.56]
  [ 93.55   7.68]
  [ 91.85   7.06]
- [ 91.29  10.08]]"	-12.0	Andaman-Sumatra	0.07	0.3	256	Subduction interface	70.0	25.0	1195	293.2554	6.25	2.3442	1195	22.2097	5.97	0.3388			-2.36
-123	132.1	2.0	subduction interface megathrust	7.5	4.4	2	0.87		14	reverse	9.4	StrasserInterface	"[[ 93.55   7.68]
+ [ 91.29  10.08]]"	-12.0	Andaman-Sumatra	0.07	0.3	256	Subduction interface	70.0	25.0	298	3.4849	4.32	2.3442	298	0.2388	4.0	0.3388	zone 131.1	z131.1
+121	132.1	2.0	subduction interface megathrust	7.5	4.4	2	0.87		14	reverse	9.4	StrasserInterface	"[[ 93.55   7.68]
  [ 97.5    2.46]
  [ 94.92   2.2 ]
- [ 91.85   7.06]]"	79.0	Andaman-Sumatra	0.06	0.2	298	Subduction interface	70.0	25.0	1232	656.8579	6.73	3.0549	1232	33.2539	6.31	0.4121			-2.32
-124	136.1	2.0	subduction interface megathrust	7.5	4.49	2	0.98		88	dextral	7.6	StrasserInterface	"[[ 97.52  15.92]
- [ 95.81  11.31]
- [ 93.58  11.55]
- [ 95.42  15.88]]"	171.0	Andaman-Sumatra	0.12	0.3	171	Subduction interface	70.0	25.0	986	108.2607	6.44	1.2023	861	5.8405	6.16	0.1259			-3.55
-125	138.1	2.0	subduction interface megathrust	7.5	5.62	2	1.1		80	sinistral	8.3	StrasserInterface	"[[ 95.28   9.54]
+ [ 91.85   7.06]]"	79.0	Andaman-Sumatra	0.06	0.2	298	Subduction interface	70.0	25.0	307	6.7376	4.74	3.0549	307	0.3318	4.31	0.4121	zone 132.1	z132.1
+122	138.1	2.0	subduction interface megathrust	7.5	5.62	2	1.1		80	sinistral	8.3	StrasserInterface	"[[ 95.28   9.54]
  [ 95.87   7.67]
  [ 99.71   3.32]
  [ 97.5    2.46]
  [ 93.55   7.68]
- [ 93.19   9.56]]"	18.0	Andaman-Sumatra	0.09	0.3	64	Subduction interface	70.0	25.0	1662	380.9753	7.53	4.6774	1662	27.8553	7.49	0.3715			-2.77
-126	910.1	1.0	subduction interface megathrust	7.5	4.27	2	0.88		10	reverse	7.8	StrasserInterface	"[[ 93.59  20.76]
- [ 93.7   22.54]
- [ 94.41  24.73]
- [ 95.74  26.73]
- [ 96.77  27.41]
- [ 98.15  26.59]
- [ 97.53  26.01]
- [ 96.43  26.04]
- [ 95.48  24.6 ]
- [ 95.47  24.59]
- [ 95.24  23.17]
- [ 95.41  20.17]
- [ 95.7   18.44]
- [ 94.66  18.44]]"	123.0	Indo-Myanmar	0.1	0.4	211	Subduction interface	25.0	0.0	1290	133.3426	6.08	2.0417	1279	8.4607	5.77	0.2692			-2.67
-127	911.1	1.0	subduction interface megathrust	7.5	3.85	2	0.86		31	reverse	8.2	StrasserInterface	"[[ 91.99  22.61]
+ [ 93.19   9.56]]"	18.0	Andaman-Sumatra	0.09	0.3	64	Subduction interface	70.0	25.0	413	4.0169	5.55	4.6774	413	0.2755	5.49	0.3715	zone 138.1	z138.1
+123	911.1	1.0	subduction interface megathrust	7.5	3.85	2	0.86		31	reverse	8.2	StrasserInterface	"[[ 91.99  22.61]
  [ 92.    23.91]
  [ 92.78  25.1 ]
  [ 92.78  25.1 ]
@@ -1045,46 +1019,24 @@
  [ 95.74  26.73]
  [ 94.41  24.73]
  [ 93.7   22.54]
- [ 93.59  20.76]]"	69.0	Indo-Myanmar	0.09	0.4	318	Subduction interface	25.0	0.0	1051	72.3541	5.73	0.955	1049	3.6619	5.29	0.1318			-2.8
-128	916.1	1.0	subduction interface megathrust	7.5	4.52	2	0.95	oceanic not continental	46	reverse	8.0	StrasserInterface	"[[ 90.74  10.2 ]
+ [ 93.59  20.76]]"	69.0	Indo-Myanmar	0.09	0.4	318	Subduction interface	25.0	0.0	263	0.6392	3.68	0.955	262	0.018	2.98	0.1318	zone 911.1	z911.1
+124	916.1	1.0	subduction interface megathrust	7.5	4.52	2	0.95	oceanic not continental	46	reverse	8.0	StrasserInterface	"[[ 90.74  10.2 ]
  [ 92.33  14.17]
  [ 93.32  15.6 ]
  [ 93.52  18.44]
  [ 95.7   18.44]
  [ 95.66  16.28]
  [ 94.65  13.71]
- [ 93.08   9.99]]"	124.0	Andaman-Sumatra	0.09	0.3	192	Subduction interface	25.0	0.0	1963	190.562	6.56	1.7579	1932	10.0902	6.23	0.1972			-2.78
-129	918.1	1.0	subduction interface megathrust	7.5	3.89	2	0.82	oceanic not continental	25	reverse	8.9	StrasserInterface	"[[ 90.74  10.2 ]
+ [ 93.08   9.99]]"	124.0	Andaman-Sumatra	0.09	0.3	192	Subduction interface	25.0	0.0	496	1.4517	4.44	1.7579	488	0.0654	4.04	0.1972	zone 916.1	z916.1
+125	918.1	1.0	subduction interface megathrust	7.5	3.89	2	0.82	oceanic not continental	25	reverse	8.9	StrasserInterface	"[[ 90.74  10.2 ]
  [ 93.09   9.99]
  [ 94.09   5.95]
  [ 98.01   2.86]
  [ 94.35   1.99]
  [ 91.91   5.64]
  [ 91.91   5.64]
- [ 91.91   5.65]]"	108.0	Andaman-Sumatra	0.07	0.2	337	Subduction interface	25.0	0.0	2150	187.3616	5.96	1.5849	2101	19.9388	5.81	0.2399			-2.47
-130	925.1	2.0	subduction interface megathrust	7.5	3.22	2	0.8		37	sinistral	7.6	StrasserInterface	"[[ 77.74  33.15]
- [ 77.88  33.47]
- [ 77.92  33.45]
- [ 79.41  32.96]
- [ 79.44  32.95]
- [ 80.61  32.49]
- [ 80.92  31.36]
- [ 81.22  30.29]
- [ 81.23  30.27]
- [ 79.13  31.19]
- [ 77.25  32.08]
- [ 77.25  32.08]]"	-26.0	Himalayas	0.12	0.4	65	Subduction interface	70.0	25.0	614	61.8151	5.39	0.4169	614	3.3365	4.92	0.0661			-3.55
-131	926.1	2.0	subduction interface megathrust	7.5	5.94	2	1.28		46	normal	7.7	StrasserInterface	"[[ 84.15  30.14]
- [ 80.93  31.36]
- [ 80.92  31.36]
- [ 80.61  32.49]
- [ 84.55  31.72]
- [ 87.55  31.02]
- [ 92.61  30.9 ]
- [ 93.29  29.44]
- [ 89.52  29.08]
- [ 85.7   29.61]]"	-83.0	Himalayas	0.11	0.2	183	Subduction interface	70.0	25.0	1992	152.8009	7.94	1.5136	1992	10.9266	8.08	0.0794			-4.01
-132	928.1	2.0	subduction interface megathrust	7.5	4.76	2	0.96		89	normal	8.3	StrasserInterface	"[[ 86.06  28.23]
+ [ 91.91   5.65]]"	108.0	Andaman-Sumatra	0.07	0.2	337	Subduction interface	25.0	0.0	533	1.5107	3.87	1.5849	521	0.1598	3.71	0.2399	zone 918.1	z918.1
+126	928.1	2.0	subduction interface megathrust	7.5	4.76	2	0.96		89	normal	8.3	StrasserInterface	"[[ 86.06  28.23]
  [ 87.3   27.83]
  [ 89.88  27.94]
  [ 92.66  28.27]
@@ -1101,20 +1053,8 @@
  [ 87.05  26.22]
  [ 87.05  26.19]
  [ 83.25  27.18]
- [ 83.88  29.14]]"	-141.0	Himalayas	0.09	0.2	301	Subduction interface	70.0	25.0	1808	258.0465	6.73	2.7542	1808	15.3396	6.47	0.302			-2.61
-133	929.1	2.0	subduction interface megathrust	7.5	4.61	2	0.96		81	sinistral	7.9	StrasserInterface	"[[ 92.22  21.92]
- [ 92.23  23.98]
- [ 93.18  25.12]
- [ 94.07  26.1 ]
- [ 94.85  26.92]
- [ 96.07  27.75]
- [ 96.52  27.47]
- [ 95.2   26.4 ]
- [ 94.69  25.57]
- [ 93.75  24.04]
- [ 93.41  23.13]
- [ 93.52  20.76]]"	11.0	Indo-Myanmar	0.09	0.4	220	Subduction interface	70.0	25.0	729	218.8292	6.66	1.9498	729	9.9221	6.28	0.2138			-2.82
-134	931.1	2.0	subduction interface megathrust	7.5	5.3	2	1.11		90	sinistral	8.3	StrasserInterface	"[[ 95.21  21.16]
+ [ 83.88  29.14]]"	-141.0	Himalayas	0.09	0.2	301	Subduction interface	70.0	25.0	454	2.7283	4.76	2.7542	454	0.1622	4.49	0.302	zone 928.1	z928.1
+127	931.1	2.0	subduction interface megathrust	7.5	5.3	2	1.11		90	sinistral	8.3	StrasserInterface	"[[ 95.21  21.16]
  [ 95.35  23.55]
  [ 95.81  24.81]
  [ 96.09  25.57]
@@ -1127,4 +1067,4 @@
  [ 97.81  18.72]
  [ 97.52  15.92]
  [ 95.42  15.88]
- [ 95.71  18.33]]"	-3.0	Indo-Myanmar	0.12	0.3	282	Subduction interface	70.0	25.0	2232	225.7952	7.35	2.0184	2232	11.0445	7.15	0.1567			-3.17
+ [ 95.71  18.33]]"	-3.0	Indo-Myanmar	0.12	0.3	282	Subduction interface	70.0	25.0	554	2.4244	5.38	2.0184	554	0.1155	5.17	0.1567	zone 931.1	z931.1

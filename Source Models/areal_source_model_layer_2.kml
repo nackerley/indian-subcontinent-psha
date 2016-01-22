@@ -24,16 +24,18 @@
       <SimpleField name="zmax" type="double"/>
       <SimpleField name="zmin" type="double"/>
       <SimpleField name="smoothed N 4.5" type="int"/>
-      <SimpleField name="smoothed nu 4.5" type="double"/>
+      <SimpleField name="smoothed lambda 4.5" type="double"/>
       <SimpleField name="smoothed a 4.5" type="double"/>
-      <SimpleField name="areal nu 4.5" type="double"/>
+      <SimpleField name="areal lambda 4.5" type="double"/>
       <SimpleField name="smoothed N 5.5" type="int"/>
-      <SimpleField name="smoothed nu 5.5" type="double"/>
+      <SimpleField name="smoothed lambda 5.5" type="double"/>
       <SimpleField name="smoothed a 5.5" type="double"/>
-      <SimpleField name="areal nu 5.5" type="double"/>
+      <SimpleField name="areal lambda 5.5" type="double"/>
       <SimpleField name="logN_5.0-6.0" type="double"/>
       <SimpleField name="logN_6.0-7.0" type="double"/>
       <SimpleField name="logN_7.0-8.0" type="double"/>
+      <SimpleField name="name" type="string"/>
+      <SimpleField name="id" type="string"/>
     </Schema>
     <Placemark>
       <name>87</name>
@@ -57,17 +59,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1258</SimpleData>
-          <SimpleData name="smoothed nu 4.5">707.8914</SimpleData>
-          <SimpleData name="smoothed a 4.5">8.07</SimpleData>
-          <SimpleData name="areal nu 4.5">5.6234</SimpleData>
-          <SimpleData name="smoothed N 5.5">1258</SimpleData>
-          <SimpleData name="smoothed nu 5.5">21.924</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.72</SimpleData>
-          <SimpleData name="areal nu 5.5">0.389</SimpleData>
+          <SimpleData name="smoothed N 4.5">311</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">7.1786</SimpleData>
+          <SimpleData name="smoothed a 4.5">6.08</SimpleData>
+          <SimpleData name="areal lambda 4.5">5.6234</SimpleData>
+          <SimpleData name="smoothed N 5.5">311</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.2136</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.71</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.389</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.14</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.02</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.18</SimpleData>
+          <SimpleData name="name">zone 87</SimpleData>
+          <SimpleData name="id">z87</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -101,17 +105,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">606</SimpleData>
-          <SimpleData name="smoothed nu 4.5">346.6879</SimpleData>
-          <SimpleData name="smoothed a 4.5">8.03</SimpleData>
-          <SimpleData name="areal nu 4.5">3.8019</SimpleData>
-          <SimpleData name="smoothed N 5.5">606</SimpleData>
-          <SimpleData name="smoothed nu 5.5">12.8238</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.82</SimpleData>
-          <SimpleData name="areal nu 5.5">0.2291</SimpleData>
+          <SimpleData name="smoothed N 4.5">151</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">3.4929</SimpleData>
+          <SimpleData name="smoothed a 4.5">6.03</SimpleData>
+          <SimpleData name="areal lambda 4.5">3.8019</SimpleData>
+          <SimpleData name="smoothed N 5.5">151</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.1112</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.76</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.2291</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.06</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.28</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.5</SimpleData>
+          <SimpleData name="name">zone 88</SimpleData>
+          <SimpleData name="id">z88</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -145,17 +151,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">366</SimpleData>
-          <SimpleData name="smoothed nu 4.5">189.5495</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.27</SimpleData>
-          <SimpleData name="areal nu 4.5">1.9724</SimpleData>
-          <SimpleData name="smoothed N 5.5">366</SimpleData>
-          <SimpleData name="smoothed nu 5.5">8.141</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.02</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1531</SimpleData>
+          <SimpleData name="smoothed N 4.5">90</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.937</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.28</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.9724</SimpleData>
+          <SimpleData name="smoothed N 5.5">90</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0761</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.99</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1531</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.3</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.41</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.75</SimpleData>
+          <SimpleData name="name">zone 89</SimpleData>
+          <SimpleData name="id">z89</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -189,17 +197,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">830</SimpleData>
-          <SimpleData name="smoothed nu 4.5">357.4501</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.95</SimpleData>
-          <SimpleData name="areal nu 4.5">2.5119</SimpleData>
-          <SimpleData name="smoothed N 5.5">830</SimpleData>
-          <SimpleData name="smoothed nu 5.5">9.0711</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.56</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1585</SimpleData>
+          <SimpleData name="smoothed N 4.5">211</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">3.6821</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.97</SimpleData>
+          <SimpleData name="areal lambda 4.5">2.5119</SimpleData>
+          <SimpleData name="smoothed N 5.5">211</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0946</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.58</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1585</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.23</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.43</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.63</SimpleData>
+          <SimpleData name="name">zone 90</SimpleData>
+          <SimpleData name="id">z90</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -233,17 +243,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">2511</SimpleData>
-          <SimpleData name="smoothed nu 4.5">194.3873</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.56</SimpleData>
-          <SimpleData name="areal nu 4.5">2.7861</SimpleData>
-          <SimpleData name="smoothed N 5.5">2449</SimpleData>
-          <SimpleData name="smoothed nu 5.5">9.0601</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.18</SimpleData>
-          <SimpleData name="areal nu 5.5">0.3126</SimpleData>
+          <SimpleData name="smoothed N 4.5">637</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.0703</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.59</SimpleData>
+          <SimpleData name="areal lambda 4.5">2.7861</SimpleData>
+          <SimpleData name="smoothed N 5.5">620</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0891</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.17</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.3126</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.08</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.03</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.16</SimpleData>
+          <SimpleData name="name">zone 91</SimpleData>
+          <SimpleData name="id">z91</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -277,17 +289,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1716</SimpleData>
-          <SimpleData name="smoothed nu 4.5">195.4542</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.02</SimpleData>
-          <SimpleData name="areal nu 4.5">1.1885</SimpleData>
-          <SimpleData name="smoothed N 5.5">1685</SimpleData>
-          <SimpleData name="smoothed nu 5.5">11.3342</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.83</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1059</SimpleData>
+          <SimpleData name="smoothed N 4.5">431</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.0816</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.04</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.1885</SimpleData>
+          <SimpleData name="smoothed N 5.5">424</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.1078</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.81</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1059</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.49</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.54</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.59</SimpleData>
+          <SimpleData name="name">zone 92</SimpleData>
+          <SimpleData name="id">z92</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -321,17 +335,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1316</SimpleData>
-          <SimpleData name="smoothed nu 4.5">259.8516</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.72</SimpleData>
-          <SimpleData name="areal nu 4.5">2.2387</SimpleData>
-          <SimpleData name="smoothed N 5.5">1316</SimpleData>
-          <SimpleData name="smoothed nu 5.5">18.8635</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.77</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1479</SimpleData>
+          <SimpleData name="smoothed N 4.5">325</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.8639</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.77</SimpleData>
+          <SimpleData name="areal lambda 4.5">2.2387</SimpleData>
+          <SimpleData name="smoothed N 5.5">325</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.165</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.71</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1479</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.27</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.45</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.63</SimpleData>
+          <SimpleData name="name">zone 93</SimpleData>
+          <SimpleData name="id">z93</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -365,17 +381,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">2747</SimpleData>
-          <SimpleData name="smoothed nu 4.5">240.3421</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.79</SimpleData>
-          <SimpleData name="areal nu 4.5">1.2589</SimpleData>
-          <SimpleData name="smoothed N 5.5">2648</SimpleData>
-          <SimpleData name="smoothed nu 5.5">20.0607</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.69</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1318</SimpleData>
+          <SimpleData name="smoothed N 4.5">687</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.6981</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.84</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.2589</SimpleData>
+          <SimpleData name="smoothed N 5.5">663</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.1954</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.68</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1318</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.44</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.42</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.4</SimpleData>
+          <SimpleData name="name">zone 94</SimpleData>
+          <SimpleData name="id">z94</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -409,17 +427,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1740</SimpleData>
-          <SimpleData name="smoothed nu 4.5">130.8445</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.35</SimpleData>
-          <SimpleData name="areal nu 4.5">1.3183</SimpleData>
-          <SimpleData name="smoothed N 5.5">1740</SimpleData>
-          <SimpleData name="smoothed nu 5.5">10.3564</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.19</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1514</SimpleData>
+          <SimpleData name="smoothed N 4.5">442</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.4367</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.39</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.3183</SimpleData>
+          <SimpleData name="smoothed N 5.5">442</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.1031</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.18</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1514</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.4</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.34</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.37</SimpleData>
+          <SimpleData name="name">zone 95</SimpleData>
+          <SimpleData name="id">z95</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -453,17 +473,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1611</SimpleData>
-          <SimpleData name="smoothed nu 4.5">66.9074</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.01</SimpleData>
-          <SimpleData name="areal nu 4.5">0.3846</SimpleData>
-          <SimpleData name="smoothed N 5.5">1594</SimpleData>
-          <SimpleData name="smoothed nu 5.5">3.808</SimpleData>
-          <SimpleData name="smoothed a 5.5">5.7</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0452</SimpleData>
+          <SimpleData name="smoothed N 4.5">405</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">0.6911</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.02</SimpleData>
+          <SimpleData name="areal lambda 4.5">0.3846</SimpleData>
+          <SimpleData name="smoothed N 5.5">401</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0344</SimpleData>
+          <SimpleData name="smoothed a 5.5">3.65</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0452</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.93</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.86</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.2</SimpleData>
+          <SimpleData name="name">zone 97</SimpleData>
+          <SimpleData name="id">z97</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -497,17 +519,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">940</SimpleData>
-          <SimpleData name="smoothed nu 4.5">150.1164</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.44</SimpleData>
-          <SimpleData name="areal nu 4.5">1.2445</SimpleData>
-          <SimpleData name="smoothed N 5.5">940</SimpleData>
-          <SimpleData name="smoothed nu 5.5">3.0436</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.92</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0841</SimpleData>
+          <SimpleData name="smoothed N 4.5">235</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.5501</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.46</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.2445</SimpleData>
+          <SimpleData name="smoothed N 5.5">235</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0365</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.0</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0841</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.52</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.69</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.46</SimpleData>
+          <SimpleData name="name">zone 98</SimpleData>
+          <SimpleData name="id">z98</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -541,17 +565,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1093</SimpleData>
-          <SimpleData name="smoothed nu 4.5">239.155</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.55</SimpleData>
-          <SimpleData name="areal nu 4.5">1.135</SimpleData>
-          <SimpleData name="smoothed N 5.5">1093</SimpleData>
-          <SimpleData name="smoothed nu 5.5">2.6606</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.75</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0804</SimpleData>
+          <SimpleData name="smoothed N 4.5">272</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.3922</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.55</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.135</SimpleData>
+          <SimpleData name="smoothed N 5.5">272</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0298</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.8</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0804</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.55</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.7</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.45</SimpleData>
+          <SimpleData name="name">zone 99</SimpleData>
+          <SimpleData name="id">z99</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -585,17 +611,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">716</SimpleData>
-          <SimpleData name="smoothed nu 4.5">94.2516</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.79</SimpleData>
-          <SimpleData name="areal nu 4.5">0.881</SimpleData>
-          <SimpleData name="smoothed N 5.5">716</SimpleData>
-          <SimpleData name="smoothed nu 5.5">3.109</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.38</SimpleData>
-          <SimpleData name="areal nu 5.5">0.075</SimpleData>
+          <SimpleData name="smoothed N 4.5">179</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">0.9712</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.8</SimpleData>
+          <SimpleData name="areal lambda 4.5">0.881</SimpleData>
+          <SimpleData name="smoothed N 5.5">179</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0311</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.38</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.075</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.63</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.7</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.39</SimpleData>
+          <SimpleData name="name">zone 100</SimpleData>
+          <SimpleData name="id">z100</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -629,17 +657,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">920</SimpleData>
-          <SimpleData name="smoothed nu 4.5">87.5448</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.3</SimpleData>
-          <SimpleData name="areal nu 4.5">0.8414</SimpleData>
-          <SimpleData name="smoothed N 5.5">920</SimpleData>
-          <SimpleData name="smoothed nu 5.5">2.3428</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.91</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0543</SimpleData>
+          <SimpleData name="smoothed N 4.5">230</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">0.9204</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.32</SimpleData>
+          <SimpleData name="areal lambda 4.5">0.8414</SimpleData>
+          <SimpleData name="smoothed N 5.5">230</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0232</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.91</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0543</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.7</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.91</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+          <SimpleData name="name">zone 101</SimpleData>
+          <SimpleData name="id">z101</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -673,17 +703,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1415</SimpleData>
-          <SimpleData name="smoothed nu 4.5">114.8888</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.42</SimpleData>
-          <SimpleData name="areal nu 4.5">0.6531</SimpleData>
-          <SimpleData name="smoothed N 5.5">1252</SimpleData>
-          <SimpleData name="smoothed nu 5.5">2.2668</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.9</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0422</SimpleData>
+          <SimpleData name="smoothed N 4.5">354</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.1415</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.41</SimpleData>
+          <SimpleData name="areal lambda 4.5">0.6531</SimpleData>
+          <SimpleData name="smoothed N 5.5">313</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0189</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.82</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0422</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.81</SimpleData>
           <SimpleData name="logN_6.0-7.0">-2.02</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+          <SimpleData name="name">zone 102</SimpleData>
+          <SimpleData name="id">z102</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -717,17 +749,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">2623</SimpleData>
-          <SimpleData name="smoothed nu 4.5">192.4421</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.41</SimpleData>
-          <SimpleData name="areal nu 4.5">1.1749</SimpleData>
-          <SimpleData name="smoothed N 5.5">2623</SimpleData>
-          <SimpleData name="smoothed nu 5.5">10.0183</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.27</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0851</SimpleData>
+          <SimpleData name="smoothed N 4.5">657</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.0319</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.44</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.1749</SimpleData>
+          <SimpleData name="smoothed N 5.5">657</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0713</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.12</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0851</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.53</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.67</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.17</SimpleData>
+          <SimpleData name="name">zone 103</SimpleData>
+          <SimpleData name="id">z103</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -761,17 +795,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1281</SimpleData>
-          <SimpleData name="smoothed nu 4.5">214.8696</SimpleData>
-          <SimpleData name="smoothed a 4.5">5.84</SimpleData>
-          <SimpleData name="areal nu 4.5">1.1749</SimpleData>
-          <SimpleData name="smoothed N 5.5">1281</SimpleData>
-          <SimpleData name="smoothed nu 5.5">14.1212</SimpleData>
-          <SimpleData name="smoothed a 5.5">5.44</SimpleData>
-          <SimpleData name="areal nu 5.5">0.195</SimpleData>
+          <SimpleData name="smoothed N 4.5">322</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.2587</SimpleData>
+          <SimpleData name="smoothed a 4.5">3.86</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.1749</SimpleData>
+          <SimpleData name="smoothed N 5.5">322</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.1154</SimpleData>
+          <SimpleData name="smoothed a 5.5">3.35</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.195</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.4</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.18</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.96</SimpleData>
+          <SimpleData name="name">zone 110</SimpleData>
+          <SimpleData name="id">z110</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -805,17 +841,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1760</SimpleData>
-          <SimpleData name="smoothed nu 4.5">174.0011</SimpleData>
-          <SimpleData name="smoothed a 4.5">8.09</SimpleData>
-          <SimpleData name="areal nu 4.5">2.3988</SimpleData>
-          <SimpleData name="smoothed N 5.5">1593</SimpleData>
-          <SimpleData name="smoothed nu 5.5">6.2188</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.94</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1202</SimpleData>
+          <SimpleData name="smoothed N 4.5">439</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.8073</SimpleData>
+          <SimpleData name="smoothed a 4.5">6.11</SimpleData>
+          <SimpleData name="areal lambda 4.5">2.3988</SimpleData>
+          <SimpleData name="smoothed N 5.5">398</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0461</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.81</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1202</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.29</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.59</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+          <SimpleData name="name">zone 116</SimpleData>
+          <SimpleData name="id">z116</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -849,17 +887,19 @@
           <SimpleData name="tectonic zone">Intraplate margin</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">213</SimpleData>
-          <SimpleData name="smoothed nu 4.5">70.0204</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.57</SimpleData>
-          <SimpleData name="areal nu 4.5">0.881</SimpleData>
-          <SimpleData name="smoothed N 5.5">213</SimpleData>
-          <SimpleData name="smoothed nu 5.5">2.8819</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.23</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0785</SimpleData>
+          <SimpleData name="smoothed N 4.5">54</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">0.7164</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.58</SimpleData>
+          <SimpleData name="areal lambda 4.5">0.881</SimpleData>
+          <SimpleData name="smoothed N 5.5">54</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0304</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.26</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0785</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.62</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.67</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.1</SimpleData>
+          <SimpleData name="name">zone 118</SimpleData>
+          <SimpleData name="id">z118</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -893,17 +933,19 @@
           <SimpleData name="tectonic zone">Intraplate margin</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">413</SimpleData>
-          <SimpleData name="smoothed nu 4.5">94.7574</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.07</SimpleData>
-          <SimpleData name="areal nu 4.5">0.5188</SimpleData>
-          <SimpleData name="smoothed N 5.5">413</SimpleData>
-          <SimpleData name="smoothed nu 5.5">5.9464</SimpleData>
-          <SimpleData name="smoothed a 5.5">5.78</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0638</SimpleData>
+          <SimpleData name="smoothed N 4.5">109</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.0633</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.12</SimpleData>
+          <SimpleData name="areal lambda 4.5">0.5188</SimpleData>
+          <SimpleData name="smoothed N 5.5">109</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0549</SimpleData>
+          <SimpleData name="smoothed a 5.5">3.74</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0638</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.8</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.71</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.62</SimpleData>
+          <SimpleData name="name">zone 119</SimpleData>
+          <SimpleData name="id">z119</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -937,17 +979,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">513</SimpleData>
-          <SimpleData name="smoothed nu 4.5">170.5715</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.19</SimpleData>
-          <SimpleData name="areal nu 4.5">1.122</SimpleData>
-          <SimpleData name="smoothed N 5.5">513</SimpleData>
-          <SimpleData name="smoothed nu 5.5">6.0838</SimpleData>
-          <SimpleData name="smoothed a 5.5">5.62</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1479</SimpleData>
+          <SimpleData name="smoothed N 4.5">127</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.6513</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.18</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.122</SimpleData>
+          <SimpleData name="smoothed N 5.5">127</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0642</SimpleData>
+          <SimpleData name="smoothed a 5.5">3.65</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1479</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.45</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.33</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.23</SimpleData>
+          <SimpleData name="name">zone 128</SimpleData>
+          <SimpleData name="id">z128</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -981,17 +1025,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">991</SimpleData>
-          <SimpleData name="smoothed nu 4.5">116.2845</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.75</SimpleData>
-          <SimpleData name="areal nu 4.5">1.0715</SimpleData>
-          <SimpleData name="smoothed N 5.5">950</SimpleData>
-          <SimpleData name="smoothed nu 5.5">4.6395</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.39</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0977</SimpleData>
+          <SimpleData name="smoothed N 4.5">249</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.1728</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.75</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.0715</SimpleData>
+          <SimpleData name="smoothed N 5.5">240</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0456</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.38</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0977</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.53</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.58</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+          <SimpleData name="name">zone 129</SimpleData>
+          <SimpleData name="id">z129</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1025,17 +1071,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">405</SimpleData>
-          <SimpleData name="smoothed nu 4.5">51.1872</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.29</SimpleData>
-          <SimpleData name="areal nu 4.5">0.6607</SimpleData>
-          <SimpleData name="smoothed N 5.5">380</SimpleData>
-          <SimpleData name="smoothed nu 5.5">1.0812</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.85</SimpleData>
-          <SimpleData name="areal nu 5.5">0.038</SimpleData>
+          <SimpleData name="smoothed N 4.5">103</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">0.5414</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.31</SimpleData>
+          <SimpleData name="areal lambda 4.5">0.6607</SimpleData>
+          <SimpleData name="smoothed N 5.5">96</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.016</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.02</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.038</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.83</SimpleData>
           <SimpleData name="logN_6.0-7.0">-2.16</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+          <SimpleData name="name">zone 130</SimpleData>
+          <SimpleData name="id">z130</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1069,17 +1117,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1195</SimpleData>
-          <SimpleData name="smoothed nu 4.5">293.2554</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.25</SimpleData>
-          <SimpleData name="areal nu 4.5">2.3442</SimpleData>
-          <SimpleData name="smoothed N 5.5">1195</SimpleData>
-          <SimpleData name="smoothed nu 5.5">22.2097</SimpleData>
-          <SimpleData name="smoothed a 5.5">5.97</SimpleData>
-          <SimpleData name="areal nu 5.5">0.3388</SimpleData>
+          <SimpleData name="smoothed N 4.5">298</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">3.4849</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.32</SimpleData>
+          <SimpleData name="areal lambda 4.5">2.3442</SimpleData>
+          <SimpleData name="smoothed N 5.5">298</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.2388</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.0</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.3388</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.12</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.96</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.8</SimpleData>
+          <SimpleData name="name">zone 131</SimpleData>
+          <SimpleData name="id">z131</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1113,17 +1163,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1232</SimpleData>
-          <SimpleData name="smoothed nu 4.5">656.8579</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.73</SimpleData>
-          <SimpleData name="areal nu 4.5">3.0549</SimpleData>
-          <SimpleData name="smoothed N 5.5">1232</SimpleData>
-          <SimpleData name="smoothed nu 5.5">33.2539</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.31</SimpleData>
-          <SimpleData name="areal nu 5.5">0.4121</SimpleData>
+          <SimpleData name="smoothed N 4.5">307</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">6.7376</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.74</SimpleData>
+          <SimpleData name="areal lambda 4.5">3.0549</SimpleData>
+          <SimpleData name="smoothed N 5.5">307</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.3318</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.31</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.4121</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.01</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.88</SimpleData>
           <SimpleData name="logN_7.0-8.0">-1.75</SimpleData>
+          <SimpleData name="name">zone 132</SimpleData>
+          <SimpleData name="id">z132</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1157,17 +1209,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">986</SimpleData>
-          <SimpleData name="smoothed nu 4.5">108.2607</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.44</SimpleData>
-          <SimpleData name="areal nu 4.5">1.2023</SimpleData>
-          <SimpleData name="smoothed N 5.5">861</SimpleData>
-          <SimpleData name="smoothed nu 5.5">5.8405</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.16</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1259</SimpleData>
+          <SimpleData name="smoothed N 4.5">246</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.1447</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.47</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.2023</SimpleData>
+          <SimpleData name="smoothed N 5.5">216</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0493</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.08</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1259</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.46</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.44</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.5</SimpleData>
+          <SimpleData name="name">zone 136</SimpleData>
+          <SimpleData name="id">z136</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1201,17 +1255,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">413</SimpleData>
-          <SimpleData name="smoothed nu 4.5">127.044</SimpleData>
-          <SimpleData name="smoothed a 4.5">9.17</SimpleData>
-          <SimpleData name="areal nu 4.5">1.8408</SimpleData>
-          <SimpleData name="smoothed N 5.5">413</SimpleData>
-          <SimpleData name="smoothed nu 5.5">3.3769</SimpleData>
-          <SimpleData name="smoothed a 5.5">9.16</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0495</SimpleData>
+          <SimpleData name="smoothed N 4.5">105</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.3474</SimpleData>
+          <SimpleData name="smoothed a 4.5">7.19</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.8408</SimpleData>
+          <SimpleData name="smoothed N 5.5">105</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.037</SimpleData>
+          <SimpleData name="smoothed a 5.5">7.2</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0495</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.53</SimpleData>
           <SimpleData name="logN_6.0-7.0">-2.17</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+          <SimpleData name="name">zone 137</SimpleData>
+          <SimpleData name="id">z137</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1245,17 +1301,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1662</SimpleData>
-          <SimpleData name="smoothed nu 4.5">380.9753</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.53</SimpleData>
-          <SimpleData name="areal nu 4.5">4.6774</SimpleData>
-          <SimpleData name="smoothed N 5.5">1662</SimpleData>
-          <SimpleData name="smoothed nu 5.5">27.8553</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.49</SimpleData>
-          <SimpleData name="areal nu 5.5">0.3715</SimpleData>
+          <SimpleData name="smoothed N 4.5">413</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">4.0169</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.55</SimpleData>
+          <SimpleData name="areal lambda 4.5">4.6774</SimpleData>
+          <SimpleData name="smoothed N 5.5">413</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.2755</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.49</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.3715</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.08</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.02</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.12</SimpleData>
+          <SimpleData name="name">zone 138</SimpleData>
+          <SimpleData name="id">z138</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1289,17 +1347,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">614</SimpleData>
-          <SimpleData name="smoothed nu 4.5">61.8151</SimpleData>
-          <SimpleData name="smoothed a 4.5">5.39</SimpleData>
-          <SimpleData name="areal nu 4.5">0.4169</SimpleData>
-          <SimpleData name="smoothed N 5.5">614</SimpleData>
-          <SimpleData name="smoothed nu 5.5">3.3365</SimpleData>
-          <SimpleData name="smoothed a 5.5">4.92</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0661</SimpleData>
+          <SimpleData name="smoothed N 4.5">155</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">0.642</SimpleData>
+          <SimpleData name="smoothed a 4.5">3.41</SimpleData>
+          <SimpleData name="areal lambda 4.5">0.4169</SimpleData>
+          <SimpleData name="smoothed N 5.5">155</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0317</SimpleData>
+          <SimpleData name="smoothed a 5.5">2.9</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0661</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.85</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.65</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.55</SimpleData>
+          <SimpleData name="name">zone 925</SimpleData>
+          <SimpleData name="id">z925</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1333,17 +1393,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1992</SimpleData>
-          <SimpleData name="smoothed nu 4.5">152.8009</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.94</SimpleData>
-          <SimpleData name="areal nu 4.5">1.5136</SimpleData>
-          <SimpleData name="smoothed N 5.5">1992</SimpleData>
-          <SimpleData name="smoothed nu 5.5">10.9266</SimpleData>
-          <SimpleData name="smoothed a 5.5">8.08</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0794</SimpleData>
+          <SimpleData name="smoothed N 4.5">499</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.6958</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.99</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.5136</SimpleData>
+          <SimpleData name="smoothed N 5.5">499</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0993</SimpleData>
+          <SimpleData name="smoothed a 5.5">6.04</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0794</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.48</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.76</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.08</SimpleData>
+          <SimpleData name="name">zone 926</SimpleData>
+          <SimpleData name="id">z926</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1377,17 +1439,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1477</SimpleData>
-          <SimpleData name="smoothed nu 4.5">117.967</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.56</SimpleData>
-          <SimpleData name="areal nu 4.5">1.2023</SimpleData>
-          <SimpleData name="smoothed N 5.5">1477</SimpleData>
-          <SimpleData name="smoothed nu 5.5">5.486</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.45</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0724</SimpleData>
+          <SimpleData name="smoothed N 4.5">366</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.185</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.56</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.2023</SimpleData>
+          <SimpleData name="smoothed N 5.5">366</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0535</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.44</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0724</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.56</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.78</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.58</SimpleData>
+          <SimpleData name="name">zone 927</SimpleData>
+          <SimpleData name="id">z927</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1421,17 +1485,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1808</SimpleData>
-          <SimpleData name="smoothed nu 4.5">258.0465</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.73</SimpleData>
-          <SimpleData name="areal nu 4.5">2.7542</SimpleData>
-          <SimpleData name="smoothed N 5.5">1808</SimpleData>
-          <SimpleData name="smoothed nu 5.5">15.3396</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.47</SimpleData>
-          <SimpleData name="areal nu 5.5">0.302</SimpleData>
+          <SimpleData name="smoothed N 4.5">454</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.7283</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.76</SimpleData>
+          <SimpleData name="areal lambda 4.5">2.7542</SimpleData>
+          <SimpleData name="smoothed N 5.5">454</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.1622</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.49</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.302</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.09</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.05</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.01</SimpleData>
+          <SimpleData name="name">zone 928</SimpleData>
+          <SimpleData name="id">z928</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1465,17 +1531,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">729</SimpleData>
-          <SimpleData name="smoothed nu 4.5">218.8292</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.66</SimpleData>
-          <SimpleData name="areal nu 4.5">1.9498</SimpleData>
-          <SimpleData name="smoothed N 5.5">729</SimpleData>
-          <SimpleData name="smoothed nu 5.5">9.9221</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.28</SimpleData>
-          <SimpleData name="areal nu 5.5">0.2138</SimpleData>
+          <SimpleData name="smoothed N 4.5">182</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.1753</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.66</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.9498</SimpleData>
+          <SimpleData name="smoothed N 5.5">182</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0977</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.27</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.2138</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.24</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.2</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.17</SimpleData>
+          <SimpleData name="name">zone 929</SimpleData>
+          <SimpleData name="id">z929</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1509,17 +1577,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">511</SimpleData>
-          <SimpleData name="smoothed nu 4.5">196.692</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.38</SimpleData>
-          <SimpleData name="areal nu 4.5">1.3032</SimpleData>
-          <SimpleData name="smoothed N 5.5">511</SimpleData>
-          <SimpleData name="smoothed nu 5.5">6.4537</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.02</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0966</SimpleData>
+          <SimpleData name="smoothed N 4.5">128</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.8937</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.36</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.3032</SimpleData>
+          <SimpleData name="smoothed N 5.5">128</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0575</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.97</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0966</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.48</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.61</SimpleData>
           <SimpleData name="logN_7.0-8.0">-3.1</SimpleData>
+          <SimpleData name="name">zone 930</SimpleData>
+          <SimpleData name="id">z930</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1553,17 +1623,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">2232</SimpleData>
-          <SimpleData name="smoothed nu 4.5">225.7952</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.35</SimpleData>
-          <SimpleData name="areal nu 4.5">2.0184</SimpleData>
-          <SimpleData name="smoothed N 5.5">2232</SimpleData>
-          <SimpleData name="smoothed nu 5.5">11.0445</SimpleData>
-          <SimpleData name="smoothed a 5.5">7.15</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1567</SimpleData>
+          <SimpleData name="smoothed N 4.5">554</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.4244</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.38</SimpleData>
+          <SimpleData name="areal lambda 4.5">2.0184</SimpleData>
+          <SimpleData name="smoothed N 5.5">554</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.1155</SimpleData>
+          <SimpleData name="smoothed a 5.5">5.17</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1567</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.29</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.4</SimpleData>
           <SimpleData name="logN_7.0-8.0">-2.51</SimpleData>
+          <SimpleData name="name">zone 931</SimpleData>
+          <SimpleData name="id">z931</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1597,17 +1669,19 @@
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">8700</SimpleData>
-          <SimpleData name="smoothed nu 4.5">108.1006</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.22</SimpleData>
-          <SimpleData name="areal nu 4.5">0.9226</SimpleData>
-          <SimpleData name="smoothed N 5.5">5864</SimpleData>
-          <SimpleData name="smoothed nu 5.5">12.3063</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.21</SimpleData>
-          <SimpleData name="areal nu 5.5">0.1084</SimpleData>
+          <SimpleData name="smoothed N 4.5">2170</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.1</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.23</SimpleData>
+          <SimpleData name="areal lambda 4.5">0.9226</SimpleData>
+          <SimpleData name="smoothed N 5.5">1464</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.1066</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.14</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.1084</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.55</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.61</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+          <SimpleData name="name">zone 932</SimpleData>
+          <SimpleData name="id">z932</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1641,17 +1715,19 @@
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">10845</SimpleData>
-          <SimpleData name="smoothed nu 4.5">73.0126</SimpleData>
-          <SimpleData name="smoothed a 4.5">5.87</SimpleData>
-          <SimpleData name="areal nu 4.5">0.507</SimpleData>
-          <SimpleData name="smoothed N 5.5">4278</SimpleData>
-          <SimpleData name="smoothed nu 5.5">5.0559</SimpleData>
-          <SimpleData name="smoothed a 5.5">5.6</SimpleData>
-          <SimpleData name="areal nu 5.5">0.0653</SimpleData>
+          <SimpleData name="smoothed N 4.5">2659</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">0.7338</SimpleData>
+          <SimpleData name="smoothed a 4.5">3.87</SimpleData>
+          <SimpleData name="areal lambda 4.5">0.507</SimpleData>
+          <SimpleData name="smoothed N 5.5">1068</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0502</SimpleData>
+          <SimpleData name="smoothed a 5.5">3.6</SimpleData>
+          <SimpleData name="areal lambda 5.5">0.0653</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.8</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.72</SimpleData>
           <SimpleData name="logN_7.0-8.0">nan</SimpleData>
+          <SimpleData name="name">zone 933</SimpleData>
+          <SimpleData name="id">z933</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1685,17 +1761,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1827</SimpleData>
-          <SimpleData name="smoothed nu 4.5">33.997</SimpleData>
-          <SimpleData name="smoothed a 4.5">1.53</SimpleData>
-          <SimpleData name="areal nu 4.5">1.0</SimpleData>
-          <SimpleData name="smoothed N 5.5">1666</SimpleData>
-          <SimpleData name="smoothed nu 5.5">4.4061</SimpleData>
-          <SimpleData name="smoothed a 5.5">0.64</SimpleData>
-          <SimpleData name="areal nu 5.5">1.0</SimpleData>
+          <SimpleData name="smoothed N 4.5">455</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">0.4213</SimpleData>
+          <SimpleData name="smoothed a 4.5">-0.38</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.0</SimpleData>
+          <SimpleData name="smoothed N 5.5">415</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.044</SimpleData>
+          <SimpleData name="smoothed a 5.5">-1.36</SimpleData>
+          <SimpleData name="areal lambda 5.5">1.0</SimpleData>
           <SimpleData name="logN_5.0-6.0">-inf</SimpleData>
           <SimpleData name="logN_6.0-7.0">-inf</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+          <SimpleData name="name">zone 9031</SimpleData>
+          <SimpleData name="id">z9031</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1729,17 +1807,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1244</SimpleData>
-          <SimpleData name="smoothed nu 4.5">174.4317</SimpleData>
-          <SimpleData name="smoothed a 4.5">2.24</SimpleData>
-          <SimpleData name="areal nu 4.5">1.0</SimpleData>
-          <SimpleData name="smoothed N 5.5">1244</SimpleData>
-          <SimpleData name="smoothed nu 5.5">5.6201</SimpleData>
-          <SimpleData name="smoothed a 5.5">0.75</SimpleData>
-          <SimpleData name="areal nu 5.5">1.0</SimpleData>
+          <SimpleData name="smoothed N 4.5">311</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.784</SimpleData>
+          <SimpleData name="smoothed a 4.5">0.25</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.0</SimpleData>
+          <SimpleData name="smoothed N 5.5">311</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0548</SimpleData>
+          <SimpleData name="smoothed a 5.5">-1.26</SimpleData>
+          <SimpleData name="areal lambda 5.5">1.0</SimpleData>
           <SimpleData name="logN_5.0-6.0">-inf</SimpleData>
           <SimpleData name="logN_6.0-7.0">-inf</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+          <SimpleData name="name">zone 9081</SimpleData>
+          <SimpleData name="id">z9081</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1773,17 +1853,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">1208</SimpleData>
-          <SimpleData name="smoothed nu 4.5">93.7614</SimpleData>
-          <SimpleData name="smoothed a 4.5">1.97</SimpleData>
-          <SimpleData name="areal nu 4.5">1.0</SimpleData>
-          <SimpleData name="smoothed N 5.5">1156</SimpleData>
-          <SimpleData name="smoothed nu 5.5">5.9698</SimpleData>
-          <SimpleData name="smoothed a 5.5">0.78</SimpleData>
-          <SimpleData name="areal nu 5.5">1.0</SimpleData>
+          <SimpleData name="smoothed N 4.5">304</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">1.0103</SimpleData>
+          <SimpleData name="smoothed a 4.5">0.0</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.0</SimpleData>
+          <SimpleData name="smoothed N 5.5">290</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0616</SimpleData>
+          <SimpleData name="smoothed a 5.5">-1.21</SimpleData>
+          <SimpleData name="areal lambda 5.5">1.0</SimpleData>
           <SimpleData name="logN_5.0-6.0">-inf</SimpleData>
           <SimpleData name="logN_6.0-7.0">-inf</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+          <SimpleData name="name">zone 9131</SimpleData>
+          <SimpleData name="id">z9131</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1817,17 +1899,19 @@
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">918</SimpleData>
-          <SimpleData name="smoothed nu 4.5">15.2277</SimpleData>
-          <SimpleData name="smoothed a 4.5">1.18</SimpleData>
-          <SimpleData name="areal nu 4.5">1.0</SimpleData>
-          <SimpleData name="smoothed N 5.5">752</SimpleData>
-          <SimpleData name="smoothed nu 5.5">2.0499</SimpleData>
-          <SimpleData name="smoothed a 5.5">0.31</SimpleData>
-          <SimpleData name="areal nu 5.5">1.0</SimpleData>
+          <SimpleData name="smoothed N 4.5">229</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">0.1956</SimpleData>
+          <SimpleData name="smoothed a 4.5">-0.71</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.0</SimpleData>
+          <SimpleData name="smoothed N 5.5">186</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0209</SimpleData>
+          <SimpleData name="smoothed a 5.5">-1.68</SimpleData>
+          <SimpleData name="areal lambda 5.5">1.0</SimpleData>
           <SimpleData name="logN_5.0-6.0">-inf</SimpleData>
           <SimpleData name="logN_6.0-7.0">-inf</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+          <SimpleData name="name">zone 9151</SimpleData>
+          <SimpleData name="id">z9151</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
@@ -1861,17 +1945,19 @@
           <SimpleData name="tectonic zone">Stable continental</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">8698</SimpleData>
-          <SimpleData name="smoothed nu 4.5">84.2393</SimpleData>
-          <SimpleData name="smoothed a 4.5">1.93</SimpleData>
-          <SimpleData name="areal nu 4.5">1.0</SimpleData>
-          <SimpleData name="smoothed N 5.5">6145</SimpleData>
-          <SimpleData name="smoothed nu 5.5">9.5418</SimpleData>
-          <SimpleData name="smoothed a 5.5">0.98</SimpleData>
-          <SimpleData name="areal nu 5.5">1.0</SimpleData>
+          <SimpleData name="smoothed N 4.5">2170</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">0.9572</SimpleData>
+          <SimpleData name="smoothed a 4.5">-0.02</SimpleData>
+          <SimpleData name="areal lambda 4.5">1.0</SimpleData>
+          <SimpleData name="smoothed N 5.5">1533</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.1074</SimpleData>
+          <SimpleData name="smoothed a 5.5">-0.97</SimpleData>
+          <SimpleData name="areal lambda 5.5">1.0</SimpleData>
           <SimpleData name="logN_5.0-6.0">-inf</SimpleData>
           <SimpleData name="logN_6.0-7.0">-inf</SimpleData>
           <SimpleData name="logN_7.0-8.0">-inf</SimpleData>
+          <SimpleData name="name">zone 9171</SimpleData>
+          <SimpleData name="id">z9171</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>

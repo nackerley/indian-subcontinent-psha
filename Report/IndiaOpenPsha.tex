@@ -136,6 +136,8 @@ The seismogenic depth was assumed to be midway between the minimum and maximum. 
 \subsubsection{Smoothed seismicity}
 \label{sec:Smoothed}
 
+\cite{thingbaijam2011seismogenic}
+
 Each point in the smoothed seismicity model was treated as a point source. \cite{nath2012probabilistic} have provided ``spatially varying annual activity rates while b-value and m max remain fixed within the source zone''. Thus for the smoothed seismicity model the parameters $b$ and $M_{max}$ of the truncated Gutenberg-Richter magnitude-frequency distributions are to be inferred from the areal source model zonation. For points inside zones with non-zero $a$ values in the areal source model this is trivial; for points outside these zones the zone with the shortest perpendicular distance was chosen.
 
 A point source model in OpenQuake also requires definition of the uncertainty of the probability distribution, as well as the tectonic region type and source mechanism for the selection and implementation of GMPEs, respectively. Thus the same procedure was used to assign $\sigma_b$, $\sigma_{m_{max}}$, tectonic subregion, rake, dip, strike and magnitude scaling relations were used.
@@ -175,6 +177,8 @@ Note differences in grids: although the hazard maps in the electronic supplement
 Note smoothing details. A Gaussian kernel is used, following the methodology of \cite{frankel1995mapping} with correlation distances of 65 and 85~km for $m_{min}$ of 4.5 and 5.5 respectively. The method involves smoothing event counts, thus events per year, for a given minimum magnitude.
 
 \cite{thingbaijam2011synoptic}
+
+\cite{nath2010earthquake}
 
 \subsection{Ground-motion prediction}
 \label{sec:GroundMotion}
@@ -329,6 +333,9 @@ Note that although Figure 4 of \cite{nath2012probabilistic} shows the activity r
 \section*{Acknowledgement}
 Acknowledgements here
 
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{section}{Bibliography}
 \bibliographystyle{apalike}
 \bibliography{/home/nick/Desktop/Library/PSHA.bib}
 

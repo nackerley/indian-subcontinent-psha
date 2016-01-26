@@ -1,102 +1,95 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
-    <edittype widgetv2type="TextEdit" name="Name">
+    <edittype widgetv2type="TextEdit" name="siteid">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="description">
+    <edittype widgetv2type="TextEdit" name="lon">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="timestamp">
+    <edittype widgetv2type="TextEdit" name="lat">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="begin">
+    <edittype widgetv2type="TextEdit" name="prob40">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="end">
+    <edittype widgetv2type="TextEdit" name="prob30">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="altitudeMode">
+    <edittype widgetv2type="TextEdit" name="prob20">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="tessellate">
+    <edittype widgetv2type="TextEdit" name="prob15">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="extrude">
+    <edittype widgetv2type="TextEdit" name="prob10">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="visibility">
+    <edittype widgetv2type="TextEdit" name="prob9">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="drawOrder">
+    <edittype widgetv2type="TextEdit" name="prob8">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="icon">
+    <edittype widgetv2type="TextEdit" name="prob7">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="longitude">
+    <edittype widgetv2type="TextEdit" name="prob6">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="latitude">
+    <edittype widgetv2type="TextEdit" name="prob5">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="mmin">
+    <edittype widgetv2type="TextEdit" name="prob4">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="duration">
+    <edittype widgetv2type="TextEdit" name="prob3">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="lambda">
+    <edittype widgetv2type="TextEdit" name="prob2">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="nu">
+    <edittype widgetv2type="TextEdit" name="prob1">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="zoneid">
+    <edittype widgetv2type="TextEdit" name="prob_pt8">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="tectonic subregion">
+    <edittype widgetv2type="TextEdit" name="prob_pt6">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="a">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-    </edittype>
-    <edittype widgetv2type="TextEdit" name="b">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-    </edittype>
-    <edittype widgetv2type="TextEdit" name="mmax">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-    </edittype>
-    <edittype widgetv2type="TextEdit" name="a zone">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-    </edittype>
-    <edittype widgetv2type="TextEdit" name="name">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-    </edittype>
-    <edittype widgetv2type="TextEdit" name="id">
+    <edittype widgetv2type="TextEdit" name="prob_pt5">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
   </edittypes>
-  <renderer-v2 attr="description" forceraster="0" symbollevels="0" type="categorizedSymbol">
-    <categories>
-      <category render="true" symbol="0" value="no seismicity" label="no seismicity"/>
-      <category render="true" symbol="1" value="stable shallow crust" label="stable shallow crust"/>
-      <category render="true" symbol="2" value="active shallow crust normal" label="active shallow crust normal"/>
-      <category render="true" symbol="3" value="active shallow crust strike-slip reverse" label="active shallow crust strike-slip reverse"/>
-      <category render="true" symbol="4" value="intraplate margin upper" label="intraplate margin upper"/>
-      <category render="true" symbol="5" value="intraplate margin lower" label="intraplate margin lower"/>
-      <category render="true" symbol="6" value="subduction interface" label="subduction interface"/>
-      <category render="true" symbol="7" value="subduction intraslab Himalayas" label="subduction intraslab Himalayas"/>
-      <category render="true" symbol="8" value="subduction intraslab" label="subduction intraslab"/>
-      <category render="true" symbol="9" value="" label="unassigned"/>
-    </categories>
+  <renderer-v2 attr="prob2" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor">
+    <ranges>
+      <range render="true" symbol="0" lower="0.000000" upper="0.100000" label=" 0.000 - 0.100 "/>
+      <range render="true" symbol="1" lower="0.100000" upper="0.200000" label=" 0.100 - 0.200 "/>
+      <range render="true" symbol="2" lower="0.200000" upper="0.300000" label=" 0.200 - 0.300 "/>
+      <range render="true" symbol="3" lower="0.300000" upper="0.400000" label=" 0.300 - 0.400 "/>
+      <range render="true" symbol="4" lower="0.400000" upper="0.500000" label=" 0.400 - 0.500 "/>
+      <range render="true" symbol="5" lower="0.500000" upper="0.600000" label=" 0.500 - 0.600 "/>
+      <range render="true" symbol="6" lower="0.600000" upper="0.700000" label=" 0.600 - 0.700 "/>
+      <range render="true" symbol="7" lower="0.700000" upper="0.800000" label=" 0.700 - 0.800 "/>
+      <range render="true" symbol="8" lower="0.800000" upper="0.900000" label=" 0.800 - 0.900 "/>
+      <range render="true" symbol="9" lower="0.900000" upper="1.000000" label=" 0.900 - 1.000 "/>
+      <range render="true" symbol="10" lower="1.000000" upper="1.100000" label=" 1.000 - 1.100 "/>
+      <range render="true" symbol="11" lower="1.100000" upper="1.200000" label=" 1.100 - 1.200 "/>
+      <range render="true" symbol="12" lower="1.200000" upper="1.300000" label=" 1.200 - 1.300 "/>
+      <range render="true" symbol="13" lower="1.300000" upper="1.400000" label=" 1.300 - 1.400 "/>
+      <range render="true" symbol="14" lower="1.400000" upper="1.500000" label=" 1.400 - 1.500 "/>
+      <range render="true" symbol="15" lower="1.500000" upper="1.600000" label=" 1.500 - 1.600 "/>
+      <range render="true" symbol="16" lower="1.600000" upper="1.700000" label=" 1.600 - 1.700 "/>
+      <range render="true" symbol="17" lower="1.700000" upper="1.800000" label=" 1.700 - 1.800 "/>
+    </ranges>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="121,80,70,255"/>
+          <prop k="color" v="250,250,250,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -105,8 +98,8 @@
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -115,9 +108,9 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="245,236,56,255"/>
+          <prop k="color" v="235,235,235,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -126,8 +119,176 @@
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="10">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="105,105,105,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_color" v="0,0,0,0"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="11">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="91,91,91,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_color" v="0,0,0,0"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="12">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="77,77,77,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_color" v="0,0,0,0"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="13">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="62,62,62,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_color" v="0,0,0,0"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="14">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="48,48,48,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_color" v="0,0,0,0"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="15">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="33,33,33,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_color" v="0,0,0,0"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="16">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="19,19,19,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_color" v="0,0,0,0"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="17">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="5,5,5,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_color" v="0,0,0,0"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -136,9 +297,9 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="2">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="219,68,54,255"/>
+          <prop k="color" v="221,221,221,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -147,8 +308,8 @@
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -157,9 +318,9 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="3">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="31,120,180,255"/>
+          <prop k="color" v="206,206,206,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -168,8 +329,8 @@
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -178,9 +339,9 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="4">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="246,149,26,255"/>
+          <prop k="color" v="192,192,192,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -189,8 +350,8 @@
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -199,9 +360,9 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="5">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="245,181,1,255"/>
+          <prop k="color" v="177,177,177,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -210,8 +371,8 @@
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -220,9 +381,9 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="6">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="0,156,86,255"/>
+          <prop k="color" v="163,163,163,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -231,8 +392,8 @@
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -241,9 +402,9 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="7">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="11,169,204,255"/>
+          <prop k="color" v="149,149,149,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -252,8 +413,8 @@
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -262,9 +423,9 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="8">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="97,174,67,255"/>
+          <prop k="color" v="134,134,134,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -273,8 +434,8 @@
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -283,9 +444,9 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="9">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="128,128,128,255"/>
+          <prop k="color" v="120,120,120,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -294,8 +455,8 @@
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -306,27 +467,35 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="126,192,91,255"/>
+          <prop k="color" v="166,206,227,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="0.2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
     </source-symbol>
+    <colorramp type="gradient" name="[source]">
+      <prop k="color1" v="250,250,250,255"/>
+      <prop k="color2" v="5,5,5,255"/>
+      <prop k="discrete" v="0"/>
+    </colorramp>
+    <invertedcolorramp value="0"/>
+    <mode name="pretty"/>
     <rotation/>
     <sizescale scalemethod="diameter"/>
+    <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="3"/>
   </renderer-v2>
   <labeling type="simple"/>
   <customproperties>
@@ -480,7 +649,7 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerTransparency>0</layerTransparency>
-  <displayfield>Name</displayfield>
+  <displayfield>siteid</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Label"/>
@@ -503,16 +672,15 @@
     <selectedonly on=""/>
   </labelattributes>
   <SingleCategoryDiagramRenderer diagramType="Pie">
-    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
       <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
   <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-  <editform>.</editform>
+  <editform></editform>
   <editforminit/>
   <featformsuppress>0</featformsuppress>
-  <annotationform>.</annotationform>
+  <annotationform></annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>

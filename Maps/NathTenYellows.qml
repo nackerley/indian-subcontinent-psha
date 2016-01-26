@@ -77,227 +77,227 @@
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
   </edittypes>
-  <renderer-v2 attr="description" forceraster="0" symbollevels="0" type="categorizedSymbol">
-    <categories>
-      <category render="true" symbol="0" value="no seismicity" label="no seismicity"/>
-      <category render="true" symbol="1" value="stable shallow crust" label="stable shallow crust"/>
-      <category render="true" symbol="2" value="active shallow crust normal" label="active shallow crust normal"/>
-      <category render="true" symbol="3" value="active shallow crust strike-slip reverse" label="active shallow crust strike-slip reverse"/>
-      <category render="true" symbol="4" value="intraplate margin upper" label="intraplate margin upper"/>
-      <category render="true" symbol="5" value="intraplate margin lower" label="intraplate margin lower"/>
-      <category render="true" symbol="6" value="subduction interface" label="subduction interface"/>
-      <category render="true" symbol="7" value="subduction intraslab Himalayas" label="subduction intraslab Himalayas"/>
-      <category render="true" symbol="8" value="subduction intraslab" label="subduction intraslab"/>
-      <category render="true" symbol="9" value="" label="unassigned"/>
-    </categories>
+  <renderer-v2 attr="lambda" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor">
+    <ranges>
+      <range render="true" symbol="0" lower="0.000000" upper="0.000600" label=" 0 - 0.0006 "/>
+      <range render="true" symbol="1" lower="0.000600" upper="0.002000" label=" 0.0006 - 0.002 "/>
+      <range render="true" symbol="2" lower="0.002000" upper="0.003000" label=" 0.002 - 0.003 "/>
+      <range render="true" symbol="3" lower="0.003000" upper="0.005000" label=" 0.003 - 0.005 "/>
+      <range render="true" symbol="4" lower="0.005000" upper="0.007000" label=" 0.005 - 0.007 "/>
+      <range render="true" symbol="5" lower="0.007000" upper="0.010000" label=" 0.007 - 0.01 "/>
+      <range render="true" symbol="6" lower="0.010000" upper="0.015000" label=" 0.01 - 0.015 "/>
+      <range render="true" symbol="7" lower="0.015000" upper="0.020000" label=" 0.015 - 0.02 "/>
+      <range render="true" symbol="8" lower="0.020000" upper="0.030000" label=" 0.02 - 0.03 "/>
+      <range render="true" symbol="9" lower="0.030000" upper="0.050000" label=" 0.03 - 0.05 "/>
+    </ranges>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="121,80,70,255"/>
+          <prop k="color" v="255,255,128,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
+          <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="245,236,56,255"/>
+          <prop k="color" v="252,233,109,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
+          <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="2">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="219,68,54,255"/>
+          <prop k="color" v="252,215,91,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
+          <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="3">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="31,120,180,255"/>
+          <prop k="color" v="247,195,72,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
+          <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="4">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="246,149,26,255"/>
+          <prop k="color" v="245,175,54,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
+          <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="5">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="245,181,1,255"/>
+          <prop k="color" v="227,149,41,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
+          <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="6">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="0,156,86,255"/>
+          <prop k="color" v="196,109,27,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
+          <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="7">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="11,169,204,255"/>
+          <prop k="color" v="166,76,17,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
+          <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="8">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="97,174,67,255"/>
+          <prop k="color" v="135,42,8,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
+          <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="9">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="128,128,128,255"/>
+          <prop k="color" v="107,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0.21"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
+          <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -306,18 +306,18 @@
       <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="126,192,91,255"/>
+          <prop k="color" v="31,120,180,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
+          <prop k="scale_method" v="area"/>
           <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
@@ -325,8 +325,17 @@
         </layer>
       </symbol>
     </source-symbol>
+    <colorramp type="gradient" name="[source]">
+      <prop k="color1" v="255,255,178,255"/>
+      <prop k="color2" v="189,0,38,255"/>
+      <prop k="discrete" v="0"/>
+      <prop k="stops" v="0.25;254,204,92,255:0.5;253,141,60,255:0.75;240,59,32,255"/>
+    </colorramp>
+    <invertedcolorramp value="0"/>
+    <mode name="quantile"/>
     <rotation/>
     <sizescale scalemethod="diameter"/>
+    <labelformat format=" %1 - %2 " trimtrailingzeroes="true" decimalplaces="5"/>
   </renderer-v2>
   <labeling type="simple"/>
   <customproperties>

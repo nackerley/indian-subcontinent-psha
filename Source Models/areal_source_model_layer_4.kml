@@ -26,10 +26,12 @@
       <SimpleField name="smoothed N 4.5" type="int"/>
       <SimpleField name="smoothed lambda 4.5" type="double"/>
       <SimpleField name="smoothed a 4.5" type="double"/>
+      <SimpleField name="equiv a 4.5" type="double"/>
       <SimpleField name="areal lambda 4.5" type="double"/>
       <SimpleField name="smoothed N 5.5" type="int"/>
       <SimpleField name="smoothed lambda 5.5" type="double"/>
       <SimpleField name="smoothed a 5.5" type="double"/>
+      <SimpleField name="equiv a 5.5" type="double"/>
       <SimpleField name="areal lambda 5.5" type="double"/>
       <SimpleField name="logN_5.0-6.0" type="double"/>
       <SimpleField name="logN_6.0-7.0" type="double"/>
@@ -59,13 +61,15 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">300.0</SimpleData>
           <SimpleData name="zmin">180.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">190</SimpleData>
-          <SimpleData name="smoothed lambda 4.5">213.5751</SimpleData>
-          <SimpleData name="smoothed a 4.5">6.11</SimpleData>
+          <SimpleData name="smoothed N 4.5">761</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">35.6192</SimpleData>
+          <SimpleData name="smoothed a 4.5">5.33</SimpleData>
+          <SimpleData name="equiv a 4.5">0.00628120893561</SimpleData>
           <SimpleData name="areal lambda 4.5">10.0</SimpleData>
-          <SimpleData name="smoothed N 5.5">190</SimpleData>
-          <SimpleData name="smoothed lambda 5.5">101.3941</SimpleData>
-          <SimpleData name="smoothed a 5.5">6.63</SimpleData>
+          <SimpleData name="smoothed N 5.5">761</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">1.1074</SimpleData>
+          <SimpleData name="smoothed a 5.5">4.66</SimpleData>
+          <SimpleData name="equiv a 5.5">0.00628120893561</SimpleData>
           <SimpleData name="areal lambda 5.5">1.4454</SimpleData>
           <SimpleData name="logN_5.0-6.0">0.51</SimpleData>
           <SimpleData name="logN_6.0-7.0">-0.33</SimpleData>
@@ -105,13 +109,15 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">300.0</SimpleData>
           <SimpleData name="zmin">180.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">198</SimpleData>
-          <SimpleData name="smoothed lambda 4.5">29.2924</SimpleData>
-          <SimpleData name="smoothed a 4.5">7.54</SimpleData>
+          <SimpleData name="smoothed N 4.5">798</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">4.6335</SimpleData>
+          <SimpleData name="smoothed a 4.5">6.74</SimpleData>
+          <SimpleData name="equiv a 4.5">0.0074686716792</SimpleData>
           <SimpleData name="areal lambda 4.5">0.7674</SimpleData>
-          <SimpleData name="smoothed N 5.5">140</SimpleData>
-          <SimpleData name="smoothed lambda 5.5">7.9637</SimpleData>
-          <SimpleData name="smoothed a 5.5">8.33</SimpleData>
+          <SimpleData name="smoothed N 5.5">553</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.0839</SimpleData>
+          <SimpleData name="smoothed a 5.5">6.35</SimpleData>
+          <SimpleData name="equiv a 5.5">0.0107775768535</SimpleData>
           <SimpleData name="areal lambda 5.5">0.0343</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.81</SimpleData>
           <SimpleData name="logN_6.0-7.0">-2.16</SimpleData>
@@ -151,13 +157,15 @@
           <SimpleData name="tectonic zone">Subduction intraslab</SimpleData>
           <SimpleData name="zmax">300.0</SimpleData>
           <SimpleData name="zmin">180.0</SimpleData>
-          <SimpleData name="smoothed N 4.5">803</SimpleData>
-          <SimpleData name="smoothed lambda 4.5">14.1434</SimpleData>
-          <SimpleData name="smoothed a 4.5">5.02</SimpleData>
+          <SimpleData name="smoothed N 4.5">3209</SimpleData>
+          <SimpleData name="smoothed lambda 4.5">2.35</SimpleData>
+          <SimpleData name="smoothed a 4.5">4.24</SimpleData>
+          <SimpleData name="equiv a 4.5">0.00115923963852</SimpleData>
           <SimpleData name="areal lambda 4.5">0.7079</SimpleData>
-          <SimpleData name="smoothed N 5.5">408</SimpleData>
-          <SimpleData name="smoothed lambda 5.5">3.1826</SimpleData>
-          <SimpleData name="smoothed a 5.5">5.23</SimpleData>
+          <SimpleData name="smoothed N 5.5">1622</SimpleData>
+          <SimpleData name="smoothed lambda 5.5">0.034</SimpleData>
+          <SimpleData name="smoothed a 5.5">3.26</SimpleData>
+          <SimpleData name="equiv a 5.5">0.0022934648582</SimpleData>
           <SimpleData name="areal lambda 5.5">0.0977</SimpleData>
           <SimpleData name="logN_5.0-6.0">-0.64</SimpleData>
           <SimpleData name="logN_6.0-7.0">-1.5</SimpleData>

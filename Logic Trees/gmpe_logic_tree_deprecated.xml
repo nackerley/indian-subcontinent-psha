@@ -21,7 +21,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         AkkarBommer2010
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.334
+                        0.25
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         BooreAtkinson2008
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.333
+                        0.25
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -41,7 +41,17 @@ xmlns:gml="http://www.opengis.net/gml"
                         CampbellBozorgnia2008
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.333
+                        0.25
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="r1m4"
+                >
+                    <uncertaintyModel>
+                        SharmaEtAl2009
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.25
                     </uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>
@@ -101,7 +111,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         AtkinsonBoore2006
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.5
+                        0.334
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -111,7 +121,17 @@ xmlns:gml="http://www.opengis.net/gml"
                         ToroEtAl2002
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.5
+                        0.333
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="r3m3"
+                >
+                    <uncertaintyModel>
+                        SharmaEtAl2009
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.333
                     </uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>
@@ -131,7 +151,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         AtkinsonBoore2006
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.5
+                        0.334
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -141,7 +161,17 @@ xmlns:gml="http://www.opengis.net/gml"
                         ToroEtAl2002
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.5
+                        0.333
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="r4m3"
+                >
+                    <uncertaintyModel>
+                        SharmaEtAl2009
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.333
                     </uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>
@@ -311,7 +341,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         YoungsEtAl1997SSlab
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.5
+                        0.334
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -321,7 +351,17 @@ xmlns:gml="http://www.opengis.net/gml"
                         ZhaoEtAl2006SSlab
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.5
+                        0.333
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="r9m3"
+                >
+                    <uncertaintyModel>
+                        Gupta2010SSlab
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.333
                     </uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>

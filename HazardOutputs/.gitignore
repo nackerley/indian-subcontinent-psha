@@ -1,3 +1,4 @@
-all_outputs.txt
+*.log
 *.xml
 *.csv
+

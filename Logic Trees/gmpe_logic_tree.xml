@@ -48,7 +48,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b1m4"
                 >
                     <uncertaintyModel>
-                        KannoEtAl2006Shallow
+                        Kanno2006Shallow
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.2
@@ -108,7 +108,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b2m4"
                 >
                     <uncertaintyModel>
-                        KannoEtAl2006Shallow
+                        Kanno2006Shallow
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.25
@@ -258,7 +258,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b5m4"
                 >
                     <uncertaintyModel>
-                        RagukanthIyengar2007
+                        RaghukanthIyengar2007
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.25
@@ -298,7 +298,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b6m3"
                 >
                     <uncertaintyModel>
-                        KannoEtAl2006Deep
+                        Kanno2006Deep
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.333
@@ -348,7 +348,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b7m4"
                 >
                     <uncertaintyModel>
-                        KannoEtAl2006Deep
+                        Kanno2006Deep
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.25

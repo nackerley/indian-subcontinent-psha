@@ -15,7 +15,7 @@
 \hypersetup{
     pdfauthor={Nick Ackerley},
     pdfsubject={Engineering Seismology},
-    pdftitle={Open Model of Probabilistic Seismic Hazard Assessment for the Indian Subcontinent},
+    pdftitle={An Open Model of Probabilistic Seismic Hazard Assessment for the Indian Subcontinent},
     pdfkeywords={seismology, hazard, India, OpenQuake}}
 \usepackage{natbib} % bibliography support
 \usepackage{adjustbox} % support for too-wide figures
@@ -28,7 +28,7 @@
 \usepackage{fontspec} % support for setmonofont
 \setmonofont{Ubuntu Mono}[Scale=MatchUppercase]
 
-%\usepackage{multirow} % cells spanning rows in tables
+%\usepackage{multirow} % cells spanning rows in \crefs
 %\usepackage{array} % vertically aligned table cells
 
 \usepackage{enumitem} % control list formatting
@@ -36,6 +36,12 @@
 
 % allow figures to take up more of a page
 \renewcommand{\floatpagefraction}{0.7}
+
+% just call everything a "section", except an "appendix"
+\renewcommand*{\sectionautorefname}{Section}
+\renewcommand*{\subsectionautorefname}{Section}
+\renewcommand*{\subsubsectionautorefname}{Section}
+\newcommand*{\Appendixautorefname}{Appendix}
 
 % set up back-references
 \renewcommand*{\backref}[1]{}
@@ -64,7 +70,7 @@
 
 \begin{document}
 
-\title{Open Model of Probabilistic Seismic Hazard Assessment for the Indian Subcontinent}
+\title{An Open Model of Probabilistic Seismic Hazard Assessment for the Indian Subcontinent}
 \date{\today}
 
 \setcounter{Maxaffil}{0} % compact author block
@@ -88,28 +94,93 @@ Open models encourage peer review and collaboration; open models can be built up
 \section{Introduction}
 \label{sec:Introduction}
 
-In this work a seismic hazard model for peninsual India \cite{nath2012probabilistic} has been implemented under the OpenQuake \citep{weatherill2014openquake,crowley2015openquake} platform.
+In this work a seismic hazard model for peninsual India \cite{nath2012probabilistic} is implemented within the OpenQuake \citep{weatherill2014openquake,crowley2015openquake} platform.
 
-File names in the published model are shown in \texttt{typewriter} font, as are keywords specific to OpenQuake, such as \texttt{bGRRelative}.
+This report is intended to be archived with the input and output files necessary to replicate the results at \url{https://hazardwiki.openquake.org/}. References to file names in the electronic data are shown in \texttt{typewriter} font, as are keywords specific to OpenQuake, such as \texttt{bGRRelative}.
 
-\subsection{Seismic hazard in peninsular India}
-\label{sec:PshaIndia}
+\subsection{Seismic hazard in the Indian subcontinent}
+\label{subsec:PshaIndia}
+
+Seismic hazard in India has of course been studied extensively, progressing from deterministic studies to probabilistic seismic hazard assessment (PSHA) and from site-specific to regional studies. \cite{ashish2016probabilistic} gives an up-to-date overview of the importance and history of this work. Of particular note is the fact that the Bureau of Indian Standards has not updated their seismic hazard zonation since 2002 \citep{bis2002criteria}. \cite{nath2012probabilistic} summarizes concerns with the standard currently in force.
+
+Some studies have focused on the extreme hazard of the Himalayas \citep{Bilham2001} in the the northeast, including the Shillong plateau, \citep{Das2006} and northwest \citep{Mahajan2009}. Other studies have focused on regions of lesser but nonetheless high hazard such as Gujarat \citep{Yadav2008} or considered the whole of stable ``peninsular India" \citep{jaiswal2007, ashish2016probabilistic}. Only \cite{bhatia1999probabilistic} considered the whole of India, but as \cite{ashish2016probabilistic} points out, since it was part of a global hazard mapping project (GSHAP) it only included ``only a few sources for Peninsular India focusing on the inter-plate
+region along the Himalayan belt".   
+
+\cite{nath2012probabilistic} is thus distinguished from previous work in providing a detailed probabilistic hazard assessment for the whole of India, including neighbouring states such as Bangladesh and Nepal. It is the culmination of several previous works, some unpublished, involving the same group of authors. These works include development of a uniform catalogue \citep{nath2010earthquake}, development of GMPEs specific to the Shillong region \citep{nath2012ground}, evaluation of a suite of GMPEs applicable to India \citep{nath2011peak} and development of smoothed-gridded and areal seismicity models \citep{thingbaijam2011seismogenic}. Although there are inevitably some limitations, as we shall see later, this work represents the current state-of-the-art as far as PSHA in India.
+
+(In the discussion of possible improvements to \cite{nath2012probabilistic} it will be noted that while earlier investigations \citep{bhatia1999probabilistic, Das2006, Yadav2008, jaiswal2007} relied on areal seismogenic source zonation, \cite{nath2012probabilistic} adds smoothed-gridded point sources while \cite{ashish2016probabilistic} adds fault-modelling. Different types of seismogenic zones address different types of hazard and return periods, and can be effectively combined using logic trees to better encapsulate epistemic uncertainty.)
 
 \subsection{Open science and OpenQuake}
-\label{sec:Open}
+\label{subsec:Open}
 
-\section{Model implemetation}
-\label{sec:Model}
+The seismological research community is a collegial one and, as they must, researchers generally share data, models, software and results freely. However it is becoming a generally recognized problem that scientific computation, even as significant technological advances are made, is falling far short of expectations in terms of reproducibility.
+
+Reproducibility is one of the fundamental tenets of science. In other disciplines, the components of a properly-documented experiment are well-known and widely practiced. Scientific computing is a relative newcomer, and presents new challenges, such as the constant evolution of programming languages.
+
+Although \cite{nath2012probabilistic} provides much of the information necessary to reproduce their results as an electronic supplement, it is incomplete, and worse, the software used to run the simulations is not freely available. The consequence is that results cannot be verified, errors cannot be corrected and improvements cannot be made.
+
+The OpenQuake \citep{crowley2015openquake} is a fully-featured suite of software for the modelling of seismic hazard and risk. The source code is open, freely distributable and modifiable. It is an ideal platform for development of PSHA model. In fact, there is an ongoing effort to build a Global Earthquake Model based on OpenQuake.
+
+Essential components of reproducibility: model data (completely documented), result data (completely documented), freely available software (version numbers, repository commits), hardware capable of running the software.
+
+
+
+\subsection{Overview}
+\label{subsec:Overview}
+
+In \autoref{sec:Implementation} the process followed to translate the model of \cite{nath2012probabilistic} for OpenQuake is detailed. Specific issues around tectonic region assignments are addressed in \autoref{subsubsec:Areal}. Difficulties encountered in interpreting and implementing the smoothed-gridded seismicity models are detailed in \autoref{subsubsec:Smoothed} while recommendations for an improved smoothed-gridded model are made in \autoref{appendix:Catalogue}.
+
+In \autoref{subsec:GroundMotion} issues encountered in implementing ground motion prediction equations are discussed.
+
+\autoref{subsec:LogicTrees} discusses the development of the logic trees. Some inconsistencies were encountered in the application of previous research regarding the usage of GMPEs in India. This is discussed briefly in \autoref{subsubsec:GmpeTree} and recommendations for future work are made in \autoref{appendix:AlternativeGmpes}. The modelling of source frequency magnitude distribution uncertainty described in \cite{nath2012probabilistic} turned out to be unimplementable in the strictest sense in OpenQuake and possibly on any platform, so compromises made are described in \autoref{subsubsec:SourceTree}.
+
+\autoref{subsec:Verification} verifies the current results against those of  \cite{nath2012probabilistic}. In particular hazard curves and maps and tables of ground motion with various probabilities of exceedence are presented and evaluated. Inconsistencies between the figures and electronic supplement of \cite{nath2012probabilistic} are discussed. \autoref{subsec:Sensitivity} investigates the importance of the use of region-specific ground motion prediction via their impact on hazard levels.
+
+\autoref{subsec:Discussion} briefly explores the possibilities for future work while reserving more detailed discussion reserved for the appendices.
+
+\section{Implementation}
+\label{sec:Implementation}
 
 \subsection{Seismogenic sources}
-\label{sec:Sources}
+\label{subsec:Sources}
 
-\cite{thingbaijam2011seismogenic}
+The electronic supplement of \cite{nath2012probabilistic} provides most but not all of the information required to generate a complete source model, even supplemented with the helpful additional information found in \cite{thingbaijam2011seismogenic}. This section thus focuses on bridging the gaps to construct a complete source model.
 
-\subsubsection{Areal sources}
-\label{sec:Areal}
+As shown in \autoref{fig:SourceTreeSymbolic}, \cite{nath2012probabilistic} actually proposed three source models, a single set of areal seismogenic source zones, and two smoothed-gridded point source models. Doing so retains benefits from both types of models without neglecting the related epistemic uncertainty model. Both models are derived from the catalogue of \cite{nath2010earthquake} for sub-catalogues with different minimum magnitudes and depth ranges.
 
-As we will see in \autoref{subsubsec:GmpeTree} ground motion prediction logic trees depend on correct assignment of tectonic region types. The main difficulty in implementing the areal source model of  \cite{nath2012probabilistic} was that although their intentions were generally clear, these assignments were not made explicit. Tectonic region type assignments were therefore made using a combination of the representative focal mechanisms reported by \cite{nath2012probabilistic} and fault maps such as the HimaTibetMap database \citep{styron2010database}. Since the representative focal mechanism was computed as the average of the moment tensors reported in the GCMT database weighted by magnitude it is biased in favour of the larger earthquakes \citep{thingbaijam2011seismogenic}. The inferred tectonic region assignments assumed are shown in \autoref{fig:ArealSourceModel}.
+\cite{thingbaijam2011seismogenic} divide their model into four layers as summarized in \autoref{table:Completeness} and \autoref{fig:DepthHistogram}. Crustal thicknesses vary significantly across the region of study, but the convenience of constant model layer thicknesses turns out to be not entirely unrealistic. The continental crust is 75-80 km thick beneath the Himalayas where the tectonics can be divided into shallow crust and interface \citep{thingbaijam2011seismogenic}. Similarly in the the Shillong plateau of Northeast India the crust is quite thick and significant variation of stress drop with depth has been noted, with devastating ``pop-up'' type events \cite{bilham2001plateau} being generated in the lower crust \citep{nath2012ground}. In stable continental regions the crustal thickness is a more usual 35-45 km, with seismicity concentrated in the uppermost 25 km. The preceding seismotectonic features can be represented reasonably well using two seismogenic layers: 0-25 km and 25-70 km. 
+
+\begin{table}[tb]
+\centering
+\caption[Summary of layer characteristics used for source models.]{Summary of layer characteristics used for source models. Completeness magnitudes and years used in generating original smoothed-gridded seismicity models are from Table 1 of \cite{thingbaijam2011seismogenic}. Layer identifiers used throughout this report are indicated. Tops and bottoms of layers have been taken as seismogenic depth limits. Hypocentral depths listed are at mid-layer.}
+\label{table:Completeness}
+\begin{tabular}{cccccccccc}
+\multicolumn{4}{c}{minimum magnitude} & \multicolumn{2}{c}{4} & \multicolumn{2}{c}{4.5} & \multicolumn{2}{c}{5.5} \\
+\midrule
+layer & \multicolumn{3}{c}{
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{depth (km)}\\min. & max. & hypo.\\
+\end{tabular}
+} & start & end & start & end & start & end \\
+\midrule
+1 & 0   & 25  & 12.5 & 1994 & 2008 & 1964 & 2008 & 1903 & 2008 \\
+2 & 25  & 70  & 47.5 & 1990 & 2008 & 1964 & 2008 & 1902 & 2008 \\
+3 & 70  & 180 & 125  & 1996 & 2008 & 1964 & 2008 & 1914 & 2008 \\
+4 & 180 & 300 & 240  & 1970 & 2008 & 1984 & 2008 & 1912 & 2008 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Intra-slab subduction occurs in three broad zones: the Hindu-Kush and Pamir ranges in the north-west, the Indo-Myanmar subduction zone in the north-east and the Sumatra-Andaman subduction zone in the south east. Deep-seated seismicity only occurs in the first and last region. The tectonics of the Indo-Myanmar region are a combination of oblique subduction, accretion and collision \cite{wang2014active}. These tectonic zones are represented by two deeper seismogenic layers: 70-150 km and 150-300 km.
+
+This stack of depth-limited seismogenic zones can crudely represent the fact that subduction events are generally spread over a dipping plane (see \autoref{fig:DepthVsDistance}). The four-layer structure furthermore captures the fact that there are 4 clear modes in the distribution of depths (see \autoref{fig:DepthHistogram}). 
+
+\subsubsection{Areal zones}
+\label{subsubsec:Areal}
+
+Areal source models are appropriate when source mechanisms and seismicity rates are relatively constant across the area, and can provide a sound basis for regional variation of b-value, maximum magnitude and other key parameters of a frequency-magnitude distribution. 
+
+As we will see in \autoref{subsubsec:GmpeTree} ground motion prediction logic trees depend on correct assignment of tectonic region types. The main difficulty in implementing the areal source model of  \cite{nath2012probabilistic} was that although their intentions were generally clear, these region assignments were not made explicit. Tectonic region type assignments were therefore made using a combination of the representative focal mechanisms reported by \cite{nath2012probabilistic} and fault maps such as the HimaTibetMap database \citep{styron2010database}. Since the representative focal mechanism was computed as the average of the moment tensors reported in the GCMT database weighted by magnitude it is biased in favour of the larger earthquakes \citep{thingbaijam2011seismogenic}. The inferred tectonic region assignments assumed are shown in \autoref{fig:ArealSourceModel}.
 
 \begin{figure}[!htb]
 \begin{adjustbox}{center}
@@ -119,26 +190,27 @@ As we will see in \autoref{subsubsec:GmpeTree} ground motion prediction logic tr
 \label{fig:ArealSourceModel}
 \end{figure}
 
-Potentially problematic tectonic region type assignments:
+Potentially problematic tectonic region type assignments include:
 \begin{itemize}
 \item zone 906 in the Great Himalayas just north of the Shillong plateau was assigned ``active shallow crust strike-slip reverse'' even though the main trace of the Himalayan subduction fault runs through it, because the representative focal mechanism is strike-slip. 
 \item zones 71, 86 on layer 1 and zones 9031, 9081, 9131, 9151 and 9171 on layer 2 have have $a$ values of zero and so were not included in the areal source model
 \end{itemize}
 
-Magnitude-scaling relations were selected based on the same source zonation, since ``Wells and Coppersmith (1994) for crustal events and those given by
-Strasser et al. (2010) for the subduction earthquakes'' \citep[p.~140]{nath2012probabilistic}. For interface and intraslab regions \texttt{StrasserInterface} and \texttt{StrasserIntraslab} were used, respectively. 
+Magnitude-scaling relations are used in PSHA to determine the actual rupture dimensions once a magnitude has been drawn from a frequency-magnitude distribution. These were relatively straightforward to select once the tectonic region assignments were made, since ``Wells and Coppersmith (1994) for crustal events and those given by
+Strasser et al. (2010) for the subduction earthquakes'' \citep[p.~140]{nath2012probabilistic}. For interface and intraslab regions \texttt{StrasserInterface} and \texttt{StrasserIntraslab} were used, respectively. The comment that ``the fault-rupture area estimated from the magnitude is constrained by a factor of 2'' \citep[p.~140]{nath2012probabilistic} was similarly interpreted as a width/depth aspect ratio of 2.
 
-The comment that ``the fault-rupture area estimated from the magnitude is constrained by a factor of 2'' \citep[p.~140]{nath2012probabilistic} is interpreted as a width/depth aspect ratio of 2.
+Since it is not explicitly stated in \cite{nath2012probabilistic} the seismogenic depth was assumed to be midway between the minimum and maximum for each layer. Potential refinements to this setup are discussed in \autoref{appendix:SourceModelImprovements}.
 
-The seismogenic depth was assumed to be midway between the minimum and maximum. Is this justified by \cite{thingbaijam2011seismogenic}? Could it stand further refinement?
+The supplementary information required to generate the fully specified areal source model from the electronic supplement files \texttt{polygonlay\%d.txt} and \texttt{seismicitylay\%d.txt} files in the is contained in \texttt{auxiliary data.csv}.
 
+\subsubsection{Smoothed-gridded}
+\label{subsubsec:Smoothed}
 
-\subsubsection{Smoothed seismicity}
-\label{sec:Smoothed}
+Smoothed-gridded seismicity models aim to replicate geographic variations of activity rates in a catalogue-driven way. Typically a smoothing kernel is used which enforces a correlation distance and limits the resolution.
 
-\cite{thingbaijam2011seismogenic}
+After some discussion with the second author it was decided that although the models are described as ``spatially varying annual activity rates'' \cite[p.~140]{nath2012probabilistic} the electronic supplement actually contains spatially smoothed total seismicity, i.e. number of events (per cell). In order to convert this information to activity rates, i.e. number of events per year (per cell), it was necessary to obtain the duration of each sub-catalogue. Fortunately the missing ingredient is summarized in \cite[Table 1]{thingbaijam2011seismogenic} and reproduced in \autoref{table:Completeness} below.
 
-Each point in the smoothed seismicity model was treated as a point source. \cite{nath2012probabilistic} have provided ``spatially varying annual activity rates while b-value and m max remain fixed within the source zone''. Thus for the smoothed seismicity model the parameters $b$ and $M_{max}$ of the truncated Gutenberg-Richter magnitude-frequency distributions are to be inferred from the areal source model zonation. For points inside zones with non-zero $a$ values in the areal source model this is trivial; for points outside these zones the zone with the shortest perpendicular distance was chosen.
+In OpenQuake each point in the smoothed seismicity model is treated as a point source with a specified frequency-magnitude distribution: at a minimum $a$, $b$ and $M_{max}$ must be spedified. \cite{nath2012probabilistic} indicate that ``b-value and m max remain fixed within the source zone''. Thus for the smoothed seismicity model the parameters $b$ and $M_{max}$ of the truncated Gutenberg-Richter magnitude-frequency distributions are to be inferred from the areal source model zonation. For points inside zones with non-zero $a$ values in the areal source model this is trivial; for points outside these zones the zone with the shortest perpendicular distance was chosen.
 
 A point source model in OpenQuake also requires definition of the uncertainty of the probability distribution, as well as the tectonic region type and source mechanism for the selection and implementation of GMPEs, respectively. Thus the same procedure was used to assign $\sigma_b$, $\sigma_{m_{max}}$, tectonic subregion, rake, dip, strike and magnitude scaling relations were used.
 
@@ -181,7 +253,7 @@ Note smoothing details. A Gaussian kernel is used, following the methodology of 
 \cite{nath2010earthquake}
 
 \subsection{Ground-motion prediction}
-\label{sec:GroundMotion}
+\label{subsec:GroundMotion}
 
 Importance of models implemented for this study. 
 
@@ -319,31 +391,74 @@ The source model logic tree is shown in symbolic form in \autoref{fig:SourceTree
 Note that although Figure 4 of \cite{nath2012probabilistic} shows the activity rate $\nu$ (and by implication $a$) varying with $b$, no estimates of the standard deviation of $a$ or $nu$. The  in OpenQuake happens to recalculate $a$ as $b$ After modifying $b$ using the uncertainty type \texttt{bGRRelative} the $a$ value is automatically recalculated to maintain constant total moment rate. It has been assumed that this is the behaviour which \cite{nath2012probabilistic} implemented.
 
 \section{Hazard results}
-\label{sec:Hazard}
+\label{sec:Results}
 
 \subsection{Verification}
-\label{sec:Verification}
+\label{subsec:Verification}
 
 \subsection{Sensitivity}
 \label{subsec:Sensitivity}
+
+\subsection{Discussion}
+\label{subsec:Discussion}
 
 \section{Conclusions}
 \label{sec:Conclusions}
 
 \section*{Acknowledgement}
-Acknowledgements here
+Thanks to Kiran Thingbaijam for clarifications and engaging discussion. Thanks to Amanda for your support.
 
 \cleardoublepage
 \phantomsection
 \addcontentsline{toc}{section}{Bibliography}
 \bibliographystyle{apalike}
-\bibliography{/home/nick/Desktop/Library/PSHA.bib}
+\bibliography{/home/nick/Desktop/Library/PSHA.bib,/home/nick/Desktop/Library/india-hazard.bib}
 
 \begin{appendices}
 
 \section{}
-\subsection{Job Configuration Files}
-\label{ch:Jobs}
+\label{sec:Appendices}
+
+\subsection{Alternative GMPEs}
+\label{appendix:AlternativeGmpes}
+
+\subsection{Catalogue Evaluation}
+\label{appendix:Catalogue}
+
+
+\subsection{Potential Source Modelling Improvements}
+\label{appendix:SourceModelImprovements}
+
+\begin{figure}[htb]
+\begin{adjustbox}{center}
+\includegraphics{Depth_histogram_(mainshocks)}
+\end{adjustbox}
+\caption[Depth histogram for mainshocks]{Depth histogram for mainshocks over magnitude 5.5. Mainshock identification is that of \cite{nath2010earthquake}. Seismogenic layer boundaries and hypocentral depths used in the current implementation are indicated as dashed and dash-dotted lines respectively.}
+\label{fig:DepthHistogram}
+\end{figure}
+
+\begin{figure}[!htb]
+\begin{adjustbox}{center}
+\includegraphics{Depth_vs_distance_(mainshocks)}
+\end{adjustbox}
+\caption[Depth vs. distance for mainshocks in regions with deep events]{Depth vs. distance for mainshocks in regions with deep events. Subregions are indicated on each map; top left is the Hindu-Kush and Pamir ranges in the northwest of India viewed from the east, top right is the Andoman-Sumatran subduction zone viewed from the south while bottom left and right are beneath the Indoburman range and viewed from the east and south respectively. Sub-catalogues were selected for events over magnitude 5.5 within a rectangular box of latitude and longitude as indicated on each individual plot.  Horizontal and vertical axes are plotted at different scales.}
+\label{fig:DepthVsDistance}
+\end{figure}
+
+\begin{itemize}
+\item Base hypocentral depths on actual seismogenic depth distribution as shown in \autoref{fig:DepthHistogram}. Placing the hypocentral depth at the modes of the overall catalogue would be a minor improvement. Better still would be to capture the mode or to construct an approximate distribution for each areal zone.
+\item Model the main Himalayan thrust as a complex fault. In particular \cite{berryman2014himalayan} breaks the fault into three segments and provides necessary details such as dip and depth limits.
+\item Model the Oldham and Dauki faults under the Shillong plateau as simple faults \citep{Bilham2001}.
+\end{itemize}
+
+
+\subsection{Summary of Electronic Data}
+\label{appendix:Jobs}
+
+This is an appendix because if you're reading this then you should already have the zip file with all of this data.
+
+\texttt{auxiliary data.csv} 
+
 
 \lstinputlisting[language=Ini,caption=\lstname]{phase1-job.ini}
 

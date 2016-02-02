@@ -390,6 +390,10 @@ The source model logic tree is shown in symbolic form in \autoref{fig:SourceTree
 
 Note that although Figure 4 of \cite{nath2012probabilistic} shows the activity rate $\nu$ (and by implication $a$) varying with $b$, no estimates of the standard deviation of $a$ or $nu$. The  in OpenQuake happens to recalculate $a$ as $b$ After modifying $b$ using the uncertainty type \texttt{bGRRelative} the $a$ value is automatically recalculated to maintain constant total moment rate. It has been assumed that this is the behaviour which \cite{nath2012probabilistic} implemented.
 
+The fact that \autoref{fig:SourceTreePartial} has to be truncated is not simply a lack of page space. Despite the common rendering of them in parallel, full enumeration actually takes place in series, so rather than just 3$\times$223 branches there are in fact $3^{223} \approx 10^106$, or just over a googol of branches. Not only was full-enumeration out of the question, even partial enumeration was problematic on the current version of OpenQuake code.
+
+It is unlikely that \cite{nath2012probabilistic} performed full-enumeration. Some practitioners 
+
 \section{Hazard results}
 \label{sec:Results}
 
@@ -447,7 +451,7 @@ Thanks to Kiran Thingbaijam for clarifications and engaging discussion. Thanks t
 
 \begin{itemize}
 \item Base hypocentral depths on actual seismogenic depth distribution as shown in \autoref{fig:DepthHistogram}. Placing the hypocentral depth at the modes of the overall catalogue would be a minor improvement. Better still would be to capture the mode or to construct an approximate distribution for each areal zone.
-\item Model the main Himalayan thrust as a complex fault. In particular \cite{berryman2014himalayan} breaks the fault into three segments and provides necessary details such as dip and depth limits.
+\item Model the main Himalayan thrust as a simple fault. In particular \cite{berryman2014himalayan} breaks the fault into three segments and provides necessary details such as dip and depth limits. No variation of dip with depth is given, which is perhaps unrealistic, but at least the result is simpler to model. Not all of the slip is being taken up on the frontal thrust; there are second and third folds which take up significant amount of slip, but the first is the most important from the standpoint of risk.
 \item Model the Oldham and Dauki faults under the Shillong plateau as simple faults \citep{Bilham2001}.
 \end{itemize}
 

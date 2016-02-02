@@ -1,2 +1,2 @@
 uncertaintyType	applyToSources	uncertaintyModel	uncertaintyWeight
-sourceModel	all	['areal_source_model.xml', 'nath2012probabilistic_smoothed_source_model_mmin4.5.xml', 'nath2012probabilistic_smoothed_source_model_mmin5.5.xml']	[0.4,  0.27,  0.33]
+sourceModel	all	['areal_source_model.xml', 'NT2012_smoothed_sources_mmin4.5.xml', 'NT2012_smoothed_sources_mmin5.5.xml']	[0.4,  0.27,  0.33]

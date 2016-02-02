@@ -17,10 +17,20 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b1m1"
                 >
                     <uncertaintyModel>
-                        nath2012probabilistic_smoothed_source_model_mmin5.5.xml
+                        NT2012_smoothed_sources_mmin4.5.xml
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        1
+                        0.45
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="b1m2"
+                >
+                    <uncertaintyModel>
+                        NT2012_smoothed_sources_mmin5.5.xml
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.55
                     </uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>

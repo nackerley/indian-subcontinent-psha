@@ -343,7 +343,7 @@
           <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">-2.0</SimpleData>
           <SimpleData name="region">Sulaiman</SimpleData>
-          <SimpleData name="stdb">0.9</SimpleData>
+          <SimpleData name="stdb">0.09</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">196</SimpleData>
           <SimpleData name="tectonic zone">Subduction interface</SimpleData>

@@ -1,0 +1,4 @@
+,id,layerid,tectonic subregion,mmin,a,b,dip,magBin,mmax,msr,rake,region,stdb,stdmmax,strike
+51,z132,2.0,subduction interface,4.5,4.4,0.87,14,0.1,9.4,StrasserInterface,79.0,Andaman-Sumatra,0.06,0.2,298
+82,z918,1.0,subduction interface,4.5,3.89,0.82,25,0.1,8.9,StrasserInterface,108.0,Andaman-Sumatra,0.07,0.2,337
+43,z110,2.0,subduction interface,4.5,3.58,0.78,23,0.1,8.8,StrasserInterface,82.0,Himalayas,0.06,0.2,290

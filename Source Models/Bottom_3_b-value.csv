@@ -1,0 +1,4 @@
+,id,layerid,tectonic subregion,mmin,a,b,dip,magBin,mmax,msr,rake,region,stdb,stdmmax,strike
+87,z924,1.0,stable shallow crust,4.5,1.58,0.63,45,0.1,6.2,WC1994,90.0,Peninsular India,0.1,0.3,0
+83,z919,1.0,stable shallow crust,4.5,2.73,0.72,61,0.1,7.2,WC1994,123.0,Peninsular India,0.1,0.3,290
+11,z14,1.0,subduction interface,4.5,3.12,0.72,69,0.1,8.6,StrasserInterface,-30.0,Makran,0.09,0.4,228

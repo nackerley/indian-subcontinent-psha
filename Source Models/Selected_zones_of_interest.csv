@@ -1,0 +1,8 @@
+,id,layerid,tectonic subregion,mmin,a,b,dip,magBin,mmax,msr,rake,region,stdb,stdmmax,strike
+0,z1,1.0,subduction interface,4.5,5.2,1.05,73,0.1,8.0,StrasserInterface,30.0,Pamirs,0.07,0.4,202
+33,z93,2.0,subduction interface,4.5,5.66,1.18,77,0.1,8.3,StrasserInterface,-2.0,Sulaiman,0.09,0.4,196
+51,z132,2.0,subduction interface,4.5,4.4,0.87,14,0.1,9.4,StrasserInterface,79.0,Andaman-Sumatra,0.06,0.2,298
+53,z137,2.0,subduction interface,4.5,7.33,1.57,89,0.1,6.5,StrasserInterface,-29.0,Andaman-Sumatra,0.16,0.3,282
+77,z913,1.0,active shallow crust strike-slip reverse,4.5,4.35,0.93,88,0.1,8.8,WC1994,-175.0,Bangladesh,0.14,0.4,153
+79,z915,1.0,active shallow crust normal,4.5,5.73,1.36,52,0.1,6.6,WC1994,-54.0,Bay of Bengal,0.14,0.3,234
+87,z924,1.0,stable shallow crust,4.5,1.58,0.63,45,0.1,6.2,WC1994,90.0,Peninsular India,0.1,0.3,0

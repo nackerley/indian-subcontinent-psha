@@ -1,0 +1,4 @@
+,id,layerid,tectonic subregion,mmin,a,b,dip,magBin,mmax,msr,rake,region,stdb,stdmmax,strike
+53,z137,2.0,subduction interface,4.5,7.33,1.57,89,0.1,6.5,StrasserInterface,-29.0,Andaman-Sumatra,0.16,0.3,282
+73,z909,1.0,active shallow crust normal,4.5,7.08,1.37,33,0.1,7.6,WC1994,-82.0,Tibetan plateau,0.12,0.3,268
+17,z57,1.0,active shallow crust normal,4.5,6.79,1.35,48,0.1,7.2,WC1994,-77.0,Andaman-Sumatra,0.1,0.4,244

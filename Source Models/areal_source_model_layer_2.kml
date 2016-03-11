@@ -48,7 +48,7 @@
           <SimpleData name="a">5.97</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
           <SimpleData name="b">1.16</SimpleData>
-          <SimpleData name="concerns">why no Japan/Cascadia distinction with Atkinson/Boore?</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">89</SimpleData>
           <SimpleData name="mechanism">dextral</SimpleData>
           <SimpleData name="mmax">8.1</SimpleData>
@@ -390,7 +390,7 @@
           <SimpleData name="mmax">8.3</SimpleData>
           <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">-6.0</SimpleData>
-          <SimpleData name="region">nan</SimpleData>
+          <SimpleData name="region">Makran</SimpleData>
           <SimpleData name="stdb">0.09</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">11</SimpleData>
@@ -870,7 +870,7 @@
           <SimpleData name="mmax">7.0</SimpleData>
           <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">-92.0</SimpleData>
-          <SimpleData name="region">nan</SimpleData>
+          <SimpleData name="region">Bangong-Nujiang</SimpleData>
           <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.2</SimpleData>
           <SimpleData name="strike">207</SimpleData>
@@ -905,20 +905,20 @@
     </Placemark>
     <Placemark>
       <name>118</name>
-      <description>intraplate margin lower</description>
+      <description>subduction interface</description>
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
           <SimpleData name="a">4.67</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
           <SimpleData name="b">1.05</SimpleData>
-          <SimpleData name="concerns">unsure of correct scaling relation</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">89</SimpleData>
           <SimpleData name="mechanism">normal</SimpleData>
           <SimpleData name="mmax">7.2</SimpleData>
-          <SimpleData name="msr">WC1994</SimpleData>
+          <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">-141.0</SimpleData>
-          <SimpleData name="region">Shillong plateau?</SimpleData>
+          <SimpleData name="region">Mikir Hills</SimpleData>
           <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">301</SimpleData>
@@ -1728,13 +1728,13 @@
           <SimpleData name="a">4.15</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
           <SimpleData name="b">0.93</SimpleData>
-          <SimpleData name="concerns">what to do here?</SimpleData>
+          <SimpleData name="concerns">nan</SimpleData>
           <SimpleData name="dip">67</SimpleData>
           <SimpleData name="mechanism">sinistral</SimpleData>
           <SimpleData name="mmax">6.5</SimpleData>
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">8.0</SimpleData>
-          <SimpleData name="region">nan</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
           <SimpleData name="stdb">0.1</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">239</SimpleData>
@@ -1782,7 +1782,7 @@
           <SimpleData name="mmax">6.8</SimpleData>
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">129.0</SimpleData>
-          <SimpleData name="region">nan</SimpleData>
+          <SimpleData name="region">Peninsular India</SimpleData>
           <SimpleData name="stdb">0.13</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">283</SimpleData>
@@ -1817,24 +1817,24 @@
     </Placemark>
     <Placemark>
       <name>9031</name>
-      <description>subduction interface</description>
+      <description>no seismicity</description>
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
           <SimpleData name="a">0.0</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
           <SimpleData name="b">0.0</SimpleData>
-          <SimpleData name="concerns">no seismicity</SimpleData>
+          <SimpleData name="concerns">oceanic not continental, but no seismicity</SimpleData>
           <SimpleData name="dip">45</SimpleData>
           <SimpleData name="mechanism">undefined</SimpleData>
           <SimpleData name="mmax">0.0</SimpleData>
-          <SimpleData name="msr">StrasserInterface</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
           <SimpleData name="region">Murray Ridge</SimpleData>
           <SimpleData name="stdb">0.0</SimpleData>
           <SimpleData name="stdmmax">0.0</SimpleData>
           <SimpleData name="strike">0</SimpleData>
-          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="tectonic zone">Oceanic crust</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
           <SimpleData name="smoothed N 4.5">1827</SimpleData>
@@ -1865,7 +1865,7 @@
     </Placemark>
     <Placemark>
       <name>9081</name>
-      <description>subduction interface</description>
+      <description>no seismicity</description>
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
@@ -1876,7 +1876,7 @@
           <SimpleData name="dip">45</SimpleData>
           <SimpleData name="mechanism">undefined</SimpleData>
           <SimpleData name="mmax">0.0</SimpleData>
-          <SimpleData name="msr">StrasserInterface</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
           <SimpleData name="region">Himalayas</SimpleData>
           <SimpleData name="stdb">0.0</SimpleData>
@@ -1913,7 +1913,7 @@
     </Placemark>
     <Placemark>
       <name>9131</name>
-      <description>subduction interface</description>
+      <description>no seismicity</description>
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
@@ -1924,9 +1924,9 @@
           <SimpleData name="dip">45</SimpleData>
           <SimpleData name="mechanism">undefined</SimpleData>
           <SimpleData name="mmax">0.0</SimpleData>
-          <SimpleData name="msr">StrasserInterface</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
-          <SimpleData name="region">nan</SimpleData>
+          <SimpleData name="region">Indo-Myanmar</SimpleData>
           <SimpleData name="stdb">0.0</SimpleData>
           <SimpleData name="stdmmax">0.0</SimpleData>
           <SimpleData name="strike">0</SimpleData>
@@ -1961,24 +1961,24 @@
     </Placemark>
     <Placemark>
       <name>9151</name>
-      <description>subduction interface</description>
+      <description>no seismicity</description>
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
           <SimpleData name="a">0.0</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
           <SimpleData name="b">0.0</SimpleData>
-          <SimpleData name="concerns">no seismicity</SimpleData>
+          <SimpleData name="concerns">oceanic not continental, but no seismicity</SimpleData>
           <SimpleData name="dip">45</SimpleData>
           <SimpleData name="mechanism">undefined</SimpleData>
           <SimpleData name="mmax">0.0</SimpleData>
-          <SimpleData name="msr">StrasserInterface</SimpleData>
+          <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
-          <SimpleData name="region">nan</SimpleData>
+          <SimpleData name="region">Bay of Bengal</SimpleData>
           <SimpleData name="stdb">0.0</SimpleData>
           <SimpleData name="stdmmax">0.0</SimpleData>
           <SimpleData name="strike">0</SimpleData>
-          <SimpleData name="tectonic zone">Subduction interface</SimpleData>
+          <SimpleData name="tectonic zone">Oceanic crust</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
           <SimpleData name="smoothed N 4.5">918</SimpleData>
@@ -2009,7 +2009,7 @@
     </Placemark>
     <Placemark>
       <name>9171</name>
-      <description>stable shallow crust</description>
+      <description>no seismicity</description>
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
@@ -2026,7 +2026,7 @@
           <SimpleData name="stdb">0.0</SimpleData>
           <SimpleData name="stdmmax">0.0</SimpleData>
           <SimpleData name="strike">0</SimpleData>
-          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="tectonic zone">Oceanic crust</SimpleData>
           <SimpleData name="zmax">70.0</SimpleData>
           <SimpleData name="zmin">25.0</SimpleData>
           <SimpleData name="smoothed N 4.5">8698</SimpleData>

@@ -313,7 +313,7 @@ xmlns:gml="http://www.opengis.net/gml"
         <areaSource
         id="z118"
         name="zone 118"
-        tectonicRegion="intraplate margin lower"
+        tectonicRegion="subduction interface"
         >
             <areaGeometry
             discretization="10.0"
@@ -335,7 +335,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>
-                WC1994
+                StrasserInterface
             </magScaleRel>
             <ruptAspectRatio>
                 2

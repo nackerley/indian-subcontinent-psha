@@ -246,7 +246,7 @@
           <SimpleData name="mmax">7.8</SimpleData>
           <SimpleData name="msr">StrasserInterface</SimpleData>
           <SimpleData name="rake">148.0</SimpleData>
-          <SimpleData name="region">nan</SimpleData>
+          <SimpleData name="region">Pamirs</SimpleData>
           <SimpleData name="stdb">0.08</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">274</SimpleData>
@@ -1049,7 +1049,7 @@
     </Placemark>
     <Placemark>
       <name>71</name>
-      <description>stable shallow crust</description>
+      <description>no seismicity</description>
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
@@ -1062,11 +1062,11 @@
           <SimpleData name="mmax">5.8</SimpleData>
           <SimpleData name="msr">WC1994</SimpleData>
           <SimpleData name="rake">90.0</SimpleData>
-          <SimpleData name="region">Bay of Bengal, Arabian Sea</SimpleData>
+          <SimpleData name="region">Bay of Bengal &amp; Arabian Sea</SimpleData>
           <SimpleData name="stdb">0.05</SimpleData>
           <SimpleData name="stdmmax">0.3</SimpleData>
           <SimpleData name="strike">0</SimpleData>
-          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="tectonic zone">Oceanic crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
           <SimpleData name="smoothed N 4.5">3112</SimpleData>
@@ -1289,7 +1289,7 @@
     </Placemark>
     <Placemark>
       <name>86</name>
-      <description>stable shallow crust</description>
+      <description>no seismicity</description>
       <ExtendedData>
         <SchemaData schemaUrl="#SourceModelSchemaId">
           <SimpleData name="mmin">4.5</SimpleData>
@@ -1584,7 +1584,7 @@
           <SimpleData name="a">4.47</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
           <SimpleData name="b">0.94</SimpleData>
-          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="concerns">main thrust fault runs through</SimpleData>
           <SimpleData name="dip">84</SimpleData>
           <SimpleData name="mechanism">sinistral</SimpleData>
           <SimpleData name="mmax">8.5</SimpleData>
@@ -1872,7 +1872,7 @@
           <SimpleData name="a">4.84</SimpleData>
           <SimpleData name="aspect ratio">2</SimpleData>
           <SimpleData name="b">1.12</SimpleData>
-          <SimpleData name="concerns">nan</SimpleData>
+          <SimpleData name="concerns">unsure of correct scaling relation</SimpleData>
           <SimpleData name="dip">40</SimpleData>
           <SimpleData name="mechanism">reverse</SimpleData>
           <SimpleData name="mmax">7.9</SimpleData>
@@ -2122,7 +2122,7 @@
           <SimpleData name="stdb">0.12</SimpleData>
           <SimpleData name="stdmmax">0.4</SimpleData>
           <SimpleData name="strike">312</SimpleData>
-          <SimpleData name="tectonic zone">Stable continental</SimpleData>
+          <SimpleData name="tectonic zone">Oceanic crust</SimpleData>
           <SimpleData name="zmax">25.0</SimpleData>
           <SimpleData name="zmin">0.0</SimpleData>
           <SimpleData name="smoothed N 4.5">9503</SimpleData>

@@ -1,0 +1,51 @@
+(py27)nick@Durito:~/src/python/GEM/oq-hazardlib$ oq-engine --run-hazard=~/src/python/GEM/oq-risklib/demos/hazard/AreaSourceClassicalPSHA/job.ini --no-distribute
+PROGRESS:root:**  pre_executing (hazard)
+[2016-01-03 16:25:04,279 hazard job #88 - PROGRESS MainProcess/28178] **  pre_executing (hazard)
+PROGRESS:root:**  initializing sites
+[2016-01-03 16:25:04,304 hazard job #88 - PROGRESS MainProcess/28178] **  initializing sites
+PROGRESS:root:**  initializing site collection
+[2016-01-03 16:25:04,617 hazard job #88 - PROGRESS MainProcess/28178] **  initializing site collection
+PROGRESS:root:**  initializing sources
+[2016-01-03 16:25:04,633 hazard job #88 - PROGRESS MainProcess/28178] **  initializing sources
+INFO:root:Processing 1 fast sources...
+[2016-01-03 16:25:04,644 hazard job #88 - INFO MainProcess/28178] Processing 1 fast sources...
+INFO:root:Processed <TrtModel #0 Active Shallow Crust, 205 source(s), 1640 rupture(s)>
+[2016-01-03 16:25:04,732 hazard job #88 - INFO MainProcess/28178] Processed <TrtModel #0 Active Shallow Crust, 205 source(s), 1640 rupture(s)>
+CRITICAL:root:Traceback (most recent call last):
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 217, in run_calc
+    _do_run_calc(calculator, exports)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 253, in _do_run_calc
+    calc.pre_execute()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 168, in pre_execute
+    self.init_zeros_ones()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 178, in init_zeros_ones
+    for imt in sorted(imtls)])
+ValueError: could not broadcast input array from shape (2112,19) into shape (2112)
+
+[2016-01-03 16:25:04,795 hazard job #88 - CRITICAL MainProcess/28178] Traceback (most recent call last):
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 217, in run_calc
+    _do_run_calc(calculator, exports)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 253, in _do_run_calc
+    calc.pre_execute()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 168, in pre_execute
+    self.init_zeros_ones()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 178, in init_zeros_ones
+    for imt in sorted(imtls)])
+ValueError: could not broadcast input array from shape (2112,19) into shape (2112)
+
+Traceback (most recent call last):
+  File "/home/nick/src/python/GEM/oq-engine/bin/oq-engine", line 640, in <module>
+    main()
+  File "/home/nick/src/python/GEM/oq-engine/bin/oq-engine", line 554, in main
+    log_file, args.exports)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 396, in run_job
+    run_calc(job, log_level, log_file, exports)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 217, in run_calc
+    _do_run_calc(calculator, exports)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 253, in _do_run_calc
+    calc.pre_execute()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 168, in pre_execute
+    self.init_zeros_ones()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 178, in init_zeros_ones
+    for imt in sorted(imtls)])
+ValueError: could not broadcast input array from shape (2112,19) into shape (2112)

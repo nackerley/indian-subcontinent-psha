@@ -7,51 +7,6 @@ xmlns:gml="http://www.opengis.net/gml"
     name="areal collapsed"
     >
         <areaSource
-        id="z118"
-        name="zone 118"
-        tectonicRegion="intraplate margin lower"
-        >
-            <areaGeometry
-            discretization="10.0"
-            >
-                <gml:Polygon>
-                    <gml:exterior>
-                        <gml:LinearRing>
-                            <gml:posList>
-                                93.47 26.91 94.07 26.1 93.18 25.12 91.78 26.74 91.82 26.74 93.47 26.91
-                            </gml:posList>
-                        </gml:LinearRing>
-                    </gml:exterior>
-                </gml:Polygon>
-                <upperSeismoDepth>
-                    25.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    70.0
-                </lowerSeismoDepth>
-            </areaGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                2
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="4.55"
-            >
-                <occurRates>
-                    0.20379 0.15867 0.12359 0.096315 0.07509 0.058569 0.045703 0.03568 0.027869 0.021777 0.017025 0.013317 0.010421 0.0081584 0.0063904 0.0050079 0.0039265 0.00308 0.0024172 0.001898 0.001491 0.0011718 0.00092146 0.00049053 0.00038579 0.00030356 0.00023897 8.7945e-05 6.9238e-05 5.4536e-05 4.2976e-05
-                </occurRates>
-            </incrementalMFD>
-            <nodalPlaneDist>
-                <nodalPlane dip="89" probability="1.0" rake="-141.0" strike="301"/>
-            </nodalPlaneDist>
-            <hypoDepthDist>
-                <hypoDepth depth="47.5" probability="1.0"/>
-            </hypoDepthDist>
-        </areaSource>
-        <areaSource
         id="z119"
         name="zone 119"
         tectonicRegion="intraplate margin lower"

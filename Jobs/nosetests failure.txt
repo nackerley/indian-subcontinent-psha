@@ -1,0 +1,18 @@
+(py27)nick@Durito:~/src/python/GEM/oq-hazardlib$ nosetests
+............F.......^C
+======================================================================
+FAIL: test_existing_module_in_package (openquake.baselib.tests.general_test.SearchModuleTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nick/src/python/GEM/oq-hazardlib/openquake/baselib/tests/general_test.py", line 142, in test_existing_module_in_package
+    self.assertIsNotNone(search_module('openquake.baselib.general'))
+AssertionError: unexpectedly None
+
+----------------------------------------------------------------------
+Ran 21 tests in 2.420s
+
+FAILED (failures=1)
+
+(py27)nick@Durito:~/src/python/GEM/oq-hazardlib$ echo $PYTHONPATH
+/home/nick/src/python/GEM/oq-risklib:/home/nick/src/python/GEM/oq-hazardlib:/home/nick/src/python/GEM/oq-engine:/home/nick/src/python/GEM/hmtk:/home/nick/src/python/GEM/catalogue_toolkit:/home/nick/src/python/GEM/gmpe-smtk:/home/nick/src/python/utils
+

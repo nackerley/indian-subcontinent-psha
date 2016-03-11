@@ -1,0 +1,32 @@
+[2016-02-27 06:26:37,319 #166 INFO] Reading the site collection
+[2016-02-27 06:26:37,334 #166 INFO] Parsed 3 sources from /home/nick/Desktop/Individual Study/Jobs/guwahati_collapsed/guwahati_areal_collapsed.xml
+[2016-02-27 06:26:37,558 #166 INFO] Read source model 1/1 with 16 gsim realization(s)
+[2016-02-27 06:26:37,573 #166 INFO] Expected output size=[ 912.]
+[2016-02-27 06:26:37,581 #166 INFO] Total weight of the sources=[ 1203.6]
+[2016-02-27 06:26:37,593 #166 INFO] Instantiated SourceManager with maxweight=76.0
+[2016-02-27 06:26:37,600 #166 INFO] splitting <AreaSource z912> of weight 555.925
+[2016-02-27 06:26:37,711 #166 INFO] splitting <AreaSource z118> of weight 183.675
+[2016-02-27 06:26:37,778 #166 INFO] splitting <AreaSource z119> of weight 464.0
+[2016-02-27 06:27:34,903 #166 WARNING] /home/nick/src/python/GEM/oq-hazardlib/openquake/hazardlib/gsim/sharma_2009.py:200: UserWarning: Normal faulting not supported by SharmaEtAl2009; treating as strike-slip
+  warnings.warn(msg, UserWarning)
+
+[2016-02-27 06:28:42,301 #166 INFO] Sent 1302 sources in 17 block(s)
+[2016-02-27 06:28:42,354 #166 PROGRESS] **  classical   5%
+[2016-02-27 06:28:42,452 #166 PROGRESS] **  classical  11%
+[2016-02-27 06:28:42,502 #166 PROGRESS] **  classical  17%
+[2016-02-27 06:28:42,544 #166 PROGRESS] **  classical  23%
+[2016-02-27 06:28:42,594 #166 PROGRESS] **  classical  29%
+[2016-02-27 06:28:42,636 #166 PROGRESS] **  classical  35%
+[2016-02-27 06:28:42,710 #166 PROGRESS] **  classical  41%
+[2016-02-27 06:28:42,753 #166 PROGRESS] **  classical  47%
+[2016-02-27 06:28:42,794 #166 PROGRESS] **  classical  52%
+[2016-02-27 06:28:42,835 #166 PROGRESS] **  classical  58%
+[2016-02-27 06:28:42,886 #166 PROGRESS] **  classical  64%
+[2016-02-27 06:28:42,920 #166 PROGRESS] **  classical  70%
+[2016-02-27 06:28:42,937 #166 PROGRESS] **  classical  76%
+[2016-02-27 06:28:42,971 #166 PROGRESS] **  classical  82%
+[2016-02-27 06:28:43,019 #166 PROGRESS] **  classical  88%
+[2016-02-27 06:28:43,094 #166 PROGRESS] **  classical  94%
+[2016-02-27 06:28:43,144 #166 PROGRESS] **  classical 100%
+[2016-02-27 06:28:43,250 #166 INFO] exported hcurves: [u'./export/hazard_curve-mean_166-PGA.xml', u'./export/hazard_curve-mean_166-SA(0.2).xml', u'./export/hazard_curve-mean_166-SA(1.0).xml']
+[2016-02-27 06:28:43,303 #166 INFO] exported hmaps: [u'./export/hazard_map-mean-0.00040397-PGA_166.xml', u'./export/hazard_map-mean-0.00040397-SA(0.2)_166.xml', u'./export/hazard_map-mean-0.00040397-SA(1.0)_166.xml', u'./export/hazard_map-mean-0.002105-PGA_166.xml', u'./export/hazard_map-mean-0.002105-SA(0.2)_166.xml', u'./export/hazard_map-mean-0.002105-SA(1.0)_166.xml']

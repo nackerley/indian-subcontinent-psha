@@ -1,0 +1,32 @@
+[2016-03-01 05:21:25,453 #172 INFO] Reading the site collection
+[2016-03-01 05:21:25,666 #172 INFO] Parsed 3 sources from /home/nick/Desktop/Individual Study/Jobs/guwahati_collapsed/guwahati_areal_collapsed.xml
+[2016-03-01 05:21:25,917 #172 INFO] Read source model 1/1 with 48 gsim realization(s)
+[2016-03-01 05:21:25,943 #172 INFO] Expected output size=[ 2736.]
+[2016-03-01 05:21:25,952 #172 INFO] Total weight of the sources=[ 1203.6]
+[2016-03-01 05:21:25,966 #172 INFO] Instantiated SourceManager with maxweight=76.0
+[2016-03-01 05:21:25,978 #172 INFO] splitting <AreaSource z119> of weight 464.0
+[2016-03-01 05:21:26,137 #172 INFO] splitting <AreaSource z912> of weight 555.925
+[2016-03-01 05:21:26,255 #172 INFO] splitting <AreaSource z118> of weight 183.675
+[2016-03-01 05:21:26,453 #172 INFO] Sent 1302 sources in 18 block(s)
+[2016-03-01 05:21:26,882 #172 PROGRESS] **  Sent 610.34 KB of data in 18 task(s)
+[2016-03-01 05:21:42,237 #172 PROGRESS] **  classical   5%
+[2016-03-01 05:21:42,348 #172 PROGRESS] **  classical  11%
+[2016-03-01 05:21:42,386 #172 PROGRESS] **  classical  16%
+[2016-03-01 05:21:42,769 #172 PROGRESS] **  classical  22%
+[2016-03-01 05:21:44,000 #172 PROGRESS] **  classical  27%
+[2016-03-01 05:21:59,087 #172 PROGRESS] **  classical  33%
+[2016-03-01 05:21:59,158 #172 PROGRESS] **  classical  38%
+[2016-03-01 05:21:59,435 #172 PROGRESS] **  classical  44%
+[2016-03-01 05:22:01,839 #172 PROGRESS] **  classical  50%
+[2016-03-01 05:22:16,718 #172 PROGRESS] **  classical  55%
+[2016-03-01 05:22:17,873 #172 PROGRESS] **  classical  61%
+[2016-03-01 05:22:17,904 #172 PROGRESS] **  classical  66%
+[2016-03-01 05:22:19,432 #172 PROGRESS] **  classical  72%
+[2016-03-01 05:22:23,626 #172 PROGRESS] **  classical  77%
+[2016-03-01 05:22:29,289 #172 PROGRESS] **  classical  83%
+[2016-03-01 05:22:31,216 #172 PROGRESS] **  classical  88%
+[2016-03-01 05:22:31,614 #172 PROGRESS] **  classical  94%
+[2016-03-01 05:22:31,935 #172 PROGRESS] **  classical 100%
+[2016-03-01 05:22:31,950 #172 PROGRESS] **  Received 105.04 KB of data, maximum per task 6.05 KB
+[2016-03-01 05:22:32,028 #172 INFO] exported hcurves: [u'./export/hazard_curve-mean_172-PGA.xml', u'./export/hazard_curve-mean_172-SA(0.2).xml', u'./export/hazard_curve-mean_172-SA(1.0).xml', u'./export/quantile_curve-0.1_172-PGA.xml', u'./export/quantile_curve-0.1_172-SA(0.2).xml', u'./export/quantile_curve-0.1_172-SA(1.0).xml', u'./export/quantile_curve-0.5_172-PGA.xml', u'./export/quantile_curve-0.5_172-SA(0.2).xml', u'./export/quantile_curve-0.5_172-SA(1.0).xml', u'./export/quantile_curve-0.9_172-PGA.xml', u'./export/quantile_curve-0.9_172-SA(0.2).xml', u'./export/quantile_curve-0.9_172-SA(1.0).xml']
+[2016-03-01 05:22:32,074 #172 INFO] exported hmaps: [u'./export/hazard_map-mean-0.00040397-PGA_172.xml', u'./export/hazard_map-mean-0.00040397-SA(0.2)_172.xml', u'./export/hazard_map-mean-0.00040397-SA(1.0)_172.xml', u'./export/hazard_map-mean-0.002105-PGA_172.xml', u'./export/hazard_map-mean-0.002105-SA(0.2)_172.xml', u'./export/hazard_map-mean-0.002105-SA(1.0)_172.xml', u'./export/quantile_map-0.1-0.00040397-PGA_172.xml', u'./export/quantile_map-0.1-0.00040397-SA(0.2)_172.xml', u'./export/quantile_map-0.1-0.00040397-SA(1.0)_172.xml', u'./export/quantile_map-0.1-0.002105-PGA_172.xml', u'./export/quantile_map-0.1-0.002105-SA(0.2)_172.xml', u'./export/quantile_map-0.1-0.002105-SA(1.0)_172.xml', u'./export/quantile_map-0.5-0.00040397-PGA_172.xml', u'./export/quantile_map-0.5-0.00040397-SA(0.2)_172.xml', u'./export/quantile_map-0.5-0.00040397-SA(1.0)_172.xml', u'./export/quantile_map-0.5-0.002105-PGA_172.xml', u'./export/quantile_map-0.5-0.002105-SA(0.2)_172.xml', u'./export/quantile_map-0.5-0.002105-SA(1.0)_172.xml', u'./export/quantile_map-0.9-0.00040397-PGA_172.xml', u'./export/quantile_map-0.9-0.00040397-SA(0.2)_172.xml', u'./export/quantile_map-0.9-0.00040397-SA(1.0)_172.xml', u'./export/quantile_map-0.9-0.002105-PGA_172.xml', u'./export/quantile_map-0.9-0.002105-SA(0.2)_172.xml', u'./export/quantile_map-0.9-0.002105-SA(1.0)_172.xml']

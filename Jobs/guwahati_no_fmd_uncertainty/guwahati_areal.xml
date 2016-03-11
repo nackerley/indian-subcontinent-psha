@@ -4,7 +4,7 @@ xmlns="http://openquake.org/xmlns/nrml/0.5"
 xmlns:gml="http://www.opengis.net/gml"
 >
     <sourceModel
-    name="guwahati areal"
+    name="nath2012probabilistic areal"
     >
         <areaSource
         id="z119"

@@ -1,0 +1,21 @@
+OpenQuake class,New to OQ,Obsolete,Database,Tectonic Region,NE,NR,Depth [km],,Magnitudes,,Distance [km],
+AkkarBommer2010,,\checkmark,Europe & Middle East,active shallow crust,131,532,,,5,7.6,0,100
+BooreAtkinson2008,,\checkmark,NGA-West,active shallow crust,58,1574,,,5,8,0,200
+CampbellBozorgnia2008,,\checkmark,NGA-West,active shallow crust,72,942,,,4,8,0,200
+Kanno2006Shallow,\checkmark,,Japan,active shallow crust,83,3769,0,30,5.5,8.2,,450
+SharmaEtAl2009,\checkmark,,Himalayas & Zagros,active shallow crust,16,201,,,5,7,,100
+NathEtAl2012Upper,\checkmark,,India (Shillong),intraplate margin,simulation,,0,25,4.8,7.6,10,100
+NathEtAl2012Lower,\checkmark,,India (Shillong),intraplate margin,simulation,,25,40,4.8,8.1,10,100
+AtkinsonBoore2006,,,Eastern North America,stable shallow crust,10,34800,2,30,5,8.3,,1000
+Campbell2003,,,Eastern North America,stable shallow crust,hybrid empirical,,,,5,8.2,0,1000
+RaghukanthIyengar2007,\checkmark,,Peninsular India,stable shallow crust,simulation,,5,15,4,8,,300
+ToroEtAl2002,,,Eastern North America,stable shallow crust,simulated,,,,5,8,,1000
+Kanno2006Deep,\checkmark,,Japan,subduction,111,8150,30,200,5.5,8.2,,450
+AtkinsonBoore2003SInter,,,global,subduction interface,80,1155,20,50,5,8.3,10,550
+AtkinsonMacias2009,,,Cascadia,subduction interface,simulation,,,,7.5,9,,400
+AtkinsonBoore2003SSlabJapan,\checkmark,,global,subduction intraslab,80,1155,50,100,5,8.3,30,550
+AtkinsonBoore2003SSlabCascadia,\checkmark,,global,subduction intraslab,80,1155,50,100,5,8.3,30,550
+LinLee2008SSlab,,,Northeastern Taiwan,subduction intraslab,54,4823,39,161,4.1,6.7,40,600
+Gupta2010SSlab,\checkmark,,Indo-Myanmar Arc,subduction intraslab,3,56,91,148,6.3,7.2,,375
+YoungsEtAl1997SSlab,,,global,subduction intraslab,164,480,50,229,5,7.8,10,500
+ZhaoEtAl2006SSlab,,\checkmark,Japan,subduction intraslab,269,1725,50,120,5,8.3,,300

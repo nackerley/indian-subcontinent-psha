@@ -1,0 +1,45 @@
+\begin{table}
+\caption[Ground motion prediction equations]{Ground motion prediction equations used in this study.
+Citations can be inferred from OpenQuake class names.
+``N'' indicates that models were newly implemented in OpenQuake for the current study.
+``S'' indicates that the model has since been superseded by an equivalent model from the same authors.
+Among the databases used, ``ENA'' stands for eastern North America, and ``NGA'' stands for next generation attenuation.
+The tectonic region ``Type'' uses the following abbreviations:
+    ``active'' shallow crust,
+    ``intraplate'' margin,
+    ``stable'' continental crust,
+    ``interface'' subduction and
+    ``intraslab'' subduction.
+$N_E$ and $N_R$ are the number of earthquakes and records in the database, respectively.
+$H$, $M$ and $R$ are the ranges of depth, magnitude and distance over which the GMPE is considered by the authors to be valid.}
+\label{table:GMPEs}
+\centering
+\begin{adjustbox}{width=1.2\textwidth,center=\textwidth} .. \begin{tabular}{lcccccccccccc}
+\toprule
+OpenQuake class & N & S & Database & Type & $N_E$ & $N_R$ & \multicolumn{2}{c}{$H$ [km]} & \multicolumn{2}{c}{$M$} &  \multicolumn{2}{c}{$R$ [km]} \\
+\midrule
+\texttt{AkkarBommer2010}                &             &  \checkmark & \begin{tabular}{c}Europe \& \\ Middle East\end{tabular} &   active   &               131 &    532 &             &             &         5.0 &          7.6 &              0 &          100 \\
+\texttt{BooreAtkinson2008}              &             &  \checkmark &               NGA-West &   active   &                58 &   1574 &             &             &         5.0 &          8.0 &              0 &          200 \\
+\texttt{CampbellBozorgnia2008}          &             &  \checkmark &               NGA-West &   active   &                72 &    942 &             &             &         4.0 &          8.0 &              0 &          200 \\
+\texttt{Kanno2006Shallow}               &  \checkmark &             &                  Japan &   active   &                83 &   3769 &           0 &          30 &         5.5 &          8.2 &                &          450 \\
+\texttt{SharmaEtAl2009}                 &  \checkmark &             & \begin{tabular}{c}Himalayas \&\\Zagros\end{tabular} &   active   &                16 &    201 &             &             &         5.0 &          7.0 &                &          100 \\
+\texttt{NathEtAl2012Upper}              &  \checkmark &             & Shillong               & intraplate & \multicolumn{2}{c}{simulation} &       0 &          25 &         4.8 &          7.6 &             10 &          100 \\
+\texttt{NathEtAl2012Lower}              &  \checkmark &             & Shillong               & intraplate & \multicolumn{2}{c}{simulation} &      25 &          40 &         4.8 &          8.1 &             10 &          100 \\
+\texttt{AtkinsonBoore2006}              &             &             & ENA                    &   stable   &                10 &  34800 &           2 &          30 &         5.0 &          8.3 &                &         1000 \\
+\texttt{Campbell2003}                   &             &             & ENA                    &   stable   & \multicolumn{2}{c}{hybrid} &   &             &         5.0 &          8.2 &              0 &         1000 \\
+\texttt{RaghukanthIyengar2007}          &  \checkmark &             &\begin{tabular}{c}Peninsular\\India\end{tabular} &   stable   & \multicolumn{2}{c}{simulation} &       5 &          15 &         4.0 &          8.0 &                &          300 \\
+\texttt{ToroEtAl2002}                   &             &             & ENA                    &   stable   & \multicolumn{2}{c}{simulation} &             &             &         5.0 &          8.0 &                &         1000 \\
+\texttt{Kanno2006Deep}                  &  \checkmark &             &                  Japan & subduction &               111 &   8150 &          30 &         200 &         5.5 &          8.2 &                &          450 \\
+\texttt{AtkinsonBoore2003SInter}        &             &             &                 global &  interface &                80 &   1155 &          20 &          50 &         5.0 &          8.3 &             10 &          550 \\
+\texttt{ZhaoEtAl2006SInter}             &             &  \checkmark &                  Japan &  interface &               269 &   1520 &          25 &          50 &         5.0 &          8.3 &                &          300 \\
+\texttt{AtkinsonMacias2009}             &             &             &               Cascadia &  interface & \multicolumn{2}{c}{simulation} &         &             &         7.5 &          9.0 &                &          400 \\
+\texttt{AtkinsonBoore2003SSlabJapan}    &  \checkmark &             &                 global &  intraslab &                80 &   1155 &          50 &         100 &         5.0 &          8.3 &             30 &          550 \\
+\texttt{AtkinsonBoore2003SSlabCascadia} &  \checkmark &             &                 global &  intraslab &                80 &   1155 &          50 &         100 &         5.0 &          8.3 &             30 &          550 \\
+\texttt{LinLee2008SSlab}                &             &             & NE Taiwan               &  intraslab &                54 &   4823 &          39 &         161 &         4.1 &          6.7 &             40 &          600 \\
+\texttt{Gupta2010SSlab}                 &  \checkmark &             & \begin{tabular}{c}Indo-\\Myanmar\\Arc\end{tabular} &  intraslab &                 3 &     56 &          91 &         148 &         6.3 &          7.2 &                &          375 \\
+\texttt{YoungsEtAl1997SSlab}            &             &             &                 global &  intraslab &               164 &    480 &          50 &         229 &         5.0 &          7.8 &             10 &          500 \\
+\texttt{ZhaoEtAl2006SSlab}              &             &  \checkmark &                  Japan &  intraslab &               269 &   1725 &          50 &         120 &         5.0 &          8.3 &                &          300 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

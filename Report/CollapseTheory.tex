@@ -102,7 +102,9 @@ $$ \lambda(Y > y) =
 P(Y > y|m_j,R) 
 P(M=m_j) $$
 
-But now suppose that certain epistemic uncertainties have been identified. In order to estimate the effect of this lack of knowledge on the mean and spread of ground motions suppose $N_G$ GMPEs $P_\ell(Y > y|m_j,R)$ have been assigned weights $w_\ell$ and $N_F$ FMDs $P_m(M=m_j)$ have been assigned weights $w_m$. Now
+But now suppose that certain epistemic uncertainties have been identified. 
+In order to estimate the effect of this lack of knowledge on the mean and spread of ground motions suppose $N_G$ GMPEs $P_\ell(Y > y|m_j,R)$ have been assigned weights $w_\ell$ and $N_F$ FMDs $P_m(M=m_j)$ have been assigned weights $w_m$. 
+Now
 
 $$ \lambda(Y > y) = 
 \lambda(M > m_\text{min}) 
@@ -141,17 +143,26 @@ Note that a similar ``collapse'' of GMPE uncertainty is not possible because the
 \begin{adjustbox}{center}
 \includegraphics{Mean_Occurrence_Rates_Zones_119_912}
 \end{adjustbox}
-\caption[Frequency-magnitude distributions for two zones nearest to Guwahati, India]{Frequency-magnitude distributions corresponding to various branches of the logic tree of \cite{nath2012probabilistic}. The zones chosen are the two closest to Guwahati, India. Zone 119 at 25-50 km depth is the zone capable of producing a devastating ``pop-up'' type event \citep{Bilham2001, nath2012ground}. The ``collapsed'' FMD uncertainty computed using \eqref{eq:CollapsedFmd} is shown as a heavy black line.} 
+\caption[Frequency-magnitude distributions for two zones nearest to Guwahati, India]{Frequency-magnitude distributions corresponding to various branches of the logic tree of \cite{nath2012probabilistic}. 
+The zones chosen are the two closest to Guwahati, India. 
+Zone 119 at 25-50 km depth is the zone capable of producing a devastating ``pop-up'' type event \citep{Bilham2001, nath2012ground}. 
+The ``collapsed'' FMD uncertainty computed using \eqref{eq:CollapsedFmd} is shown as a heavy black line.} 
 \label{fig:CollapsedFmd}
 \end{figure}
 
-This analysis says that collapsed FMDs should give an exact result for the mean exceedance rate. \autoref{fig:MeanFullVsCollapsed} shows that collapsing FMDs gives a very good approximation of the mean hazard for low probabilities of exceedance but not for high. It is not yet clear to me why this should be the case; it may relate to the choice of return period or to the magnitude bin width. 
+This analysis says that collapsed FMDs should give an exact result for the mean exceedance rate. 
+\autoref{fig:MeanFullVsCollapsed} shows that collapsing FMDs gives a very good approximation of the mean hazard for low probabilities of exceedance but not for high. 
+It is not yet clear to me why this should be the case; it may relate to the choice of return period or to the magnitude bin width. 
 
 \begin{figure}[!htb]
 \begin{adjustbox}{center}
 \includegraphics{Guwahati_mean_Zones_119_912}
 \end{adjustbox}
-\caption[Mean hazard curves computed using various levels of FMD uncertainty]{Mean hazard curves computed using various levels of FMD uncertainty. The site of interest is the city of Guwahati. The source model consists only of zones 119 and 912 of \cite{nath2012probabilistic}. The full GMPE logic tree of \cite{nath2012probabilistic} is used. The ``fully enumerated'' result implements the FMD logic tree described in \cite{nath2012probabilistic} while ``collapsed'' implements \eqref{eq:CollapsedFmd} and ``no FMD uncertainty'' models only the FMD logic tree branches with the largest weights.} 
+\caption[Mean hazard curves computed using various levels of FMD uncertainty]{Mean hazard curves computed using various levels of FMD uncertainty. 
+The site of interest is the city of Guwahati. 
+The source model consists only of zones 119 and 912 of \cite{nath2012probabilistic}. 
+The full GMPE logic tree of \cite{nath2012probabilistic} is used. 
+The ``fully enumerated'' result implements the FMD logic tree described in \cite{nath2012probabilistic} while ``collapsed'' implements \eqref{eq:CollapsedFmd} and ``no FMD uncertainty'' models only the FMD logic tree branches with the largest weights.} 
 \label{fig:MeanFullVsCollapsed}
 \end{figure}
 
@@ -191,25 +202,41 @@ P_{Ci}(M_i = m) \equiv
 P_{m,i}(M_i=m) 
 \end{equation}
 
-The important point here is that the ``collapsed'' FMD can be pre-computed for each source. In an application with $N_S$ sources, if there are $3^2$ branches to the FMD logic tree this means $3^{2 N_S}$ branches can be eliminated in all. In a simple example with a single site, two areal sources and a moderately complex GMPE logic tree (see \autoref{fig:MeanFullVsCollapsed}) computation time on a quad-core laptop dropped from 36 minutes to 55 seconds when FMD uncertainty was collapsed. In mapping type applications with gridded sites and hundreds of areal sources, each with FMD uncertainty, the computational savings can make an intractable problem tractable. 
+The important point here is that the ``collapsed'' FMD can be pre-computed for each source. 
+In an application with $N_S$ sources, if there are $3^2$ branches to the FMD logic tree this means $3^{2 N_S}$ branches can be eliminated in all. 
+In a simple example with a single site, two areal sources and a moderately complex GMPE logic tree (see \autoref{fig:MeanFullVsCollapsed}) computation time on a quad-core laptop dropped from 36 minutes to 55 seconds when FMD uncertainty was collapsed. 
+In mapping type applications with gridded sites and hundreds of areal sources, each with FMD uncertainty, the computational savings can make an intractable problem tractable. 
 
 \begin{figure}[!htb]
 \begin{adjustbox}{center}
 \includegraphics{Guwahati_median_Zones_119_912}
 \end{adjustbox}
-\caption[Median hazard curves computed using various levels of FMD uncertainty]{Median hazard curves computed using various levels of FMD uncertainty. For detailed description see \autoref{fig:MeanFullVsCollapsed}} 
+\caption[Median hazard curves computed using various levels of FMD uncertainty]{Median hazard curves computed using various levels of FMD uncertainty. 
+For detailed description see \autoref{fig:MeanFullVsCollapsed}} 
 \label{fig:MedianFullVsCollapsed}
 \end{figure}
 
-It is my understanding that the hazard integral \eqref{eq:HazardIntegral} computes the mean hazard. It is not clear to me at the moment how quantile hazards are computed, but I will speculate using common sense. 
+It is my understanding that the hazard integral \eqref{eq:HazardIntegral} computes the mean hazard. 
+It is not clear to me at the moment how quantile hazards are computed, but I will speculate using common sense. 
 
 Aleatory variability is modelled in most if not all GMPEs using a log-normal distribution so the ability to compute an arbitrary quantile of ground-motion exceedance is built-in. 
 
-With epistemic variability it is less clear how quantiles are computed. OpenQuake computes the exceedance probabilities for each realization separately. In some cases, with large numbers of sources, each having FMD uncertainty, OpenQuake founders simply in enumerating the possibilities. The next step must be to sort the results by probability of exceedance. Finally quantiles are located with reference to the weighting scheme. If I am correct, if there are 3 FMD branches for a source, then whichever produces the largest probability of exceedance at a given level of ground motion will determine the probability of exceedance for any percentile from the 67\textsuperscript{th} through the 100\textsuperscript{th}. Furthermore, if there are no other logic trees, for GMPEs or source models, then in fact the 67\textsuperscript{th} will be the same as the 100\textsuperscript{th} percentile hazard curve.
+With epistemic variability it is less clear how quantiles are computed. 
+OpenQuake computes the exceedance probabilities for each realization separately. 
+In some cases, with large numbers of sources, each having FMD uncertainty, OpenQuake founders simply in enumerating the possibilities. 
+The next step must be to sort the results by probability of exceedance. 
+Finally quantiles are located with reference to the weighting scheme. 
+If I am correct, if there are 3 FMD branches for a source, then whichever produces the largest probability of exceedance at a given level of ground motion will determine the probability of exceedance for any percentile from the 67\textsuperscript{th} through the 100\textsuperscript{th}. 
+Furthermore, if there are no other logic trees, for GMPEs or source models, then in fact the 67\textsuperscript{th} will be the same as the 100\textsuperscript{th} percentile hazard curve.
 
-If this is correct, then it is obvious why the ``collapse'' of FMDs produces different results for quantile hazard curves. With the FMD logic trees collapsed the ground motions for different realizations are no longer computed and cannot be sorted, as required to find a quantile of interest. The result is just plain wrong, farther from the true result than if no FMD uncertainty is considered at all, as shown in \autoref{fig:MedianFullVsCollapsed}.
+If this is correct, then it is obvious why the ``collapse'' of FMDs produces different results for quantile hazard curves. 
+With the FMD logic trees collapsed the ground motions for different realizations are no longer computed and cannot be sorted, as required to find a quantile of interest. 
+The result is just plain wrong, farther from the true result than if no FMD uncertainty is considered at all, as shown in \autoref{fig:MedianFullVsCollapsed}.
 
-In conclusion, the collapse of FMD logic trees by weighted summation of branches is safe and gives significant reduction in computational complexity if only the mean hazard curve is of interest. In practice the mean hazard is slightly underestimated for annual probabilities of exceedance below approximately 10\%. Further investigation is needed to find out what determines this threshold; if it is dependent on the return period chosen alone then inaccuracy at low-probability of exceedance is effectively a computational artefact, a curiosity of no engineering significance. Another possibility is that it is a result of the discretisation of the FMD used; in this case it would be possible to reduce the error by discretise the FMDs using bin widths of say 0.01 magnitude units instead of 0.1, but there would be a corresponding computational penalty.
+In conclusion, the collapse of FMD logic trees by weighted summation of branches is safe and gives significant reduction in computational complexity if only the mean hazard curve is of interest. 
+In practice the mean hazard is slightly underestimated for annual probabilities of exceedance below approximately 10\%. 
+Further investigation is needed to find out what determines this threshold; if it is dependent on the return period chosen alone then inaccuracy at low-probability of exceedance is effectively a computational artefact, a curiosity of no engineering significance. 
+Another possibility is that it is a result of the discretisation of the FMD used; in this case it would be possible to reduce the error by discretise the FMDs using bin widths of say 0.01 magnitude units instead of 0.1, but there would be a corresponding computational penalty.
 
 \bibliographystyle{apalike}
 \bibliography{/home/nick/Desktop/Library/PSHA.bib,/home/nick/Desktop/Library/india-hazard.bib}

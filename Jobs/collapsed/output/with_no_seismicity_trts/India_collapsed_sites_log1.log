@@ -1,0 +1,80 @@
+nohup: ignoring input
+/usr/local/openquake/oq-hazardlib/openquake/hazardlib/gsim/base.py:90: NotVerifiedWarning: RaghukanthIyengar2007 is not independently verified - the user is liable for their application
+  warnings.warn(msg, NotVerifiedWarning)
+
+/usr/local/openquake/oq-hazardlib/openquake/hazardlib/gsim/base.py:90: NotVerifiedWarning: Gupta2010SSlab is not independently verified - the user is liable for their application
+  warnings.warn(msg, NotVerifiedWarning)
+
+[2016-03-22 23:04:07,823 #9633 INFO] Reading the site collection
+[2016-03-22 23:04:08,090 #9633 INFO] Parsed 105 sources from /home/gweatherill/India_v3/collapsed/areal_collapsed.xml
+[2016-03-22 23:05:16,174 #9633 INFO] Processed source model 1/3 with 374 gsim path(s)
+[2016-03-22 23:05:21,602 #9633 INFO] Parsed 10000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:05:27,129 #9633 INFO] Parsed 20000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:05:32,799 #9633 INFO] Parsed 30000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:05:38,275 #9633 INFO] Parsed 40000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:05:43,778 #9633 INFO] Parsed 50000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:05:49,342 #9633 INFO] Parsed 60000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:05:54,978 #9633 INFO] Parsed 70000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:06:00,149 #9633 INFO] Parsed 80000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:06:05,840 #9633 INFO] Parsed 90000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:06:11,625 #9633 INFO] Parsed 100000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:06:16,820 #9633 INFO] Parsed 110000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:06:23,420 #9633 INFO] Parsed 120000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:06:29,454 #9633 INFO] Parsed 130000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:06:35,399 #9633 INFO] Parsed 140000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:06:42,774 #9633 INFO] Parsed 150000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:06:48,982 #9633 INFO] Parsed 160000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:06:56,519 #9633 INFO] Parsed 170000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:07:03,337 #9633 INFO] Parsed 180000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:07:09,379 #9633 INFO] Parsed 190000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:07:15,552 #9633 INFO] Parsed 200000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:07:23,678 #9633 INFO] Parsed 210000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:07:29,767 #9633 INFO] Parsed 220000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:07:35,711 #9633 INFO] Parsed 230000 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:07:36,367 #9633 INFO] Parsed 230823 sources from /home/gweatherill/India_v3/collapsed/NT2012_smoothed_collapsed_mmin4.5.xml
+[2016-03-22 23:09:04,426 #9633 CRITICAL] 
+Traceback (most recent call last):
+  File "/usr/local/openquake/oq-risklib/openquake/calculators/base.py", line 130, in run
+    self.pre_execute()
+  File "/usr/local/openquake/oq-risklib/openquake/calculators/base.py", line 326, in pre_execute
+    self.oqparam)
+  File "/usr/local/openquake/oq-risklib/openquake/commonlib/readinput.py", line 509, in get_composite_source_model
+    oqparam, source_model_lt, in_memory=in_memory):
+  File "/usr/local/openquake/oq-risklib/openquake/commonlib/readinput.py", line 471, in get_source_models
+    "with the ones in %r" % (sm, trt_model.trt, gsim_file))
+ValueError: Found in 'NT2012_smoothed_collapsed_mmin4.5.xml' a tectonic region type 'no seismicity' inconsistent with the ones in '/home/gweatherill/India_v3/collapsed/gmpe_logic_tree.xml'
+[2016-03-22 23:09:04,429 #9633 CRITICAL] Traceback (most recent call last):
+  File "/usr/local/openquake/oq-engine/openquake/engine/engine.py", line 98, in run_calc
+    _do_run_calc(calc, exports, hazard_calculation_id)
+  File "/usr/local/openquake/oq-engine/openquake/engine/engine.py", line 127, in _do_run_calc
+    calc.run(exports=exports, hazard_calculation_id=hazard_calculation_id)
+  File "/usr/local/openquake/oq-risklib/openquake/calculators/base.py", line 130, in run
+    self.pre_execute()
+  File "/usr/local/openquake/oq-risklib/openquake/calculators/base.py", line 326, in pre_execute
+    self.oqparam)
+  File "/usr/local/openquake/oq-risklib/openquake/commonlib/readinput.py", line 509, in get_composite_source_model
+    oqparam, source_model_lt, in_memory=in_memory):
+  File "/usr/local/openquake/oq-risklib/openquake/commonlib/readinput.py", line 471, in get_source_models
+    "with the ones in %r" % (sm, trt_model.trt, gsim_file))
+ValueError: Found in 'NT2012_smoothed_collapsed_mmin4.5.xml' a tectonic region type 'no seismicity' inconsistent with the ones in '/home/gweatherill/India_v3/collapsed/gmpe_logic_tree.xml'
+
+Traceback (most recent call last):
+  File "/usr/local/openquake/oq-engine/bin/oq-engine", line 374, in <module>
+    main()
+  File "/usr/local/openquake/oq-engine/bin/oq-engine", line 326, in main
+    log_file, args.exports)
+  File "/usr/local/openquake/oq-engine/bin/oq-engine", line 98, in run_job
+    hazard_calculation_id=hazard_calculation_id)
+  File "/usr/local/openquake/oq-engine/openquake/engine/engine.py", line 98, in run_calc
+    _do_run_calc(calc, exports, hazard_calculation_id)
+  File "/usr/local/openquake/oq-engine/openquake/engine/engine.py", line 127, in _do_run_calc
+    calc.run(exports=exports, hazard_calculation_id=hazard_calculation_id)
+  File "/usr/local/openquake/oq-risklib/openquake/calculators/base.py", line 130, in run
+    self.pre_execute()
+  File "/usr/local/openquake/oq-risklib/openquake/calculators/base.py", line 326, in pre_execute
+    self.oqparam)
+  File "/usr/local/openquake/oq-risklib/openquake/commonlib/readinput.py", line 509, in get_composite_source_model
+    oqparam, source_model_lt, in_memory=in_memory):
+  File "/usr/local/openquake/oq-risklib/openquake/commonlib/readinput.py", line 471, in get_source_models
+    "with the ones in %r" % (sm, trt_model.trt, gsim_file))
+ValueError: Found in 'NT2012_smoothed_collapsed_mmin4.5.xml' a tectonic region type 'no seismicity' inconsistent with the ones in '/home/gweatherill/India_v3/collapsed/gmpe_logic_tree.xml'

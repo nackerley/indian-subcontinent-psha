@@ -21,7 +21,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         AkkarBommer2010
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.2
+                        0.25
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         BooreAtkinson2008
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.2
+                        0.25
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -41,7 +41,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         CampbellBozorgnia2008
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.2
+                        0.25
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -51,17 +51,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         Kanno2006Shallow
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.2
-                    </uncertaintyWeight>
-                </logicTreeBranch>
-                <logicTreeBranch
-                branchID="b1m5"
-                >
-                    <uncertaintyModel>
-                        SharmaEtAl2009
-                    </uncertaintyModel>
-                    <uncertaintyWeight>
-                        0.2
+                        0.25
                     </uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>
@@ -81,7 +71,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         AkkarBommer2010
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.25
+                        0.2
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -91,7 +81,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         BooreAtkinson2008
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.25
+                        0.2
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -101,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         CampbellBozorgnia2008
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.25
+                        0.2
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
@@ -111,7 +101,17 @@ xmlns:gml="http://www.opengis.net/gml"
                         Kanno2006Shallow
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.25
+                        0.2
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="b2m5"
+                >
+                    <uncertaintyModel>
+                        SharmaEtAl2009
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.2
                     </uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>

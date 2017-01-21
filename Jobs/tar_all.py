@@ -13,7 +13,12 @@ import tarfile
 
 
 directory = os.getcwd()
-for sub_dir, _, _ in os.walk(directory):
+for sub_dir in os.listdir(directory):
+
+    # skip files
+    if os.path.isfile(sub_dir):
+        continue
+
     # omit current directory
     if sub_dir == directory:
         continue
@@ -23,11 +28,6 @@ for sub_dir, _, _ in os.walk(directory):
 
     # omit hidden directories
     if sub_dir[0] == '.':
-        continue
-
-    # omit export & output directories
-    if any([item in sub_dir for item in ['export', 'output']]):
-        print('Skipping %s' % sub_dir)
         continue
 
     print('Compressing: tar -hzcvf "%s.tar.gz" "%s"' % (sub_dir, sub_dir))

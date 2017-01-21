@@ -1,32 +1,18 @@
 usage: oq-engine [-h] [--version] [--log-file LOG_FILE]
                  [--log-level {debug,info,progress,warn,error,critical}]
-                 [--no-distribute] [--run CONFIG_FILE]
-                 [--list-inputs INPUT_TYPE] [--yes]
+                 [--no-distribute] [--run CONFIG_FILE] [--yes]
                  [--config-file CONFIG_FILE]
-                 [--make-html-report YYYY-MM-DD|today] [--lite] [--upgrade-db]
+                 [--make-html-report YYYY-MM-DD|today] [--upgrade-db]
                  [--version-db] [--what-if-I-upgrade]
                  [--run-hazard CONFIG_FILE] [--list-hazard-calculations]
-                 [--delete-hazard-calculation HAZARD_CALCULATION_ID]
+                 [--delete-calculation CALCULATION_ID]
                  [--delete-uncompleted-calculations] [--run-risk CONFIG_FILE]
-                 [--hazard-output-id HAZARD_OUTPUT]
                  [--hazard-calculation-id HAZARD_CALCULATION_ID]
-                 [--list-risk-calculations]
-                 [--delete-risk-calculation RISK_CALCULATION_ID]
-                 [--list-outputs CALCULATION_ID]
+                 [--list-risk-calculations] [--list-outputs CALCULATION_ID]
                  [--show-view CALCULATION_ID VIEW_NAME]
-                 [--list-hazard-outputs CALCULATION_ID]
-                 [--list-risk-outputs CALCULATION_ID]
-                 [--exports EXPORT_FORMATS]
+                 [--show-log CALCULATION_ID] [--exports EXPORT_FORMATS]
                  [--export-output OUTPUT_ID TARGET_DIR]
-                 [--export-hazard-output OUTPUT_ID TARGET_DIR]
-                 [--export-risk-output OUTPUT_ID TARGET_DIR]
                  [--export-outputs CALCULATION_ID TARGET_DIR]
-                 [--export-stats CALCULATION_ID TARGET_DIR OUTPUT_TYPE]
-                 [--export-hazard-outputs HAZARD_CALCULATION_ID TARGET_DIR]
-                 [--export-risk-outputs RISK_CALCULATION_ID TARGET_DIR]
-                 [--save-hazard-calculation HAZARD_CALCULATION_ID DUMP_DIR]
-                 [--load-hazard-calculation DUMP_DIR]
-                 [--load-curve CURVE_FILE] [--list-imported-outputs]
 
 OpenQuake Seismic Hazard and Risk Analysis Engine
 
@@ -47,8 +33,6 @@ General:
   --run CONFIG_FILE     Run a job with the specified configuration file; you
                         can also pass a comma-separated pair of files for
                         hazard and risk
-  --list-inputs INPUT_TYPE, --li INPUT_TYPE
-                        List inputs of a specific input type
   --yes, -y             Automatically answer "yes" when asked to confirm an
                         action
   --config-file CONFIG_FILE
@@ -57,7 +41,6 @@ General:
   --make-html-report YYYY-MM-DD|today, -r YYYY-MM-DD|today
                         Build an HTML report of the computation at the given
                         date
-  --lite                Use lite version of the calculator, if possible
 
 Database:
   --upgrade-db          Upgrade the openquake database
@@ -70,69 +53,31 @@ Hazard:
                         Run a hazard job with the specified config file
   --list-hazard-calculations, --lhc
                         List hazard calculation information
-  --delete-hazard-calculation HAZARD_CALCULATION_ID, --dhc HAZARD_CALCULATION_ID
-                        Delete a hazard calculation and all associated outputs
+  --delete-calculation CALCULATION_ID, --dc CALCULATION_ID
+                        Delete a calculation and all associated outputs
   --delete-uncompleted-calculations, --duc
                         Delete all the uncompleted calculations
 
 Risk:
   --run-risk CONFIG_FILE, --rr CONFIG_FILE
                         Run a risk job with the specified config file
-  --hazard-output-id HAZARD_OUTPUT, --ho HAZARD_OUTPUT
-                        Use the desired hazard output as input for the risk
-                        job
   --hazard-calculation-id HAZARD_CALCULATION_ID, --hc HAZARD_CALCULATION_ID
                         Use the desired hazard job as input for the risk job
   --list-risk-calculations, --lrc
                         List risk calculation information
-  --delete-risk-calculation RISK_CALCULATION_ID, --drc RISK_CALCULATION_ID
-                        Delete a risk calculation and all associated outputs
 
 Export:
   --list-outputs CALCULATION_ID, --lo CALCULATION_ID
                         List outputs for the specified calculation
   --show-view CALCULATION_ID VIEW_NAME, --sv CALCULATION_ID VIEW_NAME
                         Show a view of the specified calculation
-  --list-hazard-outputs CALCULATION_ID, --lho CALCULATION_ID
-                        List outputs for the specified calculation
-                        [deprecated]
-  --list-risk-outputs CALCULATION_ID, --lro CALCULATION_ID
-                        List outputs for the specified calculation
-                        [deprecated]
+  --show-log CALCULATION_ID, --sl CALCULATION_ID
+                        Show the log of the specified calculation
   --exports EXPORT_FORMATS
                         Comma-separated string specifing the export formats,
                         in order of priority
   --export-output OUTPUT_ID TARGET_DIR, --eo OUTPUT_ID TARGET_DIR
                         Export the desired output to the specified directory
-  --export-hazard-output OUTPUT_ID TARGET_DIR, --eh OUTPUT_ID TARGET_DIR
-                        Export the output to the specified directory
-                        [deprecated]
-  --export-risk-output OUTPUT_ID TARGET_DIR, --er OUTPUT_ID TARGET_DIR
-                        Export the output to the specified directory
-                        [deprecated]
   --export-outputs CALCULATION_ID TARGET_DIR, --eos CALCULATION_ID TARGET_DIR
                         Export all the calculation outputs to the specified
                         directory
-  --export-stats CALCULATION_ID TARGET_DIR OUTPUT_TYPE, --es CALCULATION_ID TARGET_DIR OUTPUT_TYPE
-                        Export the statistical outputs to the specified
-                        directory
-  --export-hazard-outputs HAZARD_CALCULATION_ID TARGET_DIR, --eho HAZARD_CALCULATION_ID TARGET_DIR
-                        Export all the outputs to the specified directory
-                        [deprecated]
-  --export-risk-outputs RISK_CALCULATION_ID TARGET_DIR, --ero RISK_CALCULATION_ID TARGET_DIR
-                        Export all the outputs to the specified directory
-                        [deprecated]
-
-Save/Load:
-  --save-hazard-calculation HAZARD_CALCULATION_ID DUMP_DIR, --shc HAZARD_CALCULATION_ID DUMP_DIR
-                        Save a hazard calculation to a new created directory.
-  --load-hazard-calculation DUMP_DIR
-                        Load a hazard calculation from a saved import. Only
-                        SES outputs currently supported
-
-Import:
-  --load-curve CURVE_FILE
-                        Load hazard curves from an XML file.
-  --list-imported-outputs
-                        List outputs which were imported from a file, not
-                        calculated from a job

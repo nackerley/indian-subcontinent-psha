@@ -5797,7 +5797,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b146m1"
                 >
                     <uncertaintyModel>
-                        -0.9
+                        -0.09
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.32
@@ -5817,7 +5817,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b146m3"
                 >
                     <uncertaintyModel>
-                        0.9
+                        0.09
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.32
@@ -5837,7 +5837,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b147m1"
                 >
                     <uncertaintyModel>
-                        -0.9
+                        -0.09
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.32
@@ -5857,7 +5857,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b147m3"
                 >
                     <uncertaintyModel>
-                        0.9
+                        0.09
                     </uncertaintyModel>
                     <uncertaintyWeight>
                         0.32

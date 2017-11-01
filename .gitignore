@@ -32,4 +32,15 @@ README.md
 *.toc
 *.zip
 *~
-/Jobs/hazard-outputs/
+*.coverage
+**/export/**/*.xml
+**/export/**/*.log
+**/build/
+**/stash/
+Faults/**/*.kml
+Faults/**/*.pdf
+Faults/**/*.txt
+Faults/**/*.xml
+HazardOutputs/**/*.log
+HazardOutputs/**/*.xml
+HazardOutputs/**/*.csv

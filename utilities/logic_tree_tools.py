@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # pylint: disable=superfluous-parens
-"""
+'''
 Tools relating to OpenQuake logic trees.
 
 Module exports:
@@ -13,12 +13,14 @@ Module exports:
 :class:`StreamingTexWriter`
 :func:`tree_to_tex`
 :func:`nrml_to_pdf`
-"""
+'''
 
 import os
 import re
 import ast
 from io import StringIO
+from string import Template
+
 import subprocess
 from copy import deepcopy
 
@@ -26,6 +28,7 @@ import numpy as np
 import pandas as pd
 
 from openquake.hazardlib import nrml
+from openquake.baselib.general import deprecated
 from openquake.baselib.node import Node
 from openquake.hazardlib.mfd.truncated_gr import TruncatedGRMFD
 
@@ -34,7 +37,9 @@ import toolbox as tb
 
 
 def read_tree_tsv(file_tsv):
-    """Enhances pandas read_csv by parsing lists of models and weights."""
+    '''
+    Enhances pandas read_csv by parsing lists of models and weights.
+    '''
     tree_df = pd.read_csv(file_tsv, delimiter='\t',)
     for key in ['uncertaintyModel', 'uncertaintyWeight']:
         if key in tree_df.columns:
@@ -49,10 +54,9 @@ MODEL_LENGTHS = {'bGRRelative': 1, 'maxMagGRRelative': 1,
 
 def models_with_weights(uncertainty_type, models, weights=None,
                         prefix=None, validate=True, omit=None, sub=None):
-    """
+    '''
     Returns tuple of valid models and equal weights summing to unity.
-    """
-
+    '''
     if weights is None or len(weights) != len(models):
         weights = [1.]*len(models)
 
@@ -65,9 +69,9 @@ def models_with_weights(uncertainty_type, models, weights=None,
     model_weights = list(zip(models, weights))
 
     def name(i, model, prefix_string):
-        """
+        '''
         Adds an index and a prefix to the model name to help in debugging.
-        """
+        '''
         model_string = 'model %d "%s"' % (i + 1, model)
         if prefix_string is not None:
             model_string = '%s %s' % (prefix_string, model_string)
@@ -119,7 +123,7 @@ def models_with_weights(uncertainty_type, models, weights=None,
     return model_weights
 
 
-_NRML_STRING = """\
+_NRML_STRING = '''\
 <?xml version="1.0" encoding="UTF-8"?>
 <nrml
 xmlns="http://openquake.org/xmlns/nrml/0.5"
@@ -127,32 +131,32 @@ xmlns:gml="http://www.opengis.net/gml"
 >
 $CONTENT
 </nrml>
-"""
+'''
 
-_LOGIC_TREE_STRING = """\
+_LOGIC_TREE_STRING = '''\
     <logicTree
     logicTreeID="$LOGIC_TREE_ID"
     >
 $BRANCHING_LEVELS
-    </logicTree>"""
+    </logicTree>'''
 
-_BRANCH_LEVEL_STRING = """\
+_BRANCH_LEVEL_STRING = '''\
         <logicTreeBranchingLevel
         branchingLevelID="$BRANCHING_LEVEL_ID"
         >
 $BRANCH_SETS
-        </logicTreeBranchingLevel>"""
+        </logicTreeBranchingLevel>'''
 
-_BRANCH_SET_STRING = """\
+_BRANCH_SET_STRING = '''\
             <logicTreeBranchSet
             applyToTectonicRegionType="$TECTONIC_REGION_TYPE"
             branchSetID="$BRANCH_SET_ID"
             uncertaintyType="$UNCERTAINTY_TYPE"
             >
 $BRANCHES
-            </logicTreeBranchSet>"""
+            </logicTreeBranchSet>'''
 
-_BRANCH_STRING = """\
+_BRANCH_STRING = '''\
                 <logicTreeBranch
                 branchID="$BRANCH_ID"
                 >
@@ -162,14 +166,56 @@ _BRANCH_STRING = """\
                     <uncertaintyWeight>
                         $WEIGHT
                     </uncertaintyWeight>
-                </logicTreeBranch>"""
+                </logicTreeBranch>'''
+
+
+@deprecated('Use gsim_data_to_tree instead')
+def write_gsim_tree_nrml(tree_df, output_file,
+                         validate=True, omit=None, sub=None):
+    '''
+    Deprecated. Does the same job as :func:`gsim_data_to_tree`, but in a
+    less robust way.
+    '''
+    branch_template = Template(_BRANCH_STRING)
+    branch_set_template = Template(_BRANCH_SET_STRING)
+    branch_level_template = Template(_BRANCH_LEVEL_STRING)
+
+    branching_level_list = []
+    for i, level in tree_df.iterrows():
+
+        models_weights = models_with_weights(
+            'gmpeModel', level['uncertaintyModel'], weights=None,
+            prefix='Level %d' % (i + 1), validate=validate, omit=omit, sub=sub)
+
+        branch_list = []
+        for j, (model, weight) in enumerate(models_weights):
+            branch_list += [branch_template.substitute(
+                BRANCH_ID='r%dm%d' % (i + 1, j + 1),
+                VALUE=model,
+                WEIGHT=weight)]
+
+        branch_set = branch_set_template.substitute(
+            BRANCH_SET_ID='bs%d' % (i + 1),
+            UNCERTAINTY_TYPE='gmpeModel',
+            TECTONIC_REGION_TYPE=level['applyToTectonicRegionType'],
+            BRANCHES='\n'.join(branch_list))
+        branching_level_list += [branch_level_template.substitute(
+            BRANCHING_LEVEL_ID='bl%d' % (i + 1),
+            BRANCH_SETS=branch_set)]
+
+    content = Template(_LOGIC_TREE_STRING).substitute(
+        LOGIC_TREE_ID='lt1',
+        BRANCHING_LEVELS='\n'.join(branching_level_list))
+    document = Template(_NRML_STRING).substitute(CONTENT=content)
+
+    with open(output_file, 'w') as file_obj:
+        file_obj.write(document)
 
 
 def get_template_keys(symoblic_model, all_keys):
-    """
+    '''
     Parse template and check which keys are needed to evaluate it.
-    """
-
+    '''
     template = str(symoblic_model).replace("'", '')
     labels = re.sub(r'[\[\]]', '', template).split(',')
     labels = [label.strip() for label in labels]
@@ -186,11 +232,10 @@ def get_template_keys(symoblic_model, all_keys):
 
 
 def eval_symbolic_model(template, required_keys, series):
-    """
+    '''
     Given a template with keys, make substitutions from series and evaluate.
     Returns list of numbers.
-    """
-
+    '''
     for key in required_keys:
         template = re.sub(r'\b%s\b' % key, str(series[key]), template)
 
@@ -198,10 +243,9 @@ def eval_symbolic_model(template, required_keys, series):
 
 
 def expand_sources(df_in):
-    """
+    '''
     For a source model logic tree expand source-specific branches
-    """
-
+    '''
     df_out = pd.DataFrame()
     for _, row_in in df_in.iterrows():
 
@@ -243,10 +287,9 @@ def expand_sources(df_in):
 
 
 def branch_mfds(mfds_in, weights_in, labels_in, branch, zone):
-    """
+    '''
     Apply a branch of a logic tree to existing mfds and cumulate weights.
-    """
-
+    '''
     template, required_keys, labels = get_template_keys(
         branch['uncertaintyModel'], zone.keys())
     models = eval_symbolic_model(template, required_keys, zone)
@@ -292,10 +335,9 @@ def branch_mfds(mfds_in, weights_in, labels_in, branch, zone):
 
 
 def get_rates(mfds):
-    """
+    '''
     Convert list of MFDs to matrix of occurrence rates.
-    """
-
+    '''
     num_rates = [int(round(np.diff(mfd.get_min_max_mag())/mfd.bin_width)) + 1
                  if mfd is not None else 0
                  for mfd in mfds]
@@ -310,12 +352,12 @@ def get_rates(mfds):
 
 
 def collapse_sources(source_zones_df, source_tree_symbolic_df, bin_width=0.1):
-    """
+    '''
     Given a tree dataframe of branches and a source model dataframe of zones,
     for every branch affecting MFDs, collapse all possible MFDs into one
     using those weights, add the combined MFD to the zone in the source model
     and finally remove the corresponding branch from the tree.
-    """
+    '''
     collapsible = np.array([
         branch['uncertaintyType'] in MODEL_LENGTHS.keys()
         for _, branch in source_tree_symbolic_df.iterrows()])
@@ -361,12 +403,11 @@ def collapse_sources(source_zones_df, source_tree_symbolic_df, bin_width=0.1):
 
 
 def df_to_tree(tree_df, validate=True, omit=None, sub=None):
-    """
+    '''
     Converts logic tree :class:`pandas.DataFrame` to tree of
-    :class:`openquake.commonlib.node.Nodes` which then be written to a file
-    using :func:`openquake.commonlib.nrml.write`.
-    """
-
+    :class:`openquake.baselib.node.Node` objects which then be written to a file
+    using :func:`openquake.hazardlib.nrml.write`.
+    '''
     tree = Node('logicTree', {'logicTreeID': 'lt1'}, None)
 
     for i, level in tree_df.iterrows():
@@ -403,8 +444,9 @@ def df_to_tree(tree_df, validate=True, omit=None, sub=None):
 
 
 def add_branch_set(branching_level, branch_set_attr, models_weights):
-    """Add a branch set to a branching level"""
-
+    '''
+    Add a branch set to a branching level.
+    '''
     branch_set = Node(
         'logicTreeBranchSet', branch_set_attr, None)
     branch_index_string = re.sub('[^0-9]', '', branch_set_attr['branchSetID'])
@@ -426,7 +468,9 @@ def add_branch_set(branching_level, branch_set_attr, models_weights):
 
 
 def get_dict_key_match(attrib, string):
-    'Finds a the first partial match among the keys in a dictionary'
+    '''
+    Finds a the first partial match among the keys in a dictionary
+    '''
     keys = [key for key in attrib.keys() if string.lower() in key.lower()]
     if keys == []:
         return ''
@@ -435,11 +479,11 @@ def get_dict_key_match(attrib, string):
 
 
 def strip_fqtag(tag):
-    """
+    '''
     Get the short representation of a fully qualified tag
 
     :param str tag: a (fully qualified or not) XML tag
-    """
+    '''
     string = str(tag)
     # split on '}', to remove the namespace part
     pieces = string.rsplit('}', 1)
@@ -449,17 +493,16 @@ def strip_fqtag(tag):
 
 
 class StreamingTexWriter(object):
-    """
+    '''
     A stream-based TEX writer based on
     openquake.nrmllib.writers.StreamingXMLWriter
-    """
-
+    '''
     def __init__(self, stream, include_ids=False, indent=4,
                  max_branches=10, encoding='utf-8'):
-        """
+        '''
         :param stream: the stream or a file where to write the TEX
         :param int indent: the indentation to use in the TEX file
-        """
+        '''
         self.stream = stream
         self.include_ids = include_ids
         self.indent = indent
@@ -469,15 +512,18 @@ class StreamingTexWriter(object):
         self.variables = None
 
     def _write(self, text):
-        """Write text while respecting current indentation level"""
+        '''
+        Write text while respecting current indentation level
+        '''
         if not isinstance(text, str):
             text = text.encode(self.encoding)
         spaces = ' ' * (self.indent * self.indentlevel)
         self.stream.write(spaces + text + '\n')
 
     def start_branch(self, name, attrs=None):
-        """Open a TEX branch"""
-
+        '''
+        Open a TEX branch
+        '''
         name = strip_fqtag(name)
         for (attr, value) in sorted(attrs.items()):
             name = name + (r'\\ \texttt{%s}=\texttt{%s}' % (attr, value))
@@ -485,12 +531,14 @@ class StreamingTexWriter(object):
         self.indentlevel += 1
 
     def end_branch(self):
-        """Close a TEX branch"""
+        '''
+        Close a TEX branch
+        '''
         self.indentlevel -= 1
         self._write(r'},')
 
     def add_branch(self, node):
-        """Add branch node"""
+        '''Add branch node'''
 
         tag = strip_fqtag(node.tag)
         attrib = deepcopy(node.attrib)
@@ -526,8 +574,8 @@ class StreamingTexWriter(object):
             name = '%s: %s' % (node_id, name)
 
         self.start_branch(name, attrib)
-        if node.text:
-            print('Ignoring node "%s" text "%s"', name, node.text)
+        if node.text and node.text.strip():
+            print('Ignoring node "%s" text "%s"' % (name, node.text.strip()))
         if len(node) > self.max_branches:
             print('Too many (%d) nodes in %s, '
                   'abbreviating TEX to first & last %d'
@@ -535,8 +583,8 @@ class StreamingTexWriter(object):
             n_omitted = len(node) - self.max_branches
             ellipsis_text = str(n_omitted) + r' branches\\ omitted'
             ellipsis_node = Node(ellipsis_text, {}, None)
-            nodes = node[:self.max_branches/2] + [ellipsis_node] + \
-                node[-self.max_branches/2:]
+            nodes = node[:int(self.max_branches/2)] + [ellipsis_node] + \
+                node[-int(self.max_branches/2):]
         else:
             nodes = node
         for subnode in nodes:
@@ -544,8 +592,9 @@ class StreamingTexWriter(object):
         self.end_branch()
 
     def add_leaf(self, node):
-        """Add terminal node (attributes are discarded)"""
-
+        '''
+        Add terminal node (attributes are discarded)
+        '''
         name = ''
         for subnode in node:
             tag = strip_fqtag(subnode.tag)
@@ -562,7 +611,7 @@ class StreamingTexWriter(object):
                     model = '\\texttt{%s}' % model.replace('_', r'\_')
 
             elif tag == 'uncertaintyWeight':
-                weight = str(subnode.text).strip()
+                weight = '%.3g' % float(subnode.text)
             else:
                 print('Tag %s not recognized, ignoring ...' % tag)
         name = model + ': ' + weight
@@ -574,7 +623,7 @@ class StreamingTexWriter(object):
         self._write('"%s",' % name)
 
     def set_model_variables(self, node):
-        """Determine model variable names for this branch"""
+        '''Determine model variable names for this branch'''
 
         uncertainty = node['uncertaintyType']
         if uncertainty == 'abGRAbsolute':
@@ -591,7 +640,7 @@ class StreamingTexWriter(object):
         self.variables = variables
 
     def serialize(self, node):
-        """Serialize a node object"""
+        '''Serialize a node object'''
 
         tag = strip_fqtag(node.tag)
         if tag == 'nrml' or (tag == 'logicTreeBranchingLevel' and
@@ -611,17 +660,21 @@ class StreamingTexWriter(object):
             self.add_branch(node)
 
     def __enter__(self):
-        """Write the TEX preamble"""
+        '''
+        Write the TEX preamble
+        '''
         self._write(self._TEX_START)
         self.indentlevel += 1
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        """Write the TEX postscript"""
+        '''
+        Write the TEX postscript
+        '''
         self.indentlevel -= 1
         self._write(self._TEX_END)
 
-    _TEX_START = r"""\documentclass[border=2mm]{standalone}
+    _TEX_START = r'''\documentclass[border=2mm]{standalone}
 
 \usepackage{tikz}
 \usetikzlibrary{graphdrawing, graphs}
@@ -635,12 +688,12 @@ link/.style={out=east, in=west},
 box/.style={rectangle, rounded corners, draw}]
 \graph [tree layout, components go down center aligned, grow'=right,
 fresh nodes, layer sep=2cm, sibling distance=0mm, sibling sep=0.5mm] {
-    """
+    '''
 
-    _TEX_END = r"""};
+    _TEX_END = r'''};
 \end{tikzpicture}
 \end{document}
-    """
+    '''
 
     _TEX_SUBS = [
         ['stda', r'$\sigma_a$'],
@@ -658,14 +711,14 @@ fresh nodes, layer sep=2cm, sibling distance=0mm, sibling sep=0.5mm] {
 
 
 def tree_to_tex(root, include_ids=False, indent=4):
-    """
+    '''
     Convert a tree into an TEX string by using the StreamingTexWriter.
     This is useful for testing purposes.
 
     :param node: a node object (typically an ElementTree object)
     :param include_ids: include or omit node ids from diagram
     :param indent: the indentation to use in the XML (default 4 spaces)
-    """
+    '''
     out = StringIO()
     with StreamingTexWriter(out, include_ids, indent) as writer:
         writer.serialize(root)
@@ -673,14 +726,14 @@ def tree_to_tex(root, include_ids=False, indent=4):
 
 
 def nrml_to_pdf(file_nrml, include_ids=False, verbose=False):
-    """
+    '''
     Convert NRML logic tree into a PDF diagram. Output file name is same
     as input except with .pdf extension. An intermediate .tex file is
     generated. Lualatex must be installed and present on the system path.
 
     :param file_nrml: file name of NRML logic tree in XML format
     :param include_ids: include or omit node ids from diagram
-    """
+    '''
 
     if verbose:
         print('Reading %s' % file_nrml)

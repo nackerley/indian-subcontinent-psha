@@ -1,0 +1,13 @@
+name: oq
+channels:
+- conda-forge  
+- defaults
+dependencies:
+- python=2
+- oq-engine
+- obspy
+- ipykernel
+- geopandas
+- spyder
+- basemap
+- xlrd

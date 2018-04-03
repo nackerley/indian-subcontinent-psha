@@ -28,12 +28,12 @@
       <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="ne_50m_geography_marine_polys20160106184058613" source="/home/nick/Desktop/Natural Earth/50m_physical/ne_50m_geography_marine_polys.shp" name="oceans and lakes">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-group expanded="0" checked="Qt::Checked" mutually-exclusive="1" name="key cities" mutually-exclusive-child="1">
+      <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" mutually-exclusive="1" name="key cities" mutually-exclusive-child="1">
         <customproperties/>
         <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="Key_Cities_copy20160322224103377" source="file:///home/nick/Desktop/indian-subcontinent-psha/Jobs/Table_3_Calc_111.csv?type=csv&amp;xField=Longitude%20(%C2%B0E)&amp;yField=Latitude%20(%C2%B0N)&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="markers">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="Table_3_Reproduced20160114195419374" source="file:///home/nick/Desktop/indian-subcontinent-psha/Jobs/Table_3_Calc_111.csv?type=csv&amp;xField=Longitude%20(%C2%B0E)&amp;yField=Latitude%20(%C2%B0N)&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="markers and names">
+        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::PartiallyChecked" id="Table_3_Reproduced20160114195419374" source="file:///home/nick/Desktop/indian-subcontinent-psha/Jobs/Table_3_Calc_111.csv?type=csv&amp;xField=Longitude%20(%C2%B0E)&amp;yField=Latitude%20(%C2%B0N)&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="markers and names">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -67,13 +67,13 @@
     </layer-tree-group>
     <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="areal source model">
       <customproperties/>
-      <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="areal_source_model20171113232331607" source="file:///home/nick/Desktop/indian-subcontinent-psha/Source%20Models/areal_source_model.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;&amp;" name="tectonic region types">
+      <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="areal_source_model20171113232331607" source="file:///home/nick/Desktop/indian-subcontinent-psha/Source%20Models/areal_source_model.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=" name="tectonic region types">
         <customproperties>
           <property key="expandedLegendNodes"/>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="areal_source_model20180402221802041" source="file:///home/nick/Desktop/indian-subcontinent-psha/Source%20Models/areal_source_model.csv?type=csv&amp;wktField=centroid&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;" name="focal mechanisms">
+      <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="areal_source_model20180402221802041" source="file:///home/nick/Desktop/indian-subcontinent-psha/Source%20Models/areal_source_model.csv?type=csv&amp;wktField=centroid&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no" name="focal mechanisms">
         <customproperties>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
@@ -183,9 +183,9 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Checked" mutually-exclusive="1" name="faults" mutually-exclusive-child="0">
+    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" mutually-exclusive="1" name="faults" mutually-exclusive-child="0">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="with names">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="with names">
         <customproperties/>
         <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="HimalayanFrontalThrust_20_06_14_copy20160229232442178" source="/home/nick/Desktop/indian-subcontinent-psha/Faults/Himalaya_GIS_data/HimalayanFrontalThrust_20_06_14.shp" name="Himalayan frontal thrust">
           <customproperties/>
@@ -275,7 +275,7 @@
     <units>degrees</units>
     <extent>
       <xmin>70.94725667475724151</xmin>
-      <ymin>28.63423543689320283</ymin>
+      <ymin>28.63423543689320638</ymin>
       <xmax>81.64938167475723674</xmax>
       <ymax>38.62236043689320297</ymax>
     </extent>
@@ -299,8 +299,8 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_copy20160229110149854"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="HimalayanFrontalThrust_20_06_14_copy20160229232442178"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_outlines_copy20160109223148900"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Centroids20180402215540602"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thingbaijam_layer_1_nearest_copy20160322215147200"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Centroids20180402215540602"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_copy20160109144115450"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_outline_copy20160129182655546"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_2_outlines_copy20180402011820860"/>
@@ -310,25 +310,25 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="recomputed_layer_1_lambda_copy20160126213357326"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Table1usgsAppended20160318155721705"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="areal_source_model20171113233712263"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nath2012probabilistic_smoothed_source_model_mmin_4_5_layer_120160126231617600"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_copy20160108183519645"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="areal_source_model_copy20171114235049481"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nath2012probabilistic_smoothed_source_model_mmin_4_5_layer_120160126231617600"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_50m_geography_marine_polys20160106184058613"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Table_3_Reproduced20160114195419374"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="areal_source_model20180402005108841"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_copy20160322230314440"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thrust_copy20160229232327146"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="recomputed_layer_1_lambda_copy20160126213345723"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thrust_copy20160229232327146"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="sinistral_copy20160229232303954"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="sutures_copy20160229232343706"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="areal_source_model20180402220831130"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Recomputed_smoothed_source_model_mmin_4_5_layer_120160126213000812"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="areal_source_model20180402220831130"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20180402220137249"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_outline_copy20180402011726154"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Table120160318152915469"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_a_value_copy20160110151647705"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_2_region_outline_copy20160129183019818"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_10m_urban_areas20160109141353634"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_2_region_outline_copy20160129183019818"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_copy20180402151749989"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Indian_Subcontinent_Geographic_Features20160109140015864"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="areal_source_model_layer_120160104225748840"/>
@@ -456,15 +456,15 @@
           <legendlayerfile isInOverview="0" layerid="ne_50m_geography_marine_polys20160106184058613" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="false" checked="Qt::Checked" name="key cities">
+      <legendgroup open="false" checked="Qt::PartiallyChecked" name="key cities">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="markers" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="Key_Cities_copy20160322224103377" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="markers and names" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::PartiallyChecked" name="markers and names" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Table_3_Reproduced20160114195419374" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="Table_3_Reproduced20160114195419374" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -665,8 +665,8 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Checked" name="faults">
-      <legendgroup open="true" checked="Qt::Checked" name="with names">
+    <legendgroup open="false" checked="Qt::PartiallyChecked" name="faults">
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="with names">
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Himalayan frontal thrust" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="HimalayanFrontalThrust_20_06_14_copy20160229232442178" visible="1"/>
@@ -10988,6 +10988,9 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="mmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="centroid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
@@ -12118,8 +12121,9 @@ def my_form_open(dialog, layer, feature):
         <alias field="rake2" index="22" name=""/>
         <alias field="mechanism2" index="23" name=""/>
         <alias field="mmin" index="24" name=""/>
-        <alias field="name" index="25" name=""/>
-        <alias field="id" index="26" name=""/>
+        <alias field="centroid" index="25" name=""/>
+        <alias field="name" index="26" name=""/>
+        <alias field="id" index="27" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -12210,6 +12214,7 @@ def my_form_open(dialog, layer, feature):
         <default field="rake2" expression=""/>
         <default field="mechanism2" expression=""/>
         <default field="mmin" expression=""/>
+        <default field="centroid" expression=""/>
         <default field="name" expression=""/>
         <default field="id" expression=""/>
       </defaults>
@@ -12321,6 +12326,9 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mmin">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="centroid">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="name">
@@ -12664,8 +12672,9 @@ def my_form_open(dialog, layer, feature):
         <alias field="rake2" index="22" name=""/>
         <alias field="mechanism2" index="23" name=""/>
         <alias field="mmin" index="24" name=""/>
-        <alias field="name" index="25" name=""/>
-        <alias field="id" index="26" name=""/>
+        <alias field="centroid" index="25" name=""/>
+        <alias field="name" index="26" name=""/>
+        <alias field="id" index="27" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -12763,6 +12772,7 @@ def my_form_open(dialog, layer, feature):
         <default field="rake2" expression=""/>
         <default field="mechanism2" expression=""/>
         <default field="mmin" expression=""/>
+        <default field="centroid" expression=""/>
         <default field="name" expression=""/>
         <default field="id" expression=""/>
       </defaults>
@@ -13011,8 +13021,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -15329,6 +15337,9 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="mmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="centroid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
@@ -15768,8 +15779,9 @@ def my_form_open(dialog, layer, feature):
         <alias field="rake2" index="22" name=""/>
         <alias field="mechanism2" index="23" name=""/>
         <alias field="mmin" index="24" name=""/>
-        <alias field="name" index="25" name=""/>
-        <alias field="id" index="26" name=""/>
+        <alias field="centroid" index="25" name=""/>
+        <alias field="name" index="26" name=""/>
+        <alias field="id" index="27" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -15867,6 +15879,7 @@ def my_form_open(dialog, layer, feature):
         <default field="rake2" expression=""/>
         <default field="mechanism2" expression=""/>
         <default field="mmin" expression=""/>
+        <default field="centroid" expression=""/>
         <default field="name" expression=""/>
         <default field="id" expression=""/>
       </defaults>
@@ -15972,6 +15985,9 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mmin">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="centroid">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="name">
@@ -16410,8 +16426,9 @@ def my_form_open(dialog, layer, feature):
         <alias field="rake2" index="22" name=""/>
         <alias field="mechanism2" index="23" name=""/>
         <alias field="mmin" index="24" name=""/>
-        <alias field="name" index="25" name=""/>
-        <alias field="id" index="26" name=""/>
+        <alias field="centroid" index="25" name=""/>
+        <alias field="name" index="26" name=""/>
+        <alias field="id" index="27" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -16457,6 +16474,7 @@ def my_form_open(dialog, layer, feature):
         <default field="rake2" expression=""/>
         <default field="mechanism2" expression=""/>
         <default field="mmin" expression=""/>
+        <default field="centroid" expression=""/>
         <default field="name" expression=""/>
         <default field="id" expression=""/>
       </defaults>
@@ -16570,6 +16588,9 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="mmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="centroid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
@@ -16911,8 +16932,9 @@ def my_form_open(dialog, layer, feature):
         <alias field="rake2" index="22" name=""/>
         <alias field="mechanism2" index="23" name=""/>
         <alias field="mmin" index="24" name=""/>
-        <alias field="name" index="25" name=""/>
-        <alias field="id" index="26" name=""/>
+        <alias field="centroid" index="25" name=""/>
+        <alias field="name" index="26" name=""/>
+        <alias field="id" index="27" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -17010,6 +17032,7 @@ def my_form_open(dialog, layer, feature):
         <default field="rake2" expression=""/>
         <default field="mechanism2" expression=""/>
         <default field="mmin" expression=""/>
+        <default field="centroid" expression=""/>
         <default field="name" expression=""/>
         <default field="id" expression=""/>
       </defaults>
@@ -17123,6 +17146,9 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="mmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="centroid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
@@ -17464,8 +17490,9 @@ def my_form_open(dialog, layer, feature):
         <alias field="rake2" index="22" name=""/>
         <alias field="mechanism2" index="23" name=""/>
         <alias field="mmin" index="24" name=""/>
-        <alias field="name" index="25" name=""/>
-        <alias field="id" index="26" name=""/>
+        <alias field="centroid" index="25" name=""/>
+        <alias field="name" index="26" name=""/>
+        <alias field="id" index="27" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -17563,6 +17590,7 @@ def my_form_open(dialog, layer, feature):
         <default field="rake2" expression=""/>
         <default field="mechanism2" expression=""/>
         <default field="mmin" expression=""/>
+        <default field="centroid" expression=""/>
         <default field="name" expression=""/>
         <default field="id" expression=""/>
       </defaults>
@@ -17676,6 +17704,9 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="mmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="centroid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
@@ -18017,8 +18048,9 @@ def my_form_open(dialog, layer, feature):
         <alias field="rake2" index="22" name=""/>
         <alias field="mechanism2" index="23" name=""/>
         <alias field="mmin" index="24" name=""/>
-        <alias field="name" index="25" name=""/>
-        <alias field="id" index="26" name=""/>
+        <alias field="centroid" index="25" name=""/>
+        <alias field="name" index="26" name=""/>
+        <alias field="id" index="27" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -18116,6 +18148,7 @@ def my_form_open(dialog, layer, feature):
         <default field="rake2" expression=""/>
         <default field="mechanism2" expression=""/>
         <default field="mmin" expression=""/>
+        <default field="centroid" expression=""/>
         <default field="name" expression=""/>
         <default field="id" expression=""/>
       </defaults>
@@ -18164,9 +18197,6 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="lambda">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
@@ -18715,28 +18745,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -18763,7 +18792,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -18831,9 +18859,6 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="lambda">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
@@ -19382,28 +19407,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -19430,7 +19454,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -19498,9 +19521,6 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="lambda">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
@@ -20049,28 +20069,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -20097,7 +20116,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -20165,9 +20183,6 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="lambda">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
@@ -20716,28 +20731,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -20764,7 +20778,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -32312,9 +32325,6 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="lambda">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
@@ -33752,28 +33762,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -33816,7 +33825,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -33885,9 +33893,6 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="lambda">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
@@ -34427,28 +34432,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -34475,7 +34479,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -34544,9 +34547,6 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="lambda">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
@@ -35733,28 +35733,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -35797,7 +35796,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -35866,9 +35864,6 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="lambda">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
@@ -36408,28 +36403,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -36456,7 +36450,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -36525,9 +36518,6 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="lambda">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
@@ -37070,28 +37060,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -37134,7 +37123,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -37205,9 +37193,6 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="lambda">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
@@ -37610,28 +37595,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -37674,7 +37658,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -37745,9 +37728,6 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="lambda">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
@@ -38150,28 +38130,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -38214,7 +38193,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>
@@ -38283,9 +38261,6 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="lambda">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="geometry">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="distance">
@@ -38825,28 +38800,27 @@ def my_form_open(dialog, layer, feature):
         <alias field="mmin" index="3" name=""/>
         <alias field="duration" index="4" name=""/>
         <alias field="lambda" index="5" name=""/>
-        <alias field="geometry" index="6" name=""/>
-        <alias field="distance" index="7" name=""/>
-        <alias field="zoneid" index="8" name=""/>
-        <alias field="in zoneid" index="9" name=""/>
-        <alias field="zmax" index="10" name=""/>
-        <alias field="zmin" index="11" name=""/>
-        <alias field="tectonic subregion" index="12" name=""/>
-        <alias field="a" index="13" name=""/>
-        <alias field="b" index="14" name=""/>
-        <alias field="stdb" index="15" name=""/>
-        <alias field="mmax" index="16" name=""/>
-        <alias field="stdmmax" index="17" name=""/>
-        <alias field="rake" index="18" name=""/>
-        <alias field="dip" index="19" name=""/>
-        <alias field="strike" index="20" name=""/>
-        <alias field="aspect ratio" index="21" name=""/>
-        <alias field="msr" index="22" name=""/>
-        <alias field="name" index="23" name=""/>
-        <alias field="id" index="24" name=""/>
-        <alias field="logN_5.0-6.0" index="25" name=""/>
-        <alias field="logN_6.0-7.0" index="26" name=""/>
-        <alias field="logN_7.0-8.0" index="27" name=""/>
+        <alias field="distance" index="6" name=""/>
+        <alias field="zoneid" index="7" name=""/>
+        <alias field="in zoneid" index="8" name=""/>
+        <alias field="zmax" index="9" name=""/>
+        <alias field="zmin" index="10" name=""/>
+        <alias field="tectonic subregion" index="11" name=""/>
+        <alias field="a" index="12" name=""/>
+        <alias field="b" index="13" name=""/>
+        <alias field="stdb" index="14" name=""/>
+        <alias field="mmax" index="15" name=""/>
+        <alias field="stdmmax" index="16" name=""/>
+        <alias field="rake" index="17" name=""/>
+        <alias field="dip" index="18" name=""/>
+        <alias field="strike" index="19" name=""/>
+        <alias field="aspect ratio" index="20" name=""/>
+        <alias field="msr" index="21" name=""/>
+        <alias field="name" index="22" name=""/>
+        <alias field="id" index="23" name=""/>
+        <alias field="logN_5.0-6.0" index="24" name=""/>
+        <alias field="logN_6.0-7.0" index="25" name=""/>
+        <alias field="logN_7.0-8.0" index="26" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -38873,7 +38847,6 @@ def my_form_open(dialog, layer, feature):
         <default field="mmin" expression=""/>
         <default field="duration" expression=""/>
         <default field="lambda" expression=""/>
-        <default field="geometry" expression=""/>
         <default field="distance" expression=""/>
         <default field="zoneid" expression=""/>
         <default field="in zoneid" expression=""/>

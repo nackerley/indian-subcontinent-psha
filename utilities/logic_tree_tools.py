@@ -2,17 +2,6 @@
 # pylint: disable=superfluous-parens
 '''
 Tools relating to OpenQuake logic trees.
-
-Module exports:
-
-:func:`read_tree_tsv`
-:func:`models_with_weights`
-:func:`write_gsim_tree_nrml`
-:func:`gsim_data_to_tree`
-:func:`get_dict_key_match`
-:class:`StreamingTexWriter`
-:func:`tree_to_tex`
-:func:`nrml_to_pdf`
 '''
 
 import os
@@ -32,8 +21,7 @@ from openquake.baselib.general import deprecated
 from openquake.baselib.node import Node
 from openquake.hazardlib.mfd.truncated_gr import TruncatedGRMFD
 
-import source_model_tools as smt
-import toolbox as tb
+from toolbox import limit_precision, is_numeric
 
 
 def read_tree_tsv(file_tsv):
@@ -338,7 +326,8 @@ def get_rates(mfds):
     '''
     Convert list of MFDs to matrix of occurrence rates.
     '''
-    num_rates = [int(round(np.diff(mfd.get_min_max_mag())/mfd.bin_width)) + 1
+    num_rates = [int(round((mfd.get_min_max_mag()[1] -
+                            mfd.get_min_max_mag()[0])/mfd.bin_width)) + 1
                  if mfd is not None else 0
                  for mfd in mfds]
 
@@ -351,7 +340,7 @@ def get_rates(mfds):
     return rates
 
 
-def collapse_sources(source_zones_df, source_tree_symbolic_df, bin_width=0.1):
+def collapse_sources(source_df, source_tree_symbolic_df, bin_width=0.1):
     '''
     Given a tree dataframe of branches and a source model dataframe of zones,
     for every branch affecting MFDs, collapse all possible MFDs into one
@@ -362,10 +351,10 @@ def collapse_sources(source_zones_df, source_tree_symbolic_df, bin_width=0.1):
         branch['uncertaintyType'] in MODEL_LENGTHS.keys()
         for _, branch in source_tree_symbolic_df.iterrows()])
 
-    source_zones_df = source_zones_df.loc[source_zones_df['mmax'] != 0].copy()
+    source_df = source_df.loc[source_df['mmax'] != 0].copy()
 
     zone_rates, all_rates, all_weights = [], [], []
-    for _, zone in source_zones_df.iterrows():
+    for _, zone in source_df.iterrows():
 
         mfds = [TruncatedGRMFD(min_mag=zone['mmin'], max_mag=zone['mmax'],
                                a_val=zone['a'], b_val=zone['b'],
@@ -386,27 +375,26 @@ def collapse_sources(source_zones_df, source_tree_symbolic_df, bin_width=0.1):
 
         # compute the weighted sum of the rates for this zones
         collapsed_rates = (rates*weights.reshape(1, -1)).sum(axis=1)
-        zone_rates.append(tb.limit_precision(collapsed_rates, 5))
+        zone_rates.append(limit_precision(collapsed_rates, 5))
 
         # save intermediate results from each zone for diagnostic purposes
         all_rates.append(rates)
         all_weights.append(weights)
 
-    source_zones_df['occurRates'] = zone_rates
-    source_zones_df['magBin'] = bin_width
+    source_df['occurRates'] = zone_rates
+    source_df['magBin'] = bin_width
+    source_df['all_rates'] = all_rates
 
-    source_zones_df = smt.sort_and_reindex(source_zones_df)
-
-    return (source_zones_df,
+    return (source_df,
             source_tree_symbolic_df.loc[np.logical_not(collapsible)],
-            all_rates, all_weights, labels)
+            all_weights, labels)
 
 
 def df_to_tree(tree_df, validate=True, omit=None, sub=None):
     '''
     Converts logic tree :class:`pandas.DataFrame` to tree of
-    :class:`openquake.baselib.node.Node` objects which then be written to a file
-    using :func:`openquake.hazardlib.nrml.write`.
+    :class:`openquake.baselib.node.Node` objects which then be written to a
+    file using :func:`openquake.hazardlib.nrml.write`.
     '''
     tree = Node('logicTree', {'logicTreeID': 'lt1'}, None)
 
@@ -651,7 +639,7 @@ class StreamingTexWriter(object):
             model = node[0].uncertaintyModel.text
             if isinstance(model, list):
                 model = model[0]
-            if tb.is_numeric(model.strip().split()[0]):
+            if is_numeric(model.strip().split()[0]):
                 self.set_model_variables(node)
             self.add_branch(node)
         elif tag == 'logicTreeBranch':

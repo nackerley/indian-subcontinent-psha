@@ -1,6 +1,6 @@
 # coding: utf-8
 '''
-Smoothed Source models for Nath & Thingbaijam (2012)
+Smoothed source models for Nath & Thingbaijam (2012)
 
 Read the source description input files from the online supplementary
 material and write them to XML. Must be run after areal soruce models are
@@ -9,6 +9,9 @@ areal source model.
 
 Note: For imports to work, ../utilities directory must be added to PYTHONPATH
 '''
+
+# %% libraries
+
 import os
 # import sys
 from time import time
@@ -18,7 +21,6 @@ import numpy as np
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
-from shapely.wkt import loads
 
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm, Normalize
@@ -26,19 +28,18 @@ from matplotlib.colors import LogNorm, Normalize
 from openquake.hazardlib import geo
 
 from source_model_tools import (
-    sort_and_reindex, points2csv, points2nrml, extract_param, MyPolygon)  # noqa
-# from toolbox import limit_precision  # noqa
+    sort_and_reindex, csv2areal, points2csv, points2nrml, extract_param,
+    MyPolygon)
 from toolbox import annotate, logspace, linspace
 
+# %% constants
+
 MIN_MAGS = [4.5, 5.5]
-LAYERS_DF = pd.read_csv('layers.csv')
+LAYERS_DF = pd.read_csv('layers.csv', index_col='layerid')
 USE_RECOMPUTED = False
 
+# %% definitions
 
-# @profile
-# def main():
-
-# define the input file names from the original paper
 model_path = '../Data/nath2012probabilistic'
 if USE_RECOMPUTED:
     smoothed_model_path = '../Smoothed/Recomputed'
@@ -47,38 +48,32 @@ else:
 
 smoothed_data_template = os.path.join(smoothed_model_path,
                                       'lay%dsmooth%.1f.txt')
-smoothed_data_files = [[smoothed_data_template % (layer_id, min_mag)
-                        for layer_id in LAYERS_DF['id']]
-                       for min_mag in MIN_MAGS]
 
-# define prefixes for the output file names and models
 smoothed_source_data_file = 'smoothed_source_model'
 
-# %%
+areal_csv = 'areal_source_model.csv'
 
-print('Reading (augmented) areal zone descriptions')
-areal_df = pd.read_csv('areal_source_model.csv')
-areal_df['geometry'] = areal_df['geometry'].apply(loads)
-areal_df = gpd.GeoDataFrame(areal_df, crs='WGS84')
+# %% areal zone data
+
+areal_df = csv2areal(areal_csv)
 
 # grab mmax and bvalue from zone above if mmax zero for this zone
 check_keys = ['mmax', 'b']
 for i, area_series in areal_df[
         (areal_df[check_keys] == 0).any(axis=1)].iterrows():
-    alternate_zone = int(area_series['zoneid']/10)
-    index_alt = np.where(areal_df['zoneid'] == alternate_zone)[0][0]
+    alternate_zone = int(area_series.name/10)
     for key in check_keys:
         if area_series[key] == 0:
             print('For zone %d taking %s from zone %d' %
-                  (area_series['zoneid'], key, alternate_zone))
-            areal_df.loc[i, key] = areal_df.loc[index_alt, key]
+                  (area_series.name, key, alternate_zone))
+            areal_df.at[i, key] = areal_df.at[alternate_zone, key]
 
 # in some cases we are only interested in the active zones
 active_areal_df = areal_df[areal_df['a'] != 0].reset_index()
 
 active_areal_df.head()
 
-# %%
+# %% completeness tables
 
 print('Reading completeness tables.')
 completeness_df = pd.read_csv(
@@ -86,24 +81,26 @@ completeness_df = pd.read_csv(
     header=[0, 1], index_col=[0, 1])
 completeness_df.columns = [' '.join(col).strip()
                            for col in completeness_df.columns.values]
-completeness_df.reset_index(inplace=True)
 display(completeness_df)
 
-# %%
+# %% electronic supplement
 
 print('Reading smoothed seismicity data ...')
 mark = time()
 smoothed_df_list = []
 for i, min_mag in enumerate(MIN_MAGS):
     layer_smoothed_df_list = []
-    for j, layer in pd.merge(completeness_df, LAYERS_DF).iterrows():
-        layer_smoothed_df = pd.read_csv(smoothed_data_files[i][j])
+    for layer_id, layer in LAYERS_DF.join(completeness_df,
+                                          on=['zmin', 'zmax']).iterrows():
+
+        layer_smoothed_df = pd.read_csv(smoothed_data_template %
+                                        (layer_id, min_mag))
         nu_mag = 'nu%s' % str(min_mag).replace('.', '_')
 
         rename_cols = {nu_mag: 'nu', 'lat': 'latitude', 'lon': 'longitude'}
         layer_smoothed_df.rename(columns=rename_cols, inplace=True)
 
-        layer_smoothed_df['layerid'] = layer['id']
+        layer_smoothed_df['layerid'] = layer_id
         layer_smoothed_df['mmin model'] = min_mag
         layer_smoothed_df['mmin'] = min_mag
         layer_smoothed_df['duration'] = (
@@ -123,8 +120,7 @@ for i, min_mag in enumerate(MIN_MAGS):
     smoothed_df_list.append(layer_smoothed_df)
 
 smoothed_df = pd.concat(smoothed_df_list)
-smoothed_df = sort_and_reindex(smoothed_df)
-mark = time()
+smoothed_df.sort_values(['layerid', 'mmin model', 'longitude', 'latitude'])
 smoothed_df['geometry'] = [Point(longitude, latitude)
                            for longitude, latitude
                            in zip(smoothed_df['longitude'],
@@ -135,13 +131,13 @@ display(pd.concat((smoothed_df.head(), smoothed_df.tail())))
 print('Read %d point sources from %d files [%.0f s]\n' %
       (len(smoothed_df), len(MIN_MAGS)*len(LAYERS_DF), time() - mark))
 
-# %%
+# %% plot histograms
 
 prop = 'lambda'
-smoothed_hist_pdf = os.path.join(smoothed_model_path,
-                                 'smoothed_%s_histograms.png' % prop)
+smoothed_hist_image = os.path.join(smoothed_model_path,
+                                   'smoothed_%s_histograms.png' % prop)
 print('Plotting histograms of %s:\n\t %s' %
-      (prop, os.path.abspath(smoothed_hist_pdf)))
+      (prop, os.path.abspath(smoothed_hist_image)))
 fig, axes = plt.subplots(nrows=len(MIN_MAGS), ncols=1,
                          figsize=(6, 3*len(MIN_MAGS)), sharex=True)
 fig.subplots_adjust(hspace=0.1)
@@ -153,11 +149,11 @@ for min_mag, ax in zip(MIN_MAGS, axes):
     ax.hist(data, label=labels, stacked=True, bins=np.arange(-7, 0, 0.5))
     ax.set_ylabel(('%s%g' % (prop, min_mag)).replace('.', '_'))
 axes[0].legend(loc='upper left')
-fig.savefig(smoothed_hist_pdf, dpi=300, transparent=True,
+fig.savefig(smoothed_hist_image, dpi=300, transparent=True,
             bbox_inches='tight', pad_inches=0.1)
 plt.close(fig)  # comment out line to view
 
-# %%
+# %% points in zones
 
 print('Associate point sources in areal zones with those zones ...')
 # quick, requires no transformations
@@ -165,15 +161,15 @@ start = time()
 
 smoothed_df['distance'] = np.inf
 smoothed_dfs = []
-for layer_id in LAYERS_DF['id']:
+for layer_id in LAYERS_DF.index:
     smoothed_layer_df = smoothed_df[smoothed_df['layerid'] == layer_id]
     areal_layer_df = areal_df[areal_df['layerid'] == layer_id]
     smoothed_layer_df = gpd.sjoin(
-        smoothed_layer_df, areal_layer_df[['zoneid', 'a', 'geometry']],
+        smoothed_layer_df, areal_layer_df[['a', 'geometry']],
         how='left')
     smoothed_dfs.append(smoothed_layer_df)
 smoothed_df = pd.concat(smoothed_dfs)
-smoothed_df.drop(columns='index_right', inplace=True)
+smoothed_df.rename({'index_right': 'zoneid'}, axis=1, inplace=True)
 
 smoothed_df['in zoneid'] = smoothed_df['zoneid'].copy()
 
@@ -182,7 +178,7 @@ smoothed_df.loc[assigned, 'distance'] = 0
 print('Spatial join accounted for %.0f%% of sources [%.0f s]' %
       (100*len(smoothed_df[assigned])/len(smoothed_df), time() - start))
 
-# In[]:
+# %% points nearest to zones
 
 print('Find nearest areal zones for remaining points ...')
 start = time()
@@ -191,7 +187,7 @@ active_areal_df['polygon'] = [
                for lat, lon in zip(*zone.geometry.exterior.coords.xy)])
     for _, zone in active_areal_df.iterrows()]
 
-unassigned_df = smoothed_df.loc[~assigned]
+unassigned_df = smoothed_df.loc[~assigned].copy()
 distances = np.full((len(unassigned_df),
                      len(active_areal_df)), np.inf)
 for i, area_series in active_areal_df.iterrows():
@@ -210,7 +206,7 @@ print('Nearest zone required for %.0f%% of sources [%.0f s]' %
 
 smoothed_df = pd.concat((smoothed_df[assigned], unassigned_df))
 
-# %%
+# %% investigate a zone
 
 zone_id = 118
 min_mag = 4.5
@@ -220,17 +216,18 @@ fmd_cols = ['zoneid', 'layerid', 'a', 'b', 'stdb', 'mmax', 'stdmmax',
             'mmin', 'geometry']
 
 display(active_areal_df[
-    active_areal_df['zoneid'] == zone_id][fmd_cols].squeeze())
+    active_areal_df.index == zone_id][fmd_cols].squeeze())
 print('Points in zone %d: %d' % (zone_id, n_points_zone))
 
-# In[]:
+# %% commentary
 
 # The truncated Gutenberg-Richter magnitude-frequency distribution in
 # OpenQuakeimplements
 # $$\lambda(m \geq M) = 10^{a - b m} = e^{\alpha - \beta m}$$
 # where, since $\lambda$ is an annual rate, $10^a$ is too. If we ignore
 # events below some threshold $m_{min}$ then the annual rate becomes
-# $$\lambda(m \geq m_{min}) = e^{\alpha - \beta m_{min}} e^{-\beta (m - m_{min})} = \nu e^{-\beta (m - m_{min})} $$
+# $$\lambda(m \geq m_{min}) = e^{\alpha - \beta m_{min}}
+# e^{-\beta (m - m_{min})} = \nu e^{-\beta (m - m_{min})} $$
 # Thus to compute the $a$ value required by OpenQuake from the activity
 # rate $\lambda$ for a given magnitude threshold, we must also take into
 # account the $b$ value for the zone:
@@ -238,7 +235,7 @@ print('Points in zone %d: %d' % (zone_id, n_points_zone))
 # If instead what is provided is event counts $\nu$ over some catalog
 # duration $T$, then one simply computes $\lambda = \nu/T$
 
-# %%
+# %% copy parameters of nearest areal zone
 
 print('For each point source, copy parameters of nearest areal zone')
 columns_to_copy = ['zoneid', 'zmax', 'zmin', 'tectonic subregion',
@@ -250,7 +247,7 @@ smoothed_df = smoothed_df.merge(active_areal_df[columns_to_copy],
 
 pd.concat((smoothed_df.head(), smoothed_df.tail()))
 
-# %%
+# %% estimate activity rates
 
 # computing the a-value for each point is now easy
 smoothed_df['a'] = (np.log10(smoothed_df['lambda']) +
@@ -270,8 +267,8 @@ for min_mag, min_mag_df in smoothed_df.groupby('mmin model'):
                              'lambda': smoothed_lambda},
                     inplace=True)
     stats_df['zoneid'] = stats_df.index
-    areal_df = areal_df.join(stats_df, on='zoneid', rsuffix='_stats')
-    areal_df.drop(columns=['zoneid_stats'], inplace=True)
+    areal_df = pd.merge(areal_df, stats_df, left_index=True, right_on='zoneid')
+    areal_df.drop(columns=['zoneid'], inplace=True)
 
     areal_df['smoothed a ' + str(min_mag)] = (
         np.log10(areal_df[smoothed_lambda]) +
@@ -282,7 +279,7 @@ for min_mag, min_mag_df in smoothed_df.groupby('mmin model'):
         10**(areal_df['a'] - areal_df['b']*min_mag)).round(4)
     areal_df[smoothed_lambda] = areal_df[smoothed_lambda].round(4)
 
-# %%
+# %% check for unassigned parameters
 
 display_drop = ['zmax', 'zmin', 'aspect ratio', 'msr',
                 'rake', 'dip', 'strike', 'stdb', 'stdmmax']
@@ -301,31 +298,20 @@ if not no_b_df.empty:
 if not (no_mmax_df.empty and no_b_df.empty and no_zoneid_df.empty):
     print("SUCCESS: No points with unassigned MFD or zone")
 
-# %%
-
-display(pd.concat((smoothed_df.head(),
-                   smoothed_df.tail())).drop(display_drop, axis=1))
-
-# %%
+# %% investigate a point
 
 this_lon_lat = ((smoothed_df['longitude'] == 98.0) &
                 (smoothed_df['latitude'] == 3.8))
 display(smoothed_df[this_lon_lat].drop(display_drop, axis=1))
 
-# %%
 
-areal_display_drop = display_drop + \
-    ['polygon', 'tectonic zone', 'concerns', 'layerid']
-pd.concat((areal_df.head(), areal_df.tail())).drop(areal_display_drop,
-                                                   axis=1)
-
-# %%
+# %% write summary
 
 activity_file = os.path.join(
     smoothed_model_path, 'activity_rates_by_zone_areal_vs_smoothed.csv')
 print('Writing activity summary to:\n\t%s' % activity_file)
 activity_df = areal_df[[
-    'zoneid', 'layerid', 'areal lambda 4.5', 'areal lambda 5.5',
+    'layerid', 'areal lambda 4.5', 'areal lambda 5.5',
     'smoothed lambda 4.5', 'smoothed lambda 5.5', 'smoothed N 4.5',
     'smoothed N 5.5']]
 activity_df = activity_df.rename(
@@ -336,9 +322,9 @@ activity_df = activity_df.rename(
              'smoothed N 4.5': 'N 4.5',
              'smoothed N 5.5': 'N 5.5'})
 
-activity_df = activity_df.sort_values('zoneid').reset_index(drop=True)
+activity_df = activity_df.sort_index().reset_index(drop=True)
 
-for layer_id in LAYERS_DF['id']:
+for layer_id in LAYERS_DF.index:
     series = pd.Series(activity_df[
         activity_df['layerid'] == layer_id].sum(axis=0))
     series['layerid'] = layer_id
@@ -356,33 +342,27 @@ activity_df['ratio 5.5'] = (activity_df['smoothed 5.5'] /
 
 activity_df.to_csv(activity_file)
 
-# %%
-
-# try computing layers directly
+# %% compare areal and smoothed model activity rates layer by layer
 layer_activity_df = pd.DataFrame()
-layer_activity_df.index.name = 'layerid'
-
-for layer_id in LAYERS_DF['id']:
+for layer_id in LAYERS_DF.index:
     in_areal_layer = areal_df['layerid'] == layer_id
     in_smoothed_layer = smoothed_df['layerid'] == layer_id
     in_a_zone = smoothed_df['distance'] == 0
 
-    layer_series = pd.Series()
+    layer_series = pd.Series(name=layer_id)
     for min_mag in MIN_MAGS:
 
         this_model = smoothed_df['mmin model'] == min_mag
-        layer_series = layer_series.append(pd.Series({
-            'areal ' + str(min_mag):
-                (10**(areal_df[in_areal_layer]['a'] -
-                      areal_df[in_areal_layer]['b'] *
-                      min_mag)).sum().round(1),
-            'smoothed ' + str(min_mag):
-                smoothed_df[in_smoothed_layer &
-                            this_model &
-                            in_a_zone]['lambda'].sum().round(1),
-            }, name=layer_id))
-    layer_activity_df = layer_activity_df.append(layer_series,
-                                                 ignore_index=True)
+        layer_series['areal ' + str(min_mag)] = (
+            10**(areal_df[in_areal_layer]['a'] -
+                 areal_df[in_areal_layer]['b']*min_mag)).sum().round(1)
+        layer_series['smoothed ' + str(min_mag)] = (
+            smoothed_df[in_smoothed_layer & this_model & in_a_zone]['lambda']
+            .sum().round(1))
+
+    layer_activity_df = layer_activity_df.append(layer_series)
+
+layer_activity_df.index.name = 'layerid'
 
 layer_activity_df = layer_activity_df.append(pd.Series(
     layer_activity_df.sum(axis=0), name='Total'))
@@ -393,7 +373,7 @@ for min_mag in MIN_MAGS:
 
 display(layer_activity_df)
 
-# %%
+# %% read catalogue and plot fore/main/aftershocks
 
 catalogue_df = pd.read_csv('../Catalogue/SACAT1900_2008v2.txt', sep='\t')
 fig, ax = plt.subplots(figsize=(3, 3))
@@ -402,34 +382,33 @@ fig.savefig('ShockTypes.png', transparent=True, bbox_inches='tight',
             pad_inches=0.1)
 plt.close(fig)  # comment out line to view
 
-# %%
-
-# augment catalogue with zone and layer info
+# %% augment catalogue with zone and layer info
 catalogue_df['geometry'] = [Point(lon, lat)
                             for lon, lat in zip(catalogue_df['LON'],
                                                 catalogue_df['LAT'])]
 layer_catalogue_gdfs = []
-for _, layer in LAYERS_DF.iterrows():
+for layer_id, layer in LAYERS_DF.iterrows():
     layer_catalogue_gdf = gpd.GeoDataFrame(catalogue_df[
         (catalogue_df['DEPTH'] >= layer['zmin']) &
         (catalogue_df['DEPTH'] < layer['zmax'])], crs='WGS84')
     layer_areal_gdf = gpd.GeoDataFrame(
-        areal_df[areal_df['layerid'] == layer['id']]
-        [['geometry', 'zoneid', 'layerid']], crs='WGS84')
+        areal_df[areal_df['layerid'] == layer_id]
+        [['geometry', 'layerid']], crs='WGS84')
     layer_catalogue_gdfs.append(gpd.sjoin(layer_catalogue_gdf,
                                           layer_areal_gdf, how='left'))
 catalogue_df = pd.concat(layer_catalogue_gdfs).drop('geometry')
-
-# %%
+catalogue_df.rename(columns={'index_right': 'zoneid',
+                             'layerid_right': 'layerid'}, inplace=True)
+catalogue_df.drop('layerid', axis=1, inplace=True)
 
 display(pd.concat((catalogue_df.head(),
                    catalogue_df.tail())))
 
-# %%
+# %% compute activity rates from catalogue
 
-# for each minimum magnitude and layer work out the activity rates
 catalogue_activity_df = pd.DataFrame()
-for _, layer in pd.merge(completeness_df, LAYERS_DF).iterrows():
+for layer_id, layer in LAYERS_DF.join(completeness_df,
+                                      on=['zmin', 'zmax']).iterrows():
     layer_results = pd.Series()
     for min_mag in reversed(MIN_MAGS):
         above_thresh = catalogue_df['MAG_MW'] >= min_mag
@@ -452,8 +431,6 @@ for _, layer in pd.merge(completeness_df, LAYERS_DF).iterrows():
 catalogue_activity_df = catalogue_activity_df.append(pd.Series(
     catalogue_activity_df.sum(axis=0), name='Total'))
 
-# %%
-
 summary_tex = os.path.join(
     smoothed_model_path,
     'activity_rates_by_layer_areal_vs_smoothed_vs_catalogue.tex')
@@ -474,14 +451,14 @@ multi_cols = pd.MultiIndex.from_tuples([
 activity_df = activity_df[multi_cols]
 activity_df.to_latex(summary_tex, index_names=True,)
 
-# %%
+# %% plot histograms
 
 PLOT_PARAMS = ['a', 'b', 'nu', 'lambda']
 LOG_PARAMS = ['nu', 'lambda']
 
 for param in PLOT_PARAMS:
-    file_name = ("Histogram_%s.png" % param)
-    print('Plotting histograms of %s:\n\t%s' % (param, file_name))
+    histogram_image = ("Histogram_%s.png" % param)
+    print('Plotting histograms of %s:\n\t%s' % (param, histogram_image))
 
     all_data = smoothed_df[param].values
     if param in LOG_PARAMS:
@@ -493,7 +470,7 @@ for param in PLOT_PARAMS:
                              figsize=(6.5, 8.5), squeeze=False,
                              sharex=True, sharey=True)
     fig.subplots_adjust(hspace=0, wspace=0)
-    for layer_id, row_axes in zip(LAYERS_DF['id'], axes):
+    for layer_id, row_axes in zip(LAYERS_DF.index, axes):
         for min_mag, ax in zip(MIN_MAGS, row_axes):
             annotate('layer %d mmin %g' % (layer_id, min_mag),
                      loc='upper right', ax=ax, prop={'size': 8})
@@ -510,16 +487,16 @@ for param in PLOT_PARAMS:
     for ax in axes[:, -1]:
         ax.set_xlabel(param)
 
-    fig.savefig(file_name, dpi=150, transparent=True,
+    fig.savefig(histogram_image, dpi=150, transparent=True,
                 bbox_inches='tight', pad_inches=0.1)
     plt.close(fig)  # comment out line to view
 
-# %%
+# %% plot maps
 
 for param in PLOT_PARAMS:
 
-    file_name = ("SmoothedEquivalentMap_%s.png" % param)
-    print('Plotting map of %s:\n\t%s' % (param, file_name))
+    map_image = ("SmoothedEquivalentMap_%s.png" % param)
+    print('Plotting map of %s:\n\t%s' % (param, map_image))
 
     all_data, longitudes, latitudes = extract_param(smoothed_df, param)
     if param in LOG_PARAMS:
@@ -535,7 +512,7 @@ for param in PLOT_PARAMS:
                              figsize=(6.5, 8.5), squeeze=False,
                              sharex=True, sharey=True)
     fig.subplots_adjust(hspace=0, wspace=0)
-    for layer_id, row_axes in zip(LAYERS_DF['id'], axes):
+    for layer_id, row_axes in zip(LAYERS_DF.index, axes):
         for min_mag, ax in zip(MIN_MAGS, row_axes):
             annotate('layer %d mmin %g' % (layer_id, min_mag),
                      loc='lower left', ax=ax)
@@ -557,7 +534,7 @@ for param in PLOT_PARAMS:
     fig.colorbar(image, ax=axes.ravel().tolist(), label=param,
                  shrink=1/len(LAYERS_DF), ticks=ticks)
 
-    fig.savefig(file_name, dpi=300, transparent=True,
+    fig.savefig(map_image, dpi=300, transparent=True,
                 bbox_inches='tight', pad_inches=0.1)
     plt.close(fig)  # comment out line to view
 
@@ -566,22 +543,21 @@ for param in PLOT_PARAMS:
 res_deg = 1
 thinned_df = smoothed_df.loc[
     np.isclose(np.remainder(smoothed_df['latitude'], res_deg), 0) &
-    np.isclose(np.remainder(smoothed_df['longitude'], res_deg), 0)]
+    np.isclose(np.remainder(smoothed_df['longitude'], res_deg), 0)].copy()
 model_basename = ' '.join((os.path.split(smoothed_model_path)[1],
                            smoothed_source_data_file))
 print('Thinning to %g° spacing reduces number of points from %d to %d.'
       % (res_deg, len(smoothed_df), len(thinned_df)))
 
-# %%
+# %% write to CSV
 
 mark = time()
-points2csv(thinned_df, model_basename + ' thinned', MIN_MAGS,
-           LAYERS_DF['id'])
-points2csv(smoothed_df, model_basename, MIN_MAGS, LAYERS_DF['id'])
+points2csv(thinned_df, model_basename + ' thinned')
+points2csv(smoothed_df, model_basename)
 
 print('Finished writing CSV source models [%.0f s]' % (time() - mark))
 
-# %%
+# %% write to TSV (to be deprecated)
 
 # write point source models without twinning to TSV file
 # for min_mag in MIN_MAGS:
@@ -598,15 +574,9 @@ print('Finished writing CSV source models [%.0f s]' % (time() - mark))
 #        smoothed_source_data_file, min_mag)
 #    smoothed_output_df.to_csv(smoothed_tsv, sep='\t', index=False)
 
-# %%
+# %% write to NRML
 
 mark = time()
-points2nrml(thinned_df, model_basename + ' thinned', MIN_MAGS)
-points2nrml(smoothed_df, model_basename, MIN_MAGS)
+points2nrml(thinned_df, model_basename + ' thinned', by='mmin model')
+points2nrml(smoothed_df, model_basename, by='mmin model')
 print('Finished writing NRML source models [%.0f s]' % (time() - mark))
-
-# %%
-
-
-#if __name__ == '__main__':
-#    sys.exit(main())

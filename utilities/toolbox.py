@@ -1,4 +1,4 @@
-"""
+'''
 General-purpose helper module.
 
 Module exports:
@@ -12,11 +12,13 @@ Module exports:
 :func:`array2compact`
 :class:`Structure`
 :class:`ChangedDIr`
-"""
+'''
 
 import os
 import fnmatch
+
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.offsetbox import AnchoredText
 
@@ -79,7 +81,7 @@ E_SERIES = {
 
 
 def stdval(value, num=96, bump=0, preferred=None):
-    """
+    '''
     Computes nearest values in a standard-value series.
 
     For non-standard E-numbers, Renard numbers are used. Note that the
@@ -102,7 +104,7 @@ def stdval(value, num=96, bump=0, preferred=None):
     num=24 would not give the correct E24 series if it weren't overridden.
 
     :returns output: Nearest standard values after rounding
-    """
+    '''
 
     # we're going to need to do some elementwise operations
     x_type = type(value)
@@ -199,12 +201,11 @@ def stdval(value, num=96, bump=0, preferred=None):
 
 
 def logspace(start, stop, num=12):
-    """
+    '''
     Computes logarithmically spaced vector of preferred numbers.
 
     See stdval.
-    """
-
+    '''
     log_start = np.floor(np.log10(start))
     log_stop = np.ceil(np.log10(stop))
     n_total = num*(log_stop-log_start) + 1
@@ -212,9 +213,21 @@ def logspace(start, stop, num=12):
     return temp[np.bitwise_and(temp >= start, temp <= stop)]
 
 
+def linspace(start, stop, target=30):
+    '''
+    Computes nicely-aligned bin edges for a target number of bins.
+
+    See stdval.
+    '''
+    step = stdval((stop - start)/target, num=3)
+    start = np.floor(start/step)*step
+    stop = np.ceil(stop/step)*step
+    return np.arange(start, stop + step, step)
+
+
 def remove_chartjunk(axis, spines, grid=None, ticklabels=None,
                      show_ticks=False):
-    """
+    '''
     Removes "chartjunk", such as extra lines of axes and tick marks.
 
     If grid="output" or "input", will add a white grid at the "output" or
@@ -222,7 +235,7 @@ def remove_chartjunk(axis, spines, grid=None, ticklabels=None,
 
     If ticklabels="output" or "input", or ['input', 'output'] will remove
     ticklabels from that axis
-    """
+    '''
 
     all_spines = ['top', 'bottom', 'right', 'left', 'polar']
     for spine in spines:
@@ -287,27 +300,27 @@ def remove_chartjunk(axis, spines, grid=None, ticklabels=None,
 
 
 def wrap(values, limit=180.0):
-    """
+    '''
     Wraps to +/- specified limit, defaulting to 180 (i.e. degrees)
 
     :param values: number or numpy.array to be wrapped
     :param limit: limiting value (+/-)
-    """
+    '''
     # use of negative modulus ensures -limit is wrapped to +limit
     return (values - limit) % (-2*limit) + limit
 
 
 def summarize(obj):
-    """Summarizes the attributes of an object."""
+    '''Summarizes the attributes of an object.'''
     print('\n'.join("%s: %s" % (item, getattr(obj, item))
                     for item in dir(obj) if ((len(item) == 0) or
                                              (item[0] != '_'))))
 
 
 def is_numeric(value):
-    """
+    '''
     Check if value is castable to float.
-    """
+    '''
     try:
         float(value)
         return True
@@ -316,9 +329,9 @@ def is_numeric(value):
 
 
 def df_compare(df_new, df_ref):
-    """
+    '''
     Compares two pandas.DataFrame objects by computing their difference.
-    """
+    '''
 
     numeric = np.array([[is_numeric(item)
                          for item in row[1]]
@@ -344,7 +357,7 @@ _NUMPY_STR_BLOAT = [
 
 
 def array2compact(array, separator=','):
-    """
+    '''
     Returns a compact string representation of an array as nested lists.
 
     >>> model = np.array([[123.456, 123.000000001], [2345., 345.6789]])
@@ -355,7 +368,7 @@ def array2compact(array, separator=','):
     >>> print array2compact(model)
         [[123.456, 123.], [2345., 345.6789]]
 
-    """
+    '''
 
     compact = np.array2string(array, separator=separator)
     compact = ' '.join(compact.split())
@@ -365,6 +378,9 @@ def array2compact(array, separator=','):
 
 
 def limit_precision(array, sig_figs=5):
+    '''
+    Round to given number of significant figures.
+    '''
     shape = array.shape
     fmt = '%.' + str(sig_figs) + 'g'
     values = np.array([float(fmt % x) for x in array.ravel()])
@@ -373,17 +389,17 @@ def limit_precision(array, sig_figs=5):
 
 class Structure(object):
     # pylint: disable=R0903
-    """
+    '''
     Is this a dangerous hack? It certainly is useful ...
-    """
+    '''
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
 
 
 class ChangedDir(object):  # pylint: disable-msg=R0903
-    """
+    '''
     Context manager for changing the current working directory
-    """
+    '''
     def __init__(self, new_path):
         self.new_path = os.path.expanduser(new_path)
         self.saved_path = None
@@ -394,6 +410,7 @@ class ChangedDir(object):  # pylint: disable-msg=R0903
 
     def __exit__(self, etype, value, traceback):
         os.chdir(self.saved_path)
+
 
 LOC_CODE = {
     'upper right': 1,
@@ -409,10 +426,10 @@ LOC_CODE = {
 }
 
 
-def annotate(text, loc='upper right', ax=None, frameon=False):
-    """
+def annotate(text, loc='upper right', ax=None, frameon=False, prop=None):
+    '''
     Adds text to current or specified axis using legend location codes
-    """
+    '''
     if ax is None:
         ax = plt.gca()
 
@@ -421,13 +438,54 @@ def annotate(text, loc='upper right', ax=None, frameon=False):
         print("'%s' not in %s: defaulting to '%s'" % (
             loc, LOC_CODE.keys(), default_loc))
         loc = default_loc
-    ax.add_artist(AnchoredText(text, loc=LOC_CODE[loc], frameon=frameon))
+    if prop:
+        ax.add_artist(AnchoredText(text, loc=LOC_CODE[loc], frameon=frameon,
+                                   prop=prop))
+    else:
+        ax.add_artist(AnchoredText(text, loc=LOC_CODE[loc], frameon=frameon))
 
 
 def find_files(pattern, path):
+    '''
+    Find files in a path matching a pattern.
+    '''
     result = []
-    for root, dirs, files in os.walk(path):
+    for root, _, files in os.walk(path):
         for name in files:
             if fnmatch.fnmatch(name, pattern):
                 result.append(os.path.join(root, name))
     return result
+
+
+def great_circle_distance_m(lat1, lon1, lat2, lon2, radius_m=6371e3):
+    '''
+    A vectorized Haversine formula.
+
+    Arguments
+    ---------
+    lat1, lon1, lat2, lon2: float or numpy `~numpy.array`
+        pairs of coordinates in degrees
+
+    Returns
+    -------
+    float
+        distance in km
+    '''
+    lat1, lon1, lat2, lon2 = map(np.radians, [lat1, lon1, lat2, lon2])
+
+    return 2*radius_m*np.arcsin(
+        np.sqrt((np.sin((lat2 - lat1)/2)**2 +
+                 np.sin((lon2 - lon1)/2)**2*np.cos(lat1)*np.cos(lat2))))
+
+
+def df_diff(df1, df2, column):
+    '''
+    Find the differences between two dataframes, returning all rows from
+    df1 which don't have the named column in common with df2.
+    '''
+    df1 = pd.DataFrame(df1)
+    df2 = pd.DataFrame(df2)
+    df_merge = pd.merge(df1[[column]], df2[[column]], on=column)
+    matches = [index for index, value in df1[column].iteritems()
+               if value in df_merge[column].values]
+    return df1.drop(matches)

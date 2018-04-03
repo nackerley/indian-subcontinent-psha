@@ -27,14 +27,10 @@ from more_itertools import unique_everseen
 
 from obspy.imaging.beachball import beachball, aux_plane
 
-from openquake.hmtk.plotting.mapping import HMTKBaseMap
-from openquake.hazardlib.nrml import to_python
-from openquake.hmtk.sources.source_model import mtkSourceModel
-
 from source_model_tools import (
-    PseudoCatalogue, read_polygons, focal_mech, faulting_style, df2kml,
-    df2nrml, areal2csv, SEISMICITY_ALIASES)
-from toolbox import wrap, annotate
+    read_polygons, focal_mech, faulting_style, df2nrml, areal2csv,
+    SEISMICITY_ALIASES)
+from toolbox import wrap
 
 pd.set_option('mode.chained_assignment', 'raise')
 
@@ -394,82 +390,11 @@ catalogue_activity_df = catalogue_activity_df.append(pd.Series(
 
 areal2csv(areal_df, AREAL_SOURCE_MODEL_BASE)
 
-# %% write TSV
-
-# print('Writing areal source model TSV table with zones twinned by '
-#      'magnitude: ' + AREAL_SOURCE_MODEL_BASE + '.tsv')
-# areal_output_df = sort_and_reindex(add_name_id(
-#    twin_source_by_magnitude(areal_df)).drop(
-#        ['polygon'], axis=1))
-# areal_output_df.to_csv(AREAL_SOURCE_MODEL_BASE + '.tsv', sep='\t',
-#                       index=False, float_format='%.12g')
-# areal_output_df = sort_and_reindex(add_name_id(
-#    areal_df).drop(['polygon', 'geometry'], axis=1))
-# areal_output_df.to_csv(AREAL_SOURCE_MODEL_BASE + '_no_twin.tsv',
-#                       sep='\t', index=False, float_format='%.12g')
-
-# %% write KML
-# TODO: deprecate in favour of CSV format by weeding KML out of QGIS file(s)
-
-mark = time()
-df2kml(areal_df, AREAL_SOURCE_MODEL_BASE, by='layerid')
-print('Finished writing KML source models [%.0f s]' % (time() - mark))
-
 # %% write NRML
 
 mark = time()
 areal_source_model = df2nrml(areal_df, AREAL_SOURCE_MODEL_BASE)
 print('Finished writing NRML source models [%.0f s]' % (time() - mark))
-
-
-# %% map focal mechanisms
-
-print('\nPlot maps of dominant mechanisms in each zone')
-mark = time()
-map_config = {'min_lon': 60, 'max_lon': 105,
-              'min_lat': 0, 'max_lat': 40, 'resolution': 'l'}
-
-print('Reading:\n\t' + os.path.abspath(AREAL_SOURCE_MODEL_BASE + '.xml'))
-areal_source_model = to_python(AREAL_SOURCE_MODEL_BASE + '.xml')
-
-pseudo_catalogue = PseudoCatalogue(areal_source_model)
-upper_depths = sorted(set(pseudo_catalogue.data['upper_depth']))
-lower_depths = sorted(set(pseudo_catalogue.data['lower_depth']))
-
-for upper_depth, lower_depth in zip(upper_depths, lower_depths):
-    axes_title = '%g-%g km' % (upper_depth, lower_depth)
-    basemap = HMTKBaseMap(map_config, '', lat_lon_spacing=5)
-
-    selected_sources = [source
-                        for group in areal_source_model for source in group
-                        if source.upper_seismogenic_depth == upper_depth]
-    print('Mapping %d sources: %s' % (len(selected_sources), axes_title))
-
-    selected_catalogue = PseudoCatalogue(areal_source_model,
-                                         select={'upper_depth': upper_depth})
-    model = mtkSourceModel(identifier=axes_title,
-                           sources=selected_sources)
-    basemap.add_source_model(model, overlay=True, area_border='0.5')
-    basemap.add_focal_mechanism(selected_catalogue, magnitude=False)
-
-    ax = basemap.fig.gca()
-    annotate(axes_title, loc='lower left', ax=ax)
-    for _, zone in selected_catalogue.data.iterrows():
-        x, y = basemap.m(zone.longitude, zone.latitude)
-        ax.annotate(s=zone.id.replace('z', ''), xy=(x, y), color='green',
-                    xytext=(0, 10), textcoords='offset points', zorder=100,
-                    fontsize=8, fontweight='bold',
-                    horizontalalignment='center')
-
-    file_name = 'ArealModelFocalMechanisms%s.png' % axes_title.replace(' ', '')
-    print('Writing:\n\t' + os.path.abspath(file_name))
-    # basemap.fig.savefig(file_name, dpi=300, transparent=False,
-    #                     bbox_inches='tight', pad_inches=0.1)
-
-plt.close('all')  # uncomment to view
-print('Generated maps of %d areal zones at %d depths (%.0f s)' %
-      (len([source for group in areal_source_model for source in group]),
-       len(upper_depths), time() - mark))
 
 
 # %% write SVG baechballs for QGIS

@@ -28,8 +28,7 @@ from matplotlib.colors import LogNorm, Normalize
 from openquake.hazardlib import geo
 
 from source_model_tools import (
-    sort_and_reindex, csv2areal, points2csv, points2nrml, extract_param,
-    MyPolygon)
+    csv2areal, points2csv, points2nrml, extract_param, MyPolygon)
 from toolbox import annotate, logspace, linspace
 
 # %% constants
@@ -556,23 +555,6 @@ points2csv(thinned_df, model_basename + ' thinned')
 points2csv(smoothed_df, model_basename)
 
 print('Finished writing CSV source models [%.0f s]' % (time() - mark))
-
-# %% write to TSV (to be deprecated)
-
-# write point source models without twinning to TSV file
-# for min_mag in MIN_MAGS:
-#    smoothed_output_df = smoothed_df[smoothed_df['mmin model'] == min_mag]
-#    smoothed_output_df = sort_and_reindex(
-#        add_name_id(smoothed_output_df))
-#    smoothed_output_df.drop(['mmin model'], axis=1, inplace=True)
-#    smoothed_output_df['lambda'] = limit_precision(
-#        smoothed_output_df['lambda'].values)
-#    smoothed_output_df['a'] = limit_precision(
-#        smoothed_output_df['a'].values)
-#    smoothed_tsv = '%s_%s_mmin_%g.tsv' % (
-#        os.path.split(smoothed_model_path)[1],
-#        smoothed_source_data_file, min_mag)
-#    smoothed_output_df.to_csv(smoothed_tsv, sep='\t', index=False)
 
 # %% write to NRML
 

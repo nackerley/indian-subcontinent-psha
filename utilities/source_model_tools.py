@@ -8,20 +8,15 @@ Most of these functions are utilities specific to Nath & Thingbaijam (2012).
 import os
 import re
 import ast
-import gzip
-import shutil
 from io import StringIO
 from copy import deepcopy
 from numbers import Number
-from collections import OrderedDict
 from itertools import product
-from lxml import etree
 
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
 from matplotlib.ticker import MultipleLocator
 
-import scipy
 import numpy as np
 import pandas as pd
 from shapely.wkt import loads, dumps
@@ -61,43 +56,14 @@ COORDINATE_ALIASES = {
     'lon': 'longitude',
     }
 
+ALL_REQUIRED = ['id', 'source_name', 'zmin', 'zmax', 'tectonic subregion',
+                'msr', 'strike', 'dip', 'rake', 'aspect ratio']
+
 COORDINATES = ['longitude', 'latitude']
+AREA_REQUIRED = ['geometry']
 
-
-class PseudoCatalogue:
-    """
-    ugly hack for plotting source mechanisms:
-    construct pseudo-catalogue from pandas.DataFrame
-    """
-    def __init__(self, source_model, select=None, exclude_id_endswith='m'):
-        rows = []
-        sources = [source for group in source_model for source in group]
-        for source in sources:
-
-            row = OrderedDict((
-                ('id', source.source_id),
-                ('depth', source.hypocenter_distribution.data[0][1]),
-                ('upper_depth', source.upper_seismogenic_depth),
-                ('lower_depth', source.lower_seismogenic_depth),
-                ('longitude', np.mean(source.polygon.lons)),
-                ('latitude', np.mean(source.polygon.lats)),
-                ('strike1', source.nodal_plane_distribution.data[0][1].strike),
-                ('dip1', source.nodal_plane_distribution.data[0][1].dip),
-                ('rake1', source.nodal_plane_distribution.data[0][1].rake),
-                ('magnitude', 2.5*source.get_min_max_mag()[1]),
-                ))
-
-            if row['id'].endswith(exclude_id_endswith):
-                continue
-
-            if select is None or \
-                    all(row[key] == value for key, value in select.items()):
-                rows.append(row)
-
-        self.data = pd.DataFrame(rows)
-
-    def get_number_tensors(self):
-        return len(self.data.magnitude)
+GR_REQUIRED = ['mmin', 'mmax', 'a', 'b']
+DISCRETE_REQUIRED = ['mmin', 'occurRates', 'magBin']
 
 
 class MyPolygon(geo.polygon.Polygon):
@@ -167,176 +133,6 @@ def read_polygons(file_name, rename=(('polygon coordinates', 'polygon'),)):
     return df
 
 
-class Kml(object):
-    '''Keyhole Markup Language object tree'''
-
-    def __init__(self, name=None):
-        self.root = etree.Element('kml',
-                                  xmlns='http://www.opengis.net/kml/2.2')
-        self.doc = etree.SubElement(self.root, 'Document')
-        self.write_extended = True
-        self.schema_id = None
-        if name is not None:
-            etree.SubElement(self.doc, 'name').text = name
-
-    def add_schema(self, df_table, schema_name, schema_id=None):
-        '''Adds a schema for ExtendedData based on a pandas.DataFrame'''
-        if schema_id is None:
-            schema_id = schema_name + 'Id'
-        schema = etree.SubElement(self.doc, 'Schema',
-                                  name=schema_name, id=schema_id)
-        field_names = df_table.columns.values.tolist()
-        kml_types = [self._KML_TYPES[dtype.name]
-                     for dtype in df_table.dtypes.values.tolist()]
-        for field_name, kml_type in zip(field_names, kml_types):
-            etree.SubElement(schema, 'SimpleField',
-                             type=kml_type, name=field_name)
-        self.schema_id = schema_id
-
-    def _add_placemark(self, name, desc, extra_data=None):
-        '''Adds a placemark to a KML tree'''
-        placemark = etree.SubElement(self.doc, 'Placemark')
-        etree.SubElement(placemark, 'name').text = str(name)
-        etree.SubElement(placemark, 'description').text = desc
-        if extra_data is not None and self.write_extended:
-            extended = etree.SubElement(placemark, 'ExtendedData')
-            if self.schema_id:
-                schema = etree.SubElement(extended, 'SchemaData',
-                                          schemaUrl='#' + self.schema_id)
-                for item in extra_data.keys():
-                    datum = etree.SubElement(schema, 'SimpleData', name=item)
-                    datum.text = str(extra_data[item])
-            else:
-                for item in extra_data.keys():
-                    datum = etree.SubElement(extended, 'Data', name=item)
-                    etree.SubElement(datum,
-                                     'value').text = str(extra_data[item])
-        return placemark
-
-    def add_point(self, name, desc, coord, extra_data=None):
-        '''Adds a point to a KML tree'''
-        coord = np.array(coord)
-        np.pad(coord, (0, 3 - coord.size),
-               'constant', constant_values=0)
-
-        placemark = self._add_placemark(name, desc, extra_data)
-        point = etree.SubElement(placemark, 'Point')
-        coord_string = ','.join(str(x) for x in coord)
-        etree.SubElement(point, 'coordinates').text = coord_string
-
-    def add_polygon(self, name, desc, coords, extra_data=None):
-        '''Adds a closed polygon to a KML tree'''
-        coords = np.array(coords)
-        np.pad(coords, ((0, 0), (0, 3 - coords.shape[1])),
-               'constant', constant_values=0)
-        if not all(coords[0] == coords[-1]):
-            coords = np.vstack((coords, coords[0]))
-        assert coords.shape[0] > 3
-
-        placemark = self._add_placemark(name, desc, extra_data)
-        polygon = etree.SubElement(placemark, 'Polygon')
-        boundary = etree.SubElement(polygon, 'outerBoundaryIs')
-        ring = etree.SubElement(boundary, 'LinearRing')
-        etree.SubElement(ring, 'tessellate').text = '1'
-        coord_string = ' '.join(','.join(str(x) for x in coord) + ',0'
-                                for coord in coords)
-        etree.SubElement(ring, 'coordinates').text = coord_string
-
-    def write(self, output_file, compress=False, compress_large=False):
-        '''
-        Writes tree to a KML file.
-
-        If resultin KML file is larger than 5 MiB it is compressed using GZIP
-        and '.gz' is appended to the file name.
-        '''
-        tree = etree.ElementTree(self.root)
-        tree.write(output_file, encoding='UTF-8', pretty_print=True,
-                   xml_declaration=True, with_tail=True)
-
-        if compress or (compress_large and
-                        (os.path.getsize(output_file) >
-                         0.5*scipy.constants.mebi)):
-            with open(output_file, 'rb') as f_in, \
-                    gzip.open(output_file + '.gz', 'wb') as f_out:
-                shutil.copyfileobj(f_in, f_out)
-            os.remove(output_file)
-            output_file = output_file + '.gz'
-
-        return output_file
-
-    # more numpy dtypes are possible but these seem to be the only ones
-    # automatically generated by pandas.read_csv
-    _KML_TYPES = {
-        'int64': 'int',
-        'float64': 'double',
-        'object': 'string'
-        }
-
-
-def source_df_to_kml_tree(df, layer_name, schema_name='SourceModelSchema'):
-    '''
-    Converts source description table to Keyhole Markup Language tree.
-
-    :param df: table of descriptions of sources
-    :type df: :class:`pandas.DataFrame`
-    :param str layer_name: used for layer naming in KML tree
-    :param str schema_name: name of schema to be declared in KML file
-    :returns: source description tree
-    :rtype: :class:`lxml.etree.ElementTree`
-    '''
-    kml = Kml(layer_name.replace('_', ' '))
-    kml.add_schema(df, schema_name)
-
-    point_source = get_source_class(df) is mtkPointSource
-
-    for zoneid, series in df.iterrows():
-
-        name = str(zoneid)
-        description = series.pop('tectonic subregion')
-        if point_source:
-            coords = [series.pop('longitude'), series.pop('latitude')]
-            kml.add_point(name, description, coords, series)
-        else:
-            geometry = series.pop('geometry')
-            if isinstance(geometry, str):
-                geometry = loads(geometry)
-            coords = list(zip(*geometry.exterior.coords.xy))
-            kml.add_polygon(name, description, coords, series)
-
-    return kml
-
-
-def source_df_to_kml(df, name, schema_name='SourceModelSchema'):
-    '''
-    Converts source description table to Keyhole Markup Language file.
-
-    File name is constructed from name by converting spaces to
-    underscores and appending '.kml'.
-
-    :param df: table of descriptions of sources
-    :type df: :class:`pandas.DataFrame`
-    :param str name: name of KML tree
-    :param str schema_name: name of schema to be declared in KML file
-    :returns str: file name
-    '''
-    kml = source_df_to_kml_tree(df, name, schema_name=schema_name)
-    file_name = name.replace(' ', '_') + '.kml'
-    print('Writing:\n\t' + os.path.abspath(file_name))
-    return kml.write(file_name)
-
-
-def df2kml(df, base_name, by='layerid'):
-    '''
-    Write groups of data to KML with added binwise rates.
-    '''
-    df = df.copy()
-    df = add_binwise_rates(df)
-    df = add_name_id(df)
-    for group_id, group_df in df.groupby(by):
-        source_df_to_kml(df=group_df.drop(['layerid'], axis=1),
-                         name='%s layer %d' % (base_name, group_id))
-
-
 def add_name_id(df):
     '''
     Add columns with short names and ids appropriate for NRML source models.
@@ -357,16 +153,6 @@ def add_name_id(df):
             'Source class %s not supported' % source_class.__name__)
 
     return df
-
-
-ALL_REQUIRED = ['id', 'source_name', 'zmin', 'zmax', 'tectonic subregion',
-                'msr', 'strike', 'dip', 'rake', 'aspect ratio']
-
-POINT_REQUIRED = ['longitude', 'latitude']
-AREA_REQUIRED = ['geometry']
-
-GR_REQUIRED = ['mmin', 'mmax', 'a', 'b']
-DISCRETE_REQUIRED = ['mmin', 'occurRates', 'magBin']
 
 
 def make_source(series, source_class, mag_bin_width=0.1):
@@ -448,14 +234,14 @@ def get_source_class(df):
     '''
     Determine source class based on presence of geometry vs. point coordinates.
     '''
-    if all(key in df.columns for key in POINT_REQUIRED):
+    if all(key in df.columns for key in COORDINATES):
         source_class = mtkPointSource
     elif all(key in df.columns for key in AREA_REQUIRED):
         source_class = mtkAreaSource
     else:
         raise ValueError(
             'Only area [%s] and point [%s] sources currently supported' %
-            (', '.join(POINT_REQUIRED), ', '.join(AREA_REQUIRED)))
+            (', '.join(COORDINATES), ', '.join(AREA_REQUIRED)))
 
     return source_class
 
@@ -516,7 +302,7 @@ def _check_columns(df):
     if missing:
         raise ValueError(
             'Missing required columns: ' + ', '.join(missing))
-    missing_point = [item for item in POINT_REQUIRED if item not in df.columns]
+    missing_point = [item for item in COORDINATES if item not in df.columns]
     missing_area = [item for item in AREA_REQUIRED if item not in df.columns]
     if missing_point and missing_area:
         raise ValueError(
@@ -561,7 +347,7 @@ def points2nrml(df, base_name, by=['mmin model'], fmt='mmin%g'):
     '''
     Write multiple pandas DataFrame of point source models to NRML.
     '''
-    df.sort_values(['mmin model', 'layerid'] + POINT_REQUIRED, inplace=True)
+    df.sort_values(['mmin model', 'layerid'] + COORDINATES, inplace=True)
 
     for index, group_df in df.groupby(by):
         model_name = base_name + ' ' + fmt % index
@@ -581,7 +367,7 @@ def points2csv(df, base_name, by=['mmin model', 'layerid'],
 
     _check_columns(df)
 
-    df.sort_values(by + POINT_REQUIRED, inplace=True)
+    df.sort_values(by + COORDINATES, inplace=True)
 
     for index, group_df in df.groupby(by):
         model_name = base_name + ' ' + fmt % index
@@ -612,7 +398,7 @@ def csv2points(base_name, by=['mmin model', 'layerid'],
 
     df['geometry'] = df['geometry'].apply(loads)
 
-    df.sort_values(by + POINT_REQUIRED, inplace=True)
+    df.sort_values(by + COORDINATES, inplace=True)
     df.reset_index(drop=True, inplace=True)
 
     return df
@@ -794,52 +580,6 @@ def add_binwise_rates(df, mag_start=5, mag_stop=8, mag_step=1):
                 np.log10(10**log_n_m_lo - 10**log_n_m_hi).round(2)
 
     return df
-
-
-def natural_keys(text):
-    '''
-    alist.sort_values(by=natural_keys) sorts strings in human order
-    http://nedbatchelder.com/blog/200712/human_sorting.html
-    (See Toothy's implementation in the comments)
-
-    FIXME: Delete as deprecated if no longer needed.
-    '''
-    def atoi(text):
-        '''Convert alphanumeric to integer if numeric'''
-        return int(text) if text.isdigit() else text
-
-    return [atoi(c) for c in re.split(r'(\d+)', text)]
-
-
-def sort_and_reindex(df_in, sort_columns=None):
-    '''
-    Standardize ordering, including by numeric string id.
-
-    FIXME: Delete as deprecated if no longer needed.
-    '''
-    # identify columns of interest
-    if sort_columns is None:
-        sort_columns = ['id', 'zoneid', 'layerid', 'longitude', 'latitude',
-                        'tectonic subregion', 'mmin']
-    all_columns = df_in.columns.tolist()
-    sort_columns = [item for item in sort_columns if item in all_columns]
-    other_columns = [item for item in all_columns if item not in sort_columns]
-    other_columns = sorted(other_columns)
-
-    # sort in different ways depending on columns present
-    if 'id' in sort_columns:
-        df_in['natural_key'] = [natural_keys(item) for item in df_in['id']]
-        df_out = df_in.sort_values('natural_key')
-        df_out.drop('natural_key', axis=1, inplace=True)
-    else:
-        df_out = df_in.sort_values(sort_columns)
-
-    # reindex and reorder columns
-    df_out.index = range(len(df_out))
-    df_out = df_out[sort_columns + other_columns]
-    df_out.is_copy = False
-
-    return df_out
 
 
 def extract_param(df, param, x='longitude', y='latitude'):

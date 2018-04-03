@@ -1,4 +1,4 @@
-longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,tectonic subregion,a,b,stdb,mmax,stdmmax,rake,dip,strike,aspect ratio,msr,name,id,logN_5.0-6.0,logN_6.0-7.0,logN_7.0-8.0
+longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,tectonic subregion,a,b,stdb,mmax,stdmmax,rake,dip,strike,aspect ratio,msr,source_name,id,logN_5.0-6.0,logN_6.0-7.0,logN_7.0-8.0
 63,29,0.0009,4.5,39,2.3077e-05,846.52,169.0,,300,180,subduction intraslab Himalayas,-0.85682,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,29N 63E 180-300 km depth,29N_63E_4,,,
 63,30,0.0029,4.5,39,7.4359e-05,767.13,169.0,,300,180,subduction intraslab Himalayas,-0.34867,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,30N 63E 180-300 km depth,30N_63E_4,,,
 64,29,0.0081,4.5,39,0.00020769,786.53,169.0,,300,180,subduction intraslab Himalayas,0.09742,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,29N 64E 180-300 km depth,29N_64E_4,-4.8,-5.64,-6.48

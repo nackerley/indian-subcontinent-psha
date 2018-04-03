@@ -1,4 +1,4 @@
-longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,tectonic subregion,a,b,stdb,mmax,stdmmax,rake,dip,strike,aspect ratio,msr,name,id,logN_5.0-6.0,logN_6.0-7.0,logN_7.0-8.0
+longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,tectonic subregion,a,b,stdb,mmax,stdmmax,rake,dip,strike,aspect ratio,msr,source_name,id,logN_5.0-6.0,logN_6.0-7.0,logN_7.0-8.0
 60,24,0.0002,4.5,45,4.4444e-06,14.213,95.0,,70,25,subduction interface,-1.1222,0.94,0.13,7.6,0.4,167,79,23,2,StrasserInterface,24N 60E 25-70 km depth,24N_60E_2,,,
 60,25,0.007,4.5,45,0.00015556,14.1,95.0,,70,25,subduction interface,0.42189,0.94,0.13,7.6,0.4,167,79,23,2,StrasserInterface,25N 60E 25-70 km depth,25N_60E_2,-4.48,-5.42,-7.16
 60,26,0.0219,4.5,45,0.00048667,13.983,95.0,,70,25,subduction interface,0.91723,0.94,0.13,7.6,0.4,167,79,23,2,StrasserInterface,26N 60E 25-70 km depth,26N_60E_2,-3.84,-4.78,-5.81

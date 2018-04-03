@@ -22,7 +22,6 @@ README.md
 *.lot
 *.out
 *.prj
-*.qgs
 *.qpj
 *.sbn
 *.sbx
@@ -38,6 +37,8 @@ README.md
 **/export/**/*.log
 **/build/
 **/stash/
+**/beachballs/
+**/Data/**/*.svg
 Faults/**/*.kml
 Faults/**/*.pdf
 Faults/**/*.txt
@@ -45,3 +46,6 @@ Faults/**/*.xml
 HazardOutputs/**/*.log
 HazardOutputs/**/*.xml
 HazardOutputs/**/*.csv
+*mmin*.xml
+*model_mmin*.csv
+Risk/*

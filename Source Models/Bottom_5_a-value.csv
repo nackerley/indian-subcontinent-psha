@@ -1,6 +1,6 @@
-,id,layerid,tectonic subregion,mmin,a,b,dip,magBin,mmax,msr,rake,region,stdb,stdmmax,strike
-21,z71,1.0,no seismicity,4.5,0.0,0.81,45,0.1,5.8,WC1994,90.0,Bay of Bengal & Arabian Sea,0.05,0.3,0
-26,z86,1.0,no seismicity,4.5,0.0,0.81,45,0.1,6.3,WC1994,90.0,"Sri Lanka, Laccadive Sea",0.05,0.2,0
-87,z924,1.0,stable shallow crust,4.5,1.58,0.63,45,0.1,6.2,WC1994,90.0,Peninsular India,0.1,0.3,0
-86,z923,1.0,stable shallow crust,4.5,2.51,0.73,45,0.1,6.0,WC1994,90.0,Peninsular India,0.06,0.3,0
-84,z921,1.0,stable shallow crust,4.5,2.53,0.76,26,0.1,7.0,WC1994,129.0,Peninsular India,0.07,0.4,283
+zoneid,layerid,a,b,stdb,mmax,stdmmax,faulting style,tectonic subregion,region
+71,1,0.0,0.81,0.05,5.8,0.3,strike-slip,no seismicity,Bay of Bengal & Arabian Sea
+86,1,0.0,0.81,0.05,6.3,0.2,strike-slip,no seismicity,"Sri Lanka, Laccadive Sea"
+924,1,1.58,0.63,0.1,6.2,0.3,strike-slip,stable shallow crust,Peninsular India
+923,1,2.51,0.73,0.06,6.0,0.3,strike-slip,stable shallow crust,Peninsular India
+921,1,2.53,0.76,0.07,7.0,0.4,reverse,stable shallow crust,Peninsular India

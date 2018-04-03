@@ -1,6 +1,6 @@
-,id,layerid,tectonic subregion,mmin,a,b,dip,magBin,mmax,msr,rake,region,stdb,stdmmax,strike
-53,z137,2.0,subduction interface,4.5,7.33,1.57,89,0.1,6.5,StrasserInterface,-29.0,Andaman-Sumatra,0.16,0.3,282
-77,z913,1.0,active shallow crust strike-slip reverse,4.5,4.35,0.93,88,0.1,8.8,WC1994,-175.0,Bangladesh,0.14,0.4,153
-79,z915,1.0,active shallow crust normal,4.5,5.73,1.36,52,0.1,6.6,WC1994,-54.0,Bay of Bengal,0.14,0.3,234
-69,z905,1.0,active shallow crust normal,4.5,5.18,1.05,52,0.1,7.7,WC1994,-114.0,Tibetan plateau,0.13,0.4,159
-76,z912,1.0,intraplate margin upper,4.5,4.84,1.12,40,0.1,7.9,WC1994,90.0,Shillong plateau,0.13,0.3,112
+zoneid,layerid,a,b,stdb,mmax,stdmmax,faulting style,tectonic subregion,region
+137,2,7.33,1.57,0.16,6.5,0.3,strike-slip,subduction interface,Andaman-Sumatra
+913,1,4.35,0.93,0.14,8.8,0.4,strike-slip,active shallow crust,Bangladesh
+915,1,5.73,1.36,0.14,6.6,0.3,normal,active shallow crust,Bay of Bengal
+905,1,5.18,1.05,0.13,7.7,0.4,normal,active shallow crust,Tibetan plateau
+912,1,4.84,1.12,0.13,7.9,0.3,reverse,intraplate margin upper,Shillong plateau

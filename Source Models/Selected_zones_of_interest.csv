@@ -1,3 +1,3 @@
-,id,layerid,tectonic subregion,mmin,a,b,dip,magBin,mmax,msr,rake,region,stdb,stdmmax,strike
-46,z119,2.0,intraplate margin lower,4.5,3.81,0.91,40,0.1,8.3,WC1994,90.0,Shillong plateau,0.1,0.2,112
-76,z912,1.0,intraplate margin upper,4.5,4.84,1.12,40,0.1,7.9,WC1994,90.0,Shillong plateau,0.13,0.3,112
+zoneid,layerid,a,b,stdb,mmax,stdmmax,faulting style,tectonic subregion,region
+119,2,3.81,0.91,0.1,8.3,0.2,reverse,intraplate margin lower,Shillong plateau
+912,1,4.84,1.12,0.13,7.9,0.3,reverse,intraplate margin upper,Shillong plateau

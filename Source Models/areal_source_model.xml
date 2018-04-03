@@ -14,7 +14,7 @@ xmlns:gml="http://www.opengis.net/gml"
         >
             <areaSource
             id="z119"
-            name="119"
+            name="zone 119"
             tectonicRegion="intraplate margin lower"
             >
                 <areaGeometry
@@ -59,7 +59,7 @@ xmlns:gml="http://www.opengis.net/gml"
         >
             <areaSource
             id="z912"
-            name="912"
+            name="zone 912"
             tectonicRegion="intraplate margin upper"
             >
                 <areaGeometry
@@ -104,7 +104,7 @@ xmlns:gml="http://www.opengis.net/gml"
         >
             <areaSource
             id="z162"
-            name="162"
+            name="zone 162"
             tectonicRegion="subduction intraslab"
             >
                 <areaGeometry
@@ -142,7 +142,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z163"
-            name="163"
+            name="zone 163"
             tectonicRegion="subduction intraslab"
             >
                 <areaGeometry
@@ -180,7 +180,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z164"
-            name="164"
+            name="zone 164"
             tectonicRegion="subduction intraslab"
             >
                 <areaGeometry
@@ -218,7 +218,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z166"
-            name="166"
+            name="zone 166"
             tectonicRegion="subduction intraslab"
             >
                 <areaGeometry
@@ -256,7 +256,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z167"
-            name="167"
+            name="zone 167"
             tectonicRegion="subduction intraslab"
             >
                 <areaGeometry
@@ -294,7 +294,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z172"
-            name="172"
+            name="zone 172"
             tectonicRegion="subduction intraslab"
             >
                 <areaGeometry
@@ -339,7 +339,7 @@ xmlns:gml="http://www.opengis.net/gml"
         >
             <areaSource
             id="z153"
-            name="153"
+            name="zone 153"
             tectonicRegion="subduction intraslab Himalayas"
             >
                 <areaGeometry
@@ -377,7 +377,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z154"
-            name="154"
+            name="zone 154"
             tectonicRegion="subduction intraslab Himalayas"
             >
                 <areaGeometry
@@ -415,7 +415,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z169"
-            name="169"
+            name="zone 169"
             tectonicRegion="subduction intraslab Himalayas"
             >
                 <areaGeometry
@@ -453,7 +453,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z170"
-            name="170"
+            name="zone 170"
             tectonicRegion="subduction intraslab Himalayas"
             >
                 <areaGeometry
@@ -491,7 +491,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z935"
-            name="935"
+            name="zone 935"
             tectonicRegion="subduction intraslab Himalayas"
             >
                 <areaGeometry
@@ -529,7 +529,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z936"
-            name="936"
+            name="zone 936"
             tectonicRegion="subduction intraslab Himalayas"
             >
                 <areaGeometry
@@ -574,7 +574,7 @@ xmlns:gml="http://www.opengis.net/gml"
         >
             <areaSource
             id="z57"
-            name="57"
+            name="zone 57"
             tectonicRegion="active shallow crust normal"
             >
                 <areaGeometry
@@ -612,7 +612,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z6"
-            name="6"
+            name="zone 6"
             tectonicRegion="active shallow crust normal"
             >
                 <areaGeometry
@@ -650,7 +650,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z7"
-            name="7"
+            name="zone 7"
             tectonicRegion="active shallow crust normal"
             >
                 <areaGeometry
@@ -688,7 +688,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z902"
-            name="902"
+            name="zone 902"
             tectonicRegion="active shallow crust normal"
             >
                 <areaGeometry
@@ -726,7 +726,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z903"
-            name="903"
+            name="zone 903"
             tectonicRegion="active shallow crust normal"
             >
                 <areaGeometry
@@ -764,7 +764,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z905"
-            name="905"
+            name="zone 905"
             tectonicRegion="active shallow crust normal"
             >
                 <areaGeometry
@@ -802,7 +802,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z907"
-            name="907"
+            name="zone 907"
             tectonicRegion="active shallow crust normal"
             >
                 <areaGeometry
@@ -840,7 +840,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z909"
-            name="909"
+            name="zone 909"
             tectonicRegion="active shallow crust normal"
             >
                 <areaGeometry
@@ -878,7 +878,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z915"
-            name="915"
+            name="zone 915"
             tectonicRegion="active shallow crust normal"
             >
                 <areaGeometry
@@ -923,7 +923,7 @@ xmlns:gml="http://www.opengis.net/gml"
         >
             <areaSource
             id="z63"
-            name="63"
+            name="zone 63"
             tectonicRegion="stable shallow crust"
             >
                 <areaGeometry
@@ -961,7 +961,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z66"
-            name="66"
+            name="zone 66"
             tectonicRegion="stable shallow crust"
             >
                 <areaGeometry
@@ -999,7 +999,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z74"
-            name="74"
+            name="zone 74"
             tectonicRegion="stable shallow crust"
             >
                 <areaGeometry
@@ -1037,7 +1037,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z82"
-            name="82"
+            name="zone 82"
             tectonicRegion="stable shallow crust"
             >
                 <areaGeometry
@@ -1075,7 +1075,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z917"
-            name="917"
+            name="zone 917"
             tectonicRegion="stable shallow crust"
             >
                 <areaGeometry
@@ -1113,7 +1113,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z919"
-            name="919"
+            name="zone 919"
             tectonicRegion="stable shallow crust"
             >
                 <areaGeometry
@@ -1151,7 +1151,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z921"
-            name="921"
+            name="zone 921"
             tectonicRegion="stable shallow crust"
             >
                 <areaGeometry
@@ -1189,7 +1189,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z922"
-            name="922"
+            name="zone 922"
             tectonicRegion="stable shallow crust"
             >
                 <areaGeometry
@@ -1227,7 +1227,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z932"
-            name="932"
+            name="zone 932"
             tectonicRegion="stable shallow crust"
             >
                 <areaGeometry
@@ -1265,7 +1265,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z933"
-            name="933"
+            name="zone 933"
             tectonicRegion="stable shallow crust"
             >
                 <areaGeometry
@@ -1310,7 +1310,7 @@ xmlns:gml="http://www.opengis.net/gml"
         >
             <areaSource
             id="z12"
-            name="12"
+            name="zone 12"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1348,7 +1348,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z3"
-            name="3"
+            name="zone 3"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1386,7 +1386,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z58"
-            name="58"
+            name="zone 58"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1424,7 +1424,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z8"
-            name="8"
+            name="zone 8"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1462,7 +1462,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z9"
-            name="9"
+            name="zone 9"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1500,7 +1500,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z901"
-            name="901"
+            name="zone 901"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1538,7 +1538,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z904"
-            name="904"
+            name="zone 904"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1576,7 +1576,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z906"
-            name="906"
+            name="zone 906"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1614,7 +1614,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z908"
-            name="908"
+            name="zone 908"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1652,7 +1652,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z913"
-            name="913"
+            name="zone 913"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1690,7 +1690,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z914"
-            name="914"
+            name="zone 914"
             tectonicRegion="active shallow crust strike-slip reverse"
             >
                 <areaGeometry
@@ -1735,7 +1735,7 @@ xmlns:gml="http://www.opengis.net/gml"
         >
             <areaSource
             id="z110m"
-            name="110"
+            name="zone 110"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -1773,7 +1773,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z128m"
-            name="128"
+            name="zone 128"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -1811,7 +1811,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z131m"
-            name="131"
+            name="zone 131"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -1849,7 +1849,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z132m"
-            name="132"
+            name="zone 132"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -1887,7 +1887,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z138m"
-            name="138"
+            name="zone 138"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -1925,7 +1925,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z13m"
-            name="13"
+            name="zone 13"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -1963,7 +1963,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z14m"
-            name="14"
+            name="zone 14"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2001,7 +2001,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z15m"
-            name="15"
+            name="zone 15"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2039,7 +2039,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z16m"
-            name="16"
+            name="zone 16"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2077,7 +2077,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z1m"
-            name="1"
+            name="zone 1"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2115,7 +2115,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z21m"
-            name="21"
+            name="zone 21"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2153,7 +2153,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z22m"
-            name="22"
+            name="zone 22"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2191,7 +2191,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z2m"
-            name="2"
+            name="zone 2"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2229,7 +2229,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z87m"
-            name="87"
+            name="zone 87"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2267,7 +2267,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z88m"
-            name="88"
+            name="zone 88"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2305,7 +2305,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z90m"
-            name="90"
+            name="zone 90"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2343,7 +2343,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z911m"
-            name="911"
+            name="zone 911"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2381,7 +2381,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z916m"
-            name="916"
+            name="zone 916"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2419,7 +2419,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z918m"
-            name="918"
+            name="zone 918"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2457,7 +2457,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z928m"
-            name="928"
+            name="zone 928"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2495,7 +2495,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z92m"
-            name="92"
+            name="zone 92"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2533,7 +2533,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z931m"
-            name="931"
+            name="zone 931"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2571,7 +2571,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z93m"
-            name="93"
+            name="zone 93"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2609,7 +2609,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z94m"
-            name="94"
+            name="zone 94"
             tectonicRegion="subduction interface megathrust"
             >
                 <areaGeometry
@@ -2654,7 +2654,7 @@ xmlns:gml="http://www.opengis.net/gml"
         >
             <areaSource
             id="z1"
-            name="1"
+            name="zone 1"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -2692,7 +2692,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z100"
-            name="100"
+            name="zone 100"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -2730,7 +2730,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z101"
-            name="101"
+            name="zone 101"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -2768,7 +2768,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z102"
-            name="102"
+            name="zone 102"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -2806,7 +2806,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z103"
-            name="103"
+            name="zone 103"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -2844,7 +2844,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z110"
-            name="110"
+            name="zone 110"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -2882,7 +2882,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z116"
-            name="116"
+            name="zone 116"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -2920,7 +2920,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z118"
-            name="118"
+            name="zone 118"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -2958,7 +2958,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z128"
-            name="128"
+            name="zone 128"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -2996,7 +2996,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z129"
-            name="129"
+            name="zone 129"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3034,7 +3034,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z13"
-            name="13"
+            name="zone 13"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3072,7 +3072,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z130"
-            name="130"
+            name="zone 130"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3110,7 +3110,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z131"
-            name="131"
+            name="zone 131"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3148,7 +3148,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z132"
-            name="132"
+            name="zone 132"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3186,7 +3186,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z136"
-            name="136"
+            name="zone 136"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3224,7 +3224,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z137"
-            name="137"
+            name="zone 137"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3262,7 +3262,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z138"
-            name="138"
+            name="zone 138"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3300,7 +3300,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z14"
-            name="14"
+            name="zone 14"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3338,7 +3338,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z15"
-            name="15"
+            name="zone 15"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3376,7 +3376,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z16"
-            name="16"
+            name="zone 16"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3414,7 +3414,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z17"
-            name="17"
+            name="zone 17"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3452,7 +3452,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z2"
-            name="2"
+            name="zone 2"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3490,7 +3490,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z21"
-            name="21"
+            name="zone 21"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3528,7 +3528,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z22"
-            name="22"
+            name="zone 22"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3566,7 +3566,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z4"
-            name="4"
+            name="zone 4"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3604,7 +3604,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z5"
-            name="5"
+            name="zone 5"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3642,7 +3642,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z87"
-            name="87"
+            name="zone 87"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3680,7 +3680,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z88"
-            name="88"
+            name="zone 88"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3718,7 +3718,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z89"
-            name="89"
+            name="zone 89"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3756,7 +3756,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z90"
-            name="90"
+            name="zone 90"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3794,7 +3794,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z91"
-            name="91"
+            name="zone 91"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3832,7 +3832,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z910"
-            name="910"
+            name="zone 910"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3870,7 +3870,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z911"
-            name="911"
+            name="zone 911"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3908,7 +3908,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z916"
-            name="916"
+            name="zone 916"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3946,7 +3946,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z918"
-            name="918"
+            name="zone 918"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -3984,7 +3984,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z92"
-            name="92"
+            name="zone 92"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4022,7 +4022,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z925"
-            name="925"
+            name="zone 925"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4060,7 +4060,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z926"
-            name="926"
+            name="zone 926"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4098,7 +4098,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z927"
-            name="927"
+            name="zone 927"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4136,7 +4136,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z928"
-            name="928"
+            name="zone 928"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4174,7 +4174,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z929"
-            name="929"
+            name="zone 929"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4212,7 +4212,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z93"
-            name="93"
+            name="zone 93"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4250,7 +4250,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z930"
-            name="930"
+            name="zone 930"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4288,7 +4288,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z931"
-            name="931"
+            name="zone 931"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4326,7 +4326,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z94"
-            name="94"
+            name="zone 94"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4364,7 +4364,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z95"
-            name="95"
+            name="zone 95"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4402,7 +4402,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z97"
-            name="97"
+            name="zone 97"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4440,7 +4440,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z98"
-            name="98"
+            name="zone 98"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry
@@ -4478,7 +4478,7 @@ xmlns:gml="http://www.opengis.net/gml"
             </areaSource>
             <areaSource
             id="z99"
-            name="99"
+            name="zone 99"
             tectonicRegion="subduction interface"
             >
                 <areaGeometry

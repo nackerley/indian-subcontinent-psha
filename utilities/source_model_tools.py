@@ -396,7 +396,8 @@ def csv2points(base_name, by=['mmin model', 'layerid'],
 
     _check_columns(df)
 
-    df['geometry'] = df['geometry'].apply(loads)
+    if 'geometry' in df:
+        df['geometry'] = df.geometry.apply(loads)
 
     df.sort_values(by + COORDINATES, inplace=True)
     df.reset_index(drop=True, inplace=True)
@@ -413,6 +414,7 @@ def areal2csv(df, csv_file):
     if not csv_file.endswith('.csv'):
         csv_file += '.csv'
     print('Writing:\n\t' + os.path.abspath(csv_file))
+
     df['centroid'] = df.geometry.apply(  # facilitates plotting symbols in QGIS
         lambda polygon: dumps(polygon.centroid, rounding_precision=2))
     df['geometry'] = df.geometry.apply(

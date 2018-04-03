@@ -60,8 +60,9 @@ source_tree_tsv = '../Logic Trees/areal_model_logic_tree.tsv'
 
 areal_df = csv2areal(areal_source_model_csv)
 
-display_drop = ['polygon', 'geometry', 'aspect ratio',
-                'centroid longitude', 'centroid latitude']
+display_drop = [column for column in areal_df if column in
+                ['polygon', 'geometry', 'aspect ratio', 'centroid',
+                 'source_name', 'id', 'concerns', 'mmin']]
 display_drop += [column for column in areal_df if column.endswith('2')]
 
 display(pd.concat([areal_df.drop(display_drop, axis=1).head(),
@@ -139,7 +140,7 @@ fig.savefig(file_name, transparent=True, bbox_inches='tight', pad_inches=0.1)
 # %% summarize
 
 summary_columns = ['layerid', 'a', 'b', 'stdb', 'mmax', 'stdmmax',
-                   'faulting style', 'tectonic subregion', 'region']
+                   'new style', 'tectonic subregion', 'region']
 
 display_and_save('Selected zones of interest',
                  zones_df[summary_columns])

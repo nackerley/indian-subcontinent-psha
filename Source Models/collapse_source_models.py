@@ -23,14 +23,6 @@ from toolbox import annotate
 from logic_tree_tools import read_tree_tsv, collapse_sources
 from source_model_tools import csv2areal, csv2points, df2nrml, points2nrml
 
-# %% definitions
-
-
-def display_and_save(name, df):
-    print('\n%s:' % name)
-    display(df)
-    df.to_csv(name.replace(' ', '_') + '.csv')
-
 
 # %% constants
 
@@ -141,6 +133,8 @@ fig.savefig(file_name, transparent=True, bbox_inches='tight', pad_inches=0.1)
 
 summary_columns = ['layerid', 'a', 'b', 'stdb', 'mmax', 'stdmmax',
                    'new style', 'tectonic subregion', 'region']
+
+# TODO: move stuff like this into a jupyter notebook
 
 display_and_save('Selected zones of interest',
                  zones_df[summary_columns])

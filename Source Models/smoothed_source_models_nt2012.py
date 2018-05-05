@@ -321,7 +321,7 @@ activity_df = activity_df.rename(
              'smoothed N 4.5': 'N 4.5',
              'smoothed N 5.5': 'N 5.5'})
 
-activity_df = activity_df.sort_index().reset_index(drop=True)
+activity_df = activity_df.reset_index()
 
 for layer_id in LAYERS_DF.index:
     series = pd.Series(activity_df[

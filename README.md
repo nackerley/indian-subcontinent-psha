@@ -4,11 +4,19 @@ This is an implementation in [OpenQuake](https://github.com/gem/oq-engine)
 of the probabilistic seismic hazard analysis (PSHA) model of
 [Nath & Thingbaijam (2012)](https://pubs.geoscienceworld.org/ssa/srl/article-abstract/83/1/135/143990).
 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Jobs](#jobs)
+* [License](#license)
+* [Contact](#contact)
+* [Thanks](#thanks)
+
 ## Installation
 
 The model is compatible with OpenQuake 2.6 and above.
 
-Smoothed-gridded model files are too big to fit in a github repository but they
+Smoothed-gridded model files in Natural hazards’ Risk Markup Language (NRML)
+format are too big to fit in a github repository but they
 can be regenerated from smaller input data files and scripts, all included in
 the repository.
 
@@ -21,7 +29,7 @@ git clone https://github.com/nackerley/indian-subcontinent-psha.git
 
 ### Install Anaconda
 
-The OpenQuake model files in NRML format are generated from .csv (source
+The OpenQuake NRML .xml model files are generated from .csv (source
 model) and .tsv (logic tree) files using scripts that depend on the OpenQuake
 Hazard Modeler's Toolikt (HMTK). This is done using python .py and Jupyter
 Notebook scripts in .ipynb format.
@@ -117,6 +125,29 @@ used to generate validation data for the following modules of
 * [raghukanth_iyengar_2007](https://docs.openquake.org/oq-engine/master/openquake.hazardlib.gsim.html#module-openquake.hazardlib.gsim.raghukanth_iyengar_2007)
 * [sharma_2009](https://docs.openquake.org/oq-engine/master/openquake.hazardlib.gsim.html#module-openquake.hazardlib.gsim.sharma_2009)
 * [atkinson_boore_2003.AtkinsonBoore2003SSlabJapan](https://docs.openquake.org/oq-engine/master/openquake.hazardlib.gsim.html#openquake.hazardlib.gsim.atkinson_boore_2003.AtkinsonBoore2003SSlabJapan)
+
+## Jobs
+
+Job configuration `job.ini` files are created manually rather than
+automatically generated. Symbolic links to data files are include in each
+folder, to avoid duplication of files.
+
+The key job variants supported are:
+
+* `"Jobs/cities_collapsed_v0"`
+* `"Jobs/cities_collapsed_v1"`
+* `"Jobs/cities_full_enumeration_v1"`
+* `"Jobs/map_collapsed_v1"`
+
+Note:
+* `collapsed` vs. `full_enumeration` refers to whether or not
+frequency-magnitude distributions are collapsed prior to hazard calculation.
+`collapsed` source models will give correct results for mean hazard but not
+for hazard quantiles or deaggregation.
+* `cities` jobs are site-specific analyses, for the 18 cities listed
+in Table 3 of Nath & Thingbaijam (2012).
+* `map` refers to the 0.2° grid of 8102 points used to generate the data in the
+Figure 7 and the electronic supplement of Nath & Thingbaijam (2012). 
 
 ## License
 

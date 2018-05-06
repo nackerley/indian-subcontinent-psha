@@ -41,10 +41,7 @@ Link*
 **/stash/
 **/beachballs/
 **/Data/**/*.svg
-Faults/**/*.kml
-Faults/**/*.pdf
-Faults/**/*.txt
-Faults/**/*.xml
+Faults/*
 HazardOutputs/**/*.log
 HazardOutputs/**/*.xml
 HazardOutputs/**/*.csv

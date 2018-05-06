@@ -34,6 +34,9 @@ Link*
 *.coverage
 **/export/**/*.xml
 **/export/**/*.log
+**/output/**/*.xml
+**/output/**/*.csv
+**/output/**/*.log
 **/build/
 **/stash/
 **/beachballs/
@@ -45,6 +48,6 @@ Faults/**/*.xml
 HazardOutputs/**/*.log
 HazardOutputs/**/*.xml
 HazardOutputs/**/*.csv
-*mmin*.xml
-*model_mmin*.csv
+Source Models/*mmin*.xml
+Source Models/*model_mmin*.csv
 Risk/*

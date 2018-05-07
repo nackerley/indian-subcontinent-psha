@@ -36,6 +36,7 @@ import numpy as np
 import pandas as pd
 from shapely.wkt import loads, dumps
 import geopandas as gpd
+from natsort import natsorted, order_by_index, index_natsorted
 
 from obspy.imaging.beachball import aux_plane
 
@@ -168,6 +169,17 @@ def add_name_id(df):
             'Source class %s not supported' % source_class.__name__)
 
     return df
+
+
+def natural_sort(df, by='id', index=False):
+    '''
+    Sort a pandas dataframe "naturally" by column or by index.
+    '''
+    if index:
+        return df.reindex(index=natsorted(df.index))
+    else:
+        return df.reindex(index=order_by_index(df.index,
+                                               index_natsorted(df['id'])))
 
 
 def make_source(series, source_class, mag_bin_width=0.1):
@@ -312,8 +324,8 @@ def df2nrml(df, model_name):
 
     df = add_name_id(df)
     df = twin_source_by_magnitude(df)
-
     _check_columns(df)
+    df = natural_sort(df, by='id')
 
     source_list = source_df_to_list(df)
     source_model = mtkSourceModel(identifier='1',
@@ -347,8 +359,8 @@ def points2csv(df, base_name, by=['mmin model', 'layerid'],
 
     df = add_name_id(df)
     df = add_binwise_rates(df)
-
     _check_columns(df)
+    df = natural_sort(df, by='id')
 
     df.sort_values(by + COORDINATES, inplace=True)
 
@@ -538,6 +550,8 @@ def twin_source_by_magnitude(df, column='tectonic subregion',
     indices = ((df[column] == select_type) &
                (df['mmax'] - df['stdmmax'] > mag_thresh))
     twinned_df = df[indices].copy()
+    twin_start_index = int(10**(np.ceil(np.log10(twinned_df.index.max()))))
+    twinned_df.index += twin_start_index + twinned_df.index
     df.loc[indices, 'mmax'] = mag_thresh
     twinned_df['mmin'] = mag_thresh
     twinned_df['id'] += twin_zone_suffix

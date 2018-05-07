@@ -353,17 +353,17 @@ points2csv(thinned_df, model_basename + ' thinned')
 points2nrml(thinned_df, model_basename + ' thinned', by='mmin model')
 print('Wrote thinned source models to CSV & NRML [%.0f s]' % (time() - mark))
 
-# %% write full smoothed-gridded models
+# %% write full smoothed-gridded models (INTENSIVE!)
 
 mark = time()
 points2csv(smoothed_df, model_basename)
 points2nrml(smoothed_df, model_basename, by='mmin model')
 print('Wrote full source models to CSV & NRML [%.0f s]' % (time() - mark))
 
-# %% write collapsed smoothed-gridded sources to NRML
+# %% write collapsed smoothed-gridded sources to NRML (INTENSIVE!)
 
 model_basename = ' '.join((os.path.split(smoothed_model_path)[1],
-                           smoothed_source_data_file)) + ' thinned'
+                           smoothed_source_data_file))
 
 smoothed_collapsed_df, reduced_df, all_weights, labels = \
     collapse_sources(smoothed_df, source_tree_symbolic_df)

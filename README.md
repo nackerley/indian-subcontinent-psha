@@ -100,7 +100,7 @@ logic tree TSV description files.
 
 To regenerate the source model XML, in your `(oq)` environment run:
 ```bash
-cd ~/src/indian-subcontinent-psha/Source\ Models
+cd ~/src/indian-subcontinent-psha/Source\ Models/
 python write_source_models_nt2012.py
 ```
 The smooothed-gridded models in particualr are large, so only "thinned"
@@ -125,10 +125,10 @@ folder, to avoid duplication of files.
 
 The key job variants supported are:
 
-* `Jobs/cities_collapsed_v0`
-* `Jobs/cities_collapsed_v1`
-* `Jobs/cities_full_disaggregation_v1`
-* `Jobs/map_collapsed_v1`
+* `Jobs/cities_collapsed_v0/`
+* `Jobs/cities_collapsed_v1/`
+* `Jobs/cities_full_disaggregation_v1/`
+* `Jobs/map_collapsed_v1/`
 
 Note:
 * `collapsed` vs. `full` refers to whether or not frequency-magnitude
@@ -142,7 +142,7 @@ Figure 7 and the electronic supplement of Nath & Thingbaijam (2012).
 
 ## Mapping
 
-Files for generating maps using QGIS are stored at `Maps`.
+Files for generating maps using QGIS are stored at `Maps/`.
 Maps incorporate data which can be downloaded separately from:
 * **[Natural Earth](http://www.naturalearthdata.com)**
 * HimaTibetMap-1.0: [Styron, Taylor & Okoronkwo (2010)](https://github.com/HimaTibetMap/HimaTibetMap)
@@ -157,31 +157,36 @@ publications are included in this repository.
 ### Hazard model development
 
 This model incorporates data from the following publications:
-* `Data/nath2012probabilistic`:
+* `Data/nath2012probabilistic/`:
 tables, digitized hazard curves and electronic supplement of
 [Nath & Thingbaijam (2012)](https://pubs.geoscienceworld.org/ssa/srl/article-abstract/83/1/135/143990)
-* `Data/nath2011peak`:
+* `Data/nath2011peak/`:
 tables of
 [Nath & Thingbaijam (2011)](https://link.springer.com/article/10.1007/s10950-010-9224-5)
-* `Data/thingbaijam2011seismogenic`
+* `Data/thingbaijam2011seismogenic/`:
 Table 1 from "Thingbaijam & Nath (2011) A Seismogenic Source Framework for the Indian subcontinent" (unpublished)
+
+In order to recompute the smoothed-gridded model the catalogue must be
+downloaded saved to the indicated folder:
+* `Catalogue/`: 
+[Nath, Thingbaijam & Ghosh (2010) Earthquake catalogue of South Asia - a generic MW scale framework](www.earthqhaz.net/sacat)
 
 ### Ground motion prediction equation (GMPE) development
 
 A set of jupyter notebooks in `~/src/indian-subcontinent-psha/GMPEs` were
 used to generate validation data for the following modules of
 [openquake.hazardlib.gsim](https://docs.openquake.org/oq-engine/master/openquake.hazardlib.gsim.html):
-* `GMPEs/gupta2010response`:
+* `GMPEs/gupta2010response/`:
 [openquake.hazardlib.gsim.gupta_2010](https://docs.openquake.org/oq-engine/master/openquake.hazardlib.gsim.html#module-openquake.hazardlib.gsim.gupta_2010)
-* `GMPEs/kanno2006new`:
+* `GMPEs/kanno2006new/`:
 [openquake.hazardlib.gsim.kanno_2006](https://docs.openquake.org/oq-engine/master/openquake.hazardlib.gsim.html#module-openquake.hazardlib.gsim.kanno_2006)
-* `GMPEs/nath2012ground`:
+* `GMPEs/nath2012ground/`:
 [openquake.hazardlib.gsim.nath_2012](https://docs.openquake.org/oq-engine/master/openquake.hazardlib.gsim.html#module-openquake.hazardlib.gsim.nath_2012)
-* `GMPEs/raghukanth2007estimation`:
+* `GMPEs/raghukanth2007estimation/`:
 [openquake.hazardlib.gsim.raghukanth_iyengar_2007](https://docs.openquake.org/oq-engine/master/openquake.hazardlib.gsim.html#module-openquake.hazardlib.gsim.raghukanth_iyengar_2007)
-* `GMPEs/sharma2009ground`:
+* `GMPEs/sharma2009ground/`:
 [openquake.hazardlib.gsim.sharma_2009](https://docs.openquake.org/oq-engine/master/openquake.hazardlib.gsim.html#module-openquake.hazardlib.gsim.sharma_2009)
-* `GMPEs/atkinson2003empirical`:
+* `GMPEs/atkinson2003empirical/`:
 [openquake.hazardlib.gsim.atkinson_boore_2003.AtkinsonBoore2003SSlabJapan](https://docs.openquake.org/oq-engine/master/openquake.hazardlib.gsim.html#openquake.hazardlib.gsim.atkinson_boore_2003.AtkinsonBoore2003SSlabJapan)
 
 ## Development

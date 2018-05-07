@@ -30,6 +30,7 @@ Link*
 *.toc
 *.zip
 *.pyc
+*.qml
 *~
 *.coverage
 **/export/**/*.xml
@@ -41,6 +42,8 @@ Link*
 **/stash/
 **/beachballs/
 **/Data/**/*.svg
+**/Maps/**/*.pdf
+**/Report/**/*.pdf
 Faults/*
 HazardOutputs/**/*.log
 HazardOutputs/**/*.xml

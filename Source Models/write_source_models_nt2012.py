@@ -351,22 +351,26 @@ print('Thinning to %g° spacing reduces number of points from %d to %d.'
 mark = time()
 points2csv(thinned_df, model_basename + ' thinned')
 points2nrml(thinned_df, model_basename + ' thinned', by='mmin model')
-print('Wrote thinned source models to CSV & NRML [%.0f s]' % (time() - mark))
+print('Wrote %d thinned smoothed-gridded sources to CSV & NRML: %s' %
+      (len(thinned_df), pd.to_timedelta(time() - mark, unit='s')))
 
-# %% write full smoothed-gridded models (INTENSIVE!)
+# %% write full smoothed-gridded models (~10 minutes)
 
 mark = time()
 points2csv(smoothed_df, model_basename)
 points2nrml(smoothed_df, model_basename, by='mmin model')
-print('Wrote full source models to CSV & NRML [%.0f s]' % (time() - mark))
+print('Wrote %d full smoothed-gridded sources to CSV & NRML: %s' %
+      (len(smoothed_df), pd.to_timedelta(time() - mark, unit='s')))
 
-# %% write collapsed smoothed-gridded sources to NRML (INTENSIVE!)
+# %% write collapsed smoothed-gridded sources to NRML (~10 minutes)
 
 model_basename = ' '.join((os.path.split(smoothed_model_path)[1],
                            smoothed_source_data_file))
-
 smoothed_collapsed_df, reduced_df, all_weights, labels = \
     collapse_sources(smoothed_df, source_tree_symbolic_df)
-
 model_basename += ' collapsed'
+
+mark = time()
 points2nrml(smoothed_collapsed_df, model_basename)
+print('Wrote %d collapsed smoothed-gridded sources to CSV & NRML: %s' %
+      (len(smoothed_collapsed_df), pd.to_timedelta(time() - mark, unit='s')))

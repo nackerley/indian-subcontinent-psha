@@ -50,4 +50,6 @@ HazardOutputs/**/*.xml
 HazardOutputs/**/*.csv
 Source Models/*mmin*.xml
 Source Models/*model_mmin*.csv
+Logic Trees/example_gmpe_logic_tree.xml
+Logic Trees/example_source_model_logic_tree.xml
 Risk/*

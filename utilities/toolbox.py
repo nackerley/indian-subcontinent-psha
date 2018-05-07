@@ -1,17 +1,22 @@
+# -*- coding: utf-8 -*-
+#
+# Indian Subcontinent PSHA
+# Copyright (C) 2014-2018 Nick Ackerley
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 '''
 General-purpose helper module.
-
-Module exports:
-:func:`stdval`
-:func:`logspace`
-:func:`remove_chartjunk`
-:func:`wrap`
-:func:`summarize`
-:func:`is_numeric`
-:func:`df_compare`
-:func:`array2compact`
-:class:`Structure`
-:class:`ChangedDIr`
 '''
 
 import os
@@ -225,80 +230,6 @@ def linspace(start, stop, target=30):
     return np.arange(start, stop + step, step)
 
 
-def remove_chartjunk(axis, spines, grid=None, ticklabels=None,
-                     show_ticks=False):
-    '''
-    Removes "chartjunk", such as extra lines of axes and tick marks.
-
-    If grid="output" or "input", will add a white grid at the "output" or
-    "input" axes, respectively
-
-    If ticklabels="output" or "input", or ['input', 'output'] will remove
-    ticklabels from that axis
-    '''
-
-    all_spines = ['top', 'bottom', 'right', 'left', 'polar']
-    for spine in spines:
-        # The try/except is for polar coordinates, which only have a 'polar'
-        # spine and none of the others
-        try:
-            axis.spines[spine].set_visible(False)
-        except KeyError:
-            pass
-
-    # For the remaining spines, make their line thinner and a slightly
-    # off-black dark grey
-    for spine in all_spines:
-        if spine not in spines:
-            # The try/except is for polar coordinates, which only have a
-            # 'polar' spine and none of the others
-            try:
-                axis.spines[spine].set_linewidth(1)
-            except KeyError:
-                pass
-                # axis.spines[spine].set_color(almost_black)
-                # axis.spines[spine].set_tick_params(color=almost_black)
-                # Check that the axes are not log-scale. If they are, leave
-                # the ticks because otherwise people assume a linear scale.
-    x_pos = set(['top', 'bottom'])
-    y_pos = set(['left', 'right'])
-    xy_pos = [x_pos, y_pos]
-    xy_ax_names = ['xaxis', 'yaxis']
-
-    for ax_name, pos in zip(xy_ax_names, xy_pos):
-        axis = axis.__dict__[ax_name]
-        # axis.set_tick_params(color=almost_black)
-        # print 'axis.get_scale()', axis.get_scale()
-        if show_ticks or axis.get_scale() == 'log':
-            # if this spine is not in the list of spines to remove
-            for positions in pos.difference(spines):
-                # print 'p', p
-                axis.set_tick_params(which='both', direction='out')
-                axis.set_ticks_position(positions)
-                #                axis.set_tick_params(which='both', p)
-        else:
-            axis.set_ticks_position('none')
-
-    if grid is not None:
-        for grid_string in grid:
-            assert grid_string in ('input', 'output')
-            axis.grid(axis=grid, color='white', linestyle='-', linewidth=0.5)
-
-    if ticklabels is not None:
-        if isinstance(ticklabels, str):
-            assert ticklabels in set(('input', 'output'))
-            if ticklabels == 'input':
-                axis.set_xticklabels([])
-            if ticklabels == 'output':
-                axis.set_yticklabels([])
-        else:
-            assert set(ticklabels) | set(('input', 'output')) > 0
-            if 'input' in ticklabels:
-                axis.set_xticklabels([])
-            elif 'output' in ticklabels:
-                axis.set_yticklabels([])
-
-
 def wrap(values, limit=180.0):
     '''
     Wraps to +/- specified limit, defaulting to 180 (i.e. degrees)
@@ -308,13 +239,6 @@ def wrap(values, limit=180.0):
     '''
     # use of negative modulus ensures -limit is wrapped to +limit
     return (values - limit) % (-2*limit) + limit
-
-
-def summarize(obj):
-    '''Summarizes the attributes of an object.'''
-    print('\n'.join("%s: %s" % (item, getattr(obj, item))
-                    for item in dir(obj) if ((len(item) == 0) or
-                                             (item[0] != '_'))))
 
 
 def is_numeric(value):
@@ -356,27 +280,6 @@ _NUMPY_STR_BLOAT = [
 ]
 
 
-def array2compact(array, separator=','):
-    '''
-    Returns a compact string representation of an array as nested lists.
-
-    >>> model = np.array([[123.456, 123.000000001], [2345., 345.6789]])
-    >>> print np.array_repr(model).replace('\\n', '')
-        array([[  123.456 ,   123.    ],       [ 2345.    ,   345.6789]])
-    >>> print np.array2string(model, separator=',').replace('\\n', '')
-        [[  123.456 ,  123.    ], [ 2345.    ,  345.6789]]
-    >>> print array2compact(model)
-        [[123.456, 123.], [2345., 345.6789]]
-
-    '''
-
-    compact = np.array2string(array, separator=separator)
-    compact = ' '.join(compact.split())
-    for item, replacement in _NUMPY_STR_BLOAT:
-        compact = compact.replace(item, replacement)
-    return compact
-
-
 def limit_precision(array, sig_figs=5):
     '''
     Round to given number of significant figures.
@@ -394,22 +297,6 @@ class Structure(object):
     '''
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
-
-
-class ChangedDir(object):  # pylint: disable-msg=R0903
-    '''
-    Context manager for changing the current working directory
-    '''
-    def __init__(self, new_path):
-        self.new_path = os.path.expanduser(new_path)
-        self.saved_path = None
-
-    def __enter__(self):
-        self.saved_path = os.getcwd()
-        os.chdir(self.new_path)
-
-    def __exit__(self, etype, value, traceback):
-        os.chdir(self.saved_path)
 
 
 LOC_CODE = {

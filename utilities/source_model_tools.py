@@ -1,13 +1,28 @@
 # -*- coding: utf-8 -*-
-# pylint: disable=superfluous-parens
+#
+# Indian Subcontinent PSHA
+# Copyright (C) 2014-2018 Nick Ackerley
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 '''
 Helper functions for OpenQuake source modeling.
 
 Most of these functions are utilities specific to Nath & Thingbaijam (2012).
 '''
+# pylint: disable=superfluous-parens
 import os
 import re
-import ast
 from io import StringIO
 from copy import deepcopy
 from numbers import Number
@@ -265,38 +280,6 @@ def _point_source_id(series):
     return result.replace('.', 'p')
 
 
-def make_source_geometry(series, source_class):
-    '''
-    Given a source description, returns the required class and geometry
-    as well as an appropriate name for the source.
-
-    :param series: source description
-    :type series: :class:`pandas.Series` or dict
-
-    :returns: tuple of (source_class, geometry, name)
-    :type source_class: e.g. :class:`openquake.hmtk.sources.area_source.mtkAreaSource`
-    :type geometry: e.g. :class:`openquake.hazardlib.geo.point.Point` instance
-    :type name: str
-    '''  # noqa
-
-    if source_class is mtkPointSource:
-        geometry = geo.point.Point(series['longitude'],
-                                   series['latitude'])
-
-    elif source_class is mtkAreaSource:
-        list_points = series['geometry']  # FIXME
-        if isinstance(list_points, str):
-            list_points = ast.literal_eval(list_points)
-        points = [geo.point.Point(lon, lat) for lon, lat in list_points]
-        geometry = geo.polygon.Polygon(points + [points[0]])
-
-    else:
-        raise ValueError('Source class %s not supported' %
-                         source_class.__name__)
-
-    return geometry
-
-
 def _check_columns(df):
     missing = [item for item in ALL_REQUIRED if item not in df.columns]
     if missing:
@@ -438,6 +421,16 @@ def csv2areal(csv_file):
     _check_columns(df)
 
     return df
+
+
+def csv2df(csv_file):
+    if 'areal' in csv_file:
+        return csv2areal(csv_file)
+    elif 'smoothed' in csv_file:
+        return csv2points(csv_file)
+    else:
+        raise RuntimeError('Not sure what kind of source file this is:' +
+                           csv_file)
 
 
 def focal_mech(dip, rake, threshold=30):

@@ -1,3 +1,23 @@
+# -*- coding: utf-8 -*-
+#
+# Indian Subcontinent PSHA
+# Copyright (C) 2014-2018 Nick Ackerley
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+'''
+The beginnings of regression testing.
+'''
 import toolbox as tb
 import numpy as np
 
@@ -17,7 +37,7 @@ assert all((result == np.array([[56], [np.NaN], [ 390]])) \
 test = np.array([[  6.863e-02,   3.214e-02,   2.997e+00],
        [  9.320e-02,   6.416e+01,   3.428e+02]])
 result = tb.stdval(test, 24, 0.5)
-assert np.allclose(result, 
+assert np.allclose(result,
     np.array([[  7.5e-02,   3.3e-02,   3.0e+00],
        [  1.0e-01,   6.8e+01,   3.6e+02]]))
 
@@ -28,7 +48,7 @@ test = np.array([[[  3.62e+02,   1.47e-02,   3.15e+01,   1.71e-03],
         [  1.34e-03,   8.16e+00,   8.14e+00,   5.57e-02],
         [  5.34e-01,   2.46e+02,   4.18e-01,   1.32e+00]]])
 result = tb.stdval(test, preferred=[1, 3, 10])
-assert np.allclose(result, 
+assert np.allclose(result,
     np.array([[[   3e+02,    1e-02,    3e+01,    1e-03],
         [   1e+00,    1e-02,    3e-02,    3e+01],
         [   1e+02,    3e-03,    3e+01,    1e+01]],

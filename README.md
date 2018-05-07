@@ -108,14 +108,14 @@ versions are included in the repository for quality control purposes. Full
 source models must be regenerated using the above script if the model is to
 be used.
 
-### Investigate models
+### Investigate source models
 
 The following jupyter notebooks are useful for investigating and visualizing
-the models:
+the source models:
 
 * `"Source Models/areal_source_models_nt2012.ipynb"`
 * `"Source Models/smoothed_source_models_nt2012.ipynb"`
-* `"Source Models/collapse_source_models.ipynb"`
+* `"Source Models/collapsed_source_models_nt2012.ipynb"`
 
 ## Jobs
 

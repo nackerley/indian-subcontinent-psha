@@ -165,11 +165,8 @@ tables of
 [Nath & Thingbaijam (2011)](https://link.springer.com/article/10.1007/s10950-010-9224-5)
 * `Data/thingbaijam2011seismogenic/`:
 Table 1 from "Thingbaijam & Nath (2011) A Seismogenic Source Framework for the Indian subcontinent" (unpublished)
-
-In order to recompute the smoothed-gridded model the catalogue must be
-downloaded saved to the indicated folder:
-* `Catalogue/`: 
-[Nath, Thingbaijam & Ghosh (2010) Earthquake catalogue of South Asia - a generic MW scale framework](www.earthqhaz.net/sacat)
+* `Catalogue/` for model validation: 
+[Nath, Thingbaijam & Ghosh (2010) Earthquake catalogue of South Asia - a generic MW scale framework](http://www.earthqhaz.net/sacat)
 
 ### Ground motion prediction equation (GMPE) development
 

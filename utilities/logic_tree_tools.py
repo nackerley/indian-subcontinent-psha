@@ -1,4 +1,21 @@
 # -*- coding: UTF-8 -*-
+#
+# Indian Subcontinent PSHA
+# Copyright (C) 2014-2018 Nick Ackerley
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 # pylint: disable=superfluous-parens
 '''
 Tools relating to OpenQuake logic trees.
@@ -7,7 +24,6 @@ Tools relating to OpenQuake logic trees.
 import os
 import re
 import ast
-from io import StringIO
 from string import Template
 
 import subprocess
@@ -22,13 +38,15 @@ from openquake.baselib.node import Node
 from openquake.hazardlib.mfd.truncated_gr import TruncatedGRMFD
 
 from toolbox import limit_precision, is_numeric
+from source_model_tools import \
+    csv2df, add_name_id, twin_source_by_magnitude, natural_sort
 
 
-def read_tree_tsv(file_tsv):
+def read_tree_tsv(file_tsv, delimiter='\t'):
     '''
     Enhances pandas read_csv by parsing lists of models and weights.
     '''
-    tree_df = pd.read_csv(file_tsv, delimiter='\t',)
+    tree_df = pd.read_csv(file_tsv, delimiter=delimiter)
     for key in ['uncertaintyModel', 'uncertaintyWeight']:
         if key in tree_df.columns:
             for _, branch_set in tree_df.iterrows():
@@ -246,7 +264,10 @@ def expand_sources(df_in):
             continue
 
         # when "apply to" is a source table file, add branch level for each row
-        df_sources = pd.read_csv(apply_to, '\t')
+        df_sources = csv2df(apply_to)
+        df_sources = add_name_id(df_sources)
+        df_sources = twin_source_by_magnitude(df_sources)
+        df_sources = natural_sort(df_sources, by='id')
 
         template, required_keys, _ = get_template_keys(
             row_in['uncertaintyModel'], df_sources.columns)
@@ -256,7 +277,7 @@ def expand_sources(df_in):
                 continue
 
             # no mmax uncertainty on zones with megathrust twins
-            if (any(source['zoneid'] + 'm' == df_sources['zoneid']) and
+            if (any(source['id'] + 'm' == df_sources['id']) and
                     (row_in['uncertaintyType'][:6] == 'maxMag')):
                 continue
 
@@ -696,21 +717,6 @@ fresh nodes, layer sep=2cm, sibling distance=0mm, sibling sep=0.5mm] {
         ['$*$', '*'],
         ['$/$', '/'],
     ]
-
-
-def tree_to_tex(root, include_ids=False, indent=4):
-    '''
-    Convert a tree into an TEX string by using the StreamingTexWriter.
-    This is useful for testing purposes.
-
-    :param node: a node object (typically an ElementTree object)
-    :param include_ids: include or omit node ids from diagram
-    :param indent: the indentation to use in the XML (default 4 spaces)
-    '''
-    out = StringIO()
-    with StreamingTexWriter(out, include_ids, indent) as writer:
-        writer.serialize(root)
-    return out.getvalue()
 
 
 def nrml_to_pdf(file_nrml, include_ids=False, verbose=False):

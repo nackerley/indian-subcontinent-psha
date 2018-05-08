@@ -288,8 +288,8 @@ def _point_source_name(series):
 
 
 def _point_source_id(series):
-    result = '%gN_%gE_%dkm_M%.1f' % (series.latitude, series.longitude,
-                                     series.layerid, series.mmin)
+    result = '%gN_%gE_L%d_M%.1f' % (series.latitude, series.longitude,
+                                    series.layerid, series.mmin)
     # For the source IDs OpenQuake only accepts a-zA-z0-9_-
     return result.replace('.', 'p')
 

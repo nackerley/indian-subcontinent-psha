@@ -4,6 +4,7 @@ This is an implementation in [OpenQuake](https://github.com/gem/oq-engine)
 of the probabilistic seismic hazard analysis (PSHA) model of
 [Nath & Thingbaijam (2012)](https://pubs.geoscienceworld.org/ssa/srl/article-abstract/83/1/135/143990).
 
+* [Versions](#versions)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Jobs](#jobs)
@@ -13,6 +14,14 @@ of the probabilistic seismic hazard analysis (PSHA) model of
 * [Development](#development)
 * [Contact](#contact)
 * [Thanks](#thanks)
+
+## Versions
+
+Files specific to the first version of the model are subscripted `_v0`. 
+This model is described in the report by [Ackerley (2016)](Report/IndiaOpenPsha.pdf).
+
+A revised version, subscripted `_v1` and incorporating clarifications from the authors of 
+Nath & Thingbaijam (2012), is in progress.
 
 ## Installation
 
@@ -85,7 +94,7 @@ import source_model_tools as smt
 
 ### Regenerate logic trees
 
-To regenerate the logic tree XML, open and run the following jupyter notebooks:
+To regenerate the logic tree XML, open and run the following jupyter notebook:
 * `"Logic Trees/logic_trees_nt2012.ipynb"`
 
 Note that the logic tree model XML files are small, and already included in

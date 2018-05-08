@@ -282,12 +282,14 @@ def _areal_source_id(series):
 
 
 def _point_source_name(series):
-    return '%gN %gE %g-%g km depth' % (series.latitude, series.longitude,
-                                       series.zmin, series.zmax)
+    return '%gN %gE %g-%g km depth M%g' % (series.latitude, series.longitude,
+                                           series.zmin, series.zmax,
+                                           series.mmin)
 
 
 def _point_source_id(series):
-    result = '%gN_%gE_%d' % (series.latitude, series.longitude, series.layerid)
+    result = '%gN_%gE_%dkm_M%.1f' % (series.latitude, series.longitude,
+                                     series.layerid, series.mmin)
     # For the source IDs OpenQuake only accepts a-zA-z0-9_-
     return result.replace('.', 'p')
 

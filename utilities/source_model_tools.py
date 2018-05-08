@@ -332,7 +332,7 @@ def df2nrml(df, model_name):
                                   name=model_name,
                                   sources=source_list)
 
-    print('Writing:\n\t%s' % os.path.abspath(nrml_file))
+    print('Writing: %s' % os.path.abspath(nrml_file))
     source_model.serialise_to_nrml(nrml_file)
 
     return source_model
@@ -367,7 +367,7 @@ def points2csv(df, base_name, by=['mmin model', 'layerid'],
     for index, group_df in df.groupby(by):
         model_name = base_name + ' ' + fmt % index
         csv_file = model_name.replace(' ', '_') + '.csv'
-        print('Writing:\n\t' + os.path.abspath(csv_file))
+        print('Writing: ' + os.path.abspath(csv_file))
         group_df.drop(columns=by).to_csv(csv_file, index=False,
                                          float_format='%.5g')
 
@@ -381,7 +381,7 @@ def csv2points(base_name, by=['mmin model', 'layerid'],
     for values in product(*ranges):
         model_name = base_name + ' ' + fmt % values
         csv_file = model_name.replace(' ', '_') + '.csv'
-        print('Reading:\n\t' + os.path.abspath(csv_file))
+        print('Reading: ' + os.path.abspath(csv_file))
         df = pd.read_csv(csv_file)
         for column, value in zip(by, values):
             df[column] = value
@@ -408,7 +408,7 @@ def areal2csv(df, csv_file):
 
     if not csv_file.endswith('.csv'):
         csv_file += '.csv'
-    print('Writing:\n\t' + os.path.abspath(csv_file))
+    print('Writing: ' + os.path.abspath(csv_file))
 
     df['centroid'] = df.geometry.apply(  # facilitates plotting symbols in QGIS
         lambda polygon: dumps(polygon.centroid, rounding_precision=2))
@@ -426,7 +426,7 @@ def csv2areal(csv_file):
     '''
     if not csv_file.endswith('.csv'):
         csv_file += '.csv'
-    print('Reading:\n\t' + os.path.abspath(csv_file))
+    print('Reading: ' + os.path.abspath(csv_file))
     df = pd.read_csv(csv_file, index_col='zoneid')
     df['geometry'] = df['geometry'].apply(loads)
     df = gpd.GeoDataFrame(df, crs='WGS84')

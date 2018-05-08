@@ -8,7 +8,9 @@ dependencies:
 - obspy
 - ipykernel
 - geopandas
+- gdal
 - spyder
 - basemap
 - xlrd
 - natsort
+- more-itertools

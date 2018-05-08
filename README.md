@@ -52,10 +52,6 @@ conda env create --file oq.yml
 source activate oq
 ```
 
-This environment sets up OpenQuake with python 3. This way of installing
-OpenQuake is currentlly in development; if you have any trouble you may wish to
-use the environement defined by `oq2.yml` which calls for python 2 instead.
-
 Make the `(oq)` kernel accessible to jupyter in the root
 environment by running the following:
 ```bash

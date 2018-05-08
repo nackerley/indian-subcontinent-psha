@@ -11,3 +11,4 @@ dependencies:
 - spyder
 - basemap
 - xlrd
+- natsort

@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 #
 # Indian Subcontinent PSHA
-# Copyright (C) 2014-2018 Nick Ackerley
+# Copyright (C) 2016-2018 Nick Ackerley
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as

@@ -907,7 +907,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         <gml:exterior>
                             <gml:LinearRing>
                                 <gml:posList>
-                                    80.61 32.49 85.44 31.51 85.48 31.5 87.55 31.02 87.64 31.01 87.32 29.26 85.98 29.36 85.93 28.34 82.97 29.42 82.95 29.43 81.23 30.27 80.99 31.13 80.61 32.49
+                                    80.61 32.49 85.48 31.5 87.55 31.02 87.64 31.01 87.32 29.26 85.98 29.36 85.93 28.34 82.97 29.42 82.95 29.43 81.23 30.27 80.99 31.13 80.61 32.49
                                 </gml:posList>
                             </gml:LinearRing>
                         </gml:exterior>
@@ -1731,7 +1731,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         <gml:exterior>
                             <gml:LinearRing>
                                 <gml:posList>
-                                    69.14 35.78 70.69 38.27 72.93 36.59 70.63 35.64 69.14 35.78
+                                    69.14 35.78 70.69 38.27 72.93 36.59 70.62 35.64 69.14 35.78
                                 </gml:posList>
                             </gml:LinearRing>
                         </gml:exterior>
@@ -3410,7 +3410,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         <gml:exterior>
                             <gml:LinearRing>
                                 <gml:posList>
-                                    90.45 35.41 97.59 31.52 98.86 28.24 98.27 28.57 92.03 32.12 91.64 32.93 90.45 35.41
+                                    90.45 35.41 97.59 31.52 98.7 28.33 92.03 32.12 91.64 32.93 90.45 35.41
                                 </gml:posList>
                             </gml:LinearRing>
                         </gml:exterior>

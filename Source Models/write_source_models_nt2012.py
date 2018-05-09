@@ -155,7 +155,7 @@ areal2csv(areal_df, AREAL_SOURCE_MODEL_BASE)
 
 mark = time()
 areal_source_model = df2nrml(areal_df, AREAL_SOURCE_MODEL_BASE)
-print('Finished writing areal model to NRML: %s' %
+print('Finished writing areal model to NRML: %s\n' %
       pd.to_timedelta(time() - mark, unit='s'))
 
 # %% read logic tree description table
@@ -176,7 +176,7 @@ print(reduced_df)
 
 mark = time()
 df2nrml(areal_collapsed_df, 'areal_collapsed.xml')
-print('Finished writing collapsed areal model to NRML: %s' %
+print('Finished writing collapsed areal model to NRML: %s\n' %
       pd.to_timedelta(time() - mark, unit='s'))
 
 # %% areal zone data
@@ -278,7 +278,7 @@ smoothed_df['in zoneid'] = smoothed_df['zoneid'].copy()
 
 assigned = (~np.isnan(smoothed_df['in zoneid'])) & (smoothed_df['a'] != 0)
 smoothed_df.loc[assigned, 'distance'] = 0
-print('Spatial join accounted for %.2f%% of sources: %s' %
+print('Spatial join accounted for %.2f%% of sources: %s\n' %
       (100*len(smoothed_df[assigned])/len(smoothed_df),
        pd.to_timedelta(time() - mark, unit='s')))
 
@@ -286,7 +286,11 @@ print('Spatial join accounted for %.2f%% of sources: %s' %
 id_columns = ['latitude', 'longitude', 'layerid', 'mmin']
 duplicated_df = smoothed_df[smoothed_df.duplicated(
     subset=id_columns, keep=False)].sort_values(id_columns + ['zoneid'])
-if not duplicated_df.empty:
+if duplicated_df.empty:
+    print('SUCCESS: No grid point fell in multiple areal zones')
+else:
+    duplicated_df.to_csv('smoothed_duplicated.csv')
+
     point_a = duplicated_df.iloc[0]
     point_b = duplicated_df.iloc[1]
     zone_a = areal_df.at[int(point_a.zoneid), 'geometry']
@@ -300,8 +304,10 @@ if not duplicated_df.empty:
     ax.set_ylim((point_a.latitude - 5, point_a.latitude + 5))
     ax.set_aspect(1)
 
-    print(int(point_a.zoneid), dumps(zone_a, rounding_precision=2))
-    print(int(point_b.zoneid), dumps(zone_b, rounding_precision=2))
+    print(int(point_a.zoneid), point_a.layerid,
+          dumps(zone_a, rounding_precision=2))
+    print(int(point_b.zoneid), point_a.layerid,
+          dumps(zone_b, rounding_precision=2))
     print(point_a.longitude, point_a.latitude)
     raise RuntimeError('Points assigned to multiple zones.')
 
@@ -328,7 +334,7 @@ unassigned_df.loc[:, 'zoneid'] = active_areal_df.loc[
     np.argmin(distances, axis=1), 'zoneid'].values
 unassigned_df.loc[:, 'distance'] = np.amin(distances, axis=1)
 
-print('Nearest zone required for %.0f%% of sources: %s' %
+print('Nearest zone required for %.0f%% of sources: %s\n' %
       (100*len(unassigned_df)/len(smoothed_df),
        pd.to_timedelta(time() - mark, unit='s')))
 
@@ -376,7 +382,7 @@ thinned_df = smoothed_df.loc[
     np.isclose(np.remainder(smoothed_df['longitude'], res_deg), 0)].copy()
 model_basename = ' '.join((os.path.split(smoothed_model_path)[1],
                            smoothed_source_data_file))
-print('Thinning to %g° spacing reduces number of points from %d to %d.'
+print('Thinning to %g° spacing reduces number of points from %d to %d.\n'
       % (res_deg, len(smoothed_df), len(thinned_df)))
 
 # %% write thinned models
@@ -384,7 +390,7 @@ print('Thinning to %g° spacing reduces number of points from %d to %d.'
 mark = time()
 points2csv(thinned_df, model_basename + ' thinned')
 points2nrml(thinned_df, model_basename + ' thinned', by='mmin model')
-print('Wrote %d thinned smoothed-gridded sources to CSV & NRML: %s' %
+print('Wrote %d thinned smoothed-gridded sources to CSV & NRML: %s\n' %
       (len(thinned_df), pd.to_timedelta(time() - mark, unit='s')))
 
 # %% write full smoothed-gridded models (~10 minutes)
@@ -392,18 +398,18 @@ print('Wrote %d thinned smoothed-gridded sources to CSV & NRML: %s' %
 mark = time()
 points2csv(smoothed_df, model_basename)
 points2nrml(smoothed_df, model_basename, by='mmin model')
-print('Wrote %d full smoothed-gridded sources to CSV & NRML: %s' %
+print('Wrote %d full smoothed-gridded sources to CSV & NRML: %s\n' %
       (len(smoothed_df), pd.to_timedelta(time() - mark, unit='s')))
 
 # %% write collapsed smoothed-gridded sources to NRML (~10 minutes)
 
+mark = time()
 model_basename = ' '.join((os.path.split(smoothed_model_path)[1],
                            smoothed_source_data_file))
 smoothed_collapsed_df, reduced_df, all_weights, labels = \
     collapse_sources(smoothed_df, source_tree_symbolic_df)
 model_basename += ' collapsed'
 
-mark = time()
 points2nrml(smoothed_collapsed_df, model_basename)
-print('Wrote %d collapsed smoothed-gridded sources to CSV & NRML: %s' %
+print('Wrote %d collapsed smoothed-gridded sources to CSV & NRML: %s\n' %
       (len(smoothed_collapsed_df), pd.to_timedelta(time() - mark, unit='s')))

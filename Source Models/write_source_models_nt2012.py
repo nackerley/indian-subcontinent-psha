@@ -63,7 +63,7 @@ POLYGON_FORMAT = 'polygonlay%d.txt'
 SEISMICITY_FORMAT = 'seismicitylay%d.txt'
 
 # an input file supplies some auxiliary data
-AUX_FILE = 'auxiliary data.csv'
+AUX_FILE = 'auxiliary_data_v0.csv'
 
 # define prefixes for the output file names and models
 AREAL_SOURCE_MODEL_BASE = 'areal_source_model'
@@ -121,7 +121,7 @@ areal_df = pd.concat(areal_dfs)[columns].sort_index()
 
 print('\nReading: ' + os.path.abspath(AUX_FILE))
 aux_df = pd.read_csv(AUX_FILE, index_col='zoneid').sort_index()
-aux_df = aux_df.drop(['dip', 'rake', 'mechanism'], axis=1)
+aux_df = aux_df.drop(['dip', 'rake', 'mechanism', 'concerns'], axis=1)
 assert (areal_df.index == aux_df.index).all()
 areal_df = areal_df.join(aux_df)
 

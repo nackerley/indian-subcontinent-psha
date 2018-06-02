@@ -356,6 +356,9 @@ def points2csv(df, base_name, by=['mmin model', 'layerid'],
     '''
     Write grouped data with added names, ids and binwise rates.
     '''
+    if base_name.endswith('.csv'):
+        base_name = base_name[:-4]
+
     # TODO: select columns of interest, or at least control column order?
     df.drop('geometry', axis=1, inplace=True)
 
@@ -402,10 +405,14 @@ def csv2points(base_name, by=['mmin model', 'layerid'],
     return df
 
 
-def areal2csv(df, csv_file):
+def areal2csv(df, model_name):
     '''
     Write areal model with names, ids and geometry.
     '''
+    if model_name.endswith('.csv'):
+        model_name = model_name[:-4]
+    csv_file = model_name.replace(' ', '_') + '.csv'
+
     df = df.drop(columns=['polygon'])
 
     if not csv_file.endswith('.csv'):

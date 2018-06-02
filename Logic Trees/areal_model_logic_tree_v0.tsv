@@ -1,0 +1,4 @@
+uncertaintyType	applyToSources	uncertaintyModel	uncertaintyWeight
+sourceModel	all	['nt2012_areal_source_model_v0.xml']	[1]
+maxMagGRAbsolute	nt2012_areal_source_model_v0.csv	['mmax - stdmmax',  'mmax',  'mmax + stdmmax']	[0.32,  0.36,  0.32]
+bGRRelative	nt2012_areal_source_model_v0.csv	['-stdb', '0',  '+stdb']	[0.32,  0.36,  0.32]

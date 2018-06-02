@@ -747,8 +747,10 @@ def nrml_to_pdf(file_nrml, include_ids=False, verbose=False):
         print('Converting %s to %s' % (file_tex, build_pdf))
     if not os.path.exists(out_dir):
         os.mkdir(out_dir)
-    subprocess.call(['lualatex', '-output-directory=' + out_dir,
-                     '-interaction=nonstopmode', file_tex])
+    command = ['lualatex', '-output-directory=' + out_dir,
+               '-interaction=nonstopmode', file_tex]
+    print('Executing:' + ' '.join(command))
+    subprocess.call(command)
 
     if verbose:
         print('Moving %s to %s' % (build_pdf, file_pdf))

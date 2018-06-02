@@ -61,12 +61,15 @@ pd.set_option('mode.chained_assignment', 'raise')
 MODEL_PATH = '../Data/nath2012probabilistic'
 POLYGON_FORMAT = 'polygonlay%d.txt'
 SEISMICITY_FORMAT = 'seismicitylay%d.txt'
+SOURCE_TREE_TSV = '../Logic Trees/areal_model_logic_tree.tsv'
 
 # an input file supplies some auxiliary data
 AUX_FILE = 'auxiliary_data_v0.csv'
+PREFIX = 'nt2012'
+VERSION = os.path.splitext(AUX_FILE)[0].split('_')[-1]
 
 # define prefixes for the output file names and models
-AREAL_SOURCE_MODEL_BASE = 'areal_source_model'
+AREAL_SOURCE_MODEL_BASE = PREFIX + ' areal source model %s' % VERSION
 
 MIN_MAGS = [4.5, 5.5]
 LAYERS_DF = pd.read_csv('layers.csv', index_col='layerid')
@@ -74,19 +77,17 @@ LAYERS_DF = pd.read_csv('layers.csv', index_col='layerid')
 USE_RECOMPUTED = False
 
 if USE_RECOMPUTED:
-    smoothed_model_path = '../Smoothed/Recomputed'
+    SMOOTHED_MODEL_PATH = '../Smoothed/Recomputed'
 else:
-    smoothed_model_path = MODEL_PATH
+    SMOOTHED_MODEL_PATH = MODEL_PATH
 
-smoothed_data_template = os.path.join(smoothed_model_path,
+SMOOTHED_DATA_TEMPLATE = os.path.join(SMOOTHED_MODEL_PATH,
                                       'lay%dsmooth%.1f.txt')
 
-smoothed_source_data_file = 'smoothed_source_model'
-
-areal_csv = 'areal_source_model.csv'
-
-source_tree_tsv = '../Logic Trees/areal_model_logic_tree.tsv'
-
+SMOOTHED_MODEL_BASE = '_'.join((os.path.split(SMOOTHED_MODEL_PATH)[-1],
+                                'smoothed source model %s' % VERSION))
+SMOOTHED_MODEL_BASE = SMOOTHED_MODEL_BASE.replace(
+    os.path.split(MODEL_PATH)[-1], PREFIX)
 
 # %% load electronic supplement for areal zones
 
@@ -121,7 +122,6 @@ areal_df = pd.concat(areal_dfs)[columns].sort_index()
 
 print('\nReading: ' + os.path.abspath(AUX_FILE))
 aux_df = pd.read_csv(AUX_FILE, index_col='zoneid').sort_index()
-aux_df = aux_df.drop(['dip', 'rake', 'mechanism', 'concerns'], axis=1)
 assert (areal_df.index == aux_df.index).all()
 areal_df = areal_df.join(aux_df)
 
@@ -147,6 +147,12 @@ areal_df['strike2'] = areal_df['strike2'].apply(lambda x: round(x, 1))
 areal_df['dip2'] = areal_df['dip2'].apply(lambda x: round(x, 1))
 areal_df['rake2'] = areal_df['rake2'].apply(lambda x: round(x, 1))
 
+swap = areal_df['focal plane'] == 'secondary'
+print('Treating %d focal planes as secondary' % sum(swap))
+for column in ['strike', 'dip', 'rake', 'mechanism']:
+    areal_df.loc[swap, [column, column + '2']] = \
+        areal_df.loc[swap, [column + '2', column]].values
+
 # %% write areal CSV
 
 areal2csv(areal_df, AREAL_SOURCE_MODEL_BASE)
@@ -161,7 +167,7 @@ print('Finished writing areal model to NRML: %s\n' %
 # %% read logic tree description table
 
 print('Logic tree before collapse:')
-source_tree_symbolic_df = read_tree_tsv(source_tree_tsv)
+source_tree_symbolic_df = read_tree_tsv(SOURCE_TREE_TSV)
 print(source_tree_symbolic_df)
 
 # %% compute collapsed rates
@@ -175,7 +181,7 @@ print(reduced_df)
 # %% write areal sources to NRML
 
 mark = time()
-df2nrml(areal_collapsed_df, 'areal_collapsed.xml')
+df2nrml(areal_collapsed_df, AREAL_SOURCE_MODEL_BASE + ' collapsed')
 print('Finished writing collapsed areal model to NRML: %s\n' %
       pd.to_timedelta(time() - mark, unit='s'))
 
@@ -216,7 +222,7 @@ for i, min_mag in enumerate(MIN_MAGS):
     for layer_id, layer in LAYERS_DF.join(completeness_df,
                                           on=['zmin', 'zmax']).iterrows():
 
-        layer_smoothed_df = pd.read_csv(smoothed_data_template %
+        layer_smoothed_df = pd.read_csv(SMOOTHED_DATA_TEMPLATE %
                                         (layer_id, min_mag))
         nu_mag = 'nu%s' % str(min_mag).replace('.', '_')
 
@@ -380,36 +386,31 @@ res_deg = 1
 thinned_df = smoothed_df.loc[
     np.isclose(np.remainder(smoothed_df['latitude'], res_deg), 0) &
     np.isclose(np.remainder(smoothed_df['longitude'], res_deg), 0)].copy()
-model_basename = ' '.join((os.path.split(smoothed_model_path)[1],
-                           smoothed_source_data_file))
 print('Thinning to %g° spacing reduces number of points from %d to %d.\n'
       % (res_deg, len(smoothed_df), len(thinned_df)))
 
 # %% write thinned models
 
 mark = time()
-points2csv(thinned_df, model_basename + ' thinned')
-points2nrml(thinned_df, model_basename + ' thinned', by='mmin model')
+points2csv(thinned_df, SMOOTHED_MODEL_BASE + ' thinned')
+points2nrml(thinned_df, SMOOTHED_MODEL_BASE + ' thinned', by='mmin model')
 print('Wrote %d thinned smoothed-gridded sources to CSV & NRML: %s\n' %
       (len(thinned_df), pd.to_timedelta(time() - mark, unit='s')))
 
 # %% write full smoothed-gridded models (~10 minutes)
 
 mark = time()
-points2csv(smoothed_df, model_basename)
-points2nrml(smoothed_df, model_basename, by='mmin model')
+points2csv(smoothed_df, SMOOTHED_MODEL_BASE)
+points2nrml(smoothed_df, SMOOTHED_MODEL_BASE, by='mmin model')
 print('Wrote %d full smoothed-gridded sources to CSV & NRML: %s\n' %
       (len(smoothed_df), pd.to_timedelta(time() - mark, unit='s')))
 
 # %% write collapsed smoothed-gridded sources to NRML (~10 minutes)
 
 mark = time()
-model_basename = ' '.join((os.path.split(smoothed_model_path)[1],
-                           smoothed_source_data_file))
 smoothed_collapsed_df, reduced_df, all_weights, labels = \
     collapse_sources(smoothed_df, source_tree_symbolic_df)
-model_basename += ' collapsed'
 
-points2nrml(smoothed_collapsed_df, model_basename)
+points2nrml(smoothed_collapsed_df, SMOOTHED_MODEL_BASE + ' collapsed')
 print('Wrote %d collapsed smoothed-gridded sources to CSV & NRML: %s\n' %
       (len(smoothed_collapsed_df), pd.to_timedelta(time() - mark, unit='s')))

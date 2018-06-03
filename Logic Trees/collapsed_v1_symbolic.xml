@@ -3,5 +3,37 @@
 xmlns="http://openquake.org/xmlns/nrml/0.5"
 xmlns:gml="http://www.opengis.net/gml"
 >
-    <logicTree logicTreeID="lt1"/>
+    <logicTree
+    logicTreeID="lt1"
+    >
+        <logicTreeBranchingLevel
+        branchingLevelID="bl1"
+        >
+            <logicTreeBranchSet
+            branchSetID="bs1"
+            uncertaintyType="sourceModel"
+            >
+                <logicTreeBranch
+                branchID="b1m1"
+                >
+                    <uncertaintyModel>
+                        nt2012_smoothed_source_model_v1_collapsed_mmin4.5.xml
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.45
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="b1m2"
+                >
+                    <uncertaintyModel>
+                        nt2012_smoothed_source_model_v1_collapsed_mmin5.5.xml
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.55
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+            </logicTreeBranchSet>
+        </logicTreeBranchingLevel>
+    </logicTree>
 </nrml>

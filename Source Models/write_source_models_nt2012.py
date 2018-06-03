@@ -131,6 +131,8 @@ areal_df = pd.concat(areal_dfs)[columns].sort_index()
 print('\nReading: ' + os.path.abspath(AUX_FILE))
 aux_df = pd.read_csv(AUX_FILE, index_col='zoneid').sort_index()
 assert (areal_df.index == aux_df.index).all()
+if 'layerid' in aux_df:
+    aux_df.drop(columns='layerid', inplace=True)
 areal_df = areal_df.join(aux_df)
 
 # %% augment areal zone description tables

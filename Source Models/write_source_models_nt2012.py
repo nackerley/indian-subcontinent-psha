@@ -56,15 +56,17 @@ pd.set_option('mode.chained_assignment', 'raise')
 
 
 # %% constants
+THINNED_ONLY = True
 
 # define the input file names from the original paper
 MODEL_PATH = '../Data/nath2012probabilistic'
 POLYGON_FORMAT = 'polygonlay%d.txt'
 SEISMICITY_FORMAT = 'seismicitylay%d.txt'
-SOURCE_TREE_TSV = '../Logic Trees/areal_model_logic_tree.tsv'
+
+SOURCE_TREE_TSV = '../Logic Trees/areal_model_logic_tree_v1.tsv'
 
 # an input file supplies some auxiliary data
-AUX_FILE = 'auxiliary_data_v0.csv'
+AUX_FILE = 'auxiliary_data_v1.csv'
 PREFIX = 'nt2012'
 VERSION = os.path.splitext(AUX_FILE)[0].split('_')[-1]
 
@@ -101,6 +103,12 @@ for layer_id in LAYERS_DF.index:
     seismicity_df = pd.read_csv(seismicity_file)
     seismicity_df.set_index('zoneid', inplace=True, verify_integrity=True)
     seismicity_df.rename(columns=SEISMICITY_ALIASES, inplace=True)
+
+    # preserve errors in electonic supplement in version v0
+    if VERSION == 'v0' and layer_id == 4:
+        seismicity_df.loc[169], seismicity_df.loc[170] = \
+            seismicity_df.loc[170].copy(), seismicity_df.loc[169].copy()
+        print('Swapped seismicity for zones 169 and 170.')
 
     polygon_file = os.path.join(MODEL_PATH, POLYGON_FORMAT % layer_id)
     print('Reading: ' + os.path.abspath(polygon_file))
@@ -399,18 +407,21 @@ print('Wrote %d thinned smoothed-gridded sources to CSV & NRML: %s\n' %
 
 # %% write full smoothed-gridded models (~10 minutes)
 
-mark = time()
-points2csv(smoothed_df, SMOOTHED_MODEL_BASE)
-points2nrml(smoothed_df, SMOOTHED_MODEL_BASE, by='mmin model')
-print('Wrote %d full smoothed-gridded sources to CSV & NRML: %s\n' %
-      (len(smoothed_df), pd.to_timedelta(time() - mark, unit='s')))
+if not THINNED_ONLY:
 
-# %% write collapsed smoothed-gridded sources to NRML (~10 minutes)
+    mark = time()
+    points2csv(smoothed_df, SMOOTHED_MODEL_BASE)
+    points2nrml(smoothed_df, SMOOTHED_MODEL_BASE, by='mmin model')
+    print('Wrote %d full smoothed-gridded sources to CSV & NRML: %s\n' %
+          (len(smoothed_df), pd.to_timedelta(time() - mark, unit='s')))
 
-mark = time()
-smoothed_collapsed_df, reduced_df, all_weights, labels = \
-    collapse_sources(smoothed_df, source_tree_symbolic_df)
+    # write collapsed smoothed-gridded sources to NRML (~10 minutes)
 
-points2nrml(smoothed_collapsed_df, SMOOTHED_MODEL_BASE + ' collapsed')
-print('Wrote %d collapsed smoothed-gridded sources to CSV & NRML: %s\n' %
-      (len(smoothed_collapsed_df), pd.to_timedelta(time() - mark, unit='s')))
+    mark = time()
+    smoothed_collapsed_df, reduced_df, all_weights, labels = \
+        collapse_sources(smoothed_df, source_tree_symbolic_df)
+
+    points2nrml(smoothed_collapsed_df, SMOOTHED_MODEL_BASE + ' collapsed')
+    print('Wrote %d collapsed smoothed-gridded sources to CSV & NRML: %s\n' %
+          (len(smoothed_collapsed_df),
+           pd.to_timedelta(time() - mark, unit='s')))

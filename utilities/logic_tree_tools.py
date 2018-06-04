@@ -372,7 +372,8 @@ def collapse_sources(source_df, source_tree_symbolic_df, bin_width=0.1):
         branch['uncertaintyType'] in MODEL_LENGTHS.keys()
         for _, branch in source_tree_symbolic_df.iterrows()])
 
-    source_df = source_df.loc[source_df['mmax'] != 0].copy()
+    source_df = source_df.loc[(source_df['a'] != 0) &
+                              (source_df['mmax'] != 0)].copy()
 
     zone_rates, all_rates, all_weights = [], [], []
     for _, zone in source_df.iterrows():

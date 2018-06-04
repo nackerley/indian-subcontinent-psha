@@ -108,7 +108,7 @@ for layer_id in LAYERS_DF.index:
     if VERSION == 'v0' and layer_id == 4:
         seismicity_df.loc[169], seismicity_df.loc[170] = \
             seismicity_df.loc[170].copy(), seismicity_df.loc[169].copy()
-        print('Swapped seismicity for zones 169 and 170.')
+        print('Swapped seismicity parameters for zones 169 and 170.')
 
     polygon_file = os.path.join(MODEL_PATH, POLYGON_FORMAT % layer_id)
     print('Reading: ' + os.path.abspath(polygon_file))
@@ -163,6 +163,21 @@ for column in ['strike', 'dip', 'rake', 'mechanism']:
     areal_df.loc[swap, [column, column + '2']] = \
         areal_df.loc[swap, [column + '2', column]].values
 
+# grab mmax and bvalue from zone above if mmax zero for this zone
+check_keys = ['mmax', 'b']
+none_found = True
+for i, area_series in areal_df[
+        (areal_df[check_keys] == 0).any(axis=1)].iterrows():
+    alternate_zone = int(area_series.name/10)
+    for key in check_keys:
+        if area_series['a'] != 0 and area_series[key] == 0:
+            print('For zone %d taking %s from zone %d' %
+                  (area_series.name, key, alternate_zone))
+            areal_df.at[i, key] = areal_df.at[alternate_zone, key]
+            none_found = False
+if none_found:
+    print('SUCCESS: All zones already have mmax & b defined.')
+
 # %% write areal CSV
 
 areal2csv(areal_df, AREAL_SOURCE_MODEL_BASE)
@@ -194,24 +209,6 @@ mark = time()
 df2nrml(areal_collapsed_df, AREAL_SOURCE_MODEL_BASE + ' collapsed')
 print('Finished writing collapsed areal model to NRML: %s\n' %
       pd.to_timedelta(time() - mark, unit='s'))
-
-# %% areal zone data
-
-# grab mmax and bvalue from zone above if mmax zero for this zone
-check_keys = ['mmax', 'b']
-for i, area_series in areal_df[
-        (areal_df[check_keys] == 0).any(axis=1)].iterrows():
-    alternate_zone = int(area_series.name/10)
-    for key in check_keys:
-        if area_series[key] == 0:
-            print('For zone %d taking %s from zone %d' %
-                  (area_series.name, key, alternate_zone))
-            areal_df.at[i, key] = areal_df.at[alternate_zone, key]
-
-# in some cases we are only interested in the active zones
-active_areal_df = areal_df[areal_df['a'] != 0].reset_index()
-
-active_areal_df.head()
 
 # %% completeness tables
 
@@ -270,7 +267,11 @@ print('Read %d point sources from %d files: %s\n' %
       (len(smoothed_df), len(MIN_MAGS)*len(LAYERS_DF),
        pd.to_timedelta(time() - mark, unit='s')))
 
-# %% associate points in zones
+# %% associate smoothed-gridded points with zones
+
+# we are only interested in active zones
+
+active_areal_df = areal_df[areal_df['a'] != 0].reset_index()
 
 print('Associate point sources in areal zones with those zones ...')
 # quick, requires no transformations
@@ -281,7 +282,7 @@ smoothed_dfs = []
 for layer_id in LAYERS_DF.index:
     smoothed_layer_df = smoothed_df[smoothed_df['layerid'] == layer_id]
     areal_layer_df = gpd.GeoDataFrame(
-        areal_df[areal_df['layerid'] == layer_id],
+        active_areal_df[active_areal_df['layerid'] == layer_id],
         crs='WGS84')
     smoothed_layer_df = gpd.sjoin(
         smoothed_layer_df, areal_layer_df[['a', 'geometry']],
@@ -309,8 +310,8 @@ else:
 
     point_a = duplicated_df.iloc[0]
     point_b = duplicated_df.iloc[1]
-    zone_a = areal_df.at[int(point_a.zoneid), 'geometry']
-    zone_b = areal_df.at[int(point_b.zoneid), 'geometry']
+    zone_a = active_areal_df.at[int(point_a.zoneid), 'geometry']
+    zone_b = active_areal_df.at[int(point_b.zoneid), 'geometry']
 
     fig, ax = plt.subplots()
     ax.add_patch(PolygonPatch(zone_a, alpha=0.5))
@@ -402,10 +403,19 @@ print('Thinning to %g° spacing reduces number of points from %d to %d.\n'
 # %% write thinned models
 
 mark = time()
-points2csv(thinned_df, SMOOTHED_MODEL_BASE + ' thinned')
-points2nrml(thinned_df, SMOOTHED_MODEL_BASE + ' thinned', by='mmin model')
+thinned_base = SMOOTHED_MODEL_BASE.replace(VERSION, '') + 'thinned ' + VERSION
+points2csv(thinned_df, thinned_base)
+points2nrml(thinned_df, thinned_base)
 print('Wrote %d thinned smoothed-gridded sources to CSV & NRML: %s\n' %
       (len(thinned_df), pd.to_timedelta(time() - mark, unit='s')))
+
+thinned_collapsed_df, reduced_df, all_weights, labels = \
+    collapse_sources(thinned_df, source_tree_symbolic_df)
+
+points2nrml(thinned_collapsed_df, thinned_base + ' collapsed')
+print('Wrote %d collapsed thinned sources to CSV & NRML: %s\n' %
+      (len(thinned_collapsed_df),
+       pd.to_timedelta(time() - mark, unit='s')))
 
 # %% write full smoothed-gridded models (~10 minutes)
 

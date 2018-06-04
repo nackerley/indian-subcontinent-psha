@@ -324,6 +324,12 @@ def df2nrml(df, model_name):
         model_name = model_name[:-4]
     nrml_file = model_name.replace(' ', '_') + '.xml'
 
+    aseismic = df.a == 0
+    if any(aseismic):
+        print('Dropping zones with no seismicity from NRML: ' +
+              ', '.join(str(item) for item in df.loc[aseismic].index))
+        df = df.loc[~aseismic].copy()
+
     df = add_name_id(df)
     df = twin_source_by_magnitude(df)
     _check_columns(df)

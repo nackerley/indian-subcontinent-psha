@@ -439,7 +439,6 @@ def csv2areal(csv_file):
     '''
     read areal model, returning a geopandas DataFrame.
     '''
-    csv_file = csv_file.replace(' ', '_')
     if not csv_file.endswith('.csv'):
         csv_file += '.csv'
     print('Reading: ' + os.path.abspath(csv_file))

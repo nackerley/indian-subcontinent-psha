@@ -1,105 +1,105 @@
-"zoneid","aspect ratio","msr","tectonic zone","region","tectonic subregion","focal plane","faulting style","tectonic region type","layerid","note"
-1,2,"WC1994","Subduction interface","Pamirs","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,
-2,2,"WC1994","Subduction interface","Pamirs","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,
-3,2,"WC1994","Active shallow crust","Qaidam","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,
-4,2,"WC1994","Subduction interface","Kunlun Shan","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,
-5,2,"WC1994","Subduction interface","Pamirs","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,
-6,2,"WC1994","Active shallow crust","Pamirs","active shallow crust normal","primary","normal","active shallow crust",1,
-7,2,"WC1994","Active shallow crust","Kunlun","active shallow crust normal","primary","normal","active shallow crust",1,
-8,2,"WC1994","Active shallow crust","Hindukush","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,
-9,2,"WC1994","Active shallow crust","Hindukush","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,
-12,2,"WC1994","Active shallow crust","Himalayas","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,"???"
-13,2,"StrasserInterface","Subduction interface","Himalayas - Main Frontal Thrust","subduction interface","secondary","reverse","active shallow crust",1,"CHECK"
-14,2,"StrasserInterface","Subduction interface","Makran","subduction interface","primary","reverse","subduction interface",1,
-15,2,"WC1994","Subduction interface","Kirthar","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,
-16,2,"WC1994","Subduction interface","Sulaiman","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,
-17,2,"WC1994","Subduction interface","Pamirs","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,
-21,2,"StrasserInterface","Subduction interface","Himalayas - Main Frontal Thrust","subduction interface","primary","reverse","subduction interface",1,
-22,2,"StrasserInterface","Subduction interface","Himalayas - Main Frontal Thrust","subduction interface","primary","reverse","subduction interface",1,
-57,2,"WC1994","Active shallow crust","Andaman-Sumatra","active shallow crust normal","primary","normal","active shallow crust",1,
-58,2,"WC1994","Active shallow crust","Andaman-Sumatra","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,
-63,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,
-66,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,
-71,2,"WC1994","Oceanic crust","Bay of Bengal & Arabian Sea","no seismicity","primary","strike-slip","no seismicity",1,
-74,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,
-75,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","stable shallow crust",1,
-81,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","stable shallow crust",1,
-82,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,
-86,2,"WC1994","Stable continental","Sri Lanka, Laccadive Sea","no seismicity","primary","strike-slip","no seismicity",1,
-87,2,"StrasserInterface","Subduction interface","Pamir","subduction interface","primary","strike-slip",,2,"???"
-88,2,"StrasserInterface","Subduction interface","Hindukush","subduction interface","primary","strike-slip",,2,"???"
-89,2,"StrasserInterface","Subduction interface","Hindukush","subduction interface","primary","reverse","subduction interface",2,
-90,2,"StrasserInterface","Subduction interface","Pamir","subduction interface","primary","normal","subduction intraslab",2,"CHECK"
-91,2,"StrasserInterface","Subduction interface","Kunlun","subduction interface","primary","reverse",,2,
-92,2,"StrasserInterface","Subduction interface","Hindukush","subduction interface","primary","strike-slip",,2,"???"
-93,2,"StrasserInterface","Subduction interface","Sulaiman","subduction interface","primary","strike-slip",,2,"???"
-94,2,"StrasserInterface","Subduction interface","Makran","subduction interface","primary","strike-slip",,2,"???"
-95,2,"StrasserInterface","Subduction interface","Makran","subduction interface","primary","strike-slip",,2,"???"
-97,2,"StrasserInterface","Subduction interface","North Afghanistan, south of mountains","subduction interface","primary","strike-slip",,2,"???"
-98,2,"StrasserInterface","Subduction interface","Himalayas","subduction interface","primary","normal",,2,"???"
-99,2,"StrasserInterface","Subduction interface",,"subduction interface","primary","strike-slip",,2,"???"
-100,2,"StrasserInterface","Subduction interface","Karakoram","subduction interface","primary","strike-slip",,2,"???"
-101,2,"StrasserInterface","Subduction interface","Tibetan plateau","subduction interface","primary","normal",,2,"???"
-102,2,"StrasserInterface","Subduction interface","Tibetan plateau","subduction interface","primary","strike-slip",,2,"???"
-103,2,"StrasserInterface","Subduction interface","Ladakh, Zanskar, Tibetan","subduction interface","primary","normal",,2,"???"
-110,2,"StrasserInterface","Subduction interface","Himalayas","subduction interface","primary","reverse","subduction interface",2,
-116,2,"StrasserInterface","Subduction interface","Bangong-Nujiang","subduction interface","primary","normal",,2,"???"
-118,2,"StrasserInterface","Subduction interface","Mikir Hills","subduction interface","primary","strike-slip",,2,"???"
-119,2,"WC1994","Intraplate margin","Shillong plateau","intraplate margin lower","primary","reverse","intraplate margin lower",2,
-128,2,"StrasserInterface","Subduction interface","Indo-Myanmar","subduction interface","primary","strike-slip",,2,"???"
-129,2,"StrasserInterface","Subduction interface","Indo-Myanmar","subduction intraslab","primary","normal","subduction intraslab",2,
-130,2,"StrasserInterface","Subduction interface","Andaman-Sumatra","subduction interface","primary","reverse","subduction interface",2,
-131,2,"StrasserInterface","Subduction interface","Andaman","subduction intraslab","primary","normal","subduction intraslab",2,
-132,2,"StrasserInterface","Subduction interface","Andaman-Sumatra","subduction interface","primary","reverse","subduction interface",2,
-136,2,"StrasserInterface","Subduction interface","Andaman-Sumatra","subduction interface","primary","strike-slip",,2,"???"
-137,2,"StrasserInterface","Subduction interface","Andaman-Sumatra","subduction interface","primary","strike-slip",,2,"???"
-138,2,"StrasserInterface","Subduction interface","Andaman-Sumatra","subduction interface","primary","strike-slip",,2,"???"
-153,2,"StrasserIntraslab","Subduction intraslab","Hindukush","subduction interface ","primary","reverse","subduction interface ",3,
-154,2,"StrasserIntraslab","Subduction intraslab","Pamir","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",3,
-162,2,"StrasserIntraslab","Subduction intraslab","Indo-Myanmar","subduction intraslab","primary","strike-slip","subduction intraslab",3,
-163,2,"StrasserIntraslab","Subduction intraslab","Indo-Myanmar","subduction interface ","primary","reverse","subduction interface ",3,
-164,2,"StrasserIntraslab","Subduction intraslab","Indo-Myanmar","subduction intraslab","primary","strike-slip","subduction intraslab",3,
-166,2,"StrasserIntraslab","Subduction intraslab","Andaman-Sumatra","subduction interface ","primary","reverse","subduction interface ",3,
-167,2,"StrasserIntraslab","Subduction intraslab","Andaman-Sumatra","subduction interface ","primary","reverse","subduction interface ",3,
-169,2,"StrasserIntraslab","Subduction intraslab","Hindukush","subduction interface ","primary","reverse","subduction interface ",4,
-170,2,"StrasserIntraslab","Subduction interface","Pamir","subduction intraslab Himalayas","primary","normal","subduction intraslab",4,
-172,2,"StrasserIntraslab","Subduction intraslab","Andaman-Sumatra","subduction intraslab","primary","normal","subduction intraslab",4,
-901,2,"WC1994","Active shallow crust","Chang Chenmo, Aksai Chin","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,
-902,2,"WC1994","Active shallow crust","Tibetan plateau","active shallow crust normal","primary","normal","active shallow crust",1,
-903,2,"WC1994","Active shallow crust","Murray Ridge","active shallow crust normal","primary","normal","active shallow crust",1,
-904,2,"WC1994","Active shallow crust","Himalayas","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,
-905,2,"WC1994","Active shallow crust","Tibetan plateau","active shallow crust normal","primary","normal","active shallow crust",1,
-906,2,"WC1994","Active shallow crust","Himalayas - Main Frontal Thrust","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,
-907,2,"WC1994","Active shallow crust","Tibetan plateau","active shallow crust normal","primary","normal","active shallow crust",1,
-908,2,"WC1994","Active shallow crust","Himalayas","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,
-909,2,"WC1994","Active shallow crust","Tibetan plateau","active shallow crust normal","primary","normal","active shallow crust",1,
-910,2,"StrasserInterface","Subduction interface","Indo-Myanmar","subduction interface","primary","reverse","subduction interface",1,
-911,2,"WC1994","Subduction interface","Indo-Myanmar","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,
-912,2,"WC1994","Intraplate margin","Shillong plateau","intraplate margin upper","primary","reverse","intraplate margin upper",1,
-913,2,"WC1994","Active shallow crust","Bangladesh","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,
-914,2,"WC1994","Active shallow crust","Indo-Myanmar","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,
-915,2,"WC1994","Active shallow crust","Bay of Bengal","active shallow crust normal","primary","normal","active shallow crust",1,
-916,2,"StrasserInterface","Subduction interface","Andaman-Sumatra","subduction interface","primary","reverse","subduction interface",1,
-917,2,"WC1994","Oceanic crust","Bay of Bengal","stable shallow crust","primary","strike-slip","stable shallow crust",1,
-918,2,"StrasserInterface","Subduction interface","Andaman-Sumatra","subduction interface","primary","reverse","subduction interface",1,
-919,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,
-921,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,
-922,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","stable shallow crust",1,
-923,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","stable shallow crust",1,
-924,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","stable shallow crust",1,
-925,2,"StrasserInterface","Subduction interface","Himalayas","subduction interface","primary","normal",,2,"???"
-926,2,"StrasserInterface","Subduction interface","Himalayas","subduction interface","primary","normal",,2,"???"
-927,2,"StrasserInterface","Subduction interface","Himalayas","subduction interface","primary","normal",,2,"???"
-928,2,"StrasserInterface","Subduction interface","Himalayas","subduction interface","primary","strike-slip",,2,"???"
-929,2,"StrasserInterface","Subduction interface","Indo-Myanmar","subduction interface","primary","strike-slip",,2,"???"
-930,2,"StrasserInterface","Subduction interface","Indo-Myanmar","subduction interface","primary","strike-slip",,2,"???"
-931,2,"StrasserInterface","Subduction interface","Indo-Myanmar","subduction interface","primary","strike-slip",,2,"???"
-932,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","stable shallow crust",2,
-933,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",2,
-935,2,"StrasserIntraslab","Subduction intraslab","Himalayas","subduction interface ","primary","reverse","subduction interface ",3,
-936,2,"StrasserIntraslab","Subduction intraslab","Himalayas","subduction intraslab Himalayas","primary","reverse","subduction intraslab",3,
-9031,2,"WC1994","Oceanic crust","Murray Ridge","no seismicity","primary","normal",,2,"???"
-9081,2,"WC1994","Subduction interface","Himalayas","no seismicity","primary","strike-slip",,2,"???"
-9131,2,"WC1994","Subduction interface","Indo-Myanmar","no seismicity","primary","strike-slip",,2,"???"
-9151,2,"WC1994","Oceanic crust","Bay of Bengal","no seismicity","primary","normal",,2,"???"
-9171,2,"WC1994","Oceanic crust","Bay of Bengal","no seismicity","primary","strike-slip",,2,"???"
+"zoneid","aspect ratio","msr","tectonic zone","region","tectonic subregion","focal plane","faulting style","tectonic region type","layerid","plane"
+1,2,"WC1994","Subduction interface","Pamirs","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,"confused"
+2,2,"WC1994","Subduction interface","Pamirs","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,"confused"
+3,2,"WC1994","Active shallow crust","Qaidam","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,"moot"
+4,2,"WC1994","Subduction interface","Kunlun Shan","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,"unsure"
+5,2,"WC1994","Subduction interface","Pamirs","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,"done"
+6,2,"WC1994","Active shallow crust","Pamirs","active shallow crust normal","primary","normal","active shallow crust",1,"unsure"
+7,2,"WC1994","Active shallow crust","Kunlun","active shallow crust normal","primary","normal","active shallow crust",1,"unsure"
+8,2,"WC1994","Active shallow crust","Chaman/Herat/Paghman/Shyok","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,"unsure"
+9,2,"WC1994","Active shallow crust","Hindukush","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,"unsure"
+12,2,"WC1994","Active shallow crust","Himalayas","active shallow crust strike-slip reverse","secondary","reverse","active shallow crust",1,"done"
+13,2,"StrasserInterface","Subduction interface","Himalayas - Main Frontal Thrust","subduction interface","secondary","reverse","subduction interface",1,"done"
+14,2,"StrasserInterface","Subduction interface","Makran","subduction interface","primary","reverse","subduction interface",1,"WRONG"
+15,2,"WC1994","Subduction interface","Kirthar","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,"done"
+16,2,"WC1994","Subduction interface","Sulaiman","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,"done"
+17,2,"WC1994","Subduction interface","Salt Range Thust","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,"done"
+21,2,"StrasserInterface","Subduction interface","Himalayas - Main Frontal Thrust","subduction interface","primary","reverse","subduction interface",1,"correct"
+22,2,"StrasserInterface","Subduction interface","Himalayas - Main Frontal Thrust","subduction interface","primary","reverse","subduction interface",1,"correct"
+57,2,"WC1994","Active shallow crust","Andaman Sea","active shallow crust normal","primary","normal","active shallow crust",1,"unsure"
+58,2,"WC1994","Active shallow crust","Sumatra","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,"unsure"
+63,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","secondary","reverse","stable shallow crust",1,"done (finite fault)"
+66,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,"unsure"
+71,2,"WC1994","Oceanic crust","Bay of Bengal & Arabian Sea","no seismicity","primary","strike-slip","no seismicity",1,"moot"
+74,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,"unsure"
+75,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","no seismicity",1,"moot"
+81,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","no seismicity",1,"moot"
+82,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,"unsure"
+86,2,"WC1994","Stable continental","Sri Lanka, Laccadive Sea","no seismicity","primary","strike-slip","no seismicity",1,"moot"
+87,2,"StrasserIntraslab","Subduction intraslab","Pamir","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",2,"ok"
+88,2,"StrasserIntraslab","Subduction intraslab","Hindukush","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",2,"ok"
+89,2,"StrasserInterface","Subduction interface","Hindukush","subduction interface","primary","reverse","subduction interface",2,"undecidable"
+90,2,"StrasserIntraslab","Subduction intraslab","Pamir","subduction intraslab Himalayas","primary","normal","subduction intraslab",2,"undecidable"
+91,2,"StrasserInterface","Subduction interface","Kunlun Shan","subduction interface","primary","reverse","subduction interface",2,"ok"
+92,2,"StrasserIntraslab","Subduction intraslab","Chaman/Herat/Paghman/Shyok","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",2,"ok"
+93,2,"StrasserIntraslab","Subduction intraslab","Sulaiman","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",2,"ok"
+94,2,"StrasserIntraslab","Subduction intraslab","Kirthar","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",2,"ok"
+95,2,"StrasserIntraslab","Subduction intraslab","Makran","subduction intraslab","primary","strike-slip","subduction intraslab",2,"undecidable"
+97,2,"StrasserIntraslab","Subduction intraslab","Salt Range Thust","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",2,"undecidable"
+98,2,"StrasserIntraslab","Subduction intraslab","Himalayas","subduction intraslab Himalayas","primary","normal","subduction intraslab",2,"ok"
+99,2,"StrasserIntraslab","Subduction intraslab","Kashmir","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",2,"odd strike"
+100,2,"StrasserIntraslab","Subduction intraslab","Karakoram","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",2,"undecidable"
+101,2,"StrasserIntraslab","Subduction intraslab","Tibetan plateau","subduction intraslab Himalayas","primary","normal","subduction intraslab",2,"undecidable"
+102,2,"StrasserIntraslab","Subduction intraslab","Tibetan plateau","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",2,"undecidable"
+103,2,"StrasserIntraslab","Subduction intraslab","Ladakh, Zanskar, Tibetan","subduction intraslab Himalayas","primary","normal","subduction intraslab",2,"ok"
+110,2,"StrasserInterface","Subduction interface","Himalayas","subduction interface","primary","reverse","subduction interface",2,"ok"
+116,2,"StrasserIntraslab","Subduction intraslab","Bangong-Nujiang","subduction intraslab Himalayas","primary","normal","subduction intraslab",2,"unsure"
+118,2,"StrasserIntraslab","Subduction intraslab","Mikir Hills","subduction intraslab","primary","strike-slip","subduction intraslab",2,"ok"
+119,2,"WC1994","Intraplate margin","Shillong plateau","intraplate margin lower","primary","reverse","intraplate margin lower",2,"ok"
+128,2,"StrasserIntraslab","Subduction intraslab","Indo-Myanmar","subduction intraslab","primary","strike-slip","subduction intraslab",2,"undecidable"
+129,2,"StrasserIntraslab","Subduction intraslab","Indo-Myanmar","subduction intraslab","primary","normal","subduction intraslab",2,"undecidable"
+130,2,"StrasserInterface","Subduction interface","Andaman","subduction interface","primary","reverse","subduction interface",2,"undecidable (even with finite fault)"
+131,2,"StrasserIntraslab","Subduction intraslab","Andaman","subduction intraslab","primary","normal","subduction intraslab",2,"unsure"
+132,2,"StrasserInterface","Subduction interface","Sumatra","subduction interface","primary","reverse","subduction interface",2,"correct (dip should be steeper)"
+136,2,"StrasserIntraslab","Subduction intraslab","Andaman Sea","subduction intraslab","primary","strike-slip","subduction intraslab",2,"gross stress field"
+137,2,"StrasserIntraslab","Subduction intraslab","Andaman Sea","subduction intraslab","secondary","strike-slip","subduction intraslab",2,"gross stress field"
+138,2,"StrasserIntraslab","Subduction intraslab","Sumatra","subduction intraslab","primary","strike-slip","subduction intraslab",2,"undecidable"
+153,2,"StrasserInterface","Subduction interface","Hindukush","subduction interface ","primary","reverse","subduction interface ",3,"correct"
+154,2,"StrasserIntraslab","Subduction intraslab","Pamir","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",3,"undecidable"
+162,2,"StrasserIntraslab","Subduction intraslab","Indo-Myanmar","subduction intraslab","primary","strike-slip","subduction intraslab",3,"undecidable"
+163,2,"StrasserInterface","Subduction interface","Indo-Myanmar","subduction interface ","primary","reverse","subduction interface ",3,"unsure"
+164,2,"StrasserIntraslab","Subduction intraslab","Indo-Myanmar","subduction intraslab","primary","strike-slip","subduction intraslab",3,"undecidable"
+166,2,"StrasserInterface","Subduction interface","Andaman","subduction interface ","primary","reverse","subduction interface ",3,"unsure"
+167,2,"StrasserInterface","Subduction interface","Sumatra","subduction interface ","primary","reverse","subduction interface ",3,"unsure"
+169,2,"StrasserInterface","Subduction interface","Hindukush","subduction interface ","primary","reverse","subduction interface ",4,"bizarre"
+170,2,"StrasserIntraslab","Subduction intraslab","Pamir","subduction intraslab Himalayas","primary","normal","subduction intraslab",4,"undecidable"
+172,2,"StrasserIntraslab","Subduction intraslab","Andaman-Sumatra","subduction intraslab","primary","normal","subduction intraslab",4,"undecidable"
+901,2,"WC1994","Active shallow crust","Chang Chenmo, Aksai Chin","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,"unsure"
+902,2,"WC1994","Active shallow crust","Tibetan plateau","active shallow crust normal","primary","normal","active shallow crust",1,"uncertain"
+903,2,"WC1994","Active shallow crust","Murray Ridge","active shallow crust normal","primary","normal","active shallow crust",1,"uncertain"
+904,2,"WC1994","Active shallow crust","Himalayas","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,"unsure"
+905,2,"WC1994","Active shallow crust","Tibetan plateau","active shallow crust normal","primary","normal","active shallow crust",1,"uncertain"
+906,2,"WC1994","Active shallow crust","Himalayas - Main Frontal Thrust","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,"correct (but surprising)"
+907,2,"WC1994","Active shallow crust","Tibetan plateau","active shallow crust normal","primary","normal","active shallow crust",1,"uncertain"
+908,2,"WC1994","Active shallow crust","Himalayas","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,"unsure"
+909,2,"WC1994","Active shallow crust","Tibetan plateau","active shallow crust normal","primary","normal","active shallow crust",1,"uncertain"
+910,2,"StrasserInterface","Subduction interface","Indo-Myanmar","subduction interface","primary","reverse","subduction interface",1,"correct"
+911,2,"WC1994","Subduction interface","Indo-Myanmar","active shallow crust strike-slip reverse","primary","reverse","active shallow crust",1,"correct"
+912,2,"WC1994","Intraplate margin","Shillong plateau","intraplate margin upper","primary","reverse","intraplate margin upper",1,"correct"
+913,2,"WC1994","Active shallow crust","Bangladesh","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,"unsure"
+914,2,"WC1994","Active shallow crust","Sagaing","active shallow crust strike-slip reverse","primary","strike-slip","active shallow crust",1,"WRONG"
+915,2,"WC1994","Active shallow crust","Bay of Bengal","active shallow crust normal","primary","normal","active shallow crust",1,"unsure"
+916,2,"StrasserInterface","Subduction interface","Andaman","subduction interface","primary","reverse","subduction interface",1,"unsure"
+917,2,"WC1994","Oceanic crust","Bay of Bengal","stable shallow crust","primary","strike-slip","stable shallow crust",1,"moot"
+918,2,"StrasserInterface","Subduction interface","Sumatra","subduction interface","primary","reverse","subduction interface",1,"correct"
+919,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,"uncertain"
+921,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",1,"uncertain"
+922,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","stable shallow crust",1,"uncertain"
+923,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","stable shallow crust",1,"moot"
+924,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","stable shallow crust",1,"moot"
+925,2,"StrasserIntraslab","Subduction intraslab","Himalayas","subduction intraslab Himalayas","primary","normal","subduction intraslab",2,"unsure"
+926,2,"StrasserIntraslab","Subduction intraslab","Himalayas","subduction intraslab Himalayas","primary","normal","subduction intraslab",2,"undecidable"
+927,2,"StrasserIntraslab","Subduction intraslab","Himalayas","subduction intraslab Himalayas","primary","normal","subduction intraslab",2,"undecidable"
+928,2,"StrasserIntraslab","Subduction intraslab","Himalayas","subduction intraslab Himalayas","primary","strike-slip","subduction intraslab",2,"unsure"
+929,2,"StrasserIntraslab","Subduction intraslab","Indo-Myanmar","subduction intraslab","secondary","strike-slip","subduction intraslab",2,"gross stress field"
+930,2,"StrasserIntraslab","Subduction intraslab","Indo-Myanmar","subduction intraslab","primary","strike-slip","subduction intraslab",2,"undecidable"
+931,2,"StrasserIntraslab","Subduction intraslab","Sagaing","subduction intraslab","secondary","strike-slip","subduction intraslab",2,"major surface fault"
+932,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","strike-slip","stable shallow crust",2,"undecidable"
+933,2,"WC1994","Stable continental","Peninsular India","stable shallow crust","primary","reverse","stable shallow crust",2,"undecidable"
+935,2,"StrasserInterface","Subduction interface","Himalayas","subduction interface ","primary","reverse","subduction interface ",3,"correct"
+936,2,"StrasserIntraslab","Subduction intraslab","Himalayas","subduction intraslab Himalayas","primary","normal","subduction intraslab",3,"undecidable"
+9031,2,"WC1994","Oceanic crust","Murray Ridge","no seismicity","primary","normal","no seismicity",2,"moot"
+9081,2,"WC1994","Subduction interface","Himalayas","no seismicity","primary","strike-slip","no seismicity",2,"moot"
+9131,2,"WC1994","Subduction interface","Indo-Myanmar","no seismicity","primary","strike-slip","no seismicity",2,"moot"
+9151,2,"WC1994","Oceanic crust","Bay of Bengal","no seismicity","primary","normal","no seismicity",2,"moot"
+9171,2,"WC1994","Oceanic crust","Bay of Bengal","no seismicity","primary","strike-slip","no seismicity",2,"moot"

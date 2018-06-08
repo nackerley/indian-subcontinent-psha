@@ -439,6 +439,7 @@ def csv2areal(csv_file):
     '''
     read areal model, returning a geopandas DataFrame.
     '''
+    csv_file = csv_file.replace(' ', '_')
     if not csv_file.endswith('.csv'):
         csv_file += '.csv'
     print('Reading: ' + os.path.abspath(csv_file))
@@ -478,7 +479,7 @@ def focal_mech(dip, rake, threshold=30):
                 return 'reverse'  # dip-slip
             elif threshold < -rake < 180 - threshold:
                 return 'normal'  # dip-slip
-            elif rake < threshold:
+            elif np.abs(rake) < threshold:
                 return 'sinistral'  # strike-slip
 
             return 'dextral'  # strike-slip

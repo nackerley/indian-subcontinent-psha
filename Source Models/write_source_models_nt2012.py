@@ -28,7 +28,7 @@ Note: For imports to work, ../utilities directory must be added to PYTHONPATH
 # %% imports
 
 import os
-# import sys
+from io import StringIO
 from time import time
 
 import numpy as np
@@ -93,6 +93,12 @@ SMOOTHED_MODEL_BASE = SMOOTHED_MODEL_BASE.replace(
 
 # %% load electronic supplement for areal zones
 
+df_erroneous = pd.read_csv(StringIO('''\
+zoneid layerid strike dip rake
+14     1       228    69  330
+914    1       192    46  124
+'''), sep='\s+', index_col='zoneid')
+
 print('Reading areal polygons and seismicity statistics for each layer')
 areal_dfs = []
 for layer_id in LAYERS_DF.index:
@@ -105,17 +111,20 @@ for layer_id in LAYERS_DF.index:
     seismicity_df.rename(columns=SEISMICITY_ALIASES, inplace=True)
 
     # preserve errors in electonic supplement in version v0
-    if VERSION == 'v0' and layer_id == 4:
-        seismicity_df.loc[169], seismicity_df.loc[170] = \
-            seismicity_df.loc[170].copy(), seismicity_df.loc[169].copy()
-        print('Swapped seismicity parameters for zones 169 and 170.')
+    if VERSION == 'v0':
+        if layer_id == 4:
+            seismicity_df.loc[169], seismicity_df.loc[170] = \
+                seismicity_df.loc[170].copy(), seismicity_df.loc[169].copy()
+            print('Swapped seismicity parameters for zones 169 and 170.')
 
-        seismicity_df.at[914, 'strike'] = 192
-        seismicity_df.at[914, 'dip'] = 46
-        seismicity_df.at[914, 'rake'] = 124
-        print('Restored erroneous strike, dip, rake = %g, %g, %gfor zone 914' %
-              (seismicity_df.at[914, 'strike'], seismicity_df.at[914, 'dip'],
-              seismicity_df.at[914, 'rake']))
+        for zoneid, row in df_erroneous[df_erroneous.layerid ==
+                                        layer_id].iterrows():
+            row = row.drop('layerid')
+            for column in row.keys():
+                seismicity_df.loc[zoneid, column] = row[column]
+            print(
+                'Restored zone %d erroneous %s: %s' %
+                 (zoneid, row.keys().values, row.values))
 
     polygon_file = os.path.join(MODEL_PATH, POLYGON_FORMAT % layer_id)
     print('Reading: ' + os.path.abspath(polygon_file))
@@ -160,12 +169,14 @@ areal_df.loc[areal_df['strike'] == -1, 'strike'] = np.nan
 
 areal_df['mmin'] = MIN_MAGS[0]
 
-areal_df['strike2'] = areal_df['strike2'].apply(lambda x: round(x, 1))
-areal_df['dip2'] = areal_df['dip2'].apply(lambda x: round(x, 1))
-areal_df['rake2'] = areal_df['rake2'].apply(lambda x: round(x, 1))
+areal_df['strike2'] = areal_df['strike2'].round(1)
+areal_df['dip2'] = areal_df['dip2'].round(1)
+areal_df['rake2'] = areal_df['rake2'].apply(wrap)
+areal_df['rake2'] = areal_df['rake2'].round(1)
 
 swap = areal_df['focal plane'] == 'secondary'
-print('Treating %d focal planes as secondary' % sum(swap))
+print('Treating %d focal planes as secondary: %s' %
+      (sum(swap), ', '.join(str(item) for item in areal_df.index[swap])))
 for column in ['strike', 'dip', 'rake', 'mechanism']:
     areal_df.loc[swap, [column, column + '2']] = \
         areal_df.loc[swap, [column + '2', column]].values

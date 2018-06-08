@@ -17,20 +17,30 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b1m1"
                 >
                     <uncertaintyModel>
-                        nt2012_smoothed_source_model_v1_collapsed_mmin4.5.xml
+                        nt2012_areal_source_model_v1_collapsed.xml
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.45
+                        0.4
                     </uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch
                 branchID="b1m2"
                 >
                     <uncertaintyModel>
+                        nt2012_smoothed_source_model_v1_collapsed_mmin4.5.xml
+                    </uncertaintyModel>
+                    <uncertaintyWeight>
+                        0.27
+                    </uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch
+                branchID="b1m3"
+                >
+                    <uncertaintyModel>
                         nt2012_smoothed_source_model_v1_collapsed_mmin5.5.xml
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.55
+                        0.33
                     </uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>

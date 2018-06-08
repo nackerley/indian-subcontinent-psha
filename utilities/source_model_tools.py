@@ -333,7 +333,7 @@ def df2nrml(df, model_name):
     df = add_name_id(df)
     df = twin_source_by_magnitude(df)
     _check_columns(df)
-    df = natural_sort(df, by='id')
+    df = natural_sort(df, by='id')  # this may do nothing ...
 
     source_list = source_df_to_list(df)
     source_model = mtkSourceModel(identifier='1',

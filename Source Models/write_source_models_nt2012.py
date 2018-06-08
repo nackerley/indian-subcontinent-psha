@@ -110,6 +110,13 @@ for layer_id in LAYERS_DF.index:
             seismicity_df.loc[170].copy(), seismicity_df.loc[169].copy()
         print('Swapped seismicity parameters for zones 169 and 170.')
 
+        seismicity_df.at[914, 'strike'] = 192
+        seismicity_df.at[914, 'dip'] = 46
+        seismicity_df.at[914, 'rake'] = 124
+        print('Restored erroneous strike, dip, rake = %g, %g, %gfor zone 914' %
+              (seismicity_df.at[914, 'strike'], seismicity_df.at[914, 'dip'],
+              seismicity_df.at[914, 'rake']))
+
     polygon_file = os.path.join(MODEL_PATH, POLYGON_FORMAT % layer_id)
     print('Reading: ' + os.path.abspath(polygon_file))
     polygon_df = read_polygons(polygon_file)

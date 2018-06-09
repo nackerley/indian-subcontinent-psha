@@ -13,6 +13,7 @@ Future work:
 1. Summarize TRT and MSR assignment changes between v0 and v1.
 2. Map all zone focal mechanisms against those recomputed from GCMT catalogue
 (1976-2008 and 1976-2017). Identify zones with multiple modes in their moment
-tensor distributions. Cross-reference against literature to choose between 
-focal planes. Determine whether the added complexity is worthwhile, and if 
-so make this v2.
+tensor distributions. Cross-reference against literature and USGS finite 
+fault solutions to choose between focal planes. Determine whether the added 
+complexity is worthwhile, and if so make this v2.
+3. Model the complex fault geometry of the Himalayan main frontal thrust.

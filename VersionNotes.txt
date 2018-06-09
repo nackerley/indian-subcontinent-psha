@@ -1,28 +1,18 @@
-Outstanding concerns from v0:
-
-zoneid
-17                               could be stable
-169    only YCSH97 includes events to this depth
-170    only YCSH97 includes events to this depth
-172    only YCSH97 includes events to this depth
-906               main thrust fault runs through
-903                      oceanic not continental
-915                      oceanic not continental
-916                      oceanic not continental
-917                      oceanic not continental
-918                      oceanic not continental
+Outstanding concerns since v0:
+* zone 17: could be stable instead of active shallow
+* zones 169, 170, 172: only YCSH97 includes events to this depth
+* zones 903, 915, 916, 917, 918: oceanic not continental
 
 Fixed in v1:
 * major TRT and MSR reassignment with input from KKST
 * focal mechanisms & seismicity for zones 169 and 170 swapped
-* focal mechanism for zone 914 corrected from GCMT catalogue
+* focal mechanism for zones 14 and 914 corrected from GCMT catalogue
 * switched zones 12, 13, 63, 137, 929, 931 to secondary focal plane
 
-Outstanding concerns with v1:
-Zone 14 (Makran) is subduction interface but mechanism is strike-slip
-
-TODO:
-1. Map all zone focal mechanisms against those recomputed from GCMT catalogue
-(1976-2008 and 1976-2017).
-2. Summarize TRT and MSR reassignment.
-
+Future work:
+1. Summarize TRT and MSR assignment changes between v0 and v1.
+2. Map all zone focal mechanisms against those recomputed from GCMT catalogue
+(1976-2008 and 1976-2017). Identify zones with multiple modes in their moment
+tensor distributions. Cross-reference against literature to choose between 
+focal planes. Determine whether the added complexity is worthwhile, and if 
+so make this v2.

@@ -4,7 +4,7 @@ xmlns="http://openquake.org/xmlns/nrml/0.5"
 xmlns:gml="http://www.opengis.net/gml"
 >
     <sourceModel
-    name="nt2012_smoothed source model thinned v0 collapsed mmin4.5"
+    name="nt2012 smoothed source model thinned v0 collapsed mmin4.5"
     >
         <sourceGroup
         rup_interdep="indep"

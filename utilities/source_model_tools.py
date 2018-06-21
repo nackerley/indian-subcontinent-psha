@@ -432,7 +432,7 @@ def areal2csv(df, model_name):
     df = add_name_id(df)
     _check_columns(df)
 
-    df.to_csv(csv_file)
+    df.to_csv(csv_file, float_format='%.5g')
 
 
 def csv2areal(csv_file):

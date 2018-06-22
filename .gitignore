@@ -48,6 +48,7 @@ Faults/*
 HazardOutputs/**/*.log
 HazardOutputs/**/*.xml
 HazardOutputs/**/*.csv
+Jobs/**/results/*.csv
 Archives/**/*.log
 Archives/**/*.xml
 Archives/**/*.csv

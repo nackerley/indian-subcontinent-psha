@@ -144,7 +144,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     # put it all together
     columns = list(unique_everseen([column for column in df.columns
                                     for df in areal_dfs]))
-    areal_df = pd.concat(areal_dfs)[columns].sort_index()
+    areal_df = pd.concat(areal_dfs, sort=True)[columns].sort_index()
 
     # auxiliary information
     aux_file = AUX_FORMAT % version
@@ -303,11 +303,11 @@ def write_source_models(version=0, full=False, use_recomputed=False,
             active_areal_df[active_areal_df['layerid'] == layer_id],
             crs='WGS84')
         smoothed_layer_df = gpd.sjoin(
-            smoothed_layer_df, areal_layer_df[['a', 'geometry']],
+            smoothed_layer_df, areal_layer_df[['zoneid', 'a', 'geometry']],
             how='left', op='within')
         smoothed_dfs.append(smoothed_layer_df)
     smoothed_df = pd.concat(smoothed_dfs)
-    smoothed_df.rename({'index_right': 'zoneid'}, axis=1, inplace=True)
+    smoothed_df.drop(columns='index_right', inplace=True)
 
     smoothed_df['in zoneid'] = smoothed_df['zoneid'].copy()
 
@@ -316,6 +316,15 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     print('Spatial join accounted for %.2f%% of sources: %s\n' %
           (100*len(smoothed_df[assigned])/len(smoothed_df),
            pd.to_timedelta(time() - mark, unit='s')))
+
+    unassigned_zones = (
+        set(active_areal_df.zoneid.unique()) -
+        set(smoothed_df[pd.notnull(smoothed_df.zoneid)].zoneid.unique()))
+    if list(unassigned_zones):
+        raise RuntimeError('Zones not assigned to any point: ' +
+                           str(sorted(list(unassigned_zones))))
+    else:
+        print('SUCCESS: All active areal zones assigned to at least one point')
 
     # no point should be associated with multiple zones
     id_columns = ['latitude', 'longitude', 'layerid', 'mmin']
@@ -423,7 +432,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     print('Wrote %d thinned smoothed-gridded sources to CSV & NRML: %s\n' %
           (len(thinned_df), pd.to_timedelta(time() - mark, unit='s')))
 
-    thinned_collapsed_df, reduced_df, all_weights, labels = \
+    thinned_collapsed_df, reduced_df, _, _ = \
         collapse_sources(thinned_df, source_tree_symbolic_df)
 
     points2nrml(thinned_collapsed_df, thinned_base + ' collapsed')
@@ -445,7 +454,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
         # write collapsed smoothed-gridded sources to NRML (~10 minutes)
 
         mark = time()
-        smoothed_collapsed_df, reduced_df, all_weights, labels = \
+        smoothed_collapsed_df, reduced_df, _, _ = \
             collapse_sources(smoothed_df, source_tree_symbolic_df)
 
         points2nrml(smoothed_collapsed_df, smoothed_model_base + ' collapsed')

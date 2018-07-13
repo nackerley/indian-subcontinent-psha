@@ -6,15 +6,26 @@ longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,t
 61,21,0.0007,5.5,107,6.5421e-06,290.88,95,,70,25,subduction intraslab,-0.014286,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,21N 61E 25-70 km depth M5.5,21N_61E_L2_M5p5,,,
 61,22,0.0013,5.5,107,1.215e-05,183.25,95,,70,25,subduction intraslab,0.25456,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,22N 61E 25-70 km depth M5.5,22N_61E_L2_M5p5,,-5.74,
 61,23,0.0001,5.5,107,9.3458e-07,75.516,95,,70,25,subduction intraslab,-0.85938,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,23N 61E 25-70 km depth M5.5,23N_61E_L2_M5p5,,,
+61,24,0.0009,5.5,107,8.4112e-06,0,95,95,70,25,subduction intraslab,0.094859,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,24N 61E 25-70 km depth M5.5,24N_61E_L2_M5p5,,-6.25,
+61,25,0.0058,5.5,107,5.4206e-05,0,95,95,70,25,subduction intraslab,0.90404,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,25N 61E 25-70 km depth M5.5,25N_61E_L2_M5p5,-4.47,-4.79,-5.83
+61,26,0.0059,5.5,107,5.514e-05,0,95,95,70,25,subduction intraslab,0.91147,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,26N 61E 25-70 km depth M5.5,26N_61E_L2_M5p5,-4.45,-4.79,-5.82
+61,27,0.0098,5.5,107,9.1589e-05,0,95,95,70,25,subduction intraslab,1.1318,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,27N 61E 25-70 km depth M5.5,27N_61E_L2_M5p5,-4.14,-4.54,-5.53
 62,20,0.0001,5.5,107,9.3458e-07,423.43,95,,70,25,subduction intraslab,-0.85938,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,20N 62E 25-70 km depth M5.5,20N_62E_L2_M5p5,,,
 62,21,0.0036,5.5,107,3.3645e-05,315.78,95,,70,25,subduction intraslab,0.69692,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,21N 62E 25-70 km depth M5.5,21N_62E_L2_M5p5,-4.86,-5.04,-6.17
 62,22,0.0077,5.5,107,7.1963e-05,207.99,95,,70,25,subduction intraslab,1.0271,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,22N 62E 25-70 km depth M5.5,22N_62E_L2_M5p5,-4.28,-4.66,-5.66
 62,23,0.0007,5.5,107,6.5421e-06,100.09,95,,70,25,subduction intraslab,-0.014286,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,23N 62E 25-70 km depth M5.5,23N_62E_L2_M5p5,,,
+62,24,0.0013,5.5,107,1.215e-05,0,95,95,70,25,subduction intraslab,0.25456,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,24N 62E 25-70 km depth M5.5,24N_62E_L2_M5p5,,-5.74,
+62,25,0.005,5.5,107,4.6729e-05,0,95,95,70,25,subduction intraslab,0.83959,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,25N 62E 25-70 km depth M5.5,25N_62E_L2_M5p5,-4.57,-4.87,-5.92
+62,26,0.0098,5.5,107,9.1589e-05,0,95,95,70,25,subduction intraslab,1.1318,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,26N 62E 25-70 km depth M5.5,26N_62E_L2_M5p5,-4.14,-4.54,-5.53
+62,27,0.0133,5.5,107,0.0001243,0,95,95,70,25,subduction intraslab,1.2645,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,27N 62E 25-70 km depth M5.5,27N_62E_L2_M5p5,-3.98,-4.4,-5.38
 62,28,0.0067,5.5,107,6.2617e-05,58.284,95,,70,25,subduction intraslab,0.96669,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,28N 62E 25-70 km depth M5.5,28N_62E_L2_M5p5,-4.37,-4.72,-5.74
 63,21,0.0012,5.5,107,1.1215e-05,339.97,95,,70,25,subduction intraslab,0.2198,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,21N 63E 25-70 km depth M5.5,21N_63E_L2_M5p5,,-5.82,
 63,22,0.0031,5.5,107,2.8972e-05,232.02,95,,70,25,subduction intraslab,0.63198,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,22N 63E 25-70 km depth M5.5,22N_63E_L2_M5p5,-5.04,-5.12,-6.3
 63,23,0.0004,5.5,107,3.7383e-06,123.96,95,,70,25,subduction intraslab,-0.25732,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,23N 63E 25-70 km depth M5.5,23N_63E_L2_M5p5,,,
 63,24,0.0052,5.5,107,4.8598e-05,15.813,95,,70,25,subduction intraslab,0.85662,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,24N 63E 25-70 km depth M5.5,24N_63E_L2_M5p5,-4.54,-4.85,-5.9
+63,25,0.0162,5.5,107,0.0001514,0,95,95,70,25,subduction intraslab,1.3501,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,25N 63E 25-70 km depth M5.5,25N_63E_L2_M5p5,-3.88,-4.31,-5.28
+63,26,0.0063,5.5,107,5.8879e-05,0,95,95,70,25,subduction intraslab,0.93996,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,26N 63E 25-70 km depth M5.5,26N_63E_L2_M5p5,-4.41,-4.75,-5.78
+63,27,0.0043,5.5,107,4.0187e-05,0,95,95,70,25,subduction intraslab,0.77408,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,27N 63E 25-70 km depth M5.5,27N_63E_L2_M5p5,-4.69,-4.95,-6.03
 63,28,0.0019,5.5,107,1.7757e-05,43.621,95,,70,25,subduction intraslab,0.41937,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,28N 63E 25-70 km depth M5.5,28N_63E_L2_M5p5,,-5.43,-7.18
 63,29,0.0004,5.5,107,3.7383e-06,121.25,94,,70,25,subduction intraslab Himalayas,-0.037324,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,29N 63E 25-70 km depth M5.5,29N_63E_L2_M5p5,,,
 63,30,0.0012,5.5,107,1.1215e-05,147.32,94,,70,25,subduction intraslab Himalayas,0.4398,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,30N 63E 25-70 km depth M5.5,30N_63E_L2_M5p5,,-5.64,-6.62
@@ -22,145 +33,346 @@ longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,t
 64,22,0.0001,5.5,107,9.3458e-07,255.34,95,,70,25,subduction intraslab,-0.85938,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,22N 64E 25-70 km depth M5.5,22N_64E_L2_M5p5,,,
 64,23,0.0004,5.5,107,3.7383e-06,147.12,95,,70,25,subduction intraslab,-0.25732,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,23N 64E 25-70 km depth M5.5,23N_64E_L2_M5p5,,,
 64,24,0.0048,5.5,107,4.486e-05,38.806,95,,70,25,subduction intraslab,0.82186,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,24N 64E 25-70 km depth M5.5,24N_64E_L2_M5p5,-4.6,-4.89,-5.95
+64,25,0.012,5.5,107,0.00011215,0,95,95,70,25,subduction intraslab,1.2198,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,25N 64E 25-70 km depth M5.5,25N_64E_L2_M5p5,-4.04,-4.45,-5.43
+64,26,0.0024,5.5,107,2.243e-05,0,95,95,70,25,subduction intraslab,0.52083,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,26N 64E 25-70 km depth M5.5,26N_64E_L2_M5p5,-5.61,-5.27,-6.61
+64,27,0.0019,5.5,107,1.7757e-05,0,95,95,70,25,subduction intraslab,0.41937,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,27N 64E 25-70 km depth M5.5,27N_64E_L2_M5p5,,-5.43,-7.18
 64,28,0.0025,5.5,107,2.3364e-05,0,94,,70,25,subduction intraslab Himalayas,0.75856,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,28N 64E 25-70 km depth M5.5,28N_64E_L2_M5p5,-4.97,-5.2,-6.18
 64,29,0.0009,5.5,107,8.4112e-06,26.963,94,,70,25,subduction intraslab Himalayas,0.31486,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,29N 64E 25-70 km depth M5.5,29N_64E_L2_M5p5,,-5.85,-6.83
 64,30,0.0045,5.5,107,4.2056e-05,53.969,94,,70,25,subduction intraslab Himalayas,1.0138,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,30N 64E 25-70 km depth M5.5,30N_64E_L2_M5p5,-4.53,-4.91,-5.89
 64,31,0.0008,5.5,107,7.4766e-06,80.954,94,,70,25,subduction intraslab Himalayas,0.26371,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,31N 64E 25-70 km depth M5.5,31N_64E_L2_M5p5,,-5.96,-6.94
 65,23,0.0017,5.5,107,1.5888e-05,169.56,95,,70,25,subduction intraslab,0.37107,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,23N 65E 25-70 km depth M5.5,23N_65E_L2_M5p5,,-5.51,
 65,24,0.0101,5.5,107,9.4393e-05,61.083,95,,70,25,subduction intraslab,1.1449,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,24N 65E 25-70 km depth M5.5,24N_65E_L2_M5p5,-4.13,-4.53,-5.52
+65,25,0.0037,5.5,107,3.4579e-05,0,95,95,70,25,subduction intraslab,0.70882,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,25N 65E 25-70 km depth M5.5,25N_65E_L2_M5p5,-4.83,-5.03,-6.14
+65,26,0.0004,5.5,107,3.7383e-06,0,95,95,70,25,subduction intraslab,-0.25732,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,26N 65E 25-70 km depth M5.5,26N_65E_L2_M5p5,,,
+65,27,0.0027,5.5,107,2.5234e-05,0,94,94,70,25,subduction intraslab Himalayas,0.79198,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,27N 65E 25-70 km depth M5.5,27N_65E_L2_M5p5,-4.9,-5.16,-6.14
+65,28,0.0037,5.5,107,3.4579e-05,0,94,94,70,25,subduction intraslab Himalayas,0.92882,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,28N 65E 25-70 km depth M5.5,28N_65E_L2_M5p5,-4.66,-5.01,-5.99
+65,29,0.0009,5.5,107,8.4112e-06,0,94,94,70,25,subduction intraslab Himalayas,0.31486,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,29N 65E 25-70 km depth M5.5,29N_65E_L2_M5p5,,-5.85,-6.83
+65,30,0.0015,5.5,107,1.4019e-05,0,94,94,70,25,subduction intraslab Himalayas,0.53671,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,30N 65E 25-70 km depth M5.5,30N_65E_L2_M5p5,-5.84,-5.49,-6.47
+65,31,0.0003,5.5,107,2.8037e-06,0,94,94,70,25,subduction intraslab Himalayas,-0.16226,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,31N 65E 25-70 km depth M5.5,31N_65E_L2_M5p5,,,
 65,34,0.0001,5.5,107,9.3458e-07,98.088,92,,70,25,subduction intraslab Himalayas,-0.25438,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,34N 65E 25-70 km depth M5.5,34N_65E_L2_M5p5,,,
 66,23,0.0005,5.5,107,4.6729e-06,147.6,94,,70,25,subduction intraslab Himalayas,0.059586,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,23N 66E 25-70 km depth M5.5,23N_66E_L2_M5p5,,-6.71,-7.69
 66,24,0.0048,5.5,107,4.486e-05,80.184,94,,70,25,subduction intraslab Himalayas,1.0419,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,24N 66E 25-70 km depth M5.5,24N_66E_L2_M5p5,-4.49,-4.88,-5.86
+66,25,0.004,5.5,107,3.7383e-05,0,95,95,70,25,subduction intraslab,0.74268,0.94,0.13,7.6,0.4,167,79,23,2,StrasserIntraslab,25N 66E 25-70 km depth M5.5,25N_66E_L2_M5p5,-4.76,-4.98,-6.08
+66,26,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,26N 66E 25-70 km depth M5.5,26N_66E_L2_M5p5,,-6.3,-7.28
+66,27,0.006,5.5,107,5.6075e-05,0,94,94,70,25,subduction intraslab Himalayas,1.1388,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,27N 66E 25-70 km depth M5.5,27N_66E_L2_M5p5,-4.36,-4.77,-5.75
+66,28,0.0112,5.5,107,0.00010467,0,94,94,70,25,subduction intraslab Himalayas,1.4098,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,28N 66E 25-70 km depth M5.5,28N_66E_L2_M5p5,-4.04,-4.49,-5.47
+66,29,0.0068,5.5,107,6.3551e-05,0,94,94,70,25,subduction intraslab Himalayas,1.1931,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,29N 66E 25-70 km depth M5.5,29N_66E_L2_M5p5,-4.29,-4.72,-5.7
+66,30,0.0047,5.5,107,4.3925e-05,0,94,94,70,25,subduction intraslab Himalayas,1.0327,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,30N 66E 25-70 km depth M5.5,30N_66E_L2_M5p5,-4.5,-4.89,-5.87
+66,31,0.002,5.5,107,1.8692e-05,0,94,94,70,25,subduction intraslab Himalayas,0.66165,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,31N 66E 25-70 km depth M5.5,31N_66E_L2_M5p5,-5.21,-5.33,-6.31
+66,32,0.001,5.5,107,9.3458e-06,0,92,92,70,25,subduction intraslab Himalayas,0.74562,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,32N 66E 25-70 km depth M5.5,32N_66E_L2_M5p5,-5.43,-5.64,-6.69
+66,33,0.0001,5.5,107,9.3458e-07,0,92,92,70,25,subduction intraslab Himalayas,-0.25438,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,33N 66E 25-70 km depth M5.5,33N_66E_L2_M5p5,,,
 66,34,0.0001,5.5,107,9.3458e-07,16.226,92,,70,25,subduction intraslab Himalayas,-0.25438,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,34N 66E 25-70 km depth M5.5,34N_66E_L2_M5p5,,,
 66,35,0.0013,5.5,107,1.215e-05,67.546,92,,70,25,subduction intraslab Himalayas,0.85956,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,35N 66E 25-70 km depth M5.5,35N_66E_L2_M5p5,-5.19,-5.51,-6.56
+67,24,0.0008,5.5,107,7.4766e-06,0,94,94,70,25,subduction intraslab Himalayas,0.26371,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,24N 67E 25-70 km depth M5.5,24N_67E_L2_M5p5,,-5.96,-6.94
+67,25,0.0016,5.5,107,1.4953e-05,0,94,94,70,25,subduction intraslab Himalayas,0.56474,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,25N 67E 25-70 km depth M5.5,25N_67E_L2_M5p5,-5.63,-5.45,-6.43
+67,26,0.0038,5.5,107,3.5514e-05,0,94,94,70,25,subduction intraslab Himalayas,0.9404,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,26N 67E 25-70 km depth M5.5,26N_67E_L2_M5p5,-4.64,-4.99,-5.97
+67,27,0.005,5.5,107,4.6729e-05,0,94,94,70,25,subduction intraslab Himalayas,1.0596,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,27N 67E 25-70 km depth M5.5,27N_67E_L2_M5p5,-4.47,-4.86,-5.84
+67,28,0.0227,5.5,107,0.00021215,0,94,94,70,25,subduction intraslab Himalayas,1.7166,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,28N 67E 25-70 km depth M5.5,28N_67E_L2_M5p5,-3.7,-4.17,-5.15
+67,29,0.0241,5.5,107,0.00022523,0,94,94,70,25,subduction intraslab Himalayas,1.7426,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,29N 67E 25-70 km depth M5.5,29N_67E_L2_M5p5,-3.67,-4.15,-5.13
+67,30,0.0165,5.5,107,0.00015421,0,94,94,70,25,subduction intraslab Himalayas,1.5781,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,30N 67E 25-70 km depth M5.5,30N_67E_L2_M5p5,-3.85,-4.31,-5.29
+67,31,0.0106,5.5,107,9.9065e-05,0,92,92,70,25,subduction intraslab Himalayas,1.7709,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,31N 67E 25-70 km depth M5.5,31N_67E_L2_M5p5,-4.03,-4.54,-5.59
+67,32,0.0073,5.5,107,6.8224e-05,0,92,92,70,25,subduction intraslab Himalayas,1.6089,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,32N 67E 25-70 km depth M5.5,32N_67E_L2_M5p5,-4.2,-4.7,-5.75
+67,33,0.002,5.5,107,1.8692e-05,0,92,92,70,25,subduction intraslab Himalayas,1.0466,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,33N 67E 25-70 km depth M5.5,33N_67E_L2_M5p5,-4.88,-5.29,-6.34
+67,34,0.0007,5.5,107,6.5421e-06,0,92,92,70,25,subduction intraslab Himalayas,0.59071,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,34N 67E 25-70 km depth M5.5,34N_67E_L2_M5p5,-6.04,-5.84,-6.89
+67,35,0.0035,5.5,107,3.271e-05,0,92,92,70,25,subduction intraslab Himalayas,1.2897,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,35N 67E 25-70 km depth M5.5,35N_67E_L2_M5p5,-4.57,-5.03,-6.08
 67,36,0.0079,5.5,107,7.3832e-05,24.919,88,,70,25,subduction intraslab Himalayas,2.5782,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,36N 67E 25-70 km depth M5.5,36N_67E_L2_M5p5,-4.14,-4.74,-5.96
-69,24,0.0007,5.5,107,6.5421e-06,0,93,93,70,25,subduction intraslab Himalayas,1.3057,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,24N 69E 25-70 km depth M5.5,24N_69E_L2_M5p5,-5.28,-5.8,-6.98
-69,25,0.0007,5.5,107,6.5421e-06,0,93,93,70,25,subduction intraslab Himalayas,1.3057,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,25N 69E 25-70 km depth M5.5,25N_69E_L2_M5p5,-5.28,-5.8,-6.98
-69,26,0.0011,5.5,107,1.028e-05,0,93,93,70,25,subduction intraslab Himalayas,1.502,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,26N 69E 25-70 km depth M5.5,26N_69E_L2_M5p5,-5.04,-5.59,-6.77
-70,23,0.0002,5.5,107,1.8692e-06,0,93,93,70,25,subduction intraslab Himalayas,0.76165,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,23N 70E 25-70 km depth M5.5,23N_70E_L2_M5p5,-6.21,-6.4,-7.58
-70,24,0.0056,5.5,107,5.2336e-05,0,93,93,70,25,subduction intraslab Himalayas,2.2088,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,24N 70E 25-70 km depth M5.5,24N_70E_L2_M5p5,-4.29,-4.87,-6.05
-70,25,0.0055,5.5,107,5.1402e-05,0,93,93,70,25,subduction intraslab Himalayas,2.201,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,25N 70E 25-70 km depth M5.5,25N_70E_L2_M5p5,-4.3,-4.88,-6.06
-70,26,0.0004,5.5,107,3.7383e-06,0,93,93,70,25,subduction intraslab Himalayas,1.0627,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,26N 70E 25-70 km depth M5.5,26N_70E_L2_M5p5,-5.61,-6.06,-7.24
-70,27,0.0016,5.5,107,1.4953e-05,0,93,93,70,25,subduction intraslab Himalayas,1.6647,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 70E 25-70 km depth M5.5,27N_70E_L2_M5p5,-4.86,-5.42,-6.6
-70,28,0.0063,5.5,107,5.8879e-05,0,93,93,70,25,subduction intraslab Himalayas,2.26,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 70E 25-70 km depth M5.5,28N_70E_L2_M5p5,-4.24,-4.82,-6
-71,23,0.0001,5.5,107,9.3458e-07,0,93,93,70,25,subduction intraslab Himalayas,0.46062,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,23N 71E 25-70 km depth M5.5,23N_71E_L2_M5p5,,-6.8,-7.98
-71,24,0.0028,5.5,107,2.6168e-05,0,93,93,70,25,subduction intraslab Himalayas,1.9078,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,24N 71E 25-70 km depth M5.5,24N_71E_L2_M5p5,-4.6,-5.18,-6.36
-71,25,0.0028,5.5,107,2.6168e-05,0,93,93,70,25,subduction intraslab Himalayas,1.9078,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,25N 71E 25-70 km depth M5.5,25N_71E_L2_M5p5,-4.6,-5.18,-6.36
-71,26,0.0001,5.5,107,9.3458e-07,0,93,93,70,25,subduction intraslab Himalayas,0.46062,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,26N 71E 25-70 km depth M5.5,26N_71E_L2_M5p5,,-6.8,-7.98
-71,28,0.001,5.5,107,9.3458e-06,0,93,93,70,25,subduction intraslab Himalayas,1.4606,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 71E 25-70 km depth M5.5,28N_71E_L2_M5p5,-5.09,-5.63,-6.81
-71,29,0.0049,5.5,107,4.5794e-05,0,93,93,70,25,subduction intraslab Himalayas,2.1508,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,29N 71E 25-70 km depth M5.5,29N_71E_L2_M5p5,-4.35,-4.93,-6.11
+68,25,0.0004,5.5,107,3.7383e-06,0,94,94,70,25,subduction intraslab Himalayas,-0.037324,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,25N 68E 25-70 km depth M5.5,25N_68E_L2_M5p5,,,
+68,26,0.0031,5.5,107,2.8972e-05,0,94,94,70,25,subduction intraslab Himalayas,0.85198,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,26N 68E 25-70 km depth M5.5,26N_68E_L2_M5p5,-4.79,-5.09,-6.07
+68,27,0.0066,5.5,107,6.1682e-05,0,94,94,70,25,subduction intraslab Himalayas,1.1802,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,27N 68E 25-70 km depth M5.5,27N_68E_L2_M5p5,-4.31,-4.73,-5.71
+68,28,0.0285,5.5,107,0.00026636,0,94,94,70,25,subduction intraslab Himalayas,1.8155,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,28N 68E 25-70 km depth M5.5,28N_68E_L2_M5p5,-3.6,-4.07,-5.05
+68,29,0.0276,5.5,107,0.00025794,0,94,94,70,25,subduction intraslab Himalayas,1.8015,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,29N 68E 25-70 km depth M5.5,29N_68E_L2_M5p5,-3.61,-4.09,-5.07
+68,30,0.0135,5.5,107,0.00012617,0,93,93,70,25,subduction intraslab Himalayas,2.5909,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,30N 68E 25-70 km depth M5.5,30N_68E_L2_M5p5,-3.9,-4.49,-5.67
+68,31,0.0063,5.5,107,5.8879e-05,0,93,93,70,25,subduction intraslab Himalayas,2.26,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,31N 68E 25-70 km depth M5.5,31N_68E_L2_M5p5,-4.24,-4.82,-6
+68,32,0.0061,5.5,107,5.7009e-05,0,92,92,70,25,subduction intraslab Himalayas,1.5309,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,32N 68E 25-70 km depth M5.5,32N_68E_L2_M5p5,-4.29,-4.78,-5.83
+68,33,0.0086,5.5,107,8.0374e-05,0,92,92,70,25,subduction intraslab Himalayas,1.6801,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,33N 68E 25-70 km depth M5.5,33N_68E_L2_M5p5,-4.13,-4.63,-5.68
+68,34,0.0024,5.5,107,2.243e-05,0,92,92,70,25,subduction intraslab Himalayas,1.1258,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,34N 68E 25-70 km depth M5.5,34N_68E_L2_M5p5,-4.77,-5.21,-6.26
+68,35,0.0068,5.5,107,6.3551e-05,0,92,92,70,25,subduction intraslab Himalayas,1.5781,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,35N 68E 25-70 km depth M5.5,35N_68E_L2_M5p5,-4.24,-4.73,-5.78
+68,36,0.0149,5.5,107,0.00013925,0,88,88,70,25,subduction intraslab Himalayas,2.8538,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,36N 68E 25-70 km depth M5.5,36N_68E_L2_M5p5,-3.86,-4.47,-5.69
+68,37,0.0194,5.5,107,0.00018131,0,88,88,70,25,subduction intraslab Himalayas,2.9684,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,37N 68E 25-70 km depth M5.5,37N_68E_L2_M5p5,-3.74,-4.35,-5.57
+68,38,0.009,5.5,107,8.4112e-05,0,87,87,70,25,subduction intraslab Himalayas,2.3049,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,38N 68E 25-70 km depth M5.5,38N_68E_L2_M5p5,-4.08,-4.66,-5.82
+69,24,0.0007,5.5,107,6.5421e-06,0,932,932,70,25,stable shallow crust,-0.069286,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,24N 69E 25-70 km depth M5.5,24N_69E_L2_M5p5,,,
+69,25,0.0007,5.5,107,6.5421e-06,0,932,932,70,25,stable shallow crust,-0.069286,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,25N 69E 25-70 km depth M5.5,25N_69E_L2_M5p5,,,
+69,26,0.0011,5.5,107,1.028e-05,0,932,932,70,25,stable shallow crust,0.12701,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,26N 69E 25-70 km depth M5.5,26N_69E_L2_M5p5,,,
+69,27,0.0082,5.5,107,7.6636e-05,0,94,94,70,25,subduction intraslab Himalayas,1.2744,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,27N 69E 25-70 km depth M5.5,27N_69E_L2_M5p5,-4.19,-4.63,-5.61
+69,28,0.0172,5.5,107,0.00016075,0,94,94,70,25,subduction intraslab Himalayas,1.5961,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,28N 69E 25-70 km depth M5.5,28N_69E_L2_M5p5,-3.83,-4.3,-5.28
+69,29,0.0204,5.5,107,0.00019065,0,93,93,70,25,subduction intraslab Himalayas,2.7702,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,29N 69E 25-70 km depth M5.5,29N_69E_L2_M5p5,-3.72,-4.31,-5.49
+69,30,0.0261,5.5,107,0.00024393,0,93,93,70,25,subduction intraslab Himalayas,2.8773,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,30N 69E 25-70 km depth M5.5,30N_69E_L2_M5p5,-3.61,-4.2,-5.38
+69,31,0.0082,5.5,107,7.6636e-05,0,93,93,70,25,subduction intraslab Himalayas,2.3744,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,31N 69E 25-70 km depth M5.5,31N_69E_L2_M5p5,-4.12,-4.71,-5.89
+69,32,0.0059,5.5,107,5.514e-05,0,93,93,70,25,subduction intraslab Himalayas,2.2315,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,32N 69E 25-70 km depth M5.5,32N_69E_L2_M5p5,-4.27,-4.85,-6.03
+69,33,0.0062,5.5,107,5.7944e-05,0,92,92,70,25,subduction intraslab Himalayas,1.538,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,33N 69E 25-70 km depth M5.5,33N_69E_L2_M5p5,-4.28,-4.77,-5.82
+69,34,0.0027,5.5,107,2.5234e-05,0,92,92,70,25,subduction intraslab Himalayas,1.177,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,34N 69E 25-70 km depth M5.5,34N_69E_L2_M5p5,-4.71,-5.15,-6.2
+69,35,0.0142,5.5,107,0.00013271,0,92,92,70,25,subduction intraslab Himalayas,1.8979,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,35N 69E 25-70 km depth M5.5,35N_69E_L2_M5p5,-3.9,-4.41,-5.46
+69,36,0.0321,5.5,107,0.0003,0,88,88,70,25,subduction intraslab Himalayas,3.1871,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,36N 69E 25-70 km depth M5.5,36N_69E_L2_M5p5,-3.52,-4.13,-5.35
+69,37,0.0284,5.5,107,0.00026542,0,88,88,70,25,subduction intraslab Himalayas,3.1339,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,37N 69E 25-70 km depth M5.5,37N_69E_L2_M5p5,-3.58,-4.19,-5.41
+69,38,0.0063,5.5,107,5.8879e-05,0,87,87,70,25,subduction intraslab Himalayas,2.15,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,38N 69E 25-70 km depth M5.5,38N_69E_L2_M5p5,-4.24,-4.81,-5.97
+69,39,0.0053,5.5,107,4.9533e-05,0,87,87,70,25,subduction intraslab Himalayas,2.0749,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,39N 69E 25-70 km depth M5.5,39N_69E_L2_M5p5,-4.32,-4.89,-6.05
+70,23,0.0002,5.5,107,1.8692e-06,0,932,932,70,25,stable shallow crust,-0.61335,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,23N 70E 25-70 km depth M5.5,23N_70E_L2_M5p5,,,
+70,24,0.0056,5.5,107,5.2336e-05,0,932,932,70,25,stable shallow crust,0.8338,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,24N 70E 25-70 km depth M5.5,24N_70E_L2_M5p5,-4.52,-4.99,
+70,25,0.0055,5.5,107,5.1402e-05,0,932,932,70,25,stable shallow crust,0.82598,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,25N 70E 25-70 km depth M5.5,25N_70E_L2_M5p5,-4.54,-5,
+70,26,0.0004,5.5,107,3.7383e-06,0,932,932,70,25,stable shallow crust,-0.31232,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,26N 70E 25-70 km depth M5.5,26N_70E_L2_M5p5,,,
+70,27,0.0016,5.5,107,1.4953e-05,0,932,932,70,25,stable shallow crust,0.28974,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 70E 25-70 km depth M5.5,27N_70E_L2_M5p5,,,
+70,28,0.0063,5.5,107,5.8879e-05,0,932,932,70,25,stable shallow crust,0.88496,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 70E 25-70 km depth M5.5,28N_70E_L2_M5p5,-4.44,-4.9,
+70,29,0.0218,5.5,107,0.00020374,0,93,93,70,25,subduction intraslab Himalayas,2.7991,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,29N 70E 25-70 km depth M5.5,29N_70E_L2_M5p5,-3.69,-4.28,-5.46
+70,30,0.0321,5.5,107,0.0003,0,93,93,70,25,subduction intraslab Himalayas,2.9671,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,30N 70E 25-70 km depth M5.5,30N_70E_L2_M5p5,-3.52,-4.11,-5.29
+70,31,0.0108,5.5,107,0.00010093,0,93,93,70,25,subduction intraslab Himalayas,2.494,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,31N 70E 25-70 km depth M5.5,31N_70E_L2_M5p5,-4,-4.59,-5.77
+70,32,0.0121,5.5,107,0.00011308,0,93,93,70,25,subduction intraslab Himalayas,2.5434,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,32N 70E 25-70 km depth M5.5,32N_70E_L2_M5p5,-3.95,-4.54,-5.72
+70,33,0.0045,5.5,107,4.2056e-05,0,97,97,70,25,subduction intraslab Himalayas,0.73883,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,33N 70E 25-70 km depth M5.5,33N_70E_L2_M5p5,-4.71,-4.93,
+70,34,0.0032,5.5,107,2.9907e-05,0,92,92,70,25,subduction intraslab Himalayas,1.2508,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,34N 70E 25-70 km depth M5.5,34N_70E_L2_M5p5,-4.61,-5.07,-6.12
+70,35,0.014,5.5,107,0.00013084,0,92,92,70,25,subduction intraslab Himalayas,1.8917,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,35N 70E 25-70 km depth M5.5,35N_70E_L2_M5p5,-3.9,-4.41,-5.46
+70,36,0.0297,5.5,107,0.00027757,0,89,89,70,25,subduction interface,2.5484,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,36N 70E 25-70 km depth M5.5,36N_70E_L2_M5p5,-3.56,-4.11,-5.23
+70,37,0.0292,5.5,107,0.0002729,0,88,88,70,25,subduction intraslab Himalayas,3.146,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,37N 70E 25-70 km depth M5.5,37N_70E_L2_M5p5,-3.57,-4.17,-5.39
+70,38,0.0087,5.5,107,8.1308e-05,0,88,88,70,25,subduction intraslab Himalayas,2.6201,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,38N 70E 25-70 km depth M5.5,38N_70E_L2_M5p5,-4.09,-4.7,-5.92
+70,39,0.0183,5.5,107,0.00017103,0,87,87,70,25,subduction intraslab Himalayas,2.6131,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,39N 70E 25-70 km depth M5.5,39N_70E_L2_M5p5,-3.77,-4.35,-5.51
+71,23,0.0001,5.5,107,9.3458e-07,0,932,932,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,23N 71E 25-70 km depth M5.5,23N_71E_L2_M5p5,,,
+71,24,0.0028,5.5,107,2.6168e-05,0,932,932,70,25,stable shallow crust,0.53277,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,24N 71E 25-70 km depth M5.5,24N_71E_L2_M5p5,-5.42,-5.89,
+71,25,0.0028,5.5,107,2.6168e-05,0,932,932,70,25,stable shallow crust,0.53277,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,25N 71E 25-70 km depth M5.5,25N_71E_L2_M5p5,-5.42,-5.89,
+71,26,0.0001,5.5,107,9.3458e-07,0,932,932,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,26N 71E 25-70 km depth M5.5,26N_71E_L2_M5p5,,,
+71,28,0.001,5.5,107,9.3458e-06,0,932,932,70,25,stable shallow crust,0.085616,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 71E 25-70 km depth M5.5,28N_71E_L2_M5p5,,,
+71,29,0.0049,5.5,107,4.5794e-05,0,932,932,70,25,stable shallow crust,0.77581,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,29N 71E 25-70 km depth M5.5,29N_71E_L2_M5p5,-4.63,-5.1,
+71,30,0.0088,5.5,107,8.2243e-05,0,93,93,70,25,subduction intraslab Himalayas,2.4051,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,30N 71E 25-70 km depth M5.5,30N_71E_L2_M5p5,-4.09,-4.68,-5.86
+71,31,0.008,5.5,107,7.4766e-05,0,93,93,70,25,subduction intraslab Himalayas,2.3637,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,31N 71E 25-70 km depth M5.5,31N_71E_L2_M5p5,-4.13,-4.72,-5.9
+71,32,0.0069,5.5,107,6.4486e-05,0,97,97,70,25,subduction intraslab Himalayas,0.92447,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,32N 71E 25-70 km depth M5.5,32N_71E_L2_M5p5,-4.38,-4.71,-6.05
+71,33,0.0012,5.5,107,1.1215e-05,0,97,97,70,25,subduction intraslab Himalayas,0.1648,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,33N 71E 25-70 km depth M5.5,33N_71E_L2_M5p5,,-5.92,
+71,34,0.0032,5.5,107,2.9907e-05,0,99,99,70,25,subduction intraslab Himalayas,1.8008,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,34N 71E 25-70 km depth M5.5,34N_71E_L2_M5p5,-4.55,-5.11,-6.33
+71,35,0.01,5.5,107,9.3458e-05,0,92,92,70,25,subduction intraslab Himalayas,1.7456,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,35N 71E 25-70 km depth M5.5,35N_71E_L2_M5p5,-4.06,-4.56,-5.61
+71,36,0.0147,5.5,107,0.00013738,0,89,89,70,25,subduction interface,2.2429,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,36N 71E 25-70 km depth M5.5,36N_71E_L2_M5p5,-3.87,-4.42,-5.54
+71,37,0.0288,5.5,107,0.00026916,0,89,89,70,25,subduction interface,2.535,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,37N 71E 25-70 km depth M5.5,37N_71E_L2_M5p5,-3.57,-4.13,-5.24
+71,38,0.017,5.5,107,0.00015888,0,90,90,70,25,subduction intraslab Himalayas,2.8011,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,38N 71E 25-70 km depth M5.5,38N_71E_L2_M5p5,-3.8,-4.4,-5.6
+71,39,0.0309,5.5,107,0.00028879,0,87,87,70,25,subduction intraslab Himalayas,2.8406,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,39N 71E 25-70 km depth M5.5,39N_71E_L2_M5p5,-3.54,-4.12,-5.28
 72,7,0.0006,5.5,107,5.6075e-06,343.32,933,,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,7N 72E 25-70 km depth M5.5,7N_72E_L2_M5p5,,,
 72,8,0.0006,5.5,107,5.6075e-06,305.15,933,,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,8N 72E 25-70 km depth M5.5,8N_72E_L2_M5p5,,,
-72,24,0.0001,5.5,107,9.3458e-07,0,93,93,70,25,subduction intraslab Himalayas,0.46062,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,24N 72E 25-70 km depth M5.5,24N_72E_L2_M5p5,,-6.8,-7.98
-72,25,0.0001,5.5,107,9.3458e-07,0,93,93,70,25,subduction intraslab Himalayas,0.46062,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,25N 72E 25-70 km depth M5.5,25N_72E_L2_M5p5,,-6.8,-7.98
-72,27,0.0002,5.5,107,1.8692e-06,0,93,93,70,25,subduction intraslab Himalayas,0.76165,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 72E 25-70 km depth M5.5,27N_72E_L2_M5p5,-6.21,-6.4,-7.58
-72,28,0.0012,5.5,107,1.1215e-05,0,93,93,70,25,subduction intraslab Himalayas,1.5398,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 72E 25-70 km depth M5.5,28N_72E_L2_M5p5,-5,-5.55,-6.73
-72,29,0.0003,5.5,107,2.8037e-06,0,93,93,70,25,subduction intraslab Himalayas,0.93774,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,29N 72E 25-70 km depth M5.5,29N_72E_L2_M5p5,-5.81,-6.2,-7.38
+72,24,0.0001,5.5,107,9.3458e-07,0,932,932,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,24N 72E 25-70 km depth M5.5,24N_72E_L2_M5p5,,,
+72,25,0.0001,5.5,107,9.3458e-07,0,932,932,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,25N 72E 25-70 km depth M5.5,25N_72E_L2_M5p5,,,
+72,27,0.0002,5.5,107,1.8692e-06,0,932,932,70,25,stable shallow crust,-0.61335,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 72E 25-70 km depth M5.5,27N_72E_L2_M5p5,,,
+72,28,0.0012,5.5,107,1.1215e-05,0,932,932,70,25,stable shallow crust,0.1648,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 72E 25-70 km depth M5.5,28N_72E_L2_M5p5,,,
+72,29,0.0003,5.5,107,2.8037e-06,0,932,932,70,25,stable shallow crust,-0.43726,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,29N 72E 25-70 km depth M5.5,29N_72E_L2_M5p5,,,
+72,30,0.0009,5.5,107,8.4112e-06,0,97,97,70,25,subduction intraslab Himalayas,0.039859,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,30N 72E 25-70 km depth M5.5,30N_72E_L2_M5p5,,-6.6,
+72,31,0.0048,5.5,107,4.486e-05,0,97,97,70,25,subduction intraslab Himalayas,0.76686,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,31N 72E 25-70 km depth M5.5,31N_72E_L2_M5p5,-4.65,-4.89,-7.03
+72,32,0.0029,5.5,107,2.7103e-05,0,97,97,70,25,subduction intraslab Himalayas,0.54801,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,32N 72E 25-70 km depth M5.5,32N_72E_L2_M5p5,-5.33,-5.18,
+72,33,0.0017,5.5,107,1.5888e-05,0,97,97,70,25,subduction intraslab Himalayas,0.31607,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,33N 72E 25-70 km depth M5.5,33N_72E_L2_M5p5,,-5.55,
+72,34,0.002,5.5,107,1.8692e-05,0,99,99,70,25,subduction intraslab Himalayas,1.5966,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,34N 72E 25-70 km depth M5.5,34N_72E_L2_M5p5,-4.77,-5.31,-6.59
+72,35,0.0021,5.5,107,1.9626e-05,0,99,99,70,25,subduction intraslab Himalayas,1.6178,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,35N 72E 25-70 km depth M5.5,35N_72E_L2_M5p5,-4.75,-5.29,-6.56
+72,36,0.0072,5.5,107,6.729e-05,0,89,89,70,25,subduction interface,1.9329,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,36N 72E 25-70 km depth M5.5,36N_72E_L2_M5p5,-4.19,-4.73,-5.87
+72,37,0.0245,5.5,107,0.00022897,0,89,89,70,25,subduction interface,2.4648,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,37N 72E 25-70 km depth M5.5,37N_72E_L2_M5p5,-3.65,-4.2,-5.31
+72,38,0.0161,5.5,107,0.00015047,0,90,90,70,25,subduction intraslab Himalayas,2.7774,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,38N 72E 25-70 km depth M5.5,38N_72E_L2_M5p5,-3.83,-4.42,-5.62
+72,39,0.0194,5.5,107,0.00018131,0,87,87,70,25,subduction intraslab Himalayas,2.6384,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,39N 72E 25-70 km depth M5.5,39N_72E_L2_M5p5,-3.75,-4.32,-5.48
 73,6,0.0001,5.5,107,9.3458e-07,278.86,933,,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,6N 73E 25-70 km depth M5.5,6N_73E_L2_M5p5,,,
 73,7,0.0033,5.5,107,3.0841e-05,240.95,933,,70,25,stable shallow crust,0.38413,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,7N 73E 25-70 km depth M5.5,7N_73E_L2_M5p5,,-5.38,
 73,8,0.0033,5.5,107,3.0841e-05,202.95,933,,70,25,stable shallow crust,0.38413,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,8N 73E 25-70 km depth M5.5,8N_73E_L2_M5p5,,-5.38,
 73,9,0.0001,5.5,107,9.3458e-07,164.86,933,,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,9N 73E 25-70 km depth M5.5,9N_73E_L2_M5p5,,,
-73,27,0.0008,5.5,107,7.4766e-06,0,93,93,70,25,subduction intraslab Himalayas,1.3637,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 73E 25-70 km depth M5.5,27N_73E_L2_M5p5,-5.21,-5.74,-6.92
-73,28,0.0045,5.5,107,4.2056e-05,0,93,93,70,25,subduction intraslab Himalayas,2.1138,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 73E 25-70 km depth M5.5,28N_73E_L2_M5p5,-4.39,-4.97,-6.15
-73,29,0.0008,5.5,107,7.4766e-06,0,93,93,70,25,subduction intraslab Himalayas,1.3637,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,29N 73E 25-70 km depth M5.5,29N_73E_L2_M5p5,-5.21,-5.74,-6.92
+73,27,0.0008,5.5,107,7.4766e-06,0,932,932,70,25,stable shallow crust,-0.011294,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 73E 25-70 km depth M5.5,27N_73E_L2_M5p5,,,
+73,28,0.0045,5.5,107,4.2056e-05,0,932,932,70,25,stable shallow crust,0.73883,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 73E 25-70 km depth M5.5,28N_73E_L2_M5p5,-4.71,-5.17,
+73,29,0.0008,5.5,107,7.4766e-06,0,932,932,70,25,stable shallow crust,-0.011294,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,29N 73E 25-70 km depth M5.5,29N_73E_L2_M5p5,,,
+73,30,0.0001,5.5,107,9.3458e-07,0,97,97,70,25,subduction intraslab Himalayas,-0.91438,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,30N 73E 25-70 km depth M5.5,30N_73E_L2_M5p5,,,
+73,31,0.0004,5.5,107,3.7383e-06,0,97,97,70,25,subduction intraslab Himalayas,-0.31232,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,31N 73E 25-70 km depth M5.5,31N_73E_L2_M5p5,,,
+73,32,0.0003,5.5,107,2.8037e-06,0,97,97,70,25,subduction intraslab Himalayas,-0.43726,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,32N 73E 25-70 km depth M5.5,32N_73E_L2_M5p5,,,
+73,33,0.0025,5.5,107,2.3364e-05,0,99,99,70,25,subduction intraslab Himalayas,1.6936,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,33N 73E 25-70 km depth M5.5,33N_73E_L2_M5p5,-4.67,-5.22,-6.46
+73,34,0.0025,5.5,107,2.3364e-05,0,99,99,70,25,subduction intraslab Himalayas,1.6936,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,34N 73E 25-70 km depth M5.5,34N_73E_L2_M5p5,-4.67,-5.22,-6.46
+73,35,0.0004,5.5,107,3.7383e-06,0,99,99,70,25,subduction intraslab Himalayas,0.89768,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,35N 73E 25-70 km depth M5.5,35N_73E_L2_M5p5,-5.71,-6.06,
+73,36,0.0041,5.5,107,3.8318e-05,0,99,99,70,25,subduction intraslab Himalayas,1.9084,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,36N 73E 25-70 km depth M5.5,36N_73E_L2_M5p5,-4.44,-5,-6.2
+73,37,0.0092,5.5,107,8.5981e-05,0,90,90,70,25,subduction intraslab Himalayas,2.5344,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,37N 73E 25-70 km depth M5.5,37N_73E_L2_M5p5,-4.07,-4.67,-5.87
+73,38,0.01,5.5,107,9.3458e-05,0,90,90,70,25,subduction intraslab Himalayas,2.5706,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,38N 73E 25-70 km depth M5.5,38N_73E_L2_M5p5,-4.03,-4.63,-5.83
+73,39,0.0111,5.5,107,0.00010374,0,87,87,70,25,subduction intraslab Himalayas,2.3959,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,39N 73E 25-70 km depth M5.5,39N_73E_L2_M5p5,-3.99,-4.57,-5.73
 74,7,0.0006,5.5,107,5.6075e-06,138.23,933,,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,7N 74E 25-70 km depth M5.5,7N_74E_L2_M5p5,,,
 74,8,0.0006,5.5,107,5.6075e-06,100.4,933,,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,8N 74E 25-70 km depth M5.5,8N_74E_L2_M5p5,,,
-74,27,0.0002,5.5,107,1.8692e-06,0,93,93,70,25,subduction intraslab Himalayas,0.76165,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 74E 25-70 km depth M5.5,27N_74E_L2_M5p5,-6.21,-6.4,-7.58
-74,28,0.0013,5.5,107,1.215e-05,0,93,93,70,25,subduction intraslab Himalayas,1.5746,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 74E 25-70 km depth M5.5,28N_74E_L2_M5p5,-4.96,-5.52,-6.7
-75,20,0.0002,5.5,107,1.8692e-06,0,94,94,70,25,subduction intraslab Himalayas,-0.33835,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,20N 75E 25-70 km depth M5.5,20N_75E_L2_M5p5,,,
-75,21,0.0018,5.5,107,1.6822e-05,0,94,94,70,25,subduction intraslab Himalayas,0.61589,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,21N 75E 25-70 km depth M5.5,21N_75E_L2_M5p5,-5.37,-5.38,-6.36
-75,22,0.0005,5.5,107,4.6729e-06,0,94,94,70,25,subduction intraslab Himalayas,0.059586,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,22N 75E 25-70 km depth M5.5,22N_75E_L2_M5p5,,-6.71,-7.69
-75,27,0.0001,5.5,107,9.3458e-07,0,93,93,70,25,subduction intraslab Himalayas,0.46062,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 75E 25-70 km depth M5.5,27N_75E_L2_M5p5,,-6.8,-7.98
-75,28,0.0016,5.5,107,1.4953e-05,0,93,93,70,25,subduction intraslab Himalayas,1.6647,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 75E 25-70 km depth M5.5,28N_75E_L2_M5p5,-4.86,-5.42,-6.6
-75,29,0.0016,5.5,107,1.4953e-05,0,93,93,70,25,subduction intraslab Himalayas,1.6647,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,29N 75E 25-70 km depth M5.5,29N_75E_L2_M5p5,-4.86,-5.42,-6.6
+74,27,0.0002,5.5,107,1.8692e-06,0,932,932,70,25,stable shallow crust,-0.61335,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 74E 25-70 km depth M5.5,27N_74E_L2_M5p5,,,
+74,28,0.0013,5.5,107,1.215e-05,0,932,932,70,25,stable shallow crust,0.19956,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 74E 25-70 km depth M5.5,28N_74E_L2_M5p5,,,
+74,29,0.0003,5.5,107,2.8037e-06,0,97,97,70,25,subduction intraslab Himalayas,-0.43726,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,29N 74E 25-70 km depth M5.5,29N_74E_L2_M5p5,,,
+74,30,0.0005,5.5,107,4.6729e-06,0,97,97,70,25,subduction intraslab Himalayas,-0.21541,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,30N 74E 25-70 km depth M5.5,30N_74E_L2_M5p5,,,
+74,31,0.001,5.5,107,9.3458e-06,0,97,97,70,25,subduction intraslab Himalayas,0.085616,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,31N 74E 25-70 km depth M5.5,31N_74E_L2_M5p5,,-6.24,
+74,32,0.0001,5.5,107,9.3458e-07,0,97,97,70,25,subduction intraslab Himalayas,-0.91438,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,32N 74E 25-70 km depth M5.5,32N_74E_L2_M5p5,,,
+74,33,0.0005,5.5,107,4.6729e-06,0,98,98,70,25,subduction intraslab Himalayas,1.1046,1.17,0.1,7.1,0.4,-108,89,322,2,StrasserIntraslab,33N 74E 25-70 km depth M5.5,33N_74E_L2_M5p5,-5.49,-5.95,-8.04
+74,34,0.0004,5.5,107,3.7383e-06,0,99,99,70,25,subduction intraslab Himalayas,0.89768,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,34N 74E 25-70 km depth M5.5,34N_74E_L2_M5p5,-5.71,-6.06,
+74,35,0.001,5.5,107,9.3458e-06,0,99,99,70,25,subduction intraslab Himalayas,1.2956,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,35N 74E 25-70 km depth M5.5,35N_74E_L2_M5p5,-5.12,-5.63,-7.1
+74,36,0.0076,5.5,107,7.1028e-05,0,99,99,70,25,subduction intraslab Himalayas,2.1764,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,36N 74E 25-70 km depth M5.5,36N_74E_L2_M5p5,-4.16,-4.73,-5.91
+74,37,0.0064,5.5,107,5.9813e-05,0,90,90,70,25,subduction intraslab Himalayas,2.3768,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,37N 74E 25-70 km depth M5.5,37N_74E_L2_M5p5,-4.23,-4.83,-6.03
+74,38,0.0074,5.5,107,6.9159e-05,0,90,90,70,25,subduction intraslab Himalayas,2.4398,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,38N 74E 25-70 km depth M5.5,38N_74E_L2_M5p5,-4.17,-4.76,-5.96
+74,39,0.0102,5.5,107,9.5327e-05,0,87,87,70,25,subduction intraslab Himalayas,2.3592,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,39N 74E 25-70 km depth M5.5,39N_74E_L2_M5p5,-4.03,-4.6,-5.76
+75,20,0.0002,5.5,107,1.8692e-06,0,933,933,70,25,stable shallow crust,-0.83335,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,20N 75E 25-70 km depth M5.5,20N_75E_L2_M5p5,,,
+75,21,0.0018,5.5,107,1.6822e-05,0,933,933,70,25,stable shallow crust,0.12089,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,21N 75E 25-70 km depth M5.5,21N_75E_L2_M5p5,,,
+75,22,0.0005,5.5,107,4.6729e-06,0,933,933,70,25,stable shallow crust,-0.43541,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,22N 75E 25-70 km depth M5.5,22N_75E_L2_M5p5,,,
+75,27,0.0001,5.5,107,9.3458e-07,0,932,932,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 75E 25-70 km depth M5.5,27N_75E_L2_M5p5,,,
+75,28,0.0016,5.5,107,1.4953e-05,0,932,932,70,25,stable shallow crust,0.28974,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 75E 25-70 km depth M5.5,28N_75E_L2_M5p5,,,
+75,29,0.0016,5.5,107,1.4953e-05,0,932,932,70,25,stable shallow crust,0.28974,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,29N 75E 25-70 km depth M5.5,29N_75E_L2_M5p5,,,
+75,30,0.0029,5.5,107,2.7103e-05,0,97,97,70,25,subduction intraslab Himalayas,0.54801,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,30N 75E 25-70 km depth M5.5,30N_75E_L2_M5p5,-5.33,-5.18,
+75,31,0.0063,5.5,107,5.8879e-05,0,97,97,70,25,subduction intraslab Himalayas,0.88496,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,31N 75E 25-70 km depth M5.5,31N_75E_L2_M5p5,-4.44,-4.76,-6.18
+75,32,0.0008,5.5,107,7.4766e-06,0,98,98,70,25,subduction intraslab Himalayas,1.3087,1.17,0.1,7.1,0.4,-108,89,322,2,StrasserIntraslab,32N 75E 25-70 km depth M5.5,32N_75E_L2_M5p5,-5.22,-5.73,-7.23
+75,33,0.0032,5.5,107,2.9907e-05,0,98,98,70,25,subduction intraslab Himalayas,1.9108,1.17,0.1,7.1,0.4,-108,89,322,2,StrasserIntraslab,33N 75E 25-70 km depth M5.5,33N_75E_L2_M5p5,-4.55,-5.11,-6.34
+75,34,0.001,5.5,107,9.3458e-06,0,98,98,70,25,subduction intraslab Himalayas,1.4056,1.17,0.1,7.1,0.4,-108,89,322,2,StrasserIntraslab,34N 75E 25-70 km depth M5.5,34N_75E_L2_M5p5,-5.1,-5.63,-7.04
+75,35,0.0004,5.5,107,3.7383e-06,0,99,99,70,25,subduction intraslab Himalayas,0.89768,1.15,0.1,7.1,0.4,-18,76,275,2,StrasserIntraslab,35N 75E 25-70 km depth M5.5,35N_75E_L2_M5p5,-5.71,-6.06,
+75,36,0.0032,5.5,107,2.9907e-05,0,100,100,70,25,subduction intraslab Himalayas,1.3608,1.07,0.09,7.1,0.4,-13,89,89,2,StrasserIntraslab,36N 75E 25-70 km depth M5.5,36N_75E_L2_M5p5,-4.59,-5.08,-6.35
+75,37,0.0052,5.5,107,4.8598e-05,0,90,90,70,25,subduction intraslab Himalayas,2.2866,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,37N 75E 25-70 km depth M5.5,37N_75E_L2_M5p5,-4.32,-4.92,-6.12
+75,38,0.0086,5.5,107,8.0374e-05,0,90,90,70,25,subduction intraslab Himalayas,2.5051,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,38N 75E 25-70 km depth M5.5,38N_75E_L2_M5p5,-4.1,-4.7,-5.9
+75,39,0.0166,5.5,107,0.00015514,0,87,87,70,25,subduction intraslab Himalayas,2.5707,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,39N 75E 25-70 km depth M5.5,39N_75E_L2_M5p5,-3.81,-4.39,-5.55
 75,40,0.0346,5.5,107,0.00032336,0,87,,70,25,subduction intraslab Himalayas,2.8897,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,40N 75E 25-70 km depth M5.5,40N_75E_L2_M5p5,-3.49,-4.07,-5.23
 76,4,0.0001,5.5,107,9.3458e-07,44.373,933,,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,4N 76E 25-70 km depth M5.5,4N_76E_L2_M5p5,,,
-76,20,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,20N 76E 25-70 km depth M5.5,20N_76E_L2_M5p5,,-6.3,-7.28
-76,21,0.0044,5.5,107,4.1121e-05,0,94,94,70,25,subduction intraslab Himalayas,1.0041,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,21N 76E 25-70 km depth M5.5,21N_76E_L2_M5p5,-4.54,-4.92,-5.9
-76,22,0.0011,5.5,107,1.028e-05,0,94,94,70,25,subduction intraslab Himalayas,0.40201,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,22N 76E 25-70 km depth M5.5,22N_76E_L2_M5p5,,-5.7,-6.68
-76,27,0.0001,5.5,107,9.3458e-07,0,93,93,70,25,subduction intraslab Himalayas,0.46062,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 76E 25-70 km depth M5.5,27N_76E_L2_M5p5,,-6.8,-7.98
-76,28,0.0026,5.5,107,2.4299e-05,0,93,93,70,25,subduction intraslab Himalayas,1.8756,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 76E 25-70 km depth M5.5,28N_76E_L2_M5p5,-4.64,-5.21,-6.39
-76,29,0.0026,5.5,107,2.4299e-05,0,93,93,70,25,subduction intraslab Himalayas,1.8756,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,29N 76E 25-70 km depth M5.5,29N_76E_L2_M5p5,-4.64,-5.21,-6.39
-76,30,0.002,5.5,107,1.8692e-05,0,93,93,70,25,subduction intraslab Himalayas,1.7616,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,30N 76E 25-70 km depth M5.5,30N_76E_L2_M5p5,-4.76,-5.33,-6.51
+76,20,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,20N 76E 25-70 km depth M5.5,20N_76E_L2_M5p5,,,
+76,21,0.0044,5.5,107,4.1121e-05,0,933,933,70,25,stable shallow crust,0.50907,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,21N 76E 25-70 km depth M5.5,21N_76E_L2_M5p5,-5.25,-5.1,
+76,22,0.0011,5.5,107,1.028e-05,0,933,933,70,25,stable shallow crust,-0.092991,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,22N 76E 25-70 km depth M5.5,22N_76E_L2_M5p5,,,
+76,27,0.0001,5.5,107,9.3458e-07,0,932,932,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 76E 25-70 km depth M5.5,27N_76E_L2_M5p5,,,
+76,28,0.0026,5.5,107,2.4299e-05,0,932,932,70,25,stable shallow crust,0.50059,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 76E 25-70 km depth M5.5,28N_76E_L2_M5p5,-5.72,-6.18,
+76,29,0.0026,5.5,107,2.4299e-05,0,932,932,70,25,stable shallow crust,0.50059,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,29N 76E 25-70 km depth M5.5,29N_76E_L2_M5p5,-5.72,-6.18,
+76,30,0.002,5.5,107,1.8692e-05,0,932,932,70,25,stable shallow crust,0.38665,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,30N 76E 25-70 km depth M5.5,30N_76E_L2_M5p5,,,
 76,31,0.0048,5.5,107,4.486e-05,0,97,,70,25,subduction intraslab Himalayas,0.76686,0.93,0.12,7.2,0.4,-2,77,196,2,StrasserIntraslab,31N 76E 25-70 km depth M5.5,31N_76E_L2_M5p5,-4.65,-4.89,-7.03
+76,32,0.0015,5.5,107,1.4019e-05,0,98,98,70,25,subduction intraslab Himalayas,1.5817,1.17,0.1,7.1,0.4,-108,89,322,2,StrasserIntraslab,32N 76E 25-70 km depth M5.5,32N_76E_L2_M5p5,-4.9,-5.45,-6.76
+76,33,0.0095,5.5,107,8.8785e-05,0,98,98,70,25,subduction intraslab Himalayas,2.3833,1.17,0.1,7.1,0.4,-108,89,322,2,StrasserIntraslab,33N 76E 25-70 km depth M5.5,33N_76E_L2_M5p5,-4.06,-4.64,-5.83
+76,34,0.0027,5.5,107,2.5234e-05,0,98,98,70,25,subduction intraslab Himalayas,1.837,1.17,0.1,7.1,0.4,-108,89,322,2,StrasserIntraslab,34N 76E 25-70 km depth M5.5,34N_76E_L2_M5p5,-4.62,-5.19,-6.43
+76,35,0.0004,5.5,107,3.7383e-06,0,103,103,70,25,subduction intraslab Himalayas,0.84268,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,35N 76E 25-70 km depth M5.5,35N_76E_L2_M5p5,-5.76,-6.06,
+76,36,0.0035,5.5,107,3.271e-05,0,100,100,70,25,subduction intraslab Himalayas,1.3997,1.07,0.09,7.1,0.4,-13,89,89,2,StrasserIntraslab,36N 76E 25-70 km depth M5.5,36N_76E_L2_M5p5,-4.55,-5.04,-6.29
+76,37,0.0053,5.5,107,4.9533e-05,0,91,91,70,25,subduction interface,0.91989,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,37N 76E 25-70 km depth M5.5,37N_76E_L2_M5p5,-4.5,-4.84,-5.99
+76,38,0.0031,5.5,107,2.8972e-05,0,91,91,70,25,subduction interface,0.68698,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,38N 76E 25-70 km depth M5.5,38N_76E_L2_M5p5,-4.95,-5.11,-6.59
+76,39,0.013,5.5,107,0.0001215,0,87,87,70,25,subduction intraslab Himalayas,2.4646,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,39N 76E 25-70 km depth M5.5,39N_76E_L2_M5p5,-3.92,-4.5,-5.66
 76,40,0.0323,5.5,107,0.00030187,0,87,,70,25,subduction intraslab Himalayas,2.8598,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,40N 76E 25-70 km depth M5.5,40N_76E_L2_M5p5,-3.52,-4.1,-5.26
-77,3,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,3N 77E 25-70 km depth M5.5,3N_77E_L2_M5p5,,-6.3,-7.28
-77,4,0.0033,5.5,107,3.0841e-05,0,94,94,70,25,subduction intraslab Himalayas,0.87913,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,4N 77E 25-70 km depth M5.5,4N_77E_L2_M5p5,-4.74,-5.06,-6.04
-77,5,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,5N 77E 25-70 km depth M5.5,5N_77E_L2_M5p5,,-6.3,-7.28
-77,20,0.0001,5.5,107,9.3458e-07,0,94,94,70,25,subduction intraslab Himalayas,-0.63938,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,20N 77E 25-70 km depth M5.5,20N_77E_L2_M5p5,,,
-77,21,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,21N 77E 25-70 km depth M5.5,21N_77E_L2_M5p5,,-6.3,-7.28
-77,22,0.0001,5.5,107,9.3458e-07,0,94,94,70,25,subduction intraslab Himalayas,-0.63938,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,22N 77E 25-70 km depth M5.5,22N_77E_L2_M5p5,,,
-77,28,0.0003,5.5,107,2.8037e-06,0,93,93,70,25,subduction intraslab Himalayas,0.93774,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 77E 25-70 km depth M5.5,28N_77E_L2_M5p5,-5.81,-6.2,-7.38
-77,29,0.0003,5.5,107,2.8037e-06,0,93,93,70,25,subduction intraslab Himalayas,0.93774,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,29N 77E 25-70 km depth M5.5,29N_77E_L2_M5p5,-5.81,-6.2,-7.38
-77,30,0.0004,5.5,107,3.7383e-06,0,93,93,70,25,subduction intraslab Himalayas,1.0627,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,30N 77E 25-70 km depth M5.5,30N_77E_L2_M5p5,-5.61,-6.06,-7.24
+77,3,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,3N 77E 25-70 km depth M5.5,3N_77E_L2_M5p5,,,
+77,4,0.0033,5.5,107,3.0841e-05,0,933,933,70,25,stable shallow crust,0.38413,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,4N 77E 25-70 km depth M5.5,4N_77E_L2_M5p5,,-5.38,
+77,5,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,5N 77E 25-70 km depth M5.5,5N_77E_L2_M5p5,,,
+77,20,0.0001,5.5,107,9.3458e-07,0,933,933,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,20N 77E 25-70 km depth M5.5,20N_77E_L2_M5p5,,,
+77,21,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,21N 77E 25-70 km depth M5.5,21N_77E_L2_M5p5,,,
+77,22,0.0001,5.5,107,9.3458e-07,0,933,933,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,22N 77E 25-70 km depth M5.5,22N_77E_L2_M5p5,,,
+77,28,0.0003,5.5,107,2.8037e-06,0,932,932,70,25,stable shallow crust,-0.43726,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 77E 25-70 km depth M5.5,28N_77E_L2_M5p5,,,
+77,29,0.0003,5.5,107,2.8037e-06,0,932,932,70,25,stable shallow crust,-0.43726,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,29N 77E 25-70 km depth M5.5,29N_77E_L2_M5p5,,,
+77,30,0.0004,5.5,107,3.7383e-06,0,932,932,70,25,stable shallow crust,-0.31232,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,30N 77E 25-70 km depth M5.5,30N_77E_L2_M5p5,,,
+77,31,0.0024,5.5,107,2.243e-05,0,110,110,70,25,subduction interface,-0.35917,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,31N 77E 25-70 km depth M5.5,31N_77E_L2_M5p5,,,
+77,32,0.002,5.5,107,1.8692e-05,0,98,98,70,25,subduction intraslab Himalayas,1.7066,1.17,0.1,7.1,0.4,-108,89,322,2,StrasserIntraslab,32N 77E 25-70 km depth M5.5,32N_77E_L2_M5p5,-4.76,-5.32,-6.59
+77,33,0.0066,5.5,107,6.1682e-05,0,98,98,70,25,subduction intraslab Himalayas,2.2252,1.17,0.1,7.1,0.4,-108,89,322,2,StrasserIntraslab,33N 77E 25-70 km depth M5.5,33N_77E_L2_M5p5,-4.22,-4.8,-6
+77,34,0.0023,5.5,107,2.1495e-05,0,103,103,70,25,subduction intraslab Himalayas,1.6023,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,34N 77E 25-70 km depth M5.5,34N_77E_L2_M5p5,-4.71,-5.25,-6.48
+77,35,0.0029,5.5,107,2.7103e-05,0,100,100,70,25,subduction intraslab Himalayas,1.318,1.07,0.09,7.1,0.4,-13,89,89,2,StrasserIntraslab,35N 77E 25-70 km depth M5.5,35N_77E_L2_M5p5,-4.65,-5.12,-6.43
+77,36,0.0047,5.5,107,4.3925e-05,0,100,100,70,25,subduction intraslab Himalayas,1.5277,1.07,0.09,7.1,0.4,-13,89,89,2,StrasserIntraslab,36N 77E 25-70 km depth M5.5,36N_77E_L2_M5p5,-4.4,-4.91,-6.1
+77,37,0.0049,5.5,107,4.5794e-05,0,91,91,70,25,subduction interface,0.88581,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,37N 77E 25-70 km depth M5.5,37N_77E_L2_M5p5,-4.55,-4.87,-6.05
+77,38,0.0044,5.5,107,4.1121e-05,0,91,91,70,25,subduction interface,0.83907,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,38N 77E 25-70 km depth M5.5,38N_77E_L2_M5p5,-4.63,-4.93,-6.15
+77,39,0.0116,5.5,107,0.00010841,0,87,87,70,25,subduction intraslab Himalayas,2.4151,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,39N 77E 25-70 km depth M5.5,39N_77E_L2_M5p5,-3.97,-4.55,-5.71
 77,40,0.0392,5.5,107,0.00036636,0,87,,70,25,subduction intraslab Himalayas,2.9439,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,40N 77E 25-70 km depth M5.5,40N_77E_L2_M5p5,-3.44,-4.02,-5.18
-78,3,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,3N 78E 25-70 km depth M5.5,3N_78E_L2_M5p5,,-6.3,-7.28
-78,4,0.0033,5.5,107,3.0841e-05,0,94,94,70,25,subduction intraslab Himalayas,0.87913,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,4N 78E 25-70 km depth M5.5,4N_78E_L2_M5p5,-4.74,-5.06,-6.04
-78,5,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,5N 78E 25-70 km depth M5.5,5N_78E_L2_M5p5,,-6.3,-7.28
-78,7,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,7N 78E 25-70 km depth M5.5,7N_78E_L2_M5p5,,-6.3,-7.28
-78,8,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,8N 78E 25-70 km depth M5.5,8N_78E_L2_M5p5,,-6.3,-7.28
-78,27,0.0002,5.5,107,1.8692e-06,0,93,93,70,25,subduction intraslab Himalayas,0.76165,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 78E 25-70 km depth M5.5,27N_78E_L2_M5p5,-6.21,-6.4,-7.58
-78,28,0.0012,5.5,107,1.1215e-05,0,93,93,70,25,subduction intraslab Himalayas,1.5398,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 78E 25-70 km depth M5.5,28N_78E_L2_M5p5,-5,-5.55,-6.73
-78,29,0.0002,5.5,107,1.8692e-06,0,93,93,70,25,subduction intraslab Himalayas,0.76165,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,29N 78E 25-70 km depth M5.5,29N_78E_L2_M5p5,-6.21,-6.4,-7.58
+78,3,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,3N 78E 25-70 km depth M5.5,3N_78E_L2_M5p5,,,
+78,4,0.0033,5.5,107,3.0841e-05,0,933,933,70,25,stable shallow crust,0.38413,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,4N 78E 25-70 km depth M5.5,4N_78E_L2_M5p5,,-5.38,
+78,5,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,5N 78E 25-70 km depth M5.5,5N_78E_L2_M5p5,,,
+78,7,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,7N 78E 25-70 km depth M5.5,7N_78E_L2_M5p5,,,
+78,8,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,8N 78E 25-70 km depth M5.5,8N_78E_L2_M5p5,,,
+78,27,0.0002,5.5,107,1.8692e-06,0,932,932,70,25,stable shallow crust,-0.61335,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 78E 25-70 km depth M5.5,27N_78E_L2_M5p5,,,
+78,28,0.0012,5.5,107,1.1215e-05,0,932,932,70,25,stable shallow crust,0.1648,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 78E 25-70 km depth M5.5,28N_78E_L2_M5p5,,,
+78,29,0.0002,5.5,107,1.8692e-06,0,932,932,70,25,stable shallow crust,-0.61335,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,29N 78E 25-70 km depth M5.5,29N_78E_L2_M5p5,,,
+78,30,0.0014,5.5,107,1.3084e-05,0,110,110,70,25,subduction interface,-0.59326,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,30N 78E 25-70 km depth M5.5,30N_78E_L2_M5p5,,,
+78,31,0.0098,5.5,107,9.1589e-05,0,110,110,70,25,subduction interface,0.25184,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,31N 78E 25-70 km depth M5.5,31N_78E_L2_M5p5,,-4.78,-5.56
+78,32,0.008,5.5,107,7.4766e-05,0,925,925,70,25,subduction intraslab Himalayas,0.27371,0.8,0.12,7.6,0.4,-26,37,65,2,StrasserIntraslab,32N 78E 25-70 km depth M5.5,32N_78E_L2_M5p5,,-4.86,
+78,33,0.0036,5.5,107,3.3645e-05,0,925,925,70,25,subduction intraslab Himalayas,-0.073081,0.8,0.12,7.6,0.4,-26,37,65,2,StrasserIntraslab,33N 78E 25-70 km depth M5.5,33N_78E_L2_M5p5,,,
+78,34,0.0043,5.5,107,4.0187e-05,0,103,103,70,25,subduction intraslab Himalayas,1.8741,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,34N 78E 25-70 km depth M5.5,34N_78E_L2_M5p5,-4.42,-4.97,-6.16
+78,35,0.0054,5.5,107,5.0467e-05,0,100,100,70,25,subduction intraslab Himalayas,1.588,1.07,0.09,7.1,0.4,-13,89,89,2,StrasserIntraslab,35N 78E 25-70 km depth M5.5,35N_78E_L2_M5p5,-4.34,-4.84,-6.02
+78,36,0.004,5.5,107,3.7383e-05,0,100,100,70,25,subduction intraslab Himalayas,1.4577,1.07,0.09,7.1,0.4,-13,89,89,2,StrasserIntraslab,36N 78E 25-70 km depth M5.5,36N_78E_L2_M5p5,-4.48,-4.98,-6.2
+78,37,0.0025,5.5,107,2.3364e-05,0,91,91,70,25,subduction interface,0.59356,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,37N 78E 25-70 km depth M5.5,37N_78E_L2_M5p5,-5.25,-5.23,-7.33
+78,38,0.0071,5.5,107,6.6355e-05,0,91,91,70,25,subduction interface,1.0469,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,38N 78E 25-70 km depth M5.5,38N_78E_L2_M5p5,-4.31,-4.69,-5.78
+78,39,0.0098,5.5,107,9.1589e-05,0,87,87,70,25,subduction intraslab Himalayas,2.3418,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,39N 78E 25-70 km depth M5.5,39N_78E_L2_M5p5,-4.05,-4.62,-5.78
 78,40,0.0263,5.5,107,0.00024579,0,87,,70,25,subduction intraslab Himalayas,2.7706,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,40N 78E 25-70 km depth M5.5,40N_78E_L2_M5p5,-3.61,-4.19,-5.35
-79,4,0.0001,5.5,107,9.3458e-07,0,94,94,70,25,subduction intraslab Himalayas,-0.63938,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,4N 79E 25-70 km depth M5.5,4N_79E_L2_M5p5,,,
-79,6,0.0001,5.5,107,9.3458e-07,0,94,94,70,25,subduction intraslab Himalayas,-0.63938,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,6N 79E 25-70 km depth M5.5,6N_79E_L2_M5p5,,,
-79,7,0.0033,5.5,107,3.0841e-05,0,94,94,70,25,subduction intraslab Himalayas,0.87913,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,7N 79E 25-70 km depth M5.5,7N_79E_L2_M5p5,-4.74,-5.06,-6.04
-79,8,0.0033,5.5,107,3.0841e-05,0,94,94,70,25,subduction intraslab Himalayas,0.87913,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,8N 79E 25-70 km depth M5.5,8N_79E_L2_M5p5,-4.74,-5.06,-6.04
-79,9,0.0001,5.5,107,9.3458e-07,0,94,94,70,25,subduction intraslab Himalayas,-0.63938,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,9N 79E 25-70 km depth M5.5,9N_79E_L2_M5p5,,,
-79,22,0.0001,5.5,107,9.3458e-07,0,94,94,70,25,subduction intraslab Himalayas,-0.63938,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,22N 79E 25-70 km depth M5.5,22N_79E_L2_M5p5,,,
-79,23,0.0008,5.5,107,7.4766e-06,0,94,94,70,25,subduction intraslab Himalayas,0.26371,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,23N 79E 25-70 km depth M5.5,23N_79E_L2_M5p5,,-5.96,-6.94
-79,24,0.0002,5.5,107,1.8692e-06,0,94,94,70,25,subduction intraslab Himalayas,-0.33835,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,24N 79E 25-70 km depth M5.5,24N_79E_L2_M5p5,,,
-79,27,0.001,5.5,107,9.3458e-06,0,93,93,70,25,subduction intraslab Himalayas,1.4606,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 79E 25-70 km depth M5.5,27N_79E_L2_M5p5,-5.09,-5.63,-6.81
-79,28,0.0057,5.5,107,5.3271e-05,0,93,93,70,25,subduction intraslab Himalayas,2.2165,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 79E 25-70 km depth M5.5,28N_79E_L2_M5p5,-4.28,-4.87,-6.05
-79,29,0.0023,5.5,107,2.1495e-05,0,93,93,70,25,subduction intraslab Himalayas,1.8223,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,29N 79E 25-70 km depth M5.5,29N_79E_L2_M5p5,-4.69,-5.26,-6.44
+79,4,0.0001,5.5,107,9.3458e-07,0,933,933,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,4N 79E 25-70 km depth M5.5,4N_79E_L2_M5p5,,,
+79,6,0.0001,5.5,107,9.3458e-07,0,933,933,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,6N 79E 25-70 km depth M5.5,6N_79E_L2_M5p5,,,
+79,7,0.0033,5.5,107,3.0841e-05,0,933,933,70,25,stable shallow crust,0.38413,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,7N 79E 25-70 km depth M5.5,7N_79E_L2_M5p5,,-5.38,
+79,8,0.0033,5.5,107,3.0841e-05,0,933,933,70,25,stable shallow crust,0.38413,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,8N 79E 25-70 km depth M5.5,8N_79E_L2_M5p5,,-5.38,
+79,9,0.0001,5.5,107,9.3458e-07,0,933,933,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,9N 79E 25-70 km depth M5.5,9N_79E_L2_M5p5,,,
+79,22,0.0001,5.5,107,9.3458e-07,0,933,933,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,22N 79E 25-70 km depth M5.5,22N_79E_L2_M5p5,,,
+79,23,0.0008,5.5,107,7.4766e-06,0,933,933,70,25,stable shallow crust,-0.23129,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,23N 79E 25-70 km depth M5.5,23N_79E_L2_M5p5,,,
+79,24,0.0002,5.5,107,1.8692e-06,0,933,933,70,25,stable shallow crust,-0.83335,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,24N 79E 25-70 km depth M5.5,24N_79E_L2_M5p5,,,
+79,27,0.001,5.5,107,9.3458e-06,0,932,932,70,25,stable shallow crust,0.085616,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 79E 25-70 km depth M5.5,27N_79E_L2_M5p5,,,
+79,28,0.0057,5.5,107,5.3271e-05,0,932,932,70,25,stable shallow crust,0.84149,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 79E 25-70 km depth M5.5,28N_79E_L2_M5p5,-4.51,-4.98,
+79,29,0.0023,5.5,107,2.1495e-05,0,932,932,70,25,stable shallow crust,0.44734,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,29N 79E 25-70 km depth M5.5,29N_79E_L2_M5p5,,,
+79,30,0.0057,5.5,107,5.3271e-05,0,110,110,70,25,subduction interface,0.016491,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,30N 79E 25-70 km depth M5.5,30N_79E_L2_M5p5,,-6.09,-6.87
+79,31,0.0084,5.5,107,7.8505e-05,0,110,110,70,25,subduction interface,0.1849,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,31N 79E 25-70 km depth M5.5,31N_79E_L2_M5p5,,-4.96,-5.74
+79,32,0.0081,5.5,107,7.5701e-05,0,925,925,70,25,subduction intraslab Himalayas,0.2791,0.8,0.12,7.6,0.4,-26,37,65,2,StrasserIntraslab,32N 79E 25-70 km depth M5.5,32N_79E_L2_M5p5,,-4.85,
+79,33,0.0018,5.5,107,1.6822e-05,0,925,925,70,25,subduction intraslab Himalayas,-0.37411,0.8,0.12,7.6,0.4,-26,37,65,2,StrasserIntraslab,33N 79E 25-70 km depth M5.5,33N_79E_L2_M5p5,,,
+79,34,0.002,5.5,107,1.8692e-05,0,103,103,70,25,subduction intraslab Himalayas,1.5416,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,34N 79E 25-70 km depth M5.5,34N_79E_L2_M5p5,-4.78,-5.31,-6.55
+79,35,0.0027,5.5,107,2.5234e-05,0,100,100,70,25,subduction intraslab Himalayas,1.287,1.07,0.09,7.1,0.4,-13,89,89,2,StrasserIntraslab,35N 79E 25-70 km depth M5.5,35N_79E_L2_M5p5,-4.68,-5.16,-6.48
+79,36,0.0025,5.5,107,2.3364e-05,0,91,91,70,25,subduction interface,0.59356,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,36N 79E 25-70 km depth M5.5,36N_79E_L2_M5p5,-5.25,-5.23,-7.33
+79,37,0.0031,5.5,107,2.8972e-05,0,91,91,70,25,subduction interface,0.68698,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,37N 79E 25-70 km depth M5.5,37N_79E_L2_M5p5,-4.95,-5.11,-6.59
+79,38,0.0035,5.5,107,3.271e-05,0,91,91,70,25,subduction interface,0.73968,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,38N 79E 25-70 km depth M5.5,38N_79E_L2_M5p5,-4.83,-5.05,-6.4
 79,39,0.0019,5.5,107,1.7757e-05,32.11,91,,70,25,subduction interface,0.47437,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,39N 79E 25-70 km depth M5.5,39N_79E_L2_M5p5,,-5.4,
 79,40,0.0034,5.5,107,3.1776e-05,11.943,87,,70,25,subduction intraslab Himalayas,1.8821,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,40N 79E 25-70 km depth M5.5,40N_79E_L2_M5p5,-4.52,-5.08,-6.24
-80,7,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,7N 80E 25-70 km depth M5.5,7N_80E_L2_M5p5,,-6.3,-7.28
-80,8,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,8N 80E 25-70 km depth M5.5,8N_80E_L2_M5p5,,-6.3,-7.28
-80,22,0.0006,5.5,107,5.6075e-06,0,94,94,70,25,subduction intraslab Himalayas,0.13877,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,22N 80E 25-70 km depth M5.5,22N_80E_L2_M5p5,,-6.3,-7.28
-80,23,0.0053,5.5,107,4.9533e-05,0,94,94,70,25,subduction intraslab Himalayas,1.0849,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,23N 80E 25-70 km depth M5.5,23N_80E_L2_M5p5,-4.43,-4.83,-5.81
-80,24,0.0019,5.5,107,1.7757e-05,0,94,94,70,25,subduction intraslab Himalayas,0.63937,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,24N 80E 25-70 km depth M5.5,24N_80E_L2_M5p5,-5.29,-5.35,-6.33
-80,27,0.0011,5.5,107,1.028e-05,0,93,93,70,25,subduction intraslab Himalayas,1.502,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 80E 25-70 km depth M5.5,27N_80E_L2_M5p5,-5.04,-5.59,-6.77
-80,28,0.0062,5.5,107,5.7944e-05,0,93,93,70,25,subduction intraslab Himalayas,2.253,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 80E 25-70 km depth M5.5,28N_80E_L2_M5p5,-4.25,-4.83,-6.01
+80,7,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,7N 80E 25-70 km depth M5.5,7N_80E_L2_M5p5,,,
+80,8,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,8N 80E 25-70 km depth M5.5,8N_80E_L2_M5p5,,,
+80,22,0.0006,5.5,107,5.6075e-06,0,933,933,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,22N 80E 25-70 km depth M5.5,22N_80E_L2_M5p5,,,
+80,23,0.0053,5.5,107,4.9533e-05,0,933,933,70,25,stable shallow crust,0.58989,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,23N 80E 25-70 km depth M5.5,23N_80E_L2_M5p5,-4.85,-4.96,
+80,24,0.0019,5.5,107,1.7757e-05,0,933,933,70,25,stable shallow crust,0.14437,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,24N 80E 25-70 km depth M5.5,24N_80E_L2_M5p5,,,
+80,27,0.0011,5.5,107,1.028e-05,0,932,932,70,25,stable shallow crust,0.12701,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 80E 25-70 km depth M5.5,27N_80E_L2_M5p5,,,
+80,28,0.0062,5.5,107,5.7944e-05,0,932,932,70,25,stable shallow crust,0.87801,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 80E 25-70 km depth M5.5,28N_80E_L2_M5p5,-4.45,-4.91,
+80,29,0.0113,5.5,107,0.00010561,0,110,110,70,25,subduction interface,0.31369,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,29N 80E 25-70 km depth M5.5,29N_80E_L2_M5p5,,-4.66,-5.44
+80,30,0.0276,5.5,107,0.00025794,0,110,110,70,25,subduction interface,0.70153,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,30N 80E 25-70 km depth M5.5,30N_80E_L2_M5p5,-3.88,-4.07,-4.85
+80,31,0.0079,5.5,107,7.3832e-05,0,925,925,70,25,subduction intraslab Himalayas,0.26824,0.8,0.12,7.6,0.4,-26,37,65,2,StrasserIntraslab,31N 80E 25-70 km depth M5.5,31N_80E_L2_M5p5,,-4.87,
+80,32,0.0029,5.5,107,2.7103e-05,0,925,925,70,25,subduction intraslab Himalayas,-0.16699,0.8,0.12,7.6,0.4,-26,37,65,2,StrasserIntraslab,32N 80E 25-70 km depth M5.5,32N_80E_L2_M5p5,,,
+80,33,0.0011,5.5,107,1.028e-05,0,103,103,70,25,subduction intraslab Himalayas,1.282,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,33N 80E 25-70 km depth M5.5,33N_80E_L2_M5p5,-5.08,-5.58,-6.94
+80,34,0.0011,5.5,107,1.028e-05,0,103,103,70,25,subduction intraslab Himalayas,1.282,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,34N 80E 25-70 km depth M5.5,34N_80E_L2_M5p5,-5.08,-5.58,-6.94
+80,35,0.0014,5.5,107,1.3084e-05,0,101,101,70,25,subduction intraslab Himalayas,1.6617,1.19,0.1,6.8,0.4,-117,40,349,2,StrasserIntraslab,35N 80E 25-70 km depth M5.5,35N_80E_L2_M5p5,-4.92,-5.49,-7.05
+80,36,0.0025,5.5,107,2.3364e-05,0,91,91,70,25,subduction interface,0.59356,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,36N 80E 25-70 km depth M5.5,36N_80E_L2_M5p5,-5.25,-5.23,-7.33
+80,37,0.0009,5.5,107,8.4112e-06,0,91,91,70,25,subduction interface,0.14986,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,37N 80E 25-70 km depth M5.5,37N_80E_L2_M5p5,,-6.09,
+80,38,0.0005,5.5,107,4.6729e-06,0,91,91,70,25,subduction interface,-0.10541,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,38N 80E 25-70 km depth M5.5,38N_80E_L2_M5p5,,,
 80,39,0.0001,5.5,107,9.3458e-07,65.524,91,,70,25,subduction interface,-0.80438,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,39N 80E 25-70 km depth M5.5,39N_80E_L2_M5p5,,,
-81,22,0.0003,5.5,107,2.8037e-06,0,94,94,70,25,subduction intraslab Himalayas,-0.16226,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,22N 81E 25-70 km depth M5.5,22N_81E_L2_M5p5,,,
-81,23,0.0045,5.5,107,4.2056e-05,0,94,94,70,25,subduction intraslab Himalayas,1.0138,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,23N 81E 25-70 km depth M5.5,23N_81E_L2_M5p5,-4.53,-4.91,-5.89
-81,24,0.0034,5.5,107,3.1776e-05,0,94,94,70,25,subduction intraslab Himalayas,0.8921,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,24N 81E 25-70 km depth M5.5,24N_81E_L2_M5p5,-4.72,-5.05,-6.03
-81,25,0.0001,5.5,107,9.3458e-07,0,93,93,70,25,subduction intraslab Himalayas,0.46062,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,25N 81E 25-70 km depth M5.5,25N_81E_L2_M5p5,,-6.8,-7.98
-81,27,0.0008,5.5,107,7.4766e-06,0,93,93,70,25,subduction intraslab Himalayas,1.3637,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 81E 25-70 km depth M5.5,27N_81E_L2_M5p5,-5.21,-5.74,-6.92
-81,28,0.0076,5.5,107,7.1028e-05,0,93,93,70,25,subduction intraslab Himalayas,2.3414,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,28N 81E 25-70 km depth M5.5,28N_81E_L2_M5p5,-4.16,-4.74,-5.92
-81,32,0.0019,5.5,107,1.7757e-05,0,87,87,70,25,subduction intraslab Himalayas,1.6294,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,32N 81E 25-70 km depth M5.5,32N_81E_L2_M5p5,-4.79,-5.34,-6.5
-82,23,0.0008,5.5,107,7.4766e-06,0,94,94,70,25,subduction intraslab Himalayas,0.26371,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,23N 82E 25-70 km depth M5.5,23N_82E_L2_M5p5,,-5.96,-6.94
-82,24,0.0007,5.5,107,6.5421e-06,0,94,94,70,25,subduction intraslab Himalayas,0.20571,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,24N 82E 25-70 km depth M5.5,24N_82E_L2_M5p5,,-6.1,-7.08
-82,27,0.0017,5.5,107,1.5888e-05,0,93,93,70,25,subduction intraslab Himalayas,1.6911,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 82E 25-70 km depth M5.5,27N_82E_L2_M5p5,-4.83,-5.4,-6.58
-82,30,0.0032,5.5,107,2.9907e-05,0,88,88,70,25,subduction intraslab Himalayas,2.1858,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,30N 82E 25-70 km depth M5.5,30N_82E_L2_M5p5,-4.54,-5.14,-6.36
-82,31,0.0007,5.5,107,6.5421e-06,0,87,87,70,25,subduction intraslab Himalayas,1.1957,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,31N 82E 25-70 km depth M5.5,31N_82E_L2_M5p5,-5.3,-5.79,-6.95
-82,32,0.0004,5.5,107,3.7383e-06,0,87,87,70,25,subduction intraslab Himalayas,0.95268,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,32N 82E 25-70 km depth M5.5,32N_82E_L2_M5p5,-5.67,-6.06,-7.22
-83,6,0.0001,5.5,107,9.3458e-07,0,94,94,70,25,subduction intraslab Himalayas,-0.63938,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,6N 83E 25-70 km depth M5.5,6N_83E_L2_M5p5,,,
-83,7,0.0004,5.5,107,3.7383e-06,0,94,94,70,25,subduction intraslab Himalayas,-0.037324,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,7N 83E 25-70 km depth M5.5,7N_83E_L2_M5p5,,,
-83,8,0.0001,5.5,107,9.3458e-07,0,94,94,70,25,subduction intraslab Himalayas,-0.63938,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,8N 83E 25-70 km depth M5.5,8N_83E_L2_M5p5,,,
-83,27,0.0012,5.5,107,1.1215e-05,0,93,93,70,25,subduction intraslab Himalayas,1.5398,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,27N 83E 25-70 km depth M5.5,27N_83E_L2_M5p5,-5,-5.55,-6.73
-83,30,0.0026,5.5,107,2.4299e-05,0,88,88,70,25,subduction intraslab Himalayas,2.0956,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,30N 83E 25-70 km depth M5.5,30N_83E_L2_M5p5,-4.63,-5.23,-6.45
-83,31,0.003,5.5,107,2.8037e-05,0,87,87,70,25,subduction intraslab Himalayas,1.8277,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,31N 83E 25-70 km depth M5.5,31N_83E_L2_M5p5,-4.58,-5.14,-6.3
-83,32,0.0021,5.5,107,1.9626e-05,0,87,87,70,25,subduction intraslab Himalayas,1.6728,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,32N 83E 25-70 km depth M5.5,32N_83E_L2_M5p5,-4.74,-5.3,-6.46
+81,22,0.0003,5.5,107,2.8037e-06,0,933,933,70,25,stable shallow crust,-0.65726,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,22N 81E 25-70 km depth M5.5,22N_81E_L2_M5p5,,,
+81,23,0.0045,5.5,107,4.2056e-05,0,933,933,70,25,stable shallow crust,0.51883,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,23N 81E 25-70 km depth M5.5,23N_81E_L2_M5p5,-5.18,-5.09,
+81,24,0.0034,5.5,107,3.1776e-05,0,933,933,70,25,stable shallow crust,0.3971,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,24N 81E 25-70 km depth M5.5,24N_81E_L2_M5p5,,-5.35,
+81,25,0.0001,5.5,107,9.3458e-07,0,932,932,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,25N 81E 25-70 km depth M5.5,25N_81E_L2_M5p5,,,
+81,27,0.0008,5.5,107,7.4766e-06,0,932,932,70,25,stable shallow crust,-0.011294,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 81E 25-70 km depth M5.5,27N_81E_L2_M5p5,,,
+81,28,0.0076,5.5,107,7.1028e-05,0,932,932,70,25,stable shallow crust,0.96643,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,28N 81E 25-70 km depth M5.5,28N_81E_L2_M5p5,-4.31,-4.78,
+81,29,0.0126,5.5,107,0.00011776,0,110,110,70,25,subduction interface,0.36099,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,29N 81E 25-70 km depth M5.5,29N_81E_L2_M5p5,,-4.57,-5.35
+81,30,0.0234,5.5,107,0.00021869,0,110,110,70,25,subduction interface,0.62983,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,30N 81E 25-70 km depth M5.5,30N_81E_L2_M5p5,-4.03,-4.17,-4.95
+81,31,0.0049,5.5,107,4.5794e-05,0,925,925,70,25,subduction intraslab Himalayas,0.060812,0.8,0.12,7.6,0.4,-26,37,65,2,StrasserIntraslab,31N 81E 25-70 km depth M5.5,31N_81E_L2_M5p5,,-5.62,
+81,32,0.0019,5.5,107,1.7757e-05,0,926,926,70,25,subduction intraslab Himalayas,2.2894,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,32N 81E 25-70 km depth M5.5,32N_81E_L2_M5p5,-4.76,-5.39,-6.68
+81,33,0.0034,5.5,107,3.1776e-05,0,103,103,70,25,subduction intraslab Himalayas,1.7721,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,33N 81E 25-70 km depth M5.5,33N_81E_L2_M5p5,-4.53,-5.08,-6.27
+81,34,0.0058,5.5,107,5.4206e-05,0,101,101,70,25,subduction intraslab Himalayas,2.279,1.19,0.1,6.8,0.4,-117,40,349,2,StrasserIntraslab,34N 81E 25-70 km depth M5.5,34N_81E_L2_M5p5,-4.28,-4.86,-6.12
+81,35,0.0047,5.5,107,4.3925e-05,0,101,101,70,25,subduction intraslab Himalayas,2.1877,1.19,0.1,6.8,0.4,-117,40,349,2,StrasserIntraslab,35N 81E 25-70 km depth M5.5,35N_81E_L2_M5p5,-4.37,-4.96,-6.23
+81,36,0.0077,5.5,107,7.1963e-05,0,91,91,70,25,subduction interface,1.0821,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,36N 81E 25-70 km depth M5.5,36N_81E_L2_M5p5,-4.27,-4.66,-5.73
+81,37,0.0009,5.5,107,8.4112e-06,0,91,91,70,25,subduction interface,0.14986,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,37N 81E 25-70 km depth M5.5,37N_81E_L2_M5p5,,-6.09,
+82,23,0.0008,5.5,107,7.4766e-06,0,933,933,70,25,stable shallow crust,-0.23129,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,23N 82E 25-70 km depth M5.5,23N_82E_L2_M5p5,,,
+82,24,0.0007,5.5,107,6.5421e-06,0,933,933,70,25,stable shallow crust,-0.28929,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,24N 82E 25-70 km depth M5.5,24N_82E_L2_M5p5,,,
+82,27,0.0017,5.5,107,1.5888e-05,0,932,932,70,25,stable shallow crust,0.31607,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 82E 25-70 km depth M5.5,27N_82E_L2_M5p5,,,
+82,28,0.0141,5.5,107,0.00013178,0,110,110,70,25,subduction interface,0.40984,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,28N 82E 25-70 km depth M5.5,28N_82E_L2_M5p5,-5.23,-4.48,-5.26
+82,29,0.0062,5.5,107,5.7944e-05,0,110,110,70,25,subduction interface,0.053008,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,29N 82E 25-70 km depth M5.5,29N_82E_L2_M5p5,,-5.57,-6.35
+82,30,0.0032,5.5,107,2.9907e-05,0,927,927,70,25,subduction intraslab Himalayas,2.1858,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,30N 82E 25-70 km depth M5.5,30N_82E_L2_M5p5,-4.54,-5.14,-6.39
+82,31,0.0007,5.5,107,6.5421e-06,0,926,926,70,25,subduction intraslab Himalayas,1.8557,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,31N 82E 25-70 km depth M5.5,31N_82E_L2_M5p5,-5.21,-5.83,-7.12
+82,32,0.0004,5.5,107,3.7383e-06,0,926,926,70,25,subduction intraslab Himalayas,1.6127,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,32N 82E 25-70 km depth M5.5,32N_82E_L2_M5p5,-5.48,-6.08,-7.37
+82,33,0.0024,5.5,107,2.243e-05,0,103,103,70,25,subduction intraslab Himalayas,1.6208,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,33N 82E 25-70 km depth M5.5,33N_82E_L2_M5p5,-4.69,-5.23,-6.45
+82,34,0.0094,5.5,107,8.785e-05,0,101,101,70,25,subduction intraslab Himalayas,2.4887,1.19,0.1,6.8,0.4,-117,40,349,2,StrasserIntraslab,34N 82E 25-70 km depth M5.5,34N_82E_L2_M5p5,-4.06,-4.65,-5.88
+82,35,0.0049,5.5,107,4.5794e-05,0,101,101,70,25,subduction intraslab Himalayas,2.2058,1.19,0.1,6.8,0.4,-117,40,349,2,StrasserIntraslab,35N 82E 25-70 km depth M5.5,35N_82E_L2_M5p5,-4.35,-4.94,-6.2
+82,36,0.0054,5.5,107,5.0467e-05,0,91,91,70,25,subduction interface,0.92801,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,36N 82E 25-70 km depth M5.5,36N_82E_L2_M5p5,-4.49,-4.83,-5.97
+82,37,0.0006,5.5,107,5.6075e-06,0,91,91,70,25,subduction interface,-0.026233,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,37N 82E 25-70 km depth M5.5,37N_82E_L2_M5p5,,,
+83,6,0.0001,5.5,107,9.3458e-07,0,933,933,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,6N 83E 25-70 km depth M5.5,6N_83E_L2_M5p5,,,
+83,7,0.0004,5.5,107,3.7383e-06,0,933,933,70,25,stable shallow crust,-0.53232,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,7N 83E 25-70 km depth M5.5,7N_83E_L2_M5p5,,,
+83,8,0.0001,5.5,107,9.3458e-07,0,933,933,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,8N 83E 25-70 km depth M5.5,8N_83E_L2_M5p5,,,
+83,27,0.0012,5.5,107,1.1215e-05,0,932,932,70,25,stable shallow crust,0.1648,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,27N 83E 25-70 km depth M5.5,27N_83E_L2_M5p5,,,
+83,28,0.0129,5.5,107,0.00012056,0,110,110,70,25,subduction interface,0.37121,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,28N 83E 25-70 km depth M5.5,28N_83E_L2_M5p5,,-4.55,-5.33
+83,29,0.0086,5.5,107,8.0374e-05,0,110,110,70,25,subduction interface,0.19511,0.78,0.06,8.8,0.2,82,23,290,2,StrasserInterface,29N 83E 25-70 km depth M5.5,29N_83E_L2_M5p5,,-4.93,-5.71
+83,30,0.0026,5.5,107,2.4299e-05,0,927,927,70,25,subduction intraslab Himalayas,2.0956,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,30N 83E 25-70 km depth M5.5,30N_83E_L2_M5p5,-4.63,-5.23,-6.49
+83,31,0.003,5.5,107,2.8037e-05,0,926,926,70,25,subduction intraslab Himalayas,2.4877,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,31N 83E 25-70 km depth M5.5,31N_83E_L2_M5p5,-4.56,-5.19,-6.48
+83,32,0.0021,5.5,107,1.9626e-05,0,926,926,70,25,subduction intraslab Himalayas,2.3328,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,32N 83E 25-70 km depth M5.5,32N_83E_L2_M5p5,-4.72,-5.35,-6.63
+83,33,0.0005,5.5,107,4.6729e-06,0,103,103,70,25,subduction intraslab Himalayas,0.93959,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,33N 83E 25-70 km depth M5.5,33N_83E_L2_M5p5,-5.57,-5.95,-8.25
+83,34,0.0024,5.5,107,2.243e-05,0,101,101,70,25,subduction intraslab Himalayas,1.8958,1.19,0.1,6.8,0.4,-117,40,349,2,StrasserIntraslab,34N 83E 25-70 km depth M5.5,34N_83E_L2_M5p5,-4.67,-5.25,-6.61
+83,35,0.0014,5.5,107,1.3084e-05,0,101,101,70,25,subduction intraslab Himalayas,1.6617,1.19,0.1,6.8,0.4,-117,40,349,2,StrasserIntraslab,35N 83E 25-70 km depth M5.5,35N_83E_L2_M5p5,-4.92,-5.49,-7.05
+83,36,0.0032,5.5,107,2.9907e-05,0,91,91,70,25,subduction interface,0.70077,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,36N 83E 25-70 km depth M5.5,36N_83E_L2_M5p5,-4.92,-5.1,-6.53
+83,37,0.003,5.5,107,2.8037e-05,0,91,91,70,25,subduction interface,0.67274,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,37N 83E 25-70 km depth M5.5,37N_83E_L2_M5p5,-4.99,-5.13,-6.65
+83,38,0.0002,5.5,107,1.8692e-06,0,91,91,70,25,subduction interface,-0.50335,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,38N 83E 25-70 km depth M5.5,38N_83E_L2_M5p5,,,
 84,6,0.0024,5.5,107,2.243e-05,27.675,933,,70,25,stable shallow crust,0.24583,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,6N 84E 25-70 km depth M5.5,6N_84E_L2_M5p5,,-5.93,
 84,7,0.0069,5.5,107,6.4486e-05,32.146,933,,70,25,stable shallow crust,0.70447,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,7N 84E 25-70 km depth M5.5,7N_84E_L2_M5p5,-4.54,-4.79,
 84,8,0.0012,5.5,107,1.1215e-05,5.7977,933,,70,25,stable shallow crust,-0.055203,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,8N 84E 25-70 km depth M5.5,8N_84E_L2_M5p5,,,
-84,27,0.0008,5.5,107,7.4766e-06,0,89,89,70,25,subduction interface,0.97871,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,27N 84E 25-70 km depth M5.5,27N_84E_L2_M5p5,-5.33,-5.73,-7.22
-84,28,0.0092,5.5,107,8.5981e-05,0,89,89,70,25,subduction interface,2.0394,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,28N 84E 25-70 km depth M5.5,28N_84E_L2_M5p5,-4.08,-4.62,-5.76
-84,29,0.0082,5.5,107,7.6636e-05,0,89,89,70,25,subduction interface,1.9894,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,29N 84E 25-70 km depth M5.5,29N_84E_L2_M5p5,-4.13,-4.68,-5.81
-84,30,0.0057,5.5,107,5.3271e-05,0,88,88,70,25,subduction intraslab Himalayas,2.4365,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,30N 84E 25-70 km depth M5.5,30N_84E_L2_M5p5,-4.28,-4.89,-6.11
-84,31,0.0051,5.5,107,4.7664e-05,0,87,87,70,25,subduction intraslab Himalayas,2.0582,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,31N 84E 25-70 km depth M5.5,31N_84E_L2_M5p5,-4.34,-4.91,-6.07
+84,27,0.0008,5.5,107,7.4766e-06,0,928,928,70,25,subduction intraslab Himalayas,0.15371,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 84E 25-70 km depth M5.5,27N_84E_L2_M5p5,,-6.13,-7.09
+84,28,0.0092,5.5,107,8.5981e-05,0,928,928,70,25,subduction intraslab Himalayas,1.2144,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,28N 84E 25-70 km depth M5.5,28N_84E_L2_M5p5,-4.15,-4.57,-5.53
+84,29,0.0082,5.5,107,7.6636e-05,0,928,928,70,25,subduction intraslab Himalayas,1.1644,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,29N 84E 25-70 km depth M5.5,29N_84E_L2_M5p5,-4.22,-4.63,-5.59
+84,30,0.0057,5.5,107,5.3271e-05,0,927,927,70,25,subduction intraslab Himalayas,2.4365,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,30N 84E 25-70 km depth M5.5,30N_84E_L2_M5p5,-4.28,-4.89,-6.12
+84,31,0.0051,5.5,107,4.7664e-05,0,926,926,70,25,subduction intraslab Himalayas,2.7182,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,31N 84E 25-70 km depth M5.5,31N_84E_L2_M5p5,-4.33,-4.96,-6.24
+84,32,0.0024,5.5,107,2.243e-05,0,103,103,70,25,subduction intraslab Himalayas,1.6208,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,32N 84E 25-70 km depth M5.5,32N_84E_L2_M5p5,-4.69,-5.23,-6.45
+84,33,0.0014,5.5,107,1.3084e-05,0,103,103,70,25,subduction intraslab Himalayas,1.3867,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,33N 84E 25-70 km depth M5.5,33N_84E_L2_M5p5,-4.96,-5.47,-6.77
+84,34,0.0003,5.5,107,2.8037e-06,0,101,101,70,25,subduction intraslab Himalayas,0.99274,1.19,0.1,6.8,0.4,-117,40,349,2,StrasserIntraslab,34N 84E 25-70 km depth M5.5,34N_84E_L2_M5p5,-5.77,-6.23,
+84,35,0.0004,5.5,107,3.7383e-06,0,101,101,70,25,subduction intraslab Himalayas,1.1177,1.19,0.1,6.8,0.4,-117,40,349,2,StrasserIntraslab,35N 84E 25-70 km depth M5.5,35N_84E_L2_M5p5,-5.58,-6.08,
+84,36,0.007,5.5,107,6.5421e-05,0,91,91,70,25,subduction interface,1.0407,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,36N 84E 25-70 km depth M5.5,36N_84E_L2_M5p5,-4.32,-4.7,-5.79
+84,37,0.0074,5.5,107,6.9159e-05,0,91,91,70,25,subduction interface,1.0648,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,37N 84E 25-70 km depth M5.5,37N_84E_L2_M5p5,-4.29,-4.67,-5.75
+84,38,0.0004,5.5,107,3.7383e-06,0,91,91,70,25,subduction interface,-0.20232,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,38N 84E 25-70 km depth M5.5,38N_84E_L2_M5p5,,,
 85,6,0.0021,5.5,107,1.9626e-05,136.26,933,,70,25,stable shallow crust,0.18784,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,6N 85E 25-70 km depth M5.5,6N_85E_L2_M5p5,,-6.8,
 85,7,0.0047,5.5,107,4.3925e-05,138.64,933,,70,25,stable shallow crust,0.53771,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,7N 85E 25-70 km depth M5.5,7N_85E_L2_M5p5,-5.07,-5.05,
 85,8,0.0007,5.5,107,6.5421e-06,112.09,933,,70,25,stable shallow crust,-0.28929,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,8N 85E 25-70 km depth M5.5,8N_85E_L2_M5p5,,,
-85,26,0.0001,5.5,107,9.3458e-07,0,93,93,70,25,subduction intraslab Himalayas,0.46062,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,26N 85E 25-70 km depth M5.5,26N_85E_L2_M5p5,,-6.8,-7.98
-85,27,0.002,5.5,107,1.8692e-05,0,89,89,70,25,subduction interface,1.3766,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,27N 85E 25-70 km depth M5.5,27N_85E_L2_M5p5,-4.8,-5.3,-6.52
-85,28,0.0115,5.5,107,0.00010748,0,89,89,70,25,subduction interface,2.1363,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,28N 85E 25-70 km depth M5.5,28N_85E_L2_M5p5,-3.98,-4.53,-5.65
-85,29,0.0076,5.5,107,7.1028e-05,0,88,88,70,25,subduction intraslab Himalayas,2.5614,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,29N 85E 25-70 km depth M5.5,29N_85E_L2_M5p5,-4.15,-4.76,-5.98
-85,30,0.0027,5.5,107,2.5234e-05,0,87,87,70,25,subduction intraslab Himalayas,1.782,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,30N 85E 25-70 km depth M5.5,30N_85E_L2_M5p5,-4.63,-5.19,-6.35
-85,31,0.0012,5.5,107,1.1215e-05,0,87,87,70,25,subduction intraslab Himalayas,1.4298,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,31N 85E 25-70 km depth M5.5,31N_85E_L2_M5p5,-5.02,-5.55,-6.71
+85,26,0.0001,5.5,107,9.3458e-07,0,932,932,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,26N 85E 25-70 km depth M5.5,26N_85E_L2_M5p5,,,
+85,27,0.002,5.5,107,1.8692e-05,0,928,928,70,25,subduction intraslab Himalayas,0.55165,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 85E 25-70 km depth M5.5,27N_85E_L2_M5p5,-5.55,-5.35,-6.31
+85,28,0.0115,5.5,107,0.00010748,0,928,928,70,25,subduction intraslab Himalayas,1.3113,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,28N 85E 25-70 km depth M5.5,28N_85E_L2_M5p5,-4.04,-4.47,-5.43
+85,29,0.0076,5.5,107,7.1028e-05,0,927,927,70,25,subduction intraslab Himalayas,2.5614,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,29N 85E 25-70 km depth M5.5,29N_85E_L2_M5p5,-4.15,-4.76,-5.99
+85,30,0.0027,5.5,107,2.5234e-05,0,926,926,70,25,subduction intraslab Himalayas,2.442,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,30N 85E 25-70 km depth M5.5,30N_85E_L2_M5p5,-4.6,-5.24,-6.52
+85,31,0.0012,5.5,107,1.1215e-05,0,926,926,70,25,subduction intraslab Himalayas,2.0898,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,31N 85E 25-70 km depth M5.5,31N_85E_L2_M5p5,-4.97,-5.59,-6.88
+85,32,0.0017,5.5,107,1.5888e-05,0,103,103,70,25,subduction intraslab Himalayas,1.4711,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,32N 85E 25-70 km depth M5.5,32N_85E_L2_M5p5,-4.86,-5.38,-6.65
+85,33,0.008,5.5,107,7.4766e-05,0,103,103,70,25,subduction intraslab Himalayas,2.1437,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,33N 85E 25-70 km depth M5.5,33N_85E_L2_M5p5,-4.14,-4.7,-5.86
+85,34,0.0014,5.5,107,1.3084e-05,0,102,102,70,25,subduction intraslab Himalayas,1.6617,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,34N 85E 25-70 km depth M5.5,34N_85E_L2_M5p5,-4.92,-5.49,-7.05
+85,35,0.0003,5.5,107,2.8037e-06,0,101,101,70,25,subduction intraslab Himalayas,0.99274,1.19,0.1,6.8,0.4,-117,40,349,2,StrasserIntraslab,35N 85E 25-70 km depth M5.5,35N_85E_L2_M5p5,-5.77,-6.23,
+85,36,0.0041,5.5,107,3.8318e-05,0,91,91,70,25,subduction interface,0.8084,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,36N 85E 25-70 km depth M5.5,36N_85E_L2_M5p5,-4.69,-4.96,-6.22
 85,37,0.0027,5.5,107,2.5234e-05,24.837,91,,70,25,subduction interface,0.62698,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,37N 85E 25-70 km depth M5.5,37N_85E_L2_M5p5,-5.13,-5.19,-6.93
 86,6,0.0001,5.5,107,9.3458e-07,244.77,933,,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,6N 86E 25-70 km depth M5.5,6N_86E_L2_M5p5,,,
 86,7,0.0001,5.5,107,9.3458e-07,244.84,933,,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,7N 86E 25-70 km depth M5.5,7N_86E_L2_M5p5,,,
@@ -168,14 +380,17 @@ longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,t
 86,9,0.0011,5.5,107,1.028e-05,191.28,933,,70,25,stable shallow crust,-0.092991,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,9N 86E 25-70 km depth M5.5,9N_86E_L2_M5p5,,,
 86,10,0.0006,5.5,107,5.6075e-06,164.38,933,,70,25,stable shallow crust,-0.35623,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,10N 86E 25-70 km depth M5.5,10N_86E_L2_M5p5,,,
 86,14,0.0002,5.5,107,1.8692e-06,2.8701,933,,70,25,stable shallow crust,-0.83335,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,14N 86E 25-70 km depth M5.5,14N_86E_L2_M5p5,,,
-86,15,0.001,5.5,107,9.3458e-06,0,94,94,70,25,subduction intraslab Himalayas,0.36062,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,15N 86E 25-70 km depth M5.5,15N_86E_L2_M5p5,,-5.77,-6.75
-86,16,0.0002,5.5,107,1.8692e-06,0,94,94,70,25,subduction intraslab Himalayas,-0.33835,0.98,0.09,8.3,0.4,-6,89,11,2,StrasserIntraslab,16N 86E 25-70 km depth M5.5,16N_86E_L2_M5p5,,,
-86,26,0.0015,5.5,107,1.4019e-05,0,93,93,70,25,subduction intraslab Himalayas,1.6367,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,26N 86E 25-70 km depth M5.5,26N_86E_L2_M5p5,-4.89,-5.45,-6.63
-86,27,0.0068,5.5,107,6.3551e-05,0,89,89,70,25,subduction interface,1.9081,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,27N 86E 25-70 km depth M5.5,27N_86E_L2_M5p5,-4.22,-4.76,-5.9
-86,28,0.0107,5.5,107,0.0001,0,89,89,70,25,subduction interface,2.105,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,28N 86E 25-70 km depth M5.5,28N_86E_L2_M5p5,-4.01,-4.56,-5.69
-86,29,0.0051,5.5,107,4.7664e-05,0,88,88,70,25,subduction intraslab Himalayas,2.3882,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,29N 86E 25-70 km depth M5.5,29N_86E_L2_M5p5,-4.33,-4.93,-6.15
-86,30,0.0047,5.5,107,4.3925e-05,0,87,87,70,25,subduction intraslab Himalayas,2.0227,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,30N 86E 25-70 km depth M5.5,30N_86E_L2_M5p5,-4.37,-4.94,-6.1
-86,31,0.0009,5.5,107,8.4112e-06,0,87,87,70,25,subduction intraslab Himalayas,1.3049,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,31N 86E 25-70 km depth M5.5,31N_86E_L2_M5p5,-5.17,-5.68,-6.84
+86,15,0.001,5.5,107,9.3458e-06,0,933,933,70,25,stable shallow crust,-0.13438,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,15N 86E 25-70 km depth M5.5,15N_86E_L2_M5p5,,,
+86,16,0.0002,5.5,107,1.8692e-06,0,933,933,70,25,stable shallow crust,-0.83335,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,16N 86E 25-70 km depth M5.5,16N_86E_L2_M5p5,,,
+86,26,0.0015,5.5,107,1.4019e-05,0,932,932,70,25,stable shallow crust,0.26171,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,26N 86E 25-70 km depth M5.5,26N_86E_L2_M5p5,,,
+86,27,0.0068,5.5,107,6.3551e-05,0,928,928,70,25,subduction intraslab Himalayas,1.0831,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 86E 25-70 km depth M5.5,27N_86E_L2_M5p5,-4.32,-4.71,-5.67
+86,28,0.0107,5.5,107,0.0001,0,928,928,70,25,subduction intraslab Himalayas,1.28,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,28N 86E 25-70 km depth M5.5,28N_86E_L2_M5p5,-4.07,-4.5,-5.46
+86,29,0.0051,5.5,107,4.7664e-05,0,927,927,70,25,subduction intraslab Himalayas,2.3882,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,29N 86E 25-70 km depth M5.5,29N_86E_L2_M5p5,-4.33,-4.93,-6.17
+86,30,0.0047,5.5,107,4.3925e-05,0,926,926,70,25,subduction intraslab Himalayas,2.6827,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,30N 86E 25-70 km depth M5.5,30N_86E_L2_M5p5,-4.36,-5,-6.28
+86,31,0.0009,5.5,107,8.4112e-06,0,926,926,70,25,subduction intraslab Himalayas,1.9649,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,31N 86E 25-70 km depth M5.5,31N_86E_L2_M5p5,-5.1,-5.72,-7.01
+86,32,0.001,5.5,107,9.3458e-06,0,103,103,70,25,subduction intraslab Himalayas,1.2406,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,32N 86E 25-70 km depth M5.5,32N_86E_L2_M5p5,-5.13,-5.63,-7.01
+86,33,0.0044,5.5,107,4.1121e-05,0,102,102,70,25,subduction intraslab Himalayas,2.1591,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,33N 86E 25-70 km depth M5.5,33N_86E_L2_M5p5,-4.4,-4.99,-6.26
+86,34,0.0008,5.5,107,7.4766e-06,0,102,102,70,25,subduction intraslab Himalayas,1.4187,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,34N 86E 25-70 km depth M5.5,34N_86E_L2_M5p5,-5.2,-5.75,
 86,36,0.0004,5.5,107,3.7383e-06,65.535,91,,70,25,subduction interface,-0.20232,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,36N 86E 25-70 km depth M5.5,36N_86E_L2_M5p5,,,
 87,8,0.0003,5.5,107,2.8037e-06,323.83,933,,70,25,stable shallow crust,-0.65726,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,8N 87E 25-70 km depth M5.5,8N_87E_L2_M5p5,,,
 87,9,0.0043,5.5,107,4.0187e-05,296.77,933,,70,25,stable shallow crust,0.49908,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,9N 87E 25-70 km depth M5.5,9N_87E_L2_M5p5,-5.33,-5.12,
@@ -183,23 +398,29 @@ longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,t
 87,14,0.0009,5.5,107,8.4112e-06,98.84,933,,70,25,stable shallow crust,-0.18014,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,14N 87E 25-70 km depth M5.5,14N_87E_L2_M5p5,,,
 87,15,0.005,5.5,107,4.6729e-05,51.701,933,,70,25,stable shallow crust,0.56459,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,15N 87E 25-70 km depth M5.5,15N_87E_L2_M5p5,-4.95,-5.01,
 87,16,0.0009,5.5,107,8.4112e-06,6.1048,933,,70,25,stable shallow crust,-0.18014,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,16N 87E 25-70 km depth M5.5,16N_87E_L2_M5p5,,,
-87,26,0.0027,5.5,107,2.5234e-05,0,93,93,70,25,subduction intraslab Himalayas,1.892,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,26N 87E 25-70 km depth M5.5,26N_87E_L2_M5p5,-4.62,-5.19,-6.37
-87,27,0.0147,5.5,107,0.00013738,0,89,89,70,25,subduction interface,2.2429,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,27N 87E 25-70 km depth M5.5,27N_87E_L2_M5p5,-3.87,-4.42,-5.54
-87,28,0.0084,5.5,107,7.8505e-05,0,88,88,70,25,subduction intraslab Himalayas,2.6049,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,28N 87E 25-70 km depth M5.5,28N_87E_L2_M5p5,-4.11,-4.72,-5.94
-87,29,0.0008,5.5,107,7.4766e-06,0,88,88,70,25,subduction intraslab Himalayas,1.5837,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,29N 87E 25-70 km depth M5.5,29N_87E_L2_M5p5,-5.18,-5.75,-6.97
-87,30,0.0027,5.5,107,2.5234e-05,0,87,87,70,25,subduction intraslab Himalayas,1.782,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,30N 87E 25-70 km depth M5.5,30N_87E_L2_M5p5,-4.63,-5.19,-6.35
-87,31,0.0019,5.5,107,1.7757e-05,0,87,87,70,25,subduction intraslab Himalayas,1.6294,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,31N 87E 25-70 km depth M5.5,31N_87E_L2_M5p5,-4.79,-5.34,-6.5
+87,26,0.0027,5.5,107,2.5234e-05,0,932,932,70,25,stable shallow crust,0.51698,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,26N 87E 25-70 km depth M5.5,26N_87E_L2_M5p5,-5.55,-6.01,
+87,27,0.0147,5.5,107,0.00013738,0,928,928,70,25,subduction intraslab Himalayas,1.4179,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 87E 25-70 km depth M5.5,27N_87E_L2_M5p5,-3.92,-4.36,-5.32
+87,28,0.0084,5.5,107,7.8505e-05,0,927,927,70,25,subduction intraslab Himalayas,2.6049,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,28N 87E 25-70 km depth M5.5,28N_87E_L2_M5p5,-4.11,-4.72,-5.95
+87,29,0.0008,5.5,107,7.4766e-06,0,927,927,70,25,subduction intraslab Himalayas,1.5837,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,29N 87E 25-70 km depth M5.5,29N_87E_L2_M5p5,-5.18,-5.75,-7.13
+87,30,0.0027,5.5,107,2.5234e-05,0,926,926,70,25,subduction intraslab Himalayas,2.442,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,30N 87E 25-70 km depth M5.5,30N_87E_L2_M5p5,-4.6,-5.24,-6.52
+87,31,0.0019,5.5,107,1.7757e-05,0,926,926,70,25,subduction intraslab Himalayas,2.2894,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,31N 87E 25-70 km depth M5.5,31N_87E_L2_M5p5,-4.76,-5.39,-6.68
+87,32,0.0029,5.5,107,2.7103e-05,0,103,103,70,25,subduction intraslab Himalayas,1.703,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,32N 87E 25-70 km depth M5.5,32N_87E_L2_M5p5,-4.6,-5.15,-6.35
+87,33,0.0007,5.5,107,6.5421e-06,0,102,102,70,25,subduction intraslab Himalayas,1.3607,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,33N 87E 25-70 km depth M5.5,33N_87E_L2_M5p5,-5.27,-5.81,
 88,9,0.0006,5.5,107,5.6075e-06,376.1,131,,70,25,subduction intraslab,-0.63123,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,9N 88E 25-70 km depth M5.5,9N_88E_L2_M5p5,,,
 88,10,0.0003,5.5,107,2.8037e-06,359.71,131,,70,25,subduction intraslab,-0.93226,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,10N 88E 25-70 km depth M5.5,10N_88E_L2_M5p5,,,
 88,14,0.0002,5.5,107,1.8692e-06,194.76,933,,70,25,stable shallow crust,-0.83335,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,14N 88E 25-70 km depth M5.5,14N_88E_L2_M5p5,,,
 88,15,0.001,5.5,107,9.3458e-06,148.74,933,,70,25,stable shallow crust,-0.13438,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,15N 88E 25-70 km depth M5.5,15N_88E_L2_M5p5,,,
 88,16,0.0002,5.5,107,1.8692e-06,102.89,933,,70,25,stable shallow crust,-0.83335,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,16N 88E 25-70 km depth M5.5,16N_88E_L2_M5p5,,,
-88,26,0.0007,5.5,107,6.5421e-06,0,93,93,70,25,subduction intraslab Himalayas,1.3057,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,26N 88E 25-70 km depth M5.5,26N_88E_L2_M5p5,-5.28,-5.8,-6.98
-88,27,0.0088,5.5,107,8.2243e-05,0,89,89,70,25,subduction interface,2.0201,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,27N 88E 25-70 km depth M5.5,27N_88E_L2_M5p5,-4.1,-4.64,-5.78
-88,28,0.0074,5.5,107,6.9159e-05,0,88,88,70,25,subduction intraslab Himalayas,2.5498,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,28N 88E 25-70 km depth M5.5,28N_88E_L2_M5p5,-4.17,-4.77,-5.99
-88,29,0.0008,5.5,107,7.4766e-06,0,88,88,70,25,subduction intraslab Himalayas,1.5837,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,29N 88E 25-70 km depth M5.5,29N_88E_L2_M5p5,-5.18,-5.75,-6.97
-88,30,0.007,5.5,107,6.5421e-05,0,87,87,70,25,subduction intraslab Himalayas,2.1957,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,30N 88E 25-70 km depth M5.5,30N_88E_L2_M5p5,-4.19,-4.77,-5.93
-88,31,0.0088,5.5,107,8.2243e-05,0,87,87,70,25,subduction intraslab Himalayas,2.2951,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,31N 88E 25-70 km depth M5.5,31N_88E_L2_M5p5,-4.09,-4.67,-5.83
+88,26,0.0007,5.5,107,6.5421e-06,0,932,932,70,25,stable shallow crust,-0.069286,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,26N 88E 25-70 km depth M5.5,26N_88E_L2_M5p5,,,
+88,27,0.0088,5.5,107,8.2243e-05,0,928,928,70,25,subduction intraslab Himalayas,1.1951,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 88E 25-70 km depth M5.5,27N_88E_L2_M5p5,-4.18,-4.59,-5.55
+88,28,0.0074,5.5,107,6.9159e-05,0,927,927,70,25,subduction intraslab Himalayas,2.5498,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,28N 88E 25-70 km depth M5.5,28N_88E_L2_M5p5,-4.17,-4.77,-6.01
+88,29,0.0008,5.5,107,7.4766e-06,0,927,927,70,25,subduction intraslab Himalayas,1.5837,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,29N 88E 25-70 km depth M5.5,29N_88E_L2_M5p5,-5.18,-5.75,-7.13
+88,30,0.007,5.5,107,6.5421e-05,0,926,926,70,25,subduction intraslab Himalayas,2.8557,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,30N 88E 25-70 km depth M5.5,30N_88E_L2_M5p5,-4.19,-4.82,-6.11
+88,31,0.0088,5.5,107,8.2243e-05,0,926,926,70,25,subduction intraslab Himalayas,2.9551,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,31N 88E 25-70 km depth M5.5,31N_88E_L2_M5p5,-4.09,-4.73,-6.01
+88,32,0.0049,5.5,107,4.5794e-05,0,103,103,70,25,subduction intraslab Himalayas,1.9308,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,32N 88E 25-70 km depth M5.5,32N_88E_L2_M5p5,-4.36,-4.91,-6.09
+88,33,0.0007,5.5,107,6.5421e-06,0,102,102,70,25,subduction intraslab Himalayas,1.3607,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,33N 88E 25-70 km depth M5.5,33N_88E_L2_M5p5,-5.27,-5.81,
+88,34,0.0002,5.5,107,1.8692e-06,0,102,102,70,25,subduction intraslab Himalayas,0.81665,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,34N 88E 25-70 km depth M5.5,34N_88E_L2_M5p5,-6.13,-6.46,
+88,35,0.0006,5.5,107,5.6075e-06,0,102,102,70,25,subduction intraslab Himalayas,1.2938,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,35N 88E 25-70 km depth M5.5,35N_88E_L2_M5p5,-5.35,-5.89,
 88,36,0.0001,5.5,107,9.3458e-07,99.435,102,,70,25,subduction intraslab Himalayas,0.51562,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,36N 88E 25-70 km depth M5.5,36N_88E_L2_M5p5,,-6.95,
 89,3,0.0003,5.5,107,2.8037e-06,507.46,132,,70,25,subduction interface,-0.76726,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,3N 89E 25-70 km depth M5.5,3N_89E_L2_M5p5,,,
 89,4,0.0006,5.5,107,5.6075e-06,447.93,132,,70,25,subduction interface,-0.46623,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,4N 89E 25-70 km depth M5.5,4N_89E_L2_M5p5,,,
@@ -207,13 +428,18 @@ longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,t
 89,6,0.0006,5.5,107,5.6075e-06,335.45,131,,70,25,subduction intraslab,-0.63123,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,6N 89E 25-70 km depth M5.5,6N_89E_L2_M5p5,,,
 89,19,0.0001,5.5,107,9.3458e-07,85.283,933,,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,19N 89E 25-70 km depth M5.5,19N_89E_L2_M5p5,,,
 89,20,0.0001,5.5,107,9.3458e-07,89.816,932,,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,20N 89E 25-70 km depth M5.5,20N_89E_L2_M5p5,,,
-89,24,0.0002,5.5,107,1.8692e-06,0,93,93,70,25,subduction intraslab Himalayas,0.76165,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,24N 89E 25-70 km depth M5.5,24N_89E_L2_M5p5,-6.21,-6.4,-7.58
-89,25,0.0013,5.5,107,1.215e-05,0,93,93,70,25,subduction intraslab Himalayas,1.5746,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,25N 89E 25-70 km depth M5.5,25N_89E_L2_M5p5,-4.96,-5.52,-6.7
-89,26,0.0022,5.5,107,2.0561e-05,0,93,93,70,25,subduction intraslab Himalayas,1.803,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,26N 89E 25-70 km depth M5.5,26N_89E_L2_M5p5,-4.71,-5.28,-6.46
-89,27,0.0101,5.5,107,9.4393e-05,0,89,89,70,25,subduction interface,2.0799,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,27N 89E 25-70 km depth M5.5,27N_89E_L2_M5p5,-4.04,-4.58,-5.71
-89,28,0.0097,5.5,107,9.0654e-05,0,88,88,70,25,subduction intraslab Himalayas,2.6674,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,28N 89E 25-70 km depth M5.5,28N_89E_L2_M5p5,-4.05,-4.65,-5.87
-89,29,0.0023,5.5,107,2.1495e-05,0,88,88,70,25,subduction intraslab Himalayas,2.0423,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,29N 89E 25-70 km depth M5.5,29N_89E_L2_M5p5,-4.68,-5.28,-6.5
-89,30,0.0069,5.5,107,6.4486e-05,0,87,87,70,25,subduction intraslab Himalayas,2.1895,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,30N 89E 25-70 km depth M5.5,30N_89E_L2_M5p5,-4.2,-4.77,-5.93
+89,24,0.0002,5.5,107,1.8692e-06,0,932,932,70,25,stable shallow crust,-0.61335,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,24N 89E 25-70 km depth M5.5,24N_89E_L2_M5p5,,,
+89,25,0.0013,5.5,107,1.215e-05,0,932,932,70,25,stable shallow crust,0.19956,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,25N 89E 25-70 km depth M5.5,25N_89E_L2_M5p5,,,
+89,26,0.0022,5.5,107,2.0561e-05,0,932,932,70,25,stable shallow crust,0.42804,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,26N 89E 25-70 km depth M5.5,26N_89E_L2_M5p5,,,
+89,27,0.0101,5.5,107,9.4393e-05,0,928,928,70,25,subduction intraslab Himalayas,1.2549,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 89E 25-70 km depth M5.5,27N_89E_L2_M5p5,-4.1,-4.53,-5.49
+89,28,0.0097,5.5,107,9.0654e-05,0,927,927,70,25,subduction intraslab Himalayas,2.6674,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,28N 89E 25-70 km depth M5.5,28N_89E_L2_M5p5,-4.05,-4.65,-5.88
+89,29,0.0023,5.5,107,2.1495e-05,0,927,927,70,25,subduction intraslab Himalayas,2.0423,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,29N 89E 25-70 km depth M5.5,29N_89E_L2_M5p5,-4.68,-5.28,-6.55
+89,30,0.0069,5.5,107,6.4486e-05,0,926,926,70,25,subduction intraslab Himalayas,2.8495,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,30N 89E 25-70 km depth M5.5,30N_89E_L2_M5p5,-4.19,-4.83,-6.11
+89,31,0.0212,5.5,107,0.00019813,0,103,103,70,25,subduction intraslab Himalayas,2.567,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,31N 89E 25-70 km depth M5.5,31N_89E_L2_M5p5,-3.71,-4.27,-5.42
+89,32,0.0077,5.5,107,7.1963e-05,0,103,103,70,25,subduction intraslab Himalayas,2.1271,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,32N 89E 25-70 km depth M5.5,32N_89E_L2_M5p5,-4.16,-4.72,-5.88
+89,33,0.0002,5.5,107,1.8692e-06,0,102,102,70,25,subduction intraslab Himalayas,0.81665,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,33N 89E 25-70 km depth M5.5,33N_89E_L2_M5p5,-6.13,-6.46,
+89,34,0.0023,5.5,107,2.1495e-05,0,102,102,70,25,subduction intraslab Himalayas,1.8773,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,34N 89E 25-70 km depth M5.5,34N_89E_L2_M5p5,-4.69,-5.27,-6.64
+89,35,0.0056,5.5,107,5.2336e-05,0,102,102,70,25,subduction intraslab Himalayas,2.2638,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,35N 89E 25-70 km depth M5.5,35N_89E_L2_M5p5,-4.29,-4.88,-6.13
 90,3,0.0022,5.5,107,2.0561e-05,414.19,132,,70,25,subduction interface,0.098039,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,3N 90E 25-70 km depth M5.5,3N_90E_L2_M5p5,,-5.82,-6.69
 90,4,0.0044,5.5,107,4.1121e-05,354.74,132,,70,25,subduction interface,0.39907,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,4N 90E 25-70 km depth M5.5,4N_90E_L2_M5p5,,-5.04,-5.91
 90,5,0.0036,5.5,107,3.3645e-05,295.17,132,,70,25,subduction interface,0.31192,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,5N 90E 25-70 km depth M5.5,5N_90E_L2_M5p5,,-5.2,-6.07
@@ -224,14 +450,20 @@ longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,t
 90,18,0.0001,5.5,107,9.3458e-07,201.77,933,,70,25,stable shallow crust,-1.1344,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,18N 90E 25-70 km depth M5.5,18N_90E_L2_M5p5,,,
 90,19,0.0018,5.5,107,1.6822e-05,185.87,933,,70,25,stable shallow crust,0.12089,0.89,0.13,6.8,0.3,129,26,283,2,WC1994,19N 90E 25-70 km depth M5.5,19N_90E_L2_M5p5,,,
 90,20,0.0018,5.5,107,1.6822e-05,89.194,932,,70,25,stable shallow crust,0.34089,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,20N 90E 25-70 km depth M5.5,20N_90E_L2_M5p5,,,
-90,21,0.0001,5.5,107,9.3458e-07,0,93,93,70,25,subduction intraslab Himalayas,0.46062,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,21N 90E 25-70 km depth M5.5,21N_90E_L2_M5p5,,-6.8,-7.98
-90,23,0.0001,5.5,107,9.3458e-07,0,93,93,70,25,subduction intraslab Himalayas,0.46062,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,23N 90E 25-70 km depth M5.5,23N_90E_L2_M5p5,,-6.8,-7.98
-90,24,0.002,5.5,107,1.8692e-05,0,93,93,70,25,subduction intraslab Himalayas,1.7616,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,24N 90E 25-70 km depth M5.5,24N_90E_L2_M5p5,-4.76,-5.33,-6.51
-90,25,0.0089,5.5,107,8.3178e-05,0,93,93,70,25,subduction intraslab Himalayas,2.41,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,25N 90E 25-70 km depth M5.5,25N_90E_L2_M5p5,-4.09,-4.67,-5.85
-90,27,0.0086,5.5,107,8.0374e-05,0,89,89,70,25,subduction interface,2.0101,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,27N 90E 25-70 km depth M5.5,27N_90E_L2_M5p5,-4.11,-4.65,-5.79
-90,28,0.0055,5.5,107,5.1402e-05,0,88,88,70,25,subduction intraslab Himalayas,2.421,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,28N 90E 25-70 km depth M5.5,28N_90E_L2_M5p5,-4.3,-4.9,-6.12
-90,29,0.0059,5.5,107,5.514e-05,0,88,88,70,25,subduction intraslab Himalayas,2.4515,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,29N 90E 25-70 km depth M5.5,29N_90E_L2_M5p5,-4.26,-4.87,-6.09
-90,30,0.0128,5.5,107,0.00011963,0,87,87,70,25,subduction intraslab Himalayas,2.4578,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,30N 90E 25-70 km depth M5.5,30N_90E_L2_M5p5,-3.93,-4.5,-5.66
+90,21,0.0001,5.5,107,9.3458e-07,0,932,932,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,21N 90E 25-70 km depth M5.5,21N_90E_L2_M5p5,,,
+90,23,0.0001,5.5,107,9.3458e-07,0,932,932,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,23N 90E 25-70 km depth M5.5,23N_90E_L2_M5p5,,,
+90,24,0.002,5.5,107,1.8692e-05,0,932,932,70,25,stable shallow crust,0.38665,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,24N 90E 25-70 km depth M5.5,24N_90E_L2_M5p5,,,
+90,25,0.0089,5.5,107,8.3178e-05,0,932,932,70,25,stable shallow crust,1.035,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,25N 90E 25-70 km depth M5.5,25N_90E_L2_M5p5,-4.22,-4.68,
+90,26,0.0124,5.5,107,0.00011589,0,119,119,70,25,intraplate margin lower,1.069,0.91,0.1,8.3,0.2,90,40,112,2,WC1994,26N 90E 25-70 km depth M5.5,26N_90E_L2_M5p5,-4.06,-4.43,-5.34
+90,27,0.0086,5.5,107,8.0374e-05,0,928,928,70,25,subduction intraslab Himalayas,1.1851,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 90E 25-70 km depth M5.5,27N_90E_L2_M5p5,-4.19,-4.6,-5.56
+90,28,0.0055,5.5,107,5.1402e-05,0,927,927,70,25,subduction intraslab Himalayas,2.421,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,28N 90E 25-70 km depth M5.5,28N_90E_L2_M5p5,-4.3,-4.9,-6.14
+90,29,0.0059,5.5,107,5.514e-05,0,927,927,70,25,subduction intraslab Himalayas,2.4515,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,29N 90E 25-70 km depth M5.5,29N_90E_L2_M5p5,-4.26,-4.87,-6.11
+90,30,0.0128,5.5,107,0.00011963,0,926,926,70,25,subduction intraslab Himalayas,3.1178,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,30N 90E 25-70 km depth M5.5,30N_90E_L2_M5p5,-3.92,-4.56,-5.84
+90,31,0.0134,5.5,107,0.00012523,0,103,103,70,25,subduction intraslab Himalayas,2.3677,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,31N 90E 25-70 km depth M5.5,31N_90E_L2_M5p5,-3.91,-4.47,-5.63
+90,32,0.0064,5.5,107,5.9813e-05,0,103,103,70,25,subduction intraslab Himalayas,2.0468,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,32N 90E 25-70 km depth M5.5,32N_90E_L2_M5p5,-4.24,-4.8,-5.97
+90,33,0.0002,5.5,107,1.8692e-06,0,102,102,70,25,subduction intraslab Himalayas,0.81665,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,33N 90E 25-70 km depth M5.5,33N_90E_L2_M5p5,-6.13,-6.46,
+90,34,0.0023,5.5,107,2.1495e-05,0,102,102,70,25,subduction intraslab Himalayas,1.8773,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,34N 90E 25-70 km depth M5.5,34N_90E_L2_M5p5,-4.69,-5.27,-6.64
+90,35,0.0056,5.5,107,5.2336e-05,0,102,102,70,25,subduction intraslab Himalayas,2.2638,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,35N 90E 25-70 km depth M5.5,35N_90E_L2_M5p5,-4.29,-4.88,-6.13
 91,3,0.0006,5.5,107,5.6075e-06,320.7,132,,70,25,subduction interface,-0.46623,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,3N 91E 25-70 km depth M5.5,3N_91E_L2_M5p5,,,
 91,4,0.0011,5.5,107,1.028e-05,261.34,132,,70,25,subduction interface,-0.20299,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,4N 91E 25-70 km depth M5.5,4N_91E_L2_M5p5,,,
 91,5,0.0007,5.5,107,6.5421e-06,201.88,132,,70,25,subduction interface,-0.39929,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,5N 91E 25-70 km depth M5.5,5N_91E_L2_M5p5,,,
@@ -252,11 +484,23 @@ longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,t
 91,22,0.0001,5.5,107,9.3458e-07,58.035,932,,70,25,stable shallow crust,-0.91438,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,22N 91E 25-70 km depth M5.5,22N_91E_L2_M5p5,,,
 91,23,0.0014,5.5,107,1.3084e-05,76.798,932,,70,25,stable shallow crust,0.23174,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,23N 91E 25-70 km depth M5.5,23N_91E_L2_M5p5,,,
 91,24,0.0094,5.5,107,8.785e-05,47.511,932,,70,25,stable shallow crust,1.0587,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,24N 91E 25-70 km depth M5.5,24N_91E_L2_M5p5,-4.18,-4.65,
-91,25,0.0201,5.5,107,0.00018785,0,93,93,70,25,subduction intraslab Himalayas,2.7638,1.18,0.09,8.3,0.4,-2,77,196,2,StrasserIntraslab,25N 91E 25-70 km depth M5.5,25N_91E_L2_M5p5,-3.73,-4.32,-5.5
-91,27,0.006,5.5,107,5.6075e-05,0,89,89,70,25,subduction interface,1.8538,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,27N 91E 25-70 km depth M5.5,27N_91E_L2_M5p5,-4.27,-4.81,-5.95
-91,28,0.0019,5.5,107,1.7757e-05,0,89,89,70,25,subduction interface,1.3544,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,28N 91E 25-70 km depth M5.5,28N_91E_L2_M5p5,-4.83,-5.33,-6.55
-91,29,0.0025,5.5,107,2.3364e-05,0,88,88,70,25,subduction intraslab Himalayas,2.0786,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,29N 91E 25-70 km depth M5.5,29N_91E_L2_M5p5,-4.65,-5.25,-6.47
-91,30,0.011,5.5,107,0.0001028,0,87,87,70,25,subduction intraslab Himalayas,2.392,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,30N 91E 25-70 km depth M5.5,30N_91E_L2_M5p5,-3.99,-4.57,-5.73
+91,25,0.0201,5.5,107,0.00018785,0,932,932,70,25,stable shallow crust,1.3888,0.93,0.1,6.5,0.3,8,67,239,2,WC1994,25N 91E 25-70 km depth M5.5,25N_91E_L2_M5p5,-3.78,-4.25,
+91,26,0.0131,5.5,107,0.00012243,0,119,119,70,25,intraplate margin lower,1.0929,0.91,0.1,8.3,0.2,90,40,112,2,WC1994,26N 91E 25-70 km depth M5.5,26N_91E_L2_M5p5,-4.03,-4.4,-5.31
+91,27,0.006,5.5,107,5.6075e-05,0,928,928,70,25,subduction intraslab Himalayas,1.0288,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 91E 25-70 km depth M5.5,27N_91E_L2_M5p5,-4.4,-4.77,-5.73
+91,28,0.0019,5.5,107,1.7757e-05,0,928,928,70,25,subduction intraslab Himalayas,0.52937,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,28N 91E 25-70 km depth M5.5,28N_91E_L2_M5p5,-5.72,-5.38,-6.34
+91,29,0.0025,5.5,107,2.3364e-05,0,927,927,70,25,subduction intraslab Himalayas,2.0786,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,29N 91E 25-70 km depth M5.5,29N_91E_L2_M5p5,-4.65,-5.25,-6.51
+91,30,0.011,5.5,107,0.0001028,0,926,926,70,25,subduction intraslab Himalayas,3.052,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,30N 91E 25-70 km depth M5.5,30N_91E_L2_M5p5,-3.99,-4.63,-5.91
+91,31,0.0107,5.5,107,0.0001,0,103,103,70,25,subduction intraslab Himalayas,2.27,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,31N 91E 25-70 km depth M5.5,31N_91E_L2_M5p5,-4.01,-4.57,-5.73
+91,32,0.0034,5.5,107,3.1776e-05,0,103,103,70,25,subduction intraslab Himalayas,1.7721,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,32N 91E 25-70 km depth M5.5,32N_91E_L2_M5p5,-4.53,-5.08,-6.27
+91,33,0.0006,5.5,107,5.6075e-06,0,102,102,70,25,subduction intraslab Himalayas,1.2938,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,33N 91E 25-70 km depth M5.5,33N_91E_L2_M5p5,-5.35,-5.89,
+91,34,0.0003,5.5,107,2.8037e-06,0,102,102,70,25,subduction intraslab Himalayas,0.99274,1.19,0.11,6.8,0.4,-165,86,154,2,StrasserIntraslab,34N 91E 25-70 km depth M5.5,34N_91E_L2_M5p5,-5.77,-6.23,
+91,35,0.0006,5.5,107,5.6075e-06,0,116,116,70,25,subduction intraslab Himalayas,1.8988,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,35N 91E 25-70 km depth M5.5,35N_91E_L2_M5p5,-5.28,-5.91,-7.33
+92,7,0.0004,5.5,107,3.7383e-06,0,132,132,70,25,subduction interface,-0.64232,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,7N 92E 25-70 km depth M5.5,7N_92E_L2_M5p5,,,
+92,8,0.0042,5.5,107,3.9252e-05,0,131,131,70,25,subduction intraslab,0.21387,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,8N 92E 25-70 km depth M5.5,8N_92E_L2_M5p5,,-5.24,-6.08
+92,9,0.0126,5.5,107,0.00011776,0,131,131,70,25,subduction intraslab,0.69099,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,9N 92E 25-70 km depth M5.5,9N_92E_L2_M5p5,-4.26,-4.45,-5.29
+92,10,0.0173,5.5,107,0.00016168,0,131,131,70,25,subduction intraslab,0.82866,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,10N 92E 25-70 km depth M5.5,10N_92E_L2_M5p5,-4.01,-4.28,-5.12
+92,11,0.0186,5.5,107,0.00017383,0,131,131,70,25,subduction intraslab,0.86013,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,11N 92E 25-70 km depth M5.5,11N_92E_L2_M5p5,-3.96,-4.24,-5.08
+92,12,0.0102,5.5,107,9.5327e-05,0,131,131,70,25,subduction intraslab,0.59922,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,12N 92E 25-70 km depth M5.5,12N_92E_L2_M5p5,-4.49,-4.57,-5.41
 92,13,0.0074,5.5,107,6.9159e-05,23.85,131,,70,25,subduction intraslab,0.45985,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,13N 92E 25-70 km depth M5.5,13N_92E_L2_M5p5,-5.22,-4.77,-5.61
 92,14,0.0037,5.5,107,3.4579e-05,59.418,130,,70,25,subduction interface,2.3588,1.24,0.12,6.5,0.3,60,67,146,2,StrasserInterface,14N 92E 25-70 km depth M5.5,14N_92E_L2_M5p5,-4.47,-5.09,-6.49
 92,15,0.0073,5.5,107,6.8224e-05,105.4,130,,70,25,subduction interface,2.6539,1.24,0.12,6.5,0.3,60,67,146,2,StrasserInterface,15N 92E 25-70 km depth M5.5,15N_92E_L2_M5p5,-4.17,-4.79,-6.1
@@ -269,101 +513,184 @@ longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,t
 92,23,0.0031,5.5,107,2.8972e-05,23.037,929,,70,25,subduction intraslab,0.74198,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,23N 92E 25-70 km depth M5.5,23N_92E_L2_M5p5,-4.88,-5.1,-6.09
 92,24,0.014,5.5,107,0.00013084,23.456,929,,70,25,subduction intraslab,1.3967,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,24N 92E 25-70 km depth M5.5,24N_92E_L2_M5p5,-3.94,-4.38,-5.35
 92,25,0.0251,5.5,107,0.00023458,13.614,119,,70,25,intraplate margin lower,1.3753,0.91,0.1,8.3,0.2,90,40,112,2,WC1994,25N 92E 25-70 km depth M5.5,25N_92E_L2_M5p5,-3.69,-4.1,-5.01
-92,27,0.0156,5.5,107,0.00014579,0,89,89,70,25,subduction interface,2.2687,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,27N 92E 25-70 km depth M5.5,27N_92E_L2_M5p5,-3.84,-4.39,-5.52
-92,28,0.0035,5.5,107,3.271e-05,0,89,89,70,25,subduction interface,1.6197,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,28N 92E 25-70 km depth M5.5,28N_92E_L2_M5p5,-4.52,-5.05,-6.22
-92,29,0.0011,5.5,107,1.028e-05,0,88,88,70,25,subduction intraslab Himalayas,1.722,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,29N 92E 25-70 km depth M5.5,29N_92E_L2_M5p5,-5.02,-5.61,-6.83
-92,30,0.0081,5.5,107,7.5701e-05,0,87,87,70,25,subduction intraslab Himalayas,2.2591,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,30N 92E 25-70 km depth M5.5,30N_92E_L2_M5p5,-4.13,-4.7,-5.86
+92,26,0.015,5.5,107,0.00014019,0,119,119,70,25,intraplate margin lower,1.1517,0.91,0.1,8.3,0.2,90,40,112,2,WC1994,26N 92E 25-70 km depth M5.5,26N_92E_L2_M5p5,-3.95,-4.34,-5.25
+92,27,0.0156,5.5,107,0.00014579,0,928,928,70,25,subduction intraslab Himalayas,1.4437,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 92E 25-70 km depth M5.5,27N_92E_L2_M5p5,-3.89,-4.33,-5.29
+92,28,0.0035,5.5,107,3.271e-05,0,928,928,70,25,subduction intraslab Himalayas,0.79468,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,28N 92E 25-70 km depth M5.5,28N_92E_L2_M5p5,-4.77,-5.04,-6
+92,29,0.0011,5.5,107,1.028e-05,0,927,927,70,25,subduction intraslab Himalayas,1.722,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,29N 92E 25-70 km depth M5.5,29N_92E_L2_M5p5,-5.02,-5.61,-6.94
+92,30,0.0081,5.5,107,7.5701e-05,0,926,926,70,25,subduction intraslab Himalayas,2.9191,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,30N 92E 25-70 km depth M5.5,30N_92E_L2_M5p5,-4.12,-4.76,-6.04
+92,31,0.0077,5.5,107,7.1963e-05,0,103,103,70,25,subduction intraslab Himalayas,2.1271,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,31N 92E 25-70 km depth M5.5,31N_92E_L2_M5p5,-4.16,-4.72,-5.88
+92,32,0.0093,5.5,107,8.6916e-05,0,103,103,70,25,subduction intraslab Himalayas,2.2091,1.14,0.09,7.2,0.4,-36,70,225,2,StrasserIntraslab,32N 92E 25-70 km depth M5.5,32N_92E_L2_M5p5,-4.07,-4.63,-5.79
+92,33,0.007,5.5,107,6.5421e-05,0,116,116,70,25,subduction intraslab Himalayas,2.9657,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,33N 92E 25-70 km depth M5.5,33N_92E_L2_M5p5,-4.19,-4.83,-6.14
+92,34,0.002,5.5,107,1.8692e-05,0,116,116,70,25,subduction intraslab Himalayas,2.4216,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,34N 92E 25-70 km depth M5.5,34N_92E_L2_M5p5,-4.74,-5.38,-6.71
 92,35,0.0002,5.5,107,1.8692e-06,34.917,116,,70,25,subduction intraslab Himalayas,1.4216,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,35N 92E 25-70 km depth M5.5,35N_92E_L2_M5p5,-5.81,-6.4,-8.29
 93,3,0.0005,5.5,107,4.6729e-06,133.22,132,,70,25,subduction interface,-0.54541,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,3N 93E 25-70 km depth M5.5,3N_93E_L2_M5p5,,,
 93,4,0.0012,5.5,107,1.1215e-05,74.015,132,,70,25,subduction interface,-0.1652,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,4N 93E 25-70 km depth M5.5,4N_93E_L2_M5p5,,,
 93,5,0.0012,5.5,107,1.1215e-05,14.775,132,,70,25,subduction interface,-0.1652,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,5N 93E 25-70 km depth M5.5,5N_93E_L2_M5p5,,,
+93,6,0.0024,5.5,107,2.243e-05,0,132,132,70,25,subduction interface,0.13583,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,6N 93E 25-70 km depth M5.5,6N_93E_L2_M5p5,,-5.66,-6.53
+93,7,0.0036,5.5,107,3.3645e-05,0,132,132,70,25,subduction interface,0.31192,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,7N 93E 25-70 km depth M5.5,7N_93E_L2_M5p5,,-5.2,-6.07
+93,8,0.0276,5.5,107,0.00025794,0,131,131,70,25,subduction intraslab,1.0315,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,8N 93E 25-70 km depth M5.5,8N_93E_L2_M5p5,-3.71,-4.05,-4.89
+93,9,0.0356,5.5,107,0.00033271,0,131,131,70,25,subduction intraslab,1.1421,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,9N 93E 25-70 km depth M5.5,9N_93E_L2_M5p5,-3.57,-3.93,-4.77
+93,10,0.0438,5.5,107,0.00040935,0,131,131,70,25,subduction intraslab,1.2321,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,10N 93E 25-70 km depth M5.5,10N_93E_L2_M5p5,-3.46,-3.83,-4.67
+93,11,0.0325,5.5,107,0.00030374,0,131,131,70,25,subduction intraslab,1.1025,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,11N 93E 25-70 km depth M5.5,11N_93E_L2_M5p5,-3.62,-3.97,-4.81
+93,12,0.0228,5.5,107,0.00021308,0,131,131,70,25,subduction intraslab,0.94855,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,12N 93E 25-70 km depth M5.5,12N_93E_L2_M5p5,-3.82,-4.14,-4.98
+93,13,0.0159,5.5,107,0.0001486,0,131,131,70,25,subduction intraslab,0.79201,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,13N 93E 25-70 km depth M5.5,13N_93E_L2_M5p5,-4.07,-4.32,-5.16
+93,14,0.0047,5.5,107,4.3925e-05,0,130,130,70,25,subduction interface,2.4627,1.24,0.12,6.5,0.3,60,67,146,2,StrasserInterface,14N 93E 25-70 km depth M5.5,14N_93E_L2_M5p5,-4.36,-4.98,-6.34
 93,15,0.0057,5.5,107,5.3271e-05,7.7432,130,,70,25,subduction interface,2.5465,1.24,0.12,6.5,0.3,60,67,146,2,StrasserInterface,15N 93E 25-70 km depth M5.5,15N_93E_L2_M5p5,-4.28,-4.9,-6.23
 93,16,0.0025,5.5,107,2.3364e-05,46.22,129,,70,25,subduction intraslab,1.0886,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,16N 93E 25-70 km depth M5.5,16N_93E_L2_M5p5,-4.77,-5.2,
 93,17,0.0001,5.5,107,9.3458e-07,59.886,129,,70,25,subduction intraslab,-0.30938,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,17N 93E 25-70 km depth M5.5,17N_93E_L2_M5p5,,,
 93,19,0.0002,5.5,107,1.8692e-06,73.51,129,,70,25,subduction intraslab,-0.0083538,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,19N 93E 25-70 km depth M5.5,19N_93E_L2_M5p5,,,
 93,20,0.0013,5.5,107,1.215e-05,62.316,129,,70,25,subduction intraslab,0.80456,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,20N 93E 25-70 km depth M5.5,20N_93E_L2_M5p5,-5.23,-5.53,
 93,21,0.0041,5.5,107,3.8318e-05,18.248,929,,70,25,subduction intraslab,0.8634,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,21N 93E 25-70 km depth M5.5,21N_93E_L2_M5p5,-4.65,-4.96,-5.94
-93,22,0.0118,5.5,107,0.00011028,0,90,90,70,25,subduction intraslab Himalayas,2.6425,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,22N 93E 25-70 km depth M5.5,22N_93E_L2_M5p5,-3.96,-4.56,-5.76
-93,23,0.0077,5.5,107,7.1963e-05,0,90,90,70,25,subduction intraslab Himalayas,2.4571,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,23N 93E 25-70 km depth M5.5,23N_93E_L2_M5p5,-4.15,-4.74,-5.94
-93,24,0.0182,5.5,107,0.00017009,0,90,90,70,25,subduction intraslab Himalayas,2.8307,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,24N 93E 25-70 km depth M5.5,24N_93E_L2_M5p5,-3.77,-4.37,-5.57
+93,22,0.0118,5.5,107,0.00011028,0,929,929,70,25,subduction intraslab,1.3225,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,22N 93E 25-70 km depth M5.5,22N_93E_L2_M5p5,-4.02,-4.46,-5.42
+93,23,0.0077,5.5,107,7.1963e-05,0,929,929,70,25,subduction intraslab,1.1371,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,23N 93E 25-70 km depth M5.5,23N_93E_L2_M5p5,-4.25,-4.66,-5.62
+93,24,0.0182,5.5,107,0.00017009,0,929,929,70,25,subduction intraslab,1.5107,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,24N 93E 25-70 km depth M5.5,24N_93E_L2_M5p5,-3.81,-4.26,-5.23
 93,25,0.0182,5.5,107,0.00017009,6.332,929,,70,25,subduction intraslab,1.5107,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,25N 93E 25-70 km depth M5.5,25N_93E_L2_M5p5,-3.81,-4.26,-5.23
-93,27,0.0171,5.5,107,0.00015981,0,89,89,70,25,subduction interface,2.3086,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,27N 93E 25-70 km depth M5.5,27N_93E_L2_M5p5,-3.8,-4.35,-5.47
-93,28,0.0084,5.5,107,7.8505e-05,0,89,89,70,25,subduction interface,1.9999,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,28N 93E 25-70 km depth M5.5,28N_93E_L2_M5p5,-4.12,-4.66,-5.8
-93,29,0.0015,5.5,107,1.4019e-05,0,88,88,70,25,subduction intraslab Himalayas,1.8567,1.22,0.09,8,0.4,4,73,210,2,StrasserIntraslab,29N 93E 25-70 km depth M5.5,29N_93E_L2_M5p5,-4.88,-5.47,-6.69
-93,30,0.0016,5.5,107,1.4953e-05,0,87,87,70,25,subduction intraslab Himalayas,1.5547,1.16,0.06,8.1,0.3,166,89,150,2,StrasserIntraslab,30N 93E 25-70 km depth M5.5,30N_93E_L2_M5p5,-4.87,-5.42,-6.58
+93,26,0.0119,5.5,107,0.00011121,0,118,118,70,25,intraplate margin lower,1.8212,1.05,0.12,7.2,0.4,-141,89,301,2,WC1994,26N 93E 25-70 km depth M5.5,26N_93E_L2_M5p5,-3.98,-4.49,-5.58
+93,27,0.0171,5.5,107,0.00015981,0,928,928,70,25,subduction intraslab Himalayas,1.4836,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 93E 25-70 km depth M5.5,27N_93E_L2_M5p5,-3.84,-4.29,-5.25
+93,28,0.0084,5.5,107,7.8505e-05,0,928,928,70,25,subduction intraslab Himalayas,1.1749,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,28N 93E 25-70 km depth M5.5,28N_93E_L2_M5p5,-4.2,-4.62,-5.58
+93,29,0.0015,5.5,107,1.4019e-05,0,927,927,70,25,subduction intraslab Himalayas,1.8567,1.22,0.11,7.1,0.3,-26,37,65,2,StrasserIntraslab,29N 93E 25-70 km depth M5.5,29N_93E_L2_M5p5,-4.88,-5.47,-6.77
+93,30,0.0016,5.5,107,1.4953e-05,0,926,926,70,25,subduction intraslab Himalayas,2.2147,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,30N 93E 25-70 km depth M5.5,30N_93E_L2_M5p5,-4.84,-5.47,-6.75
 93,31,0.0019,5.5,107,1.7757e-05,38.532,926,,70,25,subduction intraslab Himalayas,2.2894,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,31N 93E 25-70 km depth M5.5,31N_93E_L2_M5p5,-4.76,-5.39,-6.68
+93,32,0.0166,5.5,107,0.00015514,0,116,116,70,25,subduction intraslab Himalayas,3.3407,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,32N 93E 25-70 km depth M5.5,32N_93E_L2_M5p5,-3.81,-4.46,-5.76
+93,33,0.0131,5.5,107,0.00012243,0,116,116,70,25,subduction intraslab Himalayas,3.2379,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,33N 93E 25-70 km depth M5.5,33N_93E_L2_M5p5,-3.91,-4.56,-5.87
+93,34,0.0067,5.5,107,6.2617e-05,0,116,116,70,25,subduction intraslab Himalayas,2.9467,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,34N 93E 25-70 km depth M5.5,34N_93E_L2_M5p5,-4.21,-4.85,-6.16
 93,35,0.0009,5.5,107,8.4112e-06,83.583,116,,70,25,subduction intraslab Himalayas,2.0749,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,35N 93E 25-70 km depth M5.5,35N_93E_L2_M5p5,-5.09,-5.73,-7.1
 94,3,0.0064,5.5,107,5.9813e-05,39.275,132,,70,25,subduction interface,0.5618,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,3N 94E 25-70 km depth M5.5,3N_94E_L2_M5p5,-4.82,-4.8,-5.67
-94,24,0.0318,5.5,107,0.0002972,0,91,91,70,25,subduction interface,1.698,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,24N 94E 25-70 km depth M5.5,24N_94E_L2_M5p5,-3.55,-4.01,-4.99
-94,25,0.0312,5.5,107,0.00029159,0,90,90,70,25,subduction intraslab Himalayas,3.0648,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,25N 94E 25-70 km depth M5.5,25N_94E_L2_M5p5,-3.54,-4.14,-5.34
-94,26,0.0098,5.5,107,9.1589e-05,0,90,90,70,25,subduction intraslab Himalayas,2.5618,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,26N 94E 25-70 km depth M5.5,26N_94E_L2_M5p5,-4.04,-4.64,-5.84
+94,4,0.0144,5.5,107,0.00013458,0,132,132,70,25,subduction interface,0.91398,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,4N 94E 25-70 km depth M5.5,4N_94E_L2_M5p5,-4.05,-4.36,-5.23
+94,5,0.019,5.5,107,0.00017757,0,132,132,70,25,subduction interface,1.0344,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,5N 94E 25-70 km depth M5.5,5N_94E_L2_M5p5,-3.88,-4.23,-5.1
+94,6,0.0192,5.5,107,0.00017944,0,132,132,70,25,subduction interface,1.0389,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,6N 94E 25-70 km depth M5.5,6N_94E_L2_M5p5,-3.87,-4.22,-5.09
+94,7,0.008,5.5,107,7.4766e-05,0,132,132,70,25,subduction interface,0.65871,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,7N 94E 25-70 km depth M5.5,7N_94E_L2_M5p5,-4.52,-4.67,-5.54
+94,8,0.0189,5.5,107,0.00017664,0,138,138,70,25,subduction intraslab,2.2971,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,8N 94E 25-70 km depth M5.5,8N_94E_L2_M5p5,-3.76,-4.31,-5.41
+94,9,0.0265,5.5,107,0.00024766,0,138,138,70,25,subduction intraslab,2.4439,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,9N 94E 25-70 km depth M5.5,9N_94E_L2_M5p5,-3.61,-4.16,-5.26
+94,10,0.0113,5.5,107,0.00010561,0,137,137,70,25,subduction intraslab,4.6587,1.57,0.16,6.5,0.3,-178.9,61,12.6,2,StrasserIntraslab,10N 94E 25-70 km depth M5.5,10N_94E_L2_M5p5,-3.98,-4.76,-6.33
+94,11,0.0073,5.5,107,6.8224e-05,0,137,137,70,25,subduction intraslab,4.4689,1.57,0.16,6.5,0.3,-178.9,61,12.6,2,StrasserIntraslab,11N 94E 25-70 km depth M5.5,11N_94E_L2_M5p5,-4.17,-4.95,-6.52
+94,12,0.0041,5.5,107,3.8318e-05,0,136,136,70,25,subduction intraslab,0.9734,0.98,0.12,7.6,0.3,171,88,171,2,StrasserIntraslab,12N 94E 25-70 km depth M5.5,12N_94E_L2_M5p5,-4.59,-4.96,-6.02
+94,13,0.0034,5.5,107,3.1776e-05,0,131,131,70,25,subduction intraslab,0.1221,0.84,0.07,8.6,0.3,-12,43,256,2,StrasserIntraslab,13N 94E 25-70 km depth M5.5,13N_94E_L2_M5p5,,-5.53,-6.37
+94,14,0.0026,5.5,107,2.4299e-05,0,130,130,70,25,subduction interface,2.2056,1.24,0.12,6.5,0.3,60,67,146,2,StrasserInterface,14N 94E 25-70 km depth M5.5,14N_94E_L2_M5p5,-4.63,-5.25,-6.74
+94,15,0.0026,5.5,107,2.4299e-05,0,130,130,70,25,subduction interface,2.2056,1.24,0.12,6.5,0.3,60,67,146,2,StrasserInterface,15N 94E 25-70 km depth M5.5,15N_94E_L2_M5p5,-4.63,-5.25,-6.74
+94,16,0.0002,5.5,107,1.8692e-06,0,129,129,70,25,subduction intraslab,-0.0083538,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,16N 94E 25-70 km depth M5.5,16N_94E_L2_M5p5,,,
+94,17,0.0003,5.5,107,2.8037e-06,0,129,129,70,25,subduction intraslab,0.16774,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,17N 94E 25-70 km depth M5.5,17N_94E_L2_M5p5,,-6.94,
+94,18,0.0028,5.5,107,2.6168e-05,0,129,129,70,25,subduction intraslab,1.1378,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,18N 94E 25-70 km depth M5.5,18N_94E_L2_M5p5,-4.7,-5.14,
+94,19,0.0042,5.5,107,3.9252e-05,0,129,129,70,25,subduction intraslab,1.3139,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,19N 94E 25-70 km depth M5.5,19N_94E_L2_M5p5,-4.48,-4.95,-6.46
+94,20,0.0086,5.5,107,8.0374e-05,0,129,129,70,25,subduction intraslab,1.6251,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,20N 94E 25-70 km depth M5.5,20N_94E_L2_M5p5,-4.13,-4.63,-5.83
+94,21,0.0087,5.5,107,8.1308e-05,0,128,128,70,25,subduction intraslab,0.75014,0.88,0.07,7.9,0.3,3,64,216,2,StrasserIntraslab,21N 94E 25-70 km depth M5.5,21N_94E_L2_M5p5,-4.38,-4.61,-5.52
+94,22,0.0093,5.5,107,8.6916e-05,0,128,128,70,25,subduction intraslab,0.7791,0.88,0.07,7.9,0.3,3,64,216,2,StrasserIntraslab,22N 94E 25-70 km depth M5.5,22N_94E_L2_M5p5,-4.33,-4.58,-5.48
+94,23,0.0212,5.5,107,0.00019813,0,128,128,70,25,subduction intraslab,1.137,0.88,0.07,7.9,0.3,3,64,216,2,StrasserIntraslab,23N 94E 25-70 km depth M5.5,23N_94E_L2_M5p5,-3.8,-4.18,-5.06
+94,24,0.0318,5.5,107,0.0002972,0,930,930,70,25,subduction intraslab,2.688,1.13,0.11,7.2,0.4,25,68,264,2,StrasserIntraslab,24N 94E 25-70 km depth M5.5,24N_94E_L2_M5p5,-3.53,-4.09,-5.23
+94,25,0.0312,5.5,107,0.00029159,0,929,929,70,25,subduction intraslab,1.7448,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,25N 94E 25-70 km depth M5.5,25N_94E_L2_M5p5,-3.56,-4.02,-4.99
+94,26,0.0098,5.5,107,9.1589e-05,0,929,929,70,25,subduction intraslab,1.2418,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,26N 94E 25-70 km depth M5.5,26N_94E_L2_M5p5,-4.12,-4.54,-5.51
 94,27,0.0048,5.5,107,4.486e-05,22.771,928,,70,25,subduction intraslab Himalayas,0.93186,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,27N 94E 25-70 km depth M5.5,27N_94E_L2_M5p5,-4.54,-4.88,-5.84
-94,28,0.0061,5.5,107,5.7009e-05,0,89,89,70,25,subduction interface,1.8609,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,28N 94E 25-70 km depth M5.5,28N_94E_L2_M5p5,-4.27,-4.81,-5.95
-94,29,0.0075,5.5,107,7.0093e-05,0,89,89,70,25,subduction interface,1.9507,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,29N 94E 25-70 km depth M5.5,29N_94E_L2_M5p5,-4.17,-4.71,-5.85
+94,28,0.0061,5.5,107,5.7009e-05,0,928,928,70,25,subduction intraslab Himalayas,1.0359,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,28N 94E 25-70 km depth M5.5,28N_94E_L2_M5p5,-4.39,-4.77,-5.73
+94,29,0.0075,5.5,107,7.0093e-05,0,928,928,70,25,subduction intraslab Himalayas,1.1257,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,29N 94E 25-70 km depth M5.5,29N_94E_L2_M5p5,-4.27,-4.67,-5.63
 94,30,0.0024,5.5,107,2.243e-05,86.394,926,,70,25,subduction intraslab Himalayas,2.3908,1.28,0.11,7.7,0.2,-83,46,183,2,StrasserIntraslab,30N 94E 25-70 km depth M5.5,30N_94E_L2_M5p5,-4.66,-5.29,-6.57
 94,31,0.0005,5.5,107,4.6729e-06,6.1824,116,,70,25,subduction intraslab Himalayas,1.8196,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,31N 94E 25-70 km depth M5.5,31N_94E_L2_M5p5,-5.36,-5.99,-7.44
+94,32,0.0043,5.5,107,4.0187e-05,0,116,116,70,25,subduction intraslab Himalayas,2.7541,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,32N 94E 25-70 km depth M5.5,32N_94E_L2_M5p5,-4.4,-5.05,-6.36
+94,33,0.006,5.5,107,5.6075e-05,0,116,116,70,25,subduction intraslab Himalayas,2.8988,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,33N 94E 25-70 km depth M5.5,33N_94E_L2_M5p5,-4.25,-4.9,-6.21
 94,34,0.005,5.5,107,4.6729e-05,39.95,116,,70,25,subduction intraslab Himalayas,2.8196,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,34N 94E 25-70 km depth M5.5,34N_94E_L2_M5p5,-4.33,-4.98,-6.29
 94,35,0.0005,5.5,107,4.6729e-06,133,116,,70,25,subduction intraslab Himalayas,1.8196,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,35N 94E 25-70 km depth M5.5,35N_94E_L2_M5p5,-5.36,-5.99,-7.44
-95,24,0.0094,5.5,107,8.785e-05,0,91,91,70,25,subduction interface,1.1687,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,24N 95E 25-70 km depth M5.5,24N_95E_L2_M5p5,-4.15,-4.56,-5.61
-95,25,0.0154,5.5,107,0.00014393,0,91,91,70,25,subduction interface,1.3831,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,25N 95E 25-70 km depth M5.5,25N_95E_L2_M5p5,-3.9,-4.34,-5.34
-95,26,0.0128,5.5,107,0.00011963,0,91,91,70,25,subduction interface,1.3028,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,26N 95E 25-70 km depth M5.5,26N_95E_L2_M5p5,-3.99,-4.42,-5.44
-95,27,0.0033,5.5,107,3.0841e-05,0,90,90,70,25,subduction intraslab Himalayas,2.0891,1.2,0.06,8,0.4,-36,52,210,2,StrasserIntraslab,27N 95E 25-70 km depth M5.5,27N_95E_L2_M5p5,-4.53,-5.11,-6.31
-95,28,0.0022,5.5,107,2.0561e-05,0,89,89,70,25,subduction interface,1.418,1.11,0.06,7.3,0.4,94,68,340,2,StrasserInterface,28N 95E 25-70 km depth M5.5,28N_95E_L2_M5p5,-4.75,-5.26,-6.46
+95,3,0.023,5.5,107,0.00021495,0,132,132,70,25,subduction interface,1.1173,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,3N 95E 25-70 km depth M5.5,3N_95E_L2_M5p5,-3.77,-4.14,-5.01
+95,4,0.0392,5.5,107,0.00036636,0,132,132,70,25,subduction interface,1.3489,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,4N 95E 25-70 km depth M5.5,4N_95E_L2_M5p5,-3.49,-3.89,-4.76
+95,5,0.0302,5.5,107,0.00028224,0,132,132,70,25,subduction interface,1.2356,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,5N 95E 25-70 km depth M5.5,5N_95E_L2_M5p5,-3.62,-4.01,-4.88
+95,6,0.0141,5.5,107,0.00013178,0,138,138,70,25,subduction intraslab,2.1698,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,6N 95E 25-70 km depth M5.5,6N_95E_L2_M5p5,-3.89,-4.43,-5.53
+95,7,0.0098,5.5,107,9.1589e-05,0,138,138,70,25,subduction intraslab,2.0118,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,7N 95E 25-70 km depth M5.5,7N_95E_L2_M5p5,-4.05,-4.59,-5.69
+95,8,0.0044,5.5,107,4.1121e-05,0,138,138,70,25,subduction intraslab,1.6641,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,8N 95E 25-70 km depth M5.5,8N_95E_L2_M5p5,-4.42,-4.95,-6.05
+95,9,0.0073,5.5,107,6.8224e-05,0,138,138,70,25,subduction intraslab,1.8839,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,9N 95E 25-70 km depth M5.5,9N_95E_L2_M5p5,-4.19,-4.72,-5.82
+95,10,0.0017,5.5,107,1.5888e-05,0,137,137,70,25,subduction intraslab,3.8361,1.57,0.16,6.5,0.3,-178.9,61,12.6,2,StrasserIntraslab,10N 95E 25-70 km depth M5.5,10N_95E_L2_M5p5,-4.8,-5.58,-7.17
+95,11,0.0026,5.5,107,2.4299e-05,0,137,137,70,25,subduction intraslab,4.0206,1.57,0.16,6.5,0.3,-178.9,61,12.6,2,StrasserIntraslab,11N 95E 25-70 km depth M5.5,11N_95E_L2_M5p5,-4.61,-5.4,-6.98
+95,12,0.009,5.5,107,8.4112e-05,0,136,136,70,25,subduction intraslab,1.3149,0.98,0.12,7.6,0.3,171,88,171,2,StrasserIntraslab,12N 95E 25-70 km depth M5.5,12N_95E_L2_M5p5,-4.15,-4.59,-5.6
+95,13,0.0158,5.5,107,0.00014766,0,136,136,70,25,subduction intraslab,1.5593,0.98,0.12,7.6,0.3,171,88,171,2,StrasserIntraslab,13N 95E 25-70 km depth M5.5,13N_95E_L2_M5p5,-3.87,-4.33,-5.33
+95,14,0.0036,5.5,107,3.3645e-05,0,136,136,70,25,subduction intraslab,0.91692,0.98,0.12,7.6,0.3,171,88,171,2,StrasserIntraslab,14N 95E 25-70 km depth M5.5,14N_95E_L2_M5p5,-4.68,-5.02,-6.1
+95,15,0.0001,5.5,107,9.3458e-07,0,130,130,70,25,subduction interface,0.79062,1.24,0.12,6.5,0.3,60,67,146,2,StrasserInterface,15N 95E 25-70 km depth M5.5,15N_95E_L2_M5p5,-6.52,-7.14,
+95,17,0.0009,5.5,107,8.4112e-06,0,129,129,70,25,subduction intraslab,0.64486,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,17N 95E 25-70 km depth M5.5,17N_95E_L2_M5p5,-5.68,-5.74,
+95,18,0.0088,5.5,107,8.2243e-05,0,129,129,70,25,subduction intraslab,1.6351,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,18N 95E 25-70 km depth M5.5,18N_95E_L2_M5p5,-4.12,-4.62,-5.81
+95,19,0.01,5.5,107,9.3458e-05,0,129,129,70,25,subduction intraslab,1.6906,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,19N 95E 25-70 km depth M5.5,19N_95E_L2_M5p5,-4.06,-4.56,-5.73
+95,20,0.0052,5.5,107,4.8598e-05,0,129,129,70,25,subduction intraslab,1.4066,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,20N 95E 25-70 km depth M5.5,20N_95E_L2_M5p5,-4.37,-4.86,-6.22
+95,21,0.0025,5.5,107,2.3364e-05,0,129,129,70,25,subduction intraslab,1.0886,1.04,0.11,6.9,0.3,-121,85,317,2,StrasserIntraslab,21N 95E 25-70 km depth M5.5,21N_95E_L2_M5p5,-4.77,-5.2,
+95,22,0.002,5.5,107,1.8692e-05,0,128,128,70,25,subduction intraslab,0.11165,0.88,0.07,7.9,0.3,3,64,216,2,StrasserIntraslab,22N 95E 25-70 km depth M5.5,22N_95E_L2_M5p5,,-5.81,-7.32
+95,23,0.0091,5.5,107,8.5047e-05,0,128,128,70,25,subduction intraslab,0.76966,0.88,0.07,7.9,0.3,3,64,216,2,StrasserIntraslab,23N 95E 25-70 km depth M5.5,23N_95E_L2_M5p5,-4.34,-4.59,-5.49
+95,24,0.0094,5.5,107,8.785e-05,0,930,930,70,25,subduction intraslab,2.1587,1.13,0.11,7.2,0.4,25,68,264,2,StrasserIntraslab,24N 95E 25-70 km depth M5.5,24N_95E_L2_M5p5,-4.07,-4.62,-5.78
+95,25,0.0154,5.5,107,0.00014393,0,930,930,70,25,subduction intraslab,2.3731,1.13,0.11,7.2,0.4,25,68,264,2,StrasserIntraslab,25N 95E 25-70 km depth M5.5,25N_95E_L2_M5p5,-3.85,-4.41,-5.55
+95,26,0.0128,5.5,107,0.00011963,0,930,930,70,25,subduction intraslab,2.2928,1.13,0.11,7.2,0.4,25,68,264,2,StrasserIntraslab,26N 95E 25-70 km depth M5.5,26N_95E_L2_M5p5,-3.93,-4.49,-5.64
+95,27,0.0033,5.5,107,3.0841e-05,0,929,929,70,25,subduction intraslab,0.76913,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,27N 95E 25-70 km depth M5.5,27N_95E_L2_M5p5,-4.82,-5.07,-6.05
+95,28,0.0022,5.5,107,2.0561e-05,0,928,928,70,25,subduction intraslab Himalayas,0.59304,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,28N 95E 25-70 km depth M5.5,28N_95E_L2_M5p5,-5.33,-5.29,-6.25
 95,29,0.0111,5.5,107,0.00010374,54.566,928,,70,25,subduction intraslab Himalayas,1.2959,0.96,0.09,8.3,0.2,-141,89,301,2,StrasserIntraslab,29N 95E 25-70 km depth M5.5,29N_95E_L2_M5p5,-4.06,-4.49,-5.45
 95,30,0.0086,5.5,107,8.0374e-05,47.488,116,,70,25,subduction intraslab Himalayas,3.0551,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,30N 95E 25-70 km depth M5.5,30N_95E_L2_M5p5,-4.1,-4.75,-6.05
+95,31,0.0009,5.5,107,8.4112e-06,0,116,116,70,25,subduction intraslab Himalayas,2.0749,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,31N 95E 25-70 km depth M5.5,31N_95E_L2_M5p5,-5.09,-5.73,-7.1
+95,32,0.0004,5.5,107,3.7383e-06,0,116,116,70,25,subduction intraslab Himalayas,1.7227,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,32N 95E 25-70 km depth M5.5,32N_95E_L2_M5p5,-5.47,-6.09,-7.58
 95,33,0.0014,5.5,107,1.3084e-05,0,116,,70,25,subduction intraslab Himalayas,2.2667,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,33N 95E 25-70 km depth M5.5,33N_95E_L2_M5p5,-4.89,-5.54,-6.88
 95,34,0.0009,5.5,107,8.4112e-06,90.71,116,,70,25,subduction intraslab Himalayas,2.0749,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,34N 95E 25-70 km depth M5.5,34N_95E_L2_M5p5,-5.09,-5.73,-7.1
 95,35,0.0001,5.5,107,9.3458e-07,183.14,116,,70,25,subduction intraslab Himalayas,1.1206,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,35N 95E 25-70 km depth M5.5,35N_95E_L2_M5p5,-6.21,-6.71,
+96,3,0.0732,5.5,107,0.00068411,0,132,132,70,25,subduction interface,1.6201,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,3N 96E 25-70 km depth M5.5,3N_96E_L2_M5p5,-3.19,-3.61,-4.48
+96,4,0.0734,5.5,107,0.00068598,0,132,132,70,25,subduction interface,1.6213,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,4N 96E 25-70 km depth M5.5,4N_96E_L2_M5p5,-3.19,-3.61,-4.48
+96,5,0.029,5.5,107,0.00027103,0,138,138,70,25,subduction intraslab,2.483,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,5N 96E 25-70 km depth M5.5,5N_96E_L2_M5p5,-3.57,-4.12,-5.22
+96,6,0.006,5.5,107,5.6075e-05,0,138,138,70,25,subduction intraslab,1.7988,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,6N 96E 25-70 km depth M5.5,6N_96E_L2_M5p5,-4.28,-4.81,-5.91
+96,7,0.0046,5.5,107,4.2991e-05,0,138,138,70,25,subduction intraslab,1.6834,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,7N 96E 25-70 km depth M5.5,7N_96E_L2_M5p5,-4.4,-4.93,-6.03
 96,8,0.0009,5.5,107,8.4112e-06,24.57,138,,70,25,subduction intraslab,0.97486,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,8N 96E 25-70 km depth M5.5,8N_96E_L2_M5p5,-5.28,-5.67,-6.77
 96,9,0.0003,5.5,107,2.8037e-06,57.565,138,,70,25,subduction intraslab,0.49774,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,9N 96E 25-70 km depth M5.5,9N_96E_L2_M5p5,,-6.27,-7.37
 96,10,0.0001,5.5,107,9.3458e-07,61.205,137,,70,25,subduction intraslab,2.6056,1.57,0.16,6.5,0.3,-178.9,61,12.6,2,StrasserIntraslab,10N 96E 25-70 km depth M5.5,10N_96E_L2_M5p5,-6.04,-6.82,-8.74
 96,11,0.0008,5.5,107,7.4766e-06,29.65,137,,70,25,subduction intraslab,3.5087,1.57,0.16,6.5,0.3,-178.9,61,12.6,2,StrasserIntraslab,11N 96E 25-70 km depth M5.5,11N_96E_L2_M5p5,-5.13,-5.91,-7.51
-96,16,0.0006,5.5,107,5.6075e-06,0,92,92,70,25,subduction intraslab Himalayas,0.52377,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,16N 96E 25-70 km depth M5.5,16N_96E_L2_M5p5,,-5.93,-6.98
-96,17,0.0041,5.5,107,3.8318e-05,0,92,92,70,25,subduction intraslab Himalayas,1.3584,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,17N 96E 25-70 km depth M5.5,17N_96E_L2_M5p5,-4.49,-4.96,-6.01
-96,18,0.0085,5.5,107,7.9439e-05,0,92,92,70,25,subduction intraslab Himalayas,1.675,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,18N 96E 25-70 km depth M5.5,18N_96E_L2_M5p5,-4.13,-4.63,-5.68
-96,19,0.0088,5.5,107,8.2243e-05,0,92,92,70,25,subduction intraslab Himalayas,1.6901,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,19N 96E 25-70 km depth M5.5,19N_96E_L2_M5p5,-4.12,-4.62,-5.67
-96,20,0.0023,5.5,107,2.1495e-05,0,92,92,70,25,subduction intraslab Himalayas,1.1073,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,20N 96E 25-70 km depth M5.5,20N_96E_L2_M5p5,-4.8,-5.23,-6.28
-96,21,0.0013,5.5,107,1.215e-05,0,92,92,70,25,subduction intraslab Himalayas,0.85956,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,21N 96E 25-70 km depth M5.5,21N_96E_L2_M5p5,-5.19,-5.51,-6.56
-96,22,0.0011,5.5,107,1.028e-05,0,92,92,70,25,subduction intraslab Himalayas,0.78701,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,22N 96E 25-70 km depth M5.5,22N_96E_L2_M5p5,-5.33,-5.59,-6.64
-96,23,0.0049,5.5,107,4.5794e-05,0,92,92,70,25,subduction intraslab Himalayas,1.4358,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,23N 96E 25-70 km depth M5.5,23N_96E_L2_M5p5,-4.4,-4.88,-5.93
-96,24,0.0012,5.5,107,1.1215e-05,0,92,92,70,25,subduction intraslab Himalayas,0.8248,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,24N 96E 25-70 km depth M5.5,24N_96E_L2_M5p5,-5.25,-5.55,-6.6
-96,25,0.0053,5.5,107,4.9533e-05,0,92,92,70,25,subduction intraslab Himalayas,1.4699,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,25N 96E 25-70 km depth M5.5,25N_96E_L2_M5p5,-4.36,-4.85,-5.9
-96,26,0.0103,5.5,107,9.6262e-05,0,91,91,70,25,subduction interface,1.2085,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,26N 96E 25-70 km depth M5.5,26N_96E_L2_M5p5,-4.11,-4.52,-5.56
-96,27,0.0041,5.5,107,3.8318e-05,0,91,91,70,25,subduction interface,0.8084,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,27N 96E 25-70 km depth M5.5,27N_96E_L2_M5p5,-4.69,-4.96,-6.22
+96,12,0.0089,5.5,107,8.3178e-05,0,136,136,70,25,subduction intraslab,1.31,0.98,0.12,7.6,0.3,171,88,171,2,StrasserIntraslab,12N 96E 25-70 km depth M5.5,12N_96E_L2_M5p5,-4.15,-4.59,-5.61
+96,13,0.0179,5.5,107,0.00016729,0,136,136,70,25,subduction intraslab,1.6135,0.98,0.12,7.6,0.3,171,88,171,2,StrasserIntraslab,13N 96E 25-70 km depth M5.5,13N_96E_L2_M5p5,-3.81,-4.28,-5.27
+96,14,0.0035,5.5,107,3.271e-05,0,136,136,70,25,subduction intraslab,0.90468,0.98,0.12,7.6,0.3,171,88,171,2,StrasserIntraslab,14N 96E 25-70 km depth M5.5,14N_96E_L2_M5p5,-4.7,-5.03,-6.11
+96,16,0.0006,5.5,107,5.6075e-06,0,931,931,70,25,subduction intraslab,0.85377,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,16N 96E 25-70 km depth M5.5,16N_96E_L2_M5p5,-5.55,-5.87,-6.98
+96,17,0.0041,5.5,107,3.8318e-05,0,931,931,70,25,subduction intraslab,1.6884,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,17N 96E 25-70 km depth M5.5,17N_96E_L2_M5p5,-4.45,-4.98,-6.09
+96,18,0.0085,5.5,107,7.9439e-05,0,931,931,70,25,subduction intraslab,2.005,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,18N 96E 25-70 km depth M5.5,18N_96E_L2_M5p5,-4.12,-4.66,-5.77
+96,19,0.0088,5.5,107,8.2243e-05,0,931,931,70,25,subduction intraslab,2.0201,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,19N 96E 25-70 km depth M5.5,19N_96E_L2_M5p5,-4.1,-4.64,-5.75
+96,20,0.0023,5.5,107,2.1495e-05,0,931,931,70,25,subduction intraslab,1.4373,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,20N 96E 25-70 km depth M5.5,20N_96E_L2_M5p5,-4.73,-5.24,-6.35
+96,21,0.0013,5.5,107,1.215e-05,0,931,931,70,25,subduction intraslab,1.1896,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,21N 96E 25-70 km depth M5.5,21N_96E_L2_M5p5,-5.03,-5.5,-6.61
+96,22,0.0011,5.5,107,1.028e-05,0,931,931,70,25,subduction intraslab,1.117,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,22N 96E 25-70 km depth M5.5,22N_96E_L2_M5p5,-5.13,-5.58,-6.69
+96,23,0.0049,5.5,107,4.5794e-05,0,931,931,70,25,subduction intraslab,1.7658,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,23N 96E 25-70 km depth M5.5,23N_96E_L2_M5p5,-4.37,-4.9,-6.01
+96,24,0.0012,5.5,107,1.1215e-05,0,931,931,70,25,subduction intraslab,1.1548,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,24N 96E 25-70 km depth M5.5,24N_96E_L2_M5p5,-5.08,-5.54,-6.65
+96,25,0.0053,5.5,107,4.9533e-05,0,931,931,70,25,subduction intraslab,1.7999,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,25N 96E 25-70 km depth M5.5,25N_96E_L2_M5p5,-4.33,-4.87,-5.98
+96,26,0.0103,5.5,107,9.6262e-05,0,930,930,70,25,subduction intraslab,2.1985,1.13,0.11,7.2,0.4,25,68,264,2,StrasserIntraslab,26N 96E 25-70 km depth M5.5,26N_96E_L2_M5p5,-4.03,-4.58,-5.73
+96,27,0.0041,5.5,107,3.8318e-05,0,930,930,70,25,subduction intraslab,1.7984,1.13,0.11,7.2,0.4,25,68,264,2,StrasserIntraslab,27N 96E 25-70 km depth M5.5,27N_96E_L2_M5p5,-4.44,-4.99,-6.17
 96,28,0.0025,5.5,107,2.3364e-05,28.595,929,,70,25,subduction intraslab,0.64856,0.96,0.09,7.9,0.4,170.8,79.1,128.3,2,StrasserIntraslab,28N 96E 25-70 km depth M5.5,28N_96E_L2_M5p5,-5.12,-5.22,-6.21
 96,29,0.0059,5.5,107,5.514e-05,86.996,116,,70,25,subduction intraslab Himalayas,2.8915,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,29N 96E 25-70 km depth M5.5,29N_96E_L2_M5p5,-4.26,-4.91,-6.22
+96,30,0.0042,5.5,107,3.9252e-05,0,116,116,70,25,subduction intraslab Himalayas,2.7439,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,30N 96E 25-70 km depth M5.5,30N_96E_L2_M5p5,-4.41,-5.06,-6.37
+96,31,0.0003,5.5,107,2.8037e-06,0,116,116,70,25,subduction intraslab Himalayas,1.5977,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,31N 96E 25-70 km depth M5.5,31N_96E_L2_M5p5,-5.6,-6.21,-7.81
+96,32,0.0008,5.5,107,7.4766e-06,0,116,116,70,25,subduction intraslab Himalayas,2.0237,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,32N 96E 25-70 km depth M5.5,32N_96E_L2_M5p5,-5.15,-5.78,-7.17
 96,33,0.0041,5.5,107,3.8318e-05,50.321,116,,70,25,subduction intraslab Himalayas,2.7334,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,33N 96E 25-70 km depth M5.5,33N_96E_L2_M5p5,-4.42,-5.07,-6.38
 96,34,0.0007,5.5,107,6.5421e-06,142.19,116,,70,25,subduction intraslab Himalayas,1.9657,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,34N 96E 25-70 km depth M5.5,34N_96E_L2_M5p5,-5.21,-5.84,-7.24
+97,3,0.0383,5.5,107,0.00035794,0,132,132,70,25,subduction interface,1.3388,0.87,0.06,9.4,0.2,79,14,298,2,StrasserInterface,3N 97E 25-70 km depth M5.5,3N_97E_L2_M5p5,-3.5,-3.9,-4.77
+97,4,0.0442,5.5,107,0.00041308,0,138,138,70,25,subduction intraslab,2.666,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,4N 97E 25-70 km depth M5.5,4N_97E_L2_M5p5,-3.39,-3.93,-5.03
+97,5,0.0149,5.5,107,0.00013925,0,138,138,70,25,subduction intraslab,2.1938,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,5N 97E 25-70 km depth M5.5,5N_97E_L2_M5p5,-3.87,-4.41,-5.51
+97,6,0.0023,5.5,107,2.1495e-05,0,138,138,70,25,subduction intraslab,1.3823,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,6N 97E 25-70 km depth M5.5,6N_97E_L2_M5p5,-4.74,-5.24,-6.34
 97,7,0.0034,5.5,107,3.1776e-05,44.123,138,,70,25,subduction intraslab,1.5521,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,7N 97E 25-70 km depth M5.5,7N_97E_L2_M5p5,-4.54,-5.06,-6.16
 97,8,0.0006,5.5,107,5.6075e-06,117.58,138,,70,25,subduction intraslab,0.79877,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,8N 97E 25-70 km depth M5.5,8N_97E_L2_M5p5,-5.61,-5.88,-6.98
 97,12,0.0009,5.5,107,8.4112e-06,96.011,136,,70,25,subduction intraslab,0.31486,0.98,0.12,7.6,0.3,171,88,171,2,StrasserIntraslab,12N 97E 25-70 km depth M5.5,12N_97E_L2_M5p5,,-5.85,
 97,13,0.0012,5.5,107,1.1215e-05,58.208,136,,70,25,subduction intraslab,0.4398,0.98,0.12,7.6,0.3,171,88,171,2,StrasserIntraslab,13N 97E 25-70 km depth M5.5,13N_97E_L2_M5p5,,-5.64,-7.4
 97,14,0.0002,5.5,107,1.8692e-06,20.383,136,,70,25,subduction intraslab,-0.33835,0.98,0.12,7.6,0.3,171,88,171,2,StrasserIntraslab,14N 97E 25-70 km depth M5.5,14N_97E_L2_M5p5,,,
-97,16,0.0006,5.5,107,5.6075e-06,0,92,92,70,25,subduction intraslab Himalayas,0.52377,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,16N 97E 25-70 km depth M5.5,16N_97E_L2_M5p5,,-5.93,-6.98
-97,17,0.004,5.5,107,3.7383e-05,0,92,92,70,25,subduction intraslab Himalayas,1.3477,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,17N 97E 25-70 km depth M5.5,17N_97E_L2_M5p5,-4.5,-4.97,-6.02
-97,18,0.0055,5.5,107,5.1402e-05,0,92,92,70,25,subduction intraslab Himalayas,1.486,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,18N 97E 25-70 km depth M5.5,18N_97E_L2_M5p5,-4.34,-4.83,-5.88
-97,19,0.0064,5.5,107,5.9813e-05,0,92,92,70,25,subduction intraslab Himalayas,1.5518,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,19N 97E 25-70 km depth M5.5,19N_97E_L2_M5p5,-4.27,-4.76,-5.81
-97,20,0.0026,5.5,107,2.4299e-05,0,92,92,70,25,subduction intraslab Himalayas,1.1606,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,20N 97E 25-70 km depth M5.5,20N_97E_L2_M5p5,-4.73,-5.17,-6.22
-97,21,0.0076,5.5,107,7.1028e-05,0,92,92,70,25,subduction intraslab Himalayas,1.6264,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,21N 97E 25-70 km depth M5.5,21N_97E_L2_M5p5,-4.18,-4.68,-5.73
-97,22,0.0015,5.5,107,1.4019e-05,0,92,92,70,25,subduction intraslab Himalayas,0.92171,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,22N 97E 25-70 km depth M5.5,22N_97E_L2_M5p5,-5.08,-5.43,-6.48
-97,23,0.0013,5.5,107,1.215e-05,0,92,92,70,25,subduction intraslab Himalayas,0.85956,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,23N 97E 25-70 km depth M5.5,23N_97E_L2_M5p5,-5.19,-5.51,-6.56
-97,24,0.0006,5.5,107,5.6075e-06,0,92,92,70,25,subduction intraslab Himalayas,0.52377,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,24N 97E 25-70 km depth M5.5,24N_97E_L2_M5p5,,-5.93,-6.98
-97,25,0.006,5.5,107,5.6075e-05,0,92,92,70,25,subduction intraslab Himalayas,1.5238,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,25N 97E 25-70 km depth M5.5,25N_97E_L2_M5p5,-4.3,-4.79,-5.84
-97,26,0.0177,5.5,107,0.00016542,0,92,92,70,25,subduction intraslab Himalayas,1.9936,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,26N 97E 25-70 km depth M5.5,26N_97E_L2_M5p5,-3.8,-4.31,-5.36
-97,27,0.0115,5.5,107,0.00010748,0,91,91,70,25,subduction interface,1.2563,0.95,0.11,7.4,0.3,16,33,63,2,StrasserInterface,27N 97E 25-70 km depth M5.5,27N_97E_L2_M5p5,-4.05,-4.47,-5.49
+97,16,0.0006,5.5,107,5.6075e-06,0,931,931,70,25,subduction intraslab,0.85377,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,16N 97E 25-70 km depth M5.5,16N_97E_L2_M5p5,-5.55,-5.87,-6.98
+97,17,0.004,5.5,107,3.7383e-05,0,931,931,70,25,subduction intraslab,1.6777,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,17N 97E 25-70 km depth M5.5,17N_97E_L2_M5p5,-4.46,-4.99,-6.1
+97,18,0.0055,5.5,107,5.1402e-05,0,931,931,70,25,subduction intraslab,1.816,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,18N 97E 25-70 km depth M5.5,18N_97E_L2_M5p5,-4.31,-4.85,-5.96
+97,19,0.0064,5.5,107,5.9813e-05,0,931,931,70,25,subduction intraslab,1.8818,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,19N 97E 25-70 km depth M5.5,19N_97E_L2_M5p5,-4.24,-4.78,-5.89
+97,20,0.0026,5.5,107,2.4299e-05,0,931,931,70,25,subduction intraslab,1.4906,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,20N 97E 25-70 km depth M5.5,20N_97E_L2_M5p5,-4.67,-5.18,-6.29
+97,21,0.0076,5.5,107,7.1028e-05,0,931,931,70,25,subduction intraslab,1.9564,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,21N 97E 25-70 km depth M5.5,21N_97E_L2_M5p5,-4.17,-4.71,-5.82
+97,22,0.0015,5.5,107,1.4019e-05,0,931,931,70,25,subduction intraslab,1.2517,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,22N 97E 25-70 km depth M5.5,22N_97E_L2_M5p5,-4.95,-5.43,-6.54
+97,23,0.0013,5.5,107,1.215e-05,0,931,931,70,25,subduction intraslab,1.1896,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,23N 97E 25-70 km depth M5.5,23N_97E_L2_M5p5,-5.03,-5.5,-6.61
+97,24,0.0006,5.5,107,5.6075e-06,0,931,931,70,25,subduction intraslab,0.85377,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,24N 97E 25-70 km depth M5.5,24N_97E_L2_M5p5,-5.55,-5.87,-6.98
+97,25,0.006,5.5,107,5.6075e-05,0,931,931,70,25,subduction intraslab,1.8538,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,25N 97E 25-70 km depth M5.5,25N_97E_L2_M5p5,-4.27,-4.81,-5.92
+97,26,0.0177,5.5,107,0.00016542,0,931,931,70,25,subduction intraslab,2.3236,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,26N 97E 25-70 km depth M5.5,26N_97E_L2_M5p5,-3.79,-4.34,-5.45
+97,27,0.0115,5.5,107,0.00010748,0,930,930,70,25,subduction intraslab,2.2463,1.13,0.11,7.2,0.4,25,68,264,2,StrasserIntraslab,27N 97E 25-70 km depth M5.5,27N_97E_L2_M5p5,-3.98,-4.54,-5.68
 97,28,0.0027,5.5,107,2.5234e-05,75.217,930,,70,25,subduction intraslab,1.617,1.13,0.11,7.2,0.4,25,68,264,2,StrasserIntraslab,28N 97E 25-70 km depth M5.5,28N_97E_L2_M5p5,-4.64,-5.17,-6.39
 97,29,0.0023,5.5,107,2.1495e-05,32.759,116,,70,25,subduction intraslab Himalayas,2.4823,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,29N 97E 25-70 km depth M5.5,29N_97E_L2_M5p5,-4.67,-5.32,-6.65
+97,30,0.0003,5.5,107,2.8037e-06,0,116,116,70,25,subduction intraslab Himalayas,1.5977,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,30N 97E 25-70 km depth M5.5,30N_97E_L2_M5p5,-5.6,-6.21,-7.81
 97,32,0.0004,5.5,107,3.7383e-06,11.827,116,,70,25,subduction intraslab Himalayas,1.7227,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,32N 97E 25-70 km depth M5.5,32N_97E_L2_M5p5,-5.47,-6.09,-7.58
+98,3,0.0367,5.5,107,0.00034299,0,138,138,70,25,subduction intraslab,2.5853,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,3N 98E 25-70 km depth M5.5,3N_98E_L2_M5p5,-3.47,-4.02,-5.12
+98,4,0.0234,5.5,107,0.00021869,0,138,138,70,25,subduction intraslab,2.3898,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,4N 98E 25-70 km depth M5.5,4N_98E_L2_M5p5,-3.67,-4.21,-5.31
+98,5,0.0038,5.5,107,3.5514e-05,0,138,138,70,25,subduction intraslab,1.6004,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,5N 98E 25-70 km depth M5.5,5N_98E_L2_M5p5,-4.49,-5.01,-6.11
 98,6,0.0001,5.5,107,9.3458e-07,53.691,138,,70,25,subduction intraslab,0.020616,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,6N 98E 25-70 km depth M5.5,6N_98E_L2_M5p5,,-7.91,-9.01
 98,7,0.0001,5.5,107,9.3458e-07,127,138,,70,25,subduction intraslab,0.020616,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,7N 98E 25-70 km depth M5.5,7N_98E_L2_M5p5,,-7.91,-9.01
 98,17,0.0002,5.5,107,1.8692e-06,39.057,931,,70,25,subduction intraslab,0.37665,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,17N 98E 25-70 km depth M5.5,17N_98E_L2_M5p5,,-6.52,-7.63
 98,18,0.0004,5.5,107,3.7383e-06,27.928,931,,70,25,subduction intraslab,0.67768,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,18N 98E 25-70 km depth M5.5,18N_98E_L2_M5p5,-6.04,-6.08,-7.19
 98,19,0.0011,5.5,107,1.028e-05,24.076,931,,70,25,subduction intraslab,1.117,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,19N 98E 25-70 km depth M5.5,19N_98E_L2_M5p5,-5.13,-5.58,-6.69
 98,25,0.0152,5.5,107,0.00014206,15.491,931,,70,25,subduction intraslab,2.2575,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,25N 98E 25-70 km depth M5.5,25N_98E_L2_M5p5,-3.86,-4.4,-5.51
-98,26,0.0139,5.5,107,0.00012991,0,92,92,70,25,subduction intraslab Himalayas,1.8886,1.05,0.1,8.3,0.4,-5,66,194,2,StrasserIntraslab,26N 98E 25-70 km depth M5.5,26N_98E_L2_M5p5,-3.91,-4.42,-5.47
+98,26,0.0139,5.5,107,0.00012991,0,931,931,70,25,subduction intraslab,2.2186,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,26N 98E 25-70 km depth M5.5,26N_98E_L2_M5p5,-3.9,-4.44,-5.55
 98,27,0.005,5.5,107,4.6729e-05,38.928,931,,70,25,subduction intraslab,1.7746,1.11,0.12,8.3,0.3,180,87,12,2,StrasserIntraslab,27N 98E 25-70 km depth M5.5,27N_98E_L2_M5p5,-4.36,-4.89,-6
 98,28,0.0024,5.5,107,2.243e-05,69.283,116,,70,25,subduction intraslab Himalayas,2.5008,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,28N 98E 25-70 km depth M5.5,28N_98E_L2_M5p5,-4.66,-5.3,-6.63
+98,29,0.0002,5.5,107,1.8692e-06,0,116,116,70,25,subduction intraslab Himalayas,1.4216,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,29N 98E 25-70 km depth M5.5,29N_98E_L2_M5p5,-5.81,-6.4,-8.29
 99,3,0.0135,5.5,107,0.00012617,4.6038,138,,70,25,subduction intraslab,2.1509,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,3N 99E 25-70 km depth M5.5,3N_99E_L2_M5p5,-3.91,-4.45,-5.55
+99,4,0.0025,5.5,107,2.3364e-05,0,138,138,70,25,subduction intraslab,1.4186,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,4N 99E 25-70 km depth M5.5,4N_99E_L2_M5p5,-4.69,-5.2,-6.3
 99,5,0.0001,5.5,107,9.3458e-07,63.665,138,,70,25,subduction intraslab,0.020616,1.1,0.09,8.3,0.3,18,80,64,2,StrasserIntraslab,5N 99E 25-70 km depth M5.5,5N_99E_L2_M5p5,,-7.91,-9.01
 99,28,0.0022,5.5,107,2.0561e-05,46.833,116,,70,25,subduction intraslab Himalayas,2.463,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,28N 99E 25-70 km depth M5.5,28N_99E_L2_M5p5,-4.69,-5.34,-6.67
 99,29,0.0003,5.5,107,2.8037e-06,49.12,116,,70,25,subduction intraslab Himalayas,1.5977,1.3,0.12,7,0.2,-92,59,207,2,StrasserIntraslab,29N 99E 25-70 km depth M5.5,29N_99E_L2_M5p5,-5.6,-6.21,-7.81

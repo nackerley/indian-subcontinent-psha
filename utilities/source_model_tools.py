@@ -496,7 +496,7 @@ dextral        90  -180
 reverse        45  90
 normal         45  -90
 '''))
-CANONICAL_PLANES = FAULTING_STYLES[['dip', 'rake']].as_matrix()
+CANONICAL_PLANES = FAULTING_STYLES[['dip', 'rake']].values
 DIP_RAKE_CANONICAL = CANONICAL_PLANES.copy()
 
 

@@ -177,9 +177,9 @@ def natural_sort(df, by='id', index=False):
     '''
     if index:
         return df.reindex(index=natsorted(df.index))
-    else:
-        return df.reindex(index=order_by_index(df.index,
-                                               index_natsorted(df['id'])))
+
+    return df.reindex(index=order_by_index(df.index,
+                                           index_natsorted(df[by])))
 
 
 def make_source(series, source_class, mag_bin_width=0.1):
@@ -249,7 +249,7 @@ def source_df_to_list(df):
     df = df[(df['a'] != 0) &
             (df['mmax'] != 0) &
             (df['dip'] != -1) &
-            ~pd.isnull(df['dip'])]
+            pd.nonnull(df['dip'])]
 
     source_class = get_source_class(df)
 
@@ -346,7 +346,7 @@ def df2nrml(df, model_name):
     return source_model
 
 
-def points2nrml(df, base_name, by=['mmin model'], fmt='mmin%g'):
+def points2nrml(df, base_name, by=('mmin model',), fmt='mmin%g'):
     '''
     Write multiple pandas DataFrame of point source models to NRML.
     '''
@@ -357,7 +357,7 @@ def points2nrml(df, base_name, by=['mmin model'], fmt='mmin%g'):
         df2nrml(group_df, model_name)
 
 
-def points2csv(df, base_name, by=['mmin model', 'layerid'],
+def points2csv(df, base_name, by=('mmin model', 'layerid'),
                fmt='mmin%g layer%d'):
     '''
     Write grouped data with added names, ids and binwise rates.
@@ -383,7 +383,7 @@ def points2csv(df, base_name, by=['mmin model', 'layerid'],
                                          float_format='%.5g')
 
 
-def csv2points(base_name, by=['mmin model', 'layerid'],
+def csv2points(base_name, by=('mmin model', 'layerid'),
                fmt='mmin%g layer%d', ranges=((4.5, 5.5), (1, 2, 3, 4))):
     '''
     Write grouped data with added names, ids and binwise rates.

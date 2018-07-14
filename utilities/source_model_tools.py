@@ -350,6 +350,10 @@ def points2nrml(df, base_name, by=('mmin model',), fmt='mmin%g'):
     '''
     Write multiple pandas DataFrame of point source models to NRML.
     '''
+    if isinstance(by, str):
+        by = [by]
+    else:
+        by = list(by)
     df.sort_values(['mmin model', 'layerid'] + COORDINATES, inplace=True)
 
     for index, group_df in df.groupby(by):
@@ -362,6 +366,10 @@ def points2csv(df, base_name, by=('mmin model', 'layerid'),
     '''
     Write grouped data with added names, ids and binwise rates.
     '''
+    if isinstance(by, str):
+        by = [by]
+    else:
+        by = list(by)
     if base_name.endswith('.csv'):
         base_name = base_name[:-4]
 
@@ -388,6 +396,10 @@ def csv2points(base_name, by=('mmin model', 'layerid'),
     '''
     Write grouped data with added names, ids and binwise rates.
     '''
+    if isinstance(by, str):
+        by = [by]
+    else:
+        by = list(by)
     dfs = []
     for values in product(*ranges):
         model_name = base_name + ' ' + fmt % values

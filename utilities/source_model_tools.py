@@ -249,7 +249,7 @@ def source_df_to_list(df):
     df = df[(df['a'] != 0) &
             (df['mmax'] != 0) &
             (df['dip'] != -1) &
-            pd.nonnull(df['dip'])]
+            pd.notnull(df['dip'])]
 
     source_class = get_source_class(df)
 

@@ -272,10 +272,12 @@ def write_source_models(version=0, full=False, use_recomputed=False,
 
             layer_smoothed_df_list.append(layer_smoothed_df)
 
-        layer_smoothed_df = pd.concat(layer_smoothed_df_list)
+        layer_smoothed_df = pd.concat(layer_smoothed_df_list,
+                                      ignore_index=True)
         smoothed_df_list.append(layer_smoothed_df)
 
-    smoothed_df = pd.concat(smoothed_df_list)
+    smoothed_df = pd.concat(smoothed_df_list, ignore_index=True)
+    len_smoothed = smoothed_df.shape[0]
     smoothed_df.sort_values(['layerid', 'mmin model', 'longitude', 'latitude'])
     smoothed_df['geometry'] = [Point(longitude, latitude)
                                for longitude, latitude
@@ -393,6 +395,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
                                     on='zoneid')
     smoothed_df['a'] = (np.log10(smoothed_df['lambda']) +
                         smoothed_df['b']*smoothed_df['mmin model'])
+    assert len_smoothed == smoothed_df.shape[0]
 
     # check for unassigned parameters
     display_drop = ['zmax', 'zmin', 'aspect ratio', 'msr',
@@ -402,13 +405,13 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     no_b_df = smoothed_df[smoothed_df['b'] == 0]
     if not no_zoneid_df.empty:
         print(no_zoneid_df.drop(display_drop, axis=1).head())
-        print("Leftover points with no assigned zone id")
+        RuntimeError("Leftover points with no assigned zone id")
     if not no_mmax_df.empty:
         print(no_mmax_df.drop(display_drop, axis=1).head())
-        print("Leftover points with no assigned mmax")
+        RuntimeError("Leftover points with no assigned mmax")
     if not no_b_df.empty:
         print(no_b_df.drop(display_drop, axis=1).head())
-        print("Leftover points with no assigned b")
+        RuntimeError("Leftover points with no assigned b")
 
     if (no_mmax_df.empty and no_b_df.empty and no_zoneid_df.empty):
         print("SUCCESS: No points with unassigned MFD or zone")

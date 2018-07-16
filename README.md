@@ -23,6 +23,8 @@ This model is described in the report by [Ackerley (2016)](Report/IndiaOpenPsha.
 A revised version, subscripted `_v1` and incorporating clarifications from the authors of 
 Nath & Thingbaijam (2012), is in progress.
 
+Zipped job files can be downloaded for various [releases](https://github.com/nackerley/indian-subcontinent-psha/releases/).
+
 ## Installation
 
 Smoothed-gridded model files in Natural hazards’ Risk Markup Language (NRML)
@@ -106,12 +108,13 @@ logic tree TSV description files.
 To regenerate the source model XML, in your `(oq)` environment run:
 ```bash
 cd ~/src/indian-subcontinent-psha/Source\ Models/
-python write_source_models_nt2012.py
+python write_source_models_nt2012.py --version VERSION --full
 ```
 The smooothed-gridded models in particualr are large, so only "thinned"
-versions are included in the repository for quality control purposes. Full
-source models must be regenerated using the above script if the model is to
-be used.
+versions are included in the repository for quality control purposes. The version
+number only refers to the major version. Without the `--full` argument
+only a "thinned" version of the smoothed-gridded model is generated; this is
+quicker and useful for testing.
 
 ### Investigate source models
 
@@ -144,6 +147,9 @@ for hazard quantiles or deaggregation.
 in Table 3 of Nath & Thingbaijam (2012).
 * `map` refers to the 0.2° grid of 8102 points used to generate the data in the
 Figure 7 and the electronic supplement of Nath & Thingbaijam (2012).
+
+The script `tar_all.py` in `Jobs` zipped versions of all jobs found in
+subdirectories.
 
 ## Mapping
 

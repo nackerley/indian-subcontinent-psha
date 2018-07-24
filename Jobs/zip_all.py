@@ -17,11 +17,11 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-Tar everything, following links, in given directory (defaults to current).
+Zip everything, following links, in given directory (defaults to current).
 """
 
 import os
-import tarfile
+import shutil
 
 
 directory = os.getcwd()
@@ -42,6 +42,5 @@ for sub_dir in os.listdir(directory):
     if sub_dir[0] == '.':
         continue
 
-    print('Compressing: tar -hzcvf "%s.tar.gz" "%s"' % (sub_dir, sub_dir))
-    with tarfile.open(sub_dir + '.tar.gz', 'w:gz', dereference=True) as tar:
-        tar.add(sub_dir)
+    print('Compressing %s: %s' % (sub_dir, sub_dir + '.zip'))
+    shutil.make_archive(sub_dir, 'zip', sub_dir)

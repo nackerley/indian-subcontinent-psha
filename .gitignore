@@ -57,3 +57,4 @@ Source Models/*model_v*_mmin*.csv
 Logic Trees/example_gmpe_logic_tree.xml
 Logic Trees/example_source_model_logic_tree.xml
 Risk/*
+*.ndk

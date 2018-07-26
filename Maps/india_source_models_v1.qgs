@@ -7,7 +7,7 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="overlays">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="zones" mutually-exclusive-child="1">
+      <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="zones" mutually-exclusive-child="2">
         <customproperties/>
         <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="nt2012_areal_source_model_v120180402005108841" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;subset=%22layerid%22%20%3D%201" name="layer 1 outlines">
           <customproperties/>
@@ -15,7 +15,7 @@
         <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_1_region_outline_copy20180402011726154" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%202" name="layer 2 outlines">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_2_outlines_copy20180402011820860" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%203" name="layer 3 outlines">
+        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="layer_2_outlines_copy20180402011820860" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%203" name="layer 3 outlines">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_2_outlines_copy20180402011813805" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%204" name="layer 4 outlines">
@@ -28,12 +28,12 @@
       <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="ne_50m_geography_marine_polys20160106184058613" source="/home/nick/Data/Natural Earth/50m_physical/ne_50m_geography_marine_polys.shp" name="oceans and lakes">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" mutually-exclusive="1" name="key cities" mutually-exclusive-child="1">
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="key cities" mutually-exclusive-child="1">
         <customproperties/>
         <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="Key_Cities_copy20160322224103377" source="file:///home/nick/src/indian-subcontinent-psha/Jobs/Table_3_Calc_111.csv?type=csv&amp;xField=Longitude%20(%C2%B0E)&amp;yField=Latitude%20(%C2%B0N)&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="markers">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::PartiallyChecked" id="Table_3_Reproduced20160114195419374" source="file:///home/nick/src/indian-subcontinent-psha/Jobs/Table_3_Calc_111.csv?type=csv&amp;xField=Longitude%20(%C2%B0E)&amp;yField=Latitude%20(%C2%B0N)&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="markers and names">
+        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="Table_3_Reproduced20160114195419374" source="file:///home/nick/src/indian-subcontinent-psha/Jobs/Table_3_Calc_111.csv?type=csv&amp;xField=Longitude%20(%C2%B0E)&amp;yField=Latitude%20(%C2%B0N)&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="markers and names">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -52,14 +52,14 @@
     </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="PGA [g]" mutually-exclusive-child="1">
       <customproperties/>
-      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="hazard_map_mean_1844120180711230431670" source="file:///home/nick/src/indian-subcontinent-psha/Jobs/map_collapsed_v1/out/hazard_map-mean_18441.csv?type=csv&amp;skipLines=1&amp;xField=lon&amp;yField=lat&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no" name="hazard_map-mean_18441">
+      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="hazard_map_mean_1844120180711230431670" source="file:///home/nick/src/indian-subcontinent-psha/Results/map_collapsed_v1/hazard_map-mean_18441.csv?type=csv&amp;skipLines=1&amp;xField=lon&amp;yField=lat&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no" name="hazard_map-mean_18441">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="India_pga20160129182006291" source="file:///home/nick/src/indian-subcontinent-psha/Data/nath2012probabilistic/India_pga.csv?type=csv&amp;xField=lon&amp;yField=lat&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="India_pga">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="areal source model">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="areal source model">
       <customproperties/>
       <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="nt2012_areal_source_model_v120171113232331607" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=" name="tectonic region types">
         <customproperties>
@@ -75,13 +75,13 @@
       <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_1_outlines_copy20180402012048738" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;subset=%22layerid%22%20%3D%201" name="layer 1 region">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_1_region_copy20180713235544174" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;&amp;&amp;subset=%22layerid%22%20%3D%202" name="layer 2 region">
+      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_1_region_copy20180713235544174" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%202" name="layer 2 region">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Checked" id="layer_2_region_copy20180713235720021" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;&amp;&amp;&amp;&amp;subset=%22layerid%22%20%3D%203" name="layer 3 region">
+      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_2_region_copy20180713235720021" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%203" name="layer 3 region">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_3_region_copy20180713235755597" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;&amp;&amp;&amp;&amp;&amp;&amp;subset=%22layerid%22%20%3D%204" name="layer 4 region">
+      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_3_region_copy20180713235755597" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%204" name="layer 4 region">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_1_region_copy20180402151749989" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;subset=%22layerid%22%20%3D%201" name="layer 1 a">
@@ -93,9 +93,9 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="smoothed source model" mutually-exclusive-child="0">
+    <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="smoothed source model" mutually-exclusive-child="0">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="smoothed source model mmin 4.5" mutually-exclusive-child="1">
+      <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="smoothed source model mmin 4.5" mutually-exclusive-child="1">
         <customproperties/>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="recomputed" mutually-exclusive-child="0">
           <customproperties/>
@@ -124,7 +124,7 @@
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="thingbaijam" mutually-exclusive-child="5">
+        <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="thingbaijam" mutually-exclusive-child="7">
           <customproperties/>
           <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="nt2012_smoothed_source_model_v1_mmin_4_5_layer_120160126231617600" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer1.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 1">
             <customproperties/>
@@ -141,13 +141,13 @@
           <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="thingbaijam_layer_2_copy20160322170503591" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer2.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 2 nearest">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="thingbaijam_layer_2_nearest_copy20160322215341600" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer2.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 2 region">
+          <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="thingbaijam_layer_2_nearest_copy20160322215341600" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer2.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 2 region">
             <customproperties/>
           </layer-tree-layer>
           <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="nt2012_smoothed_source_model_v1_mmin_4_5_layer_320160126231637040" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer3.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 3">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="thingbaijam_layer_3_copy20160322174236159" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer3.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 3 nearest">
+          <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Checked" id="thingbaijam_layer_3_copy20160322174236159" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer3.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 3 nearest">
             <customproperties/>
           </layer-tree-layer>
           <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="thingbaijam_layer_3_nearest_copy20160322215522608" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer3.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 3 region">
@@ -362,9 +362,9 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Recomputed_smoothed_source_model_v1_mmin_4_5_layer_220160126231233322"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20180402220137249"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_copy20160229110149854"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nt2012_areal_source_model_v120180402221802041"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_50m_urban_areas20160106164117728"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20180508223551032"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nt2012_areal_source_model_v120180402221802041"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_2_outlines_copy20180402011813805"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_copy20160322230314440"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_copy20180402151749989"/>
@@ -375,8 +375,8 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20180508223930955"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_a_copy20180402230333595"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_2_region_copy20180713235720021"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="La753247541ed4f1990ad92098a36285e"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_3_region_copy20180713235755597"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="La753247541ed4f1990ad92098a36285e"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thingbaijam_layer_1_nearest_copy20160322215147200"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_outline_copy20171113223451494"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_outlines_copy20160109223148900"/>
@@ -384,12 +384,14 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="L2a9a08035a524296adce98f94bef2fea"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Table220160318152750301"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_copy20180713235544174"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thingbaijam_layer_3_copy20160322174236159"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_50m_geography_marine_polys20160106184058613"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="dextral_copy20160229232313698"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Andaman_Sumatra_copy20160229232517138"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_50m_geography_marine_polys_copy20160129191220962"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="L15658f2dedb44377ad6e71f404191207"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lc44f4626c9264b5e9e9ae235f9c389be"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thingbaijam_layer_4_copy20160322213151496"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="India_pga20160129182006291"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_2_outlines_copy20180402011820860"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thingbaijam_layer_2_copy20160322170503591"/>
@@ -408,6 +410,7 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nt2012_areal_source_model_v1_copy20171114235049481"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="sinistral_copy20160229232303954"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_50m_admin_0_countries_lakes_transparent_copy20160114163825335"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thingbaijam_layer_4_nearest_copy20160322215604640"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_1_region_outline_copy20160129182655546"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="normal_copy20160229232247403"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_50m_admin_0_countries20160106150555978"/>
@@ -448,6 +451,7 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="La1274540ae9e45c2903bcc7b980e6b14"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="hazard_map_mean_1844120180711230431670"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nt2012_smoothed_source_model_v1_mmin_4_5_layer_120160126231617600"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thingbaijam_layer_3_nearest_copy20160322215522608"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -537,7 +541,7 @@
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="overlays">
-      <legendgroup open="true" checked="Qt::Unchecked" name="zones">
+      <legendgroup open="true" checked="Qt::Checked" name="zones">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="layer 1 outlines" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="nt2012_areal_source_model_v120180402005108841" visible="0"/>
@@ -548,9 +552,9 @@
             <legendlayerfile isInOverview="0" layerid="layer_1_region_outline_copy20180402011726154" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="layer 3 outlines" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="layer 3 outlines" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="layer_2_outlines_copy20180402011820860" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="layer_2_outlines_copy20180402011820860" visible="1"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="layer 4 outlines" showFeatureCount="0">
@@ -569,13 +573,13 @@
           <legendlayerfile isInOverview="0" layerid="ne_50m_geography_marine_polys20160106184058613" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="false" checked="Qt::PartiallyChecked" name="key cities">
+      <legendgroup open="false" checked="Qt::Unchecked" name="key cities">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="markers" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="Key_Cities_copy20160322224103377" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::PartiallyChecked" name="markers and names" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="markers and names" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="Table_3_Reproduced20160114195419374" visible="0"/>
           </filegroup>
@@ -611,7 +615,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="areal source model">
+    <legendgroup open="true" checked="Qt::Unchecked" name="areal source model">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tectonic region types" showFeatureCount="1">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="nt2012_areal_source_model_v120171113232331607" visible="0"/>
@@ -632,9 +636,9 @@
           <legendlayerfile isInOverview="0" layerid="layer_1_region_copy20180713235544174" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="layer 3 region" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="layer 3 region" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="layer_2_region_copy20180713235720021" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="layer_2_region_copy20180713235720021" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="layer 4 region" showFeatureCount="0">
@@ -653,8 +657,8 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Unchecked" name="smoothed source model">
-      <legendgroup open="true" checked="Qt::Unchecked" name="smoothed source model mmin 4.5">
+    <legendgroup open="true" checked="Qt::Checked" name="smoothed source model">
+      <legendgroup open="true" checked="Qt::Checked" name="smoothed source model mmin 4.5">
         <legendgroup open="false" checked="Qt::Unchecked" name="recomputed">
           <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="recomputed layer 1 region" showFeatureCount="0">
             <filegroup open="false" hidden="false">
@@ -697,7 +701,7 @@
             </filegroup>
           </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="thingbaijam">
+        <legendgroup open="true" checked="Qt::Checked" name="thingbaijam">
           <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="thingbaijam layer 1" showFeatureCount="0">
             <filegroup open="false" hidden="false">
               <legendlayerfile isInOverview="0" layerid="nt2012_smoothed_source_model_v1_mmin_4_5_layer_120160126231617600" visible="0"/>
@@ -723,8 +727,8 @@
               <legendlayerfile isInOverview="0" layerid="thingbaijam_layer_2_copy20160322170503591" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="thingbaijam layer 2 region" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
+          <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="thingbaijam layer 2 region" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
               <legendlayerfile isInOverview="0" layerid="thingbaijam_layer_2_nearest_copy20160322215341600" visible="0"/>
             </filegroup>
           </legendlayer>
@@ -733,9 +737,9 @@
               <legendlayerfile isInOverview="0" layerid="nt2012_smoothed_source_model_v1_mmin_4_5_layer_320160126231637040" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="thingbaijam layer 3 nearest" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="thingbaijam layer 3 nearest" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="thingbaijam_layer_3_copy20160322174236159" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="thingbaijam_layer_3_copy20160322174236159" visible="1"/>
             </filegroup>
           </legendlayer>
           <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="thingbaijam layer 3 region" showFeatureCount="0">
@@ -18983,7 +18987,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>hazard_map_mean_1844120180711230431670</id>
-      <datasource>file:../Jobs/map_collapsed_v1/out/hazard_map-mean_18441.csv?type=csv&amp;skipLines=1&amp;xField=lon&amp;yField=lat&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no</datasource>
+      <datasource>file:../Results/map_collapsed_v1/hazard_map-mean_18441.csv?type=csv&amp;skipLines=1&amp;xField=lon&amp;yField=lat&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -41025,7 +41029,7 @@ def my_form_open(dialog, layer, feature):
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -42996,7 +43000,7 @@ def my_form_open(dialog, layer, feature):
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -43716,7 +43720,7 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>thingbaijam_layer_3_nearest_copy20160322215522608</id>
       <datasource>file:../Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer3.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes</datasource>
       <shortname>thingbaijam layer 3 nearest copy</shortname>
@@ -43826,18 +43830,24 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="zoneid" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
+      <renderer-v2 attr="tectonic subregion" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
         <categories>
-          <category render="true" symbol="0" value="169" label="169"/>
-          <category render="true" symbol="1" value="170" label="170"/>
-          <category render="true" symbol="2" value="172" label="172"/>
-          <category render="true" symbol="3" value="" label=""/>
+          <category render="true" symbol="0" value="no seismicity" label="no seismicity"/>
+          <category render="true" symbol="1" value="stable shallow crust" label="stable shallow crust"/>
+          <category render="true" symbol="2" value="active shallow crust normal" label="active shallow crust normal"/>
+          <category render="true" symbol="3" value="active shallow crust strike-slip reverse" label="active shallow crust strike-slip reverse"/>
+          <category render="true" symbol="4" value="intraplate margin upper" label="intraplate margin upper"/>
+          <category render="true" symbol="5" value="intraplate margin lower" label="intraplate margin lower"/>
+          <category render="true" symbol="6" value="subduction interface" label="subduction interface"/>
+          <category render="true" symbol="7" value="subduction intraslab Himalayas" label="subduction intraslab Himalayas"/>
+          <category render="true" symbol="8" value="subduction intraslab" label="subduction intraslab"/>
+          <category render="true" symbol="9" value="" label="unassigned"/>
         </categories>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="94,208,90,255"/>
+              <prop k="color" v="204,204,204,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="square"/>
@@ -43849,8 +43859,8 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MapUnit"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="0.2"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.21"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -43859,7 +43869,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="231,142,63,255"/>
+              <prop k="color" v="245,236,56,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="square"/>
@@ -43871,8 +43881,8 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MapUnit"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="0.2"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.21"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -43881,7 +43891,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="2">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="130,189,237,255"/>
+              <prop k="color" v="219,68,54,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="square"/>
@@ -43893,8 +43903,8 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MapUnit"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="0.2"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.21"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -43903,7 +43913,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="3">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="196,74,202,255"/>
+              <prop k="color" v="31,120,180,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="square"/>
@@ -43915,8 +43925,140 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MapUnit"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="0.2"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.21"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="4">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="246,149,26,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="0,0,0,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.21"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="5">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="245,181,1,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="0,0,0,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.21"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="6">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="0,156,86,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="0,0,0,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.21"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="7">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="11,169,204,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="0,0,0,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.21"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="8">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="97,174,67,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="0,0,0,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.21"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="9">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="128,128,128,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="0,0,0,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0.21"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -43927,22 +44069,22 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="255,255,178,255"/>
+              <prop k="color" v="126,192,91,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="square"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MapUnit"/>
-              <prop k="outline_color" v="0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MapUnit"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MapUnit"/>
+              <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
@@ -44015,12 +44157,10 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/obstacle" value="true"/>
         <property key="labeling/obstacleFactor" value="1"/>
         <property key="labeling/obstacleType" value="0"/>
-        <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
         <property key="labeling/placement" value="0"/>
         <property key="labeling/placementFlags" value="10"/>
         <property key="labeling/plussign" value="false"/>
-        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
         <property key="labeling/preserveRotation" value="true"/>
         <property key="labeling/previewBkgrdColor" value="#ffffff"/>
         <property key="labeling/priority" value="5"/>
@@ -44098,14 +44238,13 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/wrapChar" value=""/>
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
-        <property key="labeling/zIndex" value="0"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
-      <displayfield>name</displayfield>
+      <displayfield>Name</displayfield>
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Label"/>
@@ -44128,7 +44267,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie" sizeLegend="0" attributeLegend="1">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="-4.65661e-10">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="0">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
@@ -44188,7 +44327,7 @@ def my_form_open(dialog, layer, feature):
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -44196,23 +44335,7 @@ def my_form_open(dialog, layer, feature):
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath>.</editforminitfilepath>
-      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS forms can have a Python function that is called when the form is
-opened.
-
-Use this function to add extra logic to your forms.
-
-Enter the name of the function in the "Python Init function"
-field.
-An example follows:
-"""
-from PyQt4.QtGui import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
+      <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
@@ -45393,7 +45516,7 @@ def my_form_open(dialog, layer, feature):
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>

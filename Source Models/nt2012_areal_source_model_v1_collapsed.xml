@@ -9,7 +9,6 @@ xmlns:gml="http://www.opengis.net/gml"
         <sourceGroup
         rup_interdep="indep"
         src_interdep="indep"
-        srcs_weights="1.0"
         tectonicRegion="intraplate margin upper"
         >
             <areaSource
@@ -61,7 +60,6 @@ xmlns:gml="http://www.opengis.net/gml"
         <sourceGroup
         rup_interdep="indep"
         src_interdep="indep"
-        srcs_weights="1.0 1.0"
         tectonicRegion="intraplate margin lower"
         >
             <areaSource
@@ -158,7 +156,6 @@ xmlns:gml="http://www.opengis.net/gml"
         <sourceGroup
         rup_interdep="indep"
         src_interdep="indep"
-        srcs_weights="1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0"
         tectonicRegion="active shallow crust normal"
         >
             <areaSource
@@ -570,7 +567,6 @@ xmlns:gml="http://www.opengis.net/gml"
         <sourceGroup
         rup_interdep="indep"
         src_interdep="indep"
-        srcs_weights="1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0"
         tectonicRegion="stable shallow crust"
         >
             <areaSource
@@ -1027,7 +1023,6 @@ xmlns:gml="http://www.opengis.net/gml"
         <sourceGroup
         rup_interdep="indep"
         src_interdep="indep"
-        srcs_weights="1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0"
         tectonicRegion="subduction interface megathrust"
         >
             <areaSource
@@ -1574,7 +1569,6 @@ xmlns:gml="http://www.opengis.net/gml"
         <sourceGroup
         rup_interdep="indep"
         src_interdep="indep"
-        srcs_weights="1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0"
         tectonicRegion="subduction intraslab"
         >
             <areaSource
@@ -2166,7 +2160,6 @@ xmlns:gml="http://www.opengis.net/gml"
         <sourceGroup
         rup_interdep="indep"
         src_interdep="indep"
-        srcs_weights="1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0"
         tectonicRegion="subduction interface"
         >
             <areaSource
@@ -2983,7 +2976,6 @@ xmlns:gml="http://www.opengis.net/gml"
         <sourceGroup
         rup_interdep="indep"
         src_interdep="indep"
-        srcs_weights="1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0"
         tectonicRegion="active shallow crust strike-slip reverse"
         >
             <areaSource
@@ -3845,7 +3837,6 @@ xmlns:gml="http://www.opengis.net/gml"
         <sourceGroup
         rup_interdep="indep"
         src_interdep="indep"
-        srcs_weights="1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0"
         tectonicRegion="subduction intraslab Himalayas"
         >
             <areaSource

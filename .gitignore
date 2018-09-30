@@ -31,7 +31,9 @@ Link*
 *.zip
 *.pyc
 *.qml
+*.tgz
 *~
+.~*
 *.coverage
 **/export/**/*.xml
 **/export/**/*.log

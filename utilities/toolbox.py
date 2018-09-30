@@ -376,3 +376,37 @@ def df_diff(df1, df2, column):
     matches = [index for index, value in df1[column].iteritems()
                if value in df_merge[column].values]
     return df1.drop(matches)
+
+
+def read_hazard_csv(file_name):
+    '''
+    Read hazard curves as output by "oq export --exports csv hcurves #".
+
+    Returns
+    -------
+    poes, config: tuple
+        poes: pandas.DataFrame of POEs: indices are coordinates, columns are
+            accelerations
+        config: dictionary of information read from first line of CSV file
+    '''
+    poes = pd.read_csv(file_name, header=1, index_col=['lon', 'lat', 'depth'])
+    poes.columns = [float(item.replace('poe-', '')) for item in poes.columns]
+    poes.columns.name = 'acceleration'
+
+    with open(file_name) as file:
+        first_line = file.readline()
+    config = {}
+    for clause in first_line.split(','):
+        if '=' in clause:
+            lhs, rhs = clause.split('=')
+            rhs = rhs.strip()
+            if '"' in rhs or "'" in rhs:
+                rhs = rhs.strip('"').strip("'")
+            else:
+                try:
+                    rhs = float(rhs)
+                except ValueError:
+                    pass
+            config[lhs.strip()] = rhs
+
+    return poes, config

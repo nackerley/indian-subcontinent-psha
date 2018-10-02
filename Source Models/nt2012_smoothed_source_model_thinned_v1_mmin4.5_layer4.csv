@@ -1,99 +1,99 @@
 longitude,latitude,nu,mmin,duration,lambda,distance,zoneid,in zoneid,zmax,zmin,tectonic subregion,a,b,stdb,mmax,stdmmax,rake,dip,strike,aspect ratio,msr,source_name,id,logN_5.0-6.0,logN_6.0-7.0,logN_7.0-8.0
-63,29,0.0009,4.5,39,2.3077e-05,846.52,169,,300,180,subduction interface,1.4382,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,29N 63E 180-300 km depth M4.5,29N_63E_L4_M4p5,-5.33,-6.68,-8.75
-63,30,0.0029,4.5,39,7.4359e-05,767.13,169,,300,180,subduction interface,1.9463,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,30N 63E 180-300 km depth M4.5,30N_63E_L4_M4p5,-4.81,-6.16,-7.63
-64,29,0.0081,4.5,39,0.00020769,786.53,169,,300,180,subduction interface,2.3924,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,29N 64E 180-300 km depth M4.5,29N_64E_L4_M4p5,-4.36,-5.71,-7.1
-64,30,0.0258,4.5,39,0.00066154,700.88,169,,300,180,subduction interface,2.8956,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,30N 64E 180-300 km depth M4.5,30N_64E_L4_M4p5,-3.85,-5.2,-6.57
-64,31,0.0002,4.5,39,5.1282e-06,622.79,169,,300,180,subduction interface,0.78497,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,31N 64E 180-300 km depth M4.5,31N_64E_L4_M4p5,-6.04,-7.39,
-65,29,0.0009,4.5,39,2.3077e-05,733.49,169,,300,180,subduction interface,1.4382,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,29N 65E 180-300 km depth M4.5,29N_65E_L4_M4p5,-5.33,-6.68,-8.75
-65,30,0.0029,4.5,39,7.4359e-05,641.24,169,,300,180,subduction interface,1.9463,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,30N 65E 180-300 km depth M4.5,30N_65E_L4_M4p5,-4.81,-6.16,-7.63
-68,36,0.0003,4.5,39,7.6923e-06,77.543,169,,300,180,subduction interface,0.96106,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,36N 68E 180-300 km depth M4.5,36N_68E_L4_M4p5,-5.84,-7.19,
-68,37,0.0001,4.5,39,2.5641e-06,61.3,169,,300,180,subduction interface,0.48394,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,37N 68E 180-300 km depth M4.5,37N_68E_L4_M4p5,-6.44,-7.79,
-69,35,0.0005,4.5,39,1.2821e-05,3.6305,169,,300,180,subduction interface,1.1829,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,35N 69E 180-300 km depth M4.5,35N_69E_L4_M4p5,-5.6,-6.95,
-69,36,0.0726,4.5,39,0.0018615,0,169,169,300,180,subduction interface,3.3449,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,36N 69E 180-300 km depth M4.5,36N_69E_L4_M4p5,-3.41,-4.76,-6.11
-69,37,0.0566,4.5,39,0.0014513,0,169,169,300,180,subduction interface,3.2368,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,37N 69E 180-300 km depth M4.5,37N_69E_L4_M4p5,-3.51,-4.86,-6.22
-69,38,0.0001,4.5,39,2.5641e-06,73.012,169,,300,180,subduction interface,0.48394,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,38N 69E 180-300 km depth M4.5,38N_69E_L4_M4p5,-6.44,-7.79,
-70,35,0.0067,4.5,39,0.00017179,0,169,169,300,180,subduction interface,2.31,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,35N 70E 180-300 km depth M4.5,35N_70E_L4_M4p5,-4.44,-5.79,-7.19
-70,36,1.3305,4.5,39,0.034115,0,169,169,300,180,subduction interface,4.608,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,36N 70E 180-300 km depth M4.5,36N_70E_L4_M4p5,-2.14,-3.49,-4.84
-70,37,1.1144,4.5,39,0.028574,0,169,169,300,180,subduction interface,4.531,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,37N 70E 180-300 km depth M4.5,37N_70E_L4_M4p5,-2.22,-3.57,-4.92
-70,38,0.0044,4.5,39,0.00011282,55.494,169,,300,180,subduction interface,2.1274,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,38N 70E 180-300 km depth M4.5,38N_70E_L4_M4p5,-4.63,-5.98,-7.4
-71,35,0.0122,4.5,39,0.00031282,15.656,169,,300,180,subduction interface,2.5703,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,35N 71E 180-300 km depth M4.5,35N_71E_L4_M4p5,-4.18,-5.53,-6.91
-71,36,2.6685,4.5,39,0.068423,0,169,169,300,180,subduction interface,4.9102,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,36N 71E 180-300 km depth M4.5,36N_71E_L4_M4p5,-1.84,-3.19,-4.54
-71,37,2.633,4.5,39,0.067513,0,169,169,300,180,subduction interface,4.9044,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,37N 71E 180-300 km depth M4.5,37N_71E_L4_M4p5,-1.85,-3.2,-4.55
-71,38,0.0454,4.5,39,0.0011641,37.6,170,,300,180,subduction intraslab Himalayas,0.84599,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,38N 71E 180-300 km depth M4.5,38N_71E_L4_M4p5,-3.42,-4.26,-5.1
-71,39,0.0001,4.5,39,2.5641e-06,51.219,170,,300,180,subduction intraslab Himalayas,-1.8111,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,39N 71E 180-300 km depth M4.5,39N_71E_L4_M4p5,,,
-72,35,0.003,4.5,39,7.6923e-05,42.595,169,,300,180,subduction interface,1.9611,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,35N 72E 180-300 km depth M4.5,35N_72E_L4_M4p5,-4.79,-6.14,-7.61
-72,36,0.4254,4.5,39,0.010908,0,169,169,300,180,subduction interface,4.1127,1.35,0.1,7,0.3,92,67,103,2,StrasserInterface,36N 72E 180-300 km depth M4.5,36N_72E_L4_M4p5,-2.64,-3.99,-5.34
-72,37,0.8576,4.5,39,0.02199,0,170,170,300,180,subduction intraslab Himalayas,2.1222,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,37N 72E 180-300 km depth M4.5,37N_72E_L4_M4p5,-2.08,-2.92,-3.76
-72,38,0.1854,4.5,39,0.0047538,0,170,170,300,180,subduction intraslab Himalayas,1.457,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,38N 72E 180-300 km depth M4.5,38N_72E_L4_M4p5,-2.76,-3.6,-4.44
-72,39,0.0005,4.5,39,1.2821e-05,34.124,170,,300,180,subduction intraslab Himalayas,-1.1121,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,39N 72E 180-300 km depth M4.5,39N_72E_L4_M4p5,,,
-73,36,0.0032,4.5,39,8.2051e-05,40.2,170,,300,180,subduction intraslab Himalayas,-0.30591,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,36N 73E 180-300 km depth M4.5,36N_73E_L4_M4p5,,,
-73,37,0.1126,4.5,39,0.0028872,0,170,170,300,180,subduction intraslab Himalayas,1.2405,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,37N 73E 180-300 km depth M4.5,37N_73E_L4_M4p5,-2.99,-3.83,-4.67
-73,38,0.0813,4.5,39,0.0020846,0,170,170,300,180,subduction intraslab Himalayas,1.099,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,38N 73E 180-300 km depth M4.5,38N_73E_L4_M4p5,-3.14,-3.98,-4.82
-73,39,0.0015,4.5,39,3.8462e-05,20.194,170,,300,180,subduction intraslab Himalayas,-0.63497,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,39N 73E 180-300 km depth M4.5,39N_73E_L4_M4p5,,,
-74,37,0.0033,4.5,39,8.4615e-05,0,170,170,300,180,subduction intraslab Himalayas,-0.29255,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,37N 74E 180-300 km depth M4.5,37N_74E_L4_M4p5,,,
-74,38,0.0559,4.5,39,0.0014333,0,170,170,300,180,subduction intraslab Himalayas,0.93635,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,38N 74E 180-300 km depth M4.5,38N_74E_L4_M4p5,-3.32,-4.16,-5
-74,39,0.0042,4.5,39,0.00010769,7.194,170,,300,180,subduction intraslab Himalayas,-0.18782,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,39N 74E 180-300 km depth M4.5,39N_74E_L4_M4p5,,,
-75,37,0.0002,4.5,39,5.1282e-06,1.0459,170,,300,180,subduction intraslab Himalayas,-1.51,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,37N 75E 180-300 km depth M4.5,37N_75E_L4_M4p5,,,
-75,38,0.0047,4.5,39,0.00012051,2.226,170,,300,180,subduction intraslab Himalayas,-0.13897,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,38N 75E 180-300 km depth M4.5,38N_75E_L4_M4p5,,,
-75,39,0.0004,4.5,39,1.0256e-05,3.4071,170,,300,180,subduction intraslab Himalayas,-1.209,0.84,0.04,8.6,0.3,-113,81,305,2,StrasserIntraslab,39N 75E 180-300 km depth M4.5,39N_75E_L4_M4p5,,,
-93,5,0.0045,4.5,39,0.00011538,24.141,172,,300,180,subduction intraslab,-0.067852,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,5N 93E 180-300 km depth M4.5,5N_93E_L4_M4p5,,,
-93,6,0.0045,4.5,39,0.00011538,0,172,172,300,180,subduction intraslab,-0.067852,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,6N 93E 180-300 km depth M4.5,6N_93E_L4_M4p5,,,
-93,8,0.0001,4.5,39,2.5641e-06,0,172,172,300,180,subduction intraslab,-1.7211,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,8N 93E 180-300 km depth M4.5,8N_93E_L4_M4p5,,,
-93,10,0.0002,4.5,39,5.1282e-06,0,172,172,300,180,subduction intraslab,-1.42,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,10N 93E 180-300 km depth M4.5,10N_93E_L4_M4p5,,,
-93,11,0.0005,4.5,39,1.2821e-05,0,172,172,300,180,subduction intraslab,-1.0221,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,11N 93E 180-300 km depth M4.5,11N_93E_L4_M4p5,,,
-93,24,0.0092,4.5,39,0.0002359,1018.3,172,,300,180,subduction intraslab,0.24272,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,24N 93E 180-300 km depth M4.5,24N_93E_L4_M4p5,-4.43,-5.29,-6.15
-93,25,0.0051,4.5,39,0.00013077,1124.5,172,,300,180,subduction intraslab,-0.013494,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,25N 93E 180-300 km depth M4.5,25N_93E_L4_M4p5,,,
-94,4,0.0002,4.5,39,5.1282e-06,0,172,172,300,180,subduction intraslab,-1.42,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,4N 94E 180-300 km depth M4.5,4N_94E_L4_M4p5,,,
-94,5,0.0229,4.5,39,0.00058718,0,172,172,300,180,subduction intraslab,0.63877,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,5N 94E 180-300 km depth M4.5,5N_94E_L4_M4p5,-3.77,-4.63,-5.49
-94,6,0.0163,4.5,39,0.00041795,0,172,172,300,180,subduction intraslab,0.49112,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,6N 94E 180-300 km depth M4.5,6N_94E_L4_M4p5,-3.98,-4.84,-5.7
-94,7,0.0054,4.5,39,0.00013846,0,172,172,300,180,subduction intraslab,0.011329,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,7N 94E 180-300 km depth M4.5,7N_94E_L4_M4p5,-5.88,-6.74,-7.6
-94,8,0.0167,4.5,39,0.00042821,0,172,172,300,180,subduction intraslab,0.50165,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,8N 94E 180-300 km depth M4.5,8N_94E_L4_M4p5,-3.96,-4.82,-5.68
-94,9,0.0003,4.5,39,7.6923e-06,0,172,172,300,180,subduction intraslab,-1.2439,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,9N 94E 180-300 km depth M4.5,9N_94E_L4_M4p5,,,
-94,10,0.0081,4.5,39,0.00020769,0,172,172,300,180,subduction intraslab,0.18742,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,10N 94E 180-300 km depth M4.5,10N_94E_L4_M4p5,-4.57,-5.43,-6.29
-94,11,0.0262,4.5,39,0.00067179,0,172,172,300,180,subduction intraslab,0.69724,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,11N 94E 180-300 km depth M4.5,11N_94E_L4_M4p5,-3.7,-4.56,-5.42
-94,12,0.0002,4.5,39,5.1282e-06,0,172,172,300,180,subduction intraslab,-1.42,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,12N 94E 180-300 km depth M4.5,12N_94E_L4_M4p5,,,
-94,23,0.0001,4.5,39,2.5641e-06,904.62,172,,300,180,subduction intraslab,-1.7211,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,23N 94E 180-300 km depth M4.5,23N_94E_L4_M4p5,,,
-94,24,0.015,4.5,39,0.00038462,1012,172,,300,180,subduction intraslab,0.45503,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,24N 94E 180-300 km depth M4.5,24N_94E_L4_M4p5,-4.03,-4.89,-5.75
-94,25,0.0085,4.5,39,0.00021795,1118.8,172,,300,180,subduction intraslab,0.20835,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,25N 94E 180-300 km depth M4.5,25N_94E_L4_M4p5,-4.51,-5.37,-6.23
-95,4,0.005,4.5,39,0.00012821,0,172,172,300,180,subduction intraslab,-0.022095,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,4N 95E 180-300 km depth M4.5,4N_95E_L4_M4p5,,,
-95,5,0.0543,4.5,39,0.0013923,0,172,172,300,180,subduction intraslab,1.0137,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,5N 95E 180-300 km depth M4.5,5N_95E_L4_M4p5,-3.33,-4.19,-5.05
-95,6,0.0624,4.5,39,0.0016,0,172,172,300,180,subduction intraslab,1.0741,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,6N 95E 180-300 km depth M4.5,6N_95E_L4_M4p5,-3.26,-4.12,-4.98
-95,7,0.1031,4.5,39,0.0026436,0,172,172,300,180,subduction intraslab,1.2922,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,7N 95E 180-300 km depth M4.5,7N_95E_L4_M4p5,-3.03,-3.89,-4.75
-95,8,0.0189,4.5,39,0.00048462,0,172,172,300,180,subduction intraslab,0.5554,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,8N 95E 180-300 km depth M4.5,8N_95E_L4_M4p5,-3.89,-4.75,-5.61
-95,9,0.0003,4.5,39,7.6923e-06,0,172,172,300,180,subduction intraslab,-1.2439,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,9N 95E 180-300 km depth M4.5,9N_95E_L4_M4p5,,,
-95,10,0.0015,4.5,39,3.8462e-05,0,172,172,300,180,subduction intraslab,-0.54497,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,10N 95E 180-300 km depth M4.5,10N_95E_L4_M4p5,,,
-95,11,0.0048,4.5,39,0.00012308,0,172,172,300,180,subduction intraslab,-0.039823,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,11N 95E 180-300 km depth M4.5,11N_95E_L4_M4p5,,,
-95,24,0.0012,4.5,39,3.0769e-05,1016,172,,300,180,subduction intraslab,-0.64188,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,24N 95E 180-300 km depth M4.5,24N_95E_L4_M4p5,,,
-95,25,0.0194,4.5,39,0.00049744,1122.4,172,,300,180,subduction intraslab,0.56674,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,25N 95E 180-300 km depth M4.5,25N_95E_L4_M4p5,-3.87,-4.73,-5.59
-95,26,0.001,4.5,39,2.5641e-05,1228.3,172,,300,180,subduction intraslab,-0.72106,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,26N 95E 180-300 km depth M4.5,26N_95E_L4_M4p5,,,
-96,3,0.0058,4.5,39,0.00014872,0,172,172,300,180,subduction intraslab,0.042363,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,3N 96E 180-300 km depth M4.5,3N_96E_L4_M4p5,-5.29,-6.15,-7.01
-96,4,0.0023,4.5,39,5.8974e-05,0,172,172,300,180,subduction intraslab,-0.35934,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,4N 96E 180-300 km depth M4.5,4N_96E_L4_M4p5,,,
-96,5,0.0376,4.5,39,0.0009641,0,172,172,300,180,subduction intraslab,0.85412,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,5N 96E 180-300 km depth M4.5,5N_96E_L4_M4p5,-3.51,-4.37,-5.23
-96,6,0.0511,4.5,39,0.0013103,0,172,172,300,180,subduction intraslab,0.98736,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,6N 96E 180-300 km depth M4.5,6N_96E_L4_M4p5,-3.36,-4.22,-5.08
-96,7,0.0398,4.5,39,0.0010205,0,172,172,300,180,subduction intraslab,0.87882,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,7N 96E 180-300 km depth M4.5,7N_96E_L4_M4p5,-3.48,-4.34,-5.2
-96,8,0.0004,4.5,39,1.0256e-05,0,172,172,300,180,subduction intraslab,-1.119,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,8N 96E 180-300 km depth M4.5,8N_96E_L4_M4p5,,,
-96,16,0.0091,4.5,39,0.00023333,245.94,172,,300,180,subduction intraslab,0.23798,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,16N 96E 180-300 km depth M4.5,16N_96E_L4_M4p5,-4.44,-5.3,-6.16
-96,17,0.0091,4.5,39,0.00023333,321.58,172,,300,180,subduction intraslab,0.23798,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,17N 96E 180-300 km depth M4.5,17N_96E_L4_M4p5,-4.44,-5.3,-6.16
-96,24,0.001,4.5,39,2.5641e-05,1030.3,172,,300,180,subduction intraslab,-0.72106,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,24N 96E 180-300 km depth M4.5,24N_96E_L4_M4p5,,,
-96,25,0.0193,4.5,39,0.00049487,1135.2,172,,300,180,subduction intraslab,0.56449,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,25N 96E 180-300 km depth M4.5,25N_96E_L4_M4p5,-3.87,-4.73,-5.59
-96,26,0.001,4.5,39,2.5641e-05,1239.9,172,,300,180,subduction intraslab,-0.72106,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,26N 96E 180-300 km depth M4.5,26N_96E_L4_M4p5,,,
-97,3,0.035,4.5,39,0.00089744,0,172,172,300,180,subduction intraslab,0.823,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,3N 97E 180-300 km depth M4.5,3N_97E_L4_M4p5,-3.55,-4.41,-5.27
-97,4,0.005,4.5,39,0.00012821,0,172,172,300,180,subduction intraslab,-0.022095,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,4N 97E 180-300 km depth M4.5,4N_97E_L4_M4p5,,,
-97,5,0.0082,4.5,39,0.00021026,0,172,172,300,180,subduction intraslab,0.19275,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,5N 97E 180-300 km depth M4.5,5N_97E_L4_M4p5,-4.55,-5.41,-6.27
-97,6,0.0013,4.5,39,3.3333e-05,0,172,172,300,180,subduction intraslab,-0.60712,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,6N 97E 180-300 km depth M4.5,6N_97E_L4_M4p5,,,
-97,7,0.0003,4.5,39,7.6923e-06,0,172,172,300,180,subduction intraslab,-1.2439,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,7N 97E 180-300 km depth M4.5,7N_97E_L4_M4p5,,,
-97,16,0.0091,4.5,39,0.00023333,339.13,172,,300,180,subduction intraslab,0.23798,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,16N 97E 180-300 km depth M4.5,16N_97E_L4_M4p5,-4.44,-5.3,-6.16
-97,17,0.0091,4.5,39,0.00023333,396.9,172,,300,180,subduction intraslab,0.23798,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,17N 97E 180-300 km depth M4.5,17N_97E_L4_M4p5,-4.44,-5.3,-6.16
-97,25,0.0005,4.5,39,1.2821e-05,1156.9,172,,300,180,subduction intraslab,-1.0221,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,25N 97E 180-300 km depth M4.5,25N_97E_L4_M4p5,,,
-97,26,0.0003,4.5,39,7.6923e-06,1259.5,172,,300,180,subduction intraslab,-1.2439,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,26N 97E 180-300 km depth M4.5,26N_97E_L4_M4p5,,,
-98,3,0.0286,4.5,39,0.00073333,32.946,172,,300,180,subduction intraslab,0.7353,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,3N 98E 180-300 km depth M4.5,3N_98E_L4_M4p5,-3.65,-4.51,-5.37
-98,4,0.0374,4.5,39,0.00095897,0,172,172,300,180,subduction intraslab,0.85181,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,4N 98E 180-300 km depth M4.5,4N_98E_L4_M4p5,-3.51,-4.37,-5.23
-98,5,0.0312,4.5,39,0.0008,9.5107,172,,300,180,subduction intraslab,0.77309,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,5N 98E 180-300 km depth M4.5,5N_98E_L4_M4p5,-3.61,-4.47,-5.33
-98,6,0.0005,4.5,39,1.2821e-05,48.781,172,,300,180,subduction intraslab,-1.0221,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,6N 98E 180-300 km depth M4.5,6N_98E_L4_M4p5,,,
-98,25,0.0136,4.5,39,0.00034872,1187.1,172,,300,180,subduction intraslab,0.41247,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,25N 98E 180-300 km depth M4.5,25N_98E_L4_M4p5,-4.1,-4.96,-5.82
-98,26,0.0136,4.5,39,0.00034872,1286.9,172,,300,180,subduction intraslab,0.41247,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,26N 98E 180-300 km depth M4.5,26N_98E_L4_M4p5,-4.1,-4.96,-5.82
-99,3,0.1125,4.5,39,0.0028846,78.834,172,,300,180,subduction intraslab,1.3301,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,3N 99E 180-300 km depth M4.5,3N_99E_L4_M4p5,-2.99,-3.85,-4.71
-99,4,0.0342,4.5,39,0.00087692,73.928,172,,300,180,subduction intraslab,0.81296,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,4N 99E 180-300 km depth M4.5,4N_99E_L4_M4p5,-3.56,-4.42,-5.28
-99,5,0.0025,4.5,39,6.4103e-05,113.04,172,,300,180,subduction intraslab,-0.32312,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,5N 99E 180-300 km depth M4.5,5N_99E_L4_M4p5,,,
-99,6,0.015,4.5,39,0.00038462,152.12,172,,300,180,subduction intraslab,0.45503,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,6N 99E 180-300 km depth M4.5,6N_99E_L4_M4p5,-4.03,-4.89,-5.75
-100,4,0.0035,4.5,39,8.9744e-05,177.66,172,,300,180,subduction intraslab,-0.177,0.86,0.1,8,0.3,-50,64,99,2,StrasserIntraslab,4N 100E 180-300 km depth M4.5,4N_100E_L4_M4p5,,,
+63,29,0.0009,4.5,39,2.3077e-05,846.52,169,,300,180,subduction interface,1.4382,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,29N 63E 180-300 km depth M4.5,29N_63E_L4_M4p5,-5.33,-6.68,-8.75
+63,30,0.0029,4.5,39,7.4359e-05,767.13,169,,300,180,subduction interface,1.9463,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,30N 63E 180-300 km depth M4.5,30N_63E_L4_M4p5,-4.81,-6.16,-7.63
+64,29,0.0081,4.5,39,0.00020769,786.53,169,,300,180,subduction interface,2.3924,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,29N 64E 180-300 km depth M4.5,29N_64E_L4_M4p5,-4.36,-5.71,-7.1
+64,30,0.0258,4.5,39,0.00066154,700.88,169,,300,180,subduction interface,2.8956,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,30N 64E 180-300 km depth M4.5,30N_64E_L4_M4p5,-3.85,-5.2,-6.57
+64,31,0.0002,4.5,39,5.1282e-06,622.79,169,,300,180,subduction interface,0.78497,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,31N 64E 180-300 km depth M4.5,31N_64E_L4_M4p5,-6.04,-7.39,
+65,29,0.0009,4.5,39,2.3077e-05,733.49,169,,300,180,subduction interface,1.4382,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,29N 65E 180-300 km depth M4.5,29N_65E_L4_M4p5,-5.33,-6.68,-8.75
+65,30,0.0029,4.5,39,7.4359e-05,641.24,169,,300,180,subduction interface,1.9463,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,30N 65E 180-300 km depth M4.5,30N_65E_L4_M4p5,-4.81,-6.16,-7.63
+68,36,0.0003,4.5,39,7.6923e-06,77.543,169,,300,180,subduction interface,0.96106,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,36N 68E 180-300 km depth M4.5,36N_68E_L4_M4p5,-5.84,-7.19,
+68,37,0.0001,4.5,39,2.5641e-06,61.3,169,,300,180,subduction interface,0.48394,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,37N 68E 180-300 km depth M4.5,37N_68E_L4_M4p5,-6.44,-7.79,
+69,35,0.0005,4.5,39,1.2821e-05,3.6305,169,,300,180,subduction interface,1.1829,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,35N 69E 180-300 km depth M4.5,35N_69E_L4_M4p5,-5.6,-6.95,
+69,36,0.0726,4.5,39,0.0018615,0,169,169,300,180,subduction interface,3.3449,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,36N 69E 180-300 km depth M4.5,36N_69E_L4_M4p5,-3.41,-4.76,-6.11
+69,37,0.0566,4.5,39,0.0014513,0,169,169,300,180,subduction interface,3.2368,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,37N 69E 180-300 km depth M4.5,37N_69E_L4_M4p5,-3.51,-4.86,-6.22
+69,38,0.0001,4.5,39,2.5641e-06,73.012,169,,300,180,subduction interface,0.48394,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,38N 69E 180-300 km depth M4.5,38N_69E_L4_M4p5,-6.44,-7.79,
+70,35,0.0067,4.5,39,0.00017179,0,169,169,300,180,subduction interface,2.31,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,35N 70E 180-300 km depth M4.5,35N_70E_L4_M4p5,-4.44,-5.79,-7.19
+70,36,1.3305,4.5,39,0.034115,0,169,169,300,180,subduction interface,4.608,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,36N 70E 180-300 km depth M4.5,36N_70E_L4_M4p5,-2.14,-3.49,-4.84
+70,37,1.1144,4.5,39,0.028574,0,169,169,300,180,subduction interface,4.531,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,37N 70E 180-300 km depth M4.5,37N_70E_L4_M4p5,-2.22,-3.57,-4.92
+70,38,0.0044,4.5,39,0.00011282,55.494,169,,300,180,subduction interface,2.1274,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,38N 70E 180-300 km depth M4.5,38N_70E_L4_M4p5,-4.63,-5.98,-7.4
+71,35,0.0122,4.5,39,0.00031282,15.656,169,,300,180,subduction interface,2.5703,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,35N 71E 180-300 km depth M4.5,35N_71E_L4_M4p5,-4.18,-5.53,-6.91
+71,36,2.6685,4.5,39,0.068423,0,169,169,300,180,subduction interface,4.9102,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,36N 71E 180-300 km depth M4.5,36N_71E_L4_M4p5,-1.84,-3.19,-4.54
+71,37,2.633,4.5,39,0.067513,0,169,169,300,180,subduction interface,4.9044,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,37N 71E 180-300 km depth M4.5,37N_71E_L4_M4p5,-1.85,-3.2,-4.55
+71,38,0.0454,4.5,39,0.0011641,37.6,170,,300,180,subduction intraslab Himalayas,0.84599,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,38N 71E 180-300 km depth M4.5,38N_71E_L4_M4p5,-3.42,-4.26,-5.1
+71,39,0.0001,4.5,39,2.5641e-06,51.219,170,,300,180,subduction intraslab Himalayas,-1.8111,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,39N 71E 180-300 km depth M4.5,39N_71E_L4_M4p5,,,
+72,35,0.003,4.5,39,7.6923e-05,42.595,169,,300,180,subduction interface,1.9611,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,35N 72E 180-300 km depth M4.5,35N_72E_L4_M4p5,-4.79,-6.14,-7.61
+72,36,0.4254,4.5,39,0.010908,0,169,169,300,180,subduction interface,4.1127,1.35,0.1,7,0.3,92.0,67,103,2,StrasserInterface,36N 72E 180-300 km depth M4.5,36N_72E_L4_M4p5,-2.64,-3.99,-5.34
+72,37,0.8576,4.5,39,0.02199,0,170,170,300,180,subduction intraslab Himalayas,2.1222,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,37N 72E 180-300 km depth M4.5,37N_72E_L4_M4p5,-2.08,-2.92,-3.76
+72,38,0.1854,4.5,39,0.0047538,0,170,170,300,180,subduction intraslab Himalayas,1.457,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,38N 72E 180-300 km depth M4.5,38N_72E_L4_M4p5,-2.76,-3.6,-4.44
+72,39,0.0005,4.5,39,1.2821e-05,34.124,170,,300,180,subduction intraslab Himalayas,-1.1121,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,39N 72E 180-300 km depth M4.5,39N_72E_L4_M4p5,,,
+73,36,0.0032,4.5,39,8.2051e-05,40.2,170,,300,180,subduction intraslab Himalayas,-0.30591,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,36N 73E 180-300 km depth M4.5,36N_73E_L4_M4p5,,,
+73,37,0.1126,4.5,39,0.0028872,0,170,170,300,180,subduction intraslab Himalayas,1.2405,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,37N 73E 180-300 km depth M4.5,37N_73E_L4_M4p5,-2.99,-3.83,-4.67
+73,38,0.0813,4.5,39,0.0020846,0,170,170,300,180,subduction intraslab Himalayas,1.099,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,38N 73E 180-300 km depth M4.5,38N_73E_L4_M4p5,-3.14,-3.98,-4.82
+73,39,0.0015,4.5,39,3.8462e-05,20.194,170,,300,180,subduction intraslab Himalayas,-0.63497,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,39N 73E 180-300 km depth M4.5,39N_73E_L4_M4p5,,,
+74,37,0.0033,4.5,39,8.4615e-05,0,170,170,300,180,subduction intraslab Himalayas,-0.29255,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,37N 74E 180-300 km depth M4.5,37N_74E_L4_M4p5,,,
+74,38,0.0559,4.5,39,0.0014333,0,170,170,300,180,subduction intraslab Himalayas,0.93635,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,38N 74E 180-300 km depth M4.5,38N_74E_L4_M4p5,-3.32,-4.16,-5
+74,39,0.0042,4.5,39,0.00010769,7.194,170,,300,180,subduction intraslab Himalayas,-0.18782,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,39N 74E 180-300 km depth M4.5,39N_74E_L4_M4p5,,,
+75,37,0.0002,4.5,39,5.1282e-06,1.0459,170,,300,180,subduction intraslab Himalayas,-1.51,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,37N 75E 180-300 km depth M4.5,37N_75E_L4_M4p5,,,
+75,38,0.0047,4.5,39,0.00012051,2.226,170,,300,180,subduction intraslab Himalayas,-0.13897,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,38N 75E 180-300 km depth M4.5,38N_75E_L4_M4p5,,,
+75,39,0.0004,4.5,39,1.0256e-05,3.4071,170,,300,180,subduction intraslab Himalayas,-1.209,0.84,0.04,8.6,0.3,-113.0,81,305,2,StrasserIntraslab,39N 75E 180-300 km depth M4.5,39N_75E_L4_M4p5,,,
+93,5,0.0045,4.5,39,0.00011538,24.141,172,,300,180,subduction intraslab,-0.067852,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,5N 93E 180-300 km depth M4.5,5N_93E_L4_M4p5,,,
+93,6,0.0045,4.5,39,0.00011538,0,172,172,300,180,subduction intraslab,-0.067852,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,6N 93E 180-300 km depth M4.5,6N_93E_L4_M4p5,,,
+93,8,0.0001,4.5,39,2.5641e-06,0,172,172,300,180,subduction intraslab,-1.7211,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,8N 93E 180-300 km depth M4.5,8N_93E_L4_M4p5,,,
+93,10,0.0002,4.5,39,5.1282e-06,0,172,172,300,180,subduction intraslab,-1.42,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,10N 93E 180-300 km depth M4.5,10N_93E_L4_M4p5,,,
+93,11,0.0005,4.5,39,1.2821e-05,0,172,172,300,180,subduction intraslab,-1.0221,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,11N 93E 180-300 km depth M4.5,11N_93E_L4_M4p5,,,
+93,24,0.0092,4.5,39,0.0002359,1018.3,172,,300,180,subduction intraslab,0.24272,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,24N 93E 180-300 km depth M4.5,24N_93E_L4_M4p5,-4.43,-5.29,-6.15
+93,25,0.0051,4.5,39,0.00013077,1124.5,172,,300,180,subduction intraslab,-0.013494,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,25N 93E 180-300 km depth M4.5,25N_93E_L4_M4p5,,,
+94,4,0.0002,4.5,39,5.1282e-06,0,172,172,300,180,subduction intraslab,-1.42,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,4N 94E 180-300 km depth M4.5,4N_94E_L4_M4p5,,,
+94,5,0.0229,4.5,39,0.00058718,0,172,172,300,180,subduction intraslab,0.63877,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,5N 94E 180-300 km depth M4.5,5N_94E_L4_M4p5,-3.77,-4.63,-5.49
+94,6,0.0163,4.5,39,0.00041795,0,172,172,300,180,subduction intraslab,0.49112,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,6N 94E 180-300 km depth M4.5,6N_94E_L4_M4p5,-3.98,-4.84,-5.7
+94,7,0.0054,4.5,39,0.00013846,0,172,172,300,180,subduction intraslab,0.011329,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,7N 94E 180-300 km depth M4.5,7N_94E_L4_M4p5,-5.88,-6.74,-7.6
+94,8,0.0167,4.5,39,0.00042821,0,172,172,300,180,subduction intraslab,0.50165,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,8N 94E 180-300 km depth M4.5,8N_94E_L4_M4p5,-3.96,-4.82,-5.68
+94,9,0.0003,4.5,39,7.6923e-06,0,172,172,300,180,subduction intraslab,-1.2439,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,9N 94E 180-300 km depth M4.5,9N_94E_L4_M4p5,,,
+94,10,0.0081,4.5,39,0.00020769,0,172,172,300,180,subduction intraslab,0.18742,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,10N 94E 180-300 km depth M4.5,10N_94E_L4_M4p5,-4.57,-5.43,-6.29
+94,11,0.0262,4.5,39,0.00067179,0,172,172,300,180,subduction intraslab,0.69724,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,11N 94E 180-300 km depth M4.5,11N_94E_L4_M4p5,-3.7,-4.56,-5.42
+94,12,0.0002,4.5,39,5.1282e-06,0,172,172,300,180,subduction intraslab,-1.42,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,12N 94E 180-300 km depth M4.5,12N_94E_L4_M4p5,,,
+94,23,0.0001,4.5,39,2.5641e-06,904.62,172,,300,180,subduction intraslab,-1.7211,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,23N 94E 180-300 km depth M4.5,23N_94E_L4_M4p5,,,
+94,24,0.015,4.5,39,0.00038462,1012,172,,300,180,subduction intraslab,0.45503,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,24N 94E 180-300 km depth M4.5,24N_94E_L4_M4p5,-4.03,-4.89,-5.75
+94,25,0.0085,4.5,39,0.00021795,1118.8,172,,300,180,subduction intraslab,0.20835,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,25N 94E 180-300 km depth M4.5,25N_94E_L4_M4p5,-4.51,-5.37,-6.23
+95,4,0.005,4.5,39,0.00012821,0,172,172,300,180,subduction intraslab,-0.022095,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,4N 95E 180-300 km depth M4.5,4N_95E_L4_M4p5,,,
+95,5,0.0543,4.5,39,0.0013923,0,172,172,300,180,subduction intraslab,1.0137,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,5N 95E 180-300 km depth M4.5,5N_95E_L4_M4p5,-3.33,-4.19,-5.05
+95,6,0.0624,4.5,39,0.0016,0,172,172,300,180,subduction intraslab,1.0741,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,6N 95E 180-300 km depth M4.5,6N_95E_L4_M4p5,-3.26,-4.12,-4.98
+95,7,0.1031,4.5,39,0.0026436,0,172,172,300,180,subduction intraslab,1.2922,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,7N 95E 180-300 km depth M4.5,7N_95E_L4_M4p5,-3.03,-3.89,-4.75
+95,8,0.0189,4.5,39,0.00048462,0,172,172,300,180,subduction intraslab,0.5554,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,8N 95E 180-300 km depth M4.5,8N_95E_L4_M4p5,-3.89,-4.75,-5.61
+95,9,0.0003,4.5,39,7.6923e-06,0,172,172,300,180,subduction intraslab,-1.2439,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,9N 95E 180-300 km depth M4.5,9N_95E_L4_M4p5,,,
+95,10,0.0015,4.5,39,3.8462e-05,0,172,172,300,180,subduction intraslab,-0.54497,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,10N 95E 180-300 km depth M4.5,10N_95E_L4_M4p5,,,
+95,11,0.0048,4.5,39,0.00012308,0,172,172,300,180,subduction intraslab,-0.039823,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,11N 95E 180-300 km depth M4.5,11N_95E_L4_M4p5,,,
+95,24,0.0012,4.5,39,3.0769e-05,1016,172,,300,180,subduction intraslab,-0.64188,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,24N 95E 180-300 km depth M4.5,24N_95E_L4_M4p5,,,
+95,25,0.0194,4.5,39,0.00049744,1122.4,172,,300,180,subduction intraslab,0.56674,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,25N 95E 180-300 km depth M4.5,25N_95E_L4_M4p5,-3.87,-4.73,-5.59
+95,26,0.001,4.5,39,2.5641e-05,1228.3,172,,300,180,subduction intraslab,-0.72106,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,26N 95E 180-300 km depth M4.5,26N_95E_L4_M4p5,,,
+96,3,0.0058,4.5,39,0.00014872,0,172,172,300,180,subduction intraslab,0.042363,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,3N 96E 180-300 km depth M4.5,3N_96E_L4_M4p5,-5.29,-6.15,-7.01
+96,4,0.0023,4.5,39,5.8974e-05,0,172,172,300,180,subduction intraslab,-0.35934,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,4N 96E 180-300 km depth M4.5,4N_96E_L4_M4p5,,,
+96,5,0.0376,4.5,39,0.0009641,0,172,172,300,180,subduction intraslab,0.85412,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,5N 96E 180-300 km depth M4.5,5N_96E_L4_M4p5,-3.51,-4.37,-5.23
+96,6,0.0511,4.5,39,0.0013103,0,172,172,300,180,subduction intraslab,0.98736,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,6N 96E 180-300 km depth M4.5,6N_96E_L4_M4p5,-3.36,-4.22,-5.08
+96,7,0.0398,4.5,39,0.0010205,0,172,172,300,180,subduction intraslab,0.87882,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,7N 96E 180-300 km depth M4.5,7N_96E_L4_M4p5,-3.48,-4.34,-5.2
+96,8,0.0004,4.5,39,1.0256e-05,0,172,172,300,180,subduction intraslab,-1.119,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,8N 96E 180-300 km depth M4.5,8N_96E_L4_M4p5,,,
+96,16,0.0091,4.5,39,0.00023333,245.94,172,,300,180,subduction intraslab,0.23798,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,16N 96E 180-300 km depth M4.5,16N_96E_L4_M4p5,-4.44,-5.3,-6.16
+96,17,0.0091,4.5,39,0.00023333,321.58,172,,300,180,subduction intraslab,0.23798,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,17N 96E 180-300 km depth M4.5,17N_96E_L4_M4p5,-4.44,-5.3,-6.16
+96,24,0.001,4.5,39,2.5641e-05,1030.3,172,,300,180,subduction intraslab,-0.72106,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,24N 96E 180-300 km depth M4.5,24N_96E_L4_M4p5,,,
+96,25,0.0193,4.5,39,0.00049487,1135.2,172,,300,180,subduction intraslab,0.56449,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,25N 96E 180-300 km depth M4.5,25N_96E_L4_M4p5,-3.87,-4.73,-5.59
+96,26,0.001,4.5,39,2.5641e-05,1239.9,172,,300,180,subduction intraslab,-0.72106,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,26N 96E 180-300 km depth M4.5,26N_96E_L4_M4p5,,,
+97,3,0.035,4.5,39,0.00089744,0,172,172,300,180,subduction intraslab,0.823,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,3N 97E 180-300 km depth M4.5,3N_97E_L4_M4p5,-3.55,-4.41,-5.27
+97,4,0.005,4.5,39,0.00012821,0,172,172,300,180,subduction intraslab,-0.022095,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,4N 97E 180-300 km depth M4.5,4N_97E_L4_M4p5,,,
+97,5,0.0082,4.5,39,0.00021026,0,172,172,300,180,subduction intraslab,0.19275,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,5N 97E 180-300 km depth M4.5,5N_97E_L4_M4p5,-4.55,-5.41,-6.27
+97,6,0.0013,4.5,39,3.3333e-05,0,172,172,300,180,subduction intraslab,-0.60712,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,6N 97E 180-300 km depth M4.5,6N_97E_L4_M4p5,,,
+97,7,0.0003,4.5,39,7.6923e-06,0,172,172,300,180,subduction intraslab,-1.2439,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,7N 97E 180-300 km depth M4.5,7N_97E_L4_M4p5,,,
+97,16,0.0091,4.5,39,0.00023333,339.13,172,,300,180,subduction intraslab,0.23798,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,16N 97E 180-300 km depth M4.5,16N_97E_L4_M4p5,-4.44,-5.3,-6.16
+97,17,0.0091,4.5,39,0.00023333,396.9,172,,300,180,subduction intraslab,0.23798,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,17N 97E 180-300 km depth M4.5,17N_97E_L4_M4p5,-4.44,-5.3,-6.16
+97,25,0.0005,4.5,39,1.2821e-05,1156.9,172,,300,180,subduction intraslab,-1.0221,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,25N 97E 180-300 km depth M4.5,25N_97E_L4_M4p5,,,
+97,26,0.0003,4.5,39,7.6923e-06,1259.5,172,,300,180,subduction intraslab,-1.2439,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,26N 97E 180-300 km depth M4.5,26N_97E_L4_M4p5,,,
+98,3,0.0286,4.5,39,0.00073333,32.946,172,,300,180,subduction intraslab,0.7353,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,3N 98E 180-300 km depth M4.5,3N_98E_L4_M4p5,-3.65,-4.51,-5.37
+98,4,0.0374,4.5,39,0.00095897,0,172,172,300,180,subduction intraslab,0.85181,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,4N 98E 180-300 km depth M4.5,4N_98E_L4_M4p5,-3.51,-4.37,-5.23
+98,5,0.0312,4.5,39,0.0008,9.5107,172,,300,180,subduction intraslab,0.77309,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,5N 98E 180-300 km depth M4.5,5N_98E_L4_M4p5,-3.61,-4.47,-5.33
+98,6,0.0005,4.5,39,1.2821e-05,48.781,172,,300,180,subduction intraslab,-1.0221,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,6N 98E 180-300 km depth M4.5,6N_98E_L4_M4p5,,,
+98,25,0.0136,4.5,39,0.00034872,1187.1,172,,300,180,subduction intraslab,0.41247,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,25N 98E 180-300 km depth M4.5,25N_98E_L4_M4p5,-4.1,-4.96,-5.82
+98,26,0.0136,4.5,39,0.00034872,1286.9,172,,300,180,subduction intraslab,0.41247,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,26N 98E 180-300 km depth M4.5,26N_98E_L4_M4p5,-4.1,-4.96,-5.82
+99,3,0.1125,4.5,39,0.0028846,78.834,172,,300,180,subduction intraslab,1.3301,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,3N 99E 180-300 km depth M4.5,3N_99E_L4_M4p5,-2.99,-3.85,-4.71
+99,4,0.0342,4.5,39,0.00087692,73.928,172,,300,180,subduction intraslab,0.81296,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,4N 99E 180-300 km depth M4.5,4N_99E_L4_M4p5,-3.56,-4.42,-5.28
+99,5,0.0025,4.5,39,6.4103e-05,113.04,172,,300,180,subduction intraslab,-0.32312,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,5N 99E 180-300 km depth M4.5,5N_99E_L4_M4p5,,,
+99,6,0.015,4.5,39,0.00038462,152.12,172,,300,180,subduction intraslab,0.45503,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,6N 99E 180-300 km depth M4.5,6N_99E_L4_M4p5,-4.03,-4.89,-5.75
+100,4,0.0035,4.5,39,8.9744e-05,177.66,172,,300,180,subduction intraslab,-0.177,0.86,0.1,8,0.3,-50.0,64,99,2,StrasserIntraslab,4N 100E 180-300 km depth M4.5,4N_100E_L4_M4p5,,,

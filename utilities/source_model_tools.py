@@ -40,7 +40,8 @@ from natsort import natsorted, order_by_index, index_natsorted
 
 from obspy.imaging.beachball import aux_plane
 
-from openquake.hazardlib import geo, mfd, pmf
+from openquake.hazardlib import geo, mfd, pmf, tom
+from openquake.hazardlib.sourcewriter import write_source_model
 
 from openquake.hmtk.sources.area_source import mtkAreaSource
 from openquake.hmtk.sources.point_source import mtkPointSource
@@ -52,7 +53,6 @@ from openquake.hmtk.plotting.mapping import HMTKBaseMap
 from openquake.hmtk.plotting.seismicity.completeness import plot_stepp_1972
 from openquake.hmtk.plotting.seismicity.catalogue_plots \
     import plot_magnitude_time_density
-
 
 from toolbox import wrap, annotate
 
@@ -211,8 +211,10 @@ def make_source(series, source_class, mag_bin_width=0.1):
     nodal_plane_pmf = pmf.PMF(
         [(1.0, geo.NodalPlane(series.strike, series.dip, series.rake))])
 
-    hypo_depth_pmf = pmf.PMF(
-        [(1.0, (series.zmin + series.zmax)/2.0)])
+    try:
+        hypo_depth_pmf = pmf.PMF([(1.0, series.hypo_depth)])
+    except AttributeError:
+        hypo_depth_pmf = pmf.PMF([(1.0, (series.zmin + series.zmax)/2.0)])
 
     return source_class(
         series.id,
@@ -245,12 +247,6 @@ def source_df_to_list(df):
     sources: list
         list of e.g. :class:`openquake.hmtk.sources.area_source.mtkAreaSource`
     '''  # noqa
-
-    df = df[(df['a'] != 0) &
-            (df['mmax'] != 0) &
-            (df['dip'] != -1) &
-            pd.notnull(df['dip'])]
-
     source_class = get_source_class(df)
 
     return df.apply(lambda series: make_source(series, source_class),
@@ -336,12 +332,20 @@ def df2nrml(df, model_name):
     df = natural_sort(df, by='id')  # this may do nothing ...
 
     source_list = source_df_to_list(df)
-    source_model = mtkSourceModel(identifier='1',
-                                  name=model_name,
+    source_model = mtkSourceModel(name=model_name,
                                   sources=source_list)
+    source_model = source_model.convert_to_oqhazardlib(tom.PoissonTOM(1.0))
+
+    # apply per-zone discretization
+    for item in source_model:
+        try:
+            item.area_discretization = df.loc[df.id == item.source_id,
+                                              'discretization'].squeeze()
+        except KeyError:
+            pass
 
     print('Writing: %s' % os.path.abspath(nrml_file))
-    source_model.serialise_to_nrml(nrml_file)
+    write_source_model(nrml_file, source_model, name=model_name)
 
     return source_model
 

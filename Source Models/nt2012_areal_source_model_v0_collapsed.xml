@@ -1074,462 +1074,6 @@ xmlns:gml="http://www.opengis.net/gml"
         <sourceGroup
         rup_interdep="indep"
         src_interdep="indep"
-        tectonicRegion="stable shallow crust"
-        >
-            <areaSource
-            id="z63"
-            name="zone 63"
-            tectonicRegion="stable shallow crust"
-            >
-                <areaGeometry
-                discretization="10.0"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    67.88 22.49 67.88 25.57 71.76 25.5 71.83 22.52 67.88 22.49
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        0.0
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        25.0
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    WC1994
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.11038 0.088483 0.070936 0.056873 0.045602 0.036567 0.029325 0.023519 0.018864 0.015132 0.012139 0.0097387 0.0078138 0.0062699 0.0050314 0.0040379 0.0032409 0.0026014 0.0020883 0.0016765 0.001346 0.0010808 0.0008679 0.000697 0.0005598 0.00044964 0.00036119 0.00029017 0.00023313 0.00018732 0.00015052 0.00012096 9.7217e-05 5.3092e-05 4.2671e-05 3.4298e-05 2.757e-05 1.0418e-05 8.3747e-06 6.7325e-06 5.4128e-06
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="39.0" probability="1.0" rake="136.0" strike="298.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
-            id="z66"
-            name="zone 66"
-            tectonicRegion="stable shallow crust"
-            >
-                <areaGeometry
-                discretization="10.0"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    67.85 19.71 67.88 22.49 71.83 22.52 72.27 22.52 72.35 19.78 72.35 19.77 71.16 19.75 67.85 19.71
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        0.0
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        25.0
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    WC1994
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.072742 0.059252 0.048282 0.039357 0.032095 0.026183 0.021368 0.017445 0.014248 0.011642 0.0095162 0.0077817 0.0063658 0.0052097 0.0042653 0.0034935 0.0028625 0.0023465 0.0019243 0.0015787 0.0012956 0.0010638 0.00059268 0.00048676 0.00039994 0.00015415 0.00012668 0.00010415
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="83.0" probability="1.0" rake="25.0" strike="58.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
-            id="z74"
-            name="zone 74"
-            tectonicRegion="stable shallow crust"
-            >
-                <areaGeometry
-                discretization="10.0"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    73.27 19.85 76.12 20.48 80.67 17.38 75.41 16.37 73.27 19.85
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        0.0
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        25.0
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    WC1994
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.0091344 0.0074769 0.0061212 0.0050121 0.0041047 0.003362 0.0027542 0.0022567 0.0018493 0.0015157 0.0012425 0.0010188 0.00083541 0.00068517 0.00056205 0.00046113 0.00037839 0.00021098 0.00017315 0.00014212 5.4833e-05 4.5012e-05 3.6956e-05
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="47.0" probability="1.0" rake="68.0" strike="284.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
-            id="z82"
-            name="zone 82"
-            tectonicRegion="stable shallow crust"
-            >
-                <areaGeometry
-                discretization="10.0"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    77.62 11.53 78.36 13.68 81.2 14.01 81.2 13.99 80.45 11.06 77.62 11.53
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        0.0
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        25.0
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    WC1994
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.0083579 0.0065888 0.005197 0.0041015 0.0032388 0.0025589 0.002023 0.0016001 0.0012664 0.0010029 0.00079463 0.00062999 0.00049974 0.00026893 0.00021344 0.0001695 6.3094e-05 5.0125e-05 3.9845e-05
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="66.0" probability="1.0" rake="64.0" strike="51.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
-            id="z917"
-            name="zone 917"
-            tectonicRegion="stable shallow crust"
-            >
-                <areaGeometry
-                discretization="10.0"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    83.95 6.51 84.59 11.31 86.72 15.35 86.69 18.68 89.29 20.86 90.67 20.69 91.91 19.42 91.54 15.86 93.32 15.6 92.33 14.17 90.74 10.2 91.91 5.65 91.91 5.64 94.35 1.99 92.35 2.01 84.69 2.0 83.95 6.51
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        0.0
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        25.0
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    WC1994
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.35201 0.28571 0.232 0.18846 0.15317 0.12454 0.10131 0.082449 0.067132 0.054686 0.044568 0.03634 0.029645 0.024195 0.019756 0.01614 0.013192 0.010788 0.0088257 0.0072242 0.0059162 0.003285 0.0026905 0.0022047 0.0018075 0.00069403 0.000569 0.00046672 0.000383
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="67.0" probability="1.0" rake="158.0" strike="312.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
-            id="z919"
-            name="zone 919"
-            tectonicRegion="stable shallow crust"
-            >
-                <areaGeometry
-                discretization="10.0"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    67.88 25.57 68.76 28.38 69.16 27.86 71.81 29.99 73.95 29.85 75.37 31.19 76.6 30.42 76.96 30.23 79.8 28.73 82.16 27.48 82.21 27.47 87.06 26.22 89.77 26.44 89.71 25.08 91.64 25.09 91.65 25.09 90.07 23.82 90.67 20.69 89.13 20.88 87.61 21.09 86.77 21.31 86.95 24.38 84.59 25.12 72.27 22.52 71.83 22.52 71.76 25.5 67.88 25.57
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        0.0
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        25.0
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    WC1994
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.050691 0.042658 0.035908 0.030236 0.025468 0.021458 0.018086 0.015248 0.01286 0.010849 0.009156 0.0077295 0.0065274 0.0055141 0.0046597 0.003939 0.0033308 0.0028175 0.0023841 0.0020181 0.0017088 0.0014474 0.0012265 0.0010396 0.00059836 0.00050729 0.00043022 0.00017134 0.00014533 0.00012331
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="61.0" probability="1.0" rake="123.0" strike="290.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
-            id="z921"
-            name="zone 921"
-            tectonicRegion="stable shallow crust"
-            >
-                <areaGeometry
-                discretization="10.0"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    72.27 22.52 84.59 25.12 86.95 24.38 86.77 21.31 84.59 21.91 81.99 21.43 78.09 20.84 76.12 20.48 73.27 19.85 72.35 19.77 72.35 19.78 72.27 22.52
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        0.0
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        25.0
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    WC1994
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.021281 0.01781 0.014908 0.012481 0.01045 0.0087515 0.0073302 0.0061407 0.0051451 0.0043116 0.0036137 0.0030293 0.0025398 0.0021297 0.0017862 0.0014983 0.001257 0.0010548 0.00088522 0.00074304 0.00062381 0.00035585 0.00029875 0.00025086 0.00021068 8.3153e-05 6.9835e-05 5.8659e-05 4.928e-05
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="26.0" probability="1.0" rake="129.0" strike="283.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
-            id="z922"
-            name="zone 922"
-            tectonicRegion="stable shallow crust"
-            >
-                <areaGeometry
-                discretization="10.0"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    71.16 19.75 72.35 19.77 73.27 19.85 75.41 16.37 73.77 16.03 72.86 15.84 71.16 19.75
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        0.0
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        25.0
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    WC1994
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.089386 0.068971 0.053241 0.041118 0.031769 0.024557 0.018991 0.014693 0.011373 0.0088075 0.0068239 0.0052895 0.0041021 0.0031828 0.0024707 0.0019188 0.001491 0.0011591 0.00090149 0.00070149 0.00054613 0.00042538 0.00033149 0.00025845 0.00013648 0.00010645 8.3067e-05 3.0339e-05 2.3681e-05 1.8494e-05
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="66.0" probability="1.0" rake="165.0" strike="206.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
-            id="z932"
-            name="zone 932"
-            tectonicRegion="stable shallow crust"
-            >
-                <areaGeometry
-                discretization="10.0"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    68.84 25.4 69.34 27.63 71.78 30.03 71.79 30.02 74.08 28.4 76.0 31.0 76.6 30.66 83.29 27.16 87.05 26.19 87.05 26.22 87.08 26.48 87.09 26.48 89.72 26.53 89.72 25.13 91.68 25.12 90.07 23.82 90.65 20.8 87.53 20.81 86.74 20.8 86.74 20.83 86.94 24.38 86.96 24.63 86.96 24.64 77.94 24.7 72.25 22.72 69.7 21.83 68.09 22.65 68.84 25.4
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        25.0
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        70.0
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    WC1994
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.18274 0.14687 0.11809 0.094973 0.076409 0.061494 0.049506 0.039869 0.032119 0.025884 0.020866 0.016827 0.013574 0.010954 0.0088425 0.0071404 0.0057679 0.003163 0.0025557 0.0020657 0.0007837 0.00063358 0.00051239
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="67.0" probability="1.0" rake="8.0" strike="239.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
-            id="z933"
-            name="zone 933"
-            tectonicRegion="stable shallow crust"
-            >
-                <areaGeometry
-                discretization="10.0"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    71.18 17.99 71.17 18.02 69.7 21.83 72.25 22.72 77.94 24.7 86.96 24.64 86.96 24.63 86.94 24.38 86.74 20.83 86.74 20.8 87.53 20.81 88.23 18.72 86.76 15.62 86.75 15.6 86.32 14.68 84.99 12.07 84.94 11.97 83.62 6.68 84.47 2.04 77.15 1.99 71.18 17.99
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        25.0
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        70.0
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    WC1994
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.10059 0.081233 0.065638 0.053065 0.042923 0.034738 0.028129 0.02279 0.018475 0.014985 0.012161 0.0098746 0.0080227 0.0065219 0.0053048 0.0043173 0.0035156 0.0028644 0.0023352 0.0019049 0.0010534 0.00085963 0.0007019 0.0002685 0.0002193 0.00017922
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="26.0" probability="1.0" rake="129.0" strike="283.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-        </sourceGroup>
-        <sourceGroup
-        rup_interdep="indep"
-        src_interdep="indep"
         tectonicRegion="active shallow crust strike-slip reverse"
         >
             <areaSource
@@ -2025,6 +1569,642 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+        </sourceGroup>
+        <sourceGroup
+        rup_interdep="indep"
+        src_interdep="indep"
+        tectonicRegion="stable shallow crust"
+        >
+            <areaSource
+            id="z63"
+            name="zone 63"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    67.88 22.49 67.88 25.57 71.76 25.5 71.83 22.52 67.88 22.49
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.11038 0.088483 0.070936 0.056873 0.045602 0.036567 0.029325 0.023519 0.018864 0.015132 0.012139 0.0097387 0.0078138 0.0062699 0.0050314 0.0040379 0.0032409 0.0026014 0.0020883 0.0016765 0.001346 0.0010808 0.0008679 0.000697 0.0005598 0.00044964 0.00036119 0.00029017 0.00023313 0.00018732 0.00015052 0.00012096 9.7217e-05 5.3092e-05 4.2671e-05 3.4298e-05 2.757e-05 1.0418e-05 8.3747e-06 6.7325e-06 5.4128e-06
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="39.0" probability="1.0" rake="136.0" strike="298.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z66"
+            name="zone 66"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    67.85 19.71 67.88 22.49 71.83 22.52 72.27 22.52 72.35 19.78 72.35 19.77 71.16 19.75 67.85 19.71
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.072742 0.059252 0.048282 0.039357 0.032095 0.026183 0.021368 0.017445 0.014248 0.011642 0.0095162 0.0077817 0.0063658 0.0052097 0.0042653 0.0034935 0.0028625 0.0023465 0.0019243 0.0015787 0.0012956 0.0010638 0.00059268 0.00048676 0.00039994 0.00015415 0.00012668 0.00010415
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="83.0" probability="1.0" rake="25.0" strike="58.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z74"
+            name="zone 74"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    73.27 19.85 76.12 20.48 80.67 17.38 75.41 16.37 73.27 19.85
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.0091344 0.0074769 0.0061212 0.0050121 0.0041047 0.003362 0.0027542 0.0022567 0.0018493 0.0015157 0.0012425 0.0010188 0.00083541 0.00068517 0.00056205 0.00046113 0.00037839 0.00021098 0.00017315 0.00014212 5.4833e-05 4.5012e-05 3.6956e-05
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="47.0" probability="1.0" rake="68.0" strike="284.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z75"
+            name="zone 75"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    76.12 20.48 78.09 20.84 82.51 18.57 80.67 17.38 76.12 20.48
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.0088103 0.0066646 0.0050438 0.003819 0.002893 0.0021926 0.0016625 0.0012612 0.00095727 0.00072691 0.00055225 0.00041976 0.00031922 0.00024287 0.00018487 0.0001408 7.2699e-05 5.5393e-05 4.2227e-05 1.5082e-05 1.1502e-05 8.7755e-06
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z81"
+            name="zone 81"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    78.36 13.68 78.64 15.58 80.67 17.38 80.7 17.38 82.87 16.84 81.2 14.01 78.36 13.68
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.011125 0.0090794 0.0074133 0.0060558 0.0049492 0.0040468 0.0033105 0.0027095 0.0022186 0.0018176 0.0014898 0.0012217 0.0010023 0.00082276 0.00045838 0.00037641 0.00030925 0.00011919 9.7954e-05 8.0539e-05
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z82"
+            name="zone 82"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    77.62 11.53 78.36 13.68 81.2 14.01 81.2 13.99 80.45 11.06 77.62 11.53
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.0083579 0.0065888 0.005197 0.0041015 0.0032388 0.0025589 0.002023 0.0016001 0.0012664 0.0010029 0.00079463 0.00062999 0.00049974 0.00026893 0.00021344 0.0001695 6.3094e-05 5.0125e-05 3.9845e-05
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="66.0" probability="1.0" rake="64.0" strike="51.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z917"
+            name="zone 917"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    83.95 6.51 84.59 11.31 86.72 15.35 86.69 18.68 89.29 20.86 90.67 20.69 91.91 19.42 91.54 15.86 93.32 15.6 92.33 14.17 90.74 10.2 91.91 5.65 91.91 5.64 94.35 1.99 92.35 2.01 84.69 2.0 83.95 6.51
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.35201 0.28571 0.232 0.18846 0.15317 0.12454 0.10131 0.082449 0.067132 0.054686 0.044568 0.03634 0.029645 0.024195 0.019756 0.01614 0.013192 0.010788 0.0088257 0.0072242 0.0059162 0.003285 0.0026905 0.0022047 0.0018075 0.00069403 0.000569 0.00046672 0.000383
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="67.0" probability="1.0" rake="158.0" strike="312.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z919"
+            name="zone 919"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    67.88 25.57 68.76 28.38 69.16 27.86 71.81 29.99 73.95 29.85 75.37 31.19 76.6 30.42 76.96 30.23 79.8 28.73 82.16 27.48 82.21 27.47 87.06 26.22 89.77 26.44 89.71 25.08 91.64 25.09 91.65 25.09 90.07 23.82 90.67 20.69 89.13 20.88 87.61 21.09 86.77 21.31 86.95 24.38 84.59 25.12 72.27 22.52 71.83 22.52 71.76 25.5 67.88 25.57
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.050691 0.042658 0.035908 0.030236 0.025468 0.021458 0.018086 0.015248 0.01286 0.010849 0.009156 0.0077295 0.0065274 0.0055141 0.0046597 0.003939 0.0033308 0.0028175 0.0023841 0.0020181 0.0017088 0.0014474 0.0012265 0.0010396 0.00059836 0.00050729 0.00043022 0.00017134 0.00014533 0.00012331
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="61.0" probability="1.0" rake="123.0" strike="290.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z921"
+            name="zone 921"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    72.27 22.52 84.59 25.12 86.95 24.38 86.77 21.31 84.59 21.91 81.99 21.43 78.09 20.84 76.12 20.48 73.27 19.85 72.35 19.77 72.35 19.78 72.27 22.52
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.021281 0.01781 0.014908 0.012481 0.01045 0.0087515 0.0073302 0.0061407 0.0051451 0.0043116 0.0036137 0.0030293 0.0025398 0.0021297 0.0017862 0.0014983 0.001257 0.0010548 0.00088522 0.00074304 0.00062381 0.00035585 0.00029875 0.00025086 0.00021068 8.3153e-05 6.9835e-05 5.8659e-05 4.928e-05
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="26.0" probability="1.0" rake="129.0" strike="283.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z922"
+            name="zone 922"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    71.16 19.75 72.35 19.77 73.27 19.85 75.41 16.37 73.77 16.03 72.86 15.84 71.16 19.75
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.089386 0.068971 0.053241 0.041118 0.031769 0.024557 0.018991 0.014693 0.011373 0.0088075 0.0068239 0.0052895 0.0041021 0.0031828 0.0024707 0.0019188 0.001491 0.0011591 0.00090149 0.00070149 0.00054613 0.00042538 0.00033149 0.00025845 0.00013648 0.00010645 8.3067e-05 3.0339e-05 2.3681e-05 1.8494e-05
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="66.0" probability="1.0" rake="165.0" strike="206.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z923"
+            name="zone 923"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    72.86 15.84 73.77 16.03 75.41 16.37 80.67 17.38 78.64 15.58 78.36 13.68 77.62 11.53 80.45 11.06 79.75 10.23 78.71 8.99 77.25 7.26 75.54 8.94 74.46 12.31 72.86 15.84
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.02612 0.022053 0.018622 0.015726 0.013282 0.01122 0.0094785 0.0080085 0.0067673 0.0057192 0.004834 0.0040863 0.0023481 0.0019851 0.0016784 0.00066741 0.00056434 0.00047725
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z924"
+            name="zone 924"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    78.09 20.84 81.99 21.43 84.59 21.91 86.77 21.31 87.61 21.09 89.29 20.86 86.69 18.68 84.03 16.57 82.87 16.84 80.7 17.38 80.67 17.38 82.51 18.57 78.09 20.84
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.0076824 0.0066191 0.0057049 0.0049186 0.0042421 0.0036598 0.0031586 0.0027269 0.0023549 0.0020345 0.0017582 0.0015199 0.0013144 0.0011371 0.00066826 0.00057824 0.00050051 0.00020354 0.00017621 0.0001526
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z932"
+            name="zone 932"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    68.84 25.4 69.34 27.63 71.78 30.03 71.79 30.02 74.08 28.4 76.0 31.0 76.6 30.66 83.29 27.16 87.05 26.19 87.05 26.22 87.08 26.48 87.09 26.48 89.72 26.53 89.72 25.13 91.68 25.12 90.07 23.82 90.65 20.8 87.53 20.81 86.74 20.8 86.74 20.83 86.94 24.38 86.96 24.63 86.96 24.64 77.94 24.7 72.25 22.72 69.7 21.83 68.09 22.65 68.84 25.4
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        25.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        70.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.18274 0.14687 0.11809 0.094973 0.076409 0.061494 0.049506 0.039869 0.032119 0.025884 0.020866 0.016827 0.013574 0.010954 0.0088425 0.0071404 0.0057679 0.003163 0.0025557 0.0020657 0.0007837 0.00063358 0.00051239
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="67.0" probability="1.0" rake="8.0" strike="239.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z933"
+            name="zone 933"
+            tectonicRegion="stable shallow crust"
+            >
+                <areaGeometry
+                discretization="10.0"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    71.18 17.99 71.17 18.02 69.7 21.83 72.25 22.72 77.94 24.7 86.96 24.64 86.96 24.63 86.94 24.38 86.74 20.83 86.74 20.8 87.53 20.81 88.23 18.72 86.76 15.62 86.75 15.6 86.32 14.68 84.99 12.07 84.94 11.97 83.62 6.68 84.47 2.04 77.15 1.99 71.18 17.99
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        25.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        70.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.10059 0.081233 0.065638 0.053065 0.042923 0.034738 0.028129 0.02279 0.018475 0.014985 0.012161 0.0098746 0.0080227 0.0065219 0.0053048 0.0043173 0.0035156 0.0028644 0.0023352 0.0019049 0.0010534 0.00085963 0.0007019 0.0002685 0.0002193 0.00017922
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="26.0" probability="1.0" rake="129.0" strike="283.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="47.5" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
         </sourceGroup>

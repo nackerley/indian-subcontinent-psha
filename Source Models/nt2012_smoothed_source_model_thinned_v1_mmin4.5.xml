@@ -60444,6 +60444,166 @@ xmlns:gml="http://www.opengis.net/gml"
         tectonicRegion="stable shallow crust"
         >
             <pointSource
+            id="10N_71E_L1_M4p5"
+            name="10N 71E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            71.0 10.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.368212513775344" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="10N_75E_L1_M4p5"
+            name="10N 75E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            75.0 10.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.604784520212406" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="10N_76E_L1_M4p5"
+            name="10N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 10.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.20684451154036854" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="10N_77E_L1_M4p5"
+            name="10N 77E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            77.0 10.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="0.11035398181849976" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="10N_78E_L1_M4p5"
+            name="10N 78E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            78.0 10.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.8630625354554375" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="10N_85E_L1_M4p5"
             name="10N 85E 0-25 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -60630,6 +60790,198 @@ xmlns:gml="http://www.opengis.net/gml"
                 <truncGutenbergRichterMFD aValue="-1.2610912590556813" bValue="0.87" maxMag="7.0" minMag="4.5"/>
                 <nodalPlaneDist>
                     <nodalPlane dip="67.0" probability="1.0" rake="158.0" strike="312.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="11N_75E_L1_M4p5"
+            name="11N 75E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            75.0 11.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.1129400086720374" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="11N_76E_L1_M4p5"
+            name="11N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 11.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.7247598372891559" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="11N_77E_L1_M4p5"
+            name="11N 77E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            77.0 11.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.041876652846592144" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="11N_78E_L1_M4p5"
+            name="11N 78E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            78.0 11.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.089458912822515" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="11N_79E_L1_M4p5"
+            name="11N 79E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            79.0 11.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.5900612633917" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="11N_80E_L1_M4p5"
+            name="11N 80E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            80.0 11.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.3682125137753438" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="12.5" probability="1.0"/>
@@ -60886,6 +61238,70 @@ xmlns:gml="http://www.opengis.net/gml"
                 <truncGutenbergRichterMFD aValue="-0.45945891282251505" bValue="0.87" maxMag="7.0" minMag="4.5"/>
                 <nodalPlaneDist>
                     <nodalPlane dip="67.0" probability="1.0" rake="158.0" strike="312.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="12N_76E_L1_M4p5"
+            name="12N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 12.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.0671825181113626" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="12N_77E_L1_M4p5"
+            name="12N 77E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            77.0 12.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.4439332277134618" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="12.5" probability="1.0"/>
@@ -61238,6 +61654,102 @@ xmlns:gml="http://www.opengis.net/gml"
                 <truncGutenbergRichterMFD aValue="0.9572691627148537" bValue="0.87" maxMag="7.0" minMag="4.5"/>
                 <nodalPlaneDist>
                     <nodalPlane dip="67.0" probability="1.0" rake="158.0" strike="312.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="13N_76E_L1_M4p5"
+            name="13N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 13.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.0671825181113626" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="13N_77E_L1_M4p5"
+            name="13N 77E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            77.0 13.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.2159241693922871" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="13N_78E_L1_M4p5"
+            name="13N 78E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            78.0 13.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.07595644241886745" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="12.5" probability="1.0"/>
@@ -61628,6 +62140,230 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="14N_75E_L1_M4p5"
+            name="14N 75E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            75.0 14.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.368212513775344" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="14N_76E_L1_M4p5"
+            name="14N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 14.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.3268198286171184" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="14N_77E_L1_M4p5"
+            name="14N 77E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            77.0 14.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.0671825181113626" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="14N_78E_L1_M4p5"
+            name="14N 78E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            78.0 14.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.368212513775344" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="14N_80E_L1_M4p5"
+            name="14N 80E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            80.0 14.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.5527635923970697" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="14N_81E_L1_M4p5"
+            name="14N 81E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            81.0 14.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="0.5090435575811325" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="14N_82E_L1_M4p5"
+            name="14N 82E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            82.0 14.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.4609932190414243" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="14N_85E_L1_M4p5"
             name="14N 85E 0-25 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -61884,6 +62620,134 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="15N_75E_L1_M4p5"
+            name="15N 75E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            75.0 15.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.2542691614685069" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="15N_76E_L1_M4p5"
+            name="15N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 15.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.056458652719589164" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="15N_77E_L1_M4p5"
+            name="15N 77E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            77.0 15.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.2542691614685069" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="15N_79E_L1_M4p5"
+            name="15N 79E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            79.0 15.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.3060912590556812" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="15N_79E_L2_M4p5"
             name="15N 79E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -61913,6 +62777,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="15N_80E_L1_M4p5"
+            name="15N 80E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            80.0 15.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="0.06188552623891308" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -61948,6 +62844,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="15N_81E_L1_M4p5"
+            name="15N 81E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            81.0 15.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.35184874961635604" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="15N_81E_L2_M4p5"
             name="15N 81E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -61977,6 +62905,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="15N_82E_L1_M4p5"
+            name="15N 82E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            82.0 15.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.084242509439325" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -62364,6 +63324,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="16N_74E_L1_M4p5"
+            name="16N 74E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            74.0 16.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.6278498242810997" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="16N_74E_L2_M4p5"
             name="16N 74E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -62393,6 +63385,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="16N_75E_L1_M4p5"
+            name="16N 75E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            75.0 16.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.0671825181113626" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -62428,6 +63452,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="16N_76E_L1_M4p5"
+            name="16N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 16.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.1640925311194188" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="16N_76E_L2_M4p5"
             name="16N 76E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -62457,6 +63513,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="16N_77E_L1_M4p5"
+            name="16N 77E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            77.0 16.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.0671825181113626" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -62492,6 +63580,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="16N_79E_L1_M4p5"
+            name="16N 79E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            79.0 16.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.669242509439325" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="16N_79E_L2_M4p5"
             name="16N 79E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -62521,6 +63641,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="16N_80E_L1_M4p5"
+            name="16N 80E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            80.0 16.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="0.3102091713868913" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -62556,6 +63708,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="16N_81E_L1_M4p5"
+            name="16N 81E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            81.0 16.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.4609932190414243" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="16N_81E_L2_M4p5"
             name="16N 81E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -62585,6 +63769,70 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="16N_82E_L1_M4p5"
+            name="16N 82E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            82.0 16.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="0.4623001540388061" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="16N_83E_L1_M4p5"
+            name="16N 83E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            83.0 16.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.4821825181113626" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -63292,6 +64540,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="17N_80E_L1_M4p5"
+            name="17N 80E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            80.0 17.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.4139700043360186" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="17N_80E_L2_M4p5"
             name="17N 80E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -63321,6 +64601,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="17N_81E_L1_M4p5"
+            name="17N 81E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            81.0 17.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.36823916580452565" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -63356,6 +64668,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="17N_82E_L1_M4p5"
+            name="17N 82E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            82.0 17.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.29185081994107076" bValue="0.86" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="17N_82E_L2_M4p5"
             name="17N 82E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -63388,6 +64732,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="17N_83E_L1_M4p5"
+            name="17N 83E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            83.0 17.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.2161525224473815" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="17N_83E_L2_M4p5"
             name="17N 83E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -63417,6 +64793,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="17N_85E_L1_M4p5"
+            name="17N 85E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            85.0 17.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.614092531119419" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -64124,6 +65532,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="18N_80E_L1_M4p5"
+            name="18N 80E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            80.0 18.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="1.3919835662531694" bValue="1.19" maxMag="6.4" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="18N_80E_L2_M4p5"
             name="18N 80E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -64156,6 +65596,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="18N_81E_L1_M4p5"
+            name="18N 81E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            81.0 18.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="1.8510065988800357" bValue="1.19" maxMag="6.4" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="18N_81E_L2_M4p5"
             name="18N 81E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -64185,6 +65657,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="18N_82E_L1_M4p5"
+            name="18N 82E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            82.0 18.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.5171825181113627" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -64252,6 +65756,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="18N_85E_L1_M4p5"
+            name="18N 85E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            85.0 18.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.8544246864297884" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="18N_85E_L2_M4p5"
             name="18N 85E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -64281,6 +65817,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="18N_86E_L1_M4p5"
+            name="18N 86E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            86.0 18.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.8544246864297884" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -64956,6 +66524,102 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="19N_80E_L1_M4p5"
+            name="19N 80E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            80.0 19.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.2982125137753444" bValue="1.19" maxMag="6.4" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="19N_81E_L1_M4p5"
+            name="19N 81E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            81.0 19.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="0.0028174818886368413" bValue="1.19" maxMag="6.4" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="19N_85E_L1_M4p5"
+            name="19N 85E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            85.0 19.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.5171825181113627" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="19N_85E_L2_M4p5"
             name="19N 85E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -64985,6 +66649,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="19N_86E_L1_M4p5"
+            name="19N 86E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            86.0 19.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.5171825181113627" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -65596,6 +67292,70 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="20N_83E_L1_M4p5"
+            name="20N 83E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            83.0 20.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.818212513775344" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="20N_84E_L1_M4p5"
+            name="20N 84E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            84.0 20.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.8991344213992698" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="20N_84E_L2_M4p5"
             name="20N 84E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -65625,6 +67385,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="20N_85E_L1_M4p5"
+            name="20N 85E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            85.0 20.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.0473605021331993" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -65660,6 +67452,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="20N_86E_L1_M4p5"
+            name="20N 86E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            86.0 20.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.9151225267834002" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="20N_86E_L2_M4p5"
             name="20N 86E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -65692,6 +67516,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="20N_87E_L1_M4p5"
+            name="20N 87E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            87.0 20.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.9793634230380883" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="20N_87E_L2_M4p5"
             name="20N 87E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -65721,6 +67577,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="20N_88E_L1_M4p5"
+            name="20N 88E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            88.0 20.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.1192425094393252" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -66268,6 +68156,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="21N_84E_L1_M4p5"
+            name="21N 84E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            84.0 21.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.1106423376774073" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="21N_84E_L2_M4p5"
             name="21N 84E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -66297,6 +68217,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="21N_85E_L1_M4p5"
+            name="21N 85E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            85.0 21.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.5043452934061903" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -66332,6 +68284,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="21N_86E_L1_M4p5"
+            name="21N 86E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            86.0 21.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.1280164337468301" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="21N_86E_L2_M4p5"
             name="21N 86E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -66364,6 +68348,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="21N_87E_L1_M4p5"
+            name="21N 87E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            87.0 21.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.6479507983803865" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="21N_87E_L2_M4p5"
             name="21N 87E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -66393,6 +68409,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="21N_88E_L1_M4p5"
+            name="21N 88E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            88.0 21.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.5629400086720375" bValue="0.63" maxMag="6.2" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -74140,6 +76188,102 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="3N_74E_L1_M4p5"
+            name="3N 74E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            74.0 3.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.368212513775344" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="3N_75E_L1_M4p5"
+            name="3N 75E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            75.0 3.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.3268198286171184" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="3N_76E_L1_M4p5"
+            name="3N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 3.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.368212513775344" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="3N_84E_L1_M4p5"
             name="3N 84E 0-25 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -74454,6 +76598,102 @@ xmlns:gml="http://www.opengis.net/gml"
                 <truncGutenbergRichterMFD aValue="-0.1819100130080562" bValue="0.87" maxMag="7.0" minMag="4.5"/>
                 <nodalPlaneDist>
                     <nodalPlane dip="67.0" probability="1.0" rake="158.0" strike="312.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="4N_74E_L1_M4p5"
+            name="4N 74E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            74.0 4.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.3268198286171184" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="4N_75E_L1_M4p5"
+            name="4N 75E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            75.0 4.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.043930058477650746" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="4N_76E_L1_M4p5"
+            name="4N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 4.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.3268198286171184" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="12.5" probability="1.0"/>
@@ -74812,6 +77052,134 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="5N_74E_L1_M4p5"
+            name="5N 74E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            74.0 5.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.368212513775344" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="5N_75E_L1_M4p5"
+            name="5N 75E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            75.0 5.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.3268198286171184" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="5N_76E_L1_M4p5"
+            name="5N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 5.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.368212513775344" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="5N_78E_L1_M4p5"
+            name="5N 78E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            78.0 5.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.368212513775344" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="5N_84E_L1_M4p5"
             name="5N 84E 0-25 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -75062,6 +77430,102 @@ xmlns:gml="http://www.opengis.net/gml"
                 <truncGutenbergRichterMFD aValue="-1.1361525224473814" bValue="0.87" maxMag="7.0" minMag="4.5"/>
                 <nodalPlaneDist>
                     <nodalPlane dip="67.0" probability="1.0" rake="158.0" strike="312.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="6N_77E_L1_M4p5"
+            name="6N 77E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            77.0 6.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.8910912590556812" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="6N_78E_L1_M4p5"
+            name="6N 78E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            78.0 6.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.14032580916166992" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="6N_79E_L1_M4p5"
+            name="6N 79E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            79.0 6.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.8496985738974558" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="12.5" probability="1.0"/>
@@ -75414,6 +77878,102 @@ xmlns:gml="http://www.opengis.net/gml"
                 <truncGutenbergRichterMFD aValue="0.6197223332251101" bValue="0.87" maxMag="7.0" minMag="4.5"/>
                 <nodalPlaneDist>
                     <nodalPlane dip="67.0" probability="1.0" rake="158.0" strike="312.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="7N_77E_L1_M4p5"
+            name="7N 77E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            77.0 7.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.0671825181113626" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="7N_78E_L1_M4p5"
+            name="7N 78E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            78.0 7.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.09175070960209952" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="7N_79E_L1_M4p5"
+            name="7N 79E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            79.0 7.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.6439366441745547" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="12.5" probability="1.0"/>
@@ -75836,6 +78396,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </pointSource>
             <pointSource
+            id="8N_78E_L1_M4p5"
+            name="8N 78E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            78.0 8.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.0671825181113626" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
             id="8N_78E_L2_M4p5"
             name="8N 78E 25-70 km depth M4.5"
             tectonicRegion="stable shallow crust"
@@ -75865,6 +78457,38 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="47.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="8N_79E_L1_M4p5"
+            name="8N 79E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            79.0 8.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.368212513775344" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
                 </hypoDepthDist>
             </pointSource>
             <pointSource
@@ -76278,6 +78902,134 @@ xmlns:gml="http://www.opengis.net/gml"
                 <truncGutenbergRichterMFD aValue="0.42614034200909323" bValue="0.87" maxMag="7.0" minMag="4.5"/>
                 <nodalPlaneDist>
                     <nodalPlane dip="67.0" probability="1.0" rake="158.0" strike="312.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="9N_75E_L1_M4p5"
+            name="9N 75E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            75.0 9.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-2.368212513775344" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="9N_76E_L1_M4p5"
+            name="9N 76E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            76.0 9.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.2220844780971056" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="9N_77E_L1_M4p5"
+            name="9N 77E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            77.0 9.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-0.5421377110745169" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="1.0"/>
+                </hypoDepthDist>
+            </pointSource>
+            <pointSource
+            id="9N_78E_L1_M4p5"
+            name="9N 78E 0-25 km depth M4.5"
+            tectonicRegion="stable shallow crust"
+            >
+                <pointGeometry>
+                    <gml:Point>
+                        <gml:pos>
+                            78.0 9.0
+                        </gml:pos>
+                    </gml:Point>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </pointGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="-1.5900612633917" bValue="0.73" maxMag="6.0" minMag="4.5"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="12.5" probability="1.0"/>

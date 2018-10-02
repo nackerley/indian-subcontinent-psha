@@ -112,7 +112,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
         seismicity_df.rename(columns=SEISMICITY_ALIASES, inplace=True)
 
         # preserve errors in electonic supplement in version v0
-        if version == 0:
+        if int(version) == 0:
             if layer_id == 4:
                 (seismicity_df.loc[169],
                  seismicity_df.loc[170]) = \
@@ -147,13 +147,19 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     areal_df = pd.concat(areal_dfs, sort=True)[columns].sort_index()
 
     # auxiliary information
-    aux_file = AUX_FORMAT % version
+    aux_file = AUX_FORMAT % int(version)
     print('\nReading: ' + os.path.abspath(aux_file))
     aux_df = pd.read_csv(aux_file, index_col='zoneid').sort_index()
     assert (areal_df.index == aux_df.index).all()
     if 'layerid' in aux_df:
         aux_df.drop(columns='layerid', inplace=True)
     areal_df = areal_df.join(aux_df)
+
+    # explicitly assign undefined focal mechanisms as thrust
+    undefined = areal_df['dip'] == -1
+    areal_df.loc[undefined, 'rake'] = 90
+    areal_df.loc[undefined, 'dip'] = 45
+    areal_df.loc[undefined, 'strike'] = 0
 
     # augment areal zone description tables
     areal_df = areal_df.join(LAYERS_DF, on='layerid')
@@ -166,9 +172,6 @@ def write_source_models(version=0, full=False, use_recomputed=False,
         for strike, dip, rake in zip(
             areal_df['strike'], areal_df['dip'], areal_df['rake'])])
     areal_df['mechanism2'] = focal_mech(areal_df['dip2'], areal_df['rake2'])
-    areal_df.loc[areal_df['dip'] == -1, 'dip'] = np.nan
-    areal_df.loc[areal_df['mechanism'] == 'undefined', 'rake'] = np.nan
-    areal_df.loc[areal_df['strike'] == -1, 'strike'] = np.nan
 
     areal_df['mmin'] = MIN_MAGS[0]
 
@@ -177,6 +180,9 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     areal_df['rake2'] = areal_df['rake2'].apply(wrap)
     areal_df['rake2'] = areal_df['rake2'].round(1)
     areal_df['rake2'] = areal_df['rake2'].apply(wrap)
+
+    areal_df.loc[undefined, 'rake'] = 'undefined'
+    areal_df.loc[undefined, 'rake2'] = 'undefined'
 
     swap = areal_df['focal plane'] == 'secondary'
     print('Treating %d focal planes as secondary: %s' %
@@ -201,7 +207,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
         print('SUCCESS: All zones already have mmax & b defined.')
 
     # write areal CSV
-    areal_source_model_base = AREAL_MODEL_FORMAT % (prefix, version)
+    areal_source_model_base = AREAL_MODEL_FORMAT % (prefix, int(version))
     areal2csv(areal_df, areal_source_model_base)
 
     # write areal NRML
@@ -211,17 +217,17 @@ def write_source_models(version=0, full=False, use_recomputed=False,
           pd.to_timedelta(time() - mark, unit='s'))
 
     # read logic tree description table
-    source_tree_tsv = SOURCE_TREE_FORMAT % version
+    source_tree_tsv = SOURCE_TREE_FORMAT % int(version)
     print('Logic tree before collapse:')
     source_tree_symbolic_df = read_tree_tsv(source_tree_tsv)
     print(source_tree_symbolic_df)
 
     # compute collapsed rates
-    areal_collapsed_df, reduced_df, _, _ = \
+    areal_collapsed_df, collapsed_tree_df, _, _ = \
         collapse_sources(areal_df, source_tree_symbolic_df)
 
     print('Logic tree after collapse:')
-    print(reduced_df)
+    print(collapsed_tree_df)
 
     # write areal sources to NRML
     mark = time()
@@ -429,13 +435,13 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     # write thinned models
     mark = time()
     thinned_base = (SMOOTHED_MODEL_FORMAT.replace('v%d', '') +
-                    'thinned ' + 'v%d') % (smoothed_prefix, version)
+                    'thinned ' + 'v%d') % (smoothed_prefix, int(version))
     points2csv(thinned_df, thinned_base)
     points2nrml(thinned_df, thinned_base)
     print('Wrote %d thinned smoothed-gridded sources to CSV & NRML: %s\n' %
           (len(thinned_df), pd.to_timedelta(time() - mark, unit='s')))
 
-    thinned_collapsed_df, reduced_df, _, _ = \
+    thinned_collapsed_df, collapsed_tree_df, _, _ = \
         collapse_sources(thinned_df, source_tree_symbolic_df)
 
     points2nrml(thinned_collapsed_df, thinned_base + ' collapsed')
@@ -448,7 +454,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
 
         mark = time()
         smoothed_model_base = SMOOTHED_MODEL_FORMAT % (smoothed_prefix,
-                                                       version)
+                                                       int(version))
         points2csv(smoothed_df, smoothed_model_base)
         points2nrml(smoothed_df, smoothed_model_base, by='mmin model')
         print('Wrote %d full smoothed-gridded sources to CSV & NRML: %s\n' %
@@ -457,7 +463,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
         # write collapsed smoothed-gridded sources to NRML (~10 minutes)
 
         mark = time()
-        smoothed_collapsed_df, reduced_df, _, _ = \
+        smoothed_collapsed_df, collapsed_tree_df, _, _ = \
             collapse_sources(smoothed_df, source_tree_symbolic_df)
 
         points2nrml(smoothed_collapsed_df, smoothed_model_base + ' collapsed')

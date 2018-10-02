@@ -66,7 +66,7 @@ SMOOTHED_FORMAT = 'lay%dsmooth%.1f.txt'
 
 # other configuration
 MIN_MAGS = [4.5, 5.5]
-LAYERS_DF = pd.read_csv('layers.csv', index_col='layerid')
+LAYERS_FORMAT = 'layers_v%d.csv'
 
 # an input file supplies some auxiliary data
 AUX_FORMAT = 'auxiliary_data_v%d.csv'
@@ -91,6 +91,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     else:
         smoothed_data_path = ORIGINAL_DATA_PATH
         smoothed_prefix = prefix
+    layers_df = pd.read_csv(LAYERS_FORMAT % version, index_col='layerid')
 
     # load electronic supplement for areal zones
     df_erroneous = pd.read_csv(StringIO('''\
@@ -101,7 +102,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
 
     print('Reading areal polygons and seismicity statistics for each layer')
     areal_dfs = []
-    for layer_id in LAYERS_DF.index:
+    for layer_id in layers_df.index:
 
         # read seismicity and polygons and join them
         seismicity_file = os.path.join(ORIGINAL_DATA_PATH,
@@ -162,7 +163,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     areal_df.loc[undefined, 'strike'] = 0
 
     # augment areal zone description tables
-    areal_df = areal_df.join(LAYERS_DF, on='layerid')
+    areal_df = areal_df.join(layers_df, on='layerid')
     areal_df['rake'] = wrap(areal_df['rake'])
     areal_df['mechanism'] = focal_mech(areal_df['dip'], areal_df['rake'])
     areal_df['new style'] = faulting_style(areal_df['strike'], areal_df['dip'],
@@ -252,7 +253,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     smoothed_df_list = []
     for i, min_mag in enumerate(MIN_MAGS):
         layer_smoothed_df_list = []
-        for layer_id, layer in LAYERS_DF.join(completeness_df,
+        for layer_id, layer in layers_df.join(completeness_df,
                                               on=['zmin', 'zmax']).iterrows():
 
             layer_smoothed_df = pd.read_csv(smoothed_data_format %
@@ -292,7 +293,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     smoothed_df = gpd.GeoDataFrame(smoothed_df, crs='WGS84')
 
     print('Read %d point sources from %d files: %s\n' %
-          (len(smoothed_df), len(MIN_MAGS)*len(LAYERS_DF),
+          (len(smoothed_df), len(MIN_MAGS)*len(layers_df),
            pd.to_timedelta(time() - mark, unit='s')))
 
     # associate smoothed-gridded points with zones
@@ -305,7 +306,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
 
     smoothed_df['distance'] = np.inf
     smoothed_dfs = []
-    for layer_id in LAYERS_DF.index:
+    for layer_id in layers_df.index:
         smoothed_layer_df = smoothed_df[smoothed_df['layerid'] == layer_id]
         areal_layer_df = gpd.GeoDataFrame(
             active_areal_df[active_areal_df['layerid'] == layer_id],
@@ -393,8 +394,9 @@ def write_source_models(version=0, full=False, use_recomputed=False,
 
     # copy parameters of nearest areal zone
     print('For each point source, copy parameters of nearest areal zone')
-    columns_to_copy = ['zoneid', 'zmax', 'zmin', 'tectonic subregion',
-                       'a', 'b', 'stdb', 'mmax', 'stdmmax',
+    columns_to_copy = ['zoneid', 'zmax', 'zmin', 'hypo_depth',
+                       'tectonic subregion', 'a',
+                       'b', 'stdb', 'mmax', 'stdmmax',
                        'rake', 'dip', 'strike', 'aspect ratio', 'msr']
     smoothed_df.drop(columns=['a'], inplace=True)
     smoothed_df = smoothed_df.merge(active_areal_df[columns_to_copy],

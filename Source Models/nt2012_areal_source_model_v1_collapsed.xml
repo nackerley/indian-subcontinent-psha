@@ -32,7 +32,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -53,7 +53,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="40.0" probability="1.0" rake="90.0" strike="112.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
         </sourceGroup>
@@ -80,10 +80,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -104,7 +104,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="89.0" probability="1.0" rake="-141.0" strike="301.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -125,10 +125,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -149,7 +149,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="40.0" probability="1.0" rake="90.0" strike="112.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
         </sourceGroup>
@@ -179,7 +179,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -200,7 +200,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="48.0" probability="1.0" rake="-77.0" strike="244.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -224,7 +224,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -245,7 +245,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="42.0" probability="1.0" rake="-53.0" strike="189.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -269,7 +269,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -290,7 +290,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="52.0" probability="1.0" rake="-74.0" strike="203.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -314,7 +314,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -335,7 +335,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="48.0" probability="1.0" rake="-61.0" strike="212.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -359,7 +359,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -380,7 +380,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="64.0" probability="1.0" rake="-45.0" strike="104.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -404,7 +404,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -425,7 +425,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="52.0" probability="1.0" rake="-114.0" strike="159.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -449,7 +449,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -470,7 +470,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="51.0" probability="1.0" rake="-63.0" strike="20.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -494,7 +494,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -515,7 +515,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="33.0" probability="1.0" rake="-82.0" strike="268.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -539,7 +539,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -560,7 +560,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="52.0" probability="1.0" rake="-54.0" strike="234.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
         </sourceGroup>
@@ -587,10 +587,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -611,7 +611,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="23.0" probability="1.0" rake="82.0" strike="290.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -632,10 +632,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -656,7 +656,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="14.0" probability="1.0" rake="79.0" strike="298.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -680,7 +680,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -701,7 +701,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="12.6" probability="1.0" rake="71.8" strike="299.4"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -725,7 +725,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -746,7 +746,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="10.2" probability="1.0" rake="126.0" strike="298.4"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -767,10 +767,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -791,7 +791,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="44.0" probability="1.0" rake="94.0" strike="247.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -812,10 +812,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -836,7 +836,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="46.0" probability="1.0" rake="55.0" strike="283.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -857,10 +857,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -881,7 +881,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="61.0" probability="1.0" rake="46.0" strike="270.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -902,10 +902,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -926,7 +926,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="49.0" probability="1.0" rake="46.0" strike="206.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -950,7 +950,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -971,7 +971,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="14.0" probability="1.0" rake="90.0" strike="291.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -995,7 +995,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1016,7 +1016,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="31.0" probability="1.0" rake="108.0" strike="308.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1040,7 +1040,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1061,7 +1061,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="46.0" probability="1.0" rake="124.0" strike="192.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1085,7 +1085,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1106,7 +1106,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="25.0" probability="1.0" rake="108.0" strike="337.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
         </sourceGroup>
@@ -1133,10 +1133,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1157,7 +1157,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="64.0" probability="1.0" rake="3.0" strike="216.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1178,10 +1178,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1202,7 +1202,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="85.0" probability="1.0" rake="-121.0" strike="317.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1223,10 +1223,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1247,7 +1247,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="43.0" probability="1.0" rake="-12.0" strike="256.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1268,10 +1268,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1292,7 +1292,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="88.0" probability="1.0" rake="171.0" strike="171.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1313,10 +1313,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1337,7 +1337,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="61.0" probability="1.0" rake="-178.89999999999998" strike="12.6"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1358,10 +1358,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1382,7 +1382,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="80.0" probability="1.0" rake="18.0" strike="64.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1403,10 +1403,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1427,7 +1427,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="58.0" probability="1.0" rake="147.0" strike="176.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1448,10 +1448,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1472,7 +1472,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="65.0" probability="1.0" rake="22.0" strike="194.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1493,10 +1493,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        180.0
+                        180
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        300.0
+                        300
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1517,7 +1517,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="64.0" probability="1.0" rake="-50.0" strike="99.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="240.0" probability="1.0"/>
+                    <hypoDepth depth="180" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1538,10 +1538,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1562,7 +1562,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="79.1" probability="1.0" rake="170.8" strike="128.3"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1583,10 +1583,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1607,7 +1607,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="68.0" probability="1.0" rake="25.0" strike="264.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1628,10 +1628,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1652,7 +1652,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="87.0" probability="1.0" rake="180.0" strike="12.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1673,10 +1673,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1697,7 +1697,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="79.0" probability="1.0" rake="167.0" strike="23.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
         </sourceGroup>
@@ -1727,7 +1727,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1748,7 +1748,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="64.1" probability="1.0" rake="59.8" strike="64.9"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1772,7 +1772,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1793,7 +1793,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="83.0" probability="1.0" rake="25.0" strike="58.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1817,7 +1817,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1838,7 +1838,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="47.0" probability="1.0" rake="68.0" strike="284.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1862,7 +1862,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1883,7 +1883,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1907,7 +1907,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1928,7 +1928,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1952,7 +1952,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1973,7 +1973,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="66.0" probability="1.0" rake="64.0" strike="51.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -1997,7 +1997,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2018,7 +2018,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="67.0" probability="1.0" rake="158.0" strike="312.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2042,7 +2042,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2063,7 +2063,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="61.0" probability="1.0" rake="123.0" strike="290.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2087,7 +2087,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2108,7 +2108,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="26.0" probability="1.0" rake="129.0" strike="283.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2132,7 +2132,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2153,7 +2153,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="66.0" probability="1.0" rake="165.0" strike="206.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2177,7 +2177,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2198,7 +2198,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2222,7 +2222,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2243,7 +2243,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2264,10 +2264,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2288,7 +2288,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="67.0" probability="1.0" rake="8.0" strike="239.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2309,10 +2309,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2333,7 +2333,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="26.0" probability="1.0" rake="129.0" strike="283.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
         </sourceGroup>
@@ -2360,10 +2360,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2384,7 +2384,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="23.0" probability="1.0" rake="82.0" strike="290.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2408,7 +2408,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2429,7 +2429,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="12.6" probability="1.0" rake="71.8" strike="299.4"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2450,10 +2450,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2474,7 +2474,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="67.0" probability="1.0" rake="60.0" strike="146.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2495,10 +2495,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2519,7 +2519,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="14.0" probability="1.0" rake="79.0" strike="298.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2543,7 +2543,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2564,7 +2564,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="10.2" probability="1.0" rake="126.0" strike="298.4"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2585,10 +2585,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2609,7 +2609,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="44.0" probability="1.0" rake="94.0" strike="247.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2630,10 +2630,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2654,7 +2654,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="46.0" probability="1.0" rake="55.0" strike="283.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2675,10 +2675,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2699,7 +2699,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="61.0" probability="1.0" rake="46.0" strike="270.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2720,10 +2720,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2744,7 +2744,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="49.0" probability="1.0" rake="46.0" strike="206.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2765,10 +2765,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        180.0
+                        180
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        300.0
+                        300
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2789,7 +2789,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="67.0" probability="1.0" rake="92.0" strike="103.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="240.0" probability="1.0"/>
+                    <hypoDepth depth="180" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2813,7 +2813,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2834,7 +2834,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="14.0" probability="1.0" rake="90.0" strike="291.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2858,7 +2858,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2879,7 +2879,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="31.0" probability="1.0" rake="108.0" strike="308.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2900,10 +2900,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2924,7 +2924,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="68.0" probability="1.0" rake="94.0" strike="340.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2945,10 +2945,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2969,7 +2969,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="33.0" probability="1.0" rake="16.0" strike="63.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -2993,7 +2993,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3014,7 +3014,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="10.0" probability="1.0" rake="123.0" strike="211.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3038,7 +3038,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3059,7 +3059,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="46.0" probability="1.0" rake="124.0" strike="192.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3083,7 +3083,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3104,7 +3104,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="25.0" probability="1.0" rake="108.0" strike="337.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3125,10 +3125,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3149,7 +3149,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="57.0" probability="1.0" rake="111.0" strike="317.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
         </sourceGroup>
@@ -3179,7 +3179,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3200,7 +3200,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="73.0" probability="1.0" rake="30.0" strike="202.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3224,7 +3224,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3245,7 +3245,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="40.0" probability="1.0" rake="122.1" strike="333.3"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3269,7 +3269,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3290,7 +3290,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="71.0" probability="1.0" rake="24.0" strike="204.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3314,7 +3314,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3335,7 +3335,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="18.0" probability="1.0" rake="126.0" strike="298.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3359,7 +3359,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3380,7 +3380,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="13.0" probability="1.0" rake="59.0" strike="219.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3404,7 +3404,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3425,7 +3425,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="31.0" probability="1.0" rake="142.0" strike="306.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3449,7 +3449,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3470,7 +3470,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="89.0" probability="1.0" rake="33.0" strike="59.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3494,7 +3494,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3515,7 +3515,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="56.0" probability="1.0" rake="177.0" strike="309.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3539,7 +3539,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3560,7 +3560,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="55.0" probability="1.0" rake="148.0" strike="274.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3584,7 +3584,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3605,7 +3605,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="75.0" probability="1.0" rake="180.0" strike="151.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3629,7 +3629,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3650,7 +3650,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="34.0" probability="1.0" rake="113.0" strike="271.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3674,7 +3674,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3695,7 +3695,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="16.0" probability="1.0" rake="171.0" strike="36.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3719,7 +3719,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3740,7 +3740,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="80.0" probability="1.0" rake="18.0" strike="273.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3764,7 +3764,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3785,7 +3785,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="83.0" probability="1.0" rake="-160.0" strike="284.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3809,7 +3809,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3830,7 +3830,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="84.0" probability="1.0" rake="-18.0" strike="229.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3854,7 +3854,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3875,7 +3875,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="58.0" probability="1.0" rake="150.0" strike="334.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3899,7 +3899,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3920,7 +3920,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="31.0" probability="1.0" rake="69.0" strike="318.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3944,7 +3944,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3965,7 +3965,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="88.0" probability="1.0" rake="-175.0" strike="153.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3989,7 +3989,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4010,7 +4010,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="68.0" probability="1.0" rake="166.3" strike="2.1"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="12.5" probability="1.0"/>
+                    <hypoDepth depth="15" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
         </sourceGroup>
@@ -4037,10 +4037,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4061,7 +4061,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="89.0" probability="1.0" rake="-13.0" strike="89.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4082,10 +4082,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4106,7 +4106,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="40.0" probability="1.0" rake="-117.0" strike="349.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4127,10 +4127,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4151,7 +4151,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="86.0" probability="1.0" rake="-165.0" strike="154.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4172,10 +4172,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4196,7 +4196,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="70.0" probability="1.0" rake="-36.0" strike="225.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4217,10 +4217,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4241,7 +4241,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="59.0" probability="1.0" rake="-92.0" strike="207.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4262,10 +4262,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4286,7 +4286,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="80.0" probability="1.0" rake="-169.0" strike="100.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4307,10 +4307,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        180.0
+                        180
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        300.0
+                        300
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4331,7 +4331,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="81.0" probability="1.0" rake="-113.0" strike="305.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="240.0" probability="1.0"/>
+                    <hypoDepth depth="180" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4352,10 +4352,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4376,7 +4376,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="89.0" probability="1.0" rake="166.0" strike="150.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4397,10 +4397,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4421,7 +4421,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="73.0" probability="1.0" rake="4.0" strike="210.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4442,10 +4442,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4466,7 +4466,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="52.0" probability="1.0" rake="-36.0" strike="210.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4487,10 +4487,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4511,7 +4511,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="66.0" probability="1.0" rake="-5.0" strike="194.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4532,10 +4532,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4556,7 +4556,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="37.0" probability="1.0" rake="-26.0" strike="65.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4577,10 +4577,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4601,7 +4601,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="46.0" probability="1.0" rake="-83.0" strike="183.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4622,10 +4622,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4646,7 +4646,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="37.0" probability="1.0" rake="-26.0" strike="65.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4667,10 +4667,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4691,7 +4691,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="89.0" probability="1.0" rake="-141.0" strike="301.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4712,10 +4712,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4736,7 +4736,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="77.0" probability="1.0" rake="-2.0" strike="196.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4757,10 +4757,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4781,7 +4781,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="47.0" probability="1.0" rake="-164.0" strike="140.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="125.0" probability="1.0"/>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4802,10 +4802,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4826,7 +4826,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="89.0" probability="1.0" rake="-6.0" strike="11.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4847,10 +4847,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4871,7 +4871,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="77.0" probability="1.0" rake="-2.0" strike="196.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4892,10 +4892,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4916,7 +4916,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="89.0" probability="1.0" rake="-108.0" strike="322.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -4937,10 +4937,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4961,7 +4961,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     <nodalPlane dip="76.0" probability="1.0" rake="-18.0" strike="275.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
-                    <hypoDepth depth="47.5" probability="1.0"/>
+                    <hypoDepth depth="25" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
         </sourceGroup>

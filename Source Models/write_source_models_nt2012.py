@@ -156,7 +156,7 @@ def write_source_models(version=0, full=False, use_recomputed=False,
         aux_df.drop(columns='layerid', inplace=True)
     areal_df = areal_df.join(aux_df)
 
-    # explicitly assign undefined focal mechanisms as thrust
+    # assign undefined focal mechanisms as reverse faulting - shouldn't matter
     undefined = areal_df['dip'] == -1
     areal_df.loc[undefined, 'rake'] = 90
     areal_df.loc[undefined, 'dip'] = 45
@@ -181,9 +181,6 @@ def write_source_models(version=0, full=False, use_recomputed=False,
     areal_df['rake2'] = areal_df['rake2'].apply(wrap)
     areal_df['rake2'] = areal_df['rake2'].round(1)
     areal_df['rake2'] = areal_df['rake2'].apply(wrap)
-
-    areal_df.loc[undefined, 'rake'] = 'undefined'
-    areal_df.loc[undefined, 'rake2'] = 'undefined'
 
     swap = areal_df['focal plane'] == 'secondary'
     print('Treating %d focal planes as secondary: %s' %

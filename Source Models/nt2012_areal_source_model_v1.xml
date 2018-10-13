@@ -1555,7 +1555,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </ruptAspectRatio>
                 <truncGutenbergRichterMFD aValue="3.91" bValue="1.19" maxMag="6.4" minMag="4.5"/>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -1593,7 +1593,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </ruptAspectRatio>
                 <truncGutenbergRichterMFD aValue="2.65" bValue="0.86" maxMag="6.2" minMag="4.5"/>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -1821,7 +1821,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </ruptAspectRatio>
                 <truncGutenbergRichterMFD aValue="2.51" bValue="0.73" maxMag="6.0" minMag="4.5"/>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -1859,7 +1859,7 @@ xmlns:gml="http://www.opengis.net/gml"
                 </ruptAspectRatio>
                 <truncGutenbergRichterMFD aValue="1.58" bValue="0.63" maxMag="6.2" minMag="4.5"/>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>

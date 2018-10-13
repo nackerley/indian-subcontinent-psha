@@ -35492,7 +35492,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -35531,7 +35531,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -35570,7 +35570,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -35609,7 +35609,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -36038,7 +36038,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -36077,7 +36077,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -36116,7 +36116,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -36428,7 +36428,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -36467,7 +36467,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -36506,7 +36506,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -36779,7 +36779,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -36818,7 +36818,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -36857,7 +36857,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -37130,7 +37130,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -37169,7 +37169,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -37208,7 +37208,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -37559,7 +37559,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -37598,7 +37598,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -37637,7 +37637,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -37676,7 +37676,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -37715,7 +37715,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -44306,7 +44306,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -44384,7 +44384,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -44618,7 +44618,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -44657,7 +44657,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -44696,7 +44696,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -45125,7 +45125,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -45164,7 +45164,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>
@@ -45242,7 +45242,7 @@ xmlns:gml="http://www.opengis.net/gml"
                     </occurRates>
                 </incrementalMFD>
                 <nodalPlaneDist>
-                    <nodalPlane dip="45.0" probability="1.0" rake="undefined" strike="0.0"/>
+                    <nodalPlane dip="45.0" probability="1.0" rake="90.0" strike="0.0"/>
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="15" probability="1.0"/>

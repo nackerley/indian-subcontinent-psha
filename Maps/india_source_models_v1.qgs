@@ -7,7 +7,7 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="overlays">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="zones" mutually-exclusive-child="2">
+      <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="zones" mutually-exclusive-child="3">
         <customproperties/>
         <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="nt2012_areal_source_model_v120180402005108841" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;subset=%22layerid%22%20%3D%201" name="layer 1 outlines">
           <customproperties/>
@@ -15,10 +15,10 @@
         <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_1_region_outline_copy20180402011726154" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%202" name="layer 2 outlines">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="layer_2_outlines_copy20180402011820860" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%203" name="layer 3 outlines">
+        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_2_outlines_copy20180402011820860" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%203" name="layer 3 outlines">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_2_outlines_copy20180402011813805" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%204" name="layer 4 outlines">
+        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="layer_2_outlines_copy20180402011813805" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%204" name="layer 4 outlines">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -41,7 +41,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="masks">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="masks">
       <customproperties/>
       <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="ne_50m_admin_0_countries_lakes_transparent_copy_copy20160129190948818" source="/home/nick/Data/Natural Earth/50m_cultural/ne_50m_admin_0_countries_lakes.shp|layerid=0|subset=(&quot;scalerank&quot;&lt;3) AND &quot;brk_diff&quot; = 0" name="outside Indian subcontinent">
         <customproperties/>
@@ -59,7 +59,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="areal source model">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="areal source model">
       <customproperties/>
       <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="nt2012_areal_source_model_v120171113232331607" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=" name="tectonic region types">
         <customproperties>
@@ -67,7 +67,7 @@
           <property key="showFeatureCount" value="1"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="nt2012_areal_source_model_v120180402221802041" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=centroid&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no" name="focal mechanisms">
+      <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="nt2012_areal_source_model_v120180402221802041" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=centroid&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no" name="focal mechanisms">
         <customproperties>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
@@ -81,7 +81,7 @@
       <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_2_region_copy20180713235720021" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%203" name="layer 3 region">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_3_region_copy20180713235755597" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%204" name="layer 4 region">
+      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Checked" id="layer_3_region_copy20180713235755597" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;=&amp;=&amp;subset=%22layerid%22%20%3D%204" name="layer 4 region">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="layer_1_region_copy20180402151749989" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_areal_source_model_v1.csv?type=csv&amp;wktField=geometry&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=no&amp;subset=%22layerid%22%20%3D%201" name="layer 1 a">
@@ -93,9 +93,9 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="smoothed source model" mutually-exclusive-child="0">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="smoothed source model" mutually-exclusive-child="0">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="smoothed source model mmin 4.5" mutually-exclusive-child="1">
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="smoothed source model mmin 4.5" mutually-exclusive-child="1">
         <customproperties/>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="recomputed" mutually-exclusive-child="0">
           <customproperties/>
@@ -124,7 +124,7 @@
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="thingbaijam" mutually-exclusive-child="7">
+        <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="thingbaijam" mutually-exclusive-child="2">
           <customproperties/>
           <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="nt2012_smoothed_source_model_v1_mmin_4_5_layer_120160126231617600" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer1.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 1">
             <customproperties/>
@@ -132,7 +132,7 @@
           <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="thingbaijam_layer_1_copy20160322170229790" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer1.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 1 nearest">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="thingbaijam_layer_1_nearest_copy20160322215147200" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer1.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 1 region">
+          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="thingbaijam_layer_1_nearest_copy20160322215147200" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer1.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 1 region">
             <customproperties/>
           </layer-tree-layer>
           <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="nt2012_smoothed_source_model_v1_mmin_4_5_layer_220160126231625787" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer2.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 2">
@@ -147,7 +147,7 @@
           <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="nt2012_smoothed_source_model_v1_mmin_4_5_layer_320160126231637040" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer3.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 3">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Checked" id="thingbaijam_layer_3_copy20160322174236159" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer3.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 3 nearest">
+          <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="thingbaijam_layer_3_copy20160322174236159" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer3.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 3 nearest">
             <customproperties/>
           </layer-tree-layer>
           <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="thingbaijam_layer_3_nearest_copy20160322215522608" source="file:///home/nick/src/indian-subcontinent-psha/Source%20Models/nt2012_smoothed_source_model_v1_mmin4.5_layer3.csv?type=csv&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=yes&amp;subsetIndex=yes&amp;watchFile=yes" name="thingbaijam layer 3 region">
@@ -390,8 +390,8 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Andaman_Sumatra_copy20160229232517138"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ne_50m_geography_marine_polys_copy20160129191220962"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="L15658f2dedb44377ad6e71f404191207"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lc44f4626c9264b5e9e9ae235f9c389be"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thingbaijam_layer_4_copy20160322213151496"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lc44f4626c9264b5e9e9ae235f9c389be"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="India_pga20160129182006291"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="layer_2_outlines_copy20180402011820860"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="thingbaijam_layer_2_copy20160322170503591"/>
@@ -552,14 +552,14 @@
             <legendlayerfile isInOverview="0" layerid="layer_1_region_outline_copy20180402011726154" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="layer 3 outlines" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="layer 3 outlines" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="layer_2_outlines_copy20180402011820860" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="layer_2_outlines_copy20180402011820860" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="layer 4 outlines" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="layer 4 outlines" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="layer_2_outlines_copy20180402011813805" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="layer_2_outlines_copy20180402011813805" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -591,7 +591,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="masks">
+    <legendgroup open="true" checked="Qt::Unchecked" name="masks">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="outside Indian subcontinent" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="ne_50m_admin_0_countries_lakes_transparent_copy_copy20160129190948818" visible="0"/>
@@ -615,15 +615,15 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Unchecked" name="areal source model">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="areal source model">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tectonic region types" showFeatureCount="1">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="nt2012_areal_source_model_v120171113232331607" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="focal mechanisms" showFeatureCount="1">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="focal mechanisms" showFeatureCount="1">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="nt2012_areal_source_model_v120180402221802041" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="nt2012_areal_source_model_v120180402221802041" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="layer 1 region" showFeatureCount="0">
@@ -641,9 +641,9 @@
           <legendlayerfile isInOverview="0" layerid="layer_2_region_copy20180713235720021" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="layer 4 region" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="layer 4 region" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="layer_3_region_copy20180713235755597" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="layer_3_region_copy20180713235755597" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="layer 1 a" showFeatureCount="0">
@@ -657,8 +657,8 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Checked" name="smoothed source model">
-      <legendgroup open="true" checked="Qt::Checked" name="smoothed source model mmin 4.5">
+    <legendgroup open="true" checked="Qt::Unchecked" name="smoothed source model">
+      <legendgroup open="false" checked="Qt::Unchecked" name="smoothed source model mmin 4.5">
         <legendgroup open="false" checked="Qt::Unchecked" name="recomputed">
           <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="recomputed layer 1 region" showFeatureCount="0">
             <filegroup open="false" hidden="false">
@@ -701,7 +701,7 @@
             </filegroup>
           </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="thingbaijam">
+        <legendgroup open="true" checked="Qt::Unchecked" name="thingbaijam">
           <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="thingbaijam layer 1" showFeatureCount="0">
             <filegroup open="false" hidden="false">
               <legendlayerfile isInOverview="0" layerid="nt2012_smoothed_source_model_v1_mmin_4_5_layer_120160126231617600" visible="0"/>
@@ -712,8 +712,8 @@
               <legendlayerfile isInOverview="0" layerid="thingbaijam_layer_1_copy20160322170229790" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="thingbaijam layer 1 region" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="thingbaijam layer 1 region" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
               <legendlayerfile isInOverview="0" layerid="thingbaijam_layer_1_nearest_copy20160322215147200" visible="0"/>
             </filegroup>
           </legendlayer>
@@ -737,9 +737,9 @@
               <legendlayerfile isInOverview="0" layerid="nt2012_smoothed_source_model_v1_mmin_4_5_layer_320160126231637040" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="thingbaijam layer 3 nearest" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="thingbaijam layer 3 nearest" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="thingbaijam_layer_3_copy20160322174236159" visible="1"/>
+              <legendlayerfile isInOverview="0" layerid="thingbaijam_layer_3_copy20160322174236159" visible="0"/>
             </filegroup>
           </legendlayer>
           <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="thingbaijam layer 3 region" showFeatureCount="0">
@@ -19823,10 +19823,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -20344,18 +20350,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -20395,8 +20403,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -20500,10 +20510,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -20963,18 +20979,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -21066,8 +21084,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -21171,10 +21191,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -21631,18 +21657,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -21682,8 +21710,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -21787,10 +21817,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -22250,18 +22286,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -22350,8 +22388,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -22455,10 +22495,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -22820,18 +22866,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -22917,8 +22965,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -23022,10 +23072,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -23387,18 +23443,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -23484,8 +23542,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -23589,10 +23649,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -23954,18 +24020,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -24051,8 +24119,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -24150,10 +24220,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -24613,18 +24689,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -24713,8 +24791,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -24812,10 +24892,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -25275,18 +25361,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -25375,8 +25463,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -28566,10 +28656,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -29720,18 +29816,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -29816,8 +29914,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -29921,10 +30021,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -30286,18 +30392,20 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="16" name=""/>
         <alias field="tectonic region type" index="17" name=""/>
         <alias field="plane" index="18" name=""/>
-        <alias field="zmin" index="19" name=""/>
-        <alias field="zmax" index="20" name=""/>
-        <alias field="mechanism" index="21" name=""/>
-        <alias field="new style" index="22" name=""/>
-        <alias field="strike2" index="23" name=""/>
-        <alias field="dip2" index="24" name=""/>
-        <alias field="rake2" index="25" name=""/>
-        <alias field="mechanism2" index="26" name=""/>
-        <alias field="mmin" index="27" name=""/>
-        <alias field="centroid" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="19" name=""/>
+        <alias field="zmin" index="20" name=""/>
+        <alias field="zmax" index="21" name=""/>
+        <alias field="hypo_depth" index="22" name=""/>
+        <alias field="mechanism" index="23" name=""/>
+        <alias field="new style" index="24" name=""/>
+        <alias field="strike2" index="25" name=""/>
+        <alias field="dip2" index="26" name=""/>
+        <alias field="rake2" index="27" name=""/>
+        <alias field="mechanism2" index="28" name=""/>
+        <alias field="mmin" index="29" name=""/>
+        <alias field="centroid" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -30383,8 +30491,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>
@@ -30491,10 +30601,16 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="plane">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="discretization">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zmin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zmax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hypo_depth">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mechanism">
@@ -30530,7 +30646,7 @@ def my_form_open(dialog, layer, feature):
           <category render="false" symbol="0" value="1" label="layer 1"/>
           <category render="false" symbol="1" value="2" label="layer 2"/>
           <category render="false" symbol="2" value="3" label="layer 3"/>
-          <category render="false" symbol="3" value="4" label="layer 4"/>
+          <category render="true" symbol="3" value="4" label="layer 4"/>
         </categories>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
@@ -30879,17 +30995,19 @@ def my_form_open(dialog, layer, feature):
         <alias field="faulting style" index="17" name=""/>
         <alias field="tectonic region type" index="18" name=""/>
         <alias field="plane" index="19" name=""/>
-        <alias field="zmin" index="20" name=""/>
-        <alias field="zmax" index="21" name=""/>
-        <alias field="mechanism" index="22" name=""/>
-        <alias field="new style" index="23" name=""/>
-        <alias field="strike2" index="24" name=""/>
-        <alias field="dip2" index="25" name=""/>
-        <alias field="rake2" index="26" name=""/>
-        <alias field="mechanism2" index="27" name=""/>
-        <alias field="mmin" index="28" name=""/>
-        <alias field="source_name" index="29" name=""/>
-        <alias field="id" index="30" name=""/>
+        <alias field="discretization" index="20" name=""/>
+        <alias field="zmin" index="21" name=""/>
+        <alias field="zmax" index="22" name=""/>
+        <alias field="hypo_depth" index="23" name=""/>
+        <alias field="mechanism" index="24" name=""/>
+        <alias field="new style" index="25" name=""/>
+        <alias field="strike2" index="26" name=""/>
+        <alias field="dip2" index="27" name=""/>
+        <alias field="rake2" index="28" name=""/>
+        <alias field="mechanism2" index="29" name=""/>
+        <alias field="mmin" index="30" name=""/>
+        <alias field="source_name" index="31" name=""/>
+        <alias field="id" index="32" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -30976,8 +31094,10 @@ def my_form_open(dialog, layer, feature):
         <default field="faulting style" expression=""/>
         <default field="tectonic region type" expression=""/>
         <default field="plane" expression=""/>
+        <default field="discretization" expression=""/>
         <default field="zmin" expression=""/>
         <default field="zmax" expression=""/>
+        <default field="hypo_depth" expression=""/>
         <default field="mechanism" expression=""/>
         <default field="new style" expression=""/>
         <default field="strike2" expression=""/>

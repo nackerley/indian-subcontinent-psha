@@ -9,7 +9,7 @@ zoneid,aspect ratio,msr,tectonic zone,region,tectonic subregion,focal plane,faul
 8,2,WC1994,Active shallow crust,Chaman/Herat/Paghman/Shyok,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,unsure,10
 9,2,WC1994,Active shallow crust,Hindukush,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,unsure,10
 12,2,WC1994,Active shallow crust,Himalayas,active shallow crust strike-slip reverse,secondary,reverse,active shallow crust,1,done,10
-13,2,StrasserInterface,Subduction interface,Himalayas - Main Frontal Thrust,subduction interface,secondary,reverse,subduction interface,1,done,10
+13,2,WC1994,Active shallow crust,Himalayas - Main Frontal Thrust,active shallow crust strike-slip reverse,secondary,reverse,active shallow crust,1,evidence suggests subduction interface,10
 14,2,StrasserInterface,Subduction interface,Makran,subduction interface,primary,reverse,subduction interface,1,doesn't match publication,10
 15,2,WC1994,Subduction interface,Kirthar,active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,done,10
 16,2,WC1994,Subduction interface,Sulaiman,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,done,10
@@ -61,7 +61,7 @@ zoneid,aspect ratio,msr,tectonic zone,region,tectonic subregion,focal plane,faul
 164,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,primary,strike-slip,subduction intraslab,3,undecidable,10
 166,2,StrasserInterface,Subduction interface,Andaman,subduction interface,primary,reverse,subduction interface,3,unsure,20
 167,2,StrasserInterface,Subduction interface,Sumatra,subduction interface,primary,reverse,subduction interface,3,unsure,20
-169,2,StrasserInterface,Subduction interface,Hindukush,subduction interface,primary,reverse,subduction interface,4,bizarre,10
+169,2,StrasserIntraslab,Subduction intraslab,Hindukush,subduction intraslab Himalayas,primary,reverse,subduction intraslab,4,mechanism suggests subduction interface,10
 170,2,StrasserIntraslab,Subduction intraslab,Pamir,subduction intraslab Himalayas,primary,normal,subduction intraslab,4,undecidable,10
 172,2,StrasserIntraslab,Subduction intraslab,Andaman-Sumatra,subduction intraslab,primary,normal,subduction intraslab,4,undecidable,50
 901,2,WC1994,Active shallow crust,"Chang Chenmo, Aksai Chin",active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,unsure,10

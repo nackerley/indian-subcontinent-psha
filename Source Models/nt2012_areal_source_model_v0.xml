@@ -29,10 +29,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -117,10 +117,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -155,10 +155,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -193,10 +193,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -231,10 +231,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -269,10 +269,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -307,10 +307,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        180.0
+                        180
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        300.0
+                        300
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -351,10 +351,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -389,10 +389,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -427,10 +427,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        180.0
+                        180
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        300.0
+                        300
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -465,10 +465,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        180.0
+                        180
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        300.0
+                        300
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -503,10 +503,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -541,10 +541,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        70.0
+                        70
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        180.0
+                        180
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -588,7 +588,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -626,7 +626,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -664,7 +664,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -702,7 +702,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -740,7 +740,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -778,7 +778,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -816,7 +816,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -854,7 +854,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -892,7 +892,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -936,7 +936,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -974,7 +974,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1012,7 +1012,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1050,7 +1050,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1088,7 +1088,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1126,7 +1126,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1164,7 +1164,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1202,7 +1202,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1240,7 +1240,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1278,7 +1278,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1316,7 +1316,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1360,7 +1360,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1398,7 +1398,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1436,7 +1436,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1474,7 +1474,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1512,7 +1512,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1550,7 +1550,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1588,7 +1588,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1626,7 +1626,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1664,7 +1664,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1702,7 +1702,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1740,7 +1740,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1778,7 +1778,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1813,10 +1813,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1851,10 +1851,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1895,10 +1895,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1933,10 +1933,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -1971,10 +1971,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2009,10 +2009,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2047,10 +2047,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2088,7 +2088,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2126,7 +2126,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2164,7 +2164,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2202,7 +2202,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2240,7 +2240,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2278,7 +2278,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2316,7 +2316,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2354,7 +2354,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2389,10 +2389,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2427,10 +2427,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2465,10 +2465,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2506,7 +2506,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2544,7 +2544,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2582,7 +2582,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2617,10 +2617,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2655,10 +2655,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2693,10 +2693,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2731,10 +2731,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2769,10 +2769,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2816,7 +2816,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2851,10 +2851,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2889,10 +2889,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2927,10 +2927,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -2965,10 +2965,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3003,10 +3003,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3041,10 +3041,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3079,10 +3079,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3117,10 +3117,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3155,10 +3155,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3196,7 +3196,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3231,10 +3231,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3269,10 +3269,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3307,10 +3307,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3345,10 +3345,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3383,10 +3383,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3421,10 +3421,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3462,7 +3462,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3500,7 +3500,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3538,7 +3538,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3576,7 +3576,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3614,7 +3614,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3652,7 +3652,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3690,7 +3690,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3728,7 +3728,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3766,7 +3766,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3801,10 +3801,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3839,10 +3839,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3877,10 +3877,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3915,10 +3915,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3953,10 +3953,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -3994,7 +3994,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4032,7 +4032,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4070,7 +4070,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4108,7 +4108,7 @@ xmlns:gml="http://www.opengis.net/gml"
                         0.0
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        25.0
+                        25
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4143,10 +4143,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4181,10 +4181,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4219,10 +4219,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4257,10 +4257,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4295,10 +4295,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4333,10 +4333,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4371,10 +4371,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4409,10 +4409,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4447,10 +4447,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4485,10 +4485,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4523,10 +4523,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4561,10 +4561,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4599,10 +4599,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>
@@ -4637,10 +4637,10 @@ xmlns:gml="http://www.opengis.net/gml"
                         </gml:exterior>
                     </gml:Polygon>
                     <upperSeismoDepth>
-                        25.0
+                        25
                     </upperSeismoDepth>
                     <lowerSeismoDepth>
-                        70.0
+                        70
                     </lowerSeismoDepth>
                 </areaGeometry>
                 <magScaleRel>

@@ -1,0 +1,28 @@
+grp_id,trt,eff_ruptures
+0,Intraplate Margin Lower,18347
+1,Intraplate Margin Upper,22037
+2,Subduction Intraslab,54171
+3,Subduction Intraslab Himalayas,53404
+4,Active Shallow Crust Normal,19370
+5,Active Shallow Crust Strike-slip Reverse,93440
+6,Stable Shallow Crust,725176
+7,Subduction Interface Megathrust,120472
+8,Subduction Interface,273128
+9,Intraplate Margin Lower,18122
+10,Intraplate Margin Upper,20690
+11,Active Shallow Crust Strike-slip Reverse,87743
+12,Active Shallow Crust Normal,17375
+13,Subduction Intraslab,68868
+14,Subduction Intraslab Himalayas,62104
+15,Subduction Interface Megathrust,118770
+16,Stable Shallow Crust,509276
+17,Subduction Interface,261687
+18,Intraplate Margin Lower,13658
+19,Intraplate Margin Upper,15162
+20,Subduction Intraslab,51454
+21,Active Shallow Crust Normal,12441
+22,Active Shallow Crust Strike-slip Reverse,73171
+23,Subduction Intraslab Himalayas,20895
+24,Stable Shallow Crust,173555
+25,Subduction Interface Megathrust,115806
+26,Subduction Interface,183526

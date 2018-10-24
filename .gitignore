@@ -46,6 +46,7 @@ Link*
 **/Data/**/*.svg
 **/Maps/**/*.pdf
 **/Report/**/*.pdf
+Logs/*
 Faults/*
 HazardOutputs/**/*.log
 HazardOutputs/**/*.xml

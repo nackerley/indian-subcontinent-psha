@@ -17,7 +17,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-Recalculate sites assuming models are well-defined out to extent of layer 1
+Select sites assuming models are well-defined out to extent of layer 1
 of areal models, buffered in to the distance considered in hazard analysis.
 """
 import numpy as np

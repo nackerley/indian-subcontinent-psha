@@ -1,0 +1,105 @@
+zoneid,aspect ratio,msr,tectonic zone,region,tectonic subregion,focal plane,faulting style,tectonic region type,layerid,plane,discretization
+1,2,WC1994,Subduction interface,Pamirs,active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,confused,10
+2,2,WC1994,Subduction interface,Pamirs,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,confused,10
+3,2,WC1994,Active shallow crust,Qaidam,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,moot,10
+4,2,WC1994,Subduction interface,Kunlun Shan,active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,unsure,10
+5,2,WC1994,Subduction interface,Pamirs,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,done,10
+6,2,WC1994,Active shallow crust,Pamirs,active shallow crust normal,primary,normal,active shallow crust,1,unsure,10
+7,2,WC1994,Active shallow crust,Kunlun,active shallow crust normal,primary,normal,active shallow crust,1,unsure,10
+8,2,WC1994,Active shallow crust,Chaman/Herat/Paghman/Shyok,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,unsure,10
+9,2,WC1994,Active shallow crust,Hindukush,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,unsure,10
+12,2,WC1994,Active shallow crust,Himalayas,active shallow crust strike-slip reverse,secondary,reverse,active shallow crust,1,done,10
+13,2,WC1994,Active shallow crust,Himalayas - Main Frontal Thrust,active shallow crust strike-slip reverse,secondary,reverse,active shallow crust,1,evidence suggests subduction interface,10
+14,2,StrasserInterface,Subduction interface,Makran,subduction interface,primary,reverse,subduction interface,1,doesn't match publication,10
+15,2,WC1994,Subduction interface,Kirthar,active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,done,10
+16,2,WC1994,Subduction interface,Sulaiman,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,done,10
+17,2,WC1994,Subduction interface,Salt Range Thust,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,done,10
+21,2,StrasserInterface,Subduction interface,Himalayas - Main Frontal Thrust,subduction interface,primary,reverse,subduction interface,1,correct,10
+22,2,StrasserInterface,Subduction interface,Himalayas - Main Frontal Thrust,subduction interface,primary,reverse,subduction interface,1,correct,10
+57,2,WC1994,Active shallow crust,Andaman Sea,active shallow crust normal,primary,normal,active shallow crust,1,unsure,10
+58,2,WC1994,Active shallow crust,Sumatra,active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,unsure,10
+63,2,WC1994,Stable continental,Peninsular India,stable shallow crust,secondary,reverse,stable shallow crust,1,done (finite fault),10
+66,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,reverse,stable shallow crust,1,unsure,10
+71,2,WC1994,Oceanic crust,Bay of Bengal & Arabian Sea,no seismicity,primary,strike-slip,no seismicity,1,moot,10
+74,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,reverse,stable shallow crust,1,unsure,10
+75,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,strike-slip,no seismicity,1,moot,10
+81,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,strike-slip,no seismicity,1,moot,10
+82,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,reverse,stable shallow crust,1,unsure,10
+86,2,WC1994,Stable continental,"Sri Lanka, Laccadive Sea",no seismicity,primary,strike-slip,no seismicity,1,moot,10
+87,2,StrasserIntraslab,Subduction intraslab,Pamir,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,2,ok,10
+88,2,StrasserIntraslab,Subduction intraslab,Hindukush,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,2,ok,10
+89,2,StrasserInterface,Subduction interface,Hindukush,subduction interface,primary,reverse,subduction interface,2,undecidable,10
+90,2,StrasserIntraslab,Subduction intraslab,Pamir,subduction intraslab Himalayas,primary,normal,subduction intraslab,2,undecidable,10
+91,2,StrasserInterface,Subduction interface,Kunlun Shan,subduction interface,primary,reverse,subduction interface,2,ok,10
+92,2,StrasserIntraslab,Subduction intraslab,Chaman/Herat/Paghman/Shyok,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,2,ok,10
+93,2,StrasserIntraslab,Subduction intraslab,Sulaiman,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,2,ok,10
+94,2,StrasserIntraslab,Subduction intraslab,Kirthar,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,2,ok,10
+95,2,StrasserIntraslab,Subduction intraslab,Makran,subduction intraslab,primary,strike-slip,subduction intraslab,2,undecidable,10
+97,2,StrasserIntraslab,Subduction intraslab,Salt Range Thust,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,2,undecidable,10
+98,2,StrasserIntraslab,Subduction intraslab,Himalayas,subduction intraslab Himalayas,primary,normal,subduction intraslab,2,ok,10
+99,2,StrasserIntraslab,Subduction intraslab,Kashmir,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,2,odd strike,10
+100,2,StrasserIntraslab,Subduction intraslab,Karakoram,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,2,undecidable,10
+101,2,StrasserIntraslab,Subduction intraslab,Tibetan plateau,subduction intraslab Himalayas,primary,normal,subduction intraslab,2,undecidable,10
+102,2,StrasserIntraslab,Subduction intraslab,Tibetan plateau,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,2,undecidable,10
+103,2,StrasserIntraslab,Subduction intraslab,"Ladakh, Zanskar, Tibetan",subduction intraslab Himalayas,primary,normal,subduction intraslab,2,ok,10
+110,2,StrasserInterface,Subduction interface,Himalayas,subduction interface,primary,reverse,subduction interface,2,ok,10
+116,2,StrasserIntraslab,Subduction intraslab,Bangong-Nujiang,subduction intraslab Himalayas,primary,normal,subduction intraslab,2,unsure,10
+118,2,WC1994,Intraplate margin,Mikir Hills,intraplate margin lower,primary,strike-slip,intraplate margin lower,2,ok,10
+119,2,WC1994,Intraplate margin,Shillong plateau,intraplate margin lower,primary,reverse,intraplate margin lower,2,ok,10
+128,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,primary,strike-slip,subduction intraslab,2,undecidable,10
+129,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,primary,normal,subduction intraslab,2,undecidable,10
+130,2,StrasserInterface,Subduction interface,Andaman,subduction interface,primary,reverse,subduction interface,2,undecidable (even with finite fault),10
+131,2,StrasserIntraslab,Subduction intraslab,Andaman,subduction intraslab,primary,normal,subduction intraslab,2,unsure,10
+132,2,StrasserInterface,Subduction interface,Sumatra,subduction interface,primary,reverse,subduction interface,2,correct (dip should be steeper),10
+136,2,StrasserIntraslab,Subduction intraslab,Andaman Sea,subduction intraslab,primary,strike-slip,subduction intraslab,2,gross stress field,10
+137,2,StrasserIntraslab,Subduction intraslab,Andaman Sea,subduction intraslab,secondary,strike-slip,subduction intraslab,2,gross stress field,10
+138,2,StrasserIntraslab,Subduction intraslab,Sumatra,subduction intraslab,primary,strike-slip,subduction intraslab,2,undecidable,10
+153,2,StrasserIntraslab,Subduction intraslab,Hindukush,subduction intraslab,primary,reverse,subduction intraslab,3,correct,10
+154,2,StrasserIntraslab,Subduction intraslab,Pamir,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,3,undecidable,10
+162,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,primary,strike-slip,subduction intraslab,3,undecidable,10
+163,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,primary,reverse,subduction intraslab,3,unsure,10
+164,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,primary,strike-slip,subduction intraslab,3,undecidable,10
+166,2,StrasserIntraslab,Subduction intraslab,Andaman,subduction intraslab,primary,reverse,subduction intraslab,3,unsure,20
+167,2,StrasserIntraslab,Subduction intraslab,Sumatra,subduction intraslab,primary,reverse,subduction intraslab,3,unsure,20
+169,2,StrasserIntraslab,Subduction intraslab,Hindukush,subduction intraslab Himalayas,primary,reverse,subduction intraslab,4,mechanism suggests subduction interface,10
+170,2,StrasserIntraslab,Subduction intraslab,Pamir,subduction intraslab Himalayas,primary,normal,subduction intraslab,4,undecidable,10
+172,2,StrasserIntraslab,Subduction intraslab,Andaman-Sumatra,subduction intraslab,primary,normal,subduction intraslab,4,undecidable,50
+901,2,WC1994,Active shallow crust,"Chang Chenmo, Aksai Chin",active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,unsure,10
+902,2,WC1994,Active shallow crust,Tibetan plateau,active shallow crust normal,primary,normal,active shallow crust,1,uncertain,10
+903,2,WC1994,Active shallow crust,Murray Ridge,active shallow crust normal,primary,normal,active shallow crust,1,uncertain,10
+904,2,WC1994,Active shallow crust,Himalayas,active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,unsure,10
+905,2,WC1994,Active shallow crust,Tibetan plateau,active shallow crust normal,primary,normal,active shallow crust,1,uncertain,10
+906,2,WC1994,Active shallow crust,Himalayas - Main Frontal Thrust,active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,correct (but surprising),10
+907,2,WC1994,Active shallow crust,Tibetan plateau,active shallow crust normal,primary,normal,active shallow crust,1,uncertain,10
+908,2,WC1994,Active shallow crust,Himalayas,active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,unsure,10
+909,2,WC1994,Active shallow crust,Tibetan plateau,active shallow crust normal,primary,normal,active shallow crust,1,uncertain,10
+910,2,StrasserInterface,Subduction interface,Indo-Myanmar,subduction interface,primary,reverse,subduction interface,1,correct,10
+911,2,WC1994,Subduction interface,Indo-Myanmar,active shallow crust strike-slip reverse,primary,reverse,active shallow crust,1,correct,10
+912,2,WC1994,Intraplate margin,Shillong plateau,intraplate margin upper,primary,reverse,intraplate margin upper,1,correct,10
+913,2,WC1994,Active shallow crust,Bangladesh,active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,unsure,10
+914,2,WC1994,Active shallow crust,Sagaing,active shallow crust strike-slip reverse,primary,strike-slip,active shallow crust,1,"corrected, from GCMT catalog",10
+915,2,WC1994,Active shallow crust,Bay of Bengal,active shallow crust normal,primary,normal,active shallow crust,1,unsure,10
+916,2,StrasserInterface,Subduction interface,Andaman,subduction interface,primary,reverse,subduction interface,1,unsure,10
+917,2,WC1994,Oceanic crust,Bay of Bengal,stable shallow crust,primary,strike-slip,stable shallow crust,1,moot,20
+918,2,StrasserInterface,Subduction interface,Sumatra,subduction interface,primary,reverse,subduction interface,1,correct,10
+919,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,reverse,stable shallow crust,1,uncertain,10
+921,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,reverse,stable shallow crust,1,uncertain,10
+922,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,strike-slip,stable shallow crust,1,uncertain,10
+923,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,strike-slip,stable shallow crust,1,moot,10
+924,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,strike-slip,stable shallow crust,1,moot,10
+925,2,StrasserIntraslab,Subduction intraslab,Himalayas,subduction intraslab Himalayas,primary,normal,subduction intraslab,2,unsure,10
+926,2,StrasserIntraslab,Subduction intraslab,Himalayas,subduction intraslab Himalayas,primary,normal,subduction intraslab,2,undecidable,10
+927,2,StrasserIntraslab,Subduction intraslab,Himalayas,subduction intraslab Himalayas,primary,normal,subduction intraslab,2,undecidable,10
+928,2,StrasserIntraslab,Subduction intraslab,Himalayas,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,2,unsure,10
+929,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,secondary,strike-slip,subduction intraslab,2,gross stress field,10
+930,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,primary,strike-slip,subduction intraslab,2,undecidable,10
+931,2,StrasserIntraslab,Subduction intraslab,Sagaing,subduction intraslab,secondary,strike-slip,subduction intraslab,2,major surface fault,10
+932,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,strike-slip,stable shallow crust,2,undecidable,20
+933,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,reverse,stable shallow crust,2,undecidable,20
+935,2,StrasserIntraslab,Subduction intraslab,Himalayas,subduction intraslab,primary,reverse,subduction intraslab,3,correct,20
+936,2,StrasserIntraslab,Subduction intraslab,Himalayas,subduction intraslab Himalayas,primary,normal,subduction intraslab,3,undecidable,50
+9031,2,WC1994,Oceanic crust,Murray Ridge,no seismicity,primary,normal,no seismicity,2,moot,10
+9081,2,WC1994,Subduction interface,Himalayas,no seismicity,primary,strike-slip,no seismicity,2,moot,10
+9131,2,WC1994,Subduction interface,Indo-Myanmar,no seismicity,primary,strike-slip,no seismicity,2,moot,10
+9151,2,WC1994,Oceanic crust,Bay of Bengal,no seismicity,primary,normal,no seismicity,2,moot,10
+9171,2,WC1994,Oceanic crust,Bay of Bengal,no seismicity,primary,strike-slip,no seismicity,2,moot,10

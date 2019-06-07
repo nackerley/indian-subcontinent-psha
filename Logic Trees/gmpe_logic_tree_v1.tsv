@@ -1,0 +1,10 @@
+Tectonic Region Type	Qualifier	uncertaintyType	applyToTectonicRegionType	uncertaintyModel	Short Names
+Active shallow crust	Normal	gmpeModel	active shallow crust normal	['AkkarBommer2010', 'BooreAtkinson2008', 'CampbellBozorgnia2008', 'Kanno2006Shallow']	['AKBO10', 'BOAT08', 'CABO08', 'KAN06', 'SDBK09']
+Active shallow crust	Strike-slip or reverse	gmpeModel	active shallow crust strike-slip reverse	['AkkarBommer2010', 'BooreAtkinson2008', 'CampbellBozorgnia2008', 'Kanno2006Shallow', 'SharmaEtAl2009']	['AKBO10', 'BOAT08', 'CABO08', 'KAN06']
+Intraplate margin	lower	gmpeModel	intraplate margin lower	['AtkinsonBoore2006', 'ToroEtAl2002', 'SharmaEtAl2009', 'NathEtAl2012Lower']	['ATBO06', 'TORO02', 'SDBK09', 'NATH11']
+Intraplate margin	upper	gmpeModel	intraplate margin upper	['AtkinsonBoore2006', 'ToroEtAl2002', 'SharmaEtAl2009', 'NathEtAl2012Upper']	['ATBO06', 'TORO02', 'SDBK09', 'NATH11']
+Stable continental	Peninsular India	gmpeModel	stable shallow crust	['AtkinsonBoore2006', 'ToroEtAl2002', 'Campbell2003', 'RaghukanthIyengar2007']	['ATBO06', 'TORO02', 'CAMP03', 'RAIY07']
+Subduction interface	Mw < 7.5	gmpeModel	subduction interface	['AtkinsonBoore2003SInter', 'ZhaoEtAl2006SInter', 'Kanno2006Deep']	['ATBO03', 'ZHAO06', 'KANN06']
+Subduction interface	Mw >= 7.5	gmpeModel	subduction interface megathrust	['AtkinsonBoore2003SInter', 'AtkinsonMacias2009', 'ZhaoEtAl2006SInter', 'Kanno2006Deep']	['ATBO03', 'ATMA09', 'ZHAO06', 'KANN06']
+Subduction intraslab	Himalayas and northwest India-Eurasia convergence	gmpeModel	subduction intraslab Himalayas	['AtkinsonBoore2003SSlabJapan', 'YoungsEtAl1997SSlab', 'ZhaoEtAl2006SSlab', 'LinLee2008SSlab']	['ATBO03', 'YCSH97', 'ZHAO06', 'LILE08']
+Subduction intraslab	Indo-Myanmar and Andaman-Sumatra subduction	gmpeModel	subduction intraslab	['AtkinsonBoore2003SSlabCascadia', 'YoungsEtAl1997SSlab', 'ZhaoEtAl2006SSlab', 'Gupta2010SSlab']	['ATBO03', 'YCSH97', 'ZHAO06', 'GUPT10']

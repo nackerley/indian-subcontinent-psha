@@ -1,0 +1,2 @@
+uncertaintyType	applyToSources	uncertaintyModel	uncertaintyWeight
+sourceModel	all	['nt2012_areal_source_model_v2_collapsed.xml', 'nt2012_smoothed_source_model_v2_collapsed_mmin4.5.xml', 'nt2012_smoothed_source_model_v2_collapsed_mmin5.5.xml']	[0.4,  0.27,  0.33]

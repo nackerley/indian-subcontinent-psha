@@ -17,30 +17,10 @@ xmlns:gml="http://www.opengis.net/gml"
                 branchID="b1m1"
                 >
                     <uncertaintyModel>
-                        nt2012_areal_source_model_v1.xml
+                        nt2012_areal_source_model_v2.xml
                     </uncertaintyModel>
                     <uncertaintyWeight>
-                        0.4
-                    </uncertaintyWeight>
-                </logicTreeBranch>
-                <logicTreeBranch
-                branchID="b1m2"
-                >
-                    <uncertaintyModel>
-                        nt2012_smoothed_source_model_v1_mmin4.5.xml
-                    </uncertaintyModel>
-                    <uncertaintyWeight>
-                        0.27
-                    </uncertaintyWeight>
-                </logicTreeBranch>
-                <logicTreeBranch
-                branchID="b1m3"
-                >
-                    <uncertaintyModel>
-                        nt2012_smoothed_source_model_v1_mmin5.5.xml
-                    </uncertaintyModel>
-                    <uncertaintyWeight>
-                        0.33
+                        1
                     </uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>
@@ -49,7 +29,7 @@ xmlns:gml="http://www.opengis.net/gml"
         branchingLevelID="bl2"
         >
             <logicTreeBranchSet
-            applyToSources="nt2012_areal_source_model_v1.csv"
+            applyToSources="nt2012_areal_source_model_v2.csv"
             branchSetID="bs2"
             uncertaintyType="maxMagGRAbsolute"
             >
@@ -89,7 +69,7 @@ xmlns:gml="http://www.opengis.net/gml"
         branchingLevelID="bl3"
         >
             <logicTreeBranchSet
-            applyToSources="nt2012_areal_source_model_v1.csv"
+            applyToSources="nt2012_areal_source_model_v2.csv"
             branchSetID="bs3"
             uncertaintyType="bGRRelative"
             >

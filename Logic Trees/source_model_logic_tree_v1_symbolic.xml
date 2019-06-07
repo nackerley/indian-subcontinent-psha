@@ -49,7 +49,7 @@ xmlns:gml="http://www.opengis.net/gml"
         branchingLevelID="bl2"
         >
             <logicTreeBranchSet
-            applyToSources="nt2012_areal_source_model_v0.csv"
+            applyToSources="nt2012_areal_source_model_v1.csv"
             branchSetID="bs2"
             uncertaintyType="maxMagGRAbsolute"
             >
@@ -89,7 +89,7 @@ xmlns:gml="http://www.opengis.net/gml"
         branchingLevelID="bl3"
         >
             <logicTreeBranchSet
-            applyToSources="nt2012_areal_source_model_v0.csv"
+            applyToSources="nt2012_areal_source_model_v1.csv"
             branchSetID="bs3"
             uncertaintyType="bGRRelative"
             >

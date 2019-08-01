@@ -241,6 +241,12 @@ def wrap(values, limit=180.0):
     return (values - limit) % (-2*limit) + limit
 
 
+def anonymize(file_name):
+    if isinstance(file_name, list):
+        return [anonymize(item) for item in file_name]
+    return os.path.abspath(file_name).replace(os.path.expanduser('~'), '~')
+
+
 def is_numeric(value):
     '''
     Check if value is castable to float.
@@ -378,35 +384,87 @@ def df_diff(df1, df2, column):
     return df1.drop(matches)
 
 
-def read_hazard_csv(file_name):
+def read_hazard_config_comments(file_name):
+    '''
+    Read configuration comment as output by "oq export --exports csv".
+
+    Returns
+    -------
+    config: tuple
+        config: dictionary of information read from first line of file
+    '''
+    config = {}
+    with open(file_name) as file:
+        for line in file:
+            if not line.startswith('#'):
+                break
+            for pair in line[1:].split(','):
+                if '=' in pair:
+                    lhs, rhs = pair.split('=')
+                    rhs = rhs.strip()
+                    if '"' in rhs or "'" in rhs:
+                        rhs = rhs.strip('"').strip("'")
+                    else:
+                        try:
+                            rhs = float(rhs)
+                        except ValueError:
+                            pass
+                    config[lhs.strip()] = rhs
+    return config
+
+
+def read_hazard_curve_csv(file_name):
     '''
     Read hazard curves as output by "oq export --exports csv hcurves #".
 
     Returns
     -------
-    poes, config: tuple
-        poes: pandas.DataFrame of POEs: indices are coordinates, columns are
-            accelerations
+    poes_df, config: tuple
+        poes_df: pandas.DataFrame of POEs:
+            indices are coordinates
+            columns are probabilities of exceedance
         config: dictionary of information read from first line of CSV file
     '''
-    poes = pd.read_csv(file_name, header=1, index_col=['lon', 'lat', 'depth'])
-    poes.columns = [float(item.replace('poe-', '')) for item in poes.columns]
-    poes.columns.name = 'acceleration'
+    poes_df = pd.read_csv(file_name, comment='#',
+                          index_col=['lon', 'lat', 'depth'])
+    poes_df.columns = [float(item.replace('poe-', ''))
+                       for item in poes_df.columns]
+    poes_df.columns.name = 'poe'
 
-    with open(file_name) as file:
-        first_line = file.readline()
-    config = {}
-    for clause in first_line.split(','):
-        if '=' in clause:
-            lhs, rhs = clause.split('=')
-            rhs = rhs.strip()
-            if '"' in rhs or "'" in rhs:
-                rhs = rhs.strip('"').strip("'")
-            else:
-                try:
-                    rhs = float(rhs)
-                except ValueError:
-                    pass
-            config[lhs.strip()] = rhs
+    return poes_df, read_hazard_config_comments(file_name)
 
-    return poes, config
+
+read_hazard_csv = read_hazard_curve_csv
+
+
+def _try_float(item):
+    try:
+        return float(item)
+    except ValueError:
+        return item
+
+
+def read_hazard_map_csv(file_name):
+    '''
+    Read hazard curves as output by "oq export --exports csv hmaps #".
+
+    Returns
+    -------
+    map_df, config: tuple
+        map_df: pandas.DataFrame of hazard levels:
+            indices are coordinates
+            columns are intensity measure types and probabilities of exceedance
+        config: dictionary of information read from first line of CSV file
+    '''
+    hazard_df = pd.read_csv(file_name, comment='#',
+                            index_col=['lon', 'lat'])
+    hazard_df.columns = pd.MultiIndex.from_tuples(
+        [[_try_float(item) for item in column.split('-')]
+         for column in hazard_df.columns],
+        names=['imt', 'poe'])
+
+    return hazard_df, read_hazard_config_comments(file_name)
+
+
+def convert_probability(poe_old, T_old, T_new=1):
+    return 1 - np.exp(T_new/T_old*np.log(1 - poe_old))

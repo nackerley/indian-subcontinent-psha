@@ -21,7 +21,7 @@ Files specific to the first version of the model are subscripted `_v0`.
 This model is described in the report by [Ackerley (2016)](Report/IndiaOpenPsha.pdf).
 
 A revised version, subscripted `_v1` and incorporating clarifications from the authors of 
-Nath & Thingbaijam (2012), was included in the initial release of the [Global Seismic Seismic Hazard Map] (https://hazard.openquake.org/gem/), v. 2018.1.
+Nath & Thingbaijam (2012), was included in the initial release of the [Global Seismic Seismic Hazard Map](https://hazard.openquake.org/gem/), v. 2018.1.
 
 Work is in progress to develop a `_v2` model to address outstanding issues.
 

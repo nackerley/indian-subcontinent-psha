@@ -2298,51 +2298,6 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </areaSource>
             <areaSource
-            id="z153"
-            name="zone 153"
-            tectonicRegion="subduction intraslab"
-            >
-                <areaGeometry
-                discretization="10"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    72.88 36.96 70.16 34.16 68.29 35.76 68.3 35.77 71.5 38.29 72.88 36.96
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        70
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        180
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    StrasserIntraslab
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        3.414 2.6482 2.0543 1.5936 1.2362 0.95903 0.74402 0.57723 0.44785 0.34747 0.2696 0.20919 0.16232 0.12596 0.097741 0.075849 0.058862 0.045681 0.035452 0.027515 0.021355 0.016575 0.012865 0.0099861 0.0077515 0.0060171 0.004671 0.0036261 0.002815 0.0021854 0.0016967 0.00089548 0.00069524 0.00053979 0.00019715 0.00015307 0.00011885
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="44.0" probability="1.0" rake="94.0" strike="247.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="70" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
             id="z162"
             name="zone 162"
             tectonicRegion="subduction intraslab"
@@ -2745,51 +2700,6 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="25" probability="1.0"/>
-                </hypoDepthDist>
-            </areaSource>
-            <areaSource
-            id="z935"
-            name="zone 935"
-            tectonicRegion="subduction intraslab"
-            >
-                <areaGeometry
-                discretization="20"
-                >
-                    <gml:Polygon>
-                        <gml:exterior>
-                            <gml:LinearRing>
-                                <gml:posList>
-                                    71.47 33.03 70.16 34.16 72.88 36.96 73.81 37.72 76.76 37.77 76.77 37.76 78.53 37.29 81.78 35.81 79.78 32.46 76.38 35.19 72.67 31.99 71.47 33.03
-                                </gml:posList>
-                            </gml:LinearRing>
-                        </gml:exterior>
-                    </gml:Polygon>
-                    <upperSeismoDepth>
-                        70
-                    </upperSeismoDepth>
-                    <lowerSeismoDepth>
-                        180
-                    </lowerSeismoDepth>
-                </areaGeometry>
-                <magScaleRel>
-                    StrasserIntraslab
-                </magScaleRel>
-                <ruptAspectRatio>
-                    2
-                </ruptAspectRatio>
-                <incrementalMFD
-                binWidth="0.1"
-                minMag="4.55"
-                >
-                    <occurRates>
-                        0.20503 0.15949 0.12409 0.09658 0.075186 0.058547 0.045602 0.035528 0.027688 0.021583 0.016829 0.013125 0.01024 0.0079908 0.0062374 0.0048701 0.0038036 0.0029714 0.0023219 0.0018149 0.001419 0.0011098 0.00086816 0.00067934 0.00036069 0.0002823 0.00022101 8.1181e-05 6.3566e-05 4.9786e-05
-                    </occurRates>
-                </incrementalMFD>
-                <nodalPlaneDist>
-                    <nodalPlane dip="57.0" probability="1.0" rake="111.0" strike="317.0"/>
-                </nodalPlaneDist>
-                <hypoDepthDist>
-                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource
@@ -3975,6 +3885,51 @@ xmlns:gml="http://www.opengis.net/gml"
                 </hypoDepthDist>
             </areaSource>
             <areaSource
+            id="z153"
+            name="zone 153"
+            tectonicRegion="subduction intraslab Himalayas"
+            >
+                <areaGeometry
+                discretization="10"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    72.88 36.96 70.16 34.16 68.29 35.76 68.3 35.77 71.5 38.29 72.88 36.96
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        70
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        180
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    StrasserIntraslab
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        3.414 2.6482 2.0543 1.5936 1.2362 0.95903 0.74402 0.57723 0.44785 0.34747 0.2696 0.20919 0.16232 0.12596 0.097741 0.075849 0.058862 0.045681 0.035452 0.027515 0.021355 0.016575 0.012865 0.0099861 0.0077515 0.0060171 0.004671 0.0036261 0.002815 0.0021854 0.0016967 0.00089548 0.00069524 0.00053979 0.00019715 0.00015307 0.00011885
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="44.0" probability="1.0" rake="94.0" strike="247.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="70" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
             id="z154"
             name="zone 154"
             tectonicRegion="subduction intraslab Himalayas"
@@ -4512,6 +4467,51 @@ xmlns:gml="http://www.opengis.net/gml"
                 </nodalPlaneDist>
                 <hypoDepthDist>
                     <hypoDepth depth="25" probability="1.0"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="z935"
+            name="zone 935"
+            tectonicRegion="subduction intraslab Himalayas"
+            >
+                <areaGeometry
+                discretization="20"
+                >
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    71.47 33.03 70.16 34.16 72.88 36.96 73.81 37.72 76.76 37.77 76.77 37.76 78.53 37.29 81.78 35.81 79.78 32.46 76.38 35.19 72.67 31.99 71.47 33.03
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        70
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        180
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    StrasserIntraslab
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="4.55"
+                >
+                    <occurRates>
+                        0.20503 0.15949 0.12409 0.09658 0.075186 0.058547 0.045602 0.035528 0.027688 0.021583 0.016829 0.013125 0.01024 0.0079908 0.0062374 0.0048701 0.0038036 0.0029714 0.0023219 0.0018149 0.001419 0.0011098 0.00086816 0.00067934 0.00036069 0.0002823 0.00022101 8.1181e-05 6.3566e-05 4.9786e-05
+                    </occurRates>
+                </incrementalMFD>
+                <nodalPlaneDist>
+                    <nodalPlane dip="57.0" probability="1.0" rake="111.0" strike="317.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="70" probability="1.0"/>
                 </hypoDepthDist>
             </areaSource>
             <areaSource

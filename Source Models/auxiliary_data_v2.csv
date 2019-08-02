@@ -54,7 +54,7 @@ zoneid,aspect ratio,msr,tectonic zone,region,tectonic subregion,focal plane,faul
 136,2,StrasserIntraslab,Subduction intraslab,Andaman Sea,subduction intraslab,primary,strike-slip,subduction intraslab,2,gross stress field,10
 137,2,StrasserIntraslab,Subduction intraslab,Andaman Sea,subduction intraslab,secondary,strike-slip,subduction intraslab,2,gross stress field,10
 138,2,StrasserIntraslab,Subduction intraslab,Sumatra,subduction intraslab,primary,strike-slip,subduction intraslab,2,undecidable,10
-153,2,StrasserIntraslab,Subduction intraslab,Hindukush,subduction intraslab,primary,reverse,subduction intraslab,3,correct,10
+153,2,StrasserIntraslab,Subduction intraslab,Hindukush,subduction intraslab Himalayas,primary,reverse,subduction intraslab,3,correct,10
 154,2,StrasserIntraslab,Subduction intraslab,Pamir,subduction intraslab Himalayas,primary,strike-slip,subduction intraslab,3,undecidable,10
 162,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,primary,strike-slip,subduction intraslab,3,undecidable,10
 163,2,StrasserIntraslab,Subduction intraslab,Indo-Myanmar,subduction intraslab,primary,reverse,subduction intraslab,3,unsure,10
@@ -96,7 +96,7 @@ zoneid,aspect ratio,msr,tectonic zone,region,tectonic subregion,focal plane,faul
 931,2,StrasserIntraslab,Subduction intraslab,Sagaing,subduction intraslab,secondary,strike-slip,subduction intraslab,2,major surface fault,10
 932,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,strike-slip,stable shallow crust,2,undecidable,20
 933,2,WC1994,Stable continental,Peninsular India,stable shallow crust,primary,reverse,stable shallow crust,2,undecidable,20
-935,2,StrasserIntraslab,Subduction intraslab,Himalayas,subduction intraslab,primary,reverse,subduction intraslab,3,correct,20
+935,2,StrasserIntraslab,Subduction intraslab,Himalayas,subduction intraslab Himalayas,primary,reverse,subduction intraslab,3,correct,20
 936,2,StrasserIntraslab,Subduction intraslab,Himalayas,subduction intraslab Himalayas,primary,normal,subduction intraslab,3,undecidable,50
 9031,2,WC1994,Oceanic crust,Murray Ridge,no seismicity,primary,normal,no seismicity,2,moot,10
 9081,2,WC1994,Subduction interface,Himalayas,no seismicity,primary,strike-slip,no seismicity,2,moot,10
